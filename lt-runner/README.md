@@ -20,6 +20,24 @@ npm run dev
 
 Then open `http://localhost:3000`.
 
+## ElevenLabs setup
+
+Create `lt-runner/.env.local` with:
+
+```bash
+ELEVENLABS_API_KEY=your_new_key_here
+```
+
+Optional:
+
+```bash
+ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM
+```
+
+- `ELEVENLABS_API_KEY` stays server-side only.
+- Requests go from the browser to `/api/tts`, then the server route calls ElevenLabs.
+- If ElevenLabs is unavailable, the app falls back to BrowserTTS, then finally to the engine's timing fallback.
+
 ## Structure
 
 - `src/app` - Next.js App Router entrypoint

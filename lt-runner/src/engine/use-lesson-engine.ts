@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useReducer, useRef } from 'react';
 import { BrowserTTS } from '@/adapters/tts/browser-tts';
+import { ElevenLabsTTS } from '@/adapters/tts/elevenlabs';
 import { TextTTS } from '@/adapters/tts/text-tts';
 import { createInitialEngineState, lessonEngineReducer } from '@/engine/lesson-engine';
 import { waitDurationToSeconds } from '@/lib/parse-transcript';
@@ -42,8 +43,8 @@ export function useLessonEngine(lesson: Lesson) {
   }, []);
 
   useEffect(() => {
-    ttsRef.current = typeof window !== 'undefined' && 'speechSynthesis' in window
-      ? new BrowserTTS()
+    ttsRef.current = typeof window !== 'undefined'
+      ? new ElevenLabsTTS(new BrowserTTS())
       : new TextTTS();
 
     return () => {
