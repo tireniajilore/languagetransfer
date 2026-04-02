@@ -1,0 +1,194 @@
+{
+  "lesson_number": 2,
+  "title": "Latin Cognates - AL Endings",
+  "description": "Words ending in -AL convert directly to Spanish with stress on final syllable. Introduction to 'es' (is/it is).",
+  "exercises": [
+    {
+      "id": "l2_e1",
+      "type": "word_conversion",
+      "prompt": "How do you think you would say metal?",
+      "expected_answers": [
+        "Metal"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e2",
+      "type": "word_conversion",
+      "prompt": "How would you say legal?",
+      "expected_answers": [
+        "Legal"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e3",
+      "type": "sentence_building",
+      "prompt": "How would you say it is legal?",
+      "expected_answers": [
+        "Es legal"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e4",
+      "type": "word_conversion",
+      "prompt": "Illegal",
+      "expected_answers": [
+        "Illegal"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e5",
+      "type": "sentence_building",
+      "prompt": "It is illegal.",
+      "expected_answers": [
+        "Es illegal"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e6",
+      "type": "sentence_building",
+      "prompt": "What if you want to say he is liberal?",
+      "expected_answers": [
+        "Es liberal"
+      ],
+      "acceptable_variations": [],
+      "hint": "You do not need the word for he if you know who you are talking about. You can just use Es.",
+      "explanation": null
+    },
+    {
+      "id": "l2_e7",
+      "type": "word_conversion",
+      "prompt": "How do you think you would say natural in Spanish?",
+      "expected_answers": [
+        "Natural"
+      ],
+      "acceptable_variations": [],
+      "hint": "You want to think how is it written and pronounce the letters as they are.",
+      "explanation": null
+    },
+    {
+      "id": "l2_e8",
+      "type": "sentence_building",
+      "prompt": "How would that sound? It is not.",
+      "expected_answers": [
+        "No es"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e9",
+      "type": "sentence_building",
+      "prompt": "How would you say ideal?",
+      "expected_answers": [
+        "Ideal"
+      ],
+      "acceptable_variations": [],
+      "hint": "Really think about how it's spelled and try and pronounce each of those vowels as they are written.",
+      "explanation": null
+    },
+    {
+      "id": "l2_e10",
+      "type": "sentence_building",
+      "prompt": "How would you say it's ideal?",
+      "expected_answers": [
+        "Es ideal"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e11",
+      "type": "sentence_building",
+      "prompt": "It's not ideal.",
+      "expected_answers": [
+        "No es ideal"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e12",
+      "type": "word_conversion",
+      "prompt": "How would you say fatal?",
+      "expected_answers": [
+        "Fatal"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e13",
+      "type": "word_conversion",
+      "prompt": "Colonial",
+      "expected_answers": [
+        "Colonial"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e14",
+      "type": "word_conversion",
+      "prompt": "Cultural",
+      "expected_answers": [
+        "Cultural"
+      ],
+      "acceptable_variations": [],
+      "hint": "Think about how it's written.",
+      "explanation": null
+    },
+    {
+      "id": "l2_e15",
+      "type": "word_conversion",
+      "prompt": "Anuel",
+      "expected_answers": [
+        "Anuel"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e16",
+      "type": "word_conversion",
+      "prompt": "Dental",
+      "expected_answers": [
+        "Dental"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l2_e17",
+      "type": "word_conversion",
+      "prompt": "How do you think you say verb in Spanish?",
+      "expected_answers": [
+        "Verbal"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    }
+  ]
+}

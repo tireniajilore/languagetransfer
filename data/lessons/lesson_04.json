@@ -1,0 +1,183 @@
+{
+  "lesson_number": 4,
+  "title": "The -CIÓN Rule & Quiero",
+  "description": "Words ending in -tion become -ción. Derive verbs from nouns. Introduction to 'quiero' (I want).",
+  "exercises": [
+    {
+      "id": "l4_e1",
+      "type": "sentence_building",
+      "prompt": "How would you say 'I don't want'?",
+      "expected_answers": [
+        "No quiero"
+      ],
+      "acceptable_variations": [],
+      "hint": "Not Quero. Not Quero.",
+      "explanation": "Just put no before."
+    },
+    {
+      "id": "l4_e2",
+      "type": "word_conversion",
+      "prompt": "What is to generate?",
+      "expected_answers": [
+        "Generar"
+      ],
+      "acceptable_variations": [],
+      "hint": "What was generation?",
+      "explanation": null
+    },
+    {
+      "id": "l4_e3",
+      "type": "word_conversion",
+      "prompt": "What is to confirm?",
+      "expected_answers": [
+        "Confirmar"
+      ],
+      "acceptable_variations": [],
+      "hint": "What was confirmation?",
+      "explanation": null
+    },
+    {
+      "id": "l4_e4",
+      "type": "word_conversion",
+      "prompt": "If you had to guess how do you think you would say to sign? If to confirm is with signing with.",
+      "expected_answers": [
+        "Firmar"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e5",
+      "type": "word_conversion",
+      "prompt": "To complicate.",
+      "expected_answers": [
+        "Complicar"
+      ],
+      "acceptable_variations": [],
+      "hint": "Complication.",
+      "explanation": null
+    },
+    {
+      "id": "l4_e6",
+      "type": "word_conversion",
+      "prompt": "How do you say cooperation?",
+      "expected_answers": [
+        "Cooperación"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e7",
+      "type": "word_conversion",
+      "prompt": "To cooperate.",
+      "expected_answers": [
+        "Cooperar"
+      ],
+      "acceptable_variations": [],
+      "hint": "Cooperation.",
+      "explanation": null
+    },
+    {
+      "id": "l4_e8",
+      "type": "sentence_building",
+      "prompt": "I want to cooperate.",
+      "expected_answers": [
+        "Quiero cooperar"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e9",
+      "type": "word_conversion",
+      "prompt": "How do you say cancellation?",
+      "expected_answers": [
+        "Cancelación"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e10",
+      "type": "word_conversion",
+      "prompt": "And to cancel?",
+      "expected_answers": [
+        "Cancelar"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e11",
+      "type": "sentence_building",
+      "prompt": "I want to cancel.",
+      "expected_answers": [
+        "Quiero cancelar"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e12",
+      "type": "sentence_building",
+      "prompt": "How do you think you would say I don't want to cancel?",
+      "expected_answers": [
+        "No quiero cancelar"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e13",
+      "type": "word_conversion",
+      "prompt": "Exploration.",
+      "expected_answers": [
+        "Exploración"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e14",
+      "type": "word_conversion",
+      "prompt": "To explore.",
+      "expected_answers": [
+        "Explorar"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e15",
+      "type": "sentence_building",
+      "prompt": "I want to explore.",
+      "expected_answers": [
+        "Quiero explorar"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l4_e16",
+      "type": "sentence_building",
+      "prompt": "How do you say I want to prepare myself? It's the same as me. So you would say I want to prepare me.",
+      "expected_answers": [
+        "Quiero prepararme"
+      ],
+      "acceptable_variations": [],
+      "hint": "It's the same as me",
+      "explanation": null
+    }
+  ]
+}

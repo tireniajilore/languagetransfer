@@ -1,0 +1,271 @@
+{
+  "lesson_number": 3,
+  "title": "ANT/ENT Endings & Adverbs",
+  "description": "Words ending in -ANT/-ENT add -E. Adverbs with -mente. J-sound becomes CH in Spanish.",
+  "exercises": [
+    {
+      "id": "l3_e1",
+      "type": "sentence_building",
+      "prompt": "How would you say 'it is important'?",
+      "expected_answers": [
+        "Es importante"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e2",
+      "type": "word_conversion",
+      "prompt": "How would you say 'different'?",
+      "expected_answers": [
+        "Diferente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e3",
+      "type": "sentence_building",
+      "prompt": "How would you say 'it is not different'?",
+      "expected_answers": [
+        "No es diferente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e4",
+      "type": "word_conversion",
+      "prompt": "How would you say 'constant'?",
+      "expected_answers": [
+        "Constante"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e5",
+      "type": "sentence_building",
+      "prompt": "How would you say 'it is constant'?",
+      "expected_answers": [
+        "Es constante"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e6",
+      "type": "word_conversion",
+      "prompt": "How would you say 'legally'?",
+      "expected_answers": [
+        "Legalmente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e7",
+      "type": "word_conversion",
+      "prompt": "Illegally.",
+      "expected_answers": [
+        "Illegalmente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e8",
+      "type": "word_conversion",
+      "prompt": "How do you think you say 'real' in Spanish?",
+      "expected_answers": [
+        "Real"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e9",
+      "type": "word_conversion",
+      "prompt": "How do you think you would say 'really'?",
+      "expected_answers": [
+        "Realmente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e10",
+      "type": "word_conversion",
+      "prompt": "How would you say 'normally'?",
+      "expected_answers": [
+        "Normalmente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e11",
+      "type": "comprehension",
+      "prompt": "So what would it mean if I said to you? Normalmente es importante.",
+      "expected_answers": [
+        "Normally, as in usually, it's important."
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e12",
+      "type": "word_conversion",
+      "prompt": "How would you say 'global'?",
+      "expected_answers": [
+        "Global"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e13",
+      "type": "word_conversion",
+      "prompt": "Globally.",
+      "expected_answers": [
+        "Globalmente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e14",
+      "type": "word_conversion",
+      "prompt": "General is going to become?",
+      "expected_answers": [
+        "General"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e15",
+      "type": "word_conversion",
+      "prompt": "Generally.",
+      "expected_answers": [
+        "Generalmente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e16",
+      "type": "word_conversion",
+      "prompt": "Original.",
+      "expected_answers": [
+        "Original"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e17",
+      "type": "word_conversion",
+      "prompt": "Originally.",
+      "expected_answers": [
+        "Originalmente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e18",
+      "type": "word_conversion",
+      "prompt": "Digital.",
+      "expected_answers": [
+        "Digital"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e19",
+      "type": "word_conversion",
+      "prompt": "Naturally.",
+      "expected_answers": [
+        "Naturalmente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e20",
+      "type": "sentence_building",
+      "prompt": "How would you say naturally, it's original?",
+      "expected_answers": [
+        "Naturalmente, es original"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e21",
+      "type": "word_conversion",
+      "prompt": "How would you say Probable-E?",
+      "expected_answers": [
+        "Probablemente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e22",
+      "type": "word_conversion",
+      "prompt": "Possibly.",
+      "expected_answers": [
+        "Probablemente"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e23",
+      "type": "sentence_building",
+      "prompt": "Possibly. It's original.",
+      "expected_answers": [
+        "Probablemente. Es original."
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    },
+    {
+      "id": "l3_e24",
+      "type": "word_conversion",
+      "prompt": "Flexible.",
+      "expected_answers": [
+        "Flexible"
+      ],
+      "acceptable_variations": [],
+      "hint": null,
+      "explanation": null
+    }
+  ]
+}
