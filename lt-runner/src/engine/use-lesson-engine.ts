@@ -73,48 +73,40 @@ export function useLessonEngine(lesson: Lesson) {
     const usingTextOnly = adapter instanceof TextTTS;
     const fallbackDuration = (currentStep.estimatedDuration ?? 2) * 1000;
 
-    if (usingTextOnly) {
-      if (currentStep.type === 'prompt') {
+    const isPrompt = currentStep.type === 'prompt';
+
+    const handleStepDone = () => {
+      if (isPrompt) {
         dispatch({
           type: 'PROMPT_REACHED',
           totalSeconds: waitDurationToSeconds(currentStep.waitDuration)
         });
-        return;
-      }
-
-      stepTimerRef.current = window.setTimeout(() => {
+      } else {
         dispatch({ type: 'STEP_COMPLETE' });
-      }, fallbackDuration);
+      }
+    };
+
+    if (usingTextOnly) {
+      if (isPrompt) {
+        handleStepDone();
+      } else {
+        stepTimerRef.current = window.setTimeout(handleStepDone, fallbackDuration);
+      }
       return;
     }
 
     let cancelled = false;
     adapter.speak(currentStep.text, currentStep.segments)
       .then(() => {
-        if (cancelled) return;
-        if (currentStep.type === 'prompt') {
-          dispatch({
-            type: 'PROMPT_REACHED',
-            totalSeconds: waitDurationToSeconds(currentStep.waitDuration)
-          });
-          return;
-        }
-
-        dispatch({ type: 'STEP_COMPLETE' });
+        if (!cancelled) handleStepDone();
       })
       .catch(() => {
         if (cancelled) return;
-        if (currentStep.type === 'prompt') {
-          dispatch({
-            type: 'PROMPT_REACHED',
-            totalSeconds: waitDurationToSeconds(currentStep.waitDuration)
-          });
-          return;
+        if (isPrompt) {
+          handleStepDone();
+        } else {
+          stepTimerRef.current = window.setTimeout(handleStepDone, fallbackDuration);
         }
-
-        stepTimerRef.current = window.setTimeout(() => {
-          dispatch({ type: 'STEP_COMPLETE' });
-        }, fallbackDuration);
       });
 
     return () => {
@@ -122,18 +114,26 @@ export function useLessonEngine(lesson: Lesson) {
     };
   }, [currentStep, state.mode, clearStepTimer, clearWaitingTimers]);
 
+  const waitingStartedAt = state.waiting?.startedAt ?? null;
+  const waitingTotalSeconds = state.waiting?.totalSeconds ?? null;
+
   useEffect(() => {
     clearWaitingTimers();
 
-    if (state.mode !== 'waiting_for_response' || !state.waiting) return;
+    if (state.mode !== 'waiting_for_response' || !waitingStartedAt || !waitingTotalSeconds) return;
+
+    let lastReportedSeconds = waitingTotalSeconds;
 
     waitIntervalRef.current = window.setInterval(() => {
-      const elapsedSeconds = Math.floor((Date.now() - state.waiting!.startedAt) / 1000);
-      const secondsRemaining = Math.max(0, state.waiting!.totalSeconds - elapsedSeconds);
-      dispatch({
-        type: 'SET_WAITING_TICK',
-        payload: { secondsRemaining }
-      });
+      const elapsedSeconds = Math.floor((Date.now() - waitingStartedAt) / 1000);
+      const secondsRemaining = Math.max(0, waitingTotalSeconds - elapsedSeconds);
+      if (secondsRemaining !== lastReportedSeconds) {
+        lastReportedSeconds = secondsRemaining;
+        dispatch({
+          type: 'SET_WAITING_TICK',
+          payload: { secondsRemaining }
+        });
+      }
     }, 250);
 
     timeoutRef.current = window.setTimeout(() => {
@@ -145,12 +145,12 @@ export function useLessonEngine(lesson: Lesson) {
       fallbackAdvanceRef.current = window.setTimeout(() => {
         dispatch({ type: 'TIMEOUT' });
       }, 1200);
-    }, state.waiting.totalSeconds * 1000);
+    }, waitingTotalSeconds * 1000);
 
     return () => {
       clearWaitingTimers();
     };
-  }, [state.mode, state.waiting, clearWaitingTimers]);
+  }, [state.mode, waitingStartedAt, waitingTotalSeconds, clearWaitingTimers]);
 
   useEffect(() => {
     return () => {

@@ -1,4 +1,5 @@
 import type { TTSAdapter } from '@/types/adapters';
+import type { SpeechSegment } from '@/types/lesson';
 
 export class BrowserTTS implements TTSAdapter {
   private synthesis: SpeechSynthesis | null;
@@ -11,7 +12,7 @@ export class BrowserTTS implements TTSAdapter {
     this.activeUtterance = null;
   }
 
-  speak(text: string, _segments?: { text: string; lang: 'en' | 'es' }[]) {
+  speak(text: string, _segments?: SpeechSegment[]) {
     if (!this.synthesis) {
       return Promise.reject(new Error('Speech synthesis unavailable'));
     }

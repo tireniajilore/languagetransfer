@@ -26,6 +26,28 @@ function buildResponseRecord(state: EngineState, kind: ResponseRecord['kind'], r
   };
 }
 
+function advanceWithResponse(state: EngineState, kind: ResponseRecord['kind'], response: string): EngineState {
+  const nextIndex = state.currentStepIndex + 1;
+  return {
+    ...state,
+    currentInput: '',
+    currentStepIndex: nextIndex,
+    mode: nextModeForIndex(nextIndex, state.lesson),
+    waiting: null,
+    responses: [...state.responses, buildResponseRecord(state, kind, response)]
+  };
+}
+
+function moveToStep(state: EngineState, targetIndex: number): EngineState {
+  return {
+    ...state,
+    currentInput: '',
+    currentStepIndex: targetIndex,
+    mode: 'playing',
+    waiting: null
+  };
+}
+
 export function createInitialEngineState(lesson: Lesson): EngineState {
   return {
     lesson,
@@ -92,42 +114,12 @@ export function lessonEngineReducer(state: EngineState, action: EngineAction): E
         ...state,
         currentInput: action.value
       };
-    case 'RESPOND': {
-      const nextIndex = state.currentStepIndex + 1;
-      return {
-        ...state,
-        currentInput: '',
-        currentStepIndex: nextIndex,
-        mode: nextModeForIndex(nextIndex, state.lesson),
-        waiting: null,
-        responses: [
-          ...state.responses,
-          buildResponseRecord(state, action.payload.kind, action.payload.response)
-        ]
-      };
-    }
-    case 'SKIP': {
-      const nextIndex = state.currentStepIndex + 1;
-      return {
-        ...state,
-        currentInput: '',
-        currentStepIndex: nextIndex,
-        mode: nextModeForIndex(nextIndex, state.lesson),
-        waiting: null,
-        responses: [...state.responses, buildResponseRecord(state, 'skipped', '')]
-      };
-    }
-    case 'TIMEOUT': {
-      const nextIndex = state.currentStepIndex + 1;
-      return {
-        ...state,
-        currentInput: '',
-        currentStepIndex: nextIndex,
-        mode: nextModeForIndex(nextIndex, state.lesson),
-        waiting: null,
-        responses: [...state.responses, buildResponseRecord(state, 'timed_out', '')]
-      };
-    }
+    case 'RESPOND':
+      return advanceWithResponse(state, action.payload.kind, action.payload.response);
+    case 'SKIP':
+      return advanceWithResponse(state, 'skipped', '');
+    case 'TIMEOUT':
+      return advanceWithResponse(state, 'timed_out', '');
     case 'STEP_COMPLETE': {
       const nextIndex = state.currentStepIndex + 1;
       return {
@@ -137,36 +129,12 @@ export function lessonEngineReducer(state: EngineState, action: EngineAction): E
         waiting: null
       };
     }
-    case 'NEXT_STEP': {
-      const nextIndex = clampIndex(state.currentStepIndex + 1, state.lesson);
-      return {
-        ...state,
-        currentInput: '',
-        currentStepIndex: nextIndex,
-        mode: 'playing',
-        waiting: null
-      };
-    }
-    case 'PREVIOUS_STEP': {
-      const previousIndex = clampIndex(state.currentStepIndex - 1, state.lesson);
-      return {
-        ...state,
-        currentInput: '',
-        currentStepIndex: previousIndex,
-        mode: 'playing',
-        waiting: null
-      };
-    }
-    case 'JUMP_TO_STEP': {
-      const targetIndex = clampIndex(action.payload.targetIndex, state.lesson);
-      return {
-        ...state,
-        currentInput: '',
-        currentStepIndex: targetIndex,
-        mode: 'playing',
-        waiting: null
-      };
-    }
+    case 'NEXT_STEP':
+      return moveToStep(state, clampIndex(state.currentStepIndex + 1, state.lesson));
+    case 'PREVIOUS_STEP':
+      return moveToStep(state, clampIndex(state.currentStepIndex - 1, state.lesson));
+    case 'JUMP_TO_STEP':
+      return moveToStep(state, clampIndex(action.payload.targetIndex, state.lesson));
     default:
       return state;
   }

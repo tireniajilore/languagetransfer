@@ -119,16 +119,8 @@ export class ElevenLabsTTS implements TTSAdapter {
 
     if (this.activeAudio) {
       this.activeAudio.pause();
-      this.activeAudio.onended = null;
-      this.activeAudio.onerror = null;
-      this.activeAudio.src = '';
-      this.activeAudio = null;
     }
-
-    if (this.activeAudioUrl) {
-      URL.revokeObjectURL(this.activeAudioUrl);
-      this.activeAudioUrl = null;
-    }
+    this.clearActiveAudio();
 
     this.browserFallback.stop();
   }
