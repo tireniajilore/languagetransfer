@@ -1,13 +1,22 @@
 const DEFAULT_VOICE_ID = process.env.ELEVENLABS_VOICE_ID || '21m00Tcm4TlvDq8ikWAM';
 const MODEL_ID = 'eleven_multilingual_v2';
+const DEFAULT_ENGLISH_SPEED = 1.1;
+const DEFAULT_SPANISH_SPEED = 0.95;
 
 interface TTSRequestBody {
   text?: string;
   lang?: string;
 }
 
+function parseSpeed(rawValue: string | undefined, fallback: number) {
+  const parsed = Number.parseFloat(rawValue ?? '');
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
+}
+
 export async function POST(request: Request) {
   const apiKey = process.env.ELEVENLABS_API_KEY;
+  const englishSpeed = parseSpeed(process.env.ELEVENLABS_SPEED_EN, DEFAULT_ENGLISH_SPEED);
+  const spanishSpeed = parseSpeed(process.env.ELEVENLABS_SPEED_ES, DEFAULT_SPANISH_SPEED);
 
   if (!apiKey) {
     return Response.json(
@@ -41,6 +50,11 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         text,
         model_id: MODEL_ID,
+        voice_settings: {
+          stability: 0.5,
+          similarity_boost: 0.75,
+          speed: body.lang === 'es' ? spanishSpeed : englishSpeed
+        },
         ...(body.lang === 'es' ? {
           language_code: 'es',
           previous_text: 'En español:',

@@ -32,12 +32,12 @@ export const lesson02Segments: Record<string, SpeechSegment[]> = {
     en('Good.')
   ],
   'turn-18-full': [
-    es('Illegal.'),
+    es('Ilegal.'),
     en("Good. In Spanish the I is like 'ink' and the E is like 'elephant'."),
-    es('Illegal.')
+    es('Ilegal.')
   ],
   'turn-21-full': [
-    es('Es illegal.'),
+    es('Es ilegal.'),
     en('Good.')
   ],
   'turn-22-full': [

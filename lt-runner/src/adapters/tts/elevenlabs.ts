@@ -27,69 +27,25 @@ export class ElevenLabsTTS implements TTSAdapter {
     let hasStartedPlayback = false;
 
     try {
-      const audioBlobs = await Promise.all(
-        toSpeak.map(async (segment) => {
-          const response = await fetch('/api/tts', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ text: segment.text, lang: segment.lang }),
-            signal: controller.signal
-          });
+      let nextBlobPromise: Promise<Blob> | null = this.fetchSegmentBlob(toSpeak[0], controller, token);
 
-          if (token !== this.playbackToken) {
-            return null;
-          }
+      for (let index = 0; index < toSpeak.length; index += 1) {
+        if (!nextBlobPromise || token !== this.playbackToken) {
+          return;
+        }
 
-          if (!response.ok) {
-            const errorText = await response.text();
-            throw new Error(errorText || 'ElevenLabs TTS request failed.');
-          }
+        const blob = await nextBlobPromise;
+        const nextSegment = toSpeak[index + 1];
+        nextBlobPromise = nextSegment
+          ? this.fetchSegmentBlob(nextSegment, controller, token)
+          : null;
 
-          return response.blob();
-        })
-      );
-
-      if (token !== this.playbackToken) {
-        return;
-      }
-
-      for (const blob of audioBlobs) {
-        if (!blob || token !== this.playbackToken) {
+        if (token !== this.playbackToken) {
           return;
         }
 
         hasStartedPlayback = true;
-        const audioUrl = URL.createObjectURL(blob);
-        const audio = new Audio(audioUrl);
-        this.activeAudio = audio;
-        this.activeAudioUrl = audioUrl;
-
-        await new Promise<void>((resolve, reject) => {
-          audio.onended = () => {
-            if (token !== this.playbackToken) {
-              resolve();
-              return;
-            }
-            this.clearActiveAudio();
-            resolve();
-          };
-
-          audio.onerror = () => {
-            if (token !== this.playbackToken) {
-              resolve();
-              return;
-            }
-            this.clearActiveAudio();
-            reject(new Error('Unable to play ElevenLabs audio.'));
-          };
-
-          audio.play().catch((error) => {
-            this.clearActiveAudio();
-            reject(error);
-          });
-        });
+        await this.playBlob(blob, token);
       }
     } catch (error) {
       if (controller.signal.aborted || token !== this.playbackToken) {
@@ -137,5 +93,63 @@ export class ElevenLabsTTS implements TTSAdapter {
       URL.revokeObjectURL(this.activeAudioUrl);
       this.activeAudioUrl = null;
     }
+  }
+
+  private async fetchSegmentBlob(
+    segment: SpeechSegment,
+    controller: AbortController,
+    token: number
+  ) {
+    const response = await fetch('/api/tts', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ text: segment.text, lang: segment.lang }),
+      signal: controller.signal
+    });
+
+    if (token !== this.playbackToken) {
+      throw new Error('Playback cancelled.');
+    }
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(errorText || 'ElevenLabs TTS request failed.');
+    }
+
+    return response.blob();
+  }
+
+  private async playBlob(blob: Blob, token: number) {
+    const audioUrl = URL.createObjectURL(blob);
+    const audio = new Audio(audioUrl);
+    this.activeAudio = audio;
+    this.activeAudioUrl = audioUrl;
+
+    await new Promise<void>((resolve, reject) => {
+      audio.onended = () => {
+        if (token !== this.playbackToken) {
+          resolve();
+          return;
+        }
+        this.clearActiveAudio();
+        resolve();
+      };
+
+      audio.onerror = () => {
+        if (token !== this.playbackToken) {
+          resolve();
+          return;
+        }
+        this.clearActiveAudio();
+        reject(new Error('Unable to play ElevenLabs audio.'));
+      };
+
+      audio.play().catch((error) => {
+        this.clearActiveAudio();
+        reject(error);
+      });
+    });
   }
 }
