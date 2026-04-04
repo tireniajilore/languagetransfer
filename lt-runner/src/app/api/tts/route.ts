@@ -46,7 +46,13 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         text,
         model_id: MODEL_ID,
-        ...(body.lang && LANGUAGE_CODES[body.lang] ? { language_code: LANGUAGE_CODES[body.lang] } : {})
+        ...(body.lang === 'es' ? {
+          language_code: 'es',
+          previous_text: 'En español:',
+          next_text: 'Muy bien.'
+        } : body.lang && LANGUAGE_CODES[body.lang] ? {
+          language_code: LANGUAGE_CODES[body.lang]
+        } : {})
       }),
       cache: 'no-store'
     }
