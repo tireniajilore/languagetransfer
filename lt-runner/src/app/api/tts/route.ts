@@ -6,11 +6,6 @@ interface TTSRequestBody {
   lang?: string;
 }
 
-const LANGUAGE_CODES: Record<string, string> = {
-  en: 'en',
-  es: 'es',
-};
-
 export async function POST(request: Request) {
   const apiKey = process.env.ELEVENLABS_API_KEY;
 
@@ -50,8 +45,6 @@ export async function POST(request: Request) {
           language_code: 'es',
           previous_text: 'En español:',
           next_text: 'Muy bien.'
-        } : body.lang && LANGUAGE_CODES[body.lang] ? {
-          language_code: LANGUAGE_CODES[body.lang]
         } : {})
       }),
       cache: 'no-store'

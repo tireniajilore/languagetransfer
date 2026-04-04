@@ -62,14 +62,6 @@ export function useLessonEngine(lesson: Lesson) {
     if (!currentStep) return;
     if (state.mode !== 'playing') return;
 
-    if (currentStep.type === 'prompt') {
-      dispatch({
-        type: 'PROMPT_REACHED',
-        totalSeconds: waitDurationToSeconds(currentStep.waitDuration)
-      });
-      return;
-    }
-
     if (currentStep.type === 'pause') {
       stepTimerRef.current = window.setTimeout(() => {
         dispatch({ type: 'STEP_COMPLETE' });
@@ -82,6 +74,14 @@ export function useLessonEngine(lesson: Lesson) {
     const fallbackDuration = (currentStep.estimatedDuration ?? 2) * 1000;
 
     if (usingTextOnly) {
+      if (currentStep.type === 'prompt') {
+        dispatch({
+          type: 'PROMPT_REACHED',
+          totalSeconds: waitDurationToSeconds(currentStep.waitDuration)
+        });
+        return;
+      }
+
       stepTimerRef.current = window.setTimeout(() => {
         dispatch({ type: 'STEP_COMPLETE' });
       }, fallbackDuration);
@@ -92,10 +92,26 @@ export function useLessonEngine(lesson: Lesson) {
     adapter.speak(currentStep.text, currentStep.segments)
       .then(() => {
         if (cancelled) return;
+        if (currentStep.type === 'prompt') {
+          dispatch({
+            type: 'PROMPT_REACHED',
+            totalSeconds: waitDurationToSeconds(currentStep.waitDuration)
+          });
+          return;
+        }
+
         dispatch({ type: 'STEP_COMPLETE' });
       })
       .catch(() => {
         if (cancelled) return;
+        if (currentStep.type === 'prompt') {
+          dispatch({
+            type: 'PROMPT_REACHED',
+            totalSeconds: waitDurationToSeconds(currentStep.waitDuration)
+          });
+          return;
+        }
+
         stepTimerRef.current = window.setTimeout(() => {
           dispatch({ type: 'STEP_COMPLETE' });
         }, fallbackDuration);
