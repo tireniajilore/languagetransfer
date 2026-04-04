@@ -1,4 +1,5 @@
-import type { Lesson, LessonStep, RawLesson, RawLessonTurn, WaitDuration } from '@/types/lesson';
+import { lesson02Segments } from '@/data/lesson-02-segments';
+import type { Lesson, LessonStep, RawLesson, RawLessonTurn, SpeechSegment, WaitDuration } from '@/types/lesson';
 
 const QUESTION_START_PATTERNS = [
   /\bSo how would you\b/i,
@@ -14,6 +15,12 @@ const WAIT_BY_TEXT: Record<WaitDuration, number> = {
   short: 3,
   medium: 5,
   long: 8
+};
+
+type StepPart = 'full' | 'prompt' | 'reveal';
+
+const LESSON_SEGMENT_OVERRIDES: Record<number, Record<string, SpeechSegment[]>> = {
+  2: lesson02Segments
 };
 
 function estimateDuration(text: string) {
@@ -58,15 +65,34 @@ function splitFeedbackPromptText(text: string) {
   };
 }
 
-function makeStep(base: Omit<LessonStep, 'estimatedDuration'> & { estimatedDuration?: number }): LessonStep {
+function buildSourceKey(turnIndex: number, part: StepPart) {
+  return `turn-${turnIndex + 1}-${part}`;
+}
+
+function applySegments(
+  lessonNumber: number,
+  sourceKey: string,
+  step: Omit<LessonStep, 'estimatedDuration'> & { estimatedDuration?: number }
+): LessonStep {
+  const overrides = LESSON_SEGMENT_OVERRIDES[lessonNumber] ?? {};
+  const segments = overrides[sourceKey];
+
   return {
-    ...base,
-    estimatedDuration: base.estimatedDuration ?? (base.text ? estimateDuration(base.text) : 2)
+    ...step,
+    sourceKey,
+    segments,
+    estimatedDuration: step.estimatedDuration ?? (step.text ? estimateDuration(step.text) : 2)
   };
 }
 
-function buildPromptStep(turn: RawLessonTurn, id: string, acceptedAnswers?: string[]): LessonStep {
-  return makeStep({
+function buildPromptStep(
+  lessonNumber: number,
+  turn: RawLessonTurn,
+  turnIndex: number,
+  id: string,
+  acceptedAnswers?: string[]
+): LessonStep {
+  return applySegments(lessonNumber, buildSourceKey(turnIndex, 'full'), {
     id,
     type: 'prompt',
     text: turn.text ?? '',
@@ -95,7 +121,7 @@ export function convertRawLessonToLesson(rawLesson: RawLesson): Lesson {
 
       if (revealText) {
         steps.push(
-          makeStep({
+          applySegments(rawLesson.lesson_number, buildSourceKey(index, 'reveal'), {
             id: `${baseId}-reveal`,
             type: 'reveal',
             text: revealText
@@ -104,7 +130,7 @@ export function convertRawLessonToLesson(rawLesson: RawLesson): Lesson {
       }
 
       steps.push(
-        makeStep({
+        applySegments(rawLesson.lesson_number, buildSourceKey(index, 'prompt'), {
           id: `${baseId}-prompt`,
           type: 'prompt',
           text: promptText || turn.text || '',
@@ -117,13 +143,13 @@ export function convertRawLessonToLesson(rawLesson: RawLesson): Lesson {
     }
 
     if (turn.is_prompt) {
-      steps.push(buildPromptStep(turn, baseId, acceptedAnswers));
+      steps.push(buildPromptStep(rawLesson.lesson_number, turn, index, baseId, acceptedAnswers));
       return;
     }
 
     if (turn.is_feedback) {
       steps.push(
-        makeStep({
+        applySegments(rawLesson.lesson_number, buildSourceKey(index, 'full'), {
           id: baseId,
           type: 'reveal',
           text: turn.text ?? ''
@@ -133,7 +159,7 @@ export function convertRawLessonToLesson(rawLesson: RawLesson): Lesson {
     }
 
     steps.push(
-      makeStep({
+      applySegments(rawLesson.lesson_number, buildSourceKey(index, 'full'), {
         id: baseId,
         type: 'narration',
         text: turn.text ?? ''

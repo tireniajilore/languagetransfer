@@ -2,10 +2,17 @@ export type StepType = 'narration' | 'prompt' | 'reveal' | 'instruction' | 'paus
 
 export type WaitDuration = 'short' | 'medium' | 'long';
 
+export interface SpeechSegment {
+  text: string;
+  lang: 'en' | 'es';
+}
+
 export interface LessonStep {
   id: string;
   type: StepType;
   text: string;
+  segments?: SpeechSegment[];
+  sourceKey?: string;
   estimatedDuration?: number;
   expectsResponse?: boolean;
   acceptedAnswers?: string[];

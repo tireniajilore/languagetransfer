@@ -1,5 +1,6 @@
 import { BrowserTTS } from '@/adapters/tts/browser-tts';
 import type { TTSAdapter } from '@/types/adapters';
+import type { SpeechSegment } from '@/types/lesson';
 
 export class ElevenLabsTTS implements TTSAdapter {
   private readonly browserFallback: BrowserTTS;
@@ -16,66 +17,80 @@ export class ElevenLabsTTS implements TTSAdapter {
     this.playbackToken = 0;
   }
 
-  async speak(text: string): Promise<void> {
+  async speak(text: string, segments?: SpeechSegment[]): Promise<void> {
     this.stop();
 
     const token = ++this.playbackToken;
     const controller = new AbortController();
     this.activeRequest = controller;
+    const toSpeak = segments?.length ? segments : [{ text, lang: 'en' as const }];
+    let hasStartedPlayback = false;
 
     try {
-      const response = await fetch('/api/tts', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ text }),
-        signal: controller.signal
-      });
+      const audioBlobs = await Promise.all(
+        toSpeak.map(async (segment) => {
+          const response = await fetch('/api/tts', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ text: segment.text, lang: segment.lang }),
+            signal: controller.signal
+          });
+
+          if (token !== this.playbackToken) {
+            return null;
+          }
+
+          if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(errorText || 'ElevenLabs TTS request failed.');
+          }
+
+          return response.blob();
+        })
+      );
 
       if (token !== this.playbackToken) {
         return;
       }
 
-      if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(errorText || 'ElevenLabs TTS request failed.');
-      }
+      for (const blob of audioBlobs) {
+        if (!blob || token !== this.playbackToken) {
+          return;
+        }
 
-      const audioBlob = await response.blob();
-      if (token !== this.playbackToken) {
-        return;
-      }
+        hasStartedPlayback = true;
+        const audioUrl = URL.createObjectURL(blob);
+        const audio = new Audio(audioUrl);
+        this.activeAudio = audio;
+        this.activeAudioUrl = audioUrl;
 
-      const audioUrl = URL.createObjectURL(audioBlob);
-      const audio = new Audio(audioUrl);
-      this.activeAudio = audio;
-      this.activeAudioUrl = audioUrl;
-
-      await new Promise<void>((resolve, reject) => {
-        audio.onended = () => {
-          if (token !== this.playbackToken) {
+        await new Promise<void>((resolve, reject) => {
+          audio.onended = () => {
+            if (token !== this.playbackToken) {
+              resolve();
+              return;
+            }
+            this.clearActiveAudio();
             resolve();
-            return;
-          }
-          this.clearActiveAudio();
-          resolve();
-        };
+          };
 
-        audio.onerror = () => {
-          if (token !== this.playbackToken) {
-            resolve();
-            return;
-          }
-          this.clearActiveAudio();
-          reject(new Error('Unable to play ElevenLabs audio.'));
-        };
+          audio.onerror = () => {
+            if (token !== this.playbackToken) {
+              resolve();
+              return;
+            }
+            this.clearActiveAudio();
+            reject(new Error('Unable to play ElevenLabs audio.'));
+          };
 
-        audio.play().catch((error) => {
-          this.clearActiveAudio();
-          reject(error);
+          audio.play().catch((error) => {
+            this.clearActiveAudio();
+            reject(error);
+          });
         });
-      });
+      }
     } catch (error) {
       if (controller.signal.aborted || token !== this.playbackToken) {
         return;
@@ -83,7 +98,10 @@ export class ElevenLabsTTS implements TTSAdapter {
 
       this.clearActiveAudio();
       this.activeRequest = null;
-      return this.browserFallback.speak(text);
+      if (!hasStartedPlayback) {
+        return this.browserFallback.speak(text);
+      }
+      throw error;
     } finally {
       if (this.activeRequest === controller) {
         this.activeRequest = null;

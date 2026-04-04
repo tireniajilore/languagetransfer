@@ -1,5 +1,7 @@
+import type { SpeechSegment } from '@/types/lesson';
+
 export interface TTSAdapter {
-  speak(text: string): Promise<void>;
+  speak(text: string, segments?: SpeechSegment[]): Promise<void>;
   stop(): void;
 }
 

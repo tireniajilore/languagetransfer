@@ -3,7 +3,13 @@ const MODEL_ID = 'eleven_multilingual_v2';
 
 interface TTSRequestBody {
   text?: string;
+  lang?: string;
 }
+
+const LANGUAGE_CODES: Record<string, string> = {
+  en: 'en',
+  es: 'es',
+};
 
 export async function POST(request: Request) {
   const apiKey = process.env.ELEVENLABS_API_KEY;
@@ -39,7 +45,8 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         text,
-        model_id: MODEL_ID
+        model_id: MODEL_ID,
+        ...(body.lang && LANGUAGE_CODES[body.lang] ? { language_code: LANGUAGE_CODES[body.lang] } : {})
       }),
       cache: 'no-store'
     }

@@ -89,7 +89,7 @@ export function useLessonEngine(lesson: Lesson) {
     }
 
     let cancelled = false;
-    adapter.speak(currentStep.text)
+    adapter.speak(currentStep.text, currentStep.segments)
       .then(() => {
         if (cancelled) return;
         dispatch({ type: 'STEP_COMPLETE' });
