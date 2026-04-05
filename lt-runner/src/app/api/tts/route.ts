@@ -1,7 +1,7 @@
 const DEFAULT_VOICE_ID = process.env.ELEVENLABS_VOICE_ID || '21m00Tcm4TlvDq8ikWAM';
 const MODEL_ID = 'eleven_multilingual_v2';
 const DEFAULT_ENGLISH_SPEED = 1.1;
-const DEFAULT_SPANISH_SPEED = 0.95;
+const DEFAULT_SPANISH_SPEED = 0.9;
 
 interface TTSRequestBody {
   text?: string;
