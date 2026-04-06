@@ -66,7 +66,8 @@ export type EngineAction =
   | { type: 'SET_FALLBACK_MESSAGE'; payload: FallbackPayload }
   | { type: 'NEXT_STEP' }
   | { type: 'PREVIOUS_STEP' }
-  | { type: 'JUMP_TO_STEP'; payload: MovePayload };
+  | { type: 'JUMP_TO_STEP'; payload: MovePayload }
+  | { type: 'SKIP_INTRO' };
 
 export interface LessonEngineSnapshot {
   state: EngineState;

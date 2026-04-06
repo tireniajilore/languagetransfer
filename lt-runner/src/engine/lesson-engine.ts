@@ -148,6 +148,11 @@ export function lessonEngineReducer(state: EngineState, action: EngineAction): E
       return moveToStep(state, clampIndex(state.currentStepIndex - 1, state.lesson));
     case 'JUMP_TO_STEP':
       return moveToStep(state, clampIndex(action.payload.targetIndex, state.lesson));
+    case 'SKIP_INTRO': {
+      const firstPromptIndex = state.lesson.steps.findIndex(s => s.type === 'prompt');
+      if (firstPromptIndex <= 0) return state;
+      return moveToStep(state, firstPromptIndex);
+    }
     default:
       return state;
   }

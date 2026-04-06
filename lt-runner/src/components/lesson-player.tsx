@@ -28,6 +28,7 @@ export function LessonPlayer({ lesson, autostart = false }: LessonPlayerProps) {
     canResume,
     canGoPrevious,
     canGoNext,
+    canSkipIntro,
     start,
     pause,
     resume,
@@ -36,7 +37,8 @@ export function LessonPlayer({ lesson, autostart = false }: LessonPlayerProps) {
     next,
     setInput,
     submitResponse,
-    skip
+    skip,
+    skipIntro
   } = useLessonEngine(lesson);
 
   useEffect(() => {
@@ -172,6 +174,16 @@ export function LessonPlayer({ lesson, autostart = false }: LessonPlayerProps) {
         <div className="grid gap-6 lg:grid-cols-[1.6fr_1fr]">
           <div className="space-y-6">
             <StepDisplay step={currentStep} mode={state.mode} />
+            {canSkipIntro && (
+              <div className="flex justify-end">
+                <button
+                  onClick={skipIntro}
+                  className="text-sm text-ink/45 underline-offset-2 hover:text-ink/70 hover:underline transition"
+                >
+                  Skip intro
+                </button>
+              </div>
+            )}
             <WaitingIndicator waiting={state.waiting} />
             {state.mode === 'completed' ? (
               <DemandCard lessonId={lesson.id} completionPercent={100} />
