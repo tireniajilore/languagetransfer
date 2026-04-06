@@ -133,17 +133,17 @@ export function LessonPlayer({ lesson, autostart = false }: LessonPlayerProps) {
   return (
     <main className="min-h-screen px-4 py-10 md:px-8">
       <div className="mx-auto flex max-w-6xl flex-col gap-6">
-        <header className="rounded-[2rem] bg-white/70 p-8 shadow-panel backdrop-blur">
+        <header className="rounded-[2rem] bg-white/70 p-5 shadow-panel backdrop-blur">
           <Link
             href="/"
             className="text-sm uppercase tracking-[0.3em] text-ink/45 transition hover:text-ink/70"
           >
             VoiceAI Demand Test
           </Link>
-          <div className="mt-4 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div className="mt-3 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
             <div className="max-w-3xl">
-              <h1 className="text-4xl font-semibold tracking-tight text-ink">{lesson.title}</h1>
-              <p className="mt-3 text-base leading-7 text-ink/65">{lesson.description}</p>
+              <h1 className="text-2xl font-semibold tracking-tight text-ink">{lesson.title}</h1>
+              <p className="mt-1.5 text-sm leading-6 text-ink/65">{lesson.description}</p>
             </div>
             <div className="text-sm text-ink/55">
               <p>{lesson.steps.length} steps</p>
@@ -171,7 +171,7 @@ export function LessonPlayer({ lesson, autostart = false }: LessonPlayerProps) {
           </div>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-[1.6fr_1fr]">
+        <div className="grid gap-6 lg:grid-cols-[2.5fr_1fr]">
           <div className="space-y-6">
             <StepDisplay step={currentStep} mode={state.mode} />
             {canSkipIntro && (
