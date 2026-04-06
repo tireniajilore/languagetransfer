@@ -56,13 +56,15 @@ export async function POST(request: Request) {
     cache: 'no-store'
   });
 
-  if (!response.ok) {
-    const errorText = await response.text();
-    return Response.json(
-      { error: 'Unable to send analytics event.', details: errorText || 'Unknown error.' },
-      { status: 502 }
-    );
-  }
+  const responseText = await response.text();
 
-  return new Response(null, { status: 204 });
+  // Temporary: return full debug info instead of 204
+  return Response.json({
+    debug: true,
+    posthogStatus: response.status,
+    posthogResponse: responseText,
+    sentEvent: body.event,
+    sentDistinctId: body.sessionId,
+    keyUsed: apiKey.slice(0, 8) + '...'
+  });
 }
