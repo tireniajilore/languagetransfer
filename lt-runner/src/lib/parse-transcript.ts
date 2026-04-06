@@ -70,6 +70,10 @@ function buildSourceKey(turnIndex: number, part: StepPart) {
   return `turn-${turnIndex + 1}-${part}`;
 }
 
+function buildOutroSourceKey(outroIndex: number) {
+  return `outro-${outroIndex + 1}-full`;
+}
+
 function applySegments(
   lessonNumber: number,
   sourceKey: string,
@@ -169,14 +173,14 @@ export function convertRawLessonToLesson(rawLesson: RawLesson): Lesson {
   });
 
   rawLesson.outro?.forEach((entry, index) => {
-    steps.push({
+    steps.push(applySegments(rawLesson.lesson_number, buildOutroSourceKey(index), {
       id: `outro-${index + 1}`,
       type: entry.type,
       text: entry.text,
       waitDuration: entry.waitDuration,
       expectsResponse: entry.type === 'open_prompt' ? false : undefined,
       estimatedDuration: estimateDuration(entry.text)
-    });
+    }));
   });
 
   return {

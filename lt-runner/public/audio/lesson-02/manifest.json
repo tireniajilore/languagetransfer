@@ -1,0 +1,690 @@
+{
+  "lessonId": "lesson-02",
+  "generatedAt": "2026-04-06T16:21:56.362Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "English and Spanish are two related languages. English is considered a Germanic language, but roughly half of its vocabulary comes from Latin. We can convert this Latin vocabulary over to Spanish really easily, because Spanish is practically modern Latin.",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "b34a9a8d29b61c3bb140b3c9c5511ccbd92972574a5beabcb21d0a70ba4b5304"
+        }
+      ]
+    },
+    "turn-2-full": {
+      "segments": [
+        {
+          "text": "So we can identify Latin words in English and, with a few simple rules, convert them to Spanish. This gives us around 3,000 words.",
+          "lang": "en",
+          "file": "turn-2-full-1.mp3",
+          "hash": "16e57d9794cdb510227dc56ab3ea97201ea564efb2e23aa4ea282936bbf3ca8a"
+        }
+      ]
+    },
+    "turn-3-full": {
+      "segments": [
+        {
+          "text": "One of these rules is that words ending in A-L tend to work directly in Spanish. You just stress the final syllable. So for example, the English word normal — in Spanish, that's",
+          "lang": "en",
+          "file": "turn-3-full-1.mp3",
+          "hash": "48692af952f1463b85d24ee9e2bb3d963b4745bf53b5071917a35081ef2ab65b"
+        },
+        {
+          "text": "normal.",
+          "lang": "es",
+          "file": "turn-3-full-2.mp3",
+          "hash": "d1d79c8f6abde907f94254ea2c09713ea8be329802813eb201456e44838967d4"
+        }
+      ]
+    },
+    "turn-4-full": {
+      "segments": [
+        {
+          "text": "How would you say metal?",
+          "lang": "en",
+          "file": "turn-4-full-1.mp3",
+          "hash": "4f86145502bea894cf196dab8178fc867fb6edcf63cdc8f0ba6ac5cd27a07309"
+        }
+      ]
+    },
+    "turn-6-full": {
+      "segments": [
+        {
+          "text": "Metal.",
+          "lang": "es",
+          "file": "turn-6-full-1.mp3",
+          "hash": "b45b1061b5c25cc97473d24aff26f3b11ed9c538e88e1795eb54d191a3d17919"
+        },
+        {
+          "text": "Good. Spanish has five vowels, and each one always makes the same sound:",
+          "lang": "en",
+          "file": "turn-6-full-2.mp3",
+          "hash": "ec90843f0ed38a63bf6e5c93ccc2bcc5fecb1c6cc7a3511f86a1af21e2d7df3d"
+        },
+        {
+          "text": "A, E, I, O, U.",
+          "lang": "es",
+          "file": "turn-6-full-3.mp3",
+          "hash": "6b4bd880b0bd61a316cc1ac162a6fd3af0f59f1ebbf6d9d59d252fad7b879de7"
+        },
+        {
+          "text": "Keep them short and steady.",
+          "lang": "en",
+          "file": "turn-6-full-4.mp3",
+          "hash": "ec4526a316f0f0b15b1d6895ee38e7a6bd1d7a9382525af629a687d32f0e39a5"
+        }
+      ]
+    },
+    "turn-7-full": {
+      "segments": [
+        {
+          "text": "The word for 'is' in Spanish is",
+          "lang": "en",
+          "file": "turn-7-full-1.mp3",
+          "hash": "7666535c8eacbad4a214d9ab64e678c7b9b9653a864ffde945b2979e069f64cd"
+        },
+        {
+          "text": "es.",
+          "lang": "es",
+          "file": "turn-7-full-2.mp3",
+          "hash": "73def5f1406151193a93fa64ac75a7d41afa35dc3c2ac42e48551595f9d591a0"
+        },
+        {
+          "text": "E-S. And this also means 'it is', 'she is', 'he is', or even 'you are' when talking to somebody formally.",
+          "lang": "en",
+          "file": "turn-7-full-3.mp3",
+          "hash": "a17c2b65b9b8ace9f7a48b8b36e60c19f483cf7521cddaa51711c3749c8c9f3c"
+        }
+      ]
+    },
+    "turn-8-full": {
+      "segments": [
+        {
+          "text": "So now we can say 'he is normal' or 'she is normal'. How would you say that?",
+          "lang": "en",
+          "file": "turn-8-full-1.mp3",
+          "hash": "79dede8a34541f247974c590a39be84f738a6761aea4d185add906241131859d"
+        }
+      ]
+    },
+    "turn-10-full": {
+      "segments": [
+        {
+          "text": "Es normal.",
+          "lang": "es",
+          "file": "turn-10-full-1.mp3",
+          "hash": "ac1eb3ecd3a34ab50771c2617bb2b5203c8a8f855e3d019d2767b01d80cce8d6"
+        },
+        {
+          "text": "Good. One tip: in English, the S in 'is' is pronounced like a Z. In Spanish, always keep it as a clean S sound.",
+          "lang": "en",
+          "file": "turn-10-full-2.mp3",
+          "hash": "2b764eed0f0358f674292d095c37efec9df8d47c3faa4faee6db30365fe8b2a6"
+        }
+      ]
+    },
+    "turn-11-full": {
+      "segments": [
+        {
+          "text": "How would you say legal?",
+          "lang": "en",
+          "file": "turn-11-full-1.mp3",
+          "hash": "cc2cc2458793b09a01afb9676c6d9b89dfb3675d1b8c2821a6d82b72fad883b5"
+        }
+      ]
+    },
+    "turn-13-full": {
+      "segments": [
+        {
+          "text": "Legal.",
+          "lang": "es",
+          "file": "turn-13-full-1.mp3",
+          "hash": "8869c6d1d48783ffbc1c7427de8024807cf96b209b3fbcece3646714c6cfdacc"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-13-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-14-full": {
+      "segments": [
+        {
+          "text": "How would you say 'it is legal'?",
+          "lang": "en",
+          "file": "turn-14-full-1.mp3",
+          "hash": "714624f1734eba991e5cb6b785327f666c77739af9068dcc69624c209bb7a289"
+        }
+      ]
+    },
+    "turn-16-full": {
+      "segments": [
+        {
+          "text": "Es legal.",
+          "lang": "es",
+          "file": "turn-16-full-1.mp3",
+          "hash": "43b0c8c7139e514045c476a3a9f3ecbcdf16e539c671906816b5308f9219b689"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-16-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-17-full": {
+      "segments": [
+        {
+          "text": "How would you say illegal?",
+          "lang": "en",
+          "file": "turn-17-full-1.mp3",
+          "hash": "06f66ba342ae828e3279432e43ed8c0267213e61ff657bc374d0126f0a39359e"
+        }
+      ]
+    },
+    "turn-19-full": {
+      "segments": [
+        {
+          "text": "Ilegal.",
+          "lang": "es",
+          "file": "turn-19-full-1.mp3",
+          "hash": "0d49b2306cf1fe5b2af9dfa1dd41f59de75de33f098f1baf2386090717199327"
+        },
+        {
+          "text": "Good. In Spanish the I is like 'ink' and the E is like 'elephant'.",
+          "lang": "en",
+          "file": "turn-19-full-2.mp3",
+          "hash": "3632a9ce051a11d51fdb2c4b2be341a278ddf56fec1719a8e9a0a4cb958a2036"
+        },
+        {
+          "text": "Ilegal.",
+          "lang": "es",
+          "file": "turn-19-full-3.mp3",
+          "hash": "0d49b2306cf1fe5b2af9dfa1dd41f59de75de33f098f1baf2386090717199327"
+        }
+      ]
+    },
+    "turn-20-full": {
+      "segments": [
+        {
+          "text": "So how would you say 'it is illegal'?",
+          "lang": "en",
+          "file": "turn-20-full-1.mp3",
+          "hash": "9fe8e74288bd5465a49aecadac4536e0c373c4b1598630ee0152f1611379f1a9"
+        }
+      ]
+    },
+    "turn-22-full": {
+      "segments": [
+        {
+          "text": "Es ilegal.",
+          "lang": "es",
+          "file": "turn-22-full-1.mp3",
+          "hash": "ec340224ac4c84eab3f6e0eb54929004f95e7d2b14611e24a0285d3300796d95"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-22-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-23-full": {
+      "segments": [
+        {
+          "text": "What if you want to say 'he is liberal'? You do not need the word for 'he' if you know who you are talking about. You can just use",
+          "lang": "en",
+          "file": "turn-23-full-1.mp3",
+          "hash": "88bc6544c69dfea7035610947dfdd3880f9f97e716f493a9bb9879e655003764"
+        },
+        {
+          "text": "es.",
+          "lang": "es",
+          "file": "turn-23-full-2.mp3",
+          "hash": "73def5f1406151193a93fa64ac75a7d41afa35dc3c2ac42e48551595f9d591a0"
+        },
+        {
+          "text": "How would you say it?",
+          "lang": "en",
+          "file": "turn-23-full-3.mp3",
+          "hash": "ab3c757e9fdf2759b57765297ba1702a2d1d7b605ffa1b8a907ad0c6a424273e"
+        }
+      ]
+    },
+    "turn-25-full": {
+      "segments": [
+        {
+          "text": "Es liberal.",
+          "lang": "es",
+          "file": "turn-25-full-1.mp3",
+          "hash": "930031e1acfec363eff7312b12629a871c5e6cd132c6f190c068e0bd0db149fd"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-25-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-26-full": {
+      "segments": [
+        {
+          "text": "Now Spanish is much more phonetic than English. The letters represent the same sound. So with 'natural', you don't just want to change the accent and say it like English. You want to think how it's written and pronounce the letters as they are.",
+          "lang": "en",
+          "file": "turn-26-full-1.mp3",
+          "hash": "4700f475b2f5d5fb9c74d2429ed2b1edb9439fe3cc274999702fbc07b63dc74d"
+        }
+      ]
+    },
+    "turn-27-full": {
+      "segments": [
+        {
+          "text": "How do you think you would say natural in Spanish?",
+          "lang": "en",
+          "file": "turn-27-full-1.mp3",
+          "hash": "3ed1db212ec27a49eacdb72ce952e2af8854296f3647da3e7ea3d2ead2386f39"
+        }
+      ]
+    },
+    "turn-29-full": {
+      "segments": [
+        {
+          "text": "Natural.",
+          "lang": "es",
+          "file": "turn-29-full-1.mp3",
+          "hash": "098384f1b05c60dd3e8d34df9ee96a99783805c1e4e0049830a9bee14bc0399e"
+        },
+        {
+          "text": "Good. Remember to pronounce every letter as written - A sounds like ah, and U sounds like oo.",
+          "lang": "en",
+          "file": "turn-29-full-2.mp3",
+          "hash": "5be054be88da5a6c82bc2863dd778edc42b5e264f3b95242aabd1c8239b451a4"
+        },
+        {
+          "text": "Natural.",
+          "lang": "es",
+          "file": "turn-29-full-3.mp3",
+          "hash": "098384f1b05c60dd3e8d34df9ee96a99783805c1e4e0049830a9bee14bc0399e"
+        },
+        {
+          "text": "And stress the final syllable.",
+          "lang": "en",
+          "file": "turn-29-full-4.mp3",
+          "hash": "16cef30381927910cc2d8d9fc66424637f60b36422072657556a8aa57b53ae55"
+        }
+      ]
+    },
+    "turn-30-full": {
+      "segments": [
+        {
+          "text": "If you want to say 'it isn't' or 'it's not', the word for 'not' is",
+          "lang": "en",
+          "file": "turn-30-full-1.mp3",
+          "hash": "93cf34ce2ec396bca0f5b05f86bcdc421a2f2889b3c336f2429470350db88087"
+        },
+        {
+          "text": "no.",
+          "lang": "es",
+          "file": "turn-30-full-2.mp3",
+          "hash": "7c301cdcc60f5a6039e532f7ddb03fecaa14305509e8240dc9f075d63a9d6434"
+        },
+        {
+          "text": "You put",
+          "lang": "en",
+          "file": "turn-30-full-3.mp3",
+          "hash": "8693e997d346f1c9201f90833d881db814b761d9f67ebd1d2a7300e96586835e"
+        },
+        {
+          "text": "no",
+          "lang": "es",
+          "file": "turn-30-full-4.mp3",
+          "hash": "e44058d78fedc84c827371a9d85127cff2fd79d4ea7766b292cbd10d12afaad3"
+        },
+        {
+          "text": "before",
+          "lang": "en",
+          "file": "turn-30-full-5.mp3",
+          "hash": "fd442ae8724755044be0553e69b723af1ecbc4829f6bf508043d27516a700f6f"
+        },
+        {
+          "text": "es",
+          "lang": "es",
+          "file": "turn-30-full-6.mp3",
+          "hash": "adb9cd58654bfb2a66b51cb0ab0cd5214067cb2b7c4af06e4317531ee1f084b8"
+        },
+        {
+          "text": "to say 'it is not'. How would you say 'it is not'?",
+          "lang": "en",
+          "file": "turn-30-full-7.mp3",
+          "hash": "68ac754ad1cae065f8e777f7a183d30f24573f36f167dd69564fcb8871062c93"
+        }
+      ]
+    },
+    "turn-32-full": {
+      "segments": [
+        {
+          "text": "No es.",
+          "lang": "es",
+          "file": "turn-32-full-1.mp3",
+          "hash": "fe815ca33612a8bf645fd102ac3f1e1fc35b2cb884de52693d2128274f9e6a3d"
+        },
+        {
+          "text": "Good. So now we can say things like 'it's not normal'.",
+          "lang": "en",
+          "file": "turn-32-full-2.mp3",
+          "hash": "8ed2ec6893f219a5742dd7f0c1dd503808592d69591532cb24a66d883c3f0179"
+        }
+      ]
+    },
+    "turn-33-full": {
+      "segments": [
+        {
+          "text": "How would you say 'it's not normal'?",
+          "lang": "en",
+          "file": "turn-33-full-1.mp3",
+          "hash": "33ef47d5574d0df31049cf5aa8fc7d051475c19a3659fa140fa58efacece026d"
+        }
+      ]
+    },
+    "turn-35-full": {
+      "segments": [
+        {
+          "text": "No es normal.",
+          "lang": "es",
+          "file": "turn-35-full-1.mp3",
+          "hash": "fbf43d4e782599272372ca85bb4d63160cb3109966357a8f2531d5ea6e018495"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-35-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-36-full": {
+      "segments": [
+        {
+          "text": "How would you say ideal? Remember: I as in 'ink', E as in 'elephant', A as in 'apple'.",
+          "lang": "en",
+          "file": "turn-36-full-1.mp3",
+          "hash": "46840d68525a25f3a17eeba1cdba0c776d5059b45be2cf6f87f2ca262c3afaac"
+        }
+      ]
+    },
+    "turn-38-full": {
+      "segments": [
+        {
+          "text": "Ideal.",
+          "lang": "es",
+          "file": "turn-38-full-1.mp3",
+          "hash": "dd305b163c582e6557aeb4a01a541c60b9d588f42b10a6cf53dbfeb63f8cbdf7"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-38-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-39-full": {
+      "segments": [
+        {
+          "text": "How would you say 'it's ideal'?",
+          "lang": "en",
+          "file": "turn-39-full-1.mp3",
+          "hash": "6fa1f3f9aff464fab8675c9349f9305fe48aedd20d9ff3391cb0835ea820aa9f"
+        }
+      ]
+    },
+    "turn-41-full": {
+      "segments": [
+        {
+          "text": "Es ideal.",
+          "lang": "es",
+          "file": "turn-41-full-1.mp3",
+          "hash": "08be3010492dfa2b33eade3b0929ce0f871391558232831c70243ff715e8d8db"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-41-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-42-full": {
+      "segments": [
+        {
+          "text": "How would you say 'it's not ideal'?",
+          "lang": "en",
+          "file": "turn-42-full-1.mp3",
+          "hash": "7b603cd6e44a3d6cc2e3e0529f9902ffdecdd75bd99c5cf75b27432bf5a73edf"
+        }
+      ]
+    },
+    "turn-44-full": {
+      "segments": [
+        {
+          "text": "No es ideal.",
+          "lang": "es",
+          "file": "turn-44-full-1.mp3",
+          "hash": "f84301d56e641507223d435a692d8552a8e71e368e9f837a1297e3e3dabceeb9"
+        },
+        {
+          "text": "Perfect.",
+          "lang": "en",
+          "file": "turn-44-full-2.mp3",
+          "hash": "f8407bd6cef9e56d2fde4b0fa8fb184f1b481ea7139549e80d555ab947dae98a"
+        }
+      ]
+    },
+    "turn-45-full": {
+      "segments": [
+        {
+          "text": "How would you say cultural? Think about how it's written.",
+          "lang": "en",
+          "file": "turn-45-full-1.mp3",
+          "hash": "def4fbcabf6180f1f4a366a49db237b0f227f057fbba4d0b21f37a652260aac3"
+        }
+      ]
+    },
+    "turn-47-full": {
+      "segments": [
+        {
+          "text": "Cultural.",
+          "lang": "es",
+          "file": "turn-47-full-1.mp3",
+          "hash": "47a80802389b9b5da7eb7dde8906af590346a1fa6463a8491d30f028626f708f"
+        },
+        {
+          "text": "Good. Notice how each vowel gets its own clean sound.",
+          "lang": "en",
+          "file": "turn-47-full-2.mp3",
+          "hash": "04f0ac2d127f3620aea184573314c61582055dc00e2e18ed9b9ec8c9a05758cc"
+        },
+        {
+          "text": "Cultural.",
+          "lang": "es",
+          "file": "turn-47-full-3.mp3",
+          "hash": "47a80802389b9b5da7eb7dde8906af590346a1fa6463a8491d30f028626f708f"
+        }
+      ]
+    },
+    "turn-48-full": {
+      "segments": [
+        {
+          "text": "How would you say annual? And cut out that English 'Y' sound that comes in. Focus on how it's written.",
+          "lang": "en",
+          "file": "turn-48-full-1.mp3",
+          "hash": "a5f8373cfe4fd2f46559e61f2f9950679be71688e386b49cdc72e459708b3aaa"
+        }
+      ]
+    },
+    "turn-50-full": {
+      "segments": [
+        {
+          "text": "Anual.",
+          "lang": "es",
+          "file": "turn-50-full-1.mp3",
+          "hash": "d7034427013efebb2a3c403e8143b83e6b6e23ae5be9e08eaea1198272691805"
+        },
+        {
+          "text": "Very nice.",
+          "lang": "en",
+          "file": "turn-50-full-2.mp3",
+          "hash": "cdfd0741b814ef6b572ad4037cc450018f55b5bf345b77466e3f09fd859b0716"
+        }
+      ]
+    },
+    "turn-51-full": {
+      "segments": [
+        {
+          "text": "How would you say dental?",
+          "lang": "en",
+          "file": "turn-51-full-1.mp3",
+          "hash": "22a11c6a8a19e60647592c9980aaff636add07d32452622a088fcf165e7a166c"
+        }
+      ]
+    },
+    "turn-53-full": {
+      "segments": [
+        {
+          "text": "Dental.",
+          "lang": "es",
+          "file": "turn-53-full-1.mp3",
+          "hash": "0440f632392b85996ecb718fb3776df3ad220d98219da1a0d225b27bd819404f"
+        },
+        {
+          "text": "Good. Tooth in Spanish is",
+          "lang": "en",
+          "file": "turn-53-full-2.mp3",
+          "hash": "4fb7a56039070d39e5eda7fea8081caa12e79b4764ddd1b4a4b8881688ff7b0e"
+        },
+        {
+          "text": "diente.",
+          "lang": "es",
+          "file": "turn-53-full-3.mp3",
+          "hash": "29357706f4f8f51b5c88f083d0d851987d2517ebecf0f2d9576688d85be99f58"
+        },
+        {
+          "text": "So this is coming from dental. If you look up tooth in the dictionary and find",
+          "lang": "en",
+          "file": "turn-53-full-4.mp3",
+          "hash": "4997811db289ea317c2514c67eb790e3b43a09435765447884340a324b98cbf4"
+        },
+        {
+          "text": "diente,",
+          "lang": "es",
+          "file": "turn-53-full-5.mp3",
+          "hash": "1b3c1c0a074a57b1deb4d684959d3159579ecd9353ba91cbcb9405b24af400ff"
+        },
+        {
+          "text": "rather than treating it as random vocabulary to memorize, you can relate it back to dental.",
+          "lang": "en",
+          "file": "turn-53-full-6.mp3",
+          "hash": "b0747d8eae5c3e13ab5fb9a81149ac7eecdddf9da3d92f0b50c47b4a568e35e8"
+        }
+      ]
+    },
+    "turn-54-full": {
+      "segments": [
+        {
+          "text": "How would you say verbal?",
+          "lang": "en",
+          "file": "turn-54-full-1.mp3",
+          "hash": "151700aab561557c643a9373d4715d820c26c5a039bf353325f66e1ac35ca957"
+        }
+      ]
+    },
+    "turn-56-full": {
+      "segments": [
+        {
+          "text": "Verbal.",
+          "lang": "es",
+          "file": "turn-56-full-1.mp3",
+          "hash": "186bd1a12b377afad4015564b3a9cf482f798b5a927e213e2a1f3a63498f6965"
+        },
+        {
+          "text": "Good. So knowing 'verbal', you can probably guess the word for 'verb' in Spanish.",
+          "lang": "en",
+          "file": "turn-56-full-2.mp3",
+          "hash": "7c28cc9ccc5b8263f4a86c6e3c06bc9e3532ccf5a0dbff87c7c0f6544643e431"
+        }
+      ]
+    },
+    "turn-57-full": {
+      "segments": [
+        {
+          "text": "How do you think you say verb in Spanish?",
+          "lang": "en",
+          "file": "turn-57-full-1.mp3",
+          "hash": "6f8dfacb9bcb7f94c2e37bbe5304ea6980a8f88c94b6948135930a47748d2140"
+        }
+      ]
+    },
+    "turn-59-full": {
+      "segments": [
+        {
+          "text": "Verbo.",
+          "lang": "es",
+          "file": "turn-59-full-1.mp3",
+          "hash": "ed55d39b80f445f83d1cd4c2cc6da85523284eecbc28c75942255f1293196f47"
+        },
+        {
+          "text": "Good. With vocabulary, it's okay to guess based on patterns. If you're a little off, a native speaker will usually still understand you, and then you can adjust. That's one of the fastest ways to build vocabulary.",
+          "lang": "en",
+          "file": "turn-59-full-2.mp3",
+          "hash": "288c410f16c2a391f792c436b339d598e2a4e3df8ccb7e220bad71cef9ce0502"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've now got a pattern that works for hundreds of English words. Any word ending in A-L - you already know how to say it in Spanish.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "20bfc317296fd90277b99a046f3b223d8769d4305ed0d8c8cb3d4d33fa102708"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try one that we haven't covered. Think of any English word ending in A-L - maybe 'emotional', or 'professional', or 'digital' - and say it in Spanish with the stress on the end.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "9849e969ca1326c34e8f2c1cbad25ff4164bd8bbe7c023dbe141fd9f1d9bfbbb"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "You can now describe things in a conversation. Something is normal, something is ideal, something is not legal. That's real language you can use today.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "eed699227168b30c056348608220afea0d6a91e20e38809615c1edad727775f2"
+        }
+      ]
+    },
+    "outro-4-full": {
+      "segments": [
+        {
+          "text": "Next time, we'll take this same idea and look at words with different endings. You'll see how quickly your vocabulary grows once you know what to look for.",
+          "lang": "en",
+          "file": "outro-4-full-1.mp3",
+          "hash": "fb6f0bd0f82198007dac65b0adc0e3ea922bacc9f812d2f5d3b75b668d641991"
+        }
+      ]
+    }
+  }
+}

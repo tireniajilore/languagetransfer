@@ -1,50 +1,62 @@
-import { BrowserTTS } from '@/adapters/tts/browser-tts';
 import type { TTSAdapter } from '@/types/adapters';
+import type { TTSManifest } from '@/types/tts-manifest';
 import type { SpeechSegment } from '@/types/lesson';
 
-export class ElevenLabsTTS implements TTSAdapter {
-  private readonly browserFallback: BrowserTTS;
+export class StaticTTS implements TTSAdapter {
+  private readonly lessonId: string;
+  private readonly fallback: TTSAdapter | null;
   private activeAudio: HTMLAudioElement | null;
   private activeAudioUrl: string | null;
   private activeRequest: AbortController | null;
   private playbackToken: number;
+  private manifestPromise: Promise<TTSManifest | null> | null;
 
-  constructor(browserFallback = new BrowserTTS()) {
-    this.browserFallback = browserFallback;
+  constructor(lessonId: string, fallback: TTSAdapter | null = null) {
+    this.lessonId = lessonId;
+    this.fallback = fallback;
     this.activeAudio = null;
     this.activeAudioUrl = null;
     this.activeRequest = null;
     this.playbackToken = 0;
+    this.manifestPromise = null;
   }
 
-  async speak(text: string, segments?: SpeechSegment[], _sourceKey?: string): Promise<void> {
+  async speak(text: string, segments?: SpeechSegment[], sourceKey?: string): Promise<void> {
+    if (!sourceKey) {
+      return this.fallback?.speak(text, segments, sourceKey) ?? Promise.reject(new Error('Static TTS requires a source key.'));
+    }
+
     this.stop();
 
     const token = ++this.playbackToken;
+    const manifest = await this.loadManifest();
+    const entry = manifest?.entries[sourceKey];
+
+    if (!entry) {
+      return this.fallback?.speak(text, segments, sourceKey) ?? Promise.reject(new Error(`No static audio found for ${sourceKey}.`));
+    }
+
     const controller = new AbortController();
     this.activeRequest = controller;
-    const toSpeak = segments?.length ? segments : [{ text, lang: 'en' as const }];
-    let hasStartedPlayback = false;
 
     try {
-      let nextBlobPromise: Promise<Blob> | null = this.fetchSegmentBlob(toSpeak[0], controller, token);
+      let nextBlobPromise: Promise<Blob> | null = this.fetchStaticBlob(entry.segments[0].file, controller, token);
 
-      for (let index = 0; index < toSpeak.length; index += 1) {
+      for (let index = 0; index < entry.segments.length; index += 1) {
         if (!nextBlobPromise || token !== this.playbackToken) {
           return;
         }
 
         const blob = await nextBlobPromise;
-        const nextSegment = toSpeak[index + 1];
+        const nextSegment = entry.segments[index + 1];
         nextBlobPromise = nextSegment
-          ? this.fetchSegmentBlob(nextSegment, controller, token)
+          ? this.fetchStaticBlob(nextSegment.file, controller, token)
           : null;
 
         if (token !== this.playbackToken) {
           return;
         }
 
-        hasStartedPlayback = true;
         await this.playBlob(blob, token);
       }
     } catch (error) {
@@ -54,10 +66,7 @@ export class ElevenLabsTTS implements TTSAdapter {
 
       this.clearActiveAudio();
       this.activeRequest = null;
-      if (!hasStartedPlayback) {
-        return this.browserFallback.speak(text);
-      }
-      throw error;
+      return this.fallback?.speak(text, segments, sourceKey) ?? Promise.reject(error);
     } finally {
       if (this.activeRequest === controller) {
         this.activeRequest = null;
@@ -78,7 +87,25 @@ export class ElevenLabsTTS implements TTSAdapter {
     }
     this.clearActiveAudio();
 
-    this.browserFallback.stop();
+    this.fallback?.stop();
+  }
+
+  private loadManifest() {
+    if (!this.manifestPromise) {
+      this.manifestPromise = fetch(`/audio/${this.lessonId}/manifest.json`, {
+        cache: 'no-store'
+      })
+        .then(async (response) => {
+          if (!response.ok) {
+            return null;
+          }
+
+          return response.json() as Promise<TTSManifest>;
+        })
+        .catch(() => null);
+    }
+
+    return this.manifestPromise;
   }
 
   private clearActiveAudio() {
@@ -95,18 +122,14 @@ export class ElevenLabsTTS implements TTSAdapter {
     }
   }
 
-  private async fetchSegmentBlob(
-    segment: SpeechSegment,
+  private async fetchStaticBlob(
+    fileName: string,
     controller: AbortController,
     token: number
   ) {
-    const response = await fetch('/api/tts', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ text: segment.text, lang: segment.lang }),
-      signal: controller.signal
+    const response = await fetch(`/audio/${this.lessonId}/${fileName}`, {
+      signal: controller.signal,
+      cache: 'force-cache'
     });
 
     if (token !== this.playbackToken) {
@@ -114,8 +137,7 @@ export class ElevenLabsTTS implements TTSAdapter {
     }
 
     if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(errorText || 'ElevenLabs TTS request failed.');
+      throw new Error(`Static audio missing: ${fileName}`);
     }
 
     return response.blob();
@@ -143,7 +165,7 @@ export class ElevenLabsTTS implements TTSAdapter {
           return;
         }
         this.clearActiveAudio();
-        reject(new Error('Unable to play ElevenLabs audio.'));
+        reject(new Error('Unable to play static audio.'));
       };
 
       audio.play().catch((error) => {

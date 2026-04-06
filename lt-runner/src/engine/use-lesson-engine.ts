@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useReducer, useRef } from 'react';
 import { BrowserTTS } from '@/adapters/tts/browser-tts';
 import { ElevenLabsTTS } from '@/adapters/tts/elevenlabs';
+import { StaticTTS } from '@/adapters/tts/static-tts';
 import { TextTTS } from '@/adapters/tts/text-tts';
 import { createInitialEngineState, lessonEngineReducer } from '@/engine/lesson-engine';
 import { waitDurationToSeconds } from '@/lib/parse-transcript';
@@ -44,7 +45,7 @@ export function useLessonEngine(lesson: Lesson) {
 
   useEffect(() => {
     ttsRef.current = typeof window !== 'undefined'
-      ? new ElevenLabsTTS(new BrowserTTS())
+      ? new StaticTTS(lesson.id, new ElevenLabsTTS(new BrowserTTS()))
       : new TextTTS();
 
     return () => {
@@ -96,7 +97,7 @@ export function useLessonEngine(lesson: Lesson) {
     }
 
     let cancelled = false;
-    adapter.speak(currentStep.text, currentStep.segments)
+    adapter.speak(currentStep.text, currentStep.segments, currentStep.sourceKey)
       .then(() => {
         if (!cancelled) handleStepDone();
       })

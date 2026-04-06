@@ -12,7 +12,7 @@ export class BrowserTTS implements TTSAdapter {
     this.activeUtterance = null;
   }
 
-  speak(text: string, _segments?: SpeechSegment[]) {
+  speak(text: string, _segments?: SpeechSegment[], _sourceKey?: string) {
     if (!this.synthesis) {
       return Promise.reject(new Error('Speech synthesis unavailable'));
     }
