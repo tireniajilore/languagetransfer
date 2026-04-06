@@ -33,11 +33,6 @@ export function StepDisplay({ step, mode }: StepDisplayProps) {
       <h2 className="mt-5 text-3xl font-semibold leading-tight text-ink md:text-4xl">
         {step.text}
       </h2>
-      {step.acceptedAnswers?.length ? (
-        <p className="mt-4 text-sm text-ink/55">
-          Expected forms: {step.acceptedAnswers.join(', ')}
-        </p>
-      ) : null}
       <div className="mt-8 flex items-center gap-3 text-sm text-ink/55">
         <span className="rounded-full bg-mist px-3 py-1 font-medium">{step.type}</span>
         <span>Mode: {mode.replaceAll('_', ' ')}</span>

@@ -5,7 +5,6 @@ import { useEffect, useRef } from 'react';
 interface ResponseInputProps {
   enabled: boolean;
   value: string;
-  acceptedAnswers?: string[];
   onChange: (value: string) => void;
   onSubmit: () => void;
   onSkip: () => void;
@@ -14,7 +13,6 @@ interface ResponseInputProps {
 export function ResponseInput({
   enabled,
   value,
-  acceptedAnswers,
   onChange,
   onSubmit,
   onSkip
@@ -46,7 +44,7 @@ export function ResponseInput({
                 onSubmit();
               }
             }}
-            placeholder={enabled ? 'Answer in Spanish...' : 'Response input activates at prompts'}
+            placeholder={enabled ? 'Answer in Spanish...' : 'Your turn is coming...'}
             className="mt-2 w-full rounded-2xl border border-ink/10 bg-white px-4 py-3 text-base text-ink outline-none transition focus:border-ink/30 disabled:bg-slate-50"
           />
         </div>
@@ -67,11 +65,6 @@ export function ResponseInput({
           </button>
         </div>
       </div>
-      {acceptedAnswers?.length ? (
-        <p className="mt-4 text-sm text-ink/50">
-          Reference answers: {acceptedAnswers.join(', ')}
-        </p>
-      ) : null}
     </section>
   );
 }

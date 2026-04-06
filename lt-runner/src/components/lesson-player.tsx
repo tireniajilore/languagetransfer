@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useEffect } from 'react';
 import { Controls } from '@/components/controls';
 import { DemandCard } from '@/components/demand-card';
@@ -122,7 +123,12 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
     <main className="min-h-screen px-4 py-10 md:px-8">
       <div className="mx-auto flex max-w-6xl flex-col gap-6">
         <header className="rounded-[2rem] bg-white/70 p-8 shadow-panel backdrop-blur">
-          <p className="text-sm uppercase tracking-[0.3em] text-ink/45">VoiceAI Demand Test</p>
+          <Link
+            href="/"
+            className="text-sm uppercase tracking-[0.3em] text-ink/45 transition hover:text-ink/70"
+          >
+            VoiceAI Demand Test
+          </Link>
           <div className="mt-4 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div className="max-w-3xl">
               <h1 className="text-4xl font-semibold tracking-tight text-ink">{lesson.title}</h1>
@@ -145,7 +151,6 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
               <ResponseInput
                 enabled={promptActive}
                 value={state.currentInput}
-                acceptedAnswers={currentStep?.acceptedAnswers}
                 onChange={setInput}
                 onSubmit={() => submitResponse()}
                 onSkip={skip}

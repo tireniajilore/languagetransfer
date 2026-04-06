@@ -12,9 +12,9 @@ const QUESTION_START_PATTERNS = [
 ];
 
 const WAIT_BY_TEXT: Record<WaitDuration, number> = {
-  short: 3,
-  medium: 5,
-  long: 8,
+  short: 8,
+  medium: 12,
+  long: 20,
   extended: 30
 };
 
