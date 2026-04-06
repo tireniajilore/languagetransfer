@@ -34,7 +34,7 @@ export async function POST(request: Request) {
     return Response.json({ error: 'event and sessionId are required.' }, { status: 400 });
   }
 
-  const apiKey = process.env.POSTHOG_PROJECT_API_KEY;
+  const apiKey = process.env.POSTHOG_PROJECT_API_KEY?.trim();
   if (!apiKey) {
     return new Response(null, { status: 204 });
   }
