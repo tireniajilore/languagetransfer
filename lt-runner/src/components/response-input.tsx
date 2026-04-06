@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 
 interface ResponseInputProps {
   enabled: boolean;
+  allowSkip?: boolean;
   value: string;
   onChange: (value: string) => void;
   onSubmit: () => void;
@@ -12,6 +13,7 @@ interface ResponseInputProps {
 
 export function ResponseInput({
   enabled,
+  allowSkip = enabled,
   value,
   onChange,
   onSubmit,
@@ -58,7 +60,7 @@ export function ResponseInput({
           </button>
           <button
             onClick={onSkip}
-            disabled={!enabled}
+            disabled={!allowSkip}
             className="rounded-full border border-ink/15 bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-white/90 disabled:cursor-not-allowed disabled:text-ink/30"
           >
             Skip

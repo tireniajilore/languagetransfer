@@ -128,7 +128,9 @@ export function lessonEngineReducer(state: EngineState, action: EngineAction): E
     case 'RESPOND':
       return advanceWithResponse(state, action.payload.kind, action.payload.response);
     case 'SKIP':
-      return advanceWithResponse(state, 'skipped', '');
+      return state.lesson.steps[state.currentStepIndex]?.type === 'open_prompt'
+        ? advanceWithoutResponse(state)
+        : advanceWithResponse(state, 'skipped', '');
     case 'TIMEOUT':
       return state.lesson.steps[state.currentStepIndex]?.type === 'open_prompt'
         ? advanceWithoutResponse(state)

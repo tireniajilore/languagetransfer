@@ -74,59 +74,55 @@ export const lesson02Segments: Record<string, SpeechSegment[]> = {
     es('Natural.'),
     en('And stress the final syllable.')
   ],
-  // turn index 28: "no" introduction
+  // turn index 29: merged "no / no es" prompt
   'turn-30-full': [
-    en("If you want to say 'it isn't' or 'it's not', the word for 'not' or 'don't' is the same as the word for 'no'. And the word for 'no' in Spanish is the same as English, but you pronounce it like Spanish:"),
-    es('no.')
+    en("If you want to say 'it isn't' or 'it's not', the word for 'not' is"),
+    es('no.'),
+    en("You put"),
+    es('no'),
+    en("before"),
+    es('es')
+    ,
+    en("to say 'it is not'. How would you say 'it is not'?")
   ],
   // turn index 31: no es feedback
-  'turn-33-full': [
+  'turn-32-full': [
     es('No es.'),
     en("Good. So now we can say things like 'it's not normal'.")
   ],
   // turn index 34: no es normal feedback
-  'turn-36-full': [
+  'turn-35-full': [
     es('No es normal.'),
     en('Good.')
   ],
   // turn index 37: ideal feedback
-  'turn-39-full': [
+  'turn-38-full': [
     es('Ideal.'),
     en('Good.')
   ],
   // turn index 40: es ideal feedback
-  'turn-42-full': [
+  'turn-41-full': [
     es('Es ideal.'),
     en('Good.')
   ],
   // turn index 43: no es ideal feedback
-  'turn-45-full': [
+  'turn-44-full': [
     es('No es ideal.'),
     en('Perfect.')
   ],
-  // turn index 46: fatal feedback
-  'turn-48-full': [
-    es('Fatal.'),
-    en('Good.')
-  ],
-  // turn index 49: colonial feedback
-  'turn-51-full': [
-    es('Colonial.'),
-    en('Good.')
-  ],
-  // turn index 52: cultural feedback
-  'turn-54-full': [
+  // turn index 46: cultural feedback
+  'turn-47-full': [
     es('Cultural.'),
     en('Good. Notice how each vowel gets its own clean sound.'),
     es('Cultural.')
   ],
-  // turn index 55: anual feedback
-  'turn-57-full': [
+  // turn index 49: anual feedback
+  'turn-50-full': [
     es('Anual.'),
     en('Very nice.')
   ],
-  // turn index 58: dental feedback
-  'turn-60-full': [
+  // turn index 52: dental feedback
+  'turn-53-full': [
     es('Dental.'),
     en('Good. Tooth in Spanish is'),
     es('diente.'),
@@ -134,13 +130,13 @@ export const lesson02Segments: Record<string, SpeechSegment[]> = {
     es('diente,'),
     en('rather than treating it as random vocabulary to memorize, you can relate it back to dental.')
   ],
-  // turn index 61: verbal feedback
-  'turn-63-full': [
+  // turn index 55: verbal feedback
+  'turn-56-full': [
     es('Verbal.'),
     en("Good. So knowing 'verbal', you can probably guess the word for 'verb' in Spanish.")
   ],
-  // turn index 64: verbo feedback
-  'turn-66-full': [
+  // turn index 58: verbo feedback
+  'turn-59-full': [
     es('Verbo.'),
     en("Good. With vocabulary, it's okay to guess based on patterns. If you're a little off, a native speaker will usually still understand you, and then you can adjust. That's one of the fastest ways to build vocabulary.")
   ]

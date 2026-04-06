@@ -33,7 +33,7 @@ export function LandingPage() {
               Start Free Lesson
             </Link>
             <p className="text-sm text-ink/55">
-              About 15 minutes. Best with headphones. You can speak aloud or type your answers.
+              About 10 minutes. Best with headphones. You can speak aloud or type your answers.
             </p>
           </div>
         </section>

@@ -8,7 +8,6 @@ import { ProgressBar } from '@/components/progress-bar';
 import { ResponseInput } from '@/components/response-input';
 import { ResponseLog } from '@/components/response-log';
 import { StepDisplay } from '@/components/step-display';
-import { WaitingIndicator } from '@/components/waiting-indicator';
 import { useLessonEngine } from '@/engine/use-lesson-engine';
 import { trackEventOnce } from '@/lib/analytics';
 import type { Lesson } from '@/types/lesson';
@@ -67,6 +66,7 @@ export function LessonPlayer({ lesson, autostart = false }: LessonPlayerProps) {
 
   const progressValue = ((Math.min(state.currentStepIndex + 1, state.lesson.steps.length)) / state.lesson.steps.length) * 100;
   const promptActive = state.mode === 'waiting_for_response' && currentStep?.type === 'prompt';
+  const openPromptActive = state.mode === 'waiting_for_response' && currentStep?.type === 'open_prompt';
   const lessonKey = lesson.id;
 
   const handleStart = useCallback(() => {
@@ -184,12 +184,12 @@ export function LessonPlayer({ lesson, autostart = false }: LessonPlayerProps) {
                 </button>
               </div>
             )}
-            <WaitingIndicator waiting={state.waiting} />
             {state.mode === 'completed' ? (
               <DemandCard lessonId={lesson.id} completionPercent={100} />
             ) : (
               <ResponseInput
                 enabled={promptActive}
+                allowSkip={promptActive || openPromptActive}
                 value={state.currentInput}
                 onChange={setInput}
                 onSubmit={() => submitResponse()}
