@@ -11,7 +11,11 @@ export async function GET() {
   const apiKey = process.env.POSTHOG_PROJECT_API_KEY;
   return Response.json({
     hasKey: !!apiKey,
-    keyPrefix: apiKey ? apiKey.slice(0, 8) + '...' : null,
+    keyLength: apiKey?.length,
+    keyPrefix: apiKey ? apiKey.slice(0, 12) : null,
+    keySuffix: apiKey ? apiKey.slice(-8) : null,
+    hasQuotes: apiKey ? (apiKey.startsWith('"') || apiKey.startsWith("'")) : null,
+    hasWhitespace: apiKey ? apiKey !== apiKey.trim() : null,
     host: process.env.POSTHOG_HOST || DEFAULT_POSTHOG_HOST,
     envKeys: Object.keys(process.env).filter(k => k.toLowerCase().includes('posthog'))
   });
