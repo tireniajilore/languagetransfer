@@ -37,27 +37,6 @@ export function LandingPage() {
             </p>
           </div>
         </section>
-
-        <div className="grid gap-6 md:grid-cols-3">
-          <section className="rounded-[2rem] bg-white/70 p-6 shadow-panel backdrop-blur">
-            <p className="text-sm uppercase tracking-[0.25em] text-ink/45">How It Works</p>
-            <p className="mt-4 text-base leading-7 text-ink/70">
-              The lesson stops on purpose. The pause where you try to form the answer is the point.
-            </p>
-          </section>
-          <section className="rounded-[2rem] bg-white/70 p-6 shadow-panel backdrop-blur">
-            <p className="text-sm uppercase tracking-[0.25em] text-ink/45">What You Need</p>
-            <p className="mt-4 text-base leading-7 text-ink/70">
-              A browser, a few quiet minutes, and enough curiosity to try speaking before you hear the answer.
-            </p>
-          </section>
-          <section className="rounded-[2rem] bg-white/70 p-6 shadow-panel backdrop-blur">
-            <p className="text-sm uppercase tracking-[0.25em] text-ink/45">Why This Test</p>
-            <p className="mt-4 text-base leading-7 text-ink/70">
-              I’m checking whether people actually want more lessons like this before building the full course.
-            </p>
-          </section>
-        </div>
       </div>
     </main>
   );
