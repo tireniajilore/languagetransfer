@@ -6,6 +6,17 @@ interface AnalyticsRequestBody {
 
 const DEFAULT_POSTHOG_HOST = 'https://us.i.posthog.com';
 
+// Temporary diagnostic — remove after confirming PostHog works
+export async function GET() {
+  const apiKey = process.env.POSTHOG_PROJECT_API_KEY;
+  return Response.json({
+    hasKey: !!apiKey,
+    keyPrefix: apiKey ? apiKey.slice(0, 8) + '...' : null,
+    host: process.env.POSTHOG_HOST || DEFAULT_POSTHOG_HOST,
+    envKeys: Object.keys(process.env).filter(k => k.toLowerCase().includes('posthog'))
+  });
+}
+
 export async function POST(request: Request) {
   let body: AnalyticsRequestBody;
 
