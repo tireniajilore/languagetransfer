@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import { Controls } from '@/components/controls';
 import { DemandCard } from '@/components/demand-card';
 import { ProgressBar } from '@/components/progress-bar';
@@ -15,9 +15,11 @@ import type { Lesson } from '@/types/lesson';
 
 interface LessonPlayerProps {
   lesson: Lesson;
+  autostart?: boolean;
 }
 
-export function LessonPlayer({ lesson }: LessonPlayerProps) {
+export function LessonPlayer({ lesson, autostart = false }: LessonPlayerProps) {
+  const hasAutoStartedRef = useRef(false);
   const {
     state,
     currentStep,
@@ -65,6 +67,22 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
   const promptActive = state.mode === 'waiting_for_response' && currentStep?.type === 'prompt';
   const lessonKey = lesson.id;
 
+  const handleStart = useCallback(() => {
+    trackEventOnce(`${lessonKey}-started`, 'lesson_started', {
+      lessonId: lesson.id,
+      completionPercent: 0,
+      currentStepIndex: 0
+    });
+    start();
+  }, [lesson.id, lessonKey, start]);
+
+  useEffect(() => {
+    if (!autostart || hasAutoStartedRef.current || !canStart || state.mode !== 'idle') return;
+
+    hasAutoStartedRef.current = true;
+    handleStart();
+  }, [autostart, canStart, handleStart, state.mode]);
+
   useEffect(() => {
     if (state.mode === 'idle') return;
 
@@ -110,15 +128,6 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
     });
   }, [lesson.id, lessonKey, state.lesson.steps.length, state.mode]);
 
-  const handleStart = () => {
-    trackEventOnce(`${lessonKey}-started`, 'lesson_started', {
-      lessonId: lesson.id,
-      completionPercent: 0,
-      currentStepIndex: 0
-    });
-    start();
-  };
-
   return (
     <main className="min-h-screen px-4 py-10 md:px-8">
       <div className="mx-auto flex max-w-6xl flex-col gap-6">
@@ -141,6 +150,25 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
           </div>
         </header>
 
+        <div className="rounded-[2rem] bg-white/70 p-6 shadow-panel backdrop-blur">
+          <Controls
+            canStart={canStart}
+            canPause={canPause}
+            canResume={canResume}
+            canGoPrevious={canGoPrevious}
+            canGoNext={canGoNext}
+            onStart={handleStart}
+            onPause={pause}
+            onResume={resume}
+            onPrevious={previous}
+            onNext={next}
+            onRestart={restart}
+          />
+          <div className="mt-6">
+            <ProgressBar value={progressValue} />
+          </div>
+        </div>
+
         <div className="grid gap-6 lg:grid-cols-[1.6fr_1fr]">
           <div className="space-y-6">
             <StepDisplay step={currentStep} mode={state.mode} />
@@ -156,24 +184,6 @@ export function LessonPlayer({ lesson }: LessonPlayerProps) {
                 onSkip={skip}
               />
             )}
-            <div className="rounded-[2rem] bg-white/70 p-6 shadow-panel backdrop-blur">
-              <Controls
-                canStart={canStart}
-                canPause={canPause}
-                canResume={canResume}
-                canGoPrevious={canGoPrevious}
-                canGoNext={canGoNext}
-                onStart={handleStart}
-                onPause={pause}
-                onResume={resume}
-                onPrevious={previous}
-                onNext={next}
-                onRestart={restart}
-              />
-              <div className="mt-6">
-                <ProgressBar value={progressValue} />
-              </div>
-            </div>
           </div>
 
           <ResponseLog responses={state.responses} />

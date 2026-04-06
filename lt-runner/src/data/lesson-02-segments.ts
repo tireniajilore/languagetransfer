@@ -12,7 +12,7 @@ export const lesson02Segments: Record<string, SpeechSegment[]> = {
   ],
   'turn-6-full': [
     es('Metal.'),
-    en("Good. To get a perfect accent in Spanish, pronounce the vowels exactly as they are written. In Spanish, the vowels are very clean: A is 'ah', E is 'eh', I is 'ee', O is 'oh', U is 'oo'.")
+    en('Good. Spanish vowels stay short and steady: ah... eh... ee... oh... ooh.')
   ],
   'turn-7-full': [
     en("The word for 'is' in Spanish is"),
@@ -51,7 +51,7 @@ export const lesson02Segments: Record<string, SpeechSegment[]> = {
   ],
   'turn-29-full': [
     es('Natural.'),
-    en("Good. Remember to pronounce every letter as written - A is 'ah', U is 'oo'."),
+    en('Good. Remember to pronounce every letter as written - A sounds like ah, and U sounds like oo.'),
     es('Natural.'),
     en('And stress the final syllable.')
   ],

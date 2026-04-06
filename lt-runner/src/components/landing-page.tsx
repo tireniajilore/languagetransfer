@@ -27,7 +27,7 @@ export function LandingPage() {
 
           <div className="mt-8 flex flex-col gap-4 md:flex-row md:items-center">
             <Link
-              href="/lesson/2"
+              href="/lesson/2?autostart=1"
               className="inline-flex w-fit items-center rounded-full bg-leaf px-6 py-4 text-base font-semibold text-white transition hover:bg-leaf/90"
             >
               Start Free Lesson
