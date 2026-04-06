@@ -12,27 +12,27 @@ function labelForKind(kind: ResponseRecord['kind']) {
 
 export function ResponseLog({ responses }: ResponseLogProps) {
   return (
-    <section className="rounded-[2rem] bg-white/70 p-6 shadow-panel backdrop-blur">
+    <section className="rounded-[2rem] bg-white/70 p-3 shadow-panel backdrop-blur">
       <div className="flex items-center justify-between">
-        <h3 className="text-lg font-semibold text-ink">Response log</h3>
-        <span className="text-sm text-ink/50">{responses.length} entries</span>
+        <h3 className="text-sm font-semibold text-ink">Response log</h3>
+        <span className="text-xs text-ink/50">{responses.length} entries</span>
       </div>
 
       {responses.length === 0 ? (
-        <p className="mt-4 text-sm leading-6 text-ink/55">
-          Your responses will appear here as the lesson moves through prompts.
+        <p className="mt-2 text-xs leading-5 text-ink/50">
+          Responses appear here as you answer prompts.
         </p>
       ) : (
-        <ul className="mt-5 space-y-3">
+        <ul className="mt-3 max-h-[360px] space-y-1.5 overflow-y-auto">
           {responses.map((response) => (
-            <li key={`${response.stepId}-${response.kind}-${response.stepIndex}`} className="rounded-2xl border border-ink/10 bg-white/80 p-4">
-              <div className="flex items-center justify-between gap-3">
-                <p className="text-sm font-medium text-ink/60">{labelForKind(response.kind)}</p>
-                <p className="text-xs uppercase tracking-[0.2em] text-ink/40">Step {response.stepIndex + 1}</p>
+            <li key={`${response.stepId}-${response.kind}-${response.stepIndex}`} className="rounded-xl border border-ink/10 bg-white/80 px-3 py-2">
+              <div className="flex items-center justify-between gap-2">
+                <p className="text-xs font-medium text-ink/60">{labelForKind(response.kind)}</p>
+                <p className="text-xs text-ink/35">#{response.stepIndex + 1}</p>
               </div>
-              <p className="mt-2 text-sm text-ink/60">{response.promptText}</p>
-              <p className="mt-3 text-base font-medium text-ink">
-                {response.response || <span className="italic text-ink/45">No response captured</span>}
+              <p className="mt-1 text-xs text-ink/50 line-clamp-1">{response.promptText}</p>
+              <p className="mt-1 text-xs font-medium text-ink">
+                {response.response || <span className="italic text-ink/40">—</span>}
               </p>
             </li>
           ))}
