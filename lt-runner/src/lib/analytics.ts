@@ -17,13 +17,6 @@ export type AnalyticsPayload = Record<string, string | number | boolean | null |
 
 function postAnalytics(payload: object) {
   const body = JSON.stringify(payload);
-
-  if (typeof navigator !== 'undefined' && 'sendBeacon' in navigator) {
-    const blob = new Blob([body], { type: 'application/json' });
-    navigator.sendBeacon('/api/analytics', blob);
-    return;
-  }
-
   void fetch('/api/analytics', {
     method: 'POST',
     headers: {
@@ -31,6 +24,11 @@ function postAnalytics(payload: object) {
     },
     body,
     keepalive: true
+  }).catch(() => {
+    if (typeof navigator !== 'undefined' && 'sendBeacon' in navigator) {
+      const blob = new Blob([body], { type: 'application/json' });
+      navigator.sendBeacon('/api/analytics', blob);
+    }
   });
 }
 
