@@ -69,5 +69,24 @@
     {"speaker": "tutor", "text": "How do you think you say verb in Spanish?", "is_prompt": true},
     {"speaker": "student", "expected_answers": ["verbo"]},
     {"speaker": "tutor", "text": "Verbo. Good. With vocabulary, it's okay to guess based on patterns. If you're a little off, a native speaker will usually still understand you, and then you can adjust. That's one of the fastest ways to build vocabulary.", "is_feedback": true}
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've now got a pattern that works for hundreds of English words. Any word ending in A-L - you already know how to say it in Spanish."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try one that we haven't covered. Think of any English word ending in A-L - maybe 'emotional', or 'professional', or 'digital' - and say it in Spanish with the stress on the end.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "You can now describe things in a conversation. Something is normal, something is ideal, something is not legal. That's real language you can use today."
+    },
+    {
+      "type": "narration",
+      "text": "Next time, we'll take this same idea and look at words with different endings. You'll see how quickly your vocabulary grows once you know what to look for."
+    }
   ]
 }

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'LT Runner',
-  description: 'Single-lesson Language Transfer runner MVP'
+  title: 'VoiceAI',
+  description: 'Interactive Spanish lessons built around the Language Transfer thinking method'
 };
 
 export default function RootLayout({

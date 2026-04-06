@@ -73,7 +73,7 @@ export function useLessonEngine(lesson: Lesson) {
     const usingTextOnly = adapter instanceof TextTTS;
     const fallbackDuration = (currentStep.estimatedDuration ?? 2) * 1000;
 
-    const isPrompt = currentStep.type === 'prompt';
+    const isPrompt = currentStep.type === 'prompt' || currentStep.type === 'open_prompt';
 
     const handleStepDone = () => {
       if (isPrompt) {
@@ -116,6 +116,7 @@ export function useLessonEngine(lesson: Lesson) {
 
   const waitingStartedAt = state.waiting?.startedAt ?? null;
   const waitingTotalSeconds = state.waiting?.totalSeconds ?? null;
+  const waitingForOpenPrompt = currentStep?.type === 'open_prompt';
 
   useEffect(() => {
     clearWaitingTimers();
@@ -136,21 +137,27 @@ export function useLessonEngine(lesson: Lesson) {
       }
     }, 250);
 
-    timeoutRef.current = window.setTimeout(() => {
-      dispatch({
-        type: 'SET_FALLBACK_MESSAGE',
-        payload: { message: FALLBACK_MESSAGE }
-      });
-
-      fallbackAdvanceRef.current = window.setTimeout(() => {
+    if (waitingForOpenPrompt) {
+      timeoutRef.current = window.setTimeout(() => {
         dispatch({ type: 'TIMEOUT' });
-      }, 1200);
-    }, waitingTotalSeconds * 1000);
+      }, waitingTotalSeconds * 1000);
+    } else {
+      timeoutRef.current = window.setTimeout(() => {
+        dispatch({
+          type: 'SET_FALLBACK_MESSAGE',
+          payload: { message: FALLBACK_MESSAGE }
+        });
+
+        fallbackAdvanceRef.current = window.setTimeout(() => {
+          dispatch({ type: 'TIMEOUT' });
+        }, 1200);
+      }, waitingTotalSeconds * 1000);
+    }
 
     return () => {
       clearWaitingTimers();
     };
-  }, [state.mode, waitingStartedAt, waitingTotalSeconds, clearWaitingTimers]);
+  }, [state.mode, waitingStartedAt, waitingTotalSeconds, waitingForOpenPrompt, clearWaitingTimers]);
 
   useEffect(() => {
     return () => {

@@ -1,6 +1,6 @@
-export type StepType = 'narration' | 'prompt' | 'reveal' | 'instruction' | 'pause';
+export type StepType = 'narration' | 'prompt' | 'open_prompt' | 'reveal' | 'instruction' | 'pause';
 
-export type WaitDuration = 'short' | 'medium' | 'long';
+export type WaitDuration = 'short' | 'medium' | 'long' | 'extended';
 
 export interface SpeechSegment {
   text: string;
@@ -39,4 +39,9 @@ export interface RawLesson {
   title: string;
   description: string;
   turns: RawLessonTurn[];
+  outro?: Array<{
+    type: 'narration' | 'open_prompt';
+    text: string;
+    waitDuration?: WaitDuration;
+  }>;
 }

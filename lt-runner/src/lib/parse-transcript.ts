@@ -14,7 +14,8 @@ const QUESTION_START_PATTERNS = [
 const WAIT_BY_TEXT: Record<WaitDuration, number> = {
   short: 3,
   medium: 5,
-  long: 8
+  long: 8,
+  extended: 30
 };
 
 type StepPart = 'full' | 'prompt' | 'reveal';
@@ -165,6 +166,17 @@ export function convertRawLessonToLesson(rawLesson: RawLesson): Lesson {
         text: turn.text ?? ''
       })
     );
+  });
+
+  rawLesson.outro?.forEach((entry, index) => {
+    steps.push({
+      id: `outro-${index + 1}`,
+      type: entry.type,
+      text: entry.text,
+      waitDuration: entry.waitDuration,
+      expectsResponse: entry.type === 'open_prompt' ? false : undefined,
+      estimatedDuration: estimateDuration(entry.text)
+    });
   });
 
   return {

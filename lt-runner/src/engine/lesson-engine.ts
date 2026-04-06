@@ -38,6 +38,17 @@ function advanceWithResponse(state: EngineState, kind: ResponseRecord['kind'], r
   };
 }
 
+function advanceWithoutResponse(state: EngineState): EngineState {
+  const nextIndex = state.currentStepIndex + 1;
+  return {
+    ...state,
+    currentInput: '',
+    currentStepIndex: nextIndex,
+    mode: nextModeForIndex(nextIndex, state.lesson),
+    waiting: null
+  };
+}
+
 function moveToStep(state: EngineState, targetIndex: number): EngineState {
   return {
     ...state,
@@ -119,7 +130,9 @@ export function lessonEngineReducer(state: EngineState, action: EngineAction): E
     case 'SKIP':
       return advanceWithResponse(state, 'skipped', '');
     case 'TIMEOUT':
-      return advanceWithResponse(state, 'timed_out', '');
+      return state.lesson.steps[state.currentStepIndex]?.type === 'open_prompt'
+        ? advanceWithoutResponse(state)
+        : advanceWithResponse(state, 'timed_out', '');
     case 'STEP_COMPLETE': {
       const nextIndex = state.currentStepIndex + 1;
       return {

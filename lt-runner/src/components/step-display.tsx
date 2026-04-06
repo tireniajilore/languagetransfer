@@ -9,6 +9,7 @@ const labels: Record<LessonStep['type'], string> = {
   narration: 'Tutor',
   reveal: 'Tutor Feedback',
   prompt: 'Your Turn',
+  open_prompt: 'Try It',
   instruction: 'Instruction',
   pause: 'Pause'
 };
@@ -17,10 +18,10 @@ export function StepDisplay({ step, mode }: StepDisplayProps) {
   if (!step) {
     return (
       <section className="rounded-[2rem] bg-white/80 p-8 shadow-panel backdrop-blur">
-        <p className="text-sm uppercase tracking-[0.25em] text-ink/50">Complete</p>
-        <h2 className="mt-4 text-3xl font-semibold text-ink">Lesson finished.</h2>
+        <p className="text-sm uppercase tracking-[0.25em] text-ink/50">Keep Going</p>
+        <h2 className="mt-4 text-3xl font-semibold text-ink">That pattern is yours now.</h2>
         <p className="mt-3 max-w-2xl text-base leading-7 text-ink/70">
-          Restart any time to run through the full transcript again.
+          If you would want the next lesson in this format, tell me below. That will shape what I build next.
         </p>
       </section>
     );

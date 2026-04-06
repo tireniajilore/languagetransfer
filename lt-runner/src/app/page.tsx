@@ -1,5 +1,5 @@
-import { LessonPlayer } from '@/components/lesson-player';
+import { LandingPage } from '@/components/landing-page';
 
 export default function HomePage() {
-  return <LessonPlayer />;
+  return <LandingPage />;
 }
