@@ -36,6 +36,8 @@ export async function POST(request: Request) {
       event: body.event,
       distinct_id: body.sessionId,
       properties: {
+        token: apiKey,
+        distinct_id: body.sessionId,
         session_id: body.sessionId,
         ...body.properties
       }
