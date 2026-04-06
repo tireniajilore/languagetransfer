@@ -184,6 +184,12 @@ export function useLessonEngine(lesson: Lesson) {
     });
   }, [state.currentInput]);
   const skip = useCallback(() => dispatch({ type: 'SKIP' }), []);
+  const skipIntro = useCallback(() => dispatch({ type: 'SKIP_INTRO' }), []);
+
+  const firstPromptIndex = useMemo(
+    () => state.lesson.steps.findIndex(s => s.type === 'prompt'),
+    [state.lesson.steps]
+  );
 
   const snapshot: LessonEngineSnapshot = useMemo(() => ({
     state,
@@ -195,8 +201,14 @@ export function useLessonEngine(lesson: Lesson) {
     canGoNext: state.currentStepIndex < state.lesson.steps.length - 1 && state.mode !== 'idle'
   }), [state, currentStep]);
 
+  const canSkipIntro =
+    state.mode === 'playing' &&
+    firstPromptIndex > 0 &&
+    state.currentStepIndex < firstPromptIndex;
+
   return {
     ...snapshot,
+    canSkipIntro,
     start,
     pause,
     resume,
@@ -205,6 +217,7 @@ export function useLessonEngine(lesson: Lesson) {
     previous,
     setInput,
     submitResponse,
-    skip
+    skip,
+    skipIntro
   };
 }
