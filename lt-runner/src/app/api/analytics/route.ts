@@ -6,20 +6,6 @@ interface AnalyticsRequestBody {
 
 const DEFAULT_POSTHOG_HOST = 'https://us.i.posthog.com';
 
-// Temporary diagnostic — remove after confirming PostHog works
-export async function GET() {
-  const apiKey = process.env.POSTHOG_PROJECT_API_KEY;
-  return Response.json({
-    hasKey: !!apiKey,
-    keyLength: apiKey?.length,
-    keyPrefix: apiKey ? apiKey.slice(0, 12) : null,
-    keySuffix: apiKey ? apiKey.slice(-8) : null,
-    hasQuotes: apiKey ? (apiKey.startsWith('"') || apiKey.startsWith("'")) : null,
-    hasWhitespace: apiKey ? apiKey !== apiKey.trim() : null,
-    host: process.env.POSTHOG_HOST || DEFAULT_POSTHOG_HOST,
-    envKeys: Object.keys(process.env).filter(k => k.toLowerCase().includes('posthog'))
-  });
-}
 
 export async function POST(request: Request) {
   let body: AnalyticsRequestBody;
@@ -60,15 +46,13 @@ export async function POST(request: Request) {
     cache: 'no-store'
   });
 
-  const responseText = await response.text();
+  if (!response.ok) {
+    const errorText = await response.text();
+    return Response.json(
+      { error: 'Unable to send analytics event.', details: errorText || 'Unknown error.' },
+      { status: 502 }
+    );
+  }
 
-  // Temporary: return full debug info instead of 204
-  return Response.json({
-    debug: true,
-    posthogStatus: response.status,
-    posthogResponse: responseText,
-    sentEvent: body.event,
-    sentDistinctId: body.sessionId,
-    keyUsed: apiKey.slice(0, 8) + '...'
-  });
+  return new Response(null, { status: 204 });
 }
