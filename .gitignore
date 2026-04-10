@@ -11,3 +11,5 @@ google-credentials.json
 *.wav
 *.mp3
 data/user_progress/*.json
+.gstack/
+.vercel

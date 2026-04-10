@@ -15,28 +15,37 @@ export type AnalyticsEventName =
 
 export type AnalyticsPayload = Record<string, string | number | boolean | null | undefined>;
 
-function postAnalytics(payload: object) {
+const pendingEventKeys = new Set<string>();
+
+async function postAnalytics(payload: object): Promise<boolean> {
   const body = JSON.stringify(payload);
-  void fetch('/api/analytics', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body,
-    keepalive: true
-  }).catch(() => {
+
+  try {
+    const response = await fetch('/api/analytics', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body,
+      keepalive: true
+    });
+
+    return response.ok;
+  } catch {
     if (typeof navigator !== 'undefined' && 'sendBeacon' in navigator) {
       const blob = new Blob([body], { type: 'application/json' });
-      navigator.sendBeacon('/api/analytics', blob);
+      return navigator.sendBeacon('/api/analytics', blob);
     }
-  });
+
+    return false;
+  }
 }
 
 export function trackEvent(event: AnalyticsEventName, properties: AnalyticsPayload = {}) {
   const context = getClientSessionContext();
-  if (!context) return;
+  if (!context) return Promise.resolve(false);
 
-  postAnalytics({
+  return postAnalytics({
     event,
     sessionId: context.sessionId,
     properties: {
@@ -53,7 +62,17 @@ export function trackEvent(event: AnalyticsEventName, properties: AnalyticsPaylo
 }
 
 export function trackEventOnce(key: string, event: AnalyticsEventName, properties: AnalyticsPayload = {}) {
-  if (hasTrackedEvent(key)) return;
-  markTrackedEvent(key);
-  trackEvent(event, properties);
+  if (hasTrackedEvent(key) || pendingEventKeys.has(key)) return;
+
+  pendingEventKeys.add(key);
+
+  void trackEvent(event, properties)
+    .then((delivered) => {
+      if (delivered) {
+        markTrackedEvent(key);
+      }
+    })
+    .finally(() => {
+      pendingEventKeys.delete(key);
+    });
 }
