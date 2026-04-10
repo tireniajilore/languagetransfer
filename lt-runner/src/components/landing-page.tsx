@@ -11,29 +11,28 @@ export function LandingPage() {
 
   return (
     <main className="min-h-screen px-4 py-10 md:px-8">
-      <div className="mx-auto flex max-w-6xl flex-col gap-6">
-        <section className="rounded-[2rem] bg-white/80 p-8 shadow-panel backdrop-blur md:p-12">
-          <p className="text-sm uppercase tracking-[0.3em] text-ink/45">VoiceAI</p>
-          <div className="mt-5 max-w-4xl">
-            <h1 className="text-4xl font-semibold tracking-tight text-ink md:text-6xl">
-              Learn Spanish by thinking first, then saying it out loud.
-            </h1>
-            <p className="mt-5 max-w-3xl text-lg leading-8 text-ink/70">
-              This is a live test of an interactive Spanish lesson inspired by the Language Transfer
-              method. You will hear a prompt, pause to work it out, then continue. No chatbot, no grading,
-              just one carefully guided lesson.
-            </p>
-          </div>
+      <div className="mx-auto flex max-w-xl flex-col gap-6">
+        <section className="rounded-[2rem] bg-white/80 p-12 shadow-panel backdrop-blur text-center">
+          <h1 className="text-4xl font-bold tracking-tight text-ink md:text-[42px] md:leading-[1.15]">
+            You&apos;ll be speaking Spanish sentences in 10 minutes.
+          </h1>
+          <p className="mt-5 mx-auto max-w-md text-[17px] leading-7 text-ink/60">
+            No memorization. No flashcards. You hear a prompt, think it through, then say it out loud.
+          </p>
 
-          <div className="mt-8 flex flex-col gap-4 md:flex-row md:items-center">
+          <div className="mt-9">
             <Link
               href="/lesson/2?autostart=1"
-              className="inline-flex w-fit items-center rounded-full bg-leaf px-6 py-4 text-base font-semibold text-white transition hover:bg-leaf/90"
+              className="inline-flex items-center justify-center rounded-full bg-leaf px-12 py-5 text-lg font-semibold text-white transition hover:bg-leaf/90 hover:scale-[1.02] min-w-[240px]"
             >
-              Start Free Lesson
+              Start Now
             </Link>
-            <p className="text-sm text-ink/55">
-              About 10 minutes. Best with headphones. You can speak aloud or type your answers.
+            <p className="mt-4 text-sm text-ink/35">Best with headphones.</p>
+          </div>
+
+          <div className="mt-8 border-t border-ink/[0.08] pt-6">
+            <p className="text-sm text-ink/45">
+              Based on <span className="font-semibold text-ink/60">Language Transfer</span>, used by 2M+ learners worldwide.
             </p>
           </div>
         </section>
