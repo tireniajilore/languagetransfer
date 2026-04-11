@@ -1,0 +1,420 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We were learning how to use the present to talk about the past with 'haber'. For example, 'I have gone', 'I have eaten'. What do you think 'terminar' means?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Finish.",
+      "lang": "es"
+    },
+    {
+      "text": "'Terminar' is to",
+      "lang": "en"
+    },
+    {
+      "text": "finish.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "Do you remember how to say 'I have' from 'haber'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "It's 'he'. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say 'I have finished'? How do you make 'finished' from 'terminar'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "He terminado",
+      "lang": "es"
+    },
+    {
+      "text": "'. And",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "how would you say 'I have finished it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Lo he terminado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Remember, object pronouns like 'lo', 'la', 'me', 'te' go before the conjugated verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How would you say 'I have finished them'?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-full": [
+    {
+      "text": "Los he terminado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. For -ar verbs, we use -ado. For -er/-ir verbs, we use -ido. For example, 'vender' becomes 'vendido'.",
+      "lang": "en"
+    }
+  ],
+  "turn-12-full": [
+    {
+      "text": "How do you say 'I have lost'?",
+      "lang": "en"
+    }
+  ],
+  "turn-14-reveal": [
+    {
+      "text": "He perdido.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. If you want to emphasize, you can say 'yo",
+      "lang": "en"
+    },
+    {
+      "text": "he perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-14-prompt": [
+    {
+      "text": "How do you say 'we have lost'?",
+      "lang": "en"
+    }
+  ],
+  "turn-16-reveal": [
+    {
+      "text": "Hemos perdido.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. 'Nosotros' is for a male or mixed group, 'nosotras' for females.",
+      "lang": "en"
+    }
+  ],
+  "turn-16-prompt": [
+    {
+      "text": "How would you say 'we have lost', emphasizing?",
+      "lang": "en"
+    }
+  ],
+  "turn-18-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Nosotros hemos perdido",
+      "lang": "es"
+    },
+    {
+      "text": "' or '",
+      "lang": "en"
+    },
+    {
+      "text": "nosotras hemos perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-18-prompt": [
+    {
+      "text": "Now, how do you say 'he has lost'?",
+      "lang": "en"
+    }
+  ],
+  "turn-20-reveal": [
+    {
+      "text": "Ha perdido.",
+      "lang": "es"
+    },
+    {
+      "text": "To clarify it's 'he', you can say 'él",
+      "lang": "en"
+    },
+    {
+      "text": "ha perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-20-prompt": [
+    {
+      "text": "How would you say 'she has lost'?",
+      "lang": "en"
+    }
+  ],
+  "turn-22-reveal": [
+    {
+      "text": "Ella ha perdido.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-22-prompt": [
+    {
+      "text": "Now, how do you say 'you have lost' informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-24-reveal": [
+    {
+      "text": "Has perdido.",
+      "lang": "es"
+    },
+    {
+      "text": "To emphasize, say 'tú",
+      "lang": "en"
+    },
+    {
+      "text": "has perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'. Now, let's practice object pronouns.",
+      "lang": "en"
+    }
+  ],
+  "turn-24-prompt": [
+    {
+      "text": "How do you say 'I see it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-26-reveal": [
+    {
+      "text": "Lo veo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-26-prompt": [
+    {
+      "text": "How would you say 'I see her' or 'I see it' (feminine)?",
+      "lang": "en"
+    }
+  ],
+  "turn-28-reveal": [
+    {
+      "text": "La veo.",
+      "lang": "es"
+    }
+  ],
+  "turn-28-prompt": [
+    {
+      "text": "And 'I see them' (feminine)?",
+      "lang": "en"
+    }
+  ],
+  "turn-30-reveal": [
+    {
+      "text": "Las veo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. For masculine or mixed, 'los veo'.",
+      "lang": "en"
+    }
+  ],
+  "turn-30-prompt": [
+    {
+      "text": "Now, how do you say 'he sees'?",
+      "lang": "en"
+    }
+  ],
+  "turn-32-reveal": [
+    {
+      "text": "Él ve.",
+      "lang": "es"
+    }
+  ],
+  "turn-32-prompt": [
+    {
+      "text": "And 'she sees'?",
+      "lang": "en"
+    }
+  ],
+  "turn-34-reveal": [
+    {
+      "text": "Ella ve.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-34-prompt": [
+    {
+      "text": "How do you say 'we see'?",
+      "lang": "en"
+    }
+  ],
+  "turn-36-reveal": [
+    {
+      "text": "Nosotros vemos",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "nosotras vemos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. 'Usted' is the formal 'you'.",
+      "lang": "en"
+    }
+  ],
+  "turn-36-prompt": [
+    {
+      "text": "How would you say 'you see' formally?",
+      "lang": "en"
+    }
+  ],
+  "turn-38-reveal": [
+    {
+      "text": "Usted ve.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-38-prompt": [
+    {
+      "text": "How would you say 'you see it' formally?",
+      "lang": "en"
+    }
+  ],
+  "turn-40-reveal": [
+    {
+      "text": "Lo ve usted",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "usted lo ve.",
+      "lang": "es"
+    },
+    {
+      "text": "Both are correct.",
+      "lang": "en"
+    }
+  ],
+  "turn-40-prompt": [
+    {
+      "text": "How would you say 'they see'?",
+      "lang": "en"
+    }
+  ],
+  "turn-42-reveal": [
+    {
+      "text": "Ellos ven",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "ellas ven.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-42-prompt": [
+    {
+      "text": "How would you say 'they see them'?",
+      "lang": "en"
+    }
+  ],
+  "turn-44-full": [
+    {
+      "text": "Ellos los ven",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "ellas las ven.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Remember, we have two sets of important words: subject pronouns like 'yo', 'él', 'ella', 'nosotros', and object pronouns like 'me', 'te', 'lo', 'la'.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how to use 'haber' to form the past tense and practiced using object pronouns.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try forming sentences with other verbs you know, like 'comer' or 'vivir', using 'haber'.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Remember, practice makes perfect. The more you use these structures, the more natural they will become.",
+      "lang": "en"
+    }
+  ]
+}

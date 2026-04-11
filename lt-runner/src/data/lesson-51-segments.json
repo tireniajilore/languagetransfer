@@ -1,0 +1,640 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was I am, from estar? I am:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Estoy.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "If you want to say,, you know, in this supportive way, you don’t have to say there to begin with. Because we are using estar and not ser, it kind of makes that there a little redundant. We feel that already in estar that’s referring to states, locations and states, so we don’t need to say I’m for you, I’m for you, there. We can just say using estar. What for do you think you need?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "So how would you say talking to a friend?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Estoy para ti.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. To say, then we are not going to use",
+      "lang": "en"
+    },
+    {
+      "text": "para",
+      "lang": "es"
+    },
+    {
+      "text": "even really need to say here.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "It kind of just gives you the feeling. Actually, when you knock on somebody’s door and you are calling for them, you will just say ¿Estás? You don’t say Are you there? Or if you’re on internet, ¿Estás? you will write in the messenger. If you call somebody up and you want to speak to Juan, you will not say Is Juan there? You will just say ¿Está Juan? ¿Juan está?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "So, I am here because of you (formal):",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy por usted.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "For you (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Estoy por ti.",
+      "lang": "es"
+    },
+    {
+      "text": "So this would be because of you.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say I have come because of you, I have come because of you (informal). I have come because of you:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "He venido por ti. So whenever we want because of, we want to avoid the temptation to translate porque de, because of. Good. So I have come because of you, he venido por ti. You could also say It is because of you that we have come, for example. It is because of you that we have come. And of course we can make this sentence perfectly if we think it through piece by piece.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "So, it is because of you:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "That we have come:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es por ti que hemos venido.",
+      "lang": "es"
+    },
+    {
+      "text": "It is because of you that we have come. Good. Another use of por – so we are seeing that por is much more flexible than",
+      "lang": "en"
+    },
+    {
+      "text": "para",
+      "lang": "es"
+    },
+    {
+      "text": "– another use of por is if you want to say for in the sense of exchanging this one for that one, to exchange something for something else, then also we use por. Cambiar, cambiar, means to change. If you want to say, I would change this one for that one, I would change this one for that one, and with this one and that one let’s refer to a masculine thing.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So, I would change is the first step.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Uh-huh.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "This one, a masculine thing:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Good. For that one, masculine thing.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good. Take away the t. Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cambiaría este por ese.",
+      "lang": "es"
+    },
+    {
+      "text": "I would change this one for that one.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say I would change these ones for those ones, masculine or mixed objects? I would change these ones for those ones:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cambiaría estos por esos.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "What if they were feminine things?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cambiaría estas por esas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Would you change these ones for those ones? Speaking informally. Would you change these ones for those ones?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": ", still feminine things:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cambiarías estas por esas?",
+      "lang": "es"
+    },
+    {
+      "text": "still feminine:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "Good. Go on…",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Still think it through though.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good. We don’t want to stop thinking. You will be able to relax that as you go on, but at the beginning you want to be very insistent on your thinking so you install correct structural habits or grammatical habits. We don’t really use much grammatical terminology, but everything we’re seeing here is grammar, of course. It’s all structure. Ah, something I should mention is that if you’re chatting online, if you’re practicing your Spanish online you might see por written as an x as a shortcut. Because por is also what you use in, like, times tables. Ocho por ocho is eight times eight. So you might see gracias por venir as gracias x venir. And if you have the habit of writing kisses with an x this can be very confusing to Spanish speakers. So gracias por venir reminds us, this nice hook, that we will hear a lot, gracias por venir, reminds us that we have two words for for.",
+      "lang": "en"
+    },
+    {
+      "text": "Para,",
+      "lang": "es"
+    },
+    {
+      "text": "something being for you, quite literally, and then por, which is much more flexible in meaning. The other thing that we learn from the sentence gracias por venir is that after prepositions, so these little group of words, we’ve seen -, we’ve seen",
+      "lang": "en"
+    },
+    {
+      "text": "para,",
+      "lang": "es"
+    },
+    {
+      "text": "por, de, en, con, a quite a few of them - following these words in English we put - ing. Thank you for coming. But in Spanish we just put the “to” form. Gracias por venir.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "So how would you say thank you for calling, what’s your name? thank you for calling - if you forget call you can think of or how are you called? because it’s something that people tend to have heard somewhere.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Gracias por llamar.",
+      "lang": "es"
+    },
+    {
+      "text": "And if you wanted to say thanks for calling me you could say that as well.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Gracias por llamarme",
+      "lang": "es"
+    },
+    {
+      "text": "ing. We want to resist any temptation to put the - ing form after the preposition. This is negative language transfer, things that are not the same between English and Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "What was I am from estar?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Estoy.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "And you remember how to say tired in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cansado.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "So how do you say I am tired?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "But you being a female?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy cansada.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "if you want to say – dancing, cooking, cleaning – it’s all going to be with the “to” form. What was to work?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Trabajar.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "How would you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy cansada de trabajar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. For one of the pasts that we saw, for the line in the past, so when we’re referring to like a period of time in the past, for –ar verbs we have the - aba base ending.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "So how would you say I was from estar?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Estaba.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "I was tired of working:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Estaba cansada de trabajar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I was tired of working. Good. We were tired of working, and let’s be a masculine or a mixed group.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "We were tired of working:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estábamos cansados de trabajar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "If you want to say something like it’s a way of doing it, of doing it, the word for way is form, a form of doing it, and how do you think form might be in Spanish if you had to guess it?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    },
+    {
+      "text": "Forma.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "So how would you say a way of doing it? What was to do or to make?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "It is a way of doing it:",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es una forma de hacerlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. , in this way. believe in arguing in this way.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "So, to believe is",
+      "lang": "en"
+    },
+    {
+      "text": "creer, creer",
+      "lang": "es"
+    },
+    {
+      "text": "and it has two e's, c-r-e-e-r,",
+      "lang": "en"
+    },
+    {
+      "text": "creer.",
+      "lang": "es"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "So how do you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "No creo.",
+      "lang": "es"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "What was creation?",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "And",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "what was to create?",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "And",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "what was I create?",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Yes. So we get this situation occasionally in Spanish that the “” form of two different verbs will I look the same.",
+      "lang": "en"
+    },
+    {
+      "text": "Creo,",
+      "lang": "es"
+    },
+    {
+      "text": "of course, could be from",
+      "lang": "en"
+    },
+    {
+      "text": "creer,",
+      "lang": "es"
+    },
+    {
+      "text": "to believe, or from",
+      "lang": "en"
+    },
+    {
+      "text": "crear,",
+      "lang": "es"
+    },
+    {
+      "text": "to create.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "So, I don’t believe:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "In arguing. So to argue in Spanish you can use to discuss. This is the most common verb, actually, that’s used for argue.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "Discuss is discutir, discutir.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Hablar, mostly, but you can use discutir as well for discuss, but it has a heavy connotation mostly. No? I mean, if you argue with your boyfriend or your girlfriend you use discutir, you say this. Argüir, which is argue, means to argue a point, rather than to get in an argument. Discutir is more like to get in an argument. So it’s what we can call a false friend, words that look like they are the same, but they have a difference in meaning, and there are a few of them. We need to watch out, which doesn’t mean for them between English and Spanish. Another example would be actual actual, it means current, no? Mi trabajo actual, my current job. Actualmente means currently, at the moment, rather than actually. Mostly the vocabulary, the Latin English that we turn into Spanish, is very reliable, but there are a few words that we want to watch out for. Discutir is one of them. This doesn’t really mean to discuss as much as it does to argue.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "So, I don’t believe in arguing:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "Good. In this way, we will say of this way rather than in this way.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "So all together,, in discussing, in this way:",
+      "lang": "en"
+    }
+  ],
+  "turn-85-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No creo en discutir de esta forma.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So with this sentence, gracias por venir, we are reminded how we have two words for for, por and",
+      "lang": "en"
+    },
+    {
+      "text": "para,",
+      "lang": "es"
+    },
+    {
+      "text": "and we need to have a think and decide which one we think is most appropriate before we translate for. And that after prepositions we don’t need to worry about making the - ing form of the verb, we just use the “to” form.",
+      "lang": "en"
+    }
+  ]
+}

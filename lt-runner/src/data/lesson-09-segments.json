@@ -1,0 +1,204 @@
+{
+  "turn-1-full": [
+    {
+      "text": "To know in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "saber.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Saber.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'I want to know'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say 'I don't want to know'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "How would you say 'he wants to know' or 'she wants to know'?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "'He doesn't want to know':",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Why doesn't he want to know?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "I want to know why he doesn't want to know:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Very good. The word for 'yes' in Spanish is 'sí'. This is also the word for 'if'.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How do you say 'if'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "'I want to know if you want to know' (speaking formally):",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say 'I want to know if he wants to invite me'?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How do you say 'imagination'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "'I don't want to imagine it':",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "What was 'to come'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "'I want to know if she wants to come to the house to visit me':",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Very good. Let's practice a listening exercise.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "What does 'Voy a invitarlo, pero no voy a invitarlo ahora' mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How do you say 'justification' in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And 'to justify'?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "'I'm not trying to justify myself, but I want to explain something to you' (informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-37-full": [
+    {
+      "text": "Very good. Well done.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how to use 'saber' and related phrases to express knowledge and curiosity in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try forming your own sentences using 'saber' and other verbs you've learned. Practice makes perfect!",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Remember, breaking down sentences into smaller parts can help you construct more complex ideas in Spanish.",
+      "lang": "en"
+    }
+  ]
+}

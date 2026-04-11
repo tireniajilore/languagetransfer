@@ -1,0 +1,1032 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So, for – ar verbs we have / e / for I: hablar - to speak, hablé – I spoke, and / o / for he/she/it/you –er/-ir formal and we are accenting our endings - hablé, habló. For verbs we have an / i / sound, so an i, an i, for I, and / ió /, i-o, for he/she/it. So we have / i / and / ió /. So, if you go to",
+      "lang": "en"
+    },
+    {
+      "text": "comer",
+      "lang": "es"
+    },
+    {
+      "text": "– to eat, I ate is",
+      "lang": "en"
+    },
+    {
+      "text": "comí,",
+      "lang": "es"
+    },
+    {
+      "text": "and he ate/she ate/it ate/you (formal) ate is",
+      "lang": "en"
+    },
+    {
+      "text": "comió.",
+      "lang": "es"
+    },
+    {
+      "text": "We are accenting the endings again, the i and the o.",
+      "lang": "en"
+    },
+    {
+      "text": "Comí, comió.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "What",
+      "lang": "es"
+    },
+    {
+      "text": "was salir? Salir:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "To leave",
+      "lang": "es"
+    },
+    {
+      "text": "or to go out. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "how would you say I went out or I left?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Salí.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "She went out, she left:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Salió.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No salió todavía.",
+      "lang": "es"
+    },
+    {
+      "text": "yet:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No sé por qué no salió todavía. What",
+      "lang": "es"
+    },
+    {
+      "text": "did qué mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Qué,",
+      "lang": "en"
+    },
+    {
+      "text": "what",
+      "lang": "es"
+    },
+    {
+      "text": "does",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Yes,",
+      "lang": "en"
+    },
+    {
+      "text": "what,",
+      "lang": "es"
+    },
+    {
+      "text": "and",
+      "lang": "en"
+    },
+    {
+      "text": "what",
+      "lang": "es"
+    },
+    {
+      "text": "else does it mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "That.",
+      "lang": "es"
+    },
+    {
+      "text": "In, like, I hope",
+      "lang": "en"
+    },
+    {
+      "text": "that,",
+      "lang": "es"
+    },
+    {
+      "text": "espero que, good. So, apart from",
+      "lang": "en"
+    },
+    {
+      "text": "what",
+      "lang": "es"
+    },
+    {
+      "text": "and",
+      "lang": "en"
+    },
+    {
+      "text": "that,",
+      "lang": "es"
+    },
+    {
+      "text": "que also means than, than. So, you can use it like this, so you could say, for example, I ate more than him.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "I ate is the first bit:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "-er/-ir verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "I ate more than him:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good. Not him, than he. More than he ate.",
+      "lang": "en"
+    },
+    {
+      "text": "Comí más que él",
+      "lang": "es"
+    },
+    {
+      "text": "I ate more than him, or more than he ate. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "He ate more than me:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "When we said",
+      "lang": "en"
+    },
+    {
+      "text": "comí más que él,",
+      "lang": "es"
+    },
+    {
+      "text": "we put él there because whilst in English we say him,",
+      "lang": "en"
+    },
+    {
+      "text": "what",
+      "lang": "es"
+    },
+    {
+      "text": "we. It’s quite peculiar in English,",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "we say really mean is he. I ate more than he ate him and not he, – so in Spanish we are being more literal:",
+      "lang": "en"
+    },
+    {
+      "text": "comí más que él",
+      "lang": "es"
+    },
+    {
+      "text": "I ate more than he.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "So, he ate more than me -",
+      "lang": "en"
+    },
+    {
+      "text": "Comió más que:",
+      "lang": "es"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Exactly. So, he ate more than I, he ate more than I ate.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So, how would",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "be?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Comió más que yo.",
+      "lang": "es"
+    },
+    {
+      "text": "It’s actually quite peculiar in English",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "we say me. In fact, the way we use words like me instead of I is really peculiar in English, and it’s a negative language transfer,",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "could influence other languages",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "you are learning. For example, if I say who wants to go to the park, you might say me! This doesn’t make any sense. It’s I, I want to go to the park,",
+      "lang": "en"
+    },
+    {
+      "text": "what",
+      "lang": "es"
+    },
+    {
+      "text": "is this me? So, there is some strange use of these words in English",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "might influence our Spanish, so we need to cut",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "negative language transfer when we identify it popping up. So,",
+      "lang": "en"
+    },
+    {
+      "text": "comió más que yo,",
+      "lang": "es"
+    },
+    {
+      "text": "he ate more than I, he ate more than I ate.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "What",
+      "lang": "es"
+    },
+    {
+      "text": "was to see?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "Ver.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I saw?",
+      "lang": "en"
+    },
+    {
+      "text": "Ver",
+      "lang": "es"
+    },
+    {
+      "text": "is regular here, so I saw. So, go back to",
+      "lang": "en"
+    },
+    {
+      "text": "comer,",
+      "lang": "es"
+    },
+    {
+      "text": "use",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "as your hook.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "I saw him:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo vi.:",
+      "lang": "es"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "No lo vi.",
+      "lang": "es"
+    },
+    {
+      "text": "And, as we are contrasting we will probably use one or, those words we don’t need to use, we will probably use one or both both of the words for I and he of them here as we’re contrasting, although you don’t need to, so it’s up to you. I saw him, but he didn’t see me.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "First bit is I saw him:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo vi, pero no me vio.",
+      "lang": "es"
+    },
+    {
+      "text": "And like I said, as we are contrasting we might feel an urge to say the word for él:",
+      "lang": "en"
+    },
+    {
+      "text": "lo vi,",
+      "lang": "es"
+    },
+    {
+      "text": "pero él",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "me vio or yo",
+      "lang": "en"
+    },
+    {
+      "text": "lo vi,",
+      "lang": "es"
+    },
+    {
+      "text": "pero él",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "me vio, depends on the context, even if you have context and you know who you are talking about, you might feel yourself wanting to say these words because you are contrasting.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "The word for nothing, nothing, in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "nada, nada.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "N-a-d-a,",
+      "lang": "en"
+    },
+    {
+      "text": "nada.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "And we have double negative in Spanish, which means you can say:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No vi nada.:",
+      "lang": "es"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "No comí nada.",
+      "lang": "es"
+    },
+    {
+      "text": "(speaking formally)?:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "No comió nada?:",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Por qué no comió nada?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. The word for nobody is",
+      "lang": "en"
+    },
+    {
+      "text": "nadie.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "N-a-d-i-e,",
+      "lang": "en"
+    },
+    {
+      "text": "nadie.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "Nobody saw anything, nobody saw nothing:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nadie vio nada.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Nobody saw anything.",
+      "lang": "en"
+    },
+    {
+      "text": "Durar, durar,",
+      "lang": "es"
+    },
+    {
+      "text": "means to last.",
+      "lang": "en"
+    },
+    {
+      "text": "Durar.",
+      "lang": "es"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "We have endure in English.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Duration,",
+      "lang": "es"
+    },
+    {
+      "text": "and you even get like corporate names,",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "use these Latin roots and kind of appeal to your understanding without you realizing",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "you understand it. So, for example, you have Duracell batteries, you know",
+      "lang": "en"
+    },
+    {
+      "text": "what that",
+      "lang": "es"
+    },
+    {
+      "text": "means, but you don’t know why you know",
+      "lang": "en"
+    },
+    {
+      "text": "what",
+      "lang": "es"
+    },
+    {
+      "text": "it means, so you can identify this kind of use of Latin in industry and how it’s appealing to your subconscious understanding of the message",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "they want to give you about the products. So, look out for",
+      "lang": "en"
+    },
+    {
+      "text": "that.",
+      "lang": "es"
+    },
+    {
+      "text": "So,",
+      "lang": "en"
+    },
+    {
+      "text": "durar,",
+      "lang": "es"
+    },
+    {
+      "text": "to last. Minute in Spanish is minuto. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "how would you say it lasted two minutes? It lasted two minutes:",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Duró dos minutos.",
+      "lang": "es"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "I lasted two minutes:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Duré dos minutos.",
+      "lang": "es"
+    },
+    {
+      "text": "We looked at before how you can get this - ing adjective. So, the adjective",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "we have for - ing, like interesting, using - ante or - iente. So, interesting was interesante. So, during is not an adjective, but it’s formed in the same way, so",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "how do you think you say during in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Yes,",
+      "lang": "en"
+    },
+    {
+      "text": "durante.",
+      "lang": "es"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "So you could say during two minutes:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good. And you can use",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "like for, as well. So, we said",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "with time you can say por dos minutos, but you can also say",
+      "lang": "en"
+    },
+    {
+      "text": "durante,",
+      "lang": "es"
+    },
+    {
+      "text": "you will hear",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "as well in Spanish,",
+      "lang": "en"
+    },
+    {
+      "text": "durante dos minutos,",
+      "lang": "es"
+    },
+    {
+      "text": "during two minutes, for two minutes.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "What",
+      "lang": "es"
+    },
+    {
+      "text": "was to eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Comer.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "And he ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Comió.",
+      "lang": "es"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "How would you say he ate for half an hour, or he ate during half an hour - half an hour is media, half, and",
+      "lang": "en"
+    },
+    {
+      "text": "what",
+      "lang": "es"
+    },
+    {
+      "text": "was hour?",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Hora,",
+      "lang": "es"
+    },
+    {
+      "text": "like in ahora. Media",
+      "lang": "en"
+    },
+    {
+      "text": "hora.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "So, he ate during half an hour, he ate for half an hour:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Comió durante media hora.",
+      "lang": "es"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "He spoke during half an hour, for half an hour:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Habló durante media hora.",
+      "lang": "es"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "What",
+      "lang": "es"
+    },
+    {
+      "text": "was with in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "Con.",
+      "lang": "es"
+    },
+    {
+      "text": "Without in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "sin.",
+      "lang": "es"
+    },
+    {
+      "text": "S-i-n,",
+      "lang": "en"
+    },
+    {
+      "text": "sin.",
+      "lang": "es"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "Sin.",
+      "lang": "es"
+    },
+    {
+      "text": "And to stop, to stop, is",
+      "lang": "en"
+    },
+    {
+      "text": "parar, parar.",
+      "lang": "es"
+    },
+    {
+      "text": "P-a-r-a-r,",
+      "lang": "en"
+    },
+    {
+      "text": "parar.",
+      "lang": "es"
+    }
+  ],
+  "turn-87-reveal": [
+    {
+      "text": "So you could say he spoke for half an hour without stopping.",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "He spoke for half an hour without stopping:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Habló durante media hora sin parar.",
+      "lang": "es"
+    },
+    {
+      "text": "And we said",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "after prepositions, so",
+      "lang": "en"
+    },
+    {
+      "text": "sin",
+      "lang": "es"
+    },
+    {
+      "text": "is a –, “without to stop”. preposition, we are not saying stoppING, we are saying to stop",
+      "lang": "en"
+    },
+    {
+      "text": "sin parar Habló durante media hora sin parar. Parar",
+      "lang": "es"
+    },
+    {
+      "text": "is interesting, because par, par, in Spanish means pair, so un par is a pair. So, like a pair of shoes, un par de zapatos, un par de zapatos. So,, might be “the pairing”, you can imagine this kind of time and space notion of two",
+      "lang": "en"
+    },
+    {
+      "text": "parar,",
+      "lang": "es"
+    },
+    {
+      "text": "to stop things pairing, reaching each other and then stopping. And then comparar, to compare, is “with pairing”. So, even though this is an m here, it’s",
+      "lang": "en"
+    },
+    {
+      "text": "con,",
+      "lang": "es"
+    },
+    {
+      "text": "the n has been softened by",
+      "lang": "en"
+    },
+    {
+      "text": "that",
+      "lang": "es"
+    },
+    {
+      "text": "p, which is. So, “with pairing” is, of course, is “pre-pairing”, we why we say compare to compare. Prepare is to “re-pair”, to pair up again. can see this in English as well. Repair, to repair Separar is to separate in Spanish, separation, separación, separar; and this se- means apart, so to separate is to “pair apart”, to “pair apart”.",
+      "lang": "en"
+    }
+  ]
+}

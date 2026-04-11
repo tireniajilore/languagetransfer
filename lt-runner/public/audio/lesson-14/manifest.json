@@ -1,0 +1,342 @@
+{
+  "lessonId": "lesson-14",
+  "generatedAt": "2026-04-11T13:48:26.182Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "What was 'to know'?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "a70887bb95e484ca3f097f062ec5e4d70b19c13249666f7088e5ff3eebde17e4"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Saber.",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "c17c87db5cf27f78b8905b02e769599650b2769cfdcd75b79feb3620a96249e2"
+        },
+        {
+          "text": "Good. 'I know' is an exception: sé.",
+          "lang": "en",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "e74360dd03d5f3e4cac3ee3c051f997fe465d86534d04c3b59e9424504aa3fd1"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he knows' or 'she knows'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "99064bd944222ac8dd92c30966e5c884b955dd4261c34c320693d5fae5a82a66"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Sabe.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "4e75c79a9cb5bfc1dc5284a05db07df805ef58f9f397925f74d118af227f6c84"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I don't know'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "edcc8dcca2b323ed6a583d83832fec4e16644d7b4adb7d78b7dec6865f5dbd79"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "No sé.",
+          "lang": "es",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "fdacbb0493971bf4057156264283d42ea00250548a4b0ece94078df98c83b7bb"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I don't know what he wants'? Remember, 'what' is 'qué'.",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "6fef9a25c8d53b0fe3c221d2d241d4785aa4efcae6fb950a08bedde6b741e75c"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Good. If you want to emphasize 'he', you can say '",
+          "lang": "en",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "5c3752f7bfeb0bcb30f3e4304a13b67545091793346cb1244a9df535d30f05b5"
+        },
+        {
+          "text": "no sé",
+          "lang": "es",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "37b4356b181face2d656cbd2cd74a6bb0d73fc0836d858f354ed64902c588984"
+        },
+        {
+          "text": "qué él quiere'. Now,",
+          "lang": "en",
+          "file": "turn-9-reveal-3.mp3",
+          "hash": "b99ffb4cc23dd148af17fceff99670429329afbba7718f6472b6bae3deeb475f"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "how would you say 'she sees'? Remember 'to see' is 'ver'.",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "5ad222f6d3ccb8119913171764b11ba11a3999d881c359d597deccfe798c0bf6"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Ella ve.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "65dae84c898c590a0de4522fdf114f6091796a3a00fb4447c21f0808b76d2bec"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-11-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I don't want to invite him, but she does'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "893acca6e0619ba594d6712f702064425a7492878a7e0e8e5abac08072d31c62"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "No quiero invitarlo, pero ella sí. Now, 'to leave' or 'to go out' is 'salir'.",
+          "lang": "en",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "22ef3e037ba468c6a6525bfcbd2e30ce06c6f7f8e17b600897abd8d34b69ca90"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he leaves'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "e6889f9fd0f819807ef75f19485624d5d6a498064350f637edbe768fde6b8428"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Sale.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "770ac8d61f825d08b7cb328a37843dc7411ca791f104e34bf6dd3da5e9bdf89a"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I'm going out to eat'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "98d82fe3feb440191dbfadf391ccb7156fc3c89fdee4742dca8715082747269e"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Salgo a comer.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "90ca4d51b000703f375ee3a65a3ce530a2f8c2e7b361fc6be8a4a0ff41e1e863"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-17-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I have to do it'? Remember 'to do' is 'hacer'.",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "696d0a5d63c01471ce9d24bd2cf31f4d64f73625d2e91b57a54dd25d811293d0"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "Tengo que hacerlo.",
+          "lang": "es",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "f7e9cf3510f5084ebf1a069e80bcbf9591641085661e494c51d06481b35f8356"
+        },
+        {
+          "text": "Now, let's look at verbs with the '-go' ending like 'tengo', 'vengo', 'salgo'.",
+          "lang": "en",
+          "file": "turn-19-reveal-2.mp3",
+          "hash": "a8d4d11aeb84a89fd452d0c64c9517ee0e9367c175a06b09a30ee1dc5f775af0"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I suppose'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "c00c5d4f22ec7f8dec407631243baf0df3ec0f912324c1fe22c5b383919d1768"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Supongo.",
+          "lang": "es",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "90f0254031b1f74e1960e82adb6b26dc9f158a852e1990356276b1e08673760e"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-21-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I must see her'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "7ea3dee1278c455d8b8e29681788b9f62b82825cdf5eaf6878b3180264584e69"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Debo verla.",
+          "lang": "es",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "ec8cff4a752dfad7eb6f8d35e37ec8d668d334975e248277191b385fbfa233c1"
+        },
+        {
+          "text": "Good. Now,",
+          "lang": "en",
+          "file": "turn-23-reveal-2.mp3",
+          "hash": "9e824ecf2c35b939370f12787bdb993efba77d986f2a52558f4163cb57a1bebd"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "how would you say 'I'm going to try to eat later'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "c5751487850d74f4b5e043987ae6b5bbdd9be72a43a53ed835e4f956ae4ed20d"
+        }
+      ]
+    },
+    "turn-25-full": {
+      "segments": [
+        {
+          "text": "Voy a intentar comer más tarde.",
+          "lang": "es",
+          "file": "turn-25-full-1.mp3",
+          "hash": "7e11ee3d83a3e600d924b33a5ae74ad25ef43a5526b832940426310c6dac99d6"
+        },
+        {
+          "text": "Excellent. Let's recap these useful verbs: 'quiero', 'voy a', 'tengo que', 'puedo', 'debo'. They allow you to easily add another verb after them.",
+          "lang": "en",
+          "file": "turn-25-full-2.mp3",
+          "hash": "fbb486817e856aab950127557467216d009ed5489a365eeab541aa93b4e4c920"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned about irregular verbs like 'saber' and 'salir', and how to use them in sentences.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "2f0739b5ff40c68da4ee5afd80f76a9c5d83e74a39159bcec57202cc6158a0de"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try creating your own sentences using these verbs. For example, 'I want to go out' or 'I must know'.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "a37213dacebb44bed51e355190137ea1eb24d9f84da80cb8fdd18ff04a032f6d"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "These verbs are essential for everyday conversation. Practice using them to build your confidence.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "8363c74a427f920506a46214263928a395f164b74956ba561c80a830f5c85fe6"
+        }
+      ]
+    }
+  }
+}

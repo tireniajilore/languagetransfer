@@ -1,0 +1,730 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Looking at the past tenses, the line in the past and the dot in the past, the line in the past is extremely regular. We only have a few odd irregular verbs for the line in the past. Ser is one of them and we can remember by thinking of an",
+      "lang": "en"
+    },
+    {
+      "text": "era.",
+      "lang": "es"
+    },
+    {
+      "text": "So what is the base for ser as a line in the past?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Era.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So this means I was, you (formal) were, he/she/it was, as a line in the past.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say we were?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Éramos Éramos.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "They were or you guys were:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Eran.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And you informal?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Eras.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We had the line in the past of ir, which was a little bit like a mix between the - aba ending that we have for",
+      "lang": "en"
+    },
+    {
+      "text": "- ar",
+      "lang": "es"
+    },
+    {
+      "text": "verbs for the line in the past and the - ía ending that we have for -er/-ir verbs in the line in past.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "So what was I was going from ir?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Iba.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "We were going:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "You informal:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "And they or you guys:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Iban.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And then we had ver, to see.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How is I see, in the present?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Veo.",
+      "lang": "es"
+    },
+    {
+      "text": "And this extra e that it keeps for the I form in the present,",
+      "lang": "en"
+    },
+    {
+      "text": "veo,",
+      "lang": "es"
+    },
+    {
+      "text": "carries over into the line in the past.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So I was seeing, you (formal) were seeing, he/she/it were seeing is",
+      "lang": "en"
+    },
+    {
+      "text": "veía.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Veía.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "So we were seeing:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "You informal:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "And they:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good. So the line in the past is a very safe tense. We just have a few irregular verbs, but for the rest we can be very certain that taking off the",
+      "lang": "en"
+    },
+    {
+      "text": "- ar",
+      "lang": "es"
+    },
+    {
+      "text": "and putting - aba, or taking off the -er/-ir and putting -ía is going to give us the result that we want. The point in the past is less regular, less reliable. There are a group of verbs in the dot of the point in the past which are irregular, but they all do something very similar. Now most of the verbs in this group are - go verbs, but not all of them. Now what these verbs do in the point in the past is that firstly, the beginning bit of the verb - so for example, if we have poder - that beginning bit, pod -, changes and we already saw this. We saw, for example, they were able was pudieron. So that pod - changes to pud -. Here it’s a little change, but there are more drastic changes with other verbs. So this is the first thing. The base of the verb that is left once we take the endings off changes. Sometimes radically, sometimes a little bit like here from pod - to pud -. The second thing that they do is that they use a mixture of the point endings from",
+      "lang": "en"
+    },
+    {
+      "text": "- ar",
+      "lang": "es"
+    },
+    {
+      "text": "verbs and from -er/-ir verbs. They use a mixture of the two endings from both sides, but always the same mixture for each of these irregular verbs. And the third thing they do is to not have the accent on the endings. So firstly, let’s revise the point in the past with hablar and comer. Just to refresh what are these endings.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So we have hablar to speak, and I spoke is:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "And he spoke or she spoke or you (formal) spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Habló.",
+      "lang": "es"
+    },
+    {
+      "text": "And then we had to eat which was comer.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "And I ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Comí.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And he ate or she ate or you (formal) ate, it ate -",
+      "lang": "en"
+    },
+    {
+      "text": "habló",
+      "lang": "es"
+    },
+    {
+      "text": "and then with comer it’s:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Comió.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Back to hablar.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "How was we spoke?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Same as the present tense.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "And they spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Hablaron.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "And you (informal) spoke - which in the you (informal) version, we hear that informal s and the informal t in the ending:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Hablaste.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Back to comer.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How is we ate?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Comimos.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "They ate or you guys ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Comieron.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "And you (informal) ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Comiste",
+      "lang": "es"
+    },
+    {
+      "text": "mixture of these two groups for different endings in the point in the past. For example, tener, to have. In the point in the past, the way that ten - changes, that root changes, we said that’s the first thing that happens. The ten- of tener becomes",
+      "lang": "en"
+    },
+    {
+      "text": "tuv-.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "T-u-v.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "And I had is",
+      "lang": "en"
+    },
+    {
+      "text": "tuve.",
+      "lang": "es"
+    },
+    {
+      "text": "And he/she/it had is tuvo. So we are not accenting the endings.",
+      "lang": "en"
+    },
+    {
+      "text": "Tuve.",
+      "lang": "es"
+    },
+    {
+      "text": "Tuvo. So where are these two endings coming from, - e and - o?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "Are they coming from the",
+      "lang": "en"
+    },
+    {
+      "text": "- ar",
+      "lang": "es"
+    },
+    {
+      "text": "verbs or from the -er/-ir verbs?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Good. So we have",
+      "lang": "en"
+    },
+    {
+      "text": "tuve",
+      "lang": "es"
+    },
+    {
+      "text": "and tuvo. So these two endings for I and for he/she/it/you formal come from",
+      "lang": "en"
+    },
+    {
+      "text": "- ar",
+      "lang": "es"
+    },
+    {
+      "text": "and the rest come from -er/-ir.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "So how would you say we had with the point in the past?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Tuvimos.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "And you (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Tuviste.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "And they:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Tuvieron.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So now that we have worked our way through this one verb, all we need to do for the other ones is to find the base. The irregular base for the verb and then we know what to do with it.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "What was to be, for states?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "Estar.",
+      "lang": "es"
+    },
+    {
+      "text": "Now I was, the point in the past, from",
+      "lang": "en"
+    },
+    {
+      "text": "estar",
+      "lang": "es"
+    },
+    {
+      "text": "is",
+      "lang": "en"
+    },
+    {
+      "text": "estuve.",
+      "lang": "es"
+    },
+    {
+      "text": "So it’s nice to look at tener and",
+      "lang": "en"
+    },
+    {
+      "text": "estar",
+      "lang": "es"
+    },
+    {
+      "text": "together because we have",
+      "lang": "en"
+    },
+    {
+      "text": "tuve",
+      "lang": "es"
+    },
+    {
+      "text": "for I had and",
+      "lang": "en"
+    },
+    {
+      "text": "estuve",
+      "lang": "es"
+    },
+    {
+      "text": "for I was.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "And:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "He was, she was, you were (formal):",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "We were:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Estuvimos.",
+      "lang": "es"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "You were (informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "Estuviste.",
+      "lang": "es"
+    },
+    {
+      "text": "Where were you?:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde estuviste?",
+      "lang": "es"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "They were, you guys were:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "Estuvieron.",
+      "lang": "es"
+    },
+    {
+      "text": "Where were you guys?:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde estuvieron?",
+      "lang": "es"
+    },
+    {
+      "text": "So whilst we have these irregular forms, which need a little bit more effort, many times you can just use the line in the past instead. So if you say something like ¿dónde",
+      "lang": "en"
+    },
+    {
+      "text": "estuviste?",
+      "lang": "es"
+    },
+    {
+      "text": "- where were you? - and here we’re using a point in time, so maybe it sounds like where were you in this precise moment when we needed you?, but even so we could still just use the line in the past to get around this irregular tense. Now we don’t want to avoid it forever. Anything that we don’t control, of the line which will end up controlling us. Anything we are uncertain of that we don’t take the control of, will control us. But, many times you’re in a conversation and you don’t have time to find that irregular form and maybe you want to worry about it later and check or think about what it was. In that case, you can just turn to the line in the past. ¿Dónde estabas? instead of ¿dónde",
+      "lang": "en"
+    },
+    {
+      "text": "estuviste?",
+      "lang": "es"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "So how would you say I had to go using this point in the past? So how is I had, using the point in the past?",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "So I had to go:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Good. So",
+      "lang": "en"
+    },
+    {
+      "text": "tuve que ir,",
+      "lang": "es"
+    },
+    {
+      "text": "you would want to use it if you meant that in one precise moment you know something happened and I had to go:",
+      "lang": "en"
+    },
+    {
+      "text": "tuve que ir.",
+      "lang": "es"
+    },
+    {
+      "text": "But, you could also use the line in the past and not have any problem there if you wanted to avoid this irregular tense just to get the meaning across. So you can just say tenía que ir, which is regular, to avoid using this irregular tense.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "What was to say or to tell?",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Decir",
+      "lang": "es"
+    },
+    {
+      "text": "or contar, but",
+      "lang": "en"
+    },
+    {
+      "text": "decir",
+      "lang": "es"
+    },
+    {
+      "text": "we are working with for now. So dec- becomes dij- in the point in the past. Dij-. D-i-j.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "What is I said?",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Dije.",
+      "lang": "es"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "He said:",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "We said:",
+      "lang": "en"
+    }
+  ],
+  "turn-87-full": [
+    {
+      "text": "Dijimos",
+      "lang": "es"
+    },
+    {
+      "text": "e and - o from the",
+      "lang": "en"
+    },
+    {
+      "text": "- ar",
+      "lang": "es"
+    },
+    {
+      "text": "group and then the rest of the endings from the - er /- ir group for the point in the past.",
+      "lang": "en"
+    }
+  ]
+}

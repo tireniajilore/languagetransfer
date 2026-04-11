@@ -1,0 +1,636 @@
+{
+  "lessonId": "lesson-05",
+  "generatedAt": "2026-04-11T13:50:51.281Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "In Spanish, 'quiero' means 'I want' without needing the word for 'I'. The word for 'I' is 'yo', but it's only used for emphasis. How would you say 'I want' with emphasis?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "b7783c641d3dacff3a3e4523583c2dbf0bffc60d0323473b14b28f22863d8a6d"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Yo quiero.",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "6dec9a806eda9e8cbfa144a7abd8469122a7ce1c76be350ad4ffec4a0d038f28"
+        },
+        {
+          "text": "Now,",
+          "lang": "en",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "ea54001f451067939afbbbc76dcf654ce5519dba8d14c4652e1c1194cd5b3545"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "how would you say 'I don't want'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "c0f0c8befc8de36a091229e6fce230d8cb5d81cf9fe17bec1029a52b8e72fd91"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Yo no quiero.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "2219ad1514f3e36dd9ebf9577fe12e7da769f81f86a61e3c529cb674e70739da"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I don't want to cancel'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "8ad68214c6a95fabf54e6da451a84eb6746c0203eb6c8c8e6f7ff26b6900398c"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Yo no quiero cancelar.",
+          "lang": "es",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "c08ea20b08ed4a98cda8a6572e244849fd6eaae8d43dbbc23ee2d4a94691f207"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "Now, how do you say 'celebration'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "996db9536b726bf2d80ef4d64a9347f45ccbdad932e5230cdf9f1d3434d81d61"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Celebración.",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "8e0a2dea605809b10c6cb474c5f8fceda668402b10bb00a567b8bbd7f490c8df"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "And to celebrate?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "e8f6e775895843c51ea103c5916b0ac765a39e7289c69bcd152286d15b2a564e"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Celebrar.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "5b5e156e2892bd12abbb15e13f6930154917f8b8629fb789e677074cafbeabad"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to celebrate'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "2736ac1bb14cdc21b7955ee7c633840bb81fe09f967aaf43802122379639ca44"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Quiero celebrar.",
+          "lang": "es",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "20b55dc986e161847423426d5cee14bdf6562f62e5dc403626e03f2feb7404f2"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "What does 'quiero ilustrar' mean?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "7f7a6de96f1a882ef6b216768cb7d9018be4411cfb76fc9a65c84180ef33d6c0"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Correct. 'Ilustrar' means 'to illustrate'. Now,",
+          "lang": "en",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "acbad5be00b24fed7bfe665192b3375b6ba8907a775807618cc452e377703586"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "how would you say 'I want to find out'? In Spanish, you say 'I want to inform myself'.",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "523cc5446a1f1e5f22d65f319ee976cf3783cabc13cae2aa54b58265bf395def"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Quiero informarme.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "a22e38bf7102b09efe709a045d217d5cdb879171c263b1f1f40c06f33dbdce54"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'information'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "2635426e99e512f13298f7a71c456e3e826eb462564334f4933b312d0dc192c8"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "Información.",
+          "lang": "es",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "fe7961f5e15bdab8948fab73b1d28d4cbd3685685bf6f7449769d55922ba1d91"
+        },
+        {
+          "text": "Now,",
+          "lang": "en",
+          "file": "turn-19-reveal-2.mp3",
+          "hash": "ea54001f451067939afbbbc76dcf654ce5519dba8d14c4652e1c1194cd5b3545"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "how would you say 'I don't want to oblige you'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "5ecd836ac1ae9bf8976d0a7301a0f99eb87db68426fa9e0fdf121b6012bbd287"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "No quiero obligarte.",
+          "lang": "es",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "fc854c1797ed2a4799d95b6ba617ee4d98016455883d1336fe51efb5a31b7d3d"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to cancel it'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "cac8895d008791d61d3b016a515603214327ba9d774b1a109b905e4e131aa7eb"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Quiero cancelarlo.",
+          "lang": "es",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "24539f2570c816f6614aa38fa8def511466df515d0724135827c50ef30ae6604"
+        },
+        {
+          "text": "Now, let's talk about the Spanish 'r'. An initial 'r' is rolled, like in 'regular'. The word for 'but' is 'pero', and 'dog' is 'perro'.",
+          "lang": "en",
+          "file": "turn-23-reveal-2.mp3",
+          "hash": "a64c33609d2395f026ff5d6d725828fe9fa2420bbaffb62278157048702c25ed"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to regulate it'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "803fb18a2249fcb83c778f1674951c17a821b1899b4755871fe6d625617be489"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Quiero regularlo.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "d8cb3e7518589123715b31ba55816992959562e123539321e1111bcd70037fdd"
+        },
+        {
+          "text": "Let's move to 'salvation'.",
+          "lang": "en",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "8645b4fa53520261aa2da0986ccbffa0fc81375a3c2d9071ad4d4c19c80d9af6"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How do you say it?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "4c4de268124b939dd0a13d1205c11f3e3678443ba319845b14a388f0328a4b5c"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "Salvación.",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "6d678f01489cd0e2a8a3302dee4f91765a7493b00a48ba6618271fcff5b3158d"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "And 'to save'?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "dd7d4b20f9ce3eb9f89961a91902830cedd89638efecd6d770f0f80e21dcd4f6"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Salvar.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "159d960259bef138754c6fe1c7d129f4e0dc7452182e64bb621f9bf963571d2d"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to save him'?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "1ec01a941e9a4158da894d880f40862bbf1a2af44dadc7f8ee19f1d357b402a7"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Quiero salvarlo.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "865187b074af63642c0f41f735b41d15c88376769bdebec5f45501609d7bcda7"
+        },
+        {
+          "text": "Now, let's look at 'situation'.",
+          "lang": "en",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "ed2ca3c19d580872be3a816c85689de9b700b8611fe16eb6af8c2d86d0f8c622"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How do you say it?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "4c4de268124b939dd0a13d1205c11f3e3678443ba319845b14a388f0328a4b5c"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "text": "Situación.",
+          "lang": "es",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "37824a7e4216afa83eac35089ab5160777408788568e70f2a157f4c9327b87a1"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "And 'to situate'?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "6e5ebaaeacde99afd1e2a10b579125c454b5a194fb84567628aca2661eadc21f"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "Situar.",
+          "lang": "es",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "a33cee1cf5eb7dff039ae8bbb5fa33e49d830105ab995645ac73d3ef26560dab"
+        },
+        {
+          "text": "Now, 'participation'.",
+          "lang": "en",
+          "file": "turn-35-prompt-2.mp3",
+          "hash": "8a2f8874a9d6463739ec53ec4e610e62e4adb6ddacd599dc38c9a2aa756a290c"
+        }
+      ]
+    },
+    "turn-37-reveal": {
+      "segments": [
+        {
+          "text": "Participación.",
+          "lang": "es",
+          "file": "turn-37-reveal-1.mp3",
+          "hash": "3397e173d84b43644931e79a9f68d687b1645bfc647f702889da2f88d96bc999"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "And 'to participate'?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "dbf852ef7a42a83b82b6360096e126456971797792b4a6b58d7bbd2e22640cab"
+        }
+      ]
+    },
+    "turn-39-reveal": {
+      "segments": [
+        {
+          "text": "Participar.",
+          "lang": "es",
+          "file": "turn-39-reveal-1.mp3",
+          "hash": "d51cf5d09d52740637a98469f2002c14dfb2ad8a4c8d391eea5b2534b8ba5a62"
+        },
+        {
+          "text": "Remember to break words into syllables to avoid mistakes.",
+          "lang": "en",
+          "file": "turn-39-reveal-2.mp3",
+          "hash": "003a21ed124b4c470e9054e970ec8b17b4de6b2c178d948b8f54d14a0a69ebfa"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'creation'?",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "efe6fdd2f10e3362e325d854665e8dd92b1661fc2fd0c159b5c562da95dfde4f"
+        }
+      ]
+    },
+    "turn-41-reveal": {
+      "segments": [
+        {
+          "text": "Creación.",
+          "lang": "es",
+          "file": "turn-41-reveal-1.mp3",
+          "hash": "e51f7d03938420a70c8e06dcbe2b828aaf0b21477293e954422c0507d9dec2a0"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "And 'to create'?",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "dafdcb9215102434d6c38ff4820f59944906ca5d2505c59edae336b56dcec7c0"
+        }
+      ]
+    },
+    "turn-43-reveal": {
+      "segments": [
+        {
+          "text": "Crear.",
+          "lang": "es",
+          "file": "turn-43-reveal-1.mp3",
+          "hash": "ddf9b37ab6ffa8a6897572cb677a2a2b215aa93264a9c2a384d4511141b13004"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "Now, 'to experiment' or 'to experience'?",
+          "lang": "en",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "c9d27524ebbf81d6aeabb8ddb3bbd029f9b483b7fd014d8b80edd4eb4b5de330"
+        }
+      ]
+    },
+    "turn-45-reveal": {
+      "segments": [
+        {
+          "text": "Experimentar.",
+          "lang": "es",
+          "file": "turn-45-reveal-1.mp3",
+          "hash": "df98d339b3c557ea25cfaae351d4766947310b8e61d67f000e25d642337ab942"
+        },
+        {
+          "text": "This verb means both 'to experiment' and 'to experience'.",
+          "lang": "en",
+          "file": "turn-45-reveal-2.mp3",
+          "hash": "ae7536821a0452a8acaa30f245bd90d8e3d2478e7b0d8369701f67cc69bbf75d"
+        }
+      ]
+    },
+    "turn-45-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'difference'?",
+          "lang": "en",
+          "file": "turn-45-prompt-1.mp3",
+          "hash": "c1db09b2b401bf68b03e76328536935de061ada3d989d163b8db43b254d53d4f"
+        }
+      ]
+    },
+    "turn-47-reveal": {
+      "segments": [
+        {
+          "text": "Diferencia.",
+          "lang": "es",
+          "file": "turn-47-reveal-1.mp3",
+          "hash": "399b827059441f51ea36c2afa1909c74ce58693ad31078e5d6e0ad5a1f63b75f"
+        }
+      ]
+    },
+    "turn-47-prompt": {
+      "segments": [
+        {
+          "text": "And 'influence'?",
+          "lang": "en",
+          "file": "turn-47-prompt-1.mp3",
+          "hash": "519d3dc5a0822ae081bc1d289c8e9e373919c8dac11025f0413b297d778fe300"
+        }
+      ]
+    },
+    "turn-49-reveal": {
+      "segments": [
+        {
+          "text": "Influencia.",
+          "lang": "es",
+          "file": "turn-49-reveal-1.mp3",
+          "hash": "509ccd2b7b96b3af6e7141ff4e9ccfa34c7ad79ebb70ae03d2e3152377c33b94"
+        }
+      ]
+    },
+    "turn-49-prompt": {
+      "segments": [
+        {
+          "text": "How about 'existence'?",
+          "lang": "en",
+          "file": "turn-49-prompt-1.mp3",
+          "hash": "646e0903c30472f0e17a1ab891dd6a65bfe3af9e5b109421edf80f3103872946"
+        }
+      ]
+    },
+    "turn-51-reveal": {
+      "segments": [
+        {
+          "text": "Existencia.",
+          "lang": "es",
+          "file": "turn-51-reveal-1.mp3",
+          "hash": "e7da3a338f5c21dee87499ffbe76fa0436df3cc9eff0e6d32394a53c621b3622"
+        }
+      ]
+    },
+    "turn-51-prompt": {
+      "segments": [
+        {
+          "text": "And 'consistence'?",
+          "lang": "en",
+          "file": "turn-51-prompt-1.mp3",
+          "hash": "796cf3776684bfaa43a364d067ce4620661f3cfc113bec18667c9c4a4e2da9f7"
+        }
+      ]
+    },
+    "turn-53-reveal": {
+      "segments": [
+        {
+          "text": "Consistencia.",
+          "lang": "es",
+          "file": "turn-53-reveal-1.mp3",
+          "hash": "25d370a661406b7806ae0ea5bc46f07dc0b5271a1a3513ef2e85f9de111fe25d"
+        }
+      ]
+    },
+    "turn-53-prompt": {
+      "segments": [
+        {
+          "text": "Finally, 'inconsistence'?",
+          "lang": "en",
+          "file": "turn-53-prompt-1.mp3",
+          "hash": "8e81e9e6cb3f515da2b37fb111cf590c0941e66f74ee5e841a2ce704f84d275f"
+        }
+      ]
+    },
+    "turn-55-full": {
+      "segments": [
+        {
+          "text": "Inconsistencia.",
+          "lang": "es",
+          "file": "turn-55-full-1.mp3",
+          "hash": "0a72042f22b420c53c12d1599a3ced109d39135c40942b5cb95afa304814b8e7"
+        },
+        {
+          "text": "Great job!",
+          "lang": "en",
+          "file": "turn-55-full-2.mp3",
+          "hash": "8eef0738c594698f84a669ead2f24d903f2ca832af3ef681dc5edc21f510c5bc"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to use 'yo' for emphasis and how to form verbs from nouns.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "6327c0a23adc248d5d9f55227b06c4458eaf21ffc0da56584022e063bf58184a"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try forming more verbs from nouns you know. Think of 'communication' or 'operation' and convert them to Spanish.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "fdf1f60a012ddbcf4136a2e45dac74f31d3da2447057977db91d7cee85730a92"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Remember, breaking words into syllables helps avoid mistakes. Practice this technique with new words.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "e36786b5c6b91678791d8c33ba266a215636102b1db36dae36aa48588907c037"
+        }
+      ]
+    },
+    "outro-4-full": {
+      "segments": [
+        {
+          "text": "Next time, we'll explore more verb forms and continue building your Spanish vocabulary.",
+          "lang": "en",
+          "file": "outro-4-full-1.mp3",
+          "hash": "d2f463298c88fd8ac86b9fed012297c5724e5d17ca8c776253e1302553d3e069"
+        }
+      ]
+    }
+  }
+}

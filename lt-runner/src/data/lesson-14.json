@@ -1,0 +1,170 @@
+{
+  "lesson_number": 14,
+  "title": "Irregular Verbs - Saber and Salir",
+  "description": "Learn about irregular verbs 'saber' and 'salir', and how to use them in sentences.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was 'to know'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Saber. Good. 'I know' is an exception: sé. How would you say 'he knows' or 'she knows'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "sabe"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sabe. Good. How would you say 'I don't know'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no sé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No sé. How would you say 'I don't know what he wants'? Remember, 'what' is 'qué'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no sé qué quiere"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. If you want to emphasize 'he', you can say 'no sé qué él quiere'. Now, how would you say 'she sees'? Remember 'to see' is 'ver'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ella ve"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ella ve. Good. How would you say 'I don't want to invite him, but she does'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiero invitarlo, pero ella sí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No quiero invitarlo, pero ella sí. Now, 'to leave' or 'to go out' is 'salir'. How would you say 'he leaves'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "sale"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sale. Good. How do you say 'I'm going out to eat'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "salgo a comer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salgo a comer. Good. How would you say 'I have to do it'? Remember 'to do' is 'hacer'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "tengo que hacerlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tengo que hacerlo. Now, let's look at verbs with the '-go' ending like 'tengo', 'vengo', 'salgo'. How would you say 'I suppose'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "supongo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Supongo. Good. How would you say 'I must see her'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "debo verla"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Debo verla. Good. Now, how would you say 'I'm going to try to eat later'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a intentar comer más tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a intentar comer más tarde. Excellent. Let's recap these useful verbs: 'quiero', 'voy a', 'tengo que', 'puedo', 'debo'. They allow you to easily add another verb after them.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned about irregular verbs like 'saber' and 'salir', and how to use them in sentences."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try creating your own sentences using these verbs. For example, 'I want to go out' or 'I must know'.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "These verbs are essential for everyday conversation. Practice using them to build your confidence."
+    }
+  ]
+}

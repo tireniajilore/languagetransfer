@@ -1,0 +1,568 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So some adjectives will exclusively go with estar. Some adjectives will exclusively go with ser. Some adjectives can go with either ser or estar, and change their meaning, like aburrido, meaning bored as a state, or boring as a characteristic, just changing depending on whether it goes with ser or estar. Another example of a word like this is",
+      "lang": "en"
+    },
+    {
+      "text": "listo. Listo.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Now",
+      "lang": "en"
+    },
+    {
+      "text": "listo,",
+      "lang": "es"
+    },
+    {
+      "text": "when it comes with estar, means ready.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So how would you say I am ready?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Estoy lista, or",
+      "lang": "en"
+    },
+    {
+      "text": "listo.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say, we are ready?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And what if we were a female group?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Estamos listas.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And what if we wanted to emphasize We are ready:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "You make it a characteristic and it's more emphatic...",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "It's a very interesting idea.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "There's a contradiction there.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "es"
+    },
+    {
+      "text": "All-female group:",
+      "lang": "en"
+    },
+    {
+      "text": "nosotras estamos listas,",
+      "lang": "es"
+    },
+    {
+      "text": "or male or mixed group:",
+      "lang": "en"
+    },
+    {
+      "text": "nosotros estamos listos.",
+      "lang": "es"
+    },
+    {
+      "text": "So, to be",
+      "lang": "en"
+    },
+    {
+      "text": "listo,",
+      "lang": "es"
+    },
+    {
+      "text": "to be ready as a characteristic, means to be smart in Spanish. So this is one of the words that we can use with ser or estar and the meaning changes. So, estoy",
+      "lang": "en"
+    },
+    {
+      "text": "listo:",
+      "lang": "es"
+    },
+    {
+      "text": "I am ready. Soy",
+      "lang": "en"
+    },
+    {
+      "text": "listo:",
+      "lang": "es"
+    },
+    {
+      "text": "I am smart. So",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "if you want to say, he is smart, he is smart, how would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-20-reveal": [
+    {
+      "text": "Good. You are smart, speaking informally, to a woman? If you forgot the you are you can think of where are you from? That might help you trigger it.",
+      "lang": "en"
+    }
+  ],
+  "turn-20-prompt": [
+    {
+      "text": "De dónde -",
+      "lang": "en"
+    }
+  ],
+  "turn-22-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-22-prompt": [
+    {
+      "text": "You are very smart:",
+      "lang": "en"
+    }
+  ],
+  "turn-24-prompt": [
+    {
+      "text": "Good. The word for so, like I am so bored or I am so tired, is",
+      "lang": "en"
+    },
+    {
+      "text": "tan.",
+      "lang": "es"
+    },
+    {
+      "text": "T-a-n.",
+      "lang": "en"
+    },
+    {
+      "text": "Tan.",
+      "lang": "es"
+    }
+  ],
+  "turn-26-reveal": [
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-26-prompt": [
+    {
+      "text": "how would you say, I am so tired?",
+      "lang": "en"
+    }
+  ],
+  "turn-28-reveal": [
+    {
+      "text": "Good. Estoy",
+      "lang": "en"
+    },
+    {
+      "text": "tan",
+      "lang": "es"
+    },
+    {
+      "text": "cansado. Estoy",
+      "lang": "en"
+    },
+    {
+      "text": "tan",
+      "lang": "es"
+    },
+    {
+      "text": "cansada. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-28-prompt": [
+    {
+      "text": "How would you say, I am so bored?",
+      "lang": "en"
+    }
+  ],
+  "turn-30-reveal": [
+    {
+      "text": "Good. Estoy",
+      "lang": "en"
+    },
+    {
+      "text": "tan",
+      "lang": "es"
+    },
+    {
+      "text": "aburrido, aburrida.",
+      "lang": "en"
+    }
+  ],
+  "turn-30-prompt": [
+    {
+      "text": "How would you say, he is so bored?",
+      "lang": "en"
+    }
+  ],
+  "turn-32-reveal": [
+    {
+      "text": "Good. Está",
+      "lang": "en"
+    },
+    {
+      "text": "tan",
+      "lang": "es"
+    },
+    {
+      "text": "aburrido, or",
+      "lang": "en"
+    },
+    {
+      "text": "Él está tan aburrido.",
+      "lang": "es"
+    },
+    {
+      "text": "Now",
+      "lang": "en"
+    }
+  ],
+  "turn-32-prompt": [
+    {
+      "text": "how would you say, it is so boring, it is so boring. So boring, not bored. Boring.",
+      "lang": "en"
+    }
+  ],
+  "turn-34-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es tan aburrido.",
+      "lang": "es"
+    },
+    {
+      "text": "The word for good in Spanish is bueno. We've mentioned this before. We have in English Bon Appetit which is of course French, but we say it in English, and you can see the o of bon appetit splitting to become bueno in Spanish. Now the meaning of bueno changes as well between ser and estar. If you are talking about it is, the change is a kind of change in feeling.",
+      "lang": "en"
+    },
+    {
+      "text": "Es bueno, está bueno:",
+      "lang": "es"
+    },
+    {
+      "text": "a small change in feeling which really depends on dialect so we won't look at it too much here, we'll just listen. But if you refer to people, in most dialects, if we use ser, we get the meaning of “to be a good person” or “to be good at something”. So",
+      "lang": "en"
+    }
+  ],
+  "turn-34-prompt": [
+    {
+      "text": "if you want to say, they, and you mean “they are good people”, or that they are good at something, how would are good you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-36-reveal": [
+    {
+      "text": "Son buenos.",
+      "lang": "es"
+    }
+  ],
+  "turn-36-prompt": [
+    {
+      "text": "He is good:",
+      "lang": "en"
+    }
+  ],
+  "turn-38-reveal": [
+    {
+      "text": "Es bueno.",
+      "lang": "es"
+    },
+    {
+      "text": "Now if you use estar, it will sound like he is attractive. He is in good form. So bueno with estar, if we are talking about people, then gives you this meaning.",
+      "lang": "en"
+    }
+  ],
+  "turn-38-prompt": [
+    {
+      "text": "So how would you say that? He is good, meaning attractive, in good form:",
+      "lang": "en"
+    }
+  ],
+  "turn-40-reveal": [
+    {
+      "text": "Está bueno.",
+      "lang": "es"
+    },
+    {
+      "text": "So, you see that you can have many different changes in shade of meaning between ser and estar. So other than the fact that we are being permitted and obliged to perceive and express the world in a certain way by Spanish, which is very interesting in itself, we also get the opportunity to use these different nuances between ser and estar and when you really get your head around it, which is just through listening and observing and seeing how people are using it, you will probably feel that it's missing in English. That sometimes in English you might want to clarify, not estar but es, and you can't do it. So you realize that Spanish gives you a tool to relate to reality that in this case, English doesn't give you. And this is one of the most fascinating and exciting things about language learning. Not an obstacle to speaking the language, we don't want to see it like this, I have to think about this “characteristic or state” business. No, we want oh every time I use to be to look at it from the other angle, about what it offers us.",
+      "lang": "en"
+    }
+  ],
+  "turn-40-prompt": [
+    {
+      "text": "How would you say, I want to know how he is, and we mean, I want to know, how is he doing?",
+      "lang": "en"
+    }
+  ],
+  "turn-42-prompt": [
+    {
+      "text": "How is he doing:",
+      "lang": "en"
+    }
+  ],
+  "turn-44-reveal": [
+    {
+      "text": "Good. Quiero saber",
+      "lang": "en"
+    },
+    {
+      "text": "cómo está.",
+      "lang": "es"
+    },
+    {
+      "text": "Now what would it mean,",
+      "lang": "en"
+    },
+    {
+      "text": "quiero saber cómo es?",
+      "lang": "es"
+    }
+  ],
+  "turn-44-prompt": [
+    {
+      "text": "What would that mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-46-reveal": [
+    {
+      "text": "Exactly. I want to know what he's like. Good. Another adjective you can use with ser or estar is feliz.",
+      "lang": "en"
+    }
+  ],
+  "turn-46-prompt": [
+    {
+      "text": "What do you think feliz might mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-48-prompt": [
+    {
+      "text": "And how do you know that?",
+      "lang": "en"
+    }
+  ],
+  "turn-50-reveal": [
+    {
+      "text": "Oh okay!",
+      "lang": "en"
+    },
+    {
+      "text": "Happy",
+      "lang": "es"
+    },
+    {
+      "text": "Christmas.",
+      "lang": "en"
+    },
+    {
+      "text": "Feliz navidad.",
+      "lang": "es"
+    },
+    {
+      "text": "But is there some connection in English that might have helped you as well?",
+      "lang": "en"
+    }
+  ],
+  "turn-50-prompt": [
+    {
+      "text": "Did you hear felicity in English?",
+      "lang": "en"
+    }
+  ],
+  "turn-52-prompt": [
+    {
+      "text": "How would felicity be in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-54-reveal": [
+    {
+      "text": "Felicidad.",
+      "lang": "es"
+    },
+    {
+      "text": "Which means happiness. Happiness. So feliz,",
+      "lang": "en"
+    },
+    {
+      "text": "happy.",
+      "lang": "es"
+    },
+    {
+      "text": "So feliz can also go with ser or estar to give the meaning of I am",
+      "lang": "en"
+    },
+    {
+      "text": "happy",
+      "lang": "es"
+    },
+    {
+      "text": "or I am a",
+      "lang": "en"
+    },
+    {
+      "text": "happy",
+      "lang": "es"
+    },
+    {
+      "text": "person. So we don't need to say I am a",
+      "lang": "en"
+    },
+    {
+      "text": "happy",
+      "lang": "es"
+    },
+    {
+      "text": "person, we can just use ser. So like I said there's no real way for you to know that other than listening. If you wanted to play safe, and say, literally, I am a",
+      "lang": "en"
+    },
+    {
+      "text": "happy",
+      "lang": "es"
+    },
+    {
+      "text": "person, it would not be at all incorrect.",
+      "lang": "en"
+    }
+  ],
+  "turn-54-prompt": [
+    {
+      "text": "So, firstly, how do you say, I am",
+      "lang": "en"
+    },
+    {
+      "text": "happy,",
+      "lang": "es"
+    },
+    {
+      "text": "as a state?",
+      "lang": "en"
+    }
+  ],
+  "turn-56-reveal": [
+    {
+      "text": "Estoy feliz.",
+      "lang": "es"
+    }
+  ],
+  "turn-56-prompt": [
+    {
+      "text": "Now, I am",
+      "lang": "en"
+    },
+    {
+      "text": "happy,",
+      "lang": "es"
+    },
+    {
+      "text": "and you mean as a characteristic:",
+      "lang": "en"
+    }
+  ],
+  "turn-58-reveal": [
+    {
+      "text": "Soy feliz.",
+      "lang": "es"
+    },
+    {
+      "text": "So this is fine. You can do this, but there is no real way for you to know whether feliz is an adjective that is flexible enough to be used with ser and estar. It really depends on the adjective itself, the word itself, rather than the meaning in many cases. So, with that insecurity, and wanting to give the meaning, you could have just said, I am a",
+      "lang": "en"
+    },
+    {
+      "text": "happy",
+      "lang": "es"
+    },
+    {
+      "text": "person, and then you don't have to worry about it.",
+      "lang": "en"
+    }
+  ],
+  "turn-58-prompt": [
+    {
+      "text": "So how would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-60-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Soy una persona feliz.",
+      "lang": "es"
+    },
+    {
+      "text": "And that's also perfect Spanish. So there you could have said",
+      "lang": "en"
+    },
+    {
+      "text": "soy feliz",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "soy una persona feliz.",
+      "lang": "es"
+    },
+    {
+      "text": "So to really get our heads around ser and estar it's important to listen actively, and to notice and see how people are using ser and estar, and making our own conclusions as to why, working with this base of state and characteristic. It's a process of listening, and the more you get intimate with this idea, it offers you a great range of expression that you don't have in English and you should really enjoy it.",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,728 @@
+{
+  "lessonId": "lesson-04",
+  "generatedAt": "2026-04-11T13:49:18.361Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "How would you say 'urgent'?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "549d37eaa315aa1b3314b460b1639ffaf3b4c6a58015368628a0dbdb195e035f"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Urgente.",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "5059976e8710e6d2370425054f506028acf13b264864e62f1c7dea9f1b65eb39"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'urgently'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "385310ede99e33942183315e95e10526acbea5639d2e7a460388b96065aa6886"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Urgentemente.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "20da46881273a12b039293a12f7162c3480f96ee5f96ad80af39e950c3d00f25"
+        },
+        {
+          "text": "Good. 'I love you' in Spanish is 'te",
+          "lang": "en",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "7af7c16a0c610422c937e03b6b00bb486a2b0de3631b50f69cdbedf4549fe5ff"
+        },
+        {
+          "text": "quiero",
+          "lang": "es",
+          "file": "turn-5-reveal-3.mp3",
+          "hash": "030084b7dad9e4e26ece396a40b8bb0349e1ba3c3d3db567b87f28ce633b8107"
+        },
+        {
+          "text": "', literally 'I want you'. 'Te amo' is more serious. 'Te' is 'you', so '",
+          "lang": "en",
+          "file": "turn-5-reveal-4.mp3",
+          "hash": "3a57cad289dd7fc9a8e939a593a3144ee930991935921c5d2cb8fd3891310bf2"
+        },
+        {
+          "text": "quiero",
+          "lang": "es",
+          "file": "turn-5-reveal-5.mp3",
+          "hash": "030084b7dad9e4e26ece396a40b8bb0349e1ba3c3d3db567b87f28ce633b8107"
+        },
+        {
+          "text": "' means 'I want'.",
+          "lang": "en",
+          "file": "turn-5-reveal-6.mp3",
+          "hash": "7b230addd12bc9822c5b38ec5800632c2b2b3540680d0c40d80972eade06bcd4"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "40b55d3e7217113234567a621d0996796e04a31f62e5370bbde0039df6297a38"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Quiero.",
+          "lang": "es",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "353e0a80b68bddbcea4a0dd11024f9712e530fafe3643453f814e3d8d889c638"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-7-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I don't want'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "ff6f5d4028d1d5539bcdf8ef1aa8153079977e8110def842f3ea2dc1369dab67"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "No quiero.",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "4c57d36989520af58c4c21a5044676aa6e829144228aa524d06ae9afd8942b0a"
+        },
+        {
+          "text": "Good. Words ending in -ion in English are similar in Spanish, just stress the last syllable.",
+          "lang": "en",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "72bf9bcddf011ef9f9c85547923c402b964cdc07f4d73bf1ac7971a3e629fdd1"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'opinion'?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "6ad8a78096fd01cedfbcf7b20213ed697cbadd757ff8a64047d82f4d9d4f0b36"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Opinión.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "d7147d21d27be331be0c51fea5d394c82247a1e15b1b441a1f4e686a2bcc53b7"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-11-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How about 'passion'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "3165b9e5a0fd88a943892ffdde3e37170e73f1e5eb98f600fe15a2a9790217c9"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Pasión.",
+          "lang": "es",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "4378355325bbf30175616e18e3e07ad6d3bc590234cd7f1907896610e003270e"
+        },
+        {
+          "text": "Good. Remember to pronounce the S clearly.",
+          "lang": "en",
+          "file": "turn-13-reveal-2.mp3",
+          "hash": "d05032da9f7d4e4836dba01a71e64c8dcb4f1f89b5e20eb43b3f983a88cf4cf9"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'organization'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "a8583c165a83e68efbd9152d7a3cd7e9be95aaaecd78abcd4485858036d54bee"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Organización.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "73351635866829aa04cde0eb1304b4dbd04db099417d60a60ffba2fc207708a5"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How about 'preparation'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "a27afc4d435873edabb929790dcd1a3fa0b363fad627bd66ddff8ad52bd672e3"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Preparación.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "736ef41e04866d7f076c38f5b01f2e98ad584c93ed7f2d768375aaa90496d4c0"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-17-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "Now 'generation'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "9d4f0aa9a35033dc97c7e4856c1c33aaa61aa95aa38e962a07f3936941676664"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "Generación.",
+          "lang": "es",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "4c9fda93222706820bdc1526dbe427e319ca7ec76168a8a350eed3d8f4f37de0"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-19-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'confirmation'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "67ee93dfae006d9368e23f56efb5d3124ba8a451b71dde10169cb9f9494eb07c"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Confirmación.",
+          "lang": "es",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "3eb271e7f4ad432ec6ce1d5e57b4bf64d17ec04f6d17d117759c19eccf90e19b"
+        },
+        {
+          "text": "Good. Now let's look at verbs. If you remove -ción and add -r, you get the verb.",
+          "lang": "en",
+          "file": "turn-21-reveal-2.mp3",
+          "hash": "4b64f900150f42cb265408693e4944f326e5ffc4e18e7ddafce0e415ab180aa7"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to generate'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "025f4f80e1b33fbf9c69019664ad5f89af646b730892282b98663f71c209070f"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Generar.",
+          "lang": "es",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "51fea4112ba9ae4c6ebfb5ea2c4457b620a249f1af5078cec5752c68ebfeba09"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-23-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How about 'to confirm'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "0ba0343f4f3f36298c6240a2eba4d397fa9c2284bb290cb6c46949d6db4ac7c6"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Confirmar.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "a836e00d502cf46e9c57c16d73b1f4872dbc8a839718e22629cfbf68811613b5"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to sign'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "b7974ec61827834137bafad0fdd69b394e71b4ddb810c03ed64e7ae5233e856f"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "Firmar.",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "8b0f0930b99d3ae64b31aba92f58b7132b441827ccb77c42d813a6545068aab1"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-27-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "Now 'complication'?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "28d0f30fde384cb28f58810085f5a827c4090f0115da7c8326f373daafec5555"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Complicación.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "a685909d628559d7a763a09607f6d560a4df18644a71fc7e78eb1d65d22322f8"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "And 'to complicate'?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "3269971ed6bc0ced4b65cbe301156a68f11cca452a749eec2b670518636beb5a"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Complicar.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "44cfa0c1973cd54e55d824ee5698f02d7f6234dc7218abac5aa0e22a5ee1990e"
+        },
+        {
+          "text": "Good. Let's make some sentences.",
+          "lang": "en",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "471ad86905ce26482dcf35b0ca0c540cd221964ad7057f1998d813c7d113e3d8"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to prepare'?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "465d3646d7ff362474e2a10914c2fbed47d902b98b1660091d6de3141f64d70e"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "text": "Quiero preparar.",
+          "lang": "es",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "2ffc0c62ebce0fc3ecb3f1422211077d93ff25cf3d5d0e4ab96da1af07c768cf"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-33-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'cooperation'?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "e1e358d1794568cc96e0a96fa7b8987be3df337f99894b8a991b5e3ff3bb392b"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "text": "Cooperación.",
+          "lang": "es",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "8ed93a84bcec24d5a23d030b3d759bfe9549732055cf07ba428879b807a9d0ab"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "And 'to cooperate'?",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "5386fda2d7bcd03fe584395148b2c56e3641ecb34506c3e6e02477d0a1918b45"
+        }
+      ]
+    },
+    "turn-37-reveal": {
+      "segments": [
+        {
+          "text": "Cooperar.",
+          "lang": "es",
+          "file": "turn-37-reveal-1.mp3",
+          "hash": "e83fb0edddec9de4c0d5e027b20aa7c1e0e0c67e11bb59e50dd006a422832a78"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-37-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to cooperate'?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "caaa3be1d65e631cf4627de7879d7b3e83e518c0c389ca28606d2371fcf2ab61"
+        }
+      ]
+    },
+    "turn-39-reveal": {
+      "segments": [
+        {
+          "text": "Quiero cooperar.",
+          "lang": "es",
+          "file": "turn-39-reveal-1.mp3",
+          "hash": "1ed9e3a8ee5c6a68997ba7f78a6ea0e6f9cc7a8ee817f6228ec28761ee6fec9f"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-39-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'cancellation'?",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "3233037b858396002805db8758d1dcc2ad69c3695b65f8bd8fda9712c701f7ce"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "And 'to cancel'?",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "e8d4dfa912b9a5d3614de3a38d5e9d7ca663a486ec862d42e507a0e01c67a0b6"
+        }
+      ]
+    },
+    "turn-43-reveal": {
+      "segments": [
+        {
+          "text": "Cancelar.",
+          "lang": "es",
+          "file": "turn-43-reveal-1.mp3",
+          "hash": "c605ede533d5c4fd342a428e39eb335785d762e4f137cebd17143e7cf4208f0e"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-43-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to cancel'?",
+          "lang": "en",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "0163bc9a33f212196ab68ad8598d694d45d2560d637c3b9981b94c93a0e35594"
+        }
+      ]
+    },
+    "turn-45-reveal": {
+      "segments": [
+        {
+          "text": "Quiero cancelar.",
+          "lang": "es",
+          "file": "turn-45-reveal-1.mp3",
+          "hash": "afe348dd1a87746241008ba3981cf86003f5f4cd9a70d4a133304c825520f807"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-45-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-45-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I don't want to cancel'?",
+          "lang": "en",
+          "file": "turn-45-prompt-1.mp3",
+          "hash": "8ad68214c6a95fabf54e6da451a84eb6746c0203eb6c8c8e6f7ff26b6900398c"
+        }
+      ]
+    },
+    "turn-47-reveal": {
+      "segments": [
+        {
+          "text": "No quiero cancelar.",
+          "lang": "es",
+          "file": "turn-47-reveal-1.mp3",
+          "hash": "2b7975c5d970992af39a15106598f95e7976b53769f90f8db23efb59aa52f97d"
+        },
+        {
+          "text": "Perfect.",
+          "lang": "en",
+          "file": "turn-47-reveal-2.mp3",
+          "hash": "f8407bd6cef9e56d2fde4b0fa8fb184f1b481ea7139549e80d555ab947dae98a"
+        }
+      ]
+    },
+    "turn-47-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'exploration'?",
+          "lang": "en",
+          "file": "turn-47-prompt-1.mp3",
+          "hash": "c974f87a24d16b199756bc79eb5935ab3d1b058cca321c0c8413b04195181e27"
+        }
+      ]
+    },
+    "turn-49-prompt": {
+      "segments": [
+        {
+          "text": "And 'to explore'?",
+          "lang": "en",
+          "file": "turn-49-prompt-1.mp3",
+          "hash": "bc4ad9f7dae10c539d09f0794ee9de3892ded9d7d6ef6b34340327369410f836"
+        }
+      ]
+    },
+    "turn-51-reveal": {
+      "segments": [
+        {
+          "text": "Explorar.",
+          "lang": "es",
+          "file": "turn-51-reveal-1.mp3",
+          "hash": "cce42aee983f4f975094eb330226b1de74454f7653b8a00b0db46ec277a806e7"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-51-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-51-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to explore'?",
+          "lang": "en",
+          "file": "turn-51-prompt-1.mp3",
+          "hash": "36604309d141ac3ba95105271e0ec0da2b50717146ff25c823851444480a95d0"
+        }
+      ]
+    },
+    "turn-53-reveal": {
+      "segments": [
+        {
+          "text": "Quiero explorar.",
+          "lang": "es",
+          "file": "turn-53-reveal-1.mp3",
+          "hash": "efa05c9fc4ecedd8be4929af617c07f6ce19fce25a46efd11eb37b1bca917ac7"
+        },
+        {
+          "text": "Perfect. The word for 'me' in Spanish is 'me'.",
+          "lang": "en",
+          "file": "turn-53-reveal-2.mp3",
+          "hash": "ab4f8aca3cd5227d4963effad6f5d4192d010572160ec6babe551a380e44ea86"
+        }
+      ]
+    },
+    "turn-53-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to prepare myself'?",
+          "lang": "en",
+          "file": "turn-53-prompt-1.mp3",
+          "hash": "9fb5d7fac91b3e893d5a1a1860ed70bd82cc2482b8c9b9a2f522dcd2f0dd47c6"
+        }
+      ]
+    },
+    "turn-55-full": {
+      "segments": [
+        {
+          "text": "Quiero prepararme.",
+          "lang": "es",
+          "file": "turn-55-full-1.mp3",
+          "hash": "68c4b0134de033bc5fe528dbd63abefcc0d19ddc0e21447ada1129dfa9a933f5"
+        },
+        {
+          "text": "Good. In English, Latin words can sound formal, but in Spanish, they sound normal.",
+          "lang": "en",
+          "file": "turn-55-full-2.mp3",
+          "hash": "a7c9e7c391f69ac35dda64c6def0744ff99d6bb268d77b88f4fe722586fa129a"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to convert English words ending in -ion to Spanish by stressing the last syllable.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "6bea5c64b38be68910f10063d6eafa3bf829c1c5f90bc4682f6481c669197ee5"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try converting some other -ion words like 'celebration' or 'imagination' to Spanish.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "6ef87b161249caafad67d10e91a6e764d12757547bc7464735488d720b0b957b"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "You can now form basic sentences using these words and verbs. Practice saying what you want to do or don't want to do.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "e281f295ea597c40c9b0e7eeb1259e16fec31368b6a5982674f9f797e61bc7f5"
+        }
+      ]
+    },
+    "outro-4-full": {
+      "segments": [
+        {
+          "text": "Next time, we'll explore more patterns to expand your vocabulary even further.",
+          "lang": "en",
+          "file": "outro-4-full-1.mp3",
+          "hash": "30bbd9d38985570f8f2ba2774fc16d49ebccaaa2a60ab5815e48a7a8c89b53dd"
+        }
+      ]
+    }
+  }
+}

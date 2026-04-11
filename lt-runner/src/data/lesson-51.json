@@ -1,0 +1,517 @@
+{
+  "lesson_number": 51,
+  "title": "Lesson 51",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was I am, from estar? I am:",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy. If you want to say,, you know, in this supportive way, you don’t have to say there to begin with. Because we are using estar and not ser, it kind of makes that there a little redundant. We feel that already in estar that’s referring to states, locations and states, so we don’t need to say I’m for you, I’m for you, there. We can just say using estar. What for do you think you need?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say talking to a friend?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy para ti."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy para ti. Good. To say, then we are not going to use para even really need to say here.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "estoy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It kind of just gives you the feeling. Actually, when you knock on somebody’s door and you are calling for them, you will just say ¿Estás? You don’t say Are you there? Or if you’re on internet, ¿Estás? you will write in the messenger. If you call somebody up and you want to speak to Juan, you will not say Is Juan there? You will just say ¿Está Juan? ¿Juan está? So, I am here because of you (formal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy por usted."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estoy por usted. For you (informal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy por ti."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy por ti. So this would be because of you. How would you say I have come because of you, I have come because of you (informal). I have come because of you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "he He venido por ti."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "He venido por ti. So whenever we want because of, we want to avoid the temptation to translate porque de, because of. Good. So I have come because of you, he venido por ti. You could also say It is because of you that we have come, for example. It is because of you that we have come. And of course we can make this sentence perfectly if we think it through piece by piece. So, it is because of you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es por ti."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That we have come:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Que hemos venido."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Es por ti que hemos venido. It is because of you that we have come. Good. Another use of por – so we are seeing that por is much more flexible than para – another use of por is if you want to say for in the sense of exchanging this one for that one, to exchange something for something else, then also we use por. Cambiar, cambiar, means to change. If you want to say, I would change this one for that one, I would change this one for that one, and with this one and that one let’s refer to a masculine thing. So, I would change is the first step.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cambiaría"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Uh-huh. This one, a masculine thing:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Este"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. For that one, masculine thing.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Por ese."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Take away the t. Good. Cambiaría este por ese. I would change this one for that one. How would you say I would change these ones for those ones, masculine or mixed objects? I would change these ones for those ones:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cambiaría estos por esos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Cambiaría estos por esos. Very good. What if they were feminine things?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cambiaría estas por esas."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Cambiaría estas por esas. Good. Would you change these ones for those ones? Speaking informally. Would you change these ones for those ones?, still feminine things:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cambiarías estas por esas?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Cambiarías estas por esas? still feminine:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No cambiarías estas por esas?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Go on…",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Por qué no cambiaría estas por esas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Still think it through though.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Por qué no cambiarías estas por esas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. We don’t want to stop thinking. You will be able to relax that as you go on, but at the beginning you want to be very insistent on your thinking so you install correct structural habits or grammatical habits. We don’t really use much grammatical terminology, but everything we’re seeing here is grammar, of course. It’s all structure. Ah, something I should mention is that if you’re chatting online, if you’re practicing your Spanish online you might see por written as an x as a shortcut. Because por is also what you use in, like, times tables. Ocho por ocho is eight times eight. So you might see gracias por venir as gracias x venir. And if you have the habit of writing kisses with an x this can be very confusing to Spanish speakers. So gracias por venir reminds us, this nice hook, that we will hear a lot, gracias por venir, reminds us that we have two words for for. Para, something being for you, quite literally, and then por, which is much more flexible in meaning. The other thing that we learn from the sentence gracias por venir is that after prepositions, so these little group of words, we’ve seen -, we’ve seen para, por, de, en, con, a quite a few of them - following these words in English we put - ing. Thank you for coming. But in Spanish we just put the “to” form. Gracias por venir. So how would you say thank you for calling, what’s your name? thank you for calling - if you forget call you can think of or how are you called? because it’s something that people tend to have heard somewhere.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Gracias por llamar."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Gracias por llamar. And if you wanted to say thanks for calling me you could say that as well.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Gracias por llamarme."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Gracias por llamarme ing. We want to resist any temptation to put the - ing form after the preposition. This is negative language transfer, things that are not the same between English and Spanish. What was I am from estar?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy. And you remember how to say tired in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cansado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Cansado. So how do you say I am tired?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy cansado."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "But you being a female?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cansada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estoy cansada. So if you want to say – dancing, cooking, cleaning – it’s all going to be with the “to” form. What was to work?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Trabajar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Trabajar. How would you say?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy cansada de trabajar."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. Estoy cansada de trabajar. Good. For one of the pasts that we saw, for the line in the past, so when we’re referring to like a period of time in the past, for –ar verbs we have the - aba base ending. So how would you say I was from estar?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estaba. I was tired of working:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estaba cansada de trabajar."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estaba cansada de trabajar. Good. I was tired of working. Good. We were tired of working, and let’s be a masculine or a mixed group. We were tired of working:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estábamos cansados de trabajar."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Estábamos cansados de trabajar. Good. If you want to say something like it’s a way of doing it, of doing it, the word for way is form, a form of doing it, and how do you think form might be in Spanish if you had to guess it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Forma"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. Forma. Good. So how would you say a way of doing it? What was to do or to make?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hacer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It is a way of doing it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es una forma de hacerlo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Es una forma de hacerlo. Good., in this way. believe in arguing in this way. So, to believe is creer, creer and it has two e's, c-r-e-e-r, creer.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Creer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So how do you say?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No creo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No creo. What was creation?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Creación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And what was to create?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Crear"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And what was I create?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Creo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. So we get this situation occasionally in Spanish that the “” form of two different verbs will I look the same. Creo, of course, could be from creer, to believe, or from crear, to create. So, I don’t believe:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No creo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "In arguing. So to argue in Spanish you can use to discuss. This is the most common verb, actually, that’s used for argue. Discuss is discutir, discutir.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "So what do they use for discuss?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablar, mostly, but you can use discutir as well for discuss, but it has a heavy connotation mostly. No? I mean, if you argue with your boyfriend or your girlfriend you use discutir, you say this. Argüir, which is argue, means to argue a point, rather than to get in an argument. Discutir is more like to get in an argument. So it’s what we can call a false friend, words that look like they are the same, but they have a difference in meaning, and there are a few of them. We need to watch out, which doesn’t mean for them between English and Spanish. Another example would be actual actual, it means current, no? Mi trabajo actual, my current job. Actualmente means currently, at the moment, rather than actually. Mostly the vocabulary, the Latin English that we turn into Spanish, is very reliable, but there are a few words that we want to watch out for. Discutir is one of them. This doesn’t really mean to discuss as much as it does to argue. So, I don’t believe in arguing:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No creo en discutir."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. In this way, we will say of this way rather than in this way.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De esta forma."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So all together,, in discussing, in this way:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No creo en discutir de esta forma."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No creo en discutir de esta forma. Good. So with this sentence, gracias por venir, we are reminded how we have two words for for, por and para, and we need to have a think and decide which one we think is most appropriate before we translate for. And that after prepositions we don’t need to worry about making the - ing form of the verb, we just use the “to” form.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

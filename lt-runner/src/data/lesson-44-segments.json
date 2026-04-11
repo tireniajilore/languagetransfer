@@ -1,0 +1,876 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was the word for problem in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Problema.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And the problem:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "El problema.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We can see it ends in an a, so we would expect it to be feminine, but we saw that these words ending - ma in Spanish, many of them entered through Greek. And in Greek they're neuter, but they look a bit masculine in Greek, so they came into Spanish as masculine words even though they end in a. So we have",
+      "lang": "en"
+    },
+    {
+      "text": "el problema.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "System:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Sistema.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "The system:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good. The paradigm:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "how do you think that would be in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "El paradigma.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Scheme also came in from Greek. But scheme in Spanish means outline or diagram.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How do you think that would be?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Good, and something else to make it sound a bit more Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "El esquema.",
+      "lang": "es"
+    },
+    {
+      "text": "We said that we cannot start s plus another consonant in Spanish. We have to put an e before, like Spain, España, spaghetti, espagueti.",
+      "lang": "en"
+    },
+    {
+      "text": "El esquema,",
+      "lang": "es"
+    },
+    {
+      "text": "so this would be outline or diagram. Diagram is another one of these words.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How do you think that would be in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "And the diagram:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "El diagrama.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So mostly, words ending / o / are masculine and words ending / a / are feminine, but we might find some exceptions. Planeta, for example, what do you think that means?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Planeta:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Planeta is a masculine word.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "So the",
+      "lang": "en"
+    },
+    {
+      "text": "planet:",
+      "lang": "es"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "El planeta.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "A",
+      "lang": "en"
+    },
+    {
+      "text": "planet:",
+      "lang": "es"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Un planeta,",
+      "lang": "es"
+    },
+    {
+      "text": "very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say the planets?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Very good,",
+      "lang": "en"
+    },
+    {
+      "text": "los planetas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So this is a masculine word that looks feminine. How was the word for car? We saw various words.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Auto,",
+      "lang": "es"
+    },
+    {
+      "text": "let's work with that one.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "How do you say the car?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "The cars:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Los autos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "If you want to say this car, you say",
+      "lang": "en"
+    },
+    {
+      "text": "este auto. Este auto.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good. We saw",
+      "lang": "en"
+    },
+    {
+      "text": "esta noche,",
+      "lang": "es"
+    },
+    {
+      "text": "this night. What do you think is the difference between",
+      "lang": "en"
+    },
+    {
+      "text": "este",
+      "lang": "es"
+    },
+    {
+      "text": "and",
+      "lang": "en"
+    },
+    {
+      "text": "esta,",
+      "lang": "es"
+    },
+    {
+      "text": "then?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "If we have",
+      "lang": "en"
+    },
+    {
+      "text": "este auto",
+      "lang": "es"
+    },
+    {
+      "text": "and",
+      "lang": "en"
+    },
+    {
+      "text": "esta noche,",
+      "lang": "es"
+    },
+    {
+      "text": "what do you think is the difference?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good. So, we see that noche is a feminine word.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "How would you say the night?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "La noche.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "The nights:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "But this night, or tonight:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Esta noche.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. If you take this t out of",
+      "lang": "en"
+    },
+    {
+      "text": "este",
+      "lang": "es"
+    },
+    {
+      "text": "and",
+      "lang": "en"
+    },
+    {
+      "text": "esta,",
+      "lang": "es"
+    },
+    {
+      "text": "the words for this, you get the word for that. So",
+      "lang": "en"
+    },
+    {
+      "text": "este auto",
+      "lang": "es"
+    },
+    {
+      "text": "is this car.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "And that car would be?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Ese auto.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "How would you say I want that car?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good. I don't want that car, because it's very big.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "Big is grand so how would that be in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Grande.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "I don't want that car, because it's very big:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero ese auto,",
+      "lang": "es"
+    },
+    {
+      "text": "porque",
+      "lang": "en"
+    },
+    {
+      "text": "es",
+      "lang": "es"
+    },
+    {
+      "text": "muy",
+      "lang": "en"
+    },
+    {
+      "text": "grande.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "How was this night?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "And how would be that night?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Esa noche.",
+      "lang": "es"
+    },
+    {
+      "text": "We just get rid of the t and then we have the word for that.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "What if you wanted to say those nights?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Esas noches.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. There are also a few words that end in o which are feminine. For example, mano. Mano means hand. Ends in o, but it's a feminine word.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "So how would you say the hand?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "La mano.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "The hands:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Las manos.",
+      "lang": "es"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "This hand:",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "That hand:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "These hands:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good. We have this word in English, like in manuscript, manual, as well. Manual, manuscript, that man - bit there means hand. Maintain, which in Spanish is mantener. We have main - or man - means hand. Manage. Manage means to handle. Actually, it has a special use for handling horses, historically. Which is interesting, because to manage,",
+      "lang": "en"
+    },
+    {
+      "text": "manejar,",
+      "lang": "es"
+    },
+    {
+      "text": "is used in some Latin American countries to mean to drive. Other than to manage or to handle, it also means to drive,",
+      "lang": "en"
+    },
+    {
+      "text": "manejar,",
+      "lang": "es"
+    },
+    {
+      "text": "which is interesting because this verb manage historically had the special use to handle horses, and we see how that's kind of translated over the years to driving.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "How would you say Can you give me a hand? So this is a literal translation of something idiomatic in English, but it works in Spanish as well. In Spanish you say this. Can you give me a hand? And let's talk informally.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "But it's -",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good. ¿ Puedes darme?, or ¿ me puedes dar?,",
+      "lang": "en"
+    },
+    {
+      "text": "una mano.",
+      "lang": "es"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "How would you say Could you give me a hand? Could you give me a hand? So could is would can.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Me podrías dar una mano?",
+      "lang": "es"
+    },
+    {
+      "text": "¿ Podrías darme",
+      "lang": "en"
+    },
+    {
+      "text": "una mano?",
+      "lang": "es"
+    },
+    {
+      "text": "You should give me a hand. You should give me a hand. Should is would owe. Still informal.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "Me deberías dar",
+      "lang": "en"
+    },
+    {
+      "text": "una mano.",
+      "lang": "es"
+    },
+    {
+      "text": "Here we're not asking though, it sounded like a question.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "You should give me a hand.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Give it to me again, not like a question. Like a statement.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "You should give me a hand:",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "And what if you were speaking to more than one person?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Deberían darme una mano.",
+      "lang": "es"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "You guys should give us a hand:",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "Good. So we said that",
+      "lang": "en"
+    },
+    {
+      "text": "manejar",
+      "lang": "es"
+    },
+    {
+      "text": "means to handle or to manage.",
+      "lang": "en"
+    },
+    {
+      "text": "Manejar.",
+      "lang": "es"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "And also to drive, in some Latin American countries.",
+      "lang": "en"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "How do you say I am managing the problem, or I manage the problem?",
+      "lang": "en"
+    }
+  ],
+  "turn-91-reveal": [
+    {
+      "text": "Good. So how would you say I'm managing the problem, and you mean right now. So I remind you that for managing, for - ar verbs to get this - ing, we take away - ar and we put - ando. And for -er/-ir verbs, for this - ing, we take away the - er or the - ir, and we put - iendo. First part is I am managing.",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "I am managing:",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "I am managing the problem:",
+      "lang": "en"
+    }
+  ],
+  "turn-95-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy manejando el problema.",
+      "lang": "es"
+    },
+    {
+      "text": "So mano, we said, ends in o and it's feminine. It's actually kind of the only true word that ends in o and is feminine. So, for example we have la foto, the foto. But foto is short for fotografía. So it's actually la fotografía becomes la foto. The same with la moto. The motorbike is actually la motocicleta. No? Then people say moto and foto and it stays with la. To take in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "tomar.",
+      "lang": "es"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "Tomar.",
+      "lang": "es"
+    }
+  ],
+  "turn-97-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-97-prompt": [
+    {
+      "text": "So how would you say I'm taking a photo, and you mean right now?",
+      "lang": "en"
+    }
+  ],
+  "turn-99-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy tomando una foto.",
+      "lang": "es"
+    },
+    {
+      "text": "You might hear sacar as well, for photo. Sacar or",
+      "lang": "en"
+    },
+    {
+      "text": "tomar. Estoy tomando una foto.",
+      "lang": "es"
+    },
+    {
+      "text": "Estoy sacando una foto. Let's use",
+      "lang": "en"
+    },
+    {
+      "text": "tomar",
+      "lang": "es"
+    },
+    {
+      "text": "for now.",
+      "lang": "en"
+    }
+  ],
+  "turn-99-prompt": [
+    {
+      "text": "I would take a photo:",
+      "lang": "en"
+    }
+  ],
+  "turn-101-reveal": [
+    {
+      "text": "Tomaría una foto.",
+      "lang": "es"
+    },
+    {
+      "text": "I would like, so it would please me, to take a photo.",
+      "lang": "en"
+    }
+  ],
+  "turn-101-prompt": [
+    {
+      "text": "So what is to please, or like?",
+      "lang": "en"
+    }
+  ],
+  "turn-103-reveal": [
+    {
+      "text": "Gustar.",
+      "lang": "es"
+    }
+  ],
+  "turn-103-prompt": [
+    {
+      "text": "So it would please me, I would like, it would please me to take a photo:",
+      "lang": "en"
+    }
+  ],
+  "turn-105-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gustaría tomar una foto.",
+      "lang": "es"
+    },
+    {
+      "text": "But I don't have my camera.",
+      "lang": "en"
+    }
+  ],
+  "turn-105-prompt": [
+    {
+      "text": "But I don't have my camera:",
+      "lang": "en"
+    }
+  ],
+  "turn-107-reveal": [
+    {
+      "text": "Good. All together.",
+      "lang": "en"
+    }
+  ],
+  "turn-107-prompt": [
+    {
+      "text": "I would like to take a photo, it would please me to take a photo, but I don't have my camera:",
+      "lang": "en"
+    }
+  ],
+  "turn-109-prompt": [
+    {
+      "text": "Fotografía.",
+      "lang": "en"
+    }
+  ],
+  "turn-111-full": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gustaría tomar una foto, pero no tengo mi cámara.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ]
+}

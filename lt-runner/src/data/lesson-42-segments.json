@@ -1,0 +1,442 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So we saw for would, the future tense of would, we have our key sound - ía, we have the key sound - ía which we are adding on to the end of the verb, and this gives you the version for I, he, she, it, and you formal. So, for this one we have I jumping in with he, she, it, you formal. So, we can take a verb like hablar and we can say I would speak. Hablar is to speak, and I would speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Hablaría.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "We would speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Hablaríamos.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "They would speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Good.:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "No hablarían.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. The verb to like in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "gustar.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Gustar.",
+      "lang": "es"
+    },
+    {
+      "text": "So, to like is",
+      "lang": "en"
+    },
+    {
+      "text": "gustar,",
+      "lang": "es"
+    },
+    {
+      "text": "but it works differently in Spanish, and the way it works in Spanish renders the translation to like as kind of complicated. It would be much better to translate",
+      "lang": "en"
+    },
+    {
+      "text": "gustar",
+      "lang": "es"
+    },
+    {
+      "text": "as to be pleasing. So, when you say I like it, what we want to say in Spanish is it is pleasing to me. That’s the way we say I like it in Spanish, it is pleasing to me. So, if you take",
+      "lang": "en"
+    },
+    {
+      "text": "gustar",
+      "lang": "es"
+    },
+    {
+      "text": "to mean to be pleasing or to please,",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "how would you make it is pleasing or it pleases?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Gusta",
+      "lang": "es"
+    },
+    {
+      "text": "it is pleasing or it pleases. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "if you want to say it is pleasing to me:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Me gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "And this is how you say I like it in Spanish,",
+      "lang": "en"
+    },
+    {
+      "text": "me gusta.",
+      "lang": "es"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "So, a very common error that Spanish learners make is to say me gusto, to translate it like from English literally, I like, and they say gusto, but what does that mean then actually, if you say me gusto, what does it mean if",
+      "lang": "en"
+    },
+    {
+      "text": "gustar",
+      "lang": "es"
+    },
+    {
+      "text": "means to be pleasing?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Yes, it means I please myself, I like myself walking around telling everybody how much you like yourself, me gusto mucho.",
+      "lang": "en"
+    },
+    {
+      "text": "No. Me gusta",
+      "lang": "es"
+    },
+    {
+      "text": "mucho, it pleases me. So, if you are saying I like them, then of course what you are saying is they please me, so we must take this inter step, this Spanglish step, to think about it literally, to think it through literally, so we are sure that we are getting the meaning that we want. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "how would you say I like them or they please me or they are pleasing to me?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gustan.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "how do you think you would say I would like, it would please me?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gustaría.",
+      "lang": "es"
+    },
+    {
+      "text": "So, just like in English, you use this a lot in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "Me gustaría,",
+      "lang": "es"
+    },
+    {
+      "text": "to eat now, I would like to eat now:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gustaría comer ahora.",
+      "lang": "es"
+    },
+    {
+      "text": "We would like to eat now, it would please us to eat now:, it’s",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "It, it would please us, to eat now",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "No, because you have this idea of nos verb, so you are not totally in control of your building process at the moment, you are letting some guess work come in, and you need to cut it, you need to start with the verb. It would please us.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So, it would please:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "Exactly. So when you start with the verb you are in control.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "Now you can say it would please us:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "To eat now:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Exactly, very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nos gustaría comer ahora.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "What was to see or to view?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Ver.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "I would like to see you I would like to see you:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gustaría verte.",
+      "lang": "es"
+    },
+    {
+      "text": "A couple of verbs, they contract a little bit when we add on our future endings. So when I say our future endings, I refer to both futures: will and would. For example, we have poder – to be able, and would be able is could: I would be able to go, I could go. So we have poder – to be able or can, and then we add - ía for would, and it would be podería, but this is a very common verb, and common verbs are much more subject to change and irregularities, so many years of podería-podería-podería-podería-podería – the / e / got lost, the / e / fell away, the / e / of poder.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "So, I could, he could, she could, it could, you (formal) could is",
+      "lang": "en"
+    },
+    {
+      "text": "podría.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Podría.",
+      "lang": "es"
+    },
+    {
+      "text": "You can give me the other versions of course.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How would you say they could or you guys could?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "And you (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "And we:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "What was to come?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Venir.",
+      "lang": "es"
+    },
+    {
+      "text": "Could you come to my house?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "How was my house?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Mi casa.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "how would you say Could you come? And this is to come to here in English, but it’s a second verb, will be in the “to” form, Could you come to my house? Let’s speak informally.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Podrías venir a mi casa?",
+      "lang": "es"
+    },
+    {
+      "text": "To say or to tell is decir. So we have hablar, which is to speak or to talk, but to say or to tell is decir. Could you tell me something? Could you tell me something?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "And we are speaking informally still.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "Good. ¿Me",
+      "lang": "en"
+    },
+    {
+      "text": "podrías",
+      "lang": "es"
+    },
+    {
+      "text": "decir algo? or ¿Podrías decirme algo? Could you tell me if you want to come? So, let’s start with could you tell me if, and I remind you that if is the same as yes.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-full": [
+    {
+      "text": "Okay.",
+      "lang": "en"
+    }
+  ]
+}

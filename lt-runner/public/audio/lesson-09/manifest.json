@@ -1,0 +1,262 @@
+{
+  "lessonId": "lesson-09",
+  "generatedAt": "2026-04-11T13:48:07.707Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "To know in Spanish is",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "507dbac6205c3b739013171b2c3bf4bc4711ce816334475ed0a2367b0585d64f"
+        },
+        {
+          "text": "saber.",
+          "lang": "es",
+          "file": "turn-1-full-2.mp3",
+          "hash": "c58f5868a796a45a05e16371c7fc717a976ac9640d97d28200efff8df149afd7"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Saber.",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "c17c87db5cf27f78b8905b02e769599650b2769cfdcd75b79feb3620a96249e2"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to know'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "7465d8a806df66aeb07186dfe30a661caf505eb7f5c3f925ba8549add19f38fc"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I don't want to know'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "90b9feb5b08904121f1bb962cf802727e68eb8f7cd0f1a5d034fbc8cbacda0e5"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he wants to know' or 'she wants to know'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "4d3ac6c87714c80832da82b3cb76a52985779b8bf6298eb687cd4c61490a3008"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "'He doesn't want to know':",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "88c6ee0f2e4936cec504490741fb21fe68cad9294d132a0fca6eed67028365dd"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "Why doesn't he want to know?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "7e720bc2691f74cf7d4f4c373f5a846a433f2d7743e88c18777d165f0b02827b"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "I want to know why he doesn't want to know:",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "4bcd9cb1983a3ae2268af6761623f55208c7be9fa9e78c9fed8d3f00357b7cad"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Very good. The word for 'yes' in Spanish is 'sí'. This is also the word for 'if'.",
+          "lang": "en",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "f5088999192bc0416070838e6d12d03cce75a0da581b38d34ae9b707a35fab32"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'if'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "49decc53482975efa0f48c68d722f3cf5603f439a10cf3fa762a159b1307a051"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "'I want to know if you want to know' (speaking formally):",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "d0c96f34c47e79457159ca5ab64a175f62f9fe5bc7c6aaeeb2eb9afc7aa64d1b"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to know if he wants to invite me'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "8b6475b2d7041d92b9ea7363e74232d92e64f7b1d8b5529907cd608892569634"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'imagination'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "df9f001dc35c9a0877c6d26c16a31168e49167b0fdbd195aed7edcf157300134"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "'I don't want to imagine it':",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "f677e511838288f20c133376d1aae222a902b40cfd7814c4f55d491cbc9c3704"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "What was 'to come'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "c3120da63978e9a0977ffe36829bd6a6c6d7013ddeabdc3bb7df47c91a0d5375"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "'I want to know if she wants to come to the house to visit me':",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "e7598c310a75347650ee2f7ef70282670e9267c254fe1a6e0d9093e5fe28a4f3"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Very good. Let's practice a listening exercise.",
+          "lang": "en",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "c08d0c189e63b1edb01763755658600f2b059dc2eeb82c6721764cd61da478a6"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "What does 'Voy a invitarlo, pero no voy a invitarlo ahora' mean?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "77080bf95b46390be84927e73b5b17883d3c7ddd664a8ef36d43764a4405fd5e"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'justification' in Spanish?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "b83547519d11a580a1eb9776aeb6149eb8349e44c707f0fac20d9bca111b562e"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "And 'to justify'?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "ab95fa5190052f24b379884a81585281e7e7c3fa22cb0701da4e68a19b666a29"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "'I'm not trying to justify myself, but I want to explain something to you' (informally):",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "20c3333ddf4adc2bed3d8ef0ff228b99cd645ecf310c9bc6fa9ec2e7e5f42d50"
+        }
+      ]
+    },
+    "turn-37-full": {
+      "segments": [
+        {
+          "text": "Very good. Well done.",
+          "lang": "en",
+          "file": "turn-37-full-1.mp3",
+          "hash": "388ff751ebbb8d99986837c51a2f838d6c38d00d34e5642f8b99fd2ccd2f1894"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to use 'saber' and related phrases to express knowledge and curiosity in Spanish.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "d1dad0fae551b6117e012628236619be098519c4f7d46f8ac4e52c36a174b3c1"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try forming your own sentences using 'saber' and other verbs you've learned. Practice makes perfect!",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "f838d2a27a780760bfb08a87ce7814158c1dcf34474002c158fd71a20b99351d"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Remember, breaking down sentences into smaller parts can help you construct more complex ideas in Spanish.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "3b07371035d592fbfe664490228f91cba31d341d8dac262bf65aafe9ed786a2d"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "lesson_number": 39,
+  "title": "Lesson 39",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was the word for with in Spanish? And we have it in words like convenient, confirm -",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "con"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So con is with and we have it as like a Latin building block in many Latin/English words. Consequence: with sequence. Now in Spanish you don’t say with her, with him, with them, you actually just say with he, with she, with they. So how would you say with him or with he?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con él."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Con él. With her:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con ella"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Con ella. With them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con ellos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Or, I mean if it was feminine:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ellas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah, con ellas. With us:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos is us with us, we will say with we.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con nosotros"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes, con nosotros. What if you were an all female group?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con nosotras"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Con nosotras. Good. With you, speaking formally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con usted"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Con usted. And with you guys:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con ustedes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Con ustedes. The word for for is para. So how would you say for him?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para él"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Para él. Good. So when you decided that it was para él, you put para and con in the same group. And they are in the same group. They’re in a group of words which are called prepositions. Now prepositions show some kind of movement or position; and they’re very important and interesting words so it’s useful for us to identify them as we did with verbs and adjectives and nouns. So we are going to investigate now a little more about prepositions and how they behave in Spanish. So for him, para él. For her:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para ella"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Para ella. Good. For them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para ellos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Or?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para ellas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And for us:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para nosotros"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Para nosotros. Or?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nosotras"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Para nosotras if it’s an all feminine group. Good. Like I said, we don’t say for him, but for and we don’t say he for her, but for she, with the exception of me and you informal, we get two different versions of the words for me and you. So for me is para mí. Para mí. And you informal becomes ti. So for you, speaking informally, is para ti. So this is just after prepositions we get this mí and ti. M-i and t-i. So we can find another preposition that we learned already. The word for of or from. So again this is a small word which is showing movement, direction or position; these are prepositions. So what was of or from?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "De. Good. So how would you say from him?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De él"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. De él. From her:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De ella"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "De ella. From me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De mí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. De mí, spelled m-i. From you speaking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De ti."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "De ti. Good. From them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De ellos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "De ellos.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ellas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Or ellas. Good. De ellas. From us:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De nosotros"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "De nosotros. Good. From you guys:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De ustedes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Is it- Is it from you guys?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es de ustedes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Is it from you guys? ¿ Es de ustedes? How would you say?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es para ustedes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Es para ustedes. Good. How do you say it is with you guys?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es con ustedes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Now something to me doesn’t feel right here. When we say it’s from you guys es de ustedes, and it’s for you guys es para ustedes,: we are speaking about things are quite characteristic of whatever It’s for you guys. It’s from you guys. it’s with this thing is, whatever this it is. But, when we say you guys, we are speaking about a state because we are speaking about the location of something. So how do you think it would be - it is with you guys?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Está con ustedes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Está con ustedes. Very good. To do or to make was hacer. H-a-c-e-r.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hacer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hacer. So how do you say he does or or he makes or:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ha"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "This is from haber, but well thought out. [Laughter]",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hace"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hace. Good. A favor is un favor. Un favor. So how would you say doing me a favor:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me hace un favor"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me hace un favor. Good. How do you?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La hace un favor"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Now if you say la hace, it sounds like - a feminine thing. If you want to say doing her a favor, for her. So what does la turn to to become to her, for her?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le hace un favor"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Le hace un favor. Good. Decir is to tell. No? So we have hablar to speak or to talk and decir is to say or to tell. D-e-c-i-r. So / dethir / in most of Spain. Decir. So how do you say I want to tell, I want to say? I want, just think of I want.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "To say or to tell:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Decir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ah, all together.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiero decir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero decir. Ah. I want to tell him. I want to tell him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le quiero decir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Le quiero decir or?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiero decirle"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. You have the option there of where you can put the le, before the changed verb or after the complete verb. Le quiero decir. Quiero decirle. But if you want to say, I want to say it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo quiero decir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo quiero decir. So we see actually with this le, we are kind of replacing a preposition with le and les, an imaginary preposition: to, for, from. For example, comprar. Comprar means to buy. I can say I buy you something. Now this you is actually replacing for you. I buy something for you. So what is I buy from comprar?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Compro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Compro. How do you say I buy them and you refer to the things that you are buying?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Los compro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Los compro. But, if you say I buy them and you mean I buy for them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les compro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Les compro. So this is the most natural Spanish structure. Les compro. You use les instead of for them. But, you could say I buy for them. You could do that if you wanted to, using for them literally. I’m buying for them So how would you say I buy or?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Compro para ellos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Compro para ellos. Good. So in an everyday situation,, les. I’m just compro. Mostly we are going to be avoiding these prepositions, so he buys it for me going to say he buys me it rather than he buys it for me. So how would you say that? He buys me it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me compra. Me lo compra"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me lo compra. They buy me it or they buy it for me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me lo compran"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me lo compran. They buy them for me. They buy them for me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me los compran"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me los compran. Good. Now, we said that these small words me, nos, te, le, les, most of, but sometimes it’s like the time what we are replacing with them is to for, like to do a favor for, but they also might be replacing other prepositions like de. For example, if I want to say he buys, I don’t really need the it from me from there either. I could just say he buys me it. So how would I say that? He buys it from me. He buys me it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me lo compra"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me lo compra. So this is totally ambiguous. No? It could mean he buys it for me or he buys it from, but it’s something that we’ll understand from the context. So the key point to take away from me here is that we probably use prepositions much more in English than in Spanish and you just want to kind of like listen out for this and then you will start shedding them. You will start shedding your prepositions the more you listen to Spanish.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

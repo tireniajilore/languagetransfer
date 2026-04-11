@@ -1,0 +1,577 @@
+{
+  "lesson_number": 56,
+  "title": "Lesson 56",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "We’ve seen quite a few prepositions up until now, these words that refer to movement or position or direction. For example, we had two words for for, what were they?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para por"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Para and por. And how did we say from or of?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "De. With:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Con. In or on:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "En"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "En of the sentence, as they can in English. We’ve seen this already as well. Do you remember how to say Where are you from? You are (speaking informally) from ser is eres. Eres. So, how would you say Where are you from?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De dónde eres"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ De dónde eres? So, in English Where are you from? We’re putting the preposition at the end of the sentence, and that’s fine in English, but it’s incorrect Spanish. So, you don’t say Where are you from? You say From where are you? ¿De dónde eres? If we want to say Where are you going? in Spanish, we say To where are you going? What was You are going (speaking informally)?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vas. Good, so, to where are you going?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "A dónde vas?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ A dónde vas? Good. We are going to the United States. The United States is Estados Unidos,, and I should mention, you don’t translate the word for United States, Estados Unidos the, you just say we are going to United States.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vamos a Estados Unidos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vamos a Estados Unidos. We discussed the concept before about working backwards. So, instead of building up to say what we want to say, finding bits of language and working backwards to find the “to” form of the verb. So, for example, imagine we looked up somewhere United States, or we asked somebody how to say United States, and we came across Estados Unidos. We can use Unidos to work backwards to work out what is the verb to unite. How do you think that is?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Unidar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Not guessing, but really working backwards, which, instead of building up, building down; instead of adding bits on to the verb, seeing what has been added and consciously taking it off. –ido",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "So, - ido has been added, when you add you take off the ending of the “to” form."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And what is the ending with – ido?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "- ir."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Or?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "- er."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You should experiment and see which one feels more natural to you. Now, the one that you may have heard before is probably going to feel more natural even if you didn’t register it, so if you heard before the correct version, it’s going to feel more natural, and also, the more words you learn in Spanish the greater intuition you get about the phonetics of Spanish, what sounds more Spanish. So, that should direct you when you say “Uner, Unir, Uner, Unir”, to understand which one is to unite. Which one do you think it is?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "unir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Unir. But, at this stage there is no reason for you to know what sounds more Spanish; this intuition is something that occurs with practice and exposure and listening. But working backwards is a useful skill that we want to employ in our language-learning journey. So, we said that prepositions won’t come at the end, so if we say, for example, the girl I work with, in Spanish we will say the girl with which, with that, with who, I work. We have the option. So what was to work, do you remember?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Trabajo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "To -",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Trabajar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Trabajar, to work. Good. The girl is la chica, la chica La chica. How do you think the guy would be if the girl is la chica?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "El chico"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "El chico. So, we can begin with the one that we know already, which is with that, con que. The girl with that I work:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La chica con que yo trabajo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La chica con que trabajo, you don’t need the yo unless you are emphasizing, la chica con que yo trabajo. We could also say with which, la chica con cual trabajo, we could say with who, la chica con quien trabajo. We could even put la que or la cual, which means which or that, but we are showing that it’s a feminine which or a feminine that, la chica con la cual trabajo, la chica. You have all of those options in Spanish, but don’t worry about them, you con la que trabajo can just use que. So, whilst you have all of those options and you will hear them, and when you get comfortable with hearing them and understanding them you will start using the different ones without really thinking about it very much; you don’t want to worry about it now, que you can use for everything, for all of that. La chica con que trabajo.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "So, it’s correct?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah, it’s correct Spanish. But you have all of those options: la chica con cual trabajo; la chica con la cual trabajo, la chica con la que trabajo, la chica con quien trabajo. The girl that I was working with. So, how would you say it is the girl I was working with? Let’s go for it slowly. It is the girl:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es la chica."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "With who:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con que."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Con que. I was working, I used to work:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "trabajar trabajaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, all together,: S: Es la chica con que trabajaba.",
+      "is_feedback": true,
+      "is_prompt": false
+    },
+    {
+      "speaker": "tutor",
+      "text": "Es la chica con que trabajaba. How would you say the girl with whom, the girl that I was going to the party with. The girl with whom, or with that, with which, all of those are okay in Spanish. S: La chica con que-",
+      "is_feedback": false,
+      "is_prompt": false
+    },
+    {
+      "speaker": "tutor",
+      "text": "La chica con que, I was going to the party. So, I was going is the line version of ir, which is irregular, but we can remember that it takes a little bit from the two options that we have to make –er/-ir the line version. We have – aba for – ar verbs and – ía for verbs; and the verb ir kind of blended together – aba and – ía and came up with:",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So, you can think of it that way: you can think of it like – aba and – ía kind of blending together, to have iba, or you can think of it like the present va, but with an i before. In the past it’s spelled with, where in the present it’s spelled with a a b: i-b-a, iba v, v-a, but as we know they are very similar sounding, so it’s like the present with an i before. So, in the present you have he is goin g, él va, or él / ba /, and then in the past, él iba. So I was going, he was going, she was going, it was going, you (formal) were going is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Iba. So, the girl with which I was going to the party:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La chica con que iba a la fiesta."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. La chica con que iba a la fiesta. So, you can say la chica con la cual, la chica con quien, – you have all of these options. Let’s use la chica con la que cual in a sentence, which is the word for which, and it’s not just a which like this to connect the girl with which, you can also use it like a question: which one do you want? You probably can guess, we don’t need the word for one.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuál quieres"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Which one do you want? ¿ Cuál quieres? Good. So cuál, cuál, c-u-a-l, means which. I know,; we said it’s very irregular, just from saber, to know, was sé s-e, I know.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé cual quiere."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No sé cual quiere. How would you say?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé cual quiere ver."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No sé cual quiere ver. Good. Now, what if you wanted to say wants to do it, I don’t know which one he wants to do it with:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé con cual quiere hacer- it with?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Well, you said the with already.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah, and you might feel this temptation often to repeat the preposition again at the end, even if you put it before, because that English is pushing through with the negative language transfer. No I don’t know with which one he wants to do it I don’t know which sé con cual quiere hacerlo,,. So, we don’t put the preposition at the end of the sentence in Spanish, one he wants to do it with we will rearrange the sentence and whilst this sounds more formal in English, of course it doesn’t sound more formal in Spanish, it’s just the only correct option. The word for, we’ve mentioned who very briefly is quién, quién.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quién"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. If you want to say who is going?, what verb version will who go with? Who is who? Is it you, is it them, is it he/she/it? Who is who?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He / she / it."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So, how would you say who is going?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quién va?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Quién va? Good. And in Spanish you have the plural of who, if you are expecting more than one person, if you know that your who refers to more than one person, you can put quien into plural, so, how do you think that would sound?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quienes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah. Quienes. So if you want to say who is going? And you know it’s more than one person?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiénes van"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, and you changed the verb as well to match. ¿ Quiénes van? Good. How would you say: Who is here?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quién es aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You know-",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Está"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes, it’s your location.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quién está aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Quién está aquí? And if you knew you were talking about here, you could just leave that, we don’t really need to say the out as we have the sense of location with estar here, if we know that we are talking about here. Like we said before, if you knock on someone’s door you just say, and we are talking about states, that’s enough context for us ¿Estás? Because we are using estar if we just leave it by itself to understand that we are speaking about location. So, you could just say who is?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quién está?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Quién está? How is I have to, what have do we use to get the meaning of have to?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tengo tener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tener. Tener, to have. I have:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tengo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, and to get the meaning of I have to:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tengo que."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tengo que. So,:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé con quien tengo que hacerlo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No sé con quien tengo que hacerlo. Or if you knew we meant more than one person, no sé I don’t know who I have to do it for, con quienes tengo que hacerlo. Good. How would you say I don’t know for who I have to do it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé para quien tengo que hacerlo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No sé para quien lo tengo que hacer or no sé para quién tengo que hacerlo. Good. What I don’t know who I have to do it because of I don’t know who I have to do it if you wanted to say, because of, so how would that sound?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé por quien tengo que hacerlo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No sé por quien lo tengo que hacer, no sé por quien tengo que hacerlo.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

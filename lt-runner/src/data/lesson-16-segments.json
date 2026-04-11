@@ -1,0 +1,220 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Comenzar means 'to commence' or 'to start'. Another common verb for 'to start' is empezar. Empezar has a stem change in Spain, pronounced empe/th/ar.",
+      "lang": "en"
+    }
+  ],
+  "turn-2-full": [
+    {
+      "text": "How do you say 'I start' using empezar?",
+      "lang": "en"
+    }
+  ],
+  "turn-4-reveal": [
+    {
+      "text": "Empiezo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Remember to go back to the 'to' form, empezar, to avoid guesswork.",
+      "lang": "en"
+    }
+  ],
+  "turn-4-prompt": [
+    {
+      "text": "How do you say 'he starts'?",
+      "lang": "en"
+    }
+  ],
+  "turn-6-reveal": [
+    {
+      "text": "Empieza.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-6-prompt": [
+    {
+      "text": "They start?",
+      "lang": "en"
+    }
+  ],
+  "turn-8-reveal": [
+    {
+      "text": "Empiezan.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-8-prompt": [
+    {
+      "text": "You (informal) start?",
+      "lang": "en"
+    }
+  ],
+  "turn-10-prompt": [
+    {
+      "text": "Empiezas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. How do you say 'when are you starting?'",
+      "lang": "en"
+    }
+  ],
+  "turn-12-reveal": [
+    {
+      "text": "¿Cuándo empiezas?",
+      "lang": "es"
+    },
+    {
+      "text": "Very good. In the present tense, the e can split to ie, and the o can split to ue. This happens because of the stress on the penultimate syllable. For example, poder becomes puedo.",
+      "lang": "en"
+    }
+  ],
+  "turn-12-prompt": [
+    {
+      "text": "How do you say 'I sleep'?",
+      "lang": "en"
+    }
+  ],
+  "turn-14-reveal": [
+    {
+      "text": "Duermo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. To say 'I fall asleep', you say 'me",
+      "lang": "en"
+    },
+    {
+      "text": "duermo",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-14-prompt": [
+    {
+      "text": "How do you say 'he sleeps'?",
+      "lang": "en"
+    }
+  ],
+  "turn-16-reveal": [
+    {
+      "text": "Duerme.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-16-prompt": [
+    {
+      "text": "They sleep?",
+      "lang": "en"
+    }
+  ],
+  "turn-18-reveal": [
+    {
+      "text": "Duermen.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Encontrar means 'to encounter' or 'to find'.",
+      "lang": "en"
+    }
+  ],
+  "turn-18-prompt": [
+    {
+      "text": "How do you say 'I find it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-20-reveal": [
+    {
+      "text": "Lo encuentro.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Mostrar means 'to show'.",
+      "lang": "en"
+    }
+  ],
+  "turn-20-prompt": [
+    {
+      "text": "How do you say 'I show'?",
+      "lang": "en"
+    }
+  ],
+  "turn-22-reveal": [
+    {
+      "text": "Muestro.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-22-prompt": [
+    {
+      "text": "He shows?",
+      "lang": "en"
+    }
+  ],
+  "turn-24-reveal": [
+    {
+      "text": "Muestra.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-24-prompt": [
+    {
+      "text": "They show?",
+      "lang": "en"
+    }
+  ],
+  "turn-26-full": [
+    {
+      "text": "Muestran.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned about stem-changing verbs in Spanish, like empezar and dormir. These changes occur in the present tense.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try conjugating other stem-changing verbs like poder or volver. Remember the vowel changes in the stem.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Understanding these patterns helps you predict and use many Spanish verbs correctly.",
+      "lang": "en"
+    }
+  ]
+}

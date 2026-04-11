@@ -1,0 +1,852 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Another place where we use this mood tense is when we are giving orders to each other, most of the time, with just one exception which we will look at, we are using this mood tense to give don’t speak don’t speak orders. For example, if you wanted to say informally, you will just say you, don’t speak but you will put it in this mood tense. So, how would you say that,?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "No hables.",
+      "lang": "es"
+    },
+    {
+      "text": "Good..",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say, still speaking you don’t stay informally, so you need to say, and then you just switch the ending. So, let’s build you don’t stay it up together, how do you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "No te quedas.",
+      "lang": "es"
+    },
+    {
+      "text": "So, this is. But, if you want to make this, then you will use this mood tense.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "No te quedes.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And then it sounds like:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No te quedes aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "The word for there is ahí, ahí, spelled a-h-í, and there also exists allí,, there’s a tiny, even imperceivable difference between spelled with double l ahí a-h-í and allí a-l- don’t stay there l-i.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How would you say, informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No te quedes ahí.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How would you say, speaking informally? Don't give it:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "No lo des.:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Now, if you put a él it’s going to be for clarification purposes, in which case it will be a repetition of something else.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "No se lo des.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No se lo des.",
+      "lang": "es"
+    },
+    {
+      "text": "Don't give it to him.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "What if you wanted to show, clarify or emphasize that it’s to him?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No se lo des a él.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "What was to eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Comer.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, speaking to more than one person,",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "how would you say: Eat! How would you tell more than one person to eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Coman.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "how would you say: Wait!, talking to more than one person?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Esperen.",
+      "lang": "es"
+    },
+    {
+      "text": "Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "if you want to say Wait for me for, we just say me, me. With positive commands, when you’re telling somebody to do something rather than not to do something, we have these little words like me or lo, breaking the rules that we learned so far about their position – they will come after the changed verb, only with positive commands. This helps our ear tune into the fact that it’s a command. Because other than that vowel changing, which is a very small change which might be quite hard to pick up audibly, we also have these small little words like me or lo coming after the verb and that also helps our ear tune into the fact that it’s a command. So, if you want to say to this more than one person, to this plural you, wait for me, await me, how will it sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Espérenme Espérenme.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you say wait for it, or wait for him, still to more than one person?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Espérenlo.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "Wait for them:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Espérenlos.",
+      "lang": "es"
+    },
+    {
+      "text": "But, if you were to say don’t wait for them negative command.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So,, still to more than one person:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "No los esperen.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "How would you say, speaking formally, eat:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Coma.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Eat it:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Cómalo.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Good, so we have the lo on the end, but if you were to say, still speaking formally:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No lo coma.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "And speaking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "No lo comas.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "And speaking to more than one person?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "No lo coman.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "But, if we wanted to say eat it, speaking to more than one person, positive command, eat it:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "Cómanlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good. To forget was",
+      "lang": "en"
+    },
+    {
+      "text": "olvidar, olvidar.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Olvidar.",
+      "lang": "es"
+    },
+    {
+      "text": "Related to oblivion in English actually, oblivion means like a state of complete forgetting, so we can see the connection there between oblivion and",
+      "lang": "en"
+    },
+    {
+      "text": "olvidar. Olvidar",
+      "lang": "es"
+    },
+    {
+      "text": "– to forget. Or olvidarse, either, it can be either because",
+      "lang": "en"
+    },
+    {
+      "text": "olvidar",
+      "lang": "es"
+    },
+    {
+      "text": "is a verb where we need to say what is being forgotten, we need to say it, so if we use it we have no problem, lo olvido, but if we want to just say I forget, then we have a problem, because we are not saying what, so we need to say I forget, so it’s a verb that doesn’t like to be alone. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "how would you say myself, me olvido forget it, speaking formally, forget it:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "Olvídelo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now, if you just want to say forget it, this verb doesn’t like to be alone, so there we would say forget yourself, so how would this be, still formally:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Olvídese.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "How would you say, speaking informally,?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No lo olvides.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "But, if we don’t want to put the lo, we can just say don't forget yourself, forget, so how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No te olvides.",
+      "lang": "es"
+    },
+    {
+      "text": "Or we could do both, we could say no te lo olvides, we could put both, no don’t forget, you guys don’t forget te lo olvides.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "How would you say to more than one person?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No se olviden.,",
+      "lang": "es"
+    },
+    {
+      "text": "still to plural:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "No lo olviden.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Or",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "se lo olviden let’s not forget it Let’s not forget it",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "How would you say, how do you think that would be?:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No lo olvidemos. No lo olvidemos.",
+      "lang": "es"
+    },
+    {
+      "text": "But if you didn’t want to say it, and you just wanted to let’s not forget say,",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "how would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "No nos olvidemos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "What was to buy?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Comprar.",
+      "lang": "es"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "How would you say, to more than one person, buy what is missing, what lacks, what is necessary? So, what was this missing, lacks, necessary verb?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Faltar.",
+      "lang": "es"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "So, speaking to more than one person, buy what is missing, what is necessary, what lacks:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "Lo que.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Compren lo que falta.",
+      "lang": "es"
+    },
+    {
+      "text": "You could also say compren lo que hace falta, buy what is making lack, you will hear that as well. So, we are using the mood tense to make commands, with one exception. The one exception is with positive informal commands. So, what that means is when we are speaking informally and we are telling somebody to do something, rather than not to do something. The reason why we don’t use the mood tense here is because we want a shortcut, it’s what we do most, to tell people informally what to do. If you think about it, all day you are saying, it’s such common speech that it seemed a wait here, buy this, call me later, do that and the other bit heavy to use the mood tense for this. So, Spanish took a shortcut, and the shortcut is just dropping the s of the you form of the verb. So, for example, we have",
+      "lang": "en"
+    },
+    {
+      "text": "comprar,",
+      "lang": "es"
+    },
+    {
+      "text": "to buy.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "You buy, informally, is:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Compras.",
+      "lang": "es"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "Now, to make the order, the positive order, we just drop the s and we get:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "Compra.",
+      "lang": "es"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "It’s the same as the he/she/it form, but it will never cause really any ambiguity for two reasons. Firstly, your tone of voice when you are making an order, the context is always very present, and also because we’ll be putting our small words, like lo, me, la, after the verb, with the positive orders at least, so it’s very obviously an order. But we want to think it through this way, that we are taking off the s, so we keep the association with you informal. So, we have to buy,",
+      "lang": "en"
+    },
+    {
+      "text": "comprar;",
+      "lang": "es"
+    },
+    {
+      "text": "”, and we you buy, informally,",
+      "lang": "en"
+    },
+    {
+      "text": "compras;",
+      "lang": "es"
+    },
+    {
+      "text": "then we want to make an order, which is “get rid of the s say",
+      "lang": "en"
+    },
+    {
+      "text": "compra.",
+      "lang": "es"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "How would you say buy it, talking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Cómpralo.",
+      "lang": "es"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "Buy me it:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Cómpramelo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "What was to forget?",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Olvidar.",
+      "lang": "es"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "How would you say forget it, talking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "Good, but we need to say what we are forgetting with this one.",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "Olvídalo",
+      "lang": "es"
+    },
+    {
+      "text": "lo, we can say:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Olvídate.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "What was to eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "Comer",
+      "lang": "es"
+    },
+    {
+      "text": "eat it, informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Cómelo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "But,, still informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "So, it’s just the positive commands that we have this shortcut, when we go to negative, we want to use the mood tense.",
+      "lang": "en"
+    }
+  ],
+  "turn-97-reveal": [
+    {
+      "text": "No lo comas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-97-prompt": [
+    {
+      "text": "How would you say eat it, speaking formally? Formally:",
+      "lang": "en"
+    }
+  ],
+  "turn-99-prompt": [
+    {
+      "text": "Cómalo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good., still formally:",
+      "lang": "en"
+    }
+  ],
+  "turn-101-reveal": [
+    {
+      "text": "No lo coma.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-101-prompt": [
+    {
+      "text": "Eat it, speaking plurally, to more than one person, eat it:",
+      "lang": "en"
+    }
+  ],
+  "turn-103-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cómanlo.:",
+      "lang": "es"
+    }
+  ],
+  "turn-105-reveal": [
+    {
+      "text": "No lo coman.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-105-prompt": [
+    {
+      "text": "What was to sell?",
+      "lang": "en"
+    }
+  ],
+  "turn-107-reveal": [
+    {
+      "text": "Vender.",
+      "lang": "es"
+    }
+  ],
+  "turn-107-prompt": [
+    {
+      "text": "Sell it, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-109-reveal": [
+    {
+      "text": "Véndelo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-109-prompt": [
+    {
+      "text": "But,:",
+      "lang": "en"
+    }
+  ],
+  "turn-111-reveal": [
+    {
+      "text": "No lo vendas.",
+      "lang": "es"
+    },
+    {
+      "text": "So, our shortcut is dropping the s of the present for the positive commands, which are informal, it’s something that’s quite specific, positive commands informally, but it’s something that we do all day and that should help us remember that we have this shortcut for it. Callar, c-a- l-l-a-r, callar, means to quiet, and callarse, callarse, means to shut up. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-111-prompt": [
+    {
+      "text": "how would you tell somebody to shut up, informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-113-prompt": [
+    {
+      "text": "Cállate.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Quiet yourself. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-115-reveal": [
+    {
+      "text": "No, it’s not very polite. If you were to speak to more than one person,",
+      "lang": "en"
+    }
+  ],
+  "turn-115-prompt": [
+    {
+      "text": "how would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-117-full": [
+    {
+      "text": "Cállense, good, now we need the mood tense. Cállense. Very good.",
+      "lang": "en"
+    }
+  ]
+}

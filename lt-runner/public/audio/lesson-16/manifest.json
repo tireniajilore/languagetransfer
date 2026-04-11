@@ -1,0 +1,360 @@
+{
+  "lessonId": "lesson-16",
+  "generatedAt": "2026-04-11T13:50:34.851Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "Comenzar means 'to commence' or 'to start'. Another common verb for 'to start' is empezar. Empezar has a stem change in Spain, pronounced empe/th/ar.",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "d91381200ee3c603005ff633b7218049c8fc0414186624a36c5367886d9ec016"
+        }
+      ]
+    },
+    "turn-2-full": {
+      "segments": [
+        {
+          "text": "How do you say 'I start' using empezar?",
+          "lang": "en",
+          "file": "turn-2-full-1.mp3",
+          "hash": "63075d38c87f7b4cc2f2f7817627ec55d1ce429dd151b40344c65d9f8d5dd6e2"
+        }
+      ]
+    },
+    "turn-4-reveal": {
+      "segments": [
+        {
+          "text": "Empiezo.",
+          "lang": "es",
+          "file": "turn-4-reveal-1.mp3",
+          "hash": "1010f1cbcc559d2c90e4a7b9328e989888d48c6a7456d339ff5c68362105d336"
+        },
+        {
+          "text": "Good. Remember to go back to the 'to' form, empezar, to avoid guesswork.",
+          "lang": "en",
+          "file": "turn-4-reveal-2.mp3",
+          "hash": "54fa6e95794d5992ff8942aa35bd6006f527e5c38570b802eea6f4123c4ab124"
+        }
+      ]
+    },
+    "turn-4-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'he starts'?",
+          "lang": "en",
+          "file": "turn-4-prompt-1.mp3",
+          "hash": "52a195247091c49b2d168d8a8845db0283c8e0618f2f0661d5e4da130a19889c"
+        }
+      ]
+    },
+    "turn-6-reveal": {
+      "segments": [
+        {
+          "text": "Empieza.",
+          "lang": "es",
+          "file": "turn-6-reveal-1.mp3",
+          "hash": "876da46c9a15578a67091053c9adacb8f0cb6efe82cfcbd457d1df7583ae446a"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-6-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-6-prompt": {
+      "segments": [
+        {
+          "text": "They start?",
+          "lang": "en",
+          "file": "turn-6-prompt-1.mp3",
+          "hash": "0c9614449f9b1581ab2834980d0b111f26fe6fa053a457c53d7bbc64221b962a"
+        }
+      ]
+    },
+    "turn-8-reveal": {
+      "segments": [
+        {
+          "text": "Empiezan.",
+          "lang": "es",
+          "file": "turn-8-reveal-1.mp3",
+          "hash": "c952b55fef2e8a5f3674d9dc93c8d95acc85386510be24f524b7b4f8f1f4f118"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-8-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-8-prompt": {
+      "segments": [
+        {
+          "text": "You (informal) start?",
+          "lang": "en",
+          "file": "turn-8-prompt-1.mp3",
+          "hash": "e1f435b5c69b9e956634e6a42430400fe65ebd5ea44089d78eb8877023e6d9e9"
+        }
+      ]
+    },
+    "turn-10-prompt": {
+      "segments": [
+        {
+          "text": "Empiezas.",
+          "lang": "es",
+          "file": "turn-10-prompt-1.mp3",
+          "hash": "ad223a97aff4570aae9554c46611405e4c4b7f5f694bcd788bee3cbec1ffcba6"
+        },
+        {
+          "text": "Good. How do you say 'when are you starting?'",
+          "lang": "en",
+          "file": "turn-10-prompt-2.mp3",
+          "hash": "f393a211abd41407af7288a80dcc3ce8c6bb6140a3b042c9ed85f525e8ebc8b3"
+        }
+      ]
+    },
+    "turn-12-reveal": {
+      "segments": [
+        {
+          "text": "¿Cuándo empiezas?",
+          "lang": "es",
+          "file": "turn-12-reveal-1.mp3",
+          "hash": "b827f0bbd8c22ce99ca74929a638e5be6712c84fd15f4accab93c2f87ee5464a"
+        },
+        {
+          "text": "Very good. In the present tense, the e can split to ie, and the o can split to ue. This happens because of the stress on the penultimate syllable. For example, poder becomes puedo.",
+          "lang": "en",
+          "file": "turn-12-reveal-2.mp3",
+          "hash": "ae978b7225afc8fd618d5863ae1b214f02900084b8ced82bea1ae51612c1adfd"
+        }
+      ]
+    },
+    "turn-12-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I sleep'?",
+          "lang": "en",
+          "file": "turn-12-prompt-1.mp3",
+          "hash": "3970c2d500a8b7ac5c6a94733819150a93589517521931067c37bdba7b6377e0"
+        }
+      ]
+    },
+    "turn-14-reveal": {
+      "segments": [
+        {
+          "text": "Duermo.",
+          "lang": "es",
+          "file": "turn-14-reveal-1.mp3",
+          "hash": "903be57754e2d141c2c3abfb8481b975d26a947f440801c14267301dbd206b35"
+        },
+        {
+          "text": "Good. To say 'I fall asleep', you say 'me",
+          "lang": "en",
+          "file": "turn-14-reveal-2.mp3",
+          "hash": "519cce6a9e6fd5ba4ef2bc2637758608c9e3be38fb07b33884c477e89c5ef60f"
+        },
+        {
+          "text": "duermo",
+          "lang": "es",
+          "file": "turn-14-reveal-3.mp3",
+          "hash": "67befe6dd739e50531606cc47ea81f136aa58433df392175aeee749e11310da7"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-14-reveal-4.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-14-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'he sleeps'?",
+          "lang": "en",
+          "file": "turn-14-prompt-1.mp3",
+          "hash": "ce156391d9c79708aa039467909091ab302a7865dffe15511f8c1da18f3b8e9e"
+        }
+      ]
+    },
+    "turn-16-reveal": {
+      "segments": [
+        {
+          "text": "Duerme.",
+          "lang": "es",
+          "file": "turn-16-reveal-1.mp3",
+          "hash": "3d5017b73d0fce2905f0280f44dc2f43deeefb71647bea09a12a3e1d3497d360"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-16-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-16-prompt": {
+      "segments": [
+        {
+          "text": "They sleep?",
+          "lang": "en",
+          "file": "turn-16-prompt-1.mp3",
+          "hash": "83bb4b5325c67fab43e40e7c856bbc2aa7ec3e70ba4e87b95d9a3fdc58e3bda9"
+        }
+      ]
+    },
+    "turn-18-reveal": {
+      "segments": [
+        {
+          "text": "Duermen.",
+          "lang": "es",
+          "file": "turn-18-reveal-1.mp3",
+          "hash": "7e33591244ac33d54fef10170c93b4f6ec0a0ff71222bd53fe797b33b57b0ad5"
+        },
+        {
+          "text": "Good. Encontrar means 'to encounter' or 'to find'.",
+          "lang": "en",
+          "file": "turn-18-reveal-2.mp3",
+          "hash": "e8953d4d2c5633f810085450dd256321c6dbb7b173c186e075e6f4633df412a1"
+        }
+      ]
+    },
+    "turn-18-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I find it'?",
+          "lang": "en",
+          "file": "turn-18-prompt-1.mp3",
+          "hash": "3c6c48521d321a8ceb30c3a062084efa14dbb50f2e8be8fdb341d58ddab6a22d"
+        }
+      ]
+    },
+    "turn-20-reveal": {
+      "segments": [
+        {
+          "text": "Lo encuentro.",
+          "lang": "es",
+          "file": "turn-20-reveal-1.mp3",
+          "hash": "7373fbfc427812da3d4f5bd6dba0b472f2a59e9206e599d59e7983df23a9e5f1"
+        },
+        {
+          "text": "Good. Mostrar means 'to show'.",
+          "lang": "en",
+          "file": "turn-20-reveal-2.mp3",
+          "hash": "d0ebbca5f209e8ae1adc241cb17fec4720dea9ec8beddc57e192d7c9ab2e5eb3"
+        }
+      ]
+    },
+    "turn-20-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I show'?",
+          "lang": "en",
+          "file": "turn-20-prompt-1.mp3",
+          "hash": "30d5b9a6a8fe98b115c0a9c1e0e8f0a00940361153c23bf86c0b688ccd61d35b"
+        }
+      ]
+    },
+    "turn-22-reveal": {
+      "segments": [
+        {
+          "text": "Muestro.",
+          "lang": "es",
+          "file": "turn-22-reveal-1.mp3",
+          "hash": "563a894b809fcc07a7693d79dd7d234d64f49ccb1edb894e1e0143321247ec9e"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-22-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-22-prompt": {
+      "segments": [
+        {
+          "text": "He shows?",
+          "lang": "en",
+          "file": "turn-22-prompt-1.mp3",
+          "hash": "37ba8afc4bb18679f97cf212a9f3ebd3863f8dadce166e212efe175afcf26b1e"
+        }
+      ]
+    },
+    "turn-24-reveal": {
+      "segments": [
+        {
+          "text": "Muestra.",
+          "lang": "es",
+          "file": "turn-24-reveal-1.mp3",
+          "hash": "0ef257dad5c2cec7f8636129836cadafa36d10555d43aad260ae4b704dd6aef4"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-24-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-24-prompt": {
+      "segments": [
+        {
+          "text": "They show?",
+          "lang": "en",
+          "file": "turn-24-prompt-1.mp3",
+          "hash": "458c9d9d922ba75c8f93418d053706ed5c0d27123bf7eab9b55b606d46328bb7"
+        }
+      ]
+    },
+    "turn-26-full": {
+      "segments": [
+        {
+          "text": "Muestran.",
+          "lang": "es",
+          "file": "turn-26-full-1.mp3",
+          "hash": "986e29dca139ff5aa45e2ad3a5f1794c349ab59b65d6fd1c96a1d54a398a9415"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-26-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned about stem-changing verbs in Spanish, like empezar and dormir. These changes occur in the present tense.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "7c9c5465635caeefb5d7659f0eaaa6de21f4f51c8ad1d3f6b7ff67e3fe18e1ed"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try conjugating other stem-changing verbs like poder or volver. Remember the vowel changes in the stem.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "c8bafdf87228677d7b9189efa4f294ab82e755ede8b57fcc883250b559ea3481"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Understanding these patterns helps you predict and use many Spanish verbs correctly.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "cfd46c26e0cab60d010d0cd3040f31459725c720ba713caec98edb9a533085de"
+        }
+      ]
+    }
+  }
+}

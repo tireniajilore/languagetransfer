@@ -1,0 +1,892 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We’ve seen quite a few prepositions up until now, these words that refer to movement or position or direction. For example, we had two words for for, what were they?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Good. Para and por.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And how did we say from or of?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "De.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "With:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Con.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "In or on:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "En of the sentence, as they can in English. We’ve seen this already as well. Do you remember how to say Where are you from? You are (speaking informally) from ser is eres. Eres. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "how would you say Where are you from?:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "De dónde eres?",
+      "lang": "es"
+    },
+    {
+      "text": "So, in English Where are you from? We’re putting the preposition at the end of the sentence, and that’s fine in English, but it’s incorrect Spanish. So, you don’t say Where are you from? You say From where are you? ¿De dónde eres? If we want to say Where are you going? in Spanish, we say To where are you going?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "What was You are going (speaking informally)?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Vas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good, so, to where are you going?:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "A dónde vas?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We are going to the United States. The United States is Estados Unidos,, and I should mention, you don’t translate the word for United States, Estados Unidos the, you just say we are going to United States.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Vamos a Estados Unidos.",
+      "lang": "es"
+    },
+    {
+      "text": "We discussed the concept before about working backwards. So, instead of building up to say what we want to say, finding bits of language and working backwards to find the “to” form of the verb. So, for example, imagine we looked up somewhere United States, or we asked somebody how to say United States, and we came across Estados Unidos. We can use Unidos to work backwards to work out what is the verb to unite.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How do you think that is?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Not guessing, but really working backwards, which, instead of building up, building down; instead of adding bits on to the verb, seeing what has been added and consciously taking it off.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "–ido",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "And what is the ending with – ido?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Or?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "You should experiment and see which one feels more natural to you. Now, the one that you may have heard before is probably going to feel more natural even if you didn’t register it, so if you heard before the correct version, it’s going to feel more natural, and also, the more words you learn in Spanish the greater intuition you get about the phonetics of Spanish, what sounds more Spanish. So, that should direct you when you say “Uner,",
+      "lang": "en"
+    },
+    {
+      "text": "Unir,",
+      "lang": "es"
+    },
+    {
+      "text": "Uner, Unir”, to understand which one is to unite.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "Which one do you think it is?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Unir.",
+      "lang": "es"
+    },
+    {
+      "text": "But, at this stage there is no reason for you to know what sounds more Spanish; this intuition is something that occurs with practice and exposure and listening. But working backwards is a useful skill that we want to employ in our language-learning journey. So, we said that prepositions won’t come at the end, so if we say, for example, the girl I work with, in Spanish we will say the girl with which, with that, with who, I work. We have the option.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So what was to work, do you remember?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "To -",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Trabajar,",
+      "lang": "es"
+    },
+    {
+      "text": "to work. Good. The girl is la chica, la chica La chica.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How do you think the guy would be if the girl is la chica?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "El chico.",
+      "lang": "es"
+    },
+    {
+      "text": "So, we can begin with the one that we know already, which is with that,",
+      "lang": "en"
+    },
+    {
+      "text": "con que.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "The girl with that I work:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "La chica",
+      "lang": "en"
+    },
+    {
+      "text": "con que trabajo,",
+      "lang": "es"
+    },
+    {
+      "text": "you don’t need the yo unless you are emphasizing,",
+      "lang": "en"
+    },
+    {
+      "text": "la chica con que yo trabajo.",
+      "lang": "es"
+    },
+    {
+      "text": "We could also say with which, la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "cual",
+      "lang": "en"
+    },
+    {
+      "text": "trabajo,",
+      "lang": "es"
+    },
+    {
+      "text": "we could say with who, la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "quien",
+      "lang": "en"
+    },
+    {
+      "text": "trabajo.",
+      "lang": "es"
+    },
+    {
+      "text": "We could even put la que or la cual, which means which or that, but we are showing that it’s a feminine which or a feminine that, la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "la cual",
+      "lang": "en"
+    },
+    {
+      "text": "trabajo,",
+      "lang": "es"
+    },
+    {
+      "text": "la chica. You have all of those options in Spanish, but don’t worry about them, you",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "la que",
+      "lang": "en"
+    },
+    {
+      "text": "trabajo",
+      "lang": "es"
+    },
+    {
+      "text": "can just use que. So, whilst you have all of those options and you will hear them, and when you get comfortable with hearing them and understanding them you will start using the different ones without really thinking about it very much; you don’t want to worry about it now, que you can use for everything, for all of that.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "La chica",
+      "lang": "en"
+    },
+    {
+      "text": "con que trabajo.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Yeah, it’s correct Spanish. But you have all of those options: la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "cual",
+      "lang": "en"
+    },
+    {
+      "text": "trabajo;",
+      "lang": "es"
+    },
+    {
+      "text": "la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "la cual",
+      "lang": "en"
+    },
+    {
+      "text": "trabajo,",
+      "lang": "es"
+    },
+    {
+      "text": "la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "la que",
+      "lang": "en"
+    },
+    {
+      "text": "trabajo,",
+      "lang": "es"
+    },
+    {
+      "text": "la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "quien",
+      "lang": "en"
+    },
+    {
+      "text": "trabajo.",
+      "lang": "es"
+    },
+    {
+      "text": "The girl that I was working with. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "how would you say it is the girl I was working with? Let’s go for it slowly. It is the girl:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "With who:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Con que.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "I was working, I used to work:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-full": [
+    {
+      "text": "Good, all together,: S:",
+      "lang": "en"
+    },
+    {
+      "text": "Es la chica con que",
+      "lang": "es"
+    },
+    {
+      "text": "trabajaba.",
+      "lang": "en"
+    }
+  ],
+  "turn-44-full": [
+    {
+      "text": "Es la chica con que",
+      "lang": "es"
+    },
+    {
+      "text": "trabajaba. How would you say the girl with whom, the girl that I was going to the party with. The girl with whom, or with that, with which, all of those are okay in Spanish. S: La chica",
+      "lang": "en"
+    },
+    {
+      "text": "con que",
+      "lang": "es"
+    },
+    {
+      "text": "-",
+      "lang": "en"
+    }
+  ],
+  "turn-45-full": [
+    {
+      "text": "La chica",
+      "lang": "en"
+    },
+    {
+      "text": "con que,",
+      "lang": "es"
+    },
+    {
+      "text": "I was going to the party. So, I was going is the line version of ir, which is irregular, but we can remember that it takes a little bit from the two options that we have to make –er/-ir the line version. We have – aba for – ar verbs and – ía for verbs; and the verb ir kind of blended together – aba and – ía and came up with:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "So, you can think of it that way: you can think of it like – aba and – ía kind of blending together, to have",
+      "lang": "en"
+    },
+    {
+      "text": "iba,",
+      "lang": "es"
+    },
+    {
+      "text": "or you can think of it like the present va, but with an i before. In the past it’s spelled with, where in the present it’s spelled with a a b: i-b-a,",
+      "lang": "en"
+    },
+    {
+      "text": "iba",
+      "lang": "es"
+    },
+    {
+      "text": "v, v-a, but as we know they are very similar sounding, so it’s like the present with an i before. So, in the present you have he is goin g, él va, or él / ba /, and then in the past, él",
+      "lang": "en"
+    },
+    {
+      "text": "iba.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "So I was going, he was going, she was going, it was going, you (formal) were going is:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Iba.",
+      "lang": "es"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "So, the girl with which I was going to the party:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La chica con que iba a la fiesta.",
+      "lang": "es"
+    },
+    {
+      "text": "So, you can say la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "la cual, la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "quien, – you have all of these options. Let’s use la chica",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "la que cual in a sentence, which is the word for which, and it’s not just a which like this to connect the girl with which, you can also use it like a question: which one do you want?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "You probably can guess, we don’t need the word for one.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Good. Which one do you want? ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cuál quieres?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So cuál, cuál, c-u-a-l, means which. I know,; we said it’s very irregular, just from saber, to know, was sé s-e, I know.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "How would you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No sé cual quiere.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "How would you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "No sé cual quiere ver.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "Now, what if you wanted to say wants to do it, I don’t know which one he wants to do it with:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "Well, you said the with already.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "Yeah.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Yeah, and you might feel this temptation often to repeat the preposition again at the end, even if you put it before, because that English is pushing through with the negative language transfer. No I don’t know with which one he wants to do it I don’t know which sé",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "cual quiere hacerlo,,. So, we don’t put the preposition at the end of the sentence in Spanish, one he wants to do it with we will rearrange the sentence and whilst this sounds more formal in English, of course it doesn’t sound more formal in Spanish, it’s just the only correct option.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "The word for, we’ve mentioned who very briefly is",
+      "lang": "en"
+    },
+    {
+      "text": "quién, quién.",
+      "lang": "es"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "If you want to say who is going?, what verb version will who go with? Who is who? Is it you, is it them, is it he/she/it? Who is who?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "how would you say who is going?:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Quién va?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And in Spanish you have the plural of who, if you are expecting more than one person, if you know that your who refers to more than one person, you can put quien into plural, so,",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "how do you think that would sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Yeah.",
+      "lang": "en"
+    },
+    {
+      "text": "Quienes.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "if you want to say who is going? And you know it’s more than one person?",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good, and you changed the verb as well to match. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Quiénes van?",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "How would you say: Who is here?:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "You know-",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "Yes, it’s your location.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Quién está aquí?",
+      "lang": "es"
+    },
+    {
+      "text": "And if you knew you were talking about here, you could just leave that, we don’t really need to say the out as we have the sense of location with estar here, if we know that we are talking about here. Like we said before, if you knock on someone’s door you just say, and we are talking about states, that’s enough context for us ¿Estás? Because we are using estar if we just leave it by itself to understand that we are speaking about location.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "So, you could just say who is?",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Quién está?",
+      "lang": "es"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "How is I have to, what have do we use to get the meaning of have to?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Tener. Tener, to have.",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "I have:",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "Good, and to get the meaning of I have to:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Tengo que.",
+      "lang": "es"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "So,:",
+      "lang": "en"
+    }
+  ],
+  "turn-91-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No sé con quien tengo que hacerlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Or if you knew we meant more than one person, no sé I don’t know who I have to do it for,",
+      "lang": "en"
+    },
+    {
+      "text": "con quienes tengo que",
+      "lang": "es"
+    },
+    {
+      "text": "hacerlo. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "How would you say I don’t know for who I have to do it:",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No",
+      "lang": "es"
+    },
+    {
+      "text": "sé para quien lo",
+      "lang": "en"
+    },
+    {
+      "text": "tengo que",
+      "lang": "es"
+    },
+    {
+      "text": "hacer or",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "sé para",
+      "lang": "en"
+    },
+    {
+      "text": "quién tengo que",
+      "lang": "es"
+    },
+    {
+      "text": "hacerlo. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "What I don’t know who I have to do it because of I don’t know who I have to do it if you wanted to say, because of, so how would that sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-95-full": [
+    {
+      "text": "No",
+      "lang": "es"
+    },
+    {
+      "text": "sé por quien lo",
+      "lang": "en"
+    },
+    {
+      "text": "tengo que",
+      "lang": "es"
+    },
+    {
+      "text": "hacer,",
+      "lang": "en"
+    },
+    {
+      "text": "no sé por quien tengo que hacerlo.",
+      "lang": "es"
+    }
+  ]
+}

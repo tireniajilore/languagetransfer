@@ -1,0 +1,472 @@
+{
+  "lessonId": "lesson-23",
+  "generatedAt": "2026-04-11T13:55:13.142Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "Let's review the forms of 'haber' used to form the past. Give me 'I have' and 'we have'.",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "8d15463e5c9dd55dcd82ef99b153832466c66f6844188dfacc02c199b33ced74"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "Good. Now give me the rest of the forms.",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "bfa88369a8506f47d0ffbf83f1ee78a24c992b98fcedf30565d1af1057d3f20b"
+        }
+      ]
+    },
+    "turn-5-full": {
+      "segments": [
+        {
+          "text": "Good. Nouns ending in 'a' are usually feminine, like 'la casa'. But nouns ending in 'ma' are masculine, like 'el problema'.",
+          "lang": "en",
+          "file": "turn-5-full-1.mp3",
+          "hash": "3b79dce0df7dd804d9319b1b9886111486b87d9f8f96380702e9ce4c2d6da769"
+        }
+      ]
+    },
+    "turn-6-full": {
+      "segments": [
+        {
+          "text": "How would you say 'Have you understood the problem?' using 'comprender' and speaking formally?",
+          "lang": "en",
+          "file": "turn-6-full-1.mp3",
+          "hash": "435c7cc848e6477490d64e2b23252442624effec7653462aedc859463c56efe2"
+        }
+      ]
+    },
+    "turn-8-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-8-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Ha entendido el problema",
+          "lang": "es",
+          "file": "turn-8-reveal-2.mp3",
+          "hash": "04ebb829df71ad8b42147117cca0e56c54a7f0240574410bc5c56fa460d3f405"
+        },
+        {
+          "text": "'. Words ending in 'ma' like 'problema' are masculine because they come from Greek.",
+          "lang": "en",
+          "file": "turn-8-reveal-3.mp3",
+          "hash": "9601faf1df07fe825ad0a50162383dfa0884e6129873b2401a117c674c0a7d3f"
+        }
+      ]
+    },
+    "turn-8-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'the system'?",
+          "lang": "en",
+          "file": "turn-8-prompt-1.mp3",
+          "hash": "1cac97f74034a8b97c9212bbe228f497f9c95a0271dabe706f96f241a0ab0ac9"
+        }
+      ]
+    },
+    "turn-10-reveal": {
+      "segments": [
+        {
+          "text": "El sistema.",
+          "lang": "es",
+          "file": "turn-10-reveal-1.mp3",
+          "hash": "06abf4505f9f01803d7d628c3ce473321e416fac69ae81e39d2ffb7a3fa73d67"
+        }
+      ]
+    },
+    "turn-10-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'Have you understood the system?' informally?",
+          "lang": "en",
+          "file": "turn-10-prompt-1.mp3",
+          "hash": "eba76b6e8b098bbfa2f4c203606d3dc25b30f9046a4d67a7f329b05b5fe0903e"
+        }
+      ]
+    },
+    "turn-12-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-12-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Has entendido el sistema",
+          "lang": "es",
+          "file": "turn-12-reveal-2.mp3",
+          "hash": "993ffb02d5073d49c06853f271e63ad9f89682aaaf77582ed97babf3dc21bbf1"
+        },
+        {
+          "text": "'. 'Sentir' means 'to feel'.",
+          "lang": "en",
+          "file": "turn-12-reveal-3.mp3",
+          "hash": "7e3d4dc1be875926c156944f69176b786821459968a7622a9bc74dbd21bd660f"
+        }
+      ]
+    },
+    "turn-12-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'Have you felt the aroma?'",
+          "lang": "en",
+          "file": "turn-12-prompt-1.mp3",
+          "hash": "04c3610ec6ef3bad11fb2a58b62199109c527c0e2e21f8a55a178255757bc99f"
+        }
+      ]
+    },
+    "turn-14-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-14-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Has sentido el aroma",
+          "lang": "es",
+          "file": "turn-14-reveal-2.mp3",
+          "hash": "e9085f4bed0bd34657cd28c2c9ca46b875315995e15d568643375cc0b2c6107b"
+        },
+        {
+          "text": "'. Remember, words like 'el programa', 'el aroma', 'el panorama', and 'el clima' are masculine.",
+          "lang": "en",
+          "file": "turn-14-reveal-3.mp3",
+          "hash": "984c75ccf4d79ad1894797516a5f41945101a331d25a3dbe07ab3ac8bcc429da"
+        }
+      ]
+    },
+    "turn-14-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'Have you understood the program?'",
+          "lang": "en",
+          "file": "turn-14-prompt-1.mp3",
+          "hash": "b325a2bcd350c7621aeffab2c1f2c920360338e432387c79aa0fd286a72a34e3"
+        }
+      ]
+    },
+    "turn-16-full": {
+      "segments": [
+        {
+          "text": "Good. How do you say 'to lose'?",
+          "lang": "en",
+          "file": "turn-16-full-1.mp3",
+          "hash": "a1a07afc70d6a6d06d8cd3d1491b1fe6e918d694121768949779c8c2c8426391"
+        }
+      ]
+    },
+    "turn-18-reveal": {
+      "segments": [
+        {
+          "text": "Perder.",
+          "lang": "es",
+          "file": "turn-18-reveal-1.mp3",
+          "hash": "cd3f5864b904abf893e2fa138184462da90e51bdb725183128b399c9d6253acc"
+        }
+      ]
+    },
+    "turn-18-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I have lost'?",
+          "lang": "en",
+          "file": "turn-18-prompt-1.mp3",
+          "hash": "8f46edb3babedec61b2894e56991cc1e587da231018570cafb19f7c6421adf5b"
+        }
+      ]
+    },
+    "turn-20-reveal": {
+      "segments": [
+        {
+          "text": "Good. To emphasize, you can say 'Yo",
+          "lang": "en",
+          "file": "turn-20-reveal-1.mp3",
+          "hash": "3e169716bfd3f4466db8dd30ec9a87c0269863df06cf03a5e2156d0016f74e5f"
+        },
+        {
+          "text": "he perdido",
+          "lang": "es",
+          "file": "turn-20-reveal-2.mp3",
+          "hash": "215730e0a497d0c5146f861e4641de029e1c250f0f5889b04a7e81353207d81a"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-20-reveal-3.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-20-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I have got lost'?",
+          "lang": "en",
+          "file": "turn-20-prompt-1.mp3",
+          "hash": "0b7c69ea9cdcb02de252d80db411d3854e5b05c3d738e224e28811115bbc0929"
+        }
+      ]
+    },
+    "turn-22-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-22-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Me he perdido",
+          "lang": "es",
+          "file": "turn-22-reveal-2.mp3",
+          "hash": "61e0042b7b86a3d5cca914fbca1d85594ca5fb56a8bb719d59760db79b116b85"
+        },
+        {
+          "text": "'. To emphasize, you can say 'Yo",
+          "lang": "en",
+          "file": "turn-22-reveal-3.mp3",
+          "hash": "1081642f1d066a2d74e6202efd46f9de5fb0b31b656800e880e478762e71dd70"
+        },
+        {
+          "text": "me he perdido",
+          "lang": "es",
+          "file": "turn-22-reveal-4.mp3",
+          "hash": "c4465b1f7bb020759b229a5f54b0200e12ae72431c7ebff1030571b1753bbb05"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-22-reveal-5.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-22-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'You have lost' informally?",
+          "lang": "en",
+          "file": "turn-22-prompt-1.mp3",
+          "hash": "f709c01b57956da21da99eaeca8a45f2d6a39b7ebb26a676eaeef3ebeb210cc9"
+        }
+      ]
+    },
+    "turn-24-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-24-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Has perdido",
+          "lang": "es",
+          "file": "turn-24-reveal-2.mp3",
+          "hash": "ef26d733aa2fcca09b8ccc89362f6e9e2c8880f972d567b399c6cff881f24698"
+        },
+        {
+          "text": "'. To emphasize, say 'Tú",
+          "lang": "en",
+          "file": "turn-24-reveal-3.mp3",
+          "hash": "89af86e3266b97a8d552ad63d61bbda5d57b2bc57dbce0cf4cf8c6549c8117fe"
+        },
+        {
+          "text": "has perdido",
+          "lang": "es",
+          "file": "turn-24-reveal-4.mp3",
+          "hash": "75f850fb31046b461f749dd0b9bd38389488baa9b89372e39044ad55350300af"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-24-reveal-5.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-24-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'You have got lost'?",
+          "lang": "en",
+          "file": "turn-24-prompt-1.mp3",
+          "hash": "4459d4b0e03a9587e1355fcba8fd8982c22b631ca92f3549b016b1c2d320d6e4"
+        }
+      ]
+    },
+    "turn-26-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-26-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Te has perdido",
+          "lang": "es",
+          "file": "turn-26-reveal-2.mp3",
+          "hash": "5f6a3441605fad64f9c48b93081f90a3af3e1b462a545fd1608b3fd6db50c928"
+        },
+        {
+          "text": "'. To emphasize, say 'Tú",
+          "lang": "en",
+          "file": "turn-26-reveal-3.mp3",
+          "hash": "89af86e3266b97a8d552ad63d61bbda5d57b2bc57dbce0cf4cf8c6549c8117fe"
+        },
+        {
+          "text": "te has perdido",
+          "lang": "es",
+          "file": "turn-26-reveal-4.mp3",
+          "hash": "f0ca2dfa03d9cc1f6f7c210cf968ee5807dd8e57c9a07cc04f5214f567b156c1"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-26-reveal-5.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-26-prompt": {
+      "segments": [
+        {
+          "text": "What is 'we have' from 'haber'?",
+          "lang": "en",
+          "file": "turn-26-prompt-1.mp3",
+          "hash": "55a9433ad5615952c0006a761b51c4f769d38299289bd6bc85ef7cc683568498"
+        }
+      ]
+    },
+    "turn-28-reveal": {
+      "segments": [
+        {
+          "text": "Hemos.",
+          "lang": "es",
+          "file": "turn-28-reveal-1.mp3",
+          "hash": "2d2f311e47c0ca5ee084ded995ca71effc482a003ddef536caf66419cd5b7c76"
+        }
+      ]
+    },
+    "turn-28-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'We have lost it'?",
+          "lang": "en",
+          "file": "turn-28-prompt-1.mp3",
+          "hash": "9ec9f789d76403f750ecd8f98c3c6e775886a87ef7bacab7c967f0ba6cd251e6"
+        }
+      ]
+    },
+    "turn-30-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-30-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Lo hemos perdido",
+          "lang": "es",
+          "file": "turn-30-reveal-2.mp3",
+          "hash": "e8861c2b789c5747a34f3b5bbe3cea444997813155be6035e11694c47de89ffb"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-30-reveal-3.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-30-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'We have lost ourselves'?",
+          "lang": "en",
+          "file": "turn-30-prompt-1.mp3",
+          "hash": "3bec2e42e32c264e6f6db7253bc684eca1c547c90e75db2a7a9f2b4f2e5c9608"
+        }
+      ]
+    },
+    "turn-32-full": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-32-full-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Nos hemos perdido",
+          "lang": "es",
+          "file": "turn-32-full-2.mp3",
+          "hash": "8a577b3e63bbd206c28259d97a093b9032699106f56bf8ec65cb8040417b4134"
+        },
+        {
+          "text": "'. To emphasize, say 'Nosotros",
+          "lang": "en",
+          "file": "turn-32-full-3.mp3",
+          "hash": "99c2eca3a37c1693f65856cc875a88ab54e2df22cbf8a12f680172adfc4c7944"
+        },
+        {
+          "text": "nos hemos perdido",
+          "lang": "es",
+          "file": "turn-32-full-4.mp3",
+          "hash": "ec12c75908fb5cbe5b573e877325f880e354f1b028b7bec725af8b9e7c51e9f8"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-32-full-5.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned the forms of 'haber' for past constructions and how to identify masculine nouns ending in -ma.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "3d956830af2c06bea483932a990eae8097f03a2e08c9c7db5b4a233ba2ff4e4b"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try using 'haber' with different verbs and practice identifying masculine nouns ending in -ma.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "cc20faefcd7a40b32cc31141ea8d6083117b6e24a4792db0d77f79cf4b3541c5"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Understanding these patterns will help you avoid common gender mistakes in Spanish.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "e78961e9a32c94ee46b80305c1688a6a3cd253c88741ee6c60c1c8a6d99b92ed"
+        }
+      ]
+    }
+  }
+}

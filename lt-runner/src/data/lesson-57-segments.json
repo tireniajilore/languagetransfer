@@ -1,0 +1,756 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What is to speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "Hablar.",
+      "lang": "es"
+    },
+    {
+      "text": "- ar verb, and to eat:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Comer.",
+      "lang": "es"
+    },
+    {
+      "text": "- er verb, and to live:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Vivir.",
+      "lang": "es"
+    },
+    {
+      "text": "- ir verb. Good, so there we have an – ar, - er and – ir verb, and we saw – ar verbs form one group, and – er/ - ir verbs form another group. But, we have one time in the entire Spanish language, where there is a difference between – er and – ir verbs, otherwise they are always forming one group. But just one occasion in the whole Spanish language, where there is a difference between them.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "How do you say we speak or we are speaking?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Hablamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How would you say we eat or we are eating?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Comemos.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Good, and how is we live?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Vivimos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, for - er verbs we use - emos for we in the present, and for - ir verbs we use - imos for we in the present.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "But of course for the other versions they are using the same endings, for example, he eats is:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Come.",
+      "lang": "es"
+    },
+    {
+      "text": "We use / e /.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "He lives:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Vive.",
+      "lang": "es"
+    },
+    {
+      "text": "Again we are using an e.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "They eat, or you guys eat:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "They live or you guys live:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "Viven.",
+      "lang": "es"
+    },
+    {
+      "text": "Where do you guys live?:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde viven?",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "What was the word for it? Not eat, but it, i-t:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Lo. Good. There’s a couple of interesting and useful things we can do with lo, it, in Spanish, which we can’t do in English. For example, when you want to say the interesting thing, the complicated thing is, the interesting thing is, the difficult thing about that is, instead of saying the word for thing, in Spanish you can just say, for example, lo interesante. Lo interesante means the interesting thing. So, you get the structure the interesting thing with lo interesante. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "how would you say, for example, the interesting thing is that they live here? The interesting thing is that they live here:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo interesante es que viven aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you say the interesting thing is that they live together? Now, the word for together in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "junto junto.,",
+      "lang": "es"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "This is the singular masculine version. J-u-n-t-o junction, then you can see how it’s related to it, but when you realize that",
+      "lang": "en"
+    },
+    {
+      "text": "junto",
+      "lang": "es"
+    },
+    {
+      "text": "is with j junction in English and join.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "The interesting thing is that they live together:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good, but it’s them, no?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "They,",
+      "lang": "en"
+    },
+    {
+      "text": "viven:",
+      "lang": "es"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good. Lo interesante",
+      "lang": "en"
+    },
+    {
+      "text": "es",
+      "lang": "es"
+    },
+    {
+      "text": "que",
+      "lang": "en"
+    },
+    {
+      "text": "viven juntos.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "Or, if they were two females, you would say:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good. Lo interesante",
+      "lang": "en"
+    },
+    {
+      "text": "es",
+      "lang": "es"
+    },
+    {
+      "text": "que",
+      "lang": "en"
+    },
+    {
+      "text": "viven juntas.",
+      "lang": "es"
+    },
+    {
+      "text": "The interesting thing is that they live together. What do you think fácil means?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Fácil:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Easy.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Why?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Facilitate.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. To",
+      "lang": "en"
+    },
+    {
+      "text": "facilitate",
+      "lang": "es"
+    },
+    {
+      "text": "is to make",
+      "lang": "en"
+    },
+    {
+      "text": "easy,",
+      "lang": "es"
+    },
+    {
+      "text": "so, we have fácil,",
+      "lang": "en"
+    },
+    {
+      "text": "easy.",
+      "lang": "es"
+    },
+    {
+      "text": "So, if you wanted to say the",
+      "lang": "en"
+    },
+    {
+      "text": "easy",
+      "lang": "es"
+    },
+    {
+      "text": "thing,",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "how would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Lo fácil,",
+      "lang": "es"
+    },
+    {
+      "text": "and then you will carry on, so we can say the",
+      "lang": "en"
+    },
+    {
+      "text": "easy",
+      "lang": "es"
+    },
+    {
+      "text": "thing is that they",
+      "lang": "en"
+    },
+    {
+      "text": "come",
+      "lang": "es"
+    },
+    {
+      "text": "together.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "The",
+      "lang": "en"
+    },
+    {
+      "text": "easy",
+      "lang": "es"
+    },
+    {
+      "text": "thing is that they",
+      "lang": "en"
+    },
+    {
+      "text": "come",
+      "lang": "es"
+    },
+    {
+      "text": "together:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Try and build it, see what happens, go there first and then see.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "But you are going for the “they” version, so don’t go from venir to “I” version to “they” version.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "Why? That’s how you get lost, right? What you want to do is focus your thoughts on just what you have in front of you, which is going from venir to the “they” form, and try to build it as it should be, and then when you get that result, then have a look at maybe if it’s irregular, if it doesn’t feel right -",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Of course!",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "You see?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Vengo",
+      "lang": "es"
+    },
+    {
+      "text": "with everything you will remember, you will remember something similar that you don’t remember. If you let that occupy your thoughts then you are gonna block. You need to be comfortable with a level of uncertainty to learn a language. If you want to have the whole panorama of the whole language before you start speaking, you will never start speaking. And sooner or later we are gonna",
+      "lang": "en"
+    },
+    {
+      "text": "come",
+      "lang": "es"
+    },
+    {
+      "text": "across again that thought that distracted us cause we are gonna want to say it, and in that moment we will sort it out. So, the more we do that, the more you are gonna control this panorama of Spanish, that makes you a little bit insecure right now, because you know so much and you feel like it’s all floating around.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "The",
+      "lang": "en"
+    },
+    {
+      "text": "easy",
+      "lang": "es"
+    },
+    {
+      "text": "thing is that they",
+      "lang": "en"
+    },
+    {
+      "text": "come",
+      "lang": "es"
+    },
+    {
+      "text": "together:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo fácil es que vienen juntos.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "How would you say the complicated thing is that they",
+      "lang": "en"
+    },
+    {
+      "text": "come",
+      "lang": "es"
+    },
+    {
+      "text": "together:",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "Yeah.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "Lo complicado es que vienen juntos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So we can say lo bueno, the good thing; lo malo,, so that’s a useful the bad thing. Malo is bad, like in malnutritioned, that means badly nutritioned structure. Before we said de esta forma, in this way, de esta forma. We could also say de esta manera, in this manner, but very very common in Spanish when we want to say like this, like that, is the word así, a-s-i, así.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Así means like this or like that. So, if you want to say something like don’t speak in that way, you don’t really need to say de esa manera or de esa forma, you can just take this wonderful shortcut for like this or like that, which is así. So, like this, like that, así. we don’t speak like that we don’t speak in that way",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "So,,:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "No hablamos así.:",
+      "lang": "es"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "No comemos así.:",
+      "lang": "es"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "No vivimos así.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Another interesting thing that we can do with lo, a useful structure we can make with lo, is lo de. The combination of lo and de means like the thing about. So we see how lo can sometimes replace thing, lo interesante, the interesting thing, and lo de is like the thing about. So, for example, if you wanted to say the thing about the party, you just say lo de la fiesta. So",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "if you want to say we are speaking about the thing about the party - not we are speaking about the party, but we are speaking about that issue of the party, that thing we know what we are referring to, we are speaking about that business about the party,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "lo de la fiesta. Or",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "sobre, about, you could say that as well,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "sobre lo de la fiesta. You can even say de, we speak of,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "de lo de la fiesta. You can say that business about Juan, that thing about Juan, how would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Lo de Juan.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, you could say want to speak about Juan’s business like this Juan’s business.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "And for you will just say:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "So,:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero hablar de lo de Juan así.",
+      "lang": "es"
+    },
+    {
+      "text": "Or we could say",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "quiero",
+      "lang": "en"
+    },
+    {
+      "text": "hablar",
+      "lang": "es"
+    },
+    {
+      "text": "sobre",
+      "lang": "en"
+    },
+    {
+      "text": "lo de Juan",
+      "lang": "es"
+    },
+    {
+      "text": "así, or just",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "quiero",
+      "lang": "en"
+    },
+    {
+      "text": "hablar lo de Juan",
+      "lang": "es"
+    },
+    {
+      "text": "así. So, lo de we kinda wanna see as a unit, meaning that. And we’ve seen already that, so it’s just thing about de can mean about it about, that thing about. It’s used very often in Spanish and you will find it very useful. So, you could say, for example, I want to organize that thing tomorrow. That thing tomorrow, that thing about tomorrow.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "I want to, what’s organize to organize?",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "So, I want to organize that thing about tomorrow:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "La",
+      "lang": "en"
+    },
+    {
+      "text": "mañana",
+      "lang": "es"
+    },
+    {
+      "text": "is the morning.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "Yes, so morning and tomorrow are the same word in Spanish,",
+      "lang": "en"
+    },
+    {
+      "text": "mañana.",
+      "lang": "es"
+    },
+    {
+      "text": "If you say la",
+      "lang": "en"
+    },
+    {
+      "text": "mañana",
+      "lang": "es"
+    },
+    {
+      "text": "we are going to understand the morning.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "Good, so all together:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero organizar lo de mañana.",
+      "lang": "es"
+    },
+    {
+      "text": "It about tomorrow, the thing about tomorrow. But I don’t want to organize it like this, but I don’t want to",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero organizar lo de mañana.",
+      "lang": "es"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "organize it like this:",
+      "lang": "en"
+    }
+  ],
+  "turn-83-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Pero no quiero organizarlo así.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. But I don't want to organize it like this. Or, if you wanted to be more emphatic, you could replace así with de esta manera, de esta forma, of this way, of this form, but así is the most common, you will be hearing it all the time.",
+      "lang": "en"
+    }
+  ]
+}

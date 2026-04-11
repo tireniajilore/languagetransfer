@@ -1,0 +1,318 @@
+{
+  "lesson_number": 3,
+  "title": "ANT/ENT Endings and -mente Adverbs",
+  "description": "Convert -ant/-ent endings to Spanish by adding -e. Learn to form adverbs with -mente.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was 'is' or 'he is', 'she is', 'it is'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "es"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Es. Good. Words ending in -ant or -ent often become Spanish by adding -e. For example, 'important' becomes importante. How would you say 'it is important'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "es importante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Es importante. How would you say 'it's not important'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no es importante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No es importante. How would you say 'different'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "diferente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Diferente. It's not different:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no es diferente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No es diferente. How would you say 'constant'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "constante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Constante. How would you say 'it is constant'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "es constante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Es constante. Add -mente to form adverbs. 'Constantly' is constantemente. How would you say 'legally'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "legalmente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Legalmente. Good. 'Illegally'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ilegalmente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ilegalmente. How do you say 'real' in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "real"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Real. How would you say 'really'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "realmente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Realmente. 'Normally' is normalmente. How would you say 'normally it's important'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "normalmente es importante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Normalmente es importante. If a word has a /j/ sound, it becomes /kh/ in Spanish. How would you say 'global'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "global"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Global. 'Globally'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "globalmente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Globalmente. 'General' becomes?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "general"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "General. 'Generally'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "generalmente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Generalmente. 'Original'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "original"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Original. 'Originally'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "originalmente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Originalmente. 'Digital'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "digital"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Digital. 'Naturally'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "naturalmente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Naturalmente. How would you say 'naturally it's original'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "naturalmente es original"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Naturalmente es original. Words ending in -ible or -able often convert by pronouncing syllable by syllable with stress on the second last syllable. 'Possible' becomes posible. How would you say 'probably'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "probablemente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Probablemente. 'Possibly'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "posiblemente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Posiblemente. 'Flexible'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "flexible"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Flexible. Remember, experiment with vocabulary conversion, but be aware of exceptions. This approach can help you quickly expand your Spanish vocabulary.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned to convert English words ending in -ant, -ent, -ible, and -able into Spanish."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try converting more words like 'elegant' or 'responsible' into Spanish.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "You've also learned to form adverbs with -mente, allowing you to express actions more precisely."
+    },
+    {
+      "type": "narration",
+      "text": "Keep experimenting with these patterns to build your vocabulary and confidence in Spanish."
+    }
+  ]
+}

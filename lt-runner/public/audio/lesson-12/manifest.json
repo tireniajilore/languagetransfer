@@ -1,0 +1,610 @@
+{
+  "lessonId": "lesson-12",
+  "generatedAt": "2026-04-11T13:52:45.872Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "Let's recap -ar verbs. How would you say 'to contaminate'?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "c67db87330b19750120966e304e67c9857b3e11a9d941558d18479e0ae8ebb27"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'it's contaminating'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "b9ca0c3a4b0acdf692196265a40c6752de99ce91208b78a52a82b3665310b997"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Good. For 'they contaminate', we add an 'n'.",
+          "lang": "en",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "78701cadb2e31cb797d2daa3fb0caf926abdc8353c96b77e50b4677c7c35b3b9"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would that be?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "be97c48119821468f381fa2089852e055e15ad5aed6ee9e7c0e89c6296d76de5"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "And to say 'you (informal) contaminate', we add an 's'.",
+          "lang": "en",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "a891e06f1f9ceff22ae2c39ad645922bc380663b2686b7e0f9a189e918bd8285"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "How would you say it?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "ab3c757e9fdf2759b57765297ba1702a2d1d7b605ffa1b8a907ad0c6a424273e"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Now, for -er/-ir verbs, the key sound is /e/.",
+          "lang": "en",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "001d30019a3c24ee82494819d08c4d3ee74a5387ce9e32627d2457f2847edea1"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "What do you think 'vender' means?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "402b6bc10375d54285d365ff0a29f78c4bcae19e852c4d48e8e09212c265d3c2"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Correct.",
+          "lang": "en",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "272eb9f19879fd491959d5f36869d098ae2d7b36d1ddbd24b93adbb39a8cca0c"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "So 'I sell' or 'I'm selling' is:",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "67a036af0fb26b365d4e9e0c74639ce01772ac6d6433cbe08e4d38ef61a015b7"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I'm selling it'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "21d2af2fb3c1aef77253481503be224065828442eb38d13f6087eedcdaf073d2"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Exactly.",
+          "lang": "en",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "251e4d0b87198851e61f6af90f5740d9ece9169537a2d226e30578b85b73bd12"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I'm selling them'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "12df9427e893f1b9559985d2aa150126d9af5b7bc12eba676683203fa5793d3b"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Good. Remember, 'las' is for feminine objects. Let's practice some nouns.",
+          "lang": "en",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "13797035f9ceae40d2f4673f5fb5dc67426f3efb3fd998d16d018fbf0ec354c7"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "The opinion is:",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "2277765f64fd198342df0445a726a06574c16749c077d112b4f7b09ef69d31ea"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "La opinión.",
+          "lang": "es",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "f5011efe4c3c22ed6e28297dc13aaee1612a6af78081d57234ff5bf826460253"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "The association:",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "4cb4f18e730bf0a5dac3251360cf1f7dfeac7284b09488a7b2a25231eb7f101e"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Good. If a word ends in -ity in English, it becomes -idad in Spanish.",
+          "lang": "en",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "4b0289ed5697aa2c98f07527f1d0ec903bd8b427a34a03e2116a3d51cd8ac074"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "For example, 'diversity' becomes:",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "f3eca5451618e2de117592cb5a26686745b606c3198f81c1a62c0cf79f7bc02a"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "'The diversity' is:",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "01289d2527babd04d1ae875b1d7b06e739ea555d0e75d40c661cb866a2ec3caa"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "La diversidad.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "f22c9665464dbac06101d4692bfc2c95b0702bfd1756b124401b63890347804e"
+        },
+        {
+          "text": "Now, let's look at 'electric'.",
+          "lang": "en",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "30cd07d4492ad2d147f5c7e1ce6bdbb0e19f0988c6084b500fef6e223265a22e"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How would you say it?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "ab3c757e9fdf2759b57765297ba1702a2d1d7b605ffa1b8a907ad0c6a424273e"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "Correct.",
+          "lang": "en",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "272eb9f19879fd491959d5f36869d098ae2d7b36d1ddbd24b93adbb39a8cca0c"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How about 'generous' for a male?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "8364e874225ec5009f0f8cf90444acf563ee82249ccf0ce80977932598407d8f"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "And for a female?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "067db2dd924020b25baee24efcbf16450526ea468c4aec1d4d1fbfb53f2b3a83"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "Good. Let's try 'community'.",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "c470ead4d10b2af7de94c62ba7ec9619ce93be4db076d401eb18cdd28790265d"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "The community:",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "e279846da0db61aafaeff02b8538702a75d7f6bab25e99cf13e245f922391658"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "La comunidad.",
+          "lang": "es",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "5f27cf8805a58af74460c125c1ade56fff8d2c853c2e0bfb03686d841541a1d4"
+        },
+        {
+          "text": "Now, let's practice with 'opportunity'.",
+          "lang": "en",
+          "file": "turn-35-prompt-2.mp3",
+          "hash": "88c80e9b28a505361c9ad8853ec04b85bf29b927f722b485f79b996f994099bf"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'opportune'?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "129e1c612dd30c1b7529ff183b3d1464aeceb8629b85994701144d6896eec47f"
+        }
+      ]
+    },
+    "turn-39-reveal": {
+      "segments": [
+        {
+          "text": "Great.",
+          "lang": "en",
+          "file": "turn-39-reveal-1.mp3",
+          "hash": "bbfa839c3231486bbc0ff2ebf02b86274450a074be86e5a8efe46167bc1bb61f"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "Now, 'clarity' becomes:",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "c63d2877727bde4a0d625c2ea4d357a3b07c2916fe36a6fa49607f2ba7e4a092"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "And 'clear' is:",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "8207249a0e1fd6bb2908281052390b1b86106d5dfdc1d55e30ba451521d9a614"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "Claro.",
+          "lang": "es",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "5f79c4d4aa10bebe864747ec70d4be4a0fcab02919cff73a4c47293daa3cb009"
+        },
+        {
+          "text": "Let's move to 'personality'.",
+          "lang": "en",
+          "file": "turn-43-prompt-2.mp3",
+          "hash": "30721fcf78b70a2f0d1ec927be01fe0e9c2133ff37d8575e05f534ca657c47e2"
+        }
+      ]
+    },
+    "turn-45-prompt": {
+      "segments": [
+        {
+          "text": "And 'person' is:",
+          "lang": "en",
+          "file": "turn-45-prompt-1.mp3",
+          "hash": "823bb73f558faf8824a4a4311358e55e7c0439a6df12be33e4a1c95cdc11910a"
+        }
+      ]
+    },
+    "turn-47-reveal": {
+      "segments": [
+        {
+          "text": "Persona.",
+          "lang": "es",
+          "file": "turn-47-reveal-1.mp3",
+          "hash": "bbdc9c2132018c4fddb6e7f514e69b618a9ee40a5a60f8b0aeae4cff052c7de4"
+        }
+      ]
+    },
+    "turn-47-prompt": {
+      "segments": [
+        {
+          "text": "Now, 'sincerity':",
+          "lang": "en",
+          "file": "turn-47-prompt-1.mp3",
+          "hash": "c21bd8ac16070c9e66fb881f06d2194d4c4b0a68271ab64d891e2f7f851d3fe4"
+        }
+      ]
+    },
+    "turn-49-prompt": {
+      "segments": [
+        {
+          "text": "And 'sincere' is:",
+          "lang": "en",
+          "file": "turn-49-prompt-1.mp3",
+          "hash": "f0d420ffc2690968e9650d169a156cec7c36fff50769aae08437788479b8124e"
+        }
+      ]
+    },
+    "turn-51-reveal": {
+      "segments": [
+        {
+          "text": "Sincero.",
+          "lang": "es",
+          "file": "turn-51-reveal-1.mp3",
+          "hash": "bf4c95fce4b97c471247b354077e454af732969c7a7f4f46178625fd31b7b09c"
+        },
+        {
+          "text": "Back to 'vender'.",
+          "lang": "en",
+          "file": "turn-51-reveal-2.mp3",
+          "hash": "ac6f210ba34ea8395810918fd2155754ecd4df8a56c6cd3ed9dfdbbe63261bd6"
+        }
+      ]
+    },
+    "turn-51-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I want",
+          "lang": "en",
+          "file": "turn-51-prompt-1.mp3",
+          "hash": "6a2920226c1c5737dc13a470f466a5be0a6b33cb1982680ee3b09d1cc632aeb1"
+        },
+        {
+          "text": "to sell",
+          "lang": "es",
+          "file": "turn-51-prompt-2.mp3",
+          "hash": "3df787b3993b2e8010e78b44423fbbaa24b98d6ef9a69e8272ca6a42498e2ecd"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-51-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-53-prompt": {
+      "segments": [
+        {
+          "text": "And 'I want",
+          "lang": "en",
+          "file": "turn-53-prompt-1.mp3",
+          "hash": "e87fce8a0ef8748ee65b48995cf24a17451cf4992779ae26342b3e2b411c231a"
+        },
+        {
+          "text": "to sell",
+          "lang": "es",
+          "file": "turn-53-prompt-2.mp3",
+          "hash": "3df787b3993b2e8010e78b44423fbbaa24b98d6ef9a69e8272ca6a42498e2ecd"
+        },
+        {
+          "text": "it'?",
+          "lang": "en",
+          "file": "turn-53-prompt-3.mp3",
+          "hash": "5621606497a91d111b2f716c6fbd78a397efac3e4d9162dc595b80b4f53a4116"
+        }
+      ]
+    },
+    "turn-55-reveal": {
+      "segments": [
+        {
+          "text": "Good. For -er/-ir verbs, the key sound is /e/.",
+          "lang": "en",
+          "file": "turn-55-reveal-1.mp3",
+          "hash": "d31304336582f1233de0d37288c47c6517cd854765ce12d5a7922928f31ccaa2"
+        }
+      ]
+    },
+    "turn-55-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he sells'?",
+          "lang": "en",
+          "file": "turn-55-prompt-1.mp3",
+          "hash": "1cad15d6d719f25e952ca8a3e8d7cf60293fdfdc0125f64806af8d48b396919e"
+        }
+      ]
+    },
+    "turn-57-prompt": {
+      "segments": [
+        {
+          "text": "And 'he sells it'?",
+          "lang": "en",
+          "file": "turn-57-prompt-1.mp3",
+          "hash": "05b83406d6e559f697d59cb1bf5b6f5a11a1b864cdc34d02a3f1a2c9ffe8671f"
+        }
+      ]
+    },
+    "turn-59-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'they sell'?",
+          "lang": "en",
+          "file": "turn-59-prompt-1.mp3",
+          "hash": "67eca0b15370a76e08e8fba3f7415945e9c16e8d8800930b9a80cb51fed42b5f"
+        }
+      ]
+    },
+    "turn-61-prompt": {
+      "segments": [
+        {
+          "text": "And 'they're not selling it'?",
+          "lang": "en",
+          "file": "turn-61-prompt-1.mp3",
+          "hash": "5a236b058d7a07784cf10c53e6fc206e6638fa3df5ad61260499fd15acf6e111"
+        }
+      ]
+    },
+    "turn-63-prompt": {
+      "segments": [
+        {
+          "text": "Why aren't they selling it to me?",
+          "lang": "en",
+          "file": "turn-63-prompt-1.mp3",
+          "hash": "512ca355e3befe9bb88e866dac8b5c089bfe32abe7a280f7cde8dc44ee4791a0"
+        }
+      ]
+    },
+    "turn-65-reveal": {
+      "segments": [
+        {
+          "text": "Good. The word for 'us' is 'nos'.",
+          "lang": "en",
+          "file": "turn-65-reveal-1.mp3",
+          "hash": "12f333b8161992a820550ff5187148986fcae860d274f8a9bd2116e9ca4dc3db"
+        }
+      ]
+    },
+    "turn-65-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'they're selling us something'?",
+          "lang": "en",
+          "file": "turn-65-prompt-1.mp3",
+          "hash": "eb40c7e9918f6d3a6f862a36a7a39205d84d3a0dc666f5832f98c94240ddcbb8"
+        }
+      ]
+    },
+    "turn-67-prompt": {
+      "segments": [
+        {
+          "text": "And 'they're selling it to us'?",
+          "lang": "en",
+          "file": "turn-67-prompt-1.mp3",
+          "hash": "cfe2e3effb64ee85c9887705244311920b4c150aa423c5a233ae9d66affbf29b"
+        }
+      ]
+    },
+    "turn-69-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'they're not selling it to us'?",
+          "lang": "en",
+          "file": "turn-69-prompt-1.mp3",
+          "hash": "6f795b530fb1ffbb24601bb2ffcf01b6ccc3ecfeda9907dbfe1cb93ef74ae554"
+        }
+      ]
+    },
+    "turn-71-full": {
+      "segments": [
+        {
+          "text": "Why don't they sell it to us?",
+          "lang": "en",
+          "file": "turn-71-full-1.mp3",
+          "hash": "0f394841ea0e9da39f9a64b071d0ab5a67a73e19adf04276b27fa040b107c480"
+        }
+      ]
+    },
+    "turn-73-full": {
+      "segments": [
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-73-full-1.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        },
+        {
+          "text": "¿Por qué no nos lo venden?",
+          "lang": "es",
+          "file": "turn-73-full-2.mp3",
+          "hash": "225392023746f333403bbf7eacc3e0a2c058e10ede7ddb4a2d1d9a139bcf05fa"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "In this lesson, you learned to conjugate -ar, -er, and -ir verbs and use object pronouns in Spanish.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "0706a4ba599293358d62ac41d593eb7118c441af922be5eaa2668a0d5004177d"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try creating sentences with different verbs and object pronouns to reinforce what you've learned.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "8188ecf905f79c0ea987b2e708fbcc125bc47ceb3d081549d73771616934ee29"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Practice using these structures in conversation to become more comfortable with Spanish grammar.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "7374be046c959f82252242dbbf1f9bcc3553ec0b29a21380c06465a64edbb6aa"
+        }
+      ]
+    }
+  }
+}

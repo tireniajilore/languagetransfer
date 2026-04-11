@@ -10,6 +10,7 @@ export class StaticTTS implements TTSAdapter {
   private activeRequest: AbortController | null;
   private playbackToken: number;
   private manifestPromise: Promise<TTSManifest | null> | null;
+  private assetBaseUrl: string | null;
 
   constructor(lessonId: string, fallback: TTSAdapter | null = null) {
     this.lessonId = lessonId;
@@ -19,6 +20,7 @@ export class StaticTTS implements TTSAdapter {
     this.activeRequest = null;
     this.playbackToken = 0;
     this.manifestPromise = null;
+    this.assetBaseUrl = null;
   }
 
   async speak(text: string, segments?: SpeechSegment[], sourceKey?: string): Promise<void> {
@@ -100,7 +102,9 @@ export class StaticTTS implements TTSAdapter {
             return null;
           }
 
-          return response.json() as Promise<TTSManifest>;
+          const manifest = await response.json() as TTSManifest;
+          this.assetBaseUrl = manifest.baseUrl?.replace(/\/$/, '') ?? `/audio/${this.lessonId}`;
+          return manifest;
         })
         .catch(() => null);
     }
@@ -127,7 +131,8 @@ export class StaticTTS implements TTSAdapter {
     controller: AbortController,
     token: number
   ) {
-    const response = await fetch(`/audio/${this.lessonId}/${fileName}`, {
+    const baseUrl = this.assetBaseUrl ?? `/audio/${this.lessonId}`;
+    const response = await fetch(`${baseUrl}/${fileName}`, {
       signal: controller.signal,
       cache: 'force-cache'
     });

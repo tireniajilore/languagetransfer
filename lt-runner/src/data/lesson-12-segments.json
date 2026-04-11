@@ -1,0 +1,404 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Let's recap -ar verbs. How would you say 'to contaminate'?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'it's contaminating'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good. For 'they contaminate', we add an 'n'.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "And to say 'you (informal) contaminate', we add an 's'.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "How would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Now, for -er/-ir verbs, the key sound is /e/.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "What do you think 'vender' means?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Correct.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "So 'I sell' or 'I'm selling' is:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say 'I'm selling it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Exactly.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you say 'I'm selling them'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good. Remember, 'las' is for feminine objects. Let's practice some nouns.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "The opinion is:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "La opinión.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "The association:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good. If a word ends in -ity in English, it becomes -idad in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "For example, 'diversity' becomes:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "'The diversity' is:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "La diversidad.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, let's look at 'electric'.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Correct.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How about 'generous' for a male?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "And for a female?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "Good. Let's try 'community'.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "The community:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "La comunidad.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, let's practice with 'opportunity'.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "How would you say 'opportune'?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Great.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "Now, 'clarity' becomes:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "And 'clear' is:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Claro.",
+      "lang": "es"
+    },
+    {
+      "text": "Let's move to 'personality'.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "And 'person' is:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Persona.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "Now, 'sincerity':",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "And 'sincere' is:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Sincero.",
+      "lang": "es"
+    },
+    {
+      "text": "Back to 'vender'.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "How do you say 'I want",
+      "lang": "en"
+    },
+    {
+      "text": "to sell",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "And 'I want",
+      "lang": "en"
+    },
+    {
+      "text": "to sell",
+      "lang": "es"
+    },
+    {
+      "text": "it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good. For -er/-ir verbs, the key sound is /e/.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "How would you say 'he sells'?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "And 'he sells it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "How would you say 'they sell'?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "And 'they're not selling it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "Why aren't they selling it to me?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good. The word for 'us' is 'nos'.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "How would you say 'they're selling us something'?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "And 'they're selling it to us'?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "How would you say 'they're not selling it to us'?",
+      "lang": "en"
+    }
+  ],
+  "turn-71-full": [
+    {
+      "text": "Why don't they sell it to us?",
+      "lang": "en"
+    }
+  ],
+  "turn-73-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "¿Por qué no nos lo venden?",
+      "lang": "es"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "In this lesson, you learned to conjugate -ar, -er, and -ir verbs and use object pronouns in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try creating sentences with different verbs and object pronouns to reinforce what you've learned.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Practice using these structures in conversation to become more comfortable with Spanish grammar.",
+      "lang": "en"
+    }
+  ]
+}

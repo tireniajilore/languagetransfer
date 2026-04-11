@@ -1,0 +1,292 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Let's review the forms of 'haber' used to form the past. Give me 'I have' and 'we have'.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "Good. Now give me the rest of the forms.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-full": [
+    {
+      "text": "Good. Nouns ending in 'a' are usually feminine, like 'la casa'. But nouns ending in 'ma' are masculine, like 'el problema'.",
+      "lang": "en"
+    }
+  ],
+  "turn-6-full": [
+    {
+      "text": "How would you say 'Have you understood the problem?' using 'comprender' and speaking formally?",
+      "lang": "en"
+    }
+  ],
+  "turn-8-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Ha entendido el problema",
+      "lang": "es"
+    },
+    {
+      "text": "'. Words ending in 'ma' like 'problema' are masculine because they come from Greek.",
+      "lang": "en"
+    }
+  ],
+  "turn-8-prompt": [
+    {
+      "text": "How would you say 'the system'?",
+      "lang": "en"
+    }
+  ],
+  "turn-10-reveal": [
+    {
+      "text": "El sistema.",
+      "lang": "es"
+    }
+  ],
+  "turn-10-prompt": [
+    {
+      "text": "How would you say 'Have you understood the system?' informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-12-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Has entendido el sistema",
+      "lang": "es"
+    },
+    {
+      "text": "'. 'Sentir' means 'to feel'.",
+      "lang": "en"
+    }
+  ],
+  "turn-12-prompt": [
+    {
+      "text": "How would you say 'Have you felt the aroma?'",
+      "lang": "en"
+    }
+  ],
+  "turn-14-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Has sentido el aroma",
+      "lang": "es"
+    },
+    {
+      "text": "'. Remember, words like 'el programa', 'el aroma', 'el panorama', and 'el clima' are masculine.",
+      "lang": "en"
+    }
+  ],
+  "turn-14-prompt": [
+    {
+      "text": "How would you say 'Have you understood the program?'",
+      "lang": "en"
+    }
+  ],
+  "turn-16-full": [
+    {
+      "text": "Good. How do you say 'to lose'?",
+      "lang": "en"
+    }
+  ],
+  "turn-18-reveal": [
+    {
+      "text": "Perder.",
+      "lang": "es"
+    }
+  ],
+  "turn-18-prompt": [
+    {
+      "text": "How would you say 'I have lost'?",
+      "lang": "en"
+    }
+  ],
+  "turn-20-reveal": [
+    {
+      "text": "Good. To emphasize, you can say 'Yo",
+      "lang": "en"
+    },
+    {
+      "text": "he perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-20-prompt": [
+    {
+      "text": "How would you say 'I have got lost'?",
+      "lang": "en"
+    }
+  ],
+  "turn-22-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Me he perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'. To emphasize, you can say 'Yo",
+      "lang": "en"
+    },
+    {
+      "text": "me he perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-22-prompt": [
+    {
+      "text": "How would you say 'You have lost' informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-24-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Has perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'. To emphasize, say 'Tú",
+      "lang": "en"
+    },
+    {
+      "text": "has perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-24-prompt": [
+    {
+      "text": "How would you say 'You have got lost'?",
+      "lang": "en"
+    }
+  ],
+  "turn-26-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Te has perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'. To emphasize, say 'Tú",
+      "lang": "en"
+    },
+    {
+      "text": "te has perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-26-prompt": [
+    {
+      "text": "What is 'we have' from 'haber'?",
+      "lang": "en"
+    }
+  ],
+  "turn-28-reveal": [
+    {
+      "text": "Hemos.",
+      "lang": "es"
+    }
+  ],
+  "turn-28-prompt": [
+    {
+      "text": "How would you say 'We have lost it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-30-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Lo hemos perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-30-prompt": [
+    {
+      "text": "How would you say 'We have lost ourselves'?",
+      "lang": "en"
+    }
+  ],
+  "turn-32-full": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Nos hemos perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'. To emphasize, say 'Nosotros",
+      "lang": "en"
+    },
+    {
+      "text": "nos hemos perdido",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned the forms of 'haber' for past constructions and how to identify masculine nouns ending in -ma.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try using 'haber' with different verbs and practice identifying masculine nouns ending in -ma.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Understanding these patterns will help you avoid common gender mistakes in Spanish.",
+      "lang": "en"
+    }
+  ]
+}

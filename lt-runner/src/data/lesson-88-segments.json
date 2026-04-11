@@ -1,0 +1,624 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was to put?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Poner.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "I was putting, the line in the past:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Ponía.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "if you want to say I put, the point in the past, I put in the past of course in English it doesn’t change. I put. Present. I put. Past. I put for the past, our base is pus-, pus-. P-u- s. So how would you say I put?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Puse.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "The endings don’t take the accent here for these irregular verbs.",
+      "lang": "en"
+    },
+    {
+      "text": "Puse.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "You put, informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Where did you put it?:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde lo pusiste?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And now we can see where that",
+      "lang": "en"
+    },
+    {
+      "text": "poner",
+      "lang": "es"
+    },
+    {
+      "text": "- pose was coming from. We said that when we have",
+      "lang": "en"
+    },
+    {
+      "text": "poner",
+      "lang": "es"
+    },
+    {
+      "text": "as part of a verb in Spanish, it’s - pose in English. Componer, compose. Exponer, expose. Oponer, oppose. And now we hear this - pose sound coming out in the dot in the past:",
+      "lang": "en"
+    },
+    {
+      "text": "puse, pusiste.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "What was to do or to make?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "The base here in this point in the past is hic-. H-i-c. So",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "if you want to say I made or I did:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "And he made or he did:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Hizo.",
+      "lang": "es"
+    },
+    {
+      "text": "Here it would be h-i-z-o c",
+      "lang": "en"
+    },
+    {
+      "text": "Hizo.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "They made or you guys made:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good. Whenever you identify one of these irregular verbs in the point in the past where the base of the verb has changed, then you know what to do with it. That end - o is coming from - ar and then you have - imos, - iste, ieron from -er/-ir. Sometimes the change is subtle. We saw that pod- of poder became pud-. We saw in another lesson that hab- of haber became hub-. Ven- of venir, becomes vin-.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "So how would you say I came?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "And he came:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "You know how to say wine in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "He came with wine:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Vino con vino.",
+      "lang": "es"
+    },
+    {
+      "text": "Traer, to bring has",
+      "lang": "en"
+    },
+    {
+      "text": "traje,",
+      "lang": "es"
+    },
+    {
+      "text": "I brought in the past.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "So how would you say he brought?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "We brought:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Trajimos.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And I brought again:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "And",
+      "lang": "en"
+    },
+    {
+      "text": "traje",
+      "lang": "es"
+    },
+    {
+      "text": "also means suit like the kind you wear. And it’s masculine.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "So I brought a suit would be:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Traje un traje. Vino con vino. Traje un traje.",
+      "lang": "es"
+    },
+    {
+      "text": "There’s one extra irregular past point to look at. It’s extra irregular because it doesn’t really follow these rules about what groups it’s taking the sounds from, and it’s also extra irregular because it is the past for both ser and ir. It is the past for both I was and I went. And this is",
+      "lang": "en"
+    },
+    {
+      "text": "fui.",
+      "lang": "es"
+    },
+    {
+      "text": "F-u-i.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Fui.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Fui.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "fui",
+      "lang": "es"
+    },
+    {
+      "text": "means I was from ser, point in the past, and it also means I went. So ser and ir in the point in the past, they share a past.",
+      "lang": "en"
+    },
+    {
+      "text": "Fui",
+      "lang": "es"
+    },
+    {
+      "text": "means I was or I went. And fue means he was, she was, it. So we see that it’s extremely irregular. was, you were or went",
+      "lang": "en"
+    },
+    {
+      "text": "Fui.",
+      "lang": "es"
+    },
+    {
+      "text": "I was or I went.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "How would I didn’t go you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "No fui.",
+      "lang": "es"
+    },
+    {
+      "text": "Fue, he was or he went.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How would you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "No fue.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "How would you say we went?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "And you (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Fuiste.",
+      "lang": "es"
+    },
+    {
+      "text": "Now to make they or you (plural) was or went, we would add on - ieron, but we will find it very difficult to pronounce “fuieron”, “fuieron”. So the / i / sound, the i fell away.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "So how would that sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Fueron.",
+      "lang": "es"
+    },
+    {
+      "text": "So the i, the / i / sound, falls away.",
+      "lang": "en"
+    },
+    {
+      "text": "Fueron.",
+      "lang": "es"
+    },
+    {
+      "text": "The same thing happens in a couple of other cases too. We have trajeron from traer, to bring. They brought, you guys brought, trajeron. Dijeron, they or you guys said. So a couple of other examples there of that i falling away, just for sound reasons. “Trajieron”, “dijieron” is kind of difficult to say so it fell away for efficiency: dijeron, trajeron,",
+      "lang": "en"
+    },
+    {
+      "text": "fueron.",
+      "lang": "es"
+    },
+    {
+      "text": "So now that we have",
+      "lang": "en"
+    },
+    {
+      "text": "fueron,",
+      "lang": "es"
+    },
+    {
+      "text": "we can make the past mood tense. We can say something like if I were you because we always go from the they form of the point in the and of course we’re using the past. So if they went or they were is",
+      "lang": "en"
+    },
+    {
+      "text": "fueron,",
+      "lang": "es"
+    },
+    {
+      "text": "we can say if I were you mood tense here because we have if going into the past hypothetically. So this is a mood tense that is quite specific for the past. We are not putting the mood tense after si, after if in the present. But for this hypothetical past, if I were you, there we have it in English as well as in Spanish. We said instead of “if I was you” is mood tense in English. So how would that be? that if",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "I were you If I were you:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "Now it’s just the word for you.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Tú or usted depending on who we’re talking to. So",
+      "lang": "en"
+    },
+    {
+      "text": "si",
+      "lang": "es"
+    },
+    {
+      "text": "yo",
+      "lang": "en"
+    },
+    {
+      "text": "fuera",
+      "lang": "es"
+    },
+    {
+      "text": "tú.",
+      "lang": "en"
+    },
+    {
+      "text": "Si fuera",
+      "lang": "es"
+    },
+    {
+      "text": "tú or",
+      "lang": "en"
+    },
+    {
+      "text": "si",
+      "lang": "es"
+    },
+    {
+      "text": "yo",
+      "lang": "en"
+    },
+    {
+      "text": "fuera",
+      "lang": "es"
+    },
+    {
+      "text": "tú,",
+      "lang": "en"
+    },
+    {
+      "text": "si",
+      "lang": "es"
+    },
+    {
+      "text": "yo",
+      "lang": "en"
+    },
+    {
+      "text": "fuera",
+      "lang": "es"
+    },
+    {
+      "text": "usted, if I were you. Now we are understanding why we went from the they version to find the mood tense in the past. Because going from the they version instead of the to form means that if there is some irregularity, we will transfer that irregularity over into the mood tense. So we went from",
+      "lang": "en"
+    },
+    {
+      "text": "fueron",
+      "lang": "es"
+    },
+    {
+      "text": "to",
+      "lang": "en"
+    },
+    {
+      "text": "fuera",
+      "lang": "es"
+    },
+    {
+      "text": "and we will go from, for example, dijeron, they spoke, to dijera so we carry over that irregularity of having lost that i. Trajeron, they brought and then trajera for the mood tense. I had was tuve.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "What was they had or you guys had?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Tuvieron.",
+      "lang": "es"
+    },
+    {
+      "text": "So now we can say if I had it, I would tell you.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "If I had it, I would tell you:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "I would tell you. You can use contar. Decir is very irregular for would. So if you don’t want to deal with that now, imagine you’re in a real life context, you can just go to the more regular verb, which is contar.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "I would tell you, informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Si lo tuviera, te contaría,",
+      "lang": "es"
+    },
+    {
+      "text": "or te lo contaría. I would tell you it. We like to close with this it in Spanish a lot. Si lo tuvieria, te lo contaría, I would tell you it. So we have to do or to make which is",
+      "lang": "en"
+    },
+    {
+      "text": "hacer,",
+      "lang": "es"
+    },
+    {
+      "text": "and we said that the root for the point in the past is hic-. H-i-c for the I version.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "So how would you say I made or I did?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Hice.",
+      "lang": "es"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "And they did or they made:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Hicieron.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So you could say I wanted for them to do it.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "I wanted that they did it:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good. I wanted them to do it. I wanted that they do it.",
+      "lang": "en"
+    },
+    {
+      "text": "Quería que lo hicieran.",
+      "lang": "es"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "How would you say I wanted for us to do it, I wanted that we do it, that we did it?",
+      "lang": "en"
+    }
+  ],
+  "turn-71-full": [
+    {
+      "text": "Good. Well done.",
+      "lang": "en"
+    },
+    {
+      "text": "Quería que lo hiciéramos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I’m not as interested here in installing, let’s say, all of this content, all of these irregular verbs. All I want to give you is an exposure to how they might work. The irregular verbs that you can come across, so that practicing, you can manage them. So you should not be afraid of making mistakes. You should build the verbs how you are used to and if you suspect that this one might be irregular, check. Check with the person that you are speaking to.",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "lesson_number": 59,
+  "title": "Lesson 59",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "So, for – ar verbs we have / e / for I: hablar - to speak, hablé – I spoke, and / o / for he/she/it/you –er/-ir formal and we are accenting our endings - hablé, habló. For verbs we have an / i / sound, so an i, an i, for I, and / ió /, i-o, for he/she/it. So we have / i / and / ió /. So, if you go to comer – to eat, I ate is comí, and he ate/she ate/it ate/you (formal) ate is comió. We are accenting the endings again, the i and the o. Comí, comió.",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comí comió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. What was salir? Salir:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "To leave?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "To leave or to go out. So, how would you say I went out or I left?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Salí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salí. She went out, she left:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Salió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salió. Good.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No salió todavía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No salió todavía. yet:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé por qué no salió todavía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No sé por qué no salió todavía. What did qué mean? Qué, what does that mean?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "What."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes, what, and what else does it mean?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "That."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That. In, like, I hope that, espero que, good. So, apart from what and that, que also means than, than. So, you can use it like this, so you could say, for example, I ate more than him. I ate is the first bit:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "-er/-ir verb.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. I ate more than him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comí más que él"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Not him, than he. More than he ate. Comí más que él I ate more than him, or more than he ate. Good. He ate more than me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comió más que"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "When we said comí más que él, we put él there because whilst in English we say him, what we. It’s quite peculiar in English, that we say really mean is he. I ate more than he ate him and not he, – so in Spanish we are being more literal: comí más que él I ate more than he. So, he ate more than me - Comió más que:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Yo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly. So, he ate more than I, he ate more than I ate. So, how would that be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comió más que yo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Comió más que yo. It’s actually quite peculiar in English that we say me. In fact, the way we use words like me instead of I is really peculiar in English, and it’s a negative language transfer, that could influence other languages that you are learning. For example, if I say who wants to go to the park, you might say me! This doesn’t make any sense. It’s I, I want to go to the park, what is this me? So, there is some strange use of these words in English that might influence our Spanish, so we need to cut that negative language transfer when we identify it popping up. So, comió más que yo, he ate more than I, he ate more than I ate. What was to see?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ver"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ver. Good. I saw? Ver is regular here, so I saw. So, go back to comer, use that as your hook.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vi"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. I saw him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo vi"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Lo vi.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No lo vi"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No lo vi. And, as we are contrasting we will probably use one or, those words we don’t need to use, we will probably use one or both both of the words for I and he of them here as we’re contrasting, although you don’t need to, so it’s up to you. I saw him, but he didn’t see me. First bit is I saw him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo vi"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": ":",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Pero no me vio"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Lo vi, pero no me vio. And like I said, as we are contrasting we might feel an urge to say the word for él: lo vi, pero él no me vio or yo lo vi, pero él no me vio, depends on the context, even if you have context and you know who you are talking about, you might feel yourself wanting to say these words because you are contrasting. The word for nothing, nothing, in Spanish is nada, nada.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "N-a-d-a, nada.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And we have double negative in Spanish, which means you can say:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No vi nada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No vi nada.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No comí nada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No comí nada. (speaking formally)?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No comió nada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ No comió nada?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Por qué no comió nada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Por qué no comió nada? Good. The word for nobody is nadie.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nadie"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "N-a-d-i-e, nadie.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nadie"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nobody saw anything, nobody saw nothing:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nadie vio nada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nadie vio nada. Good. Nobody saw anything. Durar, durar, means to last. Durar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Durar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "We have endure in English.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Duration?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Duration, and you even get like corporate names, that use these Latin roots and kind of appeal to your understanding without you realizing that you understand it. So, for example, you have Duracell batteries, you know what that means, but you don’t know why you know what it means, so you can identify this kind of use of Latin in industry and how it’s appealing to your subconscious understanding of the message that they want to give you about the products. So, look out for that. So, durar, to last. Minute in Spanish is minuto. So, how would you say it lasted two minutes? It lasted two minutes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Duró dos minutos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Duró dos minutos. I lasted two minutes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Duré dos minutos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Duré dos minutos. We looked at before how you can get this - ing adjective. So, the adjective that we have for - ing, like interesting, using - ante or - iente. So, interesting was interesante. So, during is not an adjective, but it’s formed in the same way, so how do you think you say during in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Durante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes, durante. So you could say during two minutes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Durante dos minutos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And you can use that like for, as well. So, we said that with time you can say por dos minutos, but you can also say durante, you will hear that as well in Spanish, durante dos minutos, during two minutes, for two minutes. What was to eat?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comer. Good. And he ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comió. How would you say he ate for half an hour, or he ate during half an hour - half an hour is media, half, and what was hour?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hora, like in ahora. Media hora. Good. So, he ate during half an hour, he ate for half an hour:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comió durante media hora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Comió durante media hora. He spoke during half an hour, for half an hour:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habló durante media hora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Habló durante media hora. What was with in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Con. Without in Spanish is sin. S-i-n, sin.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sin"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sin. And to stop, to stop, is parar, parar. P-a-r-a-r, parar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Parar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So you could say he spoke for half an hour without stopping. He spoke for half an hour without stopping:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habló durante media hora sin parar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Habló durante media hora sin parar. And we said that after prepositions, so sin is a –, “without to stop”. preposition, we are not saying stoppING, we are saying to stop sin parar Habló durante media hora sin parar. Parar is interesting, because par, par, in Spanish means pair, so un par is a pair. So, like a pair of shoes, un par de zapatos, un par de zapatos. So,, might be “the pairing”, you can imagine this kind of time and space notion of two parar, to stop things pairing, reaching each other and then stopping. And then comparar, to compare, is “with pairing”. So, even though this is an m here, it’s con, the n has been softened by that p, which is. So, “with pairing” is, of course, is “pre-pairing”, we why we say compare to compare. Prepare is to “re-pair”, to pair up again. can see this in English as well. Repair, to repair Separar is to separate in Spanish, separation, separación, separar; and this se- means apart, so to separate is to “pair apart”, to “pair apart”.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

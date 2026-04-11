@@ -1,0 +1,426 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We saw many uses for se, the sound / se /. We have sé as a verb, yo sé, from saber, I know, and this sé is written with a written accent sé or yo sé, or we said lo sé is very common, I know it, just because sé, sé, sé is a little short, so you might hear lo sé, lo sé, lo sé, I know it. And then we have the grammatical se which we’ve seen as self – himself, herself, themselves, yourself speaking formally, itself, oneself. So, for example, you can say he stays, or he remains himself:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Se queda.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, this is the se that we have for him/her/you (formal) /it/themselves. And then we also had a se which was when we have two / l /’s together – the first one, the personal one will turn into se only because Spanish doesn’t like phonetically the sound of having these two / l /’s together.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So, for example, if you had a verb like to prepare, what is to prepare?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Preparar.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "And I prepare:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Preparo.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "I prepare it:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And I prepare them it, I prepare it for them or I prepare them it:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Se lo preparo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good, this les turns into se les lo of se so far – the grammatical se for self and then also this phonetic change. We have one more use for se to see, one more use for se. Now, when we combine se with me, te, le, les, nos, we get the meaning of on me in English, in the sense of it died on me, maybe the computer breaks down and you say it died on me. So you can say it died on me, it ran out on me, so you have this on me structure in English, which you can use with only some verbs. Now, in Spanish you can do this as well, only it’s much more common and it’s not restricted to just a few verbs. Adding se and then me / te / nos / le / les. So, for example, the door was la puerta, la puerta, and to close was cerrar,, so let’s make that cerrar, so,",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "if you want to say the door closes you will say the door closes itself first, how would you say that? The door closes itself:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La puerta se cierra",
+      "lang": "es"
+    },
+    {
+      "text": "or se cierra la puerta the door closes on me, se me cierra la puerta. So maybe the door keeps closing by itself and you want to give that on me feeling la puerta se me cierra, se me cierra la puerta, either are okay. To burn in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "quemar,",
+      "lang": "es"
+    },
+    {
+      "text": "q-u-e-m-a-r.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Quemar.",
+      "lang": "es"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Quemar.",
+      "lang": "es"
+    },
+    {
+      "text": "So,",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "if you want to say the dinner burns, the dinner gets burned, what was the dinner or to dine?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Cenar.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "So,",
+      "lang": "en"
+    },
+    {
+      "text": "cenar",
+      "lang": "es"
+    },
+    {
+      "text": "was to have dinner or to dine, and the dinner, the noun, how was it?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "La",
+      "lang": "en"
+    },
+    {
+      "text": "cena.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So, it burns itself the dinner, the dinner gets burned:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "La cena se quema.",
+      "lang": "es"
+    },
+    {
+      "text": "Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "if you want to say the dinner burns on me, the dinner is burning on me, how would you make that meaning?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "La cena se me quema,",
+      "lang": "es"
+    },
+    {
+      "text": "se me quema la",
+      "lang": "en"
+    },
+    {
+      "text": "cena.",
+      "lang": "es"
+    },
+    {
+      "text": "So, you don’t have to worry about using this structure for now, until you are really comfortable with all of these little words like me, lo, le, las, and se, etc, all of these, but you will hear it, so we are looking at this just briefly now, so it doesn’t, and you know it’s extra, cause any confusion when you hear it. When you have this extra se because it’s coming with, it shouldn’t cause any confusion if you hear me / te / nos / le se me, se nos, se te, then you understand what is happening.",
+      "lang": "en"
+    },
+    {
+      "text": "Acabar, acabar,",
+      "lang": "es"
+    },
+    {
+      "text": "is to finish or to run out.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Acabar.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "Good. A-c-a-b-a-r.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "How would you say the battery runs out, or the battery runs itself out?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "The battery is la batería, la batería:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La batería se acaba.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "If you want to say oh, my battery always runs out, you are talking about your phone and your battery is always running out, you can say my battery, the battery, like we said we don’t use my as much in Spanish as we do in English, the battery always runs out on me, the battery always runs out on me, what was the word for always?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good, so let’s try this sentence.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "The battery always runs out on me:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "La batería siempre se me acaba.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "How would you ask Does the battery run out on you? Speaking informally, Does the battery run out on you?:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "La batería se te acaba?",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "And what if you were speaking formally?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "La batería se le acaba?",
+      "lang": "es"
+    },
+    {
+      "text": "We use le on you, the battery runs out on you, so, – all included there in not using lo, using le – to you, on you, from you, for you le.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "And if you are speaking to more than one person:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good, very good. La batería se les acaba. Good. So, if you hear this extra se around – you know what it’s doing.",
+      "lang": "en"
+    },
+    {
+      "text": "Quemar",
+      "lang": "es"
+    },
+    {
+      "text": "was to burn,",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "how would you say it burned, it burned?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Quemó.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "Now, what if you wanted to say the dinner got burned?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La cena se quemó,",
+      "lang": "es"
+    },
+    {
+      "text": "se",
+      "lang": "en"
+    },
+    {
+      "text": "quemó",
+      "lang": "es"
+    },
+    {
+      "text": "la",
+      "lang": "en"
+    },
+    {
+      "text": "cena,",
+      "lang": "es"
+    },
+    {
+      "text": "the dinner got burned. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "how would you say the dinner burned on me, the dinner got burned on me?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good. La",
+      "lang": "en"
+    },
+    {
+      "text": "cena",
+      "lang": "es"
+    },
+    {
+      "text": "se me",
+      "lang": "en"
+    },
+    {
+      "text": "quemó,",
+      "lang": "es"
+    },
+    {
+      "text": "se me",
+      "lang": "en"
+    },
+    {
+      "text": "quemó",
+      "lang": "es"
+    },
+    {
+      "text": "la",
+      "lang": "en"
+    },
+    {
+      "text": "cena.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "The dinner burned on us:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La cena se nos quemó,",
+      "lang": "es"
+    },
+    {
+      "text": "very good.",
+      "lang": "en"
+    }
+  ]
+}

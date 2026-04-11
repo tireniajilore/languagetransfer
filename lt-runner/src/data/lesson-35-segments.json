@@ -1,0 +1,424 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So going back to ser and estar, and the difference between ser and estar, how would you say sincerity in Spanish? Sincerity:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "It is.",
+      "lang": "en"
+    },
+    {
+      "text": "Sinceridad.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So if you had to guess, what is sincere in Spanish, what would you guess?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Sincero.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Sincero.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So there's",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "rule for this, but if we have sincerity becoming",
+      "lang": "en"
+    },
+    {
+      "text": "sinceridad,",
+      "lang": "es"
+    },
+    {
+      "text": "we can guess that sincere will be very similar in Spanish and we can play around and try to find it.",
+      "lang": "en"
+    },
+    {
+      "text": "Sincero.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "So do you think to be sincere is a state or a characteristic?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Indeed, but if you look at the concept, the concept of sincere - because this is how Spanish decides it - the concept of sincere, is it a state or a characteristic to be sincere?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "You're right, and our usage, and that's what we're going to look at now, can get around that, but Spanish is not looking at the use.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "It's looking just at the concept by itself, so sincerity, is it a characteristic or is it a state?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good. So, it goes with ser. So",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "if you want to say, I am sincere, how would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good. Soy",
+      "lang": "en"
+    },
+    {
+      "text": "sincera.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "And we are sincere:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good. But, as you correctly said, you might want to say, I am being sincere now. So to give the meaning of I am being sincere, you will say, very literally, I am being sincere.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say that? I am being sincere:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Ser is to be, in this case because it refers to",
+      "lang": "en"
+    },
+    {
+      "text": "sincero,",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "so how would you make that - ing? Vender, vendiendo. Ser:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Or in your case it would be?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy",
+      "lang": "es"
+    },
+    {
+      "text": "siendo",
+      "lang": "en"
+    },
+    {
+      "text": "sincera.",
+      "lang": "es"
+    },
+    {
+      "text": "Or",
+      "lang": "en"
+    },
+    {
+      "text": "estoy siendo sincero.",
+      "lang": "es"
+    },
+    {
+      "text": "Honest in Spanish is honesto. Honesto.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "So how would you say, we are being honest?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estamos siendo honestos.",
+      "lang": "es"
+    },
+    {
+      "text": "So to be honest, as an idea, is characteristic. But this doesn't restrict us in Spanish of course,",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "if you want to say we are being honest, we can do that in exactly the same way as we do in English. We are: estamos, being: siendo, our characteristic to be: honestos.",
+      "lang": "en"
+    },
+    {
+      "text": "Estamos siendo honestos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good! Salir is to go out or to leave. Salir. To go out or to leave, and it's irregular in that the I version is not “salo” but, you remember how it was?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Salgo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Salgo.",
+      "lang": "es"
+    },
+    {
+      "text": "I leave or I go out. Good. Soon, soon in Spanish is pronto. So you can say, I am leaving soon.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "Is soon right now?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "No.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So how would you say, I am leaving soon?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Salgo pronto.",
+      "lang": "es"
+    },
+    {
+      "text": "And",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "how would you say, I am leaving tomorrow?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Salgo mañana.",
+      "lang": "es"
+    },
+    {
+      "text": "But",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "if you want to say, I am leaving right now, and you mean this moment?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Estoy saliendo.",
+      "lang": "es"
+    },
+    {
+      "text": "So we need to resist the temptation of the negative language transfer from English which will make us want to put - ing in many places where we don't put it in Spanish, which is why we are giving usually in the present tense both translations: I wait, I am waiting; I sell, I am selling.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "To buy was",
+      "lang": "en"
+    },
+    {
+      "text": "comprar.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "I buy them, or I'm buying them.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "How would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Los compro.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "I am buying them tomorrow:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good. I am buying them next week. Next week is the week that comes. La semana is the week.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "What is to come?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "So how would you say the week that comes? La semana que:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "So I'm buying them next week, I'm buying them the week that comes:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Los compro la semana que viene.",
+      "lang": "es"
+    },
+    {
+      "text": "So again, here we would use - ing in English, I am buying them next week, but we want to resist that temptation in Spanish.",
+      "lang": "en"
+    },
+    {
+      "text": "Los compro la semana que viene.",
+      "lang": "es"
+    },
+    {
+      "text": "If you wanted to say right now: so maybe you get a phone call and somebody asks you, have you bought them yet? And you say, I am buying them now,",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "how would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-full": [
+    {
+      "text": "Good, good. I am buying them now. Los",
+      "lang": "en"
+    },
+    {
+      "text": "estoy",
+      "lang": "es"
+    },
+    {
+      "text": "comprando ahora,",
+      "lang": "en"
+    },
+    {
+      "text": "estoy comprándolos ahora.",
+      "lang": "es"
+    }
+  ]
+}

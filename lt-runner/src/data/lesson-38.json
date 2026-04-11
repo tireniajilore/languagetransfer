@@ -1,0 +1,505 @@
+{
+  "lesson_number": 38,
+  "title": "Lesson 38",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "So, we said that lo and la and los and las, become le and les. The four become two. The four options of lo, la, los, las become le and les when it’s to him, to her, for him, for her. And we said, they don’t change to get these different meanings. They stay as they are. And that me, te, and nos we also saw that these words, me, te, and nos could mean myself, yourself, ourselves or each other. So how would you say I speak to myself?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me hablo. We speak to ourselves:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos hablamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos hablamos. Although, of course, the more natural meaning you would probably understand from nos hablamos is we speak to each other, as nos also means each other. Now to get the meaning of himself, herself, themselves, lo and la and los and las become se. Which is very easy to remember because it’s the beginning of self. So when we want this meaning of self or selves, we get se. So, to recap: me, te, and nos, they already have the meanings included of myself, yourself, ourselves, each other, but these ones that change, the small words that change, lo, la, los. So let’s practice it. and las, to get the meaning of himself, herself, themselves is going to be se He speaks to himself. How would you say that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se habla"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se habla. You could say the word for he. What is the word for he?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Él Él se habla"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Él se habla. She speaks to herself, and clarify. Use the word for she.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ella. Ella se habla"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ella se habla. Good. They speak to themselves:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se hablan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se hablan. Se habla. Se hablan. Se I speak to myself:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me hablo. Good. So here we are not using se. For me, te and nos we have all of the meanings included in me, te, and nos. Good. Tell me again how is they speak:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, but the accent was-",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "HA-blan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablan. They speak to them. Now a different them. Not themselves. Ah, they speak to them. This group is speaking to another group.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les hablan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So now we can go back to a verb like to stay, to remain was quedar. So to get the meaning of stay, you say I remain myself. So how was that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me quedo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me quedo. We remain ourselves or we stay:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos quedemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "- ar verb.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos quedamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos quedamos. Good. And you stay, talking informally. You remain yourself:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te quedas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Te quedas. Are you staying?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te quedas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": ":",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No te quedas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": ":",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Por qué no te quedas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Por qué no te quedas? Good. Let’s just practice the words for emphasis as well. So you could say I am staying. What is the word for I:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Yo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yo.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Yo me quedo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yo me quedo. Good. What was the word for we? Not us, but we?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nosotros"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nosotros. So we have nosotros for we. How would you say we are staying? We are remaining ourselves:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nosotros nos quedamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nosotros nos quedamos. And if you are an all female group, nosotros will change.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nosotras"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nosotras nos quedamos if you are an all female group. What is the word for you in the sense of if we want to clarify or emphasize you are staying, speaking informally. Not te, but:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tú"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tú. Good. So how would you say you are staying - emphasizing that we mean you?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tú te quedas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tú te quedas. Good. So these are the versions actually we were practicing before with me, te, and. We didn’t look at nos he stays, because actually what we needed to say he stays is he remains and we didn’t have that yet. But now we do. himself",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se queda"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. That’s it. Se queda. He stays. She stays. You stay. They stay, or they remain themselves:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se quedan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se quedan. Good. Querer was to want. Querer. What was I want?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero. The / e / of querer splits when we put the stress on it. Quiero. Now if you want to say I want to stay, you say, I want to remain myself. So how is that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiero quedarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Quiero quedarme. He wants to remain himself or she wants to remain herself, he wants to stay, she wants to stay:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiere quedarse"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Quiere quedarse. She wants to stay. Ella quiere quedarse. He wants to stay. Él quiere quedarse. You (formal) want to stay. Usted quiere quedarse. What if you wanted to say they want to stay or you guys want to stay?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quieren quedarse"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quieren quedarse. So this could mean they want to stay or you guys want to stay. How would you clarify? Let’s clarify they want to stay:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ellos quieren quedarse"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And what if it was a female group?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ellas quieren quedarse"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ellas quieren quedarse. Good. And you guys:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ustedes quieren quedarse"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Ustedes quieren quedarse. And we said that while usted is formal, ustedes, the plural you, is not necessarily formal. Quedarse is the version of the verb that you are going to find in the dictionary. So in the dictionary you will find quedar and all of the different meanings of quedar which is remain and the various other meanings, actually, this verb has, could be used like to fit. Me queda bien. It fits me well. It suits me well. And then you will find the next entry: quedarse. And then you will find next to it to stay. So when this reflexive, when this “doing it to oneself” carries a different meaning, it will get a different entry in the dictionary. And it’s not going to be in the dictionary as quedarme, or quedarte, or quedarnos, but quedarse because this se is also. No? If it’s; it’s also like like oneself himself, herself, itself oneself. So in the dictionary what you find is to remain oneself. Quedarse. The se is written like one word. Whenever we put se, lo, me,, one of these small words at the end of the “to” form, it’s written like one word. You write te, nos it all together. Let’s practice this just with one more verb. We said that to get the sense of realize, I realize. In Spanish you say to give yourself account. Which is a little bit like to take acount of in English. Now you need to look at darse cuenta to know how to manipulate it to get the different versions of it that you might want. So let’s begin with I realize. I realize. I give myself account.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me doy- me doy cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That’s it. I don’t realize Me doy cuenta.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me doy cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No me doy cuenta. Good. We realize, or we give ourselves account:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos damos cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nos damos cuenta. Perfect.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No nos damos cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No nos damos cuenta. Now we can make the other versions with he, she, it and you formal and they and you guys because we have se. So now we can do this. So how would you say he realizes or she realizes? Go back to dar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Da- se da cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Se da cuenta. What if we wanted to clarify? She - she realizes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ella se da cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Ella se da cuenta. Good, and they realize:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se dan cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No se dan cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No se dan cuenta. So this could be or. Well done.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

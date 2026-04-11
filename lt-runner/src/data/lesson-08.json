@@ -1,0 +1,206 @@
+{
+  "lesson_number": 8,
+  "title": "Using Direct Objects - Lo and La",
+  "description": "Learn to use 'lo' and 'la' for direct objects and formal address, and form questions in Spanish.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was the word for 'it', 'him', or 'you' (formal)?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo. To make it feminine, change the 'o' to 'a', giving us la. This means 'her', 'it' (for feminine nouns), or 'you' (formal, feminine). For example, 'casa' (house) is feminine. How would you say 'I want to see it', referring to the house?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero verla"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero verla. This could also mean 'I want to see her'. 'La' could mean 'her', 'it', or 'you' (formal, feminine). The use of formal language varies by region, so it's safe to start formally with 'lo' or 'la'. 'Quiere' means 'he wants', 'she wants', 'it wants', or 'you (formal) want'. How would you say 'you want to visit me'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiere visitarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiere visitarme. To make it a question, just change your intonation. How would you say 'Do you want to visit me?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiere visitarme?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Quiere visitarme? How would you say 'You don't want to visit me'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiere visitarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No quiere visitarme. Now, how would you ask 'Don't you want to visit me?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiere visitarme?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿No quiere visitarme? You can add 'why' with 'por qué'. How would you ask 'Why don't you want to visit me?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "por qué no quiere visitarme?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Por qué no quiere visitarme? The verb 'to come' is 'venir'. How would you say 'Do you want to come?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiere venir?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Quiere venir? 'Venir' is related to 'bienvenido' (welcome). How would you say 'Do you want to come to the house?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiere venir a la casa?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Quiere venir a la casa? How about 'Do you want to come to visit me?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiere venir a visitarme?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Quiere venir a visitarme? Now, 'Don't you want to come to visit me?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiere venir a visitarme?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿No quiere venir a visitarme? How would you ask 'Why don't you want to come to visit me?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "por qué no quiere venir a visitarme?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Por qué no quiere venir a visitarme? The word 'debo' means 'I owe' or 'I must'. How would you say 'I must continue'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "debo continuar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'I must identify it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "debo identificarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Debo identificarlo. For feminine objects, what change would you make?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "las"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Debo identificarlas.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to use 'lo' and 'la' for direct objects and formal address in Spanish."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try forming questions using 'quieres' and 'por qué'. Practice with different verbs and objects.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Remember, intonation is key for forming questions in Spanish. Practice changing statements into questions."
+    }
+  ]
+}

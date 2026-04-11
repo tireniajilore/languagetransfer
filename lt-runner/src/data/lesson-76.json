@@ -1,0 +1,181 @@
+{
+  "lesson_number": 76,
+  "title": "Lesson 76",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "The word for there is or there are, there is or there are, in most languages this is a separate verb, but in English we are expressing it with a combination of there and is or are. In Spanish, to say there is or there are we have hay, hay, h-a-y, and hay is actually from haber.",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hay"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hay, it’s not changing. The word for Spanish: hay means there is or there are somebody is alguien, alguien.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Alguien"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say there is somebody here that wants to speak with you? And let’s speak formally, there is somebody here that wants to speak with you. So the first bit is there is somebody here:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hay alguien aquí."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. That wants to speak with you, speaking formally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Que quiere hablar con usted."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Hay alguien aquí que quiere hablar con usted. There is somebody here that wants to speak with you. Now, if you say Is there somebody here that speaks Spanish? And you specify with your subjectivity this thing that we don’t know if it exists or not, this somebody that speaks Spanish, and you do that with this que structure: Is there somebody here that speaks Spanish, then here you will use the mood tense, this subjective tense. So, how would you say that? Is there somebody here that speaks Spanish?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hay alguien aquí que hable español"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. ¿ Hay alguien aquí que hable español? But if somebody replies to you there are two people that speak Spanish here, there are two people here that speak Spanish, you think you will use the mood tense?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No, they are just saying what there is! So, there are two people, which in Spanish is there are two persons, so, there are two people here:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hay dos personas aquí."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That speak Spanish:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Que hablan español."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Hay dos personas aquí que hablan español. Very good. The past of hay is había, which shows us, actually, that hay comes from haber. It’s a very weird historic version of haber. But había, we see more clearly, that it comes from haber. Now, había doesn’t change either, so you will have to resist the temptation to say habían when you want to say there were instead of, no? It’s always, doesn’t change. there was había Hay doesn’t change for there is or there are, and había doesn’t change for there was or there were. So, how would you say There were two people that spoke Spanish? Now, this is an interesting sentence, because in English we will use the point in the past, there were two people that spoke Spanish, but what do you think we will use in Spanish, the point or the line?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "The line."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Why?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Because I’ve heard Spaniards speaking in English, saying it that way."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So, you believe that’s the negative language transfer, that’s great! So, it makes sense for it to be the line in the past, because what we are referring to here is the fact they were Spanish-speakers, and they weren’t Spanish-speakers just for that moment, were they? So if we look at it and we think about which one fits better, we will choose the line, so again, it’s a great example that we don’t want to take a direct translation from English, from spoke, we want to just look at the context and decide if it makes sense to use the line or the point. So, give me this sentence - there were two people here that spoke Spanish:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Había dos personas aquí que hablaban español"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Había dos personas aquí que hablaban español. If we were to use the point here – que – we wouldn’t be talking about the fact that they are Spanish-speakers, but hablaron español rather that they spoke Spanish at that time, whatever time we are referring to. We said that hay, there is or there are; or había, there was or there were; comes from haber in fact. So, when we say something like there has to be something, and with this be we mean exist, there has to exist something, this be is actually coming from there is/there are, not from to be. It’s coming from this invisible verb that we do not have in English, which we make up for by using there is/there are. So, when we say something like there has to be something that you can eat, there must be, in which case it’s something that you can do, this be is exist, there must exist something haber. It’s not ser and it’s not estar, and if you try to think which one it is, ser or estar, you will be a long time trying to work out which one it is. So, how would you say this sentence? There has to be something that you can do (let’s speak informally). There has to be something that you can do., doesn’t make a lot of difference here. You can use has to or must",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tiene que hay"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "But it’s to form, so hay and había come from?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Haber. Tiene que haber."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Something that you can do:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Algo que puedas hacer."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes, puedas, very good. Tiene que haber algo que puedas hacer. Because here, like before with the example of is there somebody that speaks Spanish, we are speaking about the existence of something when we don’t know whether it exists or not, with this structure of hay and que. So, we are seeing that the mood tense has structural limitations, it can occur only in certain places structurally, and at the same time only to give certain meanings or feelings. Now, these meanings or feelings and the fact that Spanish is concerned with us expressing them and perceiving them through the language shows the value system of Spanish, or part of the value system of Spanish. Now different languages have different value systems, what a language requires you to express through it, and then the other things that the language might ignore might be considered its value system. And languages, like cultures and individuals, have things they value, things they pay attention to and things they don’t, which is what makes something like the mood tense so incredibly interesting to analyze and observe and use. So again, not something we want to be obsessed about getting correct, it really is something that we want to feel and also understand logically through our exposure and use of Spanish. We should also bear in mind that the use of the subjunctive or the mood tense can change slightly depending on dialect and also idiolect, which is the individual dialect of each person. So, we want to look out for it, listen actively, analyze and enjoy the journey of understanding it and also using it and the different possibilities of expression that that gives us. It will be a very fascinating insight into the value system of this particular language.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

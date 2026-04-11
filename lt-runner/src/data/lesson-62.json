@@ -1,0 +1,505 @@
+{
+  "lesson_number": 62,
+  "title": "Lesson 62",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was to give in Spanish?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dar. Good. Now dar is irregular in this point in the past, in that whilst it’s an - ar verb it behaves like an - er/-ir verb. It’s the only verb that has this particular peculiarity, the only verb that just switches sides like this in this point in the past. So, how would you say I gave?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Di"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Di. Good. D-i, di. And he gave, she gave, it gave, you (formal) gave:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dío"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And where is the accent?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "dio"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dio. Good. Dio. We gave:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dimos. Good. How would you say he gave me?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me dio"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me dio. And he gave me it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me lo dio"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me lo dio. He gave us it, he gave it to us:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos lo dio"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nos lo dio. He didn’t give it to us:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No nos lo dio"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No nos lo dio. I gave it to you (speaking informally) I gave you it, I gave it to you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Did we do it?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I gave:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ah, I gave."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So your mind went to you gave, ah?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Yes."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So how do you control that, how do you stop that happening?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cutting it up."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ok, so your first thought, what is it? Your first thought when you want to build I gave you it, I gave it to you.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "I gave."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly. And then the rest flows off. So I gave you it, speaking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te lo di"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Te lo di. Good. So it’s not a new thing for us to have two of these small words together, nos lo, te. What we didn’t see so far is having two words together, two of these small words lo, me lo. That’s because in Spanish, when that happens, a together, where both of them begin with l phonetic change occurs. So for example, if I wanted to say I gave it to him, it should be le lo di. But - and this isn’t about grammar, it’s about phonetics, it’s about sound - Spanish doesn’t like that. Spanish doesn’t like the sound of those two ’s together:. Doesn’t like it. So where we l le lo would have le lo, les lo, les los, le los, any combination of / l /-/ l / together with these small words, the first one is going to turn into se. So another se. Ah? But a totally different use, and it’s not changing any meaning, it’s just a phonetic issue. So this means that le lo, les lo, become se lo. So how would you say I gave it to him?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo di"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Se lo di. How would you say I gave it to you guys or to them? S: Se lo di.",
+      "is_feedback": true,
+      "is_prompt": false
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se lo di. The same. So it is really just a phonetic change. It’s got nothing to do with the different meanings that we saw for se, like himself and herself that we saw before. Ah? It’s just a phonetic change because Spanish doesn’t like having these two ’s together. l Se lo di: I gave it to you guys, I gave it to them, I gave it to him, I gave it to her, I gave it to you (formal). How would you say I gave them to him?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se los di"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Perfect. Well done. Se los di. So, of course this means that there could be many ambiguities. So now is a good time to look at how we can make these clarifications. Generally, not just in this structure, but generally. So for example, how would you say I gave him something? I gave him something:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le di algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Le di algo. So in this case, we might want to clarify as well, because of course le di algo could mean I gave him something, I gave her something, I gave you (formal) something. So how do we make that clarification? It’s simple. We repeat the whole sentence, and then we say afterwards to him, to her. For example, le di algo a él, le di algo a ella. How would you clarify I gave something to you, speaking formally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le di algo a usted"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Le di algo a usted. So actually, we’re repeating, no? We don’t get rid of that le because we put a usted, which is excellent for the learner. Because it means you don’t have to worry about changing the structure of the sentence when you’re clarifying, using this a to clarify, because you’re repeating. Now, we saw before we didn’t have this situation. For example, we could say. We don’t repeat the me lo compra, he buys it for me, or lo compra para mí me there. But with. It’s like an this a, with this a that we use to clarify, we will always repeat. Le di algo a él. You don’t have to go back and restructure because you’ve made afterthought. Le di algo a ella that clarification. So going back to this situation when we have two / l /’s together, what was to sell?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vender"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vender. And how would you say I sold?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vendí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vendí. And I sold it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo vendí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo vendí. And I sold him it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "L- … se lo vendí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. It would be le lo vendí se lo is very ambiguous. Most of the time we’re going to know what vendí. But of course, se lo vendí we’re talking about because of the context. Usually when we’re speaking we mentioned already what or who we’re speaking about. But if you want to clarify it, if you want to be emphatic, you can add on afterwards to him. So, how would you do that? I sold it to him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo vendí a él"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So we’re just repeating. Se lo vendí a él. This is probably because this a is actually quite flexible. We can use it to clarify, but not just for the preposition to. For example, if I say me lo compra a mí, and I use this a to emphasize mí, a mí, to me literally, could mean from me, he buys it from me. Or it could mean for me, he buys it for me. Me lo compra a mí. So this a is a bit special. We’re using it to clarify and it can replace or represent other prepositions, other than to, which is its literal translation. And because it has this special use, we are always repeating with a. Whereas, as we saw before, with the other prepositions, we are not repeating. Me lo compra, lo compra para mí. No repetition there. But if we use a to make this clarification, we repeat. Me lo compra a mí. Ah? So you repeat. Se lo vendí a él. How would you say I sold it to her?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo vendí a ella.: Se lo vendí a ella"
+      ]
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se los vendí a ella"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Se los vendí a ella. What if they were feminine things that you sold to her?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se las vendí a ella."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Se las vendí a ella. So what if actually you sold them to them, not to her? So now, we’re going to say I sold them, those feminine things, to them, mixed or masculine group.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se los vendí-"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Feminine things.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "se las vendí a ellos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se las vendí a ellos. Good. What was to send?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Enviar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Enviar. Good. How would you say he sent?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Envió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Envió. He sent me it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me lo envió."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. He sent us it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos le nos lo envió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos lo envió. he sent you it (speaking informally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te lo envió."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Perfect. Te lo envió. So we have no problem with me lo, nos lo, te lo le lo. So if you want to say he sent it to her, how will it be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo envió."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. You want to clarify, go ahead.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "A ella"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Se lo envió a ella. And of course we could clarify he as well. Él se lo envió a ella like you have this base structure, se lo envió, and you can clarify around it. Él se lo envió. Se lo envió a ella. Él se lo envió a ella. But what is not changing there is that bit, se lo envió. He sent it to them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo envió a ellos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And what if it was to you guys? He sent it to you guys:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo envió a ustedes."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Se lo envió a ustedes.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no se lo envió a ustedes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "“All way”.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "todavía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Todavía. Good. So, no se lo envió a ustedes todavía. No se lo envió todavía a ustedes, could go I don’t know if I sent it to him, I don’t know if I sent it to him: that way around as well.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé si envié – lo envié – se lo envié."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No sé si se lo envié. Excellent. So when we’re using this a for clarification or emphasis, we are repeating. Se lo envié a él. Se lo compré a ella. So we repeat when we’re using this a for emphasis or for clarification. But if we use another preposition, like para for example, lo compré. Then we don’t repeat. So these very specific details of language, para usted, lo compré para ti I don’t want anybody to worry or stress about remembering or memorizing them. Remember, as long as you are actively listening and analyzing the Spanish that you expose yourself to, even if you forget it now, you will notice it again for yourself through listening, analyzing, co mparing, with the skills that we’ve developed during this course. So our focus is to understand it, not to memorize it.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

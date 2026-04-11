@@ -1,0 +1,650 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Now, these versions of the verb that we get after haber haber,, whether it’s, whether it’s whether it’s he había habría, we could even say I will have. I will have – lost it lo habré",
+      "lang": "en"
+    },
+    {
+      "text": "perdido.",
+      "lang": "es"
+    },
+    {
+      "text": "Any version of haber - we will have the - ado, - ido version after it, even if it’s in the “to” form – we could say something like I would like to have gone. I would like to have gone. I would like, it would please me:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "To have gone.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Me gustaría haber ido,",
+      "lang": "es"
+    },
+    {
+      "text": "it would please me to have gone, I would like to have gone,",
+      "lang": "en"
+    },
+    {
+      "text": "me gustaría haber ido.",
+      "lang": "es"
+    },
+    {
+      "text": "So, even after the “to” form we’re having just one version of the verb that can come after haber. Now, this version of the verb that can come after haber is very useful, because, if it makes sense, we can use it as an adjective, just as we can in English. For example, in English we say: I have sold. And sold we can use like an adjective, we can say it is sold. We say I have lost. And we can use it like an adjective – I am lost. And you can do the same in Spanish, which gives you hundreds and hundreds of words now that you can access as adjectives. So, for example, to close is",
+      "lang": "en"
+    },
+    {
+      "text": "cerrar.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Cerrar.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "How would you say: I have closed it?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "I have closed it:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo he cerrado.",
+      "lang": "es"
+    },
+    {
+      "text": "You might be referring to the door, which is la puerta. So, if you were referring to the door,",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "how would you say that? I have closed it:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La he cerrado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So cerrado – we can take that and we can use it as an adjective. Now, it doesn’t change ever after haber – it’s always cerrado:",
+      "lang": "en"
+    },
+    {
+      "text": "lo he cerrado, la he cerrado,",
+      "lang": "es"
+    },
+    {
+      "text": "lo hemos cerrado. But, when it’s an adjective, when it’s behaving like an adjective, then of course, it can change. So, if you say it is closed and you mean the door,",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "how would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good,",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "so how would you say that, it is closed?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "You think to be closed is a state or a characteristic?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Está cerrada.",
+      "lang": "es"
+    },
+    {
+      "text": "In fact, the great majority, with just a couple of exceptions, of these adjectives that we get from - ado, - ido, that we get from the version that comes after haber, go with estar. With this particular type of adjective we don’t need to really think about whether it’s a state or a characteristic, they are just gonna go with estar, with a couple of exceptions.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "To lose was:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "What is the version that comes after haber, after any form of haber?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Perder",
+      "lang": "es"
+    },
+    {
+      "text": "becomes:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Perdido.",
+      "lang": "es"
+    },
+    {
+      "text": "So,",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "how would you say: I am lost?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good. Estoy",
+      "lang": "en"
+    },
+    {
+      "text": "perdido,",
+      "lang": "es"
+    },
+    {
+      "text": "or for feminine, perdida. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "What was to finish or to terminate?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Terminar.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say: I have finished?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "He terminado.",
+      "lang": "es"
+    },
+    {
+      "text": "So now you can also say it is finished, and use it like an adjective.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está terminado.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "What if you were referring to the movie, which is la película:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está terminada",
+      "lang": "es"
+    },
+    {
+      "text": "at some of them.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "To sell was vender, and then sold would be:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "They are sold:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Están vendidos.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "And if we mean las casas, how will it sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Están vendidas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Some of the adjectives that we already met are actually adjectives that were formed in this way.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "How was the word for tired?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Cansado.",
+      "lang": "es"
+    },
+    {
+      "text": "And this comes from the verb cansar, to tire. So cansar is to tire, and then",
+      "lang": "en"
+    },
+    {
+      "text": "cansado",
+      "lang": "es"
+    },
+    {
+      "text": "is, and it’s the adjective, the version that you get after haber",
+      "lang": "en"
+    },
+    {
+      "text": "cansado,",
+      "lang": "es"
+    },
+    {
+      "text": "tired. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "if you want to say I, so now it’s present: get tired, I tire myself",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Me canso.",
+      "lang": "es"
+    },
+    {
+      "text": "That means I get tired or even I get fed up.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How would you say I have tired myself? And like I said, it doesn’t literally mean that you are responsible for tiring yourself, it just means that you’ve got tired or you can use it like “I’ve had enough”. So, I have tired myself:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good. Me he",
+      "lang": "en"
+    },
+    {
+      "text": "cansado..",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And then",
+      "lang": "en"
+    },
+    {
+      "text": "cansado",
+      "lang": "es"
+    },
+    {
+      "text": "- which is the version of cansar after haber - is also, of course, the adjective tired.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "I am tired:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good. So, to close is",
+      "lang": "en"
+    },
+    {
+      "text": "cerrar,",
+      "lang": "es"
+    },
+    {
+      "text": "and we said that closed is cerrado. And we said that these – ado, - ido adjectives, with a couple of exceptions, go with estar. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "how would you say it is closed?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "How would you say he is closed to the idea - idea is the same word in Spanish. He is closed to the idea:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "What gender does it look like: idea?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Está cerrado",
+      "lang": "es"
+    },
+    {
+      "text": "a",
+      "lang": "en"
+    },
+    {
+      "text": "la idea.",
+      "lang": "es"
+    },
+    {
+      "text": "He is closed to the idea. But",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "if you want to say he is a closed person, you mean as a person he is closed, how do you think you would say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Almost. This is exactly the structure that we want, well done. But, the word for person is feminine, it doesn’t refer to anybody specifically, just the word itself is feminine.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cerrada",
+      "lang": "es"
+    },
+    {
+      "text": "refers to person. Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es",
+      "lang": "es"
+    },
+    {
+      "text": "una persona",
+      "lang": "en"
+    },
+    {
+      "text": "cerrada.",
+      "lang": "es"
+    },
+    {
+      "text": "So that’s how we can get around that, if we want to say he is closed and we mean he is a closed person. If we just say es cerrado it sounds like a mistake. But",
+      "lang": "en"
+    },
+    {
+      "text": "es",
+      "lang": "es"
+    },
+    {
+      "text": "una persona",
+      "lang": "en"
+    },
+    {
+      "text": "cerrada",
+      "lang": "es"
+    },
+    {
+      "text": "is fine, because",
+      "lang": "en"
+    },
+    {
+      "text": "es",
+      "lang": "es"
+    },
+    {
+      "text": "is going with persona, what you are saying essentially is he is a person that is closed.",
+      "lang": "en"
+    },
+    {
+      "text": "Es",
+      "lang": "es"
+    },
+    {
+      "text": "una persona",
+      "lang": "en"
+    },
+    {
+      "text": "cerrada.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "How would you say she is lost?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está perdida,",
+      "lang": "es"
+    },
+    {
+      "text": "she is lost. But",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "if you want to say She is lost, you know, as a person, lost her way:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "In this structure you are saying she is a person, you are not looking at lost person, you are looking at person. The adjective is totally secondary. So when you say this is a chair you are going to use it’s a wet chair ser. If you are going to say, even thought that is a state, you are still going to use it’s a chair ser. Because what you are saying is, the adjective is secondary. But, if you say it is wet, then you use estar. So, chair or seat is",
+      "lang": "en"
+    },
+    {
+      "text": "silla.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "Silla.",
+      "lang": "es"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Good. Mojar, mojar means to wet. Mojar. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "how do you think you say wet as an adjective?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Good. For",
+      "lang": "en"
+    },
+    {
+      "text": "silla, mojada.",
+      "lang": "es"
+    },
+    {
+      "text": "Feminine. Good. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "how would you say the chair, la",
+      "lang": "en"
+    },
+    {
+      "text": "silla,",
+      "lang": "es"
+    },
+    {
+      "text": "the chair is wet?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La silla está mojada.",
+      "lang": "es"
+    },
+    {
+      "text": "But, if you say it is a wet chair, you are just saying it is a chair, and then an adjective is secondary, and the fact that it is a chair is about as characteristic as it gets.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "So, you are saying it is a chair:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "Wet:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-full": [
+    {
+      "text": "Es una silla mojada.",
+      "lang": "es"
+    },
+    {
+      "text": "So, when we say something is a noun, when we give it its name, there’s nothing more characteristic. Es una persona, it is a person; it is a happy person, es una persona It’s a chair it’s a wet chair feliz.,",
+      "lang": "en"
+    },
+    {
+      "text": "es una silla;,",
+      "lang": "es"
+    },
+    {
+      "text": "es una silla mojada.",
+      "lang": "es"
+    },
+    {
+      "text": "The structure there is it is a chair, the adjective is secondary. But, when we say the chair is wet, then we are talking about a state of the chair with is:",
+      "lang": "en"
+    },
+    {
+      "text": "la silla está mojada.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

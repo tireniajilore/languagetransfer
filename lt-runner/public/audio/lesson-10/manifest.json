@@ -1,0 +1,744 @@
+{
+  "lessonId": "lesson-10",
+  "generatedAt": "2026-04-11T13:50:00.106Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "How would you say 'to ventilate'?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "8e235dde6bf8cac4f2c414bdb625bcf4b07c406d941fce2237c52f482959f8ac"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Ventilar.",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "f098b481e4c36eb876e0d58750a3776aac614f0e08467d7234a134e22dc205cf"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to separate'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "ee48881f4069ac30a762fed3e9e0e03dba95a49b4236c691a3854be52ac0d3a8"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Separar.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "b5c1aa69b8ef8d5c53ef181f6c862366b0101865c1366f612f34ceb032794c24"
+        },
+        {
+          "text": "Good. Remember, the 'a' is pronounced as in 'apple'.",
+          "lang": "en",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "0f52c8fa861b1ffead4872fc79a97f703f95c00259b15164a102565578f3897f"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to know'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "14fd0b399d1ae30dc4538d044603ae8c516b74f5cd57b82547c0bee87a87725e"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Saber.",
+          "lang": "es",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "c17c87db5cf27f78b8905b02e769599650b2769cfdcd75b79feb3620a96249e2"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-7-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "And 'to come'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "b3ef3e14cb259d6ba3911ab45169e5866c5ce4dd9a8b368651f38a09cbae6ae7"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Venir.",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "cc352a008f2aef23e339ac02199c2f35babfed741e486b12bb64dd05ff212261"
+        },
+        {
+          "text": "Good. Spanish verbs in the 'to' form end in -ar, -er, or -ir. For example, 'to want' is querer.",
+          "lang": "en",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "b1111b6deb98e6cb4fb744c008621cc1553a490cdf744d29ccb948fc3d76cad5"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I want'?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "c9029f5d7e44bd3d02e67d97f07169c7a30376cc50fd713aa3a1955f7e3dff8a"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Quiero.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "353e0a80b68bddbcea4a0dd11024f9712e530fafe3643453f814e3d8d889c638"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-11-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How about 'I owe' or 'I must'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "4924179c77ce24359d7d1cba7ed087bc026ca2b132d3b55bb32fd194784aa2d6"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Debo.",
+          "lang": "es",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "e23e5c147dcb64d301b967b48ed0ffeea0499a5720de1f7763117e4ae18f89b8"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-13-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "And 'I try'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "e5b53795911eabac79770d3a83513a08a23ee64cd7ed35e6a407ad603acd93f9"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Intento.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "ea854c4ea9fe492e8ed7104024180ee1d4794e911f6cfa84eaf9d0a210f8cc69"
+        },
+        {
+          "text": "Good. Remember, regular verbs change from -ar, -er, or -ir to -o in the 'I' form.",
+          "lang": "en",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "35debd3353068390b113fd9b709fc2abe1f424a6e383253c520e1f06e8eabd99"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to segregate'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "de3af5b40ddb0a2358383a69335880c28c3cfad86dbebeea6d3d3123a40ecb6b"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Segregar.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "49e154a2566984f4e3d31aed6378d65c687577f9884683da85e854b1bd92b283"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-17-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "Now, how do you say 'to breathe'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "31f53fe28212bf9a4e126994ac39f48785d226aab8cd73663ae83abf5e96e67f"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "Respirar.",
+          "lang": "es",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "8d41cc60ba9699e59d42a9828777eec047113c7385cceaae9876a170e59e0ba2"
+        },
+        {
+          "text": "Good. So, 'to know' is",
+          "lang": "en",
+          "file": "turn-19-reveal-2.mp3",
+          "hash": "3a4c18243184c8fb3883c233600efb0b80d93ad61332c1c641cdbd1d75d9a341"
+        },
+        {
+          "text": "saber.",
+          "lang": "es",
+          "file": "turn-19-reveal-3.mp3",
+          "hash": "c58f5868a796a45a05e16371c7fc717a976ac9640d97d28200efff8df149afd7"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I know'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "c02aafd158487f9290209adb3280a1846967aa7b8852cca2cb587492f1f9fa3a"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Sé. Good. 'To come' is",
+          "lang": "en",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "7f568aafb70180ffcb715f8f789cbd5ff418b7bb0abf767bcacd10abb5e3296a"
+        },
+        {
+          "text": "venir.",
+          "lang": "es",
+          "file": "turn-21-reveal-2.mp3",
+          "hash": "0d3ff9ecc7bef907ea92b4fb917b1bc00ef2292a38247062267552c16f519a79"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I come'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "d399cfc0db3d0204c18b6e8382c3faab5fbfcc9aef453b4dd48cb17ade9453de"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Vengo.",
+          "lang": "es",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "a0a29e3374ff94ebc57b61cfecb6605eb777a2d9370bc33052e47fd530bf3d4e"
+        },
+        {
+          "text": "Good. Remember, irregular verbs like tener and",
+          "lang": "en",
+          "file": "turn-23-reveal-2.mp3",
+          "hash": "c9c89aac87e9214abce6f6c3568786b301782ab95a399852138d69d663ec9a9b"
+        },
+        {
+          "text": "venir",
+          "lang": "es",
+          "file": "turn-23-reveal-3.mp3",
+          "hash": "eadbb9fd5ed3c1d570cced72f44e2d6cbe724e244663be7956430a34a342cec6"
+        },
+        {
+          "text": "have unique forms.",
+          "lang": "en",
+          "file": "turn-23-reveal-4.mp3",
+          "hash": "010b2816615d6a314c676631d68166b669b605d0de75b54c48d37adaa2c9b669"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to donate'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "65f91a4f64c445bc7027b03068fa46eb50068da50cd62af55b1cb5c2abc33158"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Donar.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "a264dbaf8eb86b32a513d5ba9ed33319e2b8be071156233b87b16fdaad45ecf2"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "And 'I donate'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "f5b845e9676fd3a66ca27f24f61d253ef207eedf04c6a574e375ff9b70d06912"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "Dono.",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "ab833585bb6fb63cc1d3bda882ab48ef28b2f5ffe1f0a545966e533dbdf97210"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-27-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How about 'to create'?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "adde0cc47f10cb7c0453f6e2c8a8fdce7bbd4fbde30471d7804b8e01033356f6"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Crear.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "ddf9b37ab6ffa8a6897572cb677a2a2b215aa93264a9c2a384d4511141b13004"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "And 'I create'?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "a9f92cd4b610053a8d02061fd1a50d994f4e7b77db6de98aada3e3bce4e5c35e"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Creo.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "edc8340f9187d4de7e7fc8c5911ac541d2d577cd047a479842e036800254fa35"
+        },
+        {
+          "text": "Good. 'To eat' is comer.",
+          "lang": "en",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "8a637e7b8f69daab9054cb3e8259178b6a51e3345937fea3d18b5123bee49d59"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I eat'?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "6f0fe5d08e517556bfebbbcae219285f6a3e5a1cdc5df942be2415f7f8d45ad3"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "text": "Como.",
+          "lang": "es",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "43fd2e489b1a87d0eb031e0139c29390f20f43e4ee9f8af0ca0e39c77c9f3c96"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-33-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I'm going to eat late'?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "1d32832047f9550dcfd9c6f02c349eea3619aa071d072dc62951162e87e94f11"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "text": "Voy a comer tarde.",
+          "lang": "es",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "97256f95d3886ed4cc777f31cf4d08b95dedac4b1dc147a2135676a5816e11be"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-35-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "And 'I'm going to eat tomorrow'?",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "441702973a41400f35e6a34f7e3bf8fb2598bb636f7baa2bacda629eb302a808"
+        }
+      ]
+    },
+    "turn-37-reveal": {
+      "segments": [
+        {
+          "text": "Voy a comer mañana.",
+          "lang": "es",
+          "file": "turn-37-reveal-1.mp3",
+          "hash": "b71ec342bdd19809ed306d664b09cb6e03c02f4c358ec905a2333a200103a19f"
+        },
+        {
+          "text": "Remember, you can use the present tense with a future context.",
+          "lang": "en",
+          "file": "turn-37-reveal-2.mp3",
+          "hash": "aac8cf63c771a435351b748c2d6de6af8affb8a9fae87c9898c6639a2a5e2c4d"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I eat tomorrow'?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "f97a361121cebe1886782a100ba1ee05c213b9d51fa18edbfac043aff4b3d4da"
+        }
+      ]
+    },
+    "turn-39-reveal": {
+      "segments": [
+        {
+          "text": "Como mañana.",
+          "lang": "es",
+          "file": "turn-39-reveal-1.mp3",
+          "hash": "9a8efabbef9dd2545a41399ad60deb2dd7cb375a4515dcfdf36bd73d8e3cd39b"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-39-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I eat with Pablo tomorrow'?",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "2b159cf2babb6386a2784bb7dd0cb9201b4d0bfc1a27ccc9b9e3606e32aef4bb"
+        }
+      ]
+    },
+    "turn-41-reveal": {
+      "segments": [
+        {
+          "text": "Como con Pablo mañana.",
+          "lang": "es",
+          "file": "turn-41-reveal-1.mp3",
+          "hash": "6a1b3eed3223a3007dba289a32587b6e2483e5f3d829c4934c78ccd12915794c"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-41-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to have it'?",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "b68e61003c8d96e193fd8bc1fa22cf5f0d8422aaa803ac13387a22fbe6c1f2e1"
+        }
+      ]
+    },
+    "turn-43-reveal": {
+      "segments": [
+        {
+          "text": "Quiero tenerlo.",
+          "lang": "es",
+          "file": "turn-43-reveal-1.mp3",
+          "hash": "05f0f82a949b9f8130a79d64c714e7c595617405db0318ee6103f38f7dd1f4b2"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-43-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "And 'I'm going to have it later'?",
+          "lang": "en",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "e6e9b359ab2e2d7d52d73da134daa401e9d5afaec593bcdab87156f565192cb0"
+        }
+      ]
+    },
+    "turn-45-reveal": {
+      "segments": [
+        {
+          "text": "Voy a tenerlo más tarde.",
+          "lang": "es",
+          "file": "turn-45-reveal-1.mp3",
+          "hash": "fd76408d87712155c0f9dcd92c00d8cb28011e4881342558dded0cc76192f85f"
+        },
+        {
+          "text": "Good. Remember, 'más' means 'more', so 'más tarde' is 'later'.",
+          "lang": "en",
+          "file": "turn-45-reveal-2.mp3",
+          "hash": "b5f5f3a16bef6caa429d2634c2a7a7b0df59539ac00fd63e91941c6920ee129c"
+        }
+      ]
+    },
+    "turn-45-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to obtain'?",
+          "lang": "en",
+          "file": "turn-45-prompt-1.mp3",
+          "hash": "3a72e0831f4696a23c4f6f73d2507a6ffa0a71512ea8c556e1e4584d34c430f2"
+        }
+      ]
+    },
+    "turn-47-reveal": {
+      "segments": [
+        {
+          "text": "Obtener.",
+          "lang": "es",
+          "file": "turn-47-reveal-1.mp3",
+          "hash": "4f77b0419cef5d2b6c80e5cc2ca90403ba89b7eb603de1c6260a6aae2cef4e83"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-47-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-47-prompt": {
+      "segments": [
+        {
+          "text": "And 'to sustain'?",
+          "lang": "en",
+          "file": "turn-47-prompt-1.mp3",
+          "hash": "b9516f55b7c2eff29e2c9fcfd246f257e3e962bca1bfc56a49c96d807427a711"
+        }
+      ]
+    },
+    "turn-49-reveal": {
+      "segments": [
+        {
+          "text": "Sostener.",
+          "lang": "es",
+          "file": "turn-49-reveal-1.mp3",
+          "hash": "1b9ebf447af8490a702f728ee8c85c075fd08bab767c1ff7324a3ecf3cec7f67"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-49-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-49-prompt": {
+      "segments": [
+        {
+          "text": "How about 'to maintain'?",
+          "lang": "en",
+          "file": "turn-49-prompt-1.mp3",
+          "hash": "795edd713cfbd18fa06b40a766447788941e6a9f158afc69eeb95464fba380ab"
+        }
+      ]
+    },
+    "turn-51-reveal": {
+      "segments": [
+        {
+          "text": "Mantener.",
+          "lang": "es",
+          "file": "turn-51-reveal-1.mp3",
+          "hash": "f55b980d0d04cf79be45795850b419f7ebd95ad3fe62e4815b25d7a69fe075b9"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-51-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-51-prompt": {
+      "segments": [
+        {
+          "text": "And 'to entertain'?",
+          "lang": "en",
+          "file": "turn-51-prompt-1.mp3",
+          "hash": "1703690f6abd2b12363e9d8564298845b2fd4b02598a101cdbb2beed80ec0938"
+        }
+      ]
+    },
+    "turn-53-reveal": {
+      "segments": [
+        {
+          "text": "Entretener.",
+          "lang": "es",
+          "file": "turn-53-reveal-1.mp3",
+          "hash": "bc9076aa3144389f86053bdc57f3ae427862bcb2bc3fc2cb0fca3dcceaea0b4e"
+        },
+        {
+          "text": "Good. 'I have' is tengo.",
+          "lang": "en",
+          "file": "turn-53-reveal-2.mp3",
+          "hash": "69feda25bd41a1990033d727b6b1bcf9e49b3831c503e32b0ded976916bfa906"
+        }
+      ]
+    },
+    "turn-53-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I come tomorrow'?",
+          "lang": "en",
+          "file": "turn-53-prompt-1.mp3",
+          "hash": "c6501c3305023ca7226b50f71cc98be399f7fdea0a82f9872b252880075a9eab"
+        }
+      ]
+    },
+    "turn-55-full": {
+      "segments": [
+        {
+          "text": "Vengo mañana.",
+          "lang": "es",
+          "file": "turn-55-full-1.mp3",
+          "hash": "84046f5f8f822cc7490437b127fc709e2079411d5cd6e9e4a046d36b47a4a8fe"
+        },
+        {
+          "text": "Very good.",
+          "lang": "en",
+          "file": "turn-55-full-2.mp3",
+          "hash": "f90736846e7e5f43f08e3ffd744920289c117add2d8ad6929e11e824c2f58694"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to form Spanish verbs in the 'to' form and the 'I' form, focusing on regular and some irregular verbs.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "4b1dcb6d6e7a8f22dd7fcda5faf6c57bed3bc3332469fed1d0501399d84ce75e"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try forming 'I' forms from other verbs you know, like 'to study' or 'to write'.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "09c4eb6d87a50eab628c597b58d127e9c388f548e8085a38aa4d70722e50f336"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Remember, regular verbs change from -ar, -er, or -ir to -o in the 'I' form, and some irregular verbs have unique forms.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "eac260e572ba35aaf869c2a758f9ec95152b63da0f8755b477d8232e3c6d2f42"
+        }
+      ]
+    }
+  }
+}

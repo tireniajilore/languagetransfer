@@ -1,0 +1,529 @@
+{
+  "lesson_number": 87,
+  "title": "Lesson 87",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "Looking at the past tenses, the line in the past and the dot in the past, the line in the past is extremely regular. We only have a few odd irregular verbs for the line in the past. Ser is one of them and we can remember by thinking of an era. So what is the base for ser as a line in the past?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Era"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Era. Good. So this means I was, you (formal) were, he/she/it was, as a line in the past. How would you say we were?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Éramos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Éramos Éramos. They were or you guys were:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Eran"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Eran. And you informal?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Eras"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Eras. Good. We had the line in the past of ir, which was a little bit like a mix between the - aba ending that we have for - ar verbs for the line in the past and the - ía ending that we have for -er/-ir verbs in the line in past. So what was I was going from ir?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Iba. We were going:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Íbamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You informal:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ibas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And they or you guys:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iban"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Iban. Good. And then we had ver, to see. How is I see, in the present?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Veo. And this extra e that it keeps for the I form in the present, veo, carries over into the line in the past. So I was seeing, you (formal) were seeing, he/she/it were seeing is veía.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Veía. So we were seeing:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veíamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You informal:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veías"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And they:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veían"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So the line in the past is a very safe tense. We just have a few irregular verbs, but for the rest we can be very certain that taking off the - ar and putting - aba, or taking off the -er/-ir and putting -ía is going to give us the result that we want. The point in the past is less regular, less reliable. There are a group of verbs in the dot of the point in the past which are irregular, but they all do something very similar. Now most of the verbs in this group are - go verbs, but not all of them. Now what these verbs do in the point in the past is that firstly, the beginning bit of the verb - so for example, if we have poder - that beginning bit, pod -, changes and we already saw this. We saw, for example, they were able was pudieron. So that pod - changes to pud -. Here it’s a little change, but there are more drastic changes with other verbs. So this is the first thing. The base of the verb that is left once we take the endings off changes. Sometimes radically, sometimes a little bit like here from pod - to pud -. The second thing that they do is that they use a mixture of the point endings from - ar verbs and from -er/-ir verbs. They use a mixture of the two endings from both sides, but always the same mixture for each of these irregular verbs. And the third thing they do is to not have the accent on the endings. So firstly, let’s revise the point in the past with hablar and comer. Just to refresh what are these endings. So we have hablar to speak, and I spoke is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And he spoke or she spoke or you (formal) spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habló"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Habló. And then we had to eat which was comer. And I ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comí. And he ate or she ate or you (formal) ate, it ate - habló and then with comer it’s:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comió. Good. Back to hablar. How was we spoke?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablamos. Good. Same as the present tense. And they spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaron. And you (informal) spoke - which in the you (informal) version, we hear that informal s and the informal t in the ending:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaste. Good. Back to comer. How is we ate?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comemos Comimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comimos. They ate or you guys ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comieron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comieron. And you (informal) ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comiste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Comiste mixture of these two groups for different endings in the point in the past. For example, tener, to have. In the point in the past, the way that ten - changes, that root changes, we said that’s the first thing that happens. The ten- of tener becomes tuv-. T-u-v.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tuv-."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And I had is tuve. And he/she/it had is tuvo. So we are not accenting the endings. Tuve. Tuvo. So where are these two endings coming from, - e and - o? Are they coming from the - ar verbs or from the -er/-ir verbs?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "- ar."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So we have tuve and tuvo. So these two endings for I and for he/she/it/you formal come from - ar and the rest come from -er/-ir. So how would you say we had with the point in the past?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tuvimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tuvimos. And you (informal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tuviste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tuviste. And they:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tuvieron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tuvieron. Good. So now that we have worked our way through this one verb, all we need to do for the other ones is to find the base. The irregular base for the verb and then we know what to do with it. What was to be, for states?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estar. Now I was, the point in the past, from estar is estuve. So it’s nice to look at tener and estar together because we have tuve for I had and estuve for I was.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estuve"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No estuve."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. He was, she was, you were (formal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estuvo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. We were:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estuvimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estuvimos. You were (informally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estuviste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estuviste. Where were you?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde estuviste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Dónde estuviste? They were, you guys were:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estuvieron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estuvieron. Where were you guys?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde estuvieron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Dónde estuvieron? So whilst we have these irregular forms, which need a little bit more effort, many times you can just use the line in the past instead. So if you say something like ¿dónde estuviste? - where were you? - and here we’re using a point in time, so maybe it sounds like where were you in this precise moment when we needed you?, but even so we could still just use the line in the past to get around this irregular tense. Now we don’t want to avoid it forever. Anything that we don’t control, of the line which will end up controlling us. Anything we are uncertain of that we don’t take the control of, will control us. But, many times you’re in a conversation and you don’t have time to find that irregular form and maybe you want to worry about it later and check or think about what it was. In that case, you can just turn to the line in the past. ¿Dónde estabas? instead of ¿dónde estuviste? So how would you say I had to go using this point in the past? So how is I had, using the point in the past?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tuve"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So I had to go:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tuve que ir."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So tuve que ir, you would want to use it if you meant that in one precise moment you know something happened and I had to go: tuve que ir. But, you could also use the line in the past and not have any problem there if you wanted to avoid this irregular tense just to get the meaning across. So you can just say tenía que ir, which is regular, to avoid using this irregular tense. What was to say or to tell?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Decir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Decir or contar, but decir we are working with for now. So dec- becomes dij- in the point in the past. Dij-. D-i-j. What is I said?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dije"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dije. He said:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dijo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. We said:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dijimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dijimos e and - o from the - ar group and then the rest of the endings from the - er /- ir group for the point in the past.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

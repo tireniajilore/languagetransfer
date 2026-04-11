@@ -5,13 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "parse-pdf": "tsx scripts/parse-pdf.ts",
+    "refine-lesson": "tsx scripts/refine-lesson.ts",
     "generate-tts": "tsx scripts/generate-tts.ts",
     "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/blob": "^1.1.1",
     "next": "14.2.30",
+    "openai": "^6.34.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },

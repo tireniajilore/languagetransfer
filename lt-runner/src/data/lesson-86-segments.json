@@ -1,0 +1,660 @@
+{
+  "turn-1-full": [
+    {
+      "text": "These - go verbs, these verbs that take - go instead of - o for the I version in the present, also behave a little bit strangely in the future tenses. In the will and would tenses. So, we can look at that now, and whilst looking at it, revise the endings that we learned for will and would. So we said that our will endings, what we add on to the to form of the verb to get will, are the same as those very irregular versions of haber in the present. So we can make that connection to help us internalize them. Can you talk me through those will endings?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "For we, very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "They or you plural, and the last one, you informal?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good. So we have the endings. And our endings for would, which again we are adding on to the to form of the verb, we need to remember one key sound for would. If we remember how to say I, that’s a nice hook to remember the key sound. So what is the key sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "would like",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "- ía.",
+      "lang": "es"
+    },
+    {
+      "text": "And then on to - ia we can add on, of course, our - mos or - n or - s if we need to. Good. So - go verbs, these verbs that have - go and then - ga for the mood tense, when they are building the futures, they have a contraction. But, they all make the same contraction. For example, I will have is",
+      "lang": "en"
+    },
+    {
+      "text": "tendré.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Tendré.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Tendré tendré.",
+      "lang": "es"
+    },
+    {
+      "text": "So that last e of tener turns into a d, and we get",
+      "lang": "en"
+    },
+    {
+      "text": "tendré.",
+      "lang": "es"
+    },
+    {
+      "text": "This is a contraction because it means we end up with two syllables instead of three. It would be “teneré”, but it’s",
+      "lang": "en"
+    },
+    {
+      "text": "tendré.",
+      "lang": "es"
+    },
+    {
+      "text": "Which just makes everything a little bit more efficient. But all of these verbs, these - go verbs, are behaving in a similar way.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "So we have to come:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Venir.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "And I will come:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Vendré.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "I would come - the same contraction for both futures:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Vendría.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I would come.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "We would come:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Vendríamos.",
+      "lang": "es"
+    },
+    {
+      "text": "have time:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Vendríamos",
+      "lang": "es"
+    },
+    {
+      "text": "más tarde, pero",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "tenemos tiempo.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "What was to put?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "And I put:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Pongo.",
+      "lang": "es"
+    },
+    {
+      "text": "So this - go alerts us to the fact that this verb will behave in this irregular way as well. So",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "if you want to say I will put it here, how will it be? I will put it here:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo pondré aquí.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "I would put it here, I would put it here:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "We would put it here:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo pondríamos aquí.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "And we will put it here:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo pondremos aquí.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "What was to leave or to go out?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Salir.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "I leave or I go out:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Salgo.",
+      "lang": "es"
+    },
+    {
+      "text": "So again this - go can set off our little alarm bell that this verb will probably be irregular in the futures.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "So how would you say I would leave or I would go out?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Saldría.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "You would leave or you would go out (informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "Saldrías.",
+      "lang": "es"
+    },
+    {
+      "text": "Will you leave? Will you go out tonight? Will you go out tonight?:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "That’s would you, now we want will you:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Saldrás esta noche?",
+      "lang": "es"
+    },
+    {
+      "text": "But of course we have esta noche which is future context so we could just use the present. We could just say You go out tonight?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "We don’t need the future, so how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Sales esta noche?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So for most - go verbs, we take off the - go and we put - dré for I will doesn’t do it. and - dría for I would, in most of them. Traer, to bring, Traeré, I will bring. Atraeré, I will attract. Distraeré, I will distract. But most of these that have - go will go to - dría or - dré. Hacer and decir, to do or to make or to say or to tell, hacer and decir are particularly irregular. And we’ve already seen this. We’ve seen how after haber they become hecho and dicho. It’s very irregular. We saw how the informal command from hacer is haz, h-a-z. Again irregular, and here. So it’s not following this rule. It’s even more irregular. We have as well. I will do is",
+      "lang": "en"
+    },
+    {
+      "text": "haré haré. Haré.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "I will do or I will make.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "H-a-r-e.",
+      "lang": "en"
+    },
+    {
+      "text": "Haré.",
+      "lang": "es"
+    },
+    {
+      "text": "And all we need to do is identify one of these irregularities and then we understand that all of will and all of would will use this same base, the same base that",
+      "lang": "en"
+    },
+    {
+      "text": "haré",
+      "lang": "es"
+    },
+    {
+      "text": "has used.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "So we will do or we will make is:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "And we would do or we would make:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-full": [
+    {
+      "text": "Haríamos.:",
+      "lang": "es"
+    },
+    {
+      "text": "S: Lo",
+      "lang": "en"
+    },
+    {
+      "text": "haríamos,",
+      "lang": "es"
+    },
+    {
+      "text": "pero estamos-",
+      "lang": "en"
+    }
+  ],
+  "turn-54-full": [
+    {
+      "text": "Occupied.",
+      "lang": "en"
+    }
+  ],
+  "turn-56-reveal": [
+    {
+      "text": "Good. Lo",
+      "lang": "en"
+    },
+    {
+      "text": "haríamos,",
+      "lang": "es"
+    },
+    {
+      "text": "pero estamos",
+      "lang": "en"
+    },
+    {
+      "text": "ocupados ahora.",
+      "lang": "es"
+    }
+  ],
+  "turn-56-prompt": [
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "haríamos",
+      "lang": "es"
+    },
+    {
+      "text": "is we would do or we would make, and what is we will do or we will make?",
+      "lang": "en"
+    }
+  ],
+  "turn-58-reveal": [
+    {
+      "text": "Haremos.",
+      "lang": "es"
+    }
+  ],
+  "turn-58-prompt": [
+    {
+      "text": "And they will do, they will make:",
+      "lang": "en"
+    }
+  ],
+  "turn-60-reveal": [
+    {
+      "text": "Harán.",
+      "lang": "es"
+    },
+    {
+      "text": "I would say or I would tell is",
+      "lang": "en"
+    },
+    {
+      "text": "diría.",
+      "lang": "es"
+    },
+    {
+      "text": "So we get from decir,",
+      "lang": "en"
+    },
+    {
+      "text": "diría.",
+      "lang": "es"
+    }
+  ],
+  "turn-60-prompt": [
+    {
+      "text": "I would say, he would say, she would say, you (formal) would say:",
+      "lang": "en"
+    }
+  ],
+  "turn-62-reveal": [
+    {
+      "text": "So like I said, we just need one of these versions to understand how the rest will be.",
+      "lang": "en"
+    }
+  ],
+  "turn-62-prompt": [
+    {
+      "text": "So if",
+      "lang": "en"
+    },
+    {
+      "text": "diría",
+      "lang": "es"
+    },
+    {
+      "text": "is I would say or I would tell, how is I will say or I will tell?",
+      "lang": "en"
+    }
+  ],
+  "turn-64-reveal": [
+    {
+      "text": "Diré.",
+      "lang": "es"
+    }
+  ],
+  "turn-64-prompt": [
+    {
+      "text": "I will tell you later (speaking informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-66-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Te diré más tarde.",
+      "lang": "es"
+    }
+  ],
+  "turn-66-prompt": [
+    {
+      "text": "And of course, having future context with más tarde, we could just say:",
+      "lang": "en"
+    }
+  ],
+  "turn-68-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Te digo más tarde.",
+      "lang": "es"
+    },
+    {
+      "text": "I tell you later.",
+      "lang": "en"
+    }
+  ],
+  "turn-68-prompt": [
+    {
+      "text": "What was to be able to?",
+      "lang": "en"
+    }
+  ],
+  "turn-70-reveal": [
+    {
+      "text": "Poder.",
+      "lang": "es"
+    }
+  ],
+  "turn-70-prompt": [
+    {
+      "text": "How do you say I would be able to or I could?",
+      "lang": "en"
+    }
+  ],
+  "turn-72-reveal": [
+    {
+      "text": "Podría.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. The / e / falls out. So this is a different irregularity. This is not a - go verb.",
+      "lang": "en"
+    },
+    {
+      "text": "Podría.",
+      "lang": "es"
+    },
+    {
+      "text": "Of course it was “podería”, but many years of “podería, podería, podería, podería”, the / e / fell away.",
+      "lang": "en"
+    },
+    {
+      "text": "Podría.",
+      "lang": "es"
+    }
+  ],
+  "turn-72-prompt": [
+    {
+      "text": "How is to put?",
+      "lang": "en"
+    }
+  ],
+  "turn-74-reveal": [
+    {
+      "text": "Poner.",
+      "lang": "es"
+    }
+  ],
+  "turn-74-prompt": [
+    {
+      "text": "And I would put:",
+      "lang": "en"
+    }
+  ],
+  "turn-76-reveal": [
+    {
+      "text": "Pondría.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So there’s a subtle difference in sound between I would be able to,",
+      "lang": "en"
+    },
+    {
+      "text": "podría,",
+      "lang": "es"
+    },
+    {
+      "text": "and I would put,",
+      "lang": "en"
+    },
+    {
+      "text": "pondría.",
+      "lang": "es"
+    }
+  ],
+  "turn-76-prompt": [
+    {
+      "text": "We would be able to:",
+      "lang": "en"
+    }
+  ],
+  "turn-78-prompt": [
+    {
+      "text": "We would be able to. That’s we would put.",
+      "lang": "en"
+    }
+  ],
+  "turn-80-reveal": [
+    {
+      "text": "Podríamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-80-prompt": [
+    {
+      "text": "And we would put:",
+      "lang": "en"
+    }
+  ],
+  "turn-82-full": [
+    {
+      "text": "Pondríamos.",
+      "lang": "es"
+    }
+  ]
+}

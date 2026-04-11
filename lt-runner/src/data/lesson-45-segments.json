@@ -1,0 +1,964 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So how was to like, or we said that the translation that we would give it in Spanish was to please or to be pleasing to?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So, the \"to\" version?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Gustar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "So how would you say we like it, and we want to take the route of the literal translation, so it is pleasing to us?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "So remember the first place you want your thoughts to go. This is very important, ah.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "It is pleasing, to us.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "So, it is pleasing:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Nos gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "We were saying that",
+      "lang": "en"
+    },
+    {
+      "text": "gustar,",
+      "lang": "es"
+    },
+    {
+      "text": "we can translate as to please or to be pleasing. Now it would probably make more sense for us to store it as to be pleasing. Because, if we want to say something like she likes it, what we will say is it is pleasing to her. So we have the to her with",
+      "lang": "en"
+    },
+    {
+      "text": "gustar,",
+      "lang": "es"
+    },
+    {
+      "text": "so that's why it makes more sense to translate it as it is pleasing to her rather than it pleases her. This way we store this idea of to.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So what is to her?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Le. Good. So we have la for her, and to her, le. So",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "if you want to say it is pleasing to her, or she likes it, how would it be?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Le gusta.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "And it is pleasing to them, or they like it:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Les gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "You had a little battle there, right, with whether it was gustan or not. Good. And you take control of that going it is pleasing,",
+      "lang": "en"
+    },
+    {
+      "text": "gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "It is pleasing to them,",
+      "lang": "en"
+    },
+    {
+      "text": "les gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "So with",
+      "lang": "en"
+    },
+    {
+      "text": "gustar,",
+      "lang": "es"
+    },
+    {
+      "text": "we're not using lo and la and los and las. We're using le and les. They like it, it is pleasing to them.",
+      "lang": "en"
+    },
+    {
+      "text": "Les gusta.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say they like them, or they are pleasing to them?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Les gustan.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "He likes them, or they are pleasing to him:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Very good. So there are a couple of other verbs as well that we would prefer to give this kind of translation to. What do you think",
+      "lang": "en"
+    },
+    {
+      "text": "interesar",
+      "lang": "es"
+    },
+    {
+      "text": "means?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Interesar:",
+      "lang": "es"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Interesante is",
+      "lang": "en"
+    },
+    {
+      "text": "interesting.",
+      "lang": "es"
+    },
+    {
+      "text": "What does",
+      "lang": "en"
+    },
+    {
+      "text": "interesar",
+      "lang": "es"
+    },
+    {
+      "text": "look like? It might not be, but what does it look like?",
+      "lang": "en"
+    },
+    {
+      "text": "Interesar.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "What type of word does it look like?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Ah.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good. To interest. Good. So this helps us with comprehension as well, understanding what are our types of words and what they tend to look like. So we could translate it as to interest, or we could translate it as to be",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "to. And here in this case, it's another verb like",
+      "lang": "en"
+    },
+    {
+      "text": "gustar,",
+      "lang": "es"
+    },
+    {
+      "text": "in that it makes more sense to translate it for ourselves as to be",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "to, because it goes with le and not lo. So in our minds this fits then in the Spanish structure if we save that translation as to be",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "to rather than to interest.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "So how would you say it interests me, it is",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "to me?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me interesa.",
+      "lang": "es"
+    },
+    {
+      "text": "Does it interest you? Let's speak informally. Does it interest you?:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Te interesa?",
+      "lang": "es"
+    },
+    {
+      "text": "Doesn't it interest you?:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "No te interesa?",
+      "lang": "es"
+    },
+    {
+      "text": "Why doesn't it interest you?:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Por qué no te interesa?",
+      "lang": "es"
+    },
+    {
+      "text": "So if we want to say it interests him, what we're really saying is it is",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "to him. So we want to him here.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "So how would you say that? It interests him or it's",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "to him:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Le interesa.",
+      "lang": "es"
+    },
+    {
+      "text": "They're interested in it.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "It's",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "to them:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Les interesa.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "You remember how was to dance, related to ballerina?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Bailar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So you can ask does it interest her to dance tonight? Does it interest her to dance tonight?:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Le interesa bailar esta noche?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Salir, salir is to leave or to go out. To leave or to go out. So you can say does it interest her, is it",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "to her to go out to dance tonight? Does it interest her to go out to dance tonight? So let's go from the beginning, does it interest her?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Le interesa?",
+      "lang": "es"
+    },
+    {
+      "text": "And of course",
+      "lang": "en"
+    },
+    {
+      "text": "le interesa",
+      "lang": "es"
+    },
+    {
+      "text": "could mean does it interest her, does it interest him, does it interest you (formal). We don't know by the le.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "Le interesa,",
+      "lang": "es"
+    },
+    {
+      "text": "to go out to dance tonight:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good. So here we have a because salir is a verb of coming and going. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Le interesa salir a bailar esta noche?",
+      "lang": "es"
+    },
+    {
+      "text": "Now what if you wanted to ask would it interest you, would it be",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "to you,, that we add on to the “to” form of the verb? informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "So what was our sound for would What's our key sound for would?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "- ía,",
+      "lang": "es"
+    },
+    {
+      "text": "good. Would it interest you?:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Slower.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good. Another verb like this is parecer. Parecer, which is to seem. But, in English we already put to. It seems to me. It seems to him. So how do you say it seems to m e? Parecer is to seem.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "It seems to me:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "Before you change a verb, there's something very quick and very essential that you must do.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Yes. You must go back to your takeoff point, which is the \"to\" form, and make a quick check. Parecer, - er verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "Ok, I know where I am, I know what I'm doing.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Me parece.",
+      "lang": "es"
+    },
+    {
+      "text": "It seems to me. It seems to me that. What is this that that we put here?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "Same as what:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Que.",
+      "lang": "es"
+    },
+    {
+      "text": "Spanish kind of highlights for you that what is the question version of that. It kinds of shows you that much more clearly than English does. But English shows you as well. If you think, in English if you take the word that and you get rid of the t and you replace it with a w, you get what. In the same way that if you take the word there and you get rid of the t and you replace it with w, you get where. Or if you take the word then and get rid of the t and replace it with w, you get when. So you have",
+      "lang": "en"
+    },
+    {
+      "text": "que",
+      "lang": "es"
+    },
+    {
+      "text": "for that, and then qué for what. Same word.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "So, it seems to me that:",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "He doesn't want to go out tonight.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "He doesn't want to go out tonight:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me parece que no quiere salir esta noche.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "How would you say it seems to me that he doesn't like it? It seems to me that he doesn't like it. Now in English, this that is optional. No? It seems to me he doesn't like it. It seems to me that he doesn't like it. It's optional. But in Spanish, it's obligatory. You want to put this that. And actually, it's really gonna help you think out your sentences to put that always. So, it seems to me that he doesn't like it:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good. You might want to say",
+      "lang": "en"
+    },
+    {
+      "text": "me parece bien.",
+      "lang": "es"
+    },
+    {
+      "text": "That would mean it seems good to me, it seems fine to me. But we're not using the word good, we're using the word well. Bien.",
+      "lang": "en"
+    },
+    {
+      "text": "Me parece bien.",
+      "lang": "es"
+    },
+    {
+      "text": "It seems to me well. You'll find a little gray area between English and Spanish about when we say good, bueno, and when we say well, bien. But it's something you'll pick up listening.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "So here you would say well, it seems well to me, it seems good to me:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me parece bien.",
+      "lang": "es"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "It doesn't seem good to me:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No me parece bien.",
+      "lang": "es"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "It doesn't seem good to her, or to him, or to you (formal):",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "Good. Now let's make it a question. Doesn't it seem ok to you?:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "No le parece bien?",
+      "lang": "es"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "What was to interest?",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Interesar.",
+      "lang": "es"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "How would you say it would interest me, it would interest me?",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "It would interest me to see it:",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "Good. To put, we said was",
+      "lang": "en"
+    },
+    {
+      "text": "poner. Poner.",
+      "lang": "es"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Poner.",
+      "lang": "es"
+    },
+    {
+      "text": "And we said that it's an",
+      "lang": "en"
+    },
+    {
+      "text": "interesting",
+      "lang": "es"
+    },
+    {
+      "text": "verb because when we have - pose inside a verb in English, we can change that - pose to",
+      "lang": "en"
+    },
+    {
+      "text": "poner",
+      "lang": "es"
+    },
+    {
+      "text": "and we get the verb in Spanish. So for example, to compose in Spanish is componer. And this com - is actually con -. The n changes next to the p, so it literally means “with putting”. To compose is “with putting”, putting together. Compose, componer.",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "To suppose:",
+      "lang": "en"
+    }
+  ],
+  "turn-87-reveal": [
+    {
+      "text": "Suponer.",
+      "lang": "es"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "To oppose:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Oponer.",
+      "lang": "es"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "To impose:",
+      "lang": "en"
+    }
+  ],
+  "turn-91-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "So how would you say I want to put it here? I want to put it here:",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero ponerlo aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "I would like to put it here.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "It would please me:",
+      "lang": "en"
+    }
+  ],
+  "turn-95-reveal": [
+    {
+      "text": "Good. Now",
+      "lang": "en"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "if you want to say I want to put salt on it, you don't need to say on. What do you think you can replace this on it with? So instead of saying on it, what do you think you might be able to say in Spanish? What is the word for it:",
+      "lang": "en"
+    }
+  ],
+  "turn-97-reveal": [
+    {
+      "text": "And what do you think you could to do that to make it like on it?",
+      "lang": "en"
+    }
+  ],
+  "turn-97-prompt": [
+    {
+      "text": "How do you say to it:",
+      "lang": "en"
+    }
+  ],
+  "turn-99-prompt": [
+    {
+      "text": "This is not how you say to it.",
+      "lang": "en"
+    }
+  ],
+  "turn-101-prompt": [
+    {
+      "text": "Ah, so how do you say to it, for it, from it:",
+      "lang": "en"
+    }
+  ],
+  "turn-103-reveal": [
+    {
+      "text": "Le. So, if you want to say I want to put salt on it, you don't say on it, you just say le. Salt is sal, sal.",
+      "lang": "en"
+    }
+  ],
+  "turn-103-prompt": [
+    {
+      "text": "So how would you say I want to put it salt, and with this it we mean on it.",
+      "lang": "en"
+    }
+  ],
+  "turn-105-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero ponerle sal.",
+      "lang": "es"
+    }
+  ],
+  "turn-105-prompt": [
+    {
+      "text": "I would like to put salt on it:",
+      "lang": "en"
+    }
+  ],
+  "turn-107-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gustaría ponerle sal.",
+      "lang": "es"
+    },
+    {
+      "text": "A little, a little is",
+      "lang": "en"
+    },
+    {
+      "text": "un poco. Un poco.",
+      "lang": "es"
+    },
+    {
+      "text": "Literally a little,",
+      "lang": "en"
+    },
+    {
+      "text": "un poco.",
+      "lang": "es"
+    }
+  ],
+  "turn-109-reveal": [
+    {
+      "text": "Good. So you could say I would like to put it a little more,",
+      "lang": "en"
+    }
+  ],
+  "turn-109-prompt": [
+    {
+      "text": "what was the word for more, like in more late?",
+      "lang": "en"
+    }
+  ],
+  "turn-111-prompt": [
+    {
+      "text": "I would like to put it a little more salt, I would like to put on it a little more salt:",
+      "lang": "en"
+    }
+  ],
+  "turn-113-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gustaría ponerle un poco más sal.",
+      "lang": "es"
+    },
+    {
+      "text": "What if you wanted to say I would like to put on them a little more salt? You know maybe you mean las papas fritas. The chips, the french fries.",
+      "lang": "en"
+    }
+  ],
+  "turn-113-prompt": [
+    {
+      "text": "I would like to put on them a little more salt:",
+      "lang": "en"
+    }
+  ],
+  "turn-115-full": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gustaría ponerles un poco más sal.",
+      "lang": "es"
+    }
+  ]
+}

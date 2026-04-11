@@ -1,0 +1,348 @@
+{
+  "turn-1-full": [
+    {
+      "text": "For -ar verbs, we use -amos for 'we' in the present tense. For -er verbs, it's -emos, and for -ir verbs, it's -imos. This is the only time -er and -ir verbs differ in the entire language. Let's look at preferir. What does preferir mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Good. To",
+      "lang": "en"
+    },
+    {
+      "text": "prefer.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'I",
+      "lang": "en"
+    },
+    {
+      "text": "prefer",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Prefiero.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How about 'he prefers'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Prefiere.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And 'they",
+      "lang": "en"
+    },
+    {
+      "text": "prefer",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Prefieren.",
+      "lang": "es"
+    },
+    {
+      "text": "Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "how would you say 'we",
+      "lang": "en"
+    },
+    {
+      "text": "prefer",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Preferimos.",
+      "lang": "es"
+    },
+    {
+      "text": "Notice the -imos ending for -ir verbs.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "What was 'to come'?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Venir.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How do you say 'we come'?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Venimos.",
+      "lang": "es"
+    },
+    {
+      "text": "To live is vivir.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How do you say 'I live'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Vivo.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How would you say 'I live here'?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Vivo aquí.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Now, 'I don't live here, but he lives here':",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good. To know is saber.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How do you say 'we live'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Vivimos.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "And 'he lives'?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Vive.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How about 'they live here'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Viven aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "The word for 'where' is dónde.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How do you say 'where do they live'?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "'I want to know where they live':",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Quiero saber dónde viven.",
+      "lang": "es"
+    },
+    {
+      "text": "To understand is entender.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How do you say 'I understand'?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Entiendo.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And 'he understands'?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Entiende.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "'He doesn't understand':",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "No entiende.",
+      "lang": "es"
+    },
+    {
+      "text": "'Why doesn't he understand?'",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "¿Por qué no entiende?",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "'I want to know why he doesn't understand':",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Quiero saber por qué no entiende.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How do you say 'we understand'?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Entendemos.",
+      "lang": "es"
+    },
+    {
+      "text": "For -er verbs, we use -emos.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "How do you say 'we lose'?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-full": [
+    {
+      "text": "Perdemos.",
+      "lang": "es"
+    },
+    {
+      "text": "'We always lose':",
+      "lang": "en"
+    }
+  ],
+  "turn-47-full": [
+    {
+      "text": "Siempre perdemos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned the present tense endings for -er and -ir verbs, focusing on the 'we' form.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try using these endings with other verbs you know. How would you say 'we eat' or 'we write'?",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Practicing with different verbs will help reinforce these patterns and make them second nature.",
+      "lang": "en"
+    }
+  ]
+}

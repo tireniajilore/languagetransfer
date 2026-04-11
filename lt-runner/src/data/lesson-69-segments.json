@@ -1,0 +1,350 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So now we have a panorama of times in Spanish. We’ve seen all of the different times. We can find will, would, the present, the pasts, the have tenses. Maybe some of these we are clearer on than others, but we’ve learned how to find what we might think we don’t know and how to analyze the language, so that through listening to Spanish we can reinforce the language that we’ve learned and bring it to the surface and pick up again anything that we might have forgotten along the way. But there is one more tense to learn in Spanish. One more very important tense in Spanish, and personally it’s my favorite thing about Spanish. In Spanish we have what we can call a mood tense, the subjunctive tense in grammatical terminology, but we will call it the mood tense because it’s a tense that just shows mood. Now, you might be interested to hear that we also have it in English. Now, we don’t use it as much in English as we do in Spanish but it is there. For example, in English it’s important you can say it is important that you are here or it is important that you be here. So, It’s important that you be here; that you are here sounds more everyday, let’s say, more casual. that gives us a different feeling. It feels more serious, it feels more imperative. How are we It’s important that achieving that feeling? We’re using be instead of you are. We are using you be. you be here. Another example of how English uses this mood, I might say had I gone, I would know. Had I gone, I would know. Now, had I, that inversion of I had to had I usually is to make a for example. But here it’s not a question. question. Had you gone already? Had I gone, I would know. Here we are creating a mood tense. We are saying if I had gone with had I gone. We also say not only is it, for example, not only is it a problem, it’s the biggest problem. Not only is it, is what we do to make a question. But here it’s not a question. again, is it Not only is it a problem, it’s the biggest problem. So the changing of the order of is and it gives us this mood tense here in English as well. So we don’t need to analyze too much how it works in English, because there’s not so much correlation between English and Spanish about how it works. It’s used much more extensively in Spanish. But the idea is not completely alien to us. In Spanish, it’s a very common thing that will allow you and oblige you to perceive and to express the world in a certain way. Now, to form the mood tense, to form the subjunctive tense in Spanish, is very easy, and we don’t need to learn any new sounds to do it. All we do is we switch between the verbs. With – ar verbs –er/-ir –er/-ir we will use the endings, and with verbs we will use the – ar verb endings. And that’s how we build this tense. So, for example, how is to speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And how is he speaks?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Habla.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Habla. Good. The accent there at the beginning. Habla. Now if you want to make this the mood –er/-ir tense, we will switch groups. We we will switch groups. Verbs from the – ar group use endings, and verbs from the -er/-ir group use – ar endings.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "So how would you make habla in the mood tense?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Hable.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "So you have they speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Hablan.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "And the mood tense version will be?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Hablen.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How is I speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Hablo.",
+      "lang": "es"
+    },
+    {
+      "text": "Of course if we go from",
+      "lang": "en"
+    },
+    {
+      "text": "hablo",
+      "lang": "es"
+    },
+    {
+      "text": "in the – ar group and we go to -er/-ir we will still have. So we don’t do that.",
+      "lang": "en"
+    },
+    {
+      "text": "hablo.",
+      "lang": "es"
+    },
+    {
+      "text": "We will change an o for an o",
+      "lang": "en"
+    },
+    {
+      "text": "Hablo",
+      "lang": "es"
+    },
+    {
+      "text": "will also become",
+      "lang": "en"
+    },
+    {
+      "text": "hable.",
+      "lang": "es"
+    },
+    {
+      "text": "So again we have a situation where I jumps in with he, she, it, and you (formal). So",
+      "lang": "en"
+    },
+    {
+      "text": "hable",
+      "lang": "es"
+    },
+    {
+      "text": "can also be the mood tense for I.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "What is we speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Hablamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "And the mood tense of we speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Hablemos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We are using the / e /, not that odd i that pops up with the – ir verbs in the present like vivimos, salimos. - emos for the mood tense.",
+      "lang": "en"
+    },
+    {
+      "text": "Hablemos.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "What was to eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Comer.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "I eat:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Como.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "But the mood tense version would be?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Coma.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "And what else can",
+      "lang": "en"
+    },
+    {
+      "text": "coma",
+      "lang": "es"
+    },
+    {
+      "text": "mean, then?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good, and you (formal). Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "They eat, normal tense, present tense?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Comen.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "And the mood tense?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Coman",
+      "lang": "es"
+    },
+    {
+      "text": "first think what the verb should be, and then you switch it. So we’re going to have a nice practice mentally, in our mental exercises, of the tenses that we already learned whilst we are building the mood tense. So the use of the mood tense we can divide between obligatory and optional. There are some situations in which we absolutely must use the mood tense, otherwise it will be considered an error. It will sound incorrect and distract from what we are saying. And then there are cases where the use of the mood tense is optional. You can use it to give a different meaning or a different flavor or a different feeling, which is the much more exciting area, where it’s optional. But the obligatory uses will allow us a very important exposure to the feeling of the mood tense. So now we’re going to look at some examples. In English when you say I want you to wait,, this is quite a peculiar structure in English. And it’s not really translated in this I want you to wait way in many other languages. I want you to wait. In most other Romance languages, at least, it’s translated as I want that you wait. This is how we would say it in French or Portuguese or Italian. So I want you to wait is I want that you wait. Now, this you wait is going to be in the mood tense. When we are expressing what we want in this way, we will use the mood tense. We are putting our subjectivity onto the world when we say I want that and following this that, we will use the mood tense.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So how would you say I want you to wait? I want that you wait (informally): remains the same and it’s",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "All together, I want that you wait:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero que esperes.",
+      "lang": "es"
+    },
+    {
+      "text": "Ah? So if you say quiero que esperas, here it would be considered an error. This is an obligatory use of the subjunctive, of the mood tense.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero que esperes.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "I want you to wait for him, or I want you to wait for it:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero que lo esperes.",
+      "lang": "es"
+    },
+    {
+      "text": "I want you to wait for it or for him. Very good. Do you want me to wait? So first let’s find the in-between sentence. Give it to me in English, how we will say it in Spanish. Do you want me to wait?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "You made it more complicated. But, let’s put it. So do you want me to wait for you? Give me that one. Do you want me to wait for you?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "And let’s speak informally.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Very good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Quieres que te espere?",
+      "lang": "es"
+    },
+    {
+      "text": "And of course this could mean: Do you want me to wait for you? Do you want him to wait for you? Do you want her to wait for you? So if we wanted to clarify I, how would we do that? Do you want me to wait for you?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-43-full": [
+    {
+      "text": "Very good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Quieres que yo te espere?",
+      "lang": "es"
+    }
+  ]
+}

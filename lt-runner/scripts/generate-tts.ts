@@ -3,8 +3,9 @@ import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { put } from '@vercel/blob';
 import { buildElevenLabsRequestBody, getElevenLabsVoiceId } from '../src/lib/elevenlabs-config';
-import { lesson02 } from '../src/data/lesson-02';
+import { formatLessonNumber, getAvailableLessons, getLesson } from '../src/data/get-lesson';
 import type { SpeechSegment } from '../src/types/lesson';
 import type { TTSManifest } from '../src/types/tts-manifest';
 
@@ -12,8 +13,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 const publicRoot = path.join(projectRoot, 'public');
-
-const LESSONS = [lesson02];
 
 function parseEnvLine(line: string) {
   const trimmed = line.trim();
@@ -93,11 +92,33 @@ async function generateSegmentAudio(
   await writeFile(destinationPath, buffer);
 }
 
-async function generateLessonManifest(lessonId: string) {
-  const lesson = LESSONS.find((entry) => entry.id === lessonId);
-  if (!lesson) {
-    throw new Error(`Unknown lesson: ${lessonId}`);
+async function uploadSegmentAudio(
+  lessonId: string,
+  fileName: string,
+  destinationPath: string
+) {
+  const token = process.env.BLOB_READ_WRITE_TOKEN;
+  if (!token) {
+    return null;
   }
+
+  const uploaded = await put(
+    `audio/${lessonId}/${fileName}`,
+    await readFile(destinationPath),
+    {
+      access: 'public',
+      addRandomSuffix: false,
+      contentType: 'audio/mpeg',
+      token
+    }
+  );
+
+  return uploaded.url.replace(new RegExp(`/${fileName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`), '');
+}
+
+async function generateLessonManifest(lessonId: string) {
+  const lessonNumber = Number(lessonId.replace('lesson-', ''));
+  const lesson = getLesson(lessonNumber);
 
   const apiKey = process.env.ELEVENLABS_API_KEY;
   if (!apiKey) {
@@ -107,6 +128,8 @@ async function generateLessonManifest(lessonId: string) {
   const outputDir = path.join(publicRoot, 'audio', lesson.id);
   const manifestPath = path.join(outputDir, 'manifest.json');
   const existingManifest = await readExistingManifest(manifestPath);
+  let baseUrl = process.env.TTS_BASE_URL?.replace(/\/$/, '')
+    ?? existingManifest?.baseUrl;
 
   await mkdir(outputDir, { recursive: true });
 
@@ -133,6 +156,9 @@ async function generateLessonManifest(lessonId: string) {
         await delay(300);
       }
 
+      const uploadedBaseUrl = await uploadSegmentAudio(lesson.id, file, destinationPath);
+      baseUrl = uploadedBaseUrl ?? baseUrl;
+
       manifestSegments.push({
         ...segment,
         file,
@@ -145,6 +171,7 @@ async function generateLessonManifest(lessonId: string) {
 
   const manifest: TTSManifest = {
     lessonId: lesson.id,
+    baseUrl,
     generatedAt: new Date().toISOString(),
     entries
   };
@@ -155,8 +182,41 @@ async function generateLessonManifest(lessonId: string) {
 async function main() {
   await loadDotEnvLocal();
   await mkdir(publicRoot, { recursive: true });
+  const lessonNumbers = parseLessonNumbers(process.argv.slice(2));
 
-  await generateLessonManifest('lesson-02');
+  for (let index = 0; index < lessonNumbers.length; index += 1) {
+    const lessonNumber = lessonNumbers[index];
+    await generateLessonManifest(`lesson-${formatLessonNumber(lessonNumber)}`);
+
+    if (index < lessonNumbers.length - 1) {
+      await delay(5000);
+    }
+  }
+}
+
+function parseLessonNumbers(args: string[]) {
+  const availableLessons = new Set(getAvailableLessons());
+  const lessons: number[] = [];
+
+  for (let index = 0; index < args.length; index += 1) {
+    const arg = args[index];
+
+    if (arg === '--all') {
+      return [...availableLessons].sort((a, b) => a - b);
+    }
+
+    if (arg === '--lesson') {
+      const value = Number(args[index + 1]);
+      if (!Number.isInteger(value) || !availableLessons.has(value)) {
+        throw new Error(`Unknown lesson: ${args[index + 1] ?? '(missing)'}`);
+      }
+
+      lessons.push(value);
+      index += 1;
+    }
+  }
+
+  return lessons.length > 0 ? [...new Set(lessons)].sort((a, b) => a - b) : [2];
 }
 
 main().catch((error) => {

@@ -1,0 +1,440 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We can talk about the future using the present tense with future context words. For example, how do you say 'tomorrow'?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Mañana.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How about 'later' or 'more late'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Más tarde.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "And 'tonight' or 'this night'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Esta noche.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Another word is 'pronto'.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "What does 'pronto' mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Soon.",
+      "lang": "es"
+    },
+    {
+      "text": "You might hear 'get here pronto' in English, meaning 'get here",
+      "lang": "en"
+    },
+    {
+      "text": "soon",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Now, what is the verb 'to see'?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Ver.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How do you say 'he sees'?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Ve. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How about 'they see'?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Ven.",
+      "lang": "es"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "And 'you (informal) see'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Ves.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How do you say 'we see'?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Vemos.",
+      "lang": "es"
+    },
+    {
+      "text": "The 'I' form is a bit irregular: it's '",
+      "lang": "en"
+    },
+    {
+      "text": "veo",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Veo.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How would you say 'I see her later'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "La veo más tarde.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How about 'I'm seeing her tonight'?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "La veo esta noche.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How do you say 'we are seeing her",
+      "lang": "en"
+    },
+    {
+      "text": "soon",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "La vemos pronto.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "If we mean a female group, how do you say 'we're seeing them",
+      "lang": "en"
+    },
+    {
+      "text": "soon",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Las vemos pronto.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "How would you say 'he is seeing them",
+      "lang": "en"
+    },
+    {
+      "text": "soon",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Las ve pronto.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "And 'you (informal) are seeing them",
+      "lang": "en"
+    },
+    {
+      "text": "soon",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Las ves pronto.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "How would you ask 'are you seeing them",
+      "lang": "en"
+    },
+    {
+      "text": "soon?",
+      "lang": "es"
+    },
+    {
+      "text": "'",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "¿Las ves pronto?",
+      "lang": "es"
+    },
+    {
+      "text": "And 'why aren't you seeing them",
+      "lang": "en"
+    },
+    {
+      "text": "soon?",
+      "lang": "es"
+    },
+    {
+      "text": "'",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "¿Por qué no las ves pronto?",
+      "lang": "es"
+    },
+    {
+      "text": "Now, let's use 'going to' for future.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "How would you say 'we're going to see her'?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "Good. How about 'are you going to see him",
+      "lang": "en"
+    },
+    {
+      "text": "soon?",
+      "lang": "es"
+    },
+    {
+      "text": "'",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "¿Vas a verlo pronto?",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How would you say 'are you going to see us",
+      "lang": "en"
+    },
+    {
+      "text": "soon?",
+      "lang": "es"
+    },
+    {
+      "text": "'",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "¿Vas a vernos pronto?",
+      "lang": "es"
+    },
+    {
+      "text": "Or you could say, ¿Nos vas a",
+      "lang": "en"
+    },
+    {
+      "text": "ver",
+      "lang": "es"
+    },
+    {
+      "text": "pronto? How about 'why aren't you going to see us",
+      "lang": "en"
+    },
+    {
+      "text": "soon?",
+      "lang": "es"
+    },
+    {
+      "text": "'",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "¿Por qué no vas a vernos pronto?",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "Now, how do you say 'next week' using 'the week that comes'?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "La semana que viene.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "How would you say 'let's speak next week'?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Hablamos la semana que viene.",
+      "lang": "es"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "How do you say 'we see each other'?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Nos vemos.",
+      "lang": "es"
+    },
+    {
+      "text": "This is a common way to say goodbye in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "How would you say 'we will see each other next week'?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-full": [
+    {
+      "text": "Nos vemos la semana que viene.",
+      "lang": "es"
+    },
+    {
+      "text": "Remember, using present tense with future context allows us to talk about future events.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how to use present tense with future context words to talk about future events.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try using 'mañana', 'pronto', or 'la semana que viene' in your own sentences to describe future plans.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Next time, we'll explore more ways to express future actions in Spanish.",
+      "lang": "en"
+    }
+  ]
+}

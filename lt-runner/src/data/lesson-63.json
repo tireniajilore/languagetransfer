@@ -1,0 +1,289 @@
+{
+  "lesson_number": 63,
+  "title": "Lesson 63",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "To remember in Spanish, to remember in Spanish is acordarse. Acordarse acordar. It just means, this - se on the end, just means that when we use this verb we need to say I remember myself to give the meaning of I remember. So how would you say I remember?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "acuerdo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. The - o splits.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "It’s, uh... yeah."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So, I remember:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me acuerdo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me acuerdo.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me acuerdo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No me acuerdo. No me acuerdo. Good. So, him or to her. I don’t remember if I gave it to him or to her I don’t remember. So,:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me- no me acuerdo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "If I gave it to him or to her:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Si lo- si se lo di a él o ella."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Or to her:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "O a ella."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No me acuerdo si se lo di a él o a ella. Very good. How would you say we don’t remember if we gave it to him or to them? And we mean feminine them. So, is the first bit:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No nos acordamos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No nos acordamos because here we are not stressing the - o No nos acordamos. If:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Si"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "We gave it to him or to them (female group):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo dimos,"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "The to when we actually say to him or to them",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo dimos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "To him or to them. Feminine them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "A él o a ellas."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So all together. (feminine):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No acordamos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Where is the se in no acordamos? Where is the se of acordarse?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No nos acordamos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It became nos.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Si se lo dimos a él o a ellas."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Well done. No nos acordamos si se lo dimos a él o a ellas. What was he likes it, it is pleasing to him?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le lo gusta."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Make sure you take the mid road until you are extremely comfortable with how gustar works. Take the mid road of it is pleasing to him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "le gusta."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Le gusta. She likes it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La gusta le gusta."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Le gusta. It’s still to her. It is pleasing to her. Le gusta. So le gusta could mean he likes it, she likes it. What else could it mean? It is pleasing to who else?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Usted"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So maybe here you want to clarify le gusta context it might be, but we’re seeing especially with this group of he, she, and it and usted all together, many times we are wanting to clarify. So bearing in mind that the structure is it is pleasing to him, it is pleasing to her, it is pleasing to you, how are you going to clarify? If you want to clarify that you mean she likes it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le gusta a ella."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "A ella she’s pleasing to would probably just say ella le gusta, which would mean whoever that le is. We would just understand that somebody likes her. She is pleasing to, ah? So, to make it clear we need to put the a. Le gusta a ella. A ella le gusta. To her it is pleasing. It is pleasing to her. And if we wanted to say he liked it, it was pleasing to him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "gustó."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le gustó."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So this could mean it was pleasing to him, it was pleasing to her, it was pleasing to you (formal), could be any combination of he, she, it, or you (formal) liking. He, she, it or you (formal). So how would you clarify? How would you say it was pleasing to her? She liked it, it was pleasing to her:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le gustó a ella."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Le gustó a ella. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

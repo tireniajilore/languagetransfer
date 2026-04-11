@@ -1,0 +1,679 @@
+{
+  "lesson_number": 49,
+  "title": "Lesson 49",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "To call in Spanish, so to call to somebody and also to make a phone call is llamar.",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Llamar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "L-l, and we said this double l creates a / yuh / sound in most Spanish dialects just like the y. L-l-a- m-a-r. Llamar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Llamar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And we said that in Spanish you don’t tend to say my name is or I am called, you say I call myself to introduce yourself. So how would you say I call myself?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me llamo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me llamo. Good. And if you want to ask somebody what their name is, you could say how do you call yourself? So let’s do this informally. How do you call yourself? What was the word for how?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cómo. How do you call yourself?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo te llamas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Cómo te llamas? How would you say how does she call herself? What is her name?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo se llama"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Cómo se llama? Imagine you heard her name once before and you wanted to say what was she called? How was she calling herself?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo se llamaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Cómo se llamaba? What was her name, what was his name, or what was your name (formally)? What was their name, what were they calling themselves?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo se llamaban"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Cómo se llamaban? Good. What was to have, not in the sense of haber, not the have that we use to go into the past, but the have that we used for possession?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tener Tener tener contener tener"
+      ]
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Obtener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Obtener. Maintain changed a little bit. Have a go:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Mentener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Mantener.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Mantener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Mantener. And we said that man- actually is like from mano, hand. Sustain. And this one changed a little bit as well.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sostener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sostener. So this - tain that we have in English is tener. To have. So how would you say I used to have?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tenía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tenía. Good. So if you wanted to say I used to have a big house:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tenía un grande casa Un casa grande"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah, almost, but un?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Una. Una casa grande."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. These bits and pieces require a little thought as well. Tenía una casa grande. We used to have a big house:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Teníamos una grande - una casa grande"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Teníamos una casa grande. And the accent stays in the same place on the - ía. Tenía, teníamos. Good. I used to have four, but now I don’t have any left. I used to have four, but now I don’t have any left: the word for four is cuatro, cuatro.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuatro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Related to:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quarter."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. So I used to have four:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tenía cuatro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. But now:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Pero ahora."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So, or I don’t have any left: say to give that",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me queda"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So all together.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tenía cuatro, pero ahora no me queda"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Tenía cuatro, pero ahora no me queda or pero ahora, no me quedan. You could use either. So, we are not using have to give this meaning we have left. How was I have in the present?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tengo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tengo. And how did you make that I have to? I have to in the sense of I must:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Que. Tengo que"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So I have to see you",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tengo que verte"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Tengo que verte. Now if you want to say I had to see you, you can use this line in the past that we learned even though in English we are saying had, not having to, this is fine in Spanish. So I had to see you, I was having to see you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tenía que verte"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Tenía que verte. Good. Yesterday is ayer, a-y-e-r. Ayer.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ayer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So I had to see you yesterday:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tenía que verte ayer."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Tenía que verte ayer. To do or to make was hacer. H-a-c-e-r. Hacer.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hacer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Did you have to do it yesterday? Talking informally, did you have to do it yesterday?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tenías que hacerlo ayer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Tenías que hacerlo ayer?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No tenías que hacerlo ayer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And you could use this like ¿ No tenías que hacerlo ayer? Didn’t you have to do it yesterday? Weren’t you supposed to do it yesterday? Good. I want to look at just three irregular verbs that we have for this line in the past. Now this is a very regular tense. There are very few irregularities in this tense. It’s a very safe tense and the irregularities that we have are with very small verbs. For example, ver. How was I see, from ver?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Veo. The same irregularity that we get in the I form in the present, veo; we get it in this line in the past. So instead of taking off - er and putting - o, we ended up with this extra e. So veía is I was seeing, I used to see, he was seeing, he used to see, she was seeing, she used to see, or you (formal). Veía. Give me the other versions then. We were seeing:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veíamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Veíamos. They or you guys:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veían"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Veían. You (informal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veías"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Another irregular verb in this tense is ser. Ser. To be. Now the base for I, he, she, it, you (formal) is era, era. Now this is very easy to remember because we are looking at the past which is a line in time and then era in English is a line in time in the past. So we can just think of an era. We would use this with characteristic things. So for example, if you wanted to say I used to be a student, what was student?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estudiante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say I used to be a student?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Era estudiante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Era estudiante. Good. We don’t need the word for a. Era estudiante. Good. Were you a student, informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Eras estudiante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Eras estudiante? We were students.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Eramos, eramos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Where are you putting the accent? I couldn’t tell., but it’s",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ERamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Éramos era, éramos. Good. We were students:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Éramos estudiantes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. What were they? What were they?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Qué eran"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah, ¿Qué eran? Good. And then the last one of course, that is irregular in this tense is ir. Ir. To go. Now I was going is kind of like a blend of the two different ways we have of creating this past: - aba and -ía. I was going is iba. So you see we get a bit of -ía and a bit of - aba with ir. I was going from to go. Iba. So you can give me the other versions. We were going:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Íbamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. They were going:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iban"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. You were going, informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ibas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ibas. Good. Why were you going?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Por qué ibas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Now iba is very useful because, of course, you can use it like in the English I was going to call you, for example. I was going to go, but I didn’t have the time. I was going to do it, but I forgot. So you can use it in this way as well, which is very common. So how would you say I was going to call you, and we are talking informally? I was going to call you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iba llamarte"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "There is something missing. Iba llamarte.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hmm, what kind of verb is going?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iba a llamarte."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Iba a llamarte. I was going to do it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iba hacerlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And I’m not sure here if you are putting the a to connect the verbs.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "If I did it?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No, I didn’t. I forgot."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ok, so again.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iba a hacerlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Iba a hacerlo. So actually in fluent speech you would hear / ibacerlo /. All of those three / a /’s, iba, a, hacer would blend together, so that’s why I wasn’t sure if you said it or not. We were going to do it or make it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Íbamos a hacerlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Íbamos a hacerlo. We were going to do them or we were going to make them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Íbamos a hacerlos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Íbamos a hacerlos. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

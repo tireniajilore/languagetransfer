@@ -1,0 +1,640 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was the word for what?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "Qué.",
+      "lang": "es"
+    },
+    {
+      "text": "What",
+      "lang": "en"
+    },
+    {
+      "text": "lo que, lo que.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "For example,",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "if you want to say, this is not a question, no? I saw what you’re doing I cooked what they’re eating. Here, the what is not a question. Here it’s",
+      "lang": "en"
+    },
+    {
+      "text": "lo que..",
+      "lang": "es"
+    },
+    {
+      "text": "I cooked what they’re eating. Here, what is not a question,",
+      "lang": "en"
+    },
+    {
+      "text": "no?",
+      "lang": "es"
+    },
+    {
+      "text": "Yo cociné, I cooked,",
+      "lang": "en"
+    },
+    {
+      "text": "lo que",
+      "lang": "es"
+    },
+    {
+      "text": "comen, or",
+      "lang": "en"
+    },
+    {
+      "text": "lo que",
+      "lang": "es"
+    },
+    {
+      "text": "están comiendo if we mean right now. So, what not as a question is",
+      "lang": "en"
+    },
+    {
+      "text": "lo que.",
+      "lang": "es"
+    },
+    {
+      "text": "How would I don’t want you to speak about what we spoke about you say - but you know we don’t need this I don’t want you to speak, and let’s speak informally. I don’t want you to about. So the first bit is speak, I don’t want that you speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que hables.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "About:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "De, you could use, or you could use?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Sobre.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "So,",
+      "lang": "en"
+    },
+    {
+      "text": "no quiero que hables",
+      "lang": "es"
+    },
+    {
+      "text": "de, or",
+      "lang": "en"
+    },
+    {
+      "text": "sobre",
+      "lang": "es"
+    },
+    {
+      "text": "what we spoke about, and we can just say what we spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Yes. It’s the same in the past. So give it to me now all together. what we spoke about. From the beginning and thinking it through again.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que hables sobre lo que hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "no quiero que hables",
+      "lang": "es"
+    },
+    {
+      "text": "de",
+      "lang": "en"
+    },
+    {
+      "text": "lo que hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. But that sentence could be ambiguous, no? I mean, in your mind, when you’re creating this sentence you will have the context very strongly in your mind that you’re thinking about what we spoke about the other day. But that doesn’t necessarily mean that the person receiving it has that same context in their mind. They might, depends what your conversation is about. But if you don’t have a context that’s shared, it could be ambiguous. You could understand I don’t want you to speak about what we speak about generally. Because of course we have hablamos, which can be past or present.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que hables sobre lo que hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Generally. So there’s two ways here that you could clarify. You could add something like the other day, el otro día.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que hables sobre lo que hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "el otro día. So you are showing with some time expression that it was past. Or you could use the line in the past. What we were speaking about. Because here it’s interchangeable, the meaning changes so slightly and both I don’t want you to speak about what we were meanings are fine, no? If we look at English, I don’t want you to speak about what we spoke about speaking about.. So maybe here in Spanish you choose the line in the past just so it’s obvious that you’re talking about the past. So let’s give I don’t want you to speak about what we were speaking it another go, using the line in the past. about.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "I don’t want you to speak (informally still):",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que hables sobre lo que hablábamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Necessity in Spanish is – do you remember what to do with - ity words to make them Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So necessity becomes:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "Necesidad.",
+      "lang": "es"
+    },
+    {
+      "text": "To need is",
+      "lang": "en"
+    },
+    {
+      "text": "necesitar.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How would you say I need?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Necesito.",
+      "lang": "es"
+    },
+    {
+      "text": "I need you to prepare it. Let’s speak formally.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "I need you to prepare it (formally):",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Exactly.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Necesito que lo prepare.",
+      "lang": "es"
+    },
+    {
+      "text": "This is to you, formally. If you wanted to make it clear that you are speaking to you and not speaking about him or her,",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "how would you do that here? I need you to prepare it:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Necesito que usted lo prepare. Necesito que lo prepare",
+      "lang": "es"
+    },
+    {
+      "text": "usted. Very good. So with, we’re seeing two things that they have in common. We have a verb like quiero que,",
+      "lang": "en"
+    },
+    {
+      "text": "necesito",
+      "lang": "es"
+    },
+    {
+      "text": "que, a verb that’s showing what we want to occur in the world, expressing our quiero,",
+      "lang": "en"
+    },
+    {
+      "text": "necesito",
+      "lang": "es"
+    },
+    {
+      "text": "subjectivity, let’s say, in this way, and we have the structural similarity that the",
+      "lang": "en"
+    },
+    {
+      "text": "mood tense",
+      "lang": "es"
+    },
+    {
+      "text": "is coming after que. To be short of, to be short of, to be missing, to lack, is faltar. Quite. It’s used very often, uncomfortable translations, but this is a very common verb in Spanish. Faltar I need you to prepare what’s missing this verb in Spanish. For example, you could say. I need you to prepare what’s missing What’s left over, what we need to do still., ah?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So again, formally, I need you to prepare:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "Good..",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Necesito que prepare lo que falta.",
+      "lang": "es"
+    },
+    {
+      "text": "And",
+      "lang": "en"
+    },
+    {
+      "text": "lo que",
+      "lang": "es"
+    },
+    {
+      "text": "because the what here is not a question. Very good. The noun is also used quite often. The noun is falta, la falta. So falta means lack, lack. So if I say falta de consideración, what does it mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Falta de consideración:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good. Lack of consideration. It’s also used with respect, falta de respeto, lack of respect. “It makes lack.” “It makes lack.” Which is just another way also used in the expression hace falta it’s necessary, but it’s very common. And of saying hace falta que of course is followed by this",
+      "lang": "en"
+    },
+    {
+      "text": "mood tense",
+      "lang": "es"
+    },
+    {
+      "text": "in the same way that we do with quiero que,",
+      "lang": "en"
+    },
+    {
+      "text": "necesito",
+      "lang": "es"
+    },
+    {
+      "text": "que, we will follow it with this",
+      "lang": "en"
+    },
+    {
+      "text": "mood tense.",
+      "lang": "es"
+    },
+    {
+      "text": "So, if you wanted to say, using hace falta, it is necessary that we eat soon,",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "what was the word for soon?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "That’s it. In Italian, actually, it means ready,",
+      "lang": "en"
+    },
+    {
+      "text": "pronto.",
+      "lang": "es"
+    },
+    {
+      "text": "This is why when Italians answer the phone,, because historically, let’s say, there was an operator there connecting the wires. they say",
+      "lang": "en"
+    },
+    {
+      "text": "pronto",
+      "lang": "es"
+    },
+    {
+      "text": "And they were there going ready? Are you ready? Is it ready? Can you hear me? But in Spanish it’s soon. Like the British slang. People say in England get here",
+      "lang": "en"
+    },
+    {
+      "text": "pronto,",
+      "lang": "es"
+    },
+    {
+      "text": "get here soon.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "So it makes lack, hace falta, it makes lack that we eat soon:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "It makes lack would be the literal translation, but literal translations are often uncomfortable, no? Especially when we’re talking about fixed expressions. So hace falta is an extremely common it’s necessary expression, quite difficult to translate comfortably. Just another way of saying. So it makes lack or hace falta that we eat soon.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How would it be?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Hace falta que comamos pronto.",
+      "lang": "es"
+    },
+    {
+      "text": "So hace falta you will hear around a lot, and falta as a noun, you will hear it especially in phrases like falta de respeto, a lack of respect, you hear that a lot. And faltar as a verb, to lack, or to be missing is also very useful. To prefer in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "preferir.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Preferir.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Preferir.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "How is I prefer?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "It should be.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Better.",
+      "lang": "en"
+    },
+    {
+      "text": "Prefiero.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So again if you say I prefer him to stay I prefer him to stay, we will say I prefer that he stays, and what are we going to do with he stays?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "I think you’re getting the gist now.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Mood tense.",
+      "lang": "es"
+    },
+    {
+      "text": "So it’s not just the structures that we are identifying, it’s the feeling. This is very important for the",
+      "lang": "en"
+    },
+    {
+      "text": "mood tense.",
+      "lang": "es"
+    },
+    {
+      "text": "What you want to really get your head around is the feeling of the",
+      "lang": "en"
+    },
+    {
+      "text": "mood tense,",
+      "lang": "es"
+    },
+    {
+      "text": "so you can start experimenting about where you would use it and listening out for where you hear people using it.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "I prefer that he stays, I prefer for him to stay, I prefer that he stays:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Prefiero",
+      "lang": "es"
+    },
+    {
+      "text": "que se quede.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "I prefer them to stay, I prefer for them to stay:",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "Prefiero que se queden.",
+      "lang": "es"
+    },
+    {
+      "text": "prefer for them not to stay here:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Prefiero",
+      "lang": "es"
+    },
+    {
+      "text": "que",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "se queden aquí. Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "How would you say I prefer you to give it to him? I prefer you, speaking informally, to give it to him:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "Exactly. – ah,",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "That’s it. Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Prefiero",
+      "lang": "es"
+    },
+    {
+      "text": "que se lo des. So this could mean I prefer you to give it to him, to her, how would we clarify it? If we want to show it’s to him.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "I prefer you to give it to him:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "And what if it was to her?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Prefiero",
+      "lang": "es"
+    },
+    {
+      "text": "que se lo des a ella. Very good. So to clarify we can then say a él, a ella, to show afterwards who we meant with se.",
+      "lang": "en"
+    }
+  ]
+}

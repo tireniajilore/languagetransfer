@@ -1,0 +1,858 @@
+{
+  "lessonId": "lesson-03",
+  "generatedAt": "2026-04-11T13:16:33.605Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "lang": "en",
+          "text": "So what was 'is' or 'he is', 'she is', 'it is'?",
+          "file": "turn-1-full-1.mp3",
+          "hash": "dfe6159f68c8387cf12a502489b03335014a074d12ccce53fd7ee75d299a88d4"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "68263858c5573ac5ecd257426143e98605eb26e9720dabcf5e93fb2c3e1c0530"
+        },
+        {
+          "lang": "en",
+          "text": ". Good. We can use this with some other convertible words as well to make sentences. Another rule for these convertible words is that words in English that end -ant or -ent often become Spanish by adding an e. For example, important becomes ",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "35811cf91c06f1b2835d3235ab641901ae53f14de8cb6f59c223deca65697f35"
+        },
+        {
+          "lang": "es",
+          "text": "importante",
+          "file": "turn-3-reveal-3.mp3",
+          "hash": "890d7fd50cde2bf5b77dfeef231999bfa57a26ff340c60763423f8d71ed5819a"
+        },
+        {
+          "lang": "en",
+          "text": ".",
+          "file": "turn-3-reveal-4.mp3",
+          "hash": "374af5d350d8463f047ee4ef55849cafaf481875583713ed39a8685a191ec427"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "Where is the stress there?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "4ad917932f35e586723be7424b8573d0fee5709ce18f6b0490a48978afd212ec"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "In the second to last syllable. Good. The stress is as much part of the word as the sounds, which is why we want to get into the habit of just observing where the accent is instead of trying to memorize it.",
+          "lang": "en",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "86f3937ddd28e2d81aae25e966bd1d78cb483f0062642053c4fbd3d91e92556b"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say it is important?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "07fd0cc3626bafee3d6b8ba27d98b57bb34d5b25a629c04805318b29b441ab1b"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Es importante",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "2f4ee3ef406fe2333ae76d96f057df09095541d371f7937193c88176f08fedb8"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-7-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'it is not important'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "90df0db167f9b44e2edb0c98dd9a375a162b2958a9ebecacc98dfd881032405f"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "No es importante",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "4bd25e4aacbe7f5f60be12027a69f17589238a7f1e51262a22d28aab0426512f"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How would you say different?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "038fc8725493bdf5b7f38efae7f62d2e32214cdc83efb655b122438c69e1560c"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Diferente",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "b01831b99865b5c887ff9a54c9759353604eb9d6867d164ecadd1e655147bb31"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-11-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'it is not different'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "b0651bce5147f0d693d6eb6dc827c4f4137c5428ca6416fddfeae64f9bc91744"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "No es diferente",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "1ad00da800d3b69c479625931ffff1a8bd03f6b9fbd524f916e4a4ddd0d8d5c4"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-13-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "How would you say constant?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "8ae117c81f42d1ee574c05ddd8ae715ca460b9924f33f20cd742efb8a6a9dea5"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Constante",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "65d2196f4770aa8f9bc2ddeb73aafe7bcbaed5ba91b87c75e1b3ba3860243d5c"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'it is constant'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "9f9338563efa018d2d84fa4f42bf2d7de5b5992a973d57d4ba0499a425c77bb2"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Es constante",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "0cc4217a74ef0e85ea9e8e0c0fc1f7f8206ca88329c811ddb327f5a422b60da5"
+        },
+        {
+          "lang": "en",
+          "text": ". Good. If you want to say constantly, you can say ",
+          "file": "turn-17-reveal-2.mp3",
+          "hash": "768b148cd3cf105dd1ae29f86d7cf517d325876b2ff50ff5943da27b904db17e"
+        },
+        {
+          "lang": "es",
+          "text": "constantemente",
+          "file": "turn-17-reveal-3.mp3",
+          "hash": "3a74fa24ded341b233ed2f29a98f87bd80cbcdcda7b725b1bdb06d8136b014e8"
+        },
+        {
+          "lang": "en",
+          "text": ". It is one word: ",
+          "file": "turn-17-reveal-4.mp3",
+          "hash": "6a658ef1cbef41e5e24fa8470965f59d6720a8e049e36ff872c280f6100bb74b"
+        },
+        {
+          "lang": "es",
+          "text": "constantemente",
+          "file": "turn-17-reveal-5.mp3",
+          "hash": "3a74fa24ded341b233ed2f29a98f87bd80cbcdcda7b725b1bdb06d8136b014e8"
+        },
+        {
+          "lang": "en",
+          "text": ".",
+          "file": "turn-17-reveal-6.mp3",
+          "hash": "374af5d350d8463f047ee4ef55849cafaf481875583713ed39a8685a191ec427"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "It is one word: constantemente. How would you say constantly?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "75b0fe959a1e6a695a30db5f81c5ff77f79368b683fd1932d07bae600e95d90e"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Constantemente",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "732af59748dbda02d6ddd398eed7b62358b1fdd4e369aa2f9e65c42ad7319dfe"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-19-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How would you say legally?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "158a9ff472e0988e404c86f3f52d4f357dc6044b28d7ce099397874812cae9af"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Legalmente",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "cc247660344d587d28acb0e40afffd914c4babd43299c4b71995acf6f9a949b3"
+        },
+        {
+          "lang": "en",
+          "text": ". Perfect.",
+          "file": "turn-21-reveal-2.mp3",
+          "hash": "1421630fc4d352613326816103836f1a429b4adad8089e0fb87ac93300242cc1"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How would you say illegally?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "7a8a7ed8d0c2d2aa9aa17619627fcf58cdf73a390ad40acc3626c6c2487dc41b"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Ilegalmente",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "bfbcdb76121d93e5859b79b1643fe8c34902393b99a482f1f5c3d1ce148a1a92"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-23-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How do you think you say real in Spanish?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "eb2ad1825a067973d5ef9d77aa92b1c0804a3a21d6a5cc232c00ab729acce98c"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Real",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "499b1fbbbac637a83ca4bae26d92876d68ff59ed77361eba947851ec8c0abed0"
+        },
+        {
+          "lang": "en",
+          "text": ". Good. When we have an R at the beginning, you might hear it rolling a bit.",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "64746bef1c1c12a78bd96ab89f734548ff3d67d24ceb273216fc4431aaf9883e"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How do you think you would say really?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "5b37ab7b6085db0fe57d6e31cdbf86072f5834a8959cfeaf9634ae8dc20f3ecb"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Realmente",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "041ad0f279e4d99986d46a0c157b76aee63edd8aa83926c4d1210d9c642b77fe"
+        },
+        {
+          "lang": "en",
+          "text": ". Good. Real also means royal. Real Madrid is not 'real' Madrid, it is 'Royal' Madrid.",
+          "file": "turn-27-reveal-2.mp3",
+          "hash": "707dde0395cc8c551614b75501ce1ceab3668beeb40a6357276611e71c4b6ee8"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How would you say normally?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "ee94ee5c5a0b20456beb6044a1e075ca0acfd48b3f34b772bd33b321a99619f0"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Normalmente",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "41c98684fcddbb26b2890edb9995710b35f97329f755c2b523f758c1c9243bb4"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-29-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "lang": "en",
+          "text": "So what would it mean if I said to you: ",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "2338bea9f07d14cc408037150ddd14a38a8e66ca8e34ccedc97f90f2b43d66a2"
+        },
+        {
+          "lang": "es",
+          "text": "normalmente es importante",
+          "file": "turn-29-prompt-2.mp3",
+          "hash": "7203bf76e5b6e1f1b17d61cc831188e95461b6311caa7c403d4007ab669ee733"
+        },
+        {
+          "lang": "en",
+          "text": "?",
+          "file": "turn-29-prompt-3.mp3",
+          "hash": "4d96dd84eeae916d6d2407edf72cefcd4cb8703970dbac344da845c063b8804e"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "lang": "en",
+          "text": "Normally, as in usually, it's important. Very good. You can use ",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "e4e39ec3c17cfa5ffa26c9b86fdd3a4d762bedc9210b61d8a5e5c9092eb61148"
+        },
+        {
+          "lang": "es",
+          "text": "normalmente",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "137c9b86c5a848f12d207f27e7587ca5bd33dfc687718d85bc23812d0fe67501"
+        },
+        {
+          "lang": "en",
+          "text": " like 'usually'. Now, if we have a J-sound in a convertible word, that J is going to become the soft throat sound in Spanish, like the ch in Scottish loch. Think of ",
+          "file": "turn-31-reveal-3.mp3",
+          "hash": "995f57f292ba02c22990522167cc97770584dc9f3952dd018409d0e6daad6bd6"
+        },
+        {
+          "lang": "es",
+          "text": "Argentina",
+          "file": "turn-31-reveal-4.mp3",
+          "hash": "d0a4a60120b2b1682b89b34173fe67a2dc84b6a57467590dc5e7fa04de6d10b3"
+        },
+        {
+          "lang": "en",
+          "text": ".",
+          "file": "turn-31-reveal-5.mp3",
+          "hash": "374af5d350d8463f047ee4ef55849cafaf481875583713ed39a8685a191ec427"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How would you say global?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "0ca5c4367e4c89b1d358753759543f93f9b29108df7fc2c4d6c0cbb25c344496"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Global",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "2e2902b2a3a8680be5cf5bfda684c39d1bd683f5b2d1d2ea6998978c51266461"
+        },
+        {
+          "lang": "en",
+          "text": ". Good. This G is not a J-sound, so it stays the same.",
+          "file": "turn-33-reveal-2.mp3",
+          "hash": "678223165d83fa707ae8b3140bf782ac1bdee9080c8e15ac67ec70d664b96739"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "How would you say globally?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "c8a397b52e2826795342ddab8385f21bd1a9736776db26f1e13be8cbc4fb3c77"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Globalmente",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "193122cebbc428079dd2dae8dd91ecf40f3c9525d6d54b7b342e3c47e7b42585"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-35-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "Remember, that J-sound becomes the soft throat sound.",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "df76d08ecaa3262b3ab4ece8fcd3de6caa5f4050cca0a6091dc93d8faa8457e8"
+        }
+      ]
+    },
+    "turn-37-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "General",
+          "file": "turn-37-reveal-1.mp3",
+          "hash": "3f058d6dcd8882ff62f1fefea8bcee1fb104ba910811e414f4fb14209ea50ff5"
+        },
+        {
+          "lang": "en",
+          "text": ". Very good. We are causing a bit of friction in the throat.",
+          "file": "turn-37-reveal-2.mp3",
+          "hash": "de4ba13dca9dfe53550a020457d42e6b872795e73b8db0388ccd0a43878d68f8"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "How would you say generally?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "d54450fb103d9bf5eff5bedc56b586d981755418f55ae936267b779e598bb17d"
+        }
+      ]
+    },
+    "turn-39-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Generalmente",
+          "file": "turn-39-reveal-1.mp3",
+          "hash": "5a79cda6407d7e8075361002d0f9faabba39bdb2be9647cd16a72ee6b338b348"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-39-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "How would you say original?",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "16fe72ec89a38fc0a02ae868065bba83d8ebe0f74ae70c91c53f3cadd5513874"
+        }
+      ]
+    },
+    "turn-41-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Original",
+          "file": "turn-41-reveal-1.mp3",
+          "hash": "ec0a03767433800b979ee64ba798b98f7838ad6f81b53e24b27464ff4689a75a"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-41-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "How would you say originally?",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "83ee6c308f5fcce2261e8114ed5d557fb7285a1591d8132ac98a8c6d2342f4b4"
+        }
+      ]
+    },
+    "turn-43-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Originalmente",
+          "file": "turn-43-reveal-1.mp3",
+          "hash": "72cd8de5c9a0fc6e81d211d69f49d159a3a15f2ba9450d66bc79fc3adc904cc7"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-43-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "How would you say digital?",
+          "lang": "en",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "6c645ae7e365803ae9cd620e9b4c6354b14c2c4449dd59674f11c3633dcad5da"
+        }
+      ]
+    },
+    "turn-45-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Digital",
+          "file": "turn-45-reveal-1.mp3",
+          "hash": "1d730a4126e4e063a00a96c59d0d999286f41e883b13186bd0ef737e5edbe1af"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-45-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-45-prompt": {
+      "segments": [
+        {
+          "text": "How would you say naturally?",
+          "lang": "en",
+          "file": "turn-45-prompt-1.mp3",
+          "hash": "dc5a9106a7f8c55081070f6cc02afb12cdf4ec1551531230024fe19b2ee6fa6c"
+        }
+      ]
+    },
+    "turn-47-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Naturalmente",
+          "file": "turn-47-reveal-1.mp3",
+          "hash": "c1f9f551f2c88986404690f8e0f90fa3d16a803d887ec69e7aef2ed6698657e6"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-47-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-47-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'naturally, it is original'?",
+          "lang": "en",
+          "file": "turn-47-prompt-1.mp3",
+          "hash": "c6c8ce5c8e55e75bd2a6961ad7400c877741a015df5fa0e471890dd20ae272ea"
+        }
+      ]
+    },
+    "turn-49-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Naturalmente, es original",
+          "file": "turn-49-reveal-1.mp3",
+          "hash": "3173c207d67ea648d998c22f7d6ab06048c300c90a30637d32a189e05bcf76fb"
+        },
+        {
+          "lang": "en",
+          "text": ". Good. You can also use ",
+          "file": "turn-49-reveal-2.mp3",
+          "hash": "5d8476ea9947b547e1a0e9fe3b8dbec8ba499a254eb144d4cc1db4771113f1be"
+        },
+        {
+          "lang": "es",
+          "text": "naturalmente",
+          "file": "turn-49-reveal-3.mp3",
+          "hash": "97c799c0ff79f3ef64b3251ea09229d8391087e16de868f515be35558b3638cc"
+        },
+        {
+          "lang": "en",
+          "text": " a bit like obviously. Words ending I-B-L-E or A-B-L-E can often be converted too. We pronounce them syllable by syllable and put the stress second from the end.",
+          "file": "turn-49-reveal-4.mp3",
+          "hash": "1cbcc2d256fbf697bc55d98233ad48c0ab87e4e87a8830cdde34ecbd0546ac83"
+        }
+      ]
+    },
+    "turn-49-prompt": {
+      "segments": [
+        {
+          "text": "How would you say possible?",
+          "lang": "en",
+          "file": "turn-49-prompt-1.mp3",
+          "hash": "e508eaf613de960ff97b7c8d4c57e035114bbb2ca7ee6c4b8b6beba687bc8894"
+        }
+      ]
+    },
+    "turn-51-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Posible",
+          "file": "turn-51-reveal-1.mp3",
+          "hash": "d15673f93776938e0b13887fc2f0581120754e471c3700c946c77e6626e73c45"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-51-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-51-prompt": {
+      "segments": [
+        {
+          "text": "How would you say probable?",
+          "lang": "en",
+          "file": "turn-51-prompt-1.mp3",
+          "hash": "9f8fb239bebd2f3c157f9843aa023c41348ad81f138e21d159a26f2daf2ab9b3"
+        }
+      ]
+    },
+    "turn-53-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Probable",
+          "file": "turn-53-reveal-1.mp3",
+          "hash": "f1544f0c8fa817860eb7867521e5894d6bf711b0d12ccc739178c383e1b50679"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-53-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-53-prompt": {
+      "segments": [
+        {
+          "text": "How would you say probably?",
+          "lang": "en",
+          "file": "turn-53-prompt-1.mp3",
+          "hash": "42c0bdcd8cf5d066c6f92ce24689a8ba0dd649ee318a99033a895854892e4572"
+        }
+      ]
+    },
+    "turn-55-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Probablemente",
+          "file": "turn-55-reveal-1.mp3",
+          "hash": "eae6927ddbb92460d4a45758cc714165c02413423c831e16aab8a8739056d6ac"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-55-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-55-prompt": {
+      "segments": [
+        {
+          "text": "How would you say possibly?",
+          "lang": "en",
+          "file": "turn-55-prompt-1.mp3",
+          "hash": "c6053130c6e2f7deee3420b79a3f28e61399de1b94ea25bcb56e94bb4342f7d0"
+        }
+      ]
+    },
+    "turn-57-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Posiblemente",
+          "file": "turn-57-reveal-1.mp3",
+          "hash": "c7ba2a0d1fb994010cb95a72f5e073ea762a645ef37ba1b32cb6fdec50a7126d"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-57-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-57-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'possibly it is original'?",
+          "lang": "en",
+          "file": "turn-57-prompt-1.mp3",
+          "hash": "8267e037b1d2b82dcb073e030d165a909d47984aed97d9fc2da56fe90341a6e2"
+        }
+      ]
+    },
+    "turn-59-reveal": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Posiblemente es original",
+          "file": "turn-59-reveal-1.mp3",
+          "hash": "2a8af48118b92bacabc26366bd5943729fd11a66b309b45821adf1bd7782b2c2"
+        },
+        {
+          "lang": "en",
+          "text": ". Good.",
+          "file": "turn-59-reveal-2.mp3",
+          "hash": "ff40cea9a4eab1e0a2f39fa1c2ebe5faeb9503e492d1648c9380db0963d732ce"
+        }
+      ]
+    },
+    "turn-59-prompt": {
+      "segments": [
+        {
+          "text": "How would you say flexible?",
+          "lang": "en",
+          "file": "turn-59-prompt-1.mp3",
+          "hash": "cb61307985ed3584db8f828018f987073d3f2f674e3fa445b295fa889c13487b"
+        }
+      ]
+    },
+    "turn-61-full": {
+      "segments": [
+        {
+          "lang": "es",
+          "text": "Flexible",
+          "file": "turn-61-full-1.mp3",
+          "hash": "8adf7a96c2ee25876676e59fca92cf435e34e65da9000397befefddd97094d02"
+        },
+        {
+          "lang": "en",
+          "text": ". Good. These patterns give us thousands of useful words, so keep experimenting and noticing which words carry over cleanly into Spanish.",
+          "file": "turn-61-full-2.mp3",
+          "hash": "91fb9a804ddd018d462dbfa12147d81c7ed256e401e711210d275ec809c99709"
+        }
+      ]
+    }
+  }
+}

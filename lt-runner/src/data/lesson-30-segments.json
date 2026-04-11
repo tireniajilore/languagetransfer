@@ -1,0 +1,742 @@
+{
+  "turn-1-full": [
+    {
+      "text": "The word for how in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "cómo.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Cómo.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How do you think you would say, how are you?, talking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cómo estás?",
+      "lang": "es"
+    },
+    {
+      "text": "Because when you ask somebody how they are, you're referring to their state. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cómo estás?",
+      "lang": "es"
+    },
+    {
+      "text": "And formally,",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "how would you ask?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And if you're asking more than one person?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Very nice. The word for where is",
+      "lang": "en"
+    },
+    {
+      "text": "dónde.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "So how would you say, where are you?, talking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde estás?",
+      "lang": "es"
+    },
+    {
+      "text": "I don't know where we are.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "So what was I don't know?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "No sé.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "I don't know where we are:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No sé donde estamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you say, I am here?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Estoy aquí,",
+      "lang": "es"
+    },
+    {
+      "text": "Estoy acá.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How would you say, I want to be here?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero estar aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say, I'm going to be here later? What was the word for late?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Tarde.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "And later or more late?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "So I'm going to be here later:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Voy a estar aquí más tarde.",
+      "lang": "es"
+    },
+    {
+      "text": "Voy is I go or I'm going.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How do you say you go or you are going, speaking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Vas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So how would you say, where are you going to be? So break it up: where are you going to be?:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Yes. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde vas a estar?",
+      "lang": "es"
+    },
+    {
+      "text": "W here are you going to be? Good. So let's run through the forms again, and let's use the words for emphasis just to practice them.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "So I am is:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Yo estoy.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "He is:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Él está.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "She is:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "And you (talking formally) are:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Usted está.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "They are, using the word for they:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Ellos están.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "Or for feminine:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "What is we are?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "And for feminine:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good. So nosotros changes to nosotras.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "You are, talking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "And if we used the word for you:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Tú estás. Tú estás.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "How would you ask more than one person, where do you have to be later? So the first bit is where.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Do you have? , and we are talking to you (plural), which is the same as they. Do you have?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "Yeah, what's to have?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Tener.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And we have it as - tain in words like maintain - mantener, contain - contener, sustain - sostener, entertain - entretener, obtain - obtener. That will help us.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "So first we want to build you guys have from",
+      "lang": "en"
+    },
+    {
+      "text": "tener.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "Good. So where do you have to be later, to you (plural). Try it.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "Slower., and I’ve forgotten the other one now.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "It's okay, work it out again.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "There is something we need to add to",
+      "lang": "en"
+    },
+    {
+      "text": "tienen",
+      "lang": "es"
+    },
+    {
+      "text": "to get this meaning of have to, and it's not a comfortable translation.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "Later:",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde tienen que estar más tarde?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. You might want to say, he must be here, and you can use this in the same way as you do in English, to refer to probability. Oh, he must be here by now, or something like this. You have the same use in Spanish. And must is the same as to owe, which is related to debt.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "So what was to owe?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Deber.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "So he owes or he must:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Debe.",
+      "lang": "es"
+    },
+    {
+      "text": "This e doesn't split. Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Debe.",
+      "lang": "es"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "So he must be here:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "And he must be tired:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Debe estar cansado.",
+      "lang": "es"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "They must be tired:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "What if they were females?",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "All together. Don't miss the fun.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Deben estar cansadas.",
+      "lang": "es"
+    },
+    {
+      "text": "To remain was",
+      "lang": "en"
+    },
+    {
+      "text": "quedar. Quedar.",
+      "lang": "es"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "And to get the meaning of I stay, we say, I remain myself. So how would that sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "I remain myself:",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Me quedo.",
+      "lang": "es"
+    },
+    {
+      "text": "I am staying.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "How would we are staying, or we remain ourselves, be?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Good. We are not going to stay, because we are very tired. We are not going to stay, because we are very tired.",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "So the first bit that needs to command all of our attention is we are not going:",
+      "lang": "en"
+    }
+  ],
+  "turn-87-reveal": [
+    {
+      "text": "No vamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "We are not going to stay, so we are not going to remain ourselves:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No vamos a quedarnos",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "nos vamos a",
+      "lang": "en"
+    },
+    {
+      "text": "quedar.",
+      "lang": "es"
+    },
+    {
+      "text": "You can have this as well.",
+      "lang": "en"
+    },
+    {
+      "text": "No",
+      "lang": "es"
+    },
+    {
+      "text": "nos vamos a",
+      "lang": "en"
+    },
+    {
+      "text": "quedar.",
+      "lang": "es"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "Because, same as why:",
+      "lang": "en"
+    }
+  ],
+  "turn-91-reveal": [
+    {
+      "text": "Porque.",
+      "lang": "es"
+    },
+    {
+      "text": "We are very tired. And let's be a masculine or a mixed group.",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "We are very tired:",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Good, now all together and not from memory. Thinking about it again, block by block. If you rush it, you will trip and tripping is very time-consuming. So, we are not going to remain ourselves.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "To stay:",
+      "lang": "en"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "Good. Because we are very tired.",
+      "lang": "en"
+    }
+  ],
+  "turn-97-full": [
+    {
+      "text": "Well done.",
+      "lang": "en"
+    },
+    {
+      "text": "No vamos a quedarnos, no",
+      "lang": "es"
+    },
+    {
+      "text": "nos vamos a",
+      "lang": "en"
+    },
+    {
+      "text": "quedar porque, estamos muy cansados.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ]
+}

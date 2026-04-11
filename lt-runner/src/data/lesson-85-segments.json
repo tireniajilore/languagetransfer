@@ -1,0 +1,386 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We can identify this group of - go verbs and expect them to go to - ga when they are in the subjunctive or the mood tense. So I leave from",
+      "lang": "en"
+    },
+    {
+      "text": "salir",
+      "lang": "es"
+    },
+    {
+      "text": "is:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Salgo.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And if I want to tell somebody leave (formally):",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Salga.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "And if I want to tell more than one person:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Good, and if I want to tell them don't leave:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "No salgan.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Poner was to put.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "I put:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Pongo,",
+      "lang": "es"
+    },
+    {
+      "text": "good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Lets speak formally, put it here, put it here:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "And where does that lo go with positive commands?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Póngalo aquí.",
+      "lang": "es"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "But don't put it here:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "No lo ponga aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "We saw with regular verbs that we have a shortcut where we don't use the mood tense for informal positive commands. So if I want to tell you to eat I can just say come, I go to comes and I drop the s, come. If I want to tell you to find it I can go to encontrar,. That’s our shortcut for informal positive commands encuentras, I can drop the s, encuéntralo where we don't use the mood tense.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "With these - go verbs, to make that shortcut you just drop the - go, so for example, how do you say I have from tener?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Tengo.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "If you want to tell somebody informally have, you just drop the - go:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Ten.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "Have it:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    },
+    {
+      "text": "Tenlo.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "For formal, but we are now looking at the shortcut that we have for informal,",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "so how would you say have it, speaking formally?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Téngalo.",
+      "lang": "es"
+    },
+    {
+      "text": "But informally we are not using the mood tense, we have a short cut, it's just different to the short cut we learnt before, the short cut is just dropping the - go,",
+      "lang": "en"
+    },
+    {
+      "text": "tenlo.",
+      "lang": "es"
+    },
+    {
+      "text": "A nice way to remember this is how you will see people in many Spanish speaking countries answering the phone, either",
+      "lang": "en"
+    },
+    {
+      "text": "dígame,",
+      "lang": "es"
+    },
+    {
+      "text": "formally, or",
+      "lang": "en"
+    },
+    {
+      "text": "dime",
+      "lang": "es"
+    },
+    {
+      "text": "informally.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "What is I come?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "And how do you tell somebody formally to come?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Venga.",
+      "lang": "es"
+    },
+    {
+      "text": "Now",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "how would you make it informal?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Ven.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So I should mention that the",
+      "lang": "en"
+    },
+    {
+      "text": "venga",
+      "lang": "es"
+    },
+    {
+      "text": "that you hear in Spain as come on is not necessarily formal, it’s lost that feeling of formality because its like a fixed expression, so",
+      "lang": "en"
+    },
+    {
+      "text": "venga, venga",
+      "lang": "es"
+    },
+    {
+      "text": "you hear all the time, and then",
+      "lang": "en"
+    },
+    {
+      "text": "ven",
+      "lang": "es"
+    },
+    {
+      "text": "will sound much more like come, physically come, rather than come on;",
+      "lang": "en"
+    },
+    {
+      "text": "venga, venga, venga",
+      "lang": "es"
+    },
+    {
+      "text": "is used like come on.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "What was to leave or to go out?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Salir.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "I leave or I go out:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Salgo.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Leave, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Sal.",
+      "lang": "es"
+    },
+    {
+      "text": "We can just drop the - go. I say or I tell is digo.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "If you want to say tell me formally, how is it?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Dígame.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "If you want to make that same command informally, how will it be?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Dime.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So both things you hear when people answer the phone in Spain -",
+      "lang": "en"
+    },
+    {
+      "text": "dime, dígame",
+      "lang": "es"
+    },
+    {
+      "text": "- and in other countries, in other Spanish speaking countries as well. So for - go verbs they will go to - ga to form the mood tense and for the orders, the short cut for the informal positive order they will just drop this - go. So",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "if you want to say tell me when you come, speaking informally, how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good. After cuando we are using the mood tense because we are referring to the future.",
+      "lang": "en"
+    },
+    {
+      "text": "Dime cuando vengas.",
+      "lang": "es"
+    },
+    {
+      "text": "Tell me when you come.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "How would you say tell me when you do it - and lets speak formally now? Tell me when you do it, speaking formally:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-full": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Dígame cuando lo haga.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "lesson_number": 70,
+  "title": "Lesson 70",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was the word for what?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Qué"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Qué. What lo que, lo que.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo que."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "For example, if you want to say, this is not a question, no? I saw what you’re doing I cooked what they’re eating. Here, the what is not a question. Here it’s lo que.. I cooked what they’re eating. Here, what is not a question, no? Yo cociné, I cooked, lo que comen, or lo que están comiendo if we mean right now. So, what not as a question is lo que. How would I don’t want you to speak about what we spoke about you say - but you know we don’t need this I don’t want you to speak, and let’s speak informally. I don’t want you to about. So the first bit is speak, I don’t want that you speak:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No quiero que hables"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. No quiero que hables. About:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "de"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "De, you could use, or you could use?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sobre"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sobre. Good. So, no quiero que hables de, or sobre what we spoke about, and we can just say what we spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo que hablamos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. It’s the same in the past. So give it to me now all together. what we spoke about. From the beginning and thinking it through again.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No quiero que hables sobre lo que hablamos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No quiero que hables sobre lo que hablamos, or no quiero que hables de lo que hablamos. Good. But that sentence could be ambiguous, no? I mean, in your mind, when you’re creating this sentence you will have the context very strongly in your mind that you’re thinking about what we spoke about the other day. But that doesn’t necessarily mean that the person receiving it has that same context in their mind. They might, depends what your conversation is about. But if you don’t have a context that’s shared, it could be ambiguous. You could understand I don’t want you to speak about what we speak about generally. Because of course we have hablamos, which can be past or present. No quiero que hables sobre lo que hablamos. Generally. So there’s two ways here that you could clarify. You could add something like the other day, el otro día. No quiero que hables sobre lo que hablamos el otro día. So you are showing with some time expression that it was past. Or you could use the line in the past. What we were speaking about. Because here it’s interchangeable, the meaning changes so slightly and both I don’t want you to speak about what we were meanings are fine, no? If we look at English, I don’t want you to speak about what we spoke about speaking about.. So maybe here in Spanish you choose the line in the past just so it’s obvious that you’re talking about the past. So let’s give I don’t want you to speak about what we were speaking it another go, using the line in the past. about. I don’t want you to speak (informally still):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No quiero que hables sobre lo que hablábamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. No quiero que hables sobre lo que hablábamos. Necessity in Spanish is – do you remember what to do with - ity words to make them Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "- idad."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So necessity becomes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Necesidad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Necesidad. To need is necesitar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Necesitar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say I need?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Necesito"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Necesito. I need you to prepare it. Let’s speak formally. I need you to prepare it (formally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "In English again it would be I need that you prepare it."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Necesito que lo prepare"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Necesito que lo prepare. This is to you, formally. If you wanted to make it clear that you are speaking to you and not speaking about him or her, how would you do that here? I need you to prepare it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Necesito que usted lo prepare"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Necesito que usted lo prepare. Necesito que lo prepare usted. Very good. So with, we’re seeing two things that they have in common. We have a verb like quiero que, necesito que, a verb that’s showing what we want to occur in the world, expressing our quiero, necesito subjectivity, let’s say, in this way, and we have the structural similarity that the mood tense is coming after que. To be short of, to be short of, to be missing, to lack, is faltar. Quite. It’s used very often, uncomfortable translations, but this is a very common verb in Spanish. Faltar I need you to prepare what’s missing this verb in Spanish. For example, you could say. I need you to prepare what’s missing What’s left over, what we need to do still., ah? So again, formally, I need you to prepare:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Necesito que prepare."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good..",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo que falta."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Necesito que prepare lo que falta. And lo que because the what here is not a question. Very good. The noun is also used quite often. The noun is falta, la falta. So falta means lack, lack. So if I say falta de consideración, what does it mean? Falta de consideración:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Oh, right. Lack of consideration.. And it’s"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Lack of consideration. It’s also used with respect, falta de respeto, lack of respect. “It makes lack.” “It makes lack.” Which is just another way also used in the expression hace falta it’s necessary, but it’s very common. And of saying hace falta que of course is followed by this mood tense in the same way that we do with quiero que, necesito que, we will follow it with this mood tense. So, if you wanted to say, using hace falta, it is necessary that we eat soon, what was the word for soon?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pronto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That’s it. In Italian, actually, it means ready, pronto. This is why when Italians answer the phone,, because historically, let’s say, there was an operator there connecting the wires. they say pronto And they were there going ready? Are you ready? Is it ready? Can you hear me? But in Spanish it’s soon. Like the British slang. People say in England get here pronto, get here soon. So it makes lack, hace falta, it makes lack that we eat soon:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sorry, can you explain again how, why does that make sense? It makes lack that we eat soon?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It makes lack would be the literal translation, but literal translations are often uncomfortable, no? Especially when we’re talking about fixed expressions. So hace falta is an extremely common it’s necessary expression, quite difficult to translate comfortably. Just another way of saying. So it makes lack or hace falta that we eat soon. How would it be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hace falta que comamos pronto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hace falta que comamos pronto. So hace falta you will hear around a lot, and falta as a noun, you will hear it especially in phrases like falta de respeto, a lack of respect, you hear that a lot. And faltar as a verb, to lack, or to be missing is also very useful. To prefer in Spanish is preferir. Preferir.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Preferir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Preferir. How is I prefer?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It should be.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Better. Prefiero. Good. So again if you say I prefer him to stay I prefer him to stay, we will say I prefer that he stays, and what are we going to do with he stays? I think you’re getting the gist now.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Mood tense."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Mood tense. So it’s not just the structures that we are identifying, it’s the feeling. This is very important for the mood tense. What you want to really get your head around is the feeling of the mood tense, so you can start experimenting about where you would use it and listening out for where you hear people using it. I prefer that he stays, I prefer for him to stay, I prefer that he stays:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefiero que se queda quede"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Prefiero que se quede. I prefer them to stay, I prefer for them to stay:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefiero que se queden."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Prefiero que se queden. prefer for them not to stay here:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefiero que se – que no se queden aquí."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Prefiero que no se queden aquí. Very good. How would you say I prefer you to give it to him? I prefer you, speaking informally, to give it to him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "So it's I prefer that you give it to him?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly. – ah,",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefiero que lo le se lo des"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That’s it. Good. Prefiero que se lo des. So this could mean I prefer you to give it to him, to her, how would we clarify it? If we want to show it’s to him. I prefer you to give it to him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefiero que se lo des a él."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. And what if it was to her?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "A ella. Prefiero que se lo des a ella"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Prefiero que se lo des a ella. Very good. So to clarify we can then say a él, a ella, to show afterwards who we meant with se.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

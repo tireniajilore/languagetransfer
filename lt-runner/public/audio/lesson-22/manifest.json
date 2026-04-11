@@ -1,0 +1,678 @@
+{
+  "lessonId": "lesson-22",
+  "generatedAt": "2026-04-11T13:53:53.612Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "We were learning how to use the present to talk about the past with 'haber'. For example, 'I have gone', 'I have eaten'. What do you think 'terminar' means?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "447f2ecb816a798b2cbc82d6bf7382b3fe1dff91ba8f0588d833c2c8c8d6ce16"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Finish.",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "e5c263fca315e4dd7c84ca936d6cbf7457ed0fa00932a0deda5e577987d1da9a"
+        },
+        {
+          "text": "'Terminar' is to",
+          "lang": "en",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "c311edeaadcbf72e8b2a989d68c625f654289dfc03ebecfc5965c743b1e2a904"
+        },
+        {
+          "text": "finish.",
+          "lang": "es",
+          "file": "turn-3-reveal-3.mp3",
+          "hash": "956d7df253d57ed7cc86f5cb6bac62aba59e1e8c9e23e1e319b1455aa7b7a659"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "Do you remember how to say 'I have' from 'haber'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "cb1a77998696924b157ad7919e9efb0d432079fdb8498adc19e24b5d4180fc5b"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "It's 'he'. Good.",
+          "lang": "en",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "0836bc0e79e8f43638832b2ee694f669b493fab52c6c9d89bd7ffc2624aef80d"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I have finished'? How do you make 'finished' from 'terminar'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "f507e6d338dc1dbc2a1061ff31d0a3dd0ff0f1d0a76d3cac38b4f242b34d8f48"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "He terminado",
+          "lang": "es",
+          "file": "turn-7-reveal-2.mp3",
+          "hash": "fe25e63d9bf4c109040d7c64b19904e3160d4190eaeccdcf28a81dd4c830e220"
+        },
+        {
+          "text": "'. And",
+          "lang": "en",
+          "file": "turn-7-reveal-3.mp3",
+          "hash": "6ec321d971abbac080187fda106b02df3be525306f7e672653f04870ac7ee1e0"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "how would you say 'I have finished it'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "22fc06f361a6d03895e124f23af4cd90533f8b38cd60fdc1f32d9cc4bd227234"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Lo he terminado.",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "ef54b8ee0b89a6d762fef2523ea6366c4d3773bbb7f2dc0ae44eb53f44ba0008"
+        },
+        {
+          "text": "Good. Remember, object pronouns like 'lo', 'la', 'me', 'te' go before the conjugated verb.",
+          "lang": "en",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "d5f28134bcd8b3a376ebe271a986f551e5b3002a8a03108bd3b54de3c600d6d3"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I have finished them'?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "605666f239a74b04cb32426c65ce34db712bada2d2937be5461cffb9667fece0"
+        }
+      ]
+    },
+    "turn-11-full": {
+      "segments": [
+        {
+          "text": "Los he terminado.",
+          "lang": "es",
+          "file": "turn-11-full-1.mp3",
+          "hash": "7bd0416bd7d9bdaf4319b5624db22309eb03704c4784d55c6cbb197d9aa2bf91"
+        },
+        {
+          "text": "Good. For -ar verbs, we use -ado. For -er/-ir verbs, we use -ido. For example, 'vender' becomes 'vendido'.",
+          "lang": "en",
+          "file": "turn-11-full-2.mp3",
+          "hash": "0ceaea3bb792662b4c8184971d21f596b200722accf1eec1416a3f72c7e0dd25"
+        }
+      ]
+    },
+    "turn-12-full": {
+      "segments": [
+        {
+          "text": "How do you say 'I have lost'?",
+          "lang": "en",
+          "file": "turn-12-full-1.mp3",
+          "hash": "b22c7937aea81bbca74468d60cc0063794057e6d4b4ad7501a5c667d439cbd37"
+        }
+      ]
+    },
+    "turn-14-reveal": {
+      "segments": [
+        {
+          "text": "He perdido.",
+          "lang": "es",
+          "file": "turn-14-reveal-1.mp3",
+          "hash": "04e6497ca060f871cee99d78f0dd4387266830c9b7ff5555e731afe3dd3d8b6e"
+        },
+        {
+          "text": "Good. If you want to emphasize, you can say 'yo",
+          "lang": "en",
+          "file": "turn-14-reveal-2.mp3",
+          "hash": "7008c20ff8c2f76db40951e848deba8432e68850c850edc217edc035f2cbd2a6"
+        },
+        {
+          "text": "he perdido",
+          "lang": "es",
+          "file": "turn-14-reveal-3.mp3",
+          "hash": "215730e0a497d0c5146f861e4641de029e1c250f0f5889b04a7e81353207d81a"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-14-reveal-4.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-14-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'we have lost'?",
+          "lang": "en",
+          "file": "turn-14-prompt-1.mp3",
+          "hash": "c9135614cee476f991c03e9c2f51bd64997f997827cc3ed0247bee94290dedb4"
+        }
+      ]
+    },
+    "turn-16-reveal": {
+      "segments": [
+        {
+          "text": "Hemos perdido.",
+          "lang": "es",
+          "file": "turn-16-reveal-1.mp3",
+          "hash": "a79d4f322dcf08a657554852d5c2a43c2a526f3dfd8c46110ff0d2ead0bb5a88"
+        },
+        {
+          "text": "Good. 'Nosotros' is for a male or mixed group, 'nosotras' for females.",
+          "lang": "en",
+          "file": "turn-16-reveal-2.mp3",
+          "hash": "a3cd578053533bf08c02a54f06213e45a092a3b7b167a1f532bf437565403199"
+        }
+      ]
+    },
+    "turn-16-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'we have lost', emphasizing?",
+          "lang": "en",
+          "file": "turn-16-prompt-1.mp3",
+          "hash": "d42815b063ba14894181aec550a7ab89314a17a892a265559dd2808dc803284f"
+        }
+      ]
+    },
+    "turn-18-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-18-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Nosotros hemos perdido",
+          "lang": "es",
+          "file": "turn-18-reveal-2.mp3",
+          "hash": "3bea84b053360ab9f279274f6010a6d3ab57f6202ec8910540a125a3289f99da"
+        },
+        {
+          "text": "' or '",
+          "lang": "en",
+          "file": "turn-18-reveal-3.mp3",
+          "hash": "6f10942aacc6fd7ce148e2a23f9c3aae94722d50c5a1b5c0f889d8114f9d3af8"
+        },
+        {
+          "text": "nosotras hemos perdido",
+          "lang": "es",
+          "file": "turn-18-reveal-4.mp3",
+          "hash": "4d4fcbc207e4b02f0115b50bc432f44a72b68c4e474ab4a43ea513210d5c39e2"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-18-reveal-5.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-18-prompt": {
+      "segments": [
+        {
+          "text": "Now, how do you say 'he has lost'?",
+          "lang": "en",
+          "file": "turn-18-prompt-1.mp3",
+          "hash": "35a3d30f330e3800fe95c4889791e0b9c88aaae1a860e1ee819ffc8cb226a242"
+        }
+      ]
+    },
+    "turn-20-reveal": {
+      "segments": [
+        {
+          "text": "Ha perdido.",
+          "lang": "es",
+          "file": "turn-20-reveal-1.mp3",
+          "hash": "df901deaa6522d04552dee02f8927862925b1065fa8b1aaddfc9132fa27f7dc5"
+        },
+        {
+          "text": "To clarify it's 'he', you can say 'él",
+          "lang": "en",
+          "file": "turn-20-reveal-2.mp3",
+          "hash": "23bd20f81c43e8db5ce60933bd880a0aecdaf81f87a261c2f4be9a80c02abfdd"
+        },
+        {
+          "text": "ha perdido",
+          "lang": "es",
+          "file": "turn-20-reveal-3.mp3",
+          "hash": "dc2741a6eaffcddb7eb7020a86a73e377cc6bacab0c21ee311908fd2da106965"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-20-reveal-4.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-20-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'she has lost'?",
+          "lang": "en",
+          "file": "turn-20-prompt-1.mp3",
+          "hash": "f35686fc3e51f75477e4c012f85117d0703d31fd44c0cce82f1e92afc32d0108"
+        }
+      ]
+    },
+    "turn-22-reveal": {
+      "segments": [
+        {
+          "text": "Ella ha perdido.",
+          "lang": "es",
+          "file": "turn-22-reveal-1.mp3",
+          "hash": "926161e80ff2cc563943f0f6081b019f832912fd8b2b95667bdca5005c60bc6d"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-22-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-22-prompt": {
+      "segments": [
+        {
+          "text": "Now, how do you say 'you have lost' informally?",
+          "lang": "en",
+          "file": "turn-22-prompt-1.mp3",
+          "hash": "a1e017bdff8ed6fdeae8558e3fbaa7ca8472176b0e15cede0fc21574db6f2a71"
+        }
+      ]
+    },
+    "turn-24-reveal": {
+      "segments": [
+        {
+          "text": "Has perdido.",
+          "lang": "es",
+          "file": "turn-24-reveal-1.mp3",
+          "hash": "f78f1f1d5c4c2dcad18bd76afa2eaa5ddec7612aea633ffd39ed50c5825abd12"
+        },
+        {
+          "text": "To emphasize, say 'tú",
+          "lang": "en",
+          "file": "turn-24-reveal-2.mp3",
+          "hash": "ba3022535c753f37e0277f9bcdf15099d51b993808a108bd23fdf70bb81ab0e3"
+        },
+        {
+          "text": "has perdido",
+          "lang": "es",
+          "file": "turn-24-reveal-3.mp3",
+          "hash": "75f850fb31046b461f749dd0b9bd38389488baa9b89372e39044ad55350300af"
+        },
+        {
+          "text": "'. Now, let's practice object pronouns.",
+          "lang": "en",
+          "file": "turn-24-reveal-4.mp3",
+          "hash": "2bc8b84a62bbbde87e3a34a400fd8b99ea45f627db7e0bea9897aa857afe72d7"
+        }
+      ]
+    },
+    "turn-24-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I see it'?",
+          "lang": "en",
+          "file": "turn-24-prompt-1.mp3",
+          "hash": "52f6f80b9238009d5a7200e1af34fb2074da346a4ce03445b9efc691cd94ffae"
+        }
+      ]
+    },
+    "turn-26-reveal": {
+      "segments": [
+        {
+          "text": "Lo veo.",
+          "lang": "es",
+          "file": "turn-26-reveal-1.mp3",
+          "hash": "34c67e801f2f88e26809410eb2890f5c1795b74881a7c5909adfdf41c1f3196b"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-26-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-26-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I see her' or 'I see it' (feminine)?",
+          "lang": "en",
+          "file": "turn-26-prompt-1.mp3",
+          "hash": "54ca75a5729d443f47eb68ae513050c7bf17420776ec63a7e415573c76f74bf9"
+        }
+      ]
+    },
+    "turn-28-reveal": {
+      "segments": [
+        {
+          "text": "La veo.",
+          "lang": "es",
+          "file": "turn-28-reveal-1.mp3",
+          "hash": "29f2c7c32f4d7fdda3dc46ab0638ccca0fd1007d89146e7d5bb8c6dad5cb7b4c"
+        }
+      ]
+    },
+    "turn-28-prompt": {
+      "segments": [
+        {
+          "text": "And 'I see them' (feminine)?",
+          "lang": "en",
+          "file": "turn-28-prompt-1.mp3",
+          "hash": "851d44ed1145731a52fce4cca5120516cef6f864401981a5971d6b80fa6939f5"
+        }
+      ]
+    },
+    "turn-30-reveal": {
+      "segments": [
+        {
+          "text": "Las veo.",
+          "lang": "es",
+          "file": "turn-30-reveal-1.mp3",
+          "hash": "d7534554425706f6d179665e22805168d79b0dd2e36177f47182de783b392e5d"
+        },
+        {
+          "text": "Good. For masculine or mixed, 'los veo'.",
+          "lang": "en",
+          "file": "turn-30-reveal-2.mp3",
+          "hash": "11c53592d4618862774b7094d209a7d089934cbca13915f5fa099345416cc4fa"
+        }
+      ]
+    },
+    "turn-30-prompt": {
+      "segments": [
+        {
+          "text": "Now, how do you say 'he sees'?",
+          "lang": "en",
+          "file": "turn-30-prompt-1.mp3",
+          "hash": "56109075f89a0415b44f5f120b5dbec47335150e02d37fe5d3e89caed246d882"
+        }
+      ]
+    },
+    "turn-32-reveal": {
+      "segments": [
+        {
+          "text": "Él ve.",
+          "lang": "es",
+          "file": "turn-32-reveal-1.mp3",
+          "hash": "884cfe5f88603b81c91e57a3ec814692cd41def4e5630e4b5fc23fb49762e8ab"
+        }
+      ]
+    },
+    "turn-32-prompt": {
+      "segments": [
+        {
+          "text": "And 'she sees'?",
+          "lang": "en",
+          "file": "turn-32-prompt-1.mp3",
+          "hash": "afbfc187b8b964ea69fb21d34623f9afabf851437b7b9a284a5abc26bb6c597f"
+        }
+      ]
+    },
+    "turn-34-reveal": {
+      "segments": [
+        {
+          "text": "Ella ve.",
+          "lang": "es",
+          "file": "turn-34-reveal-1.mp3",
+          "hash": "65dae84c898c590a0de4522fdf114f6091796a3a00fb4447c21f0808b76d2bec"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-34-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-34-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'we see'?",
+          "lang": "en",
+          "file": "turn-34-prompt-1.mp3",
+          "hash": "b634b99301ddf4147cb854b0d856499ada4adee87ff42a0746c95a0a6029bbf6"
+        }
+      ]
+    },
+    "turn-36-reveal": {
+      "segments": [
+        {
+          "text": "Nosotros vemos",
+          "lang": "es",
+          "file": "turn-36-reveal-1.mp3",
+          "hash": "4e1eadbf51e7e7c7c571bc7689beda8712f3faf0432f5385981119bf2d261915"
+        },
+        {
+          "text": "or",
+          "lang": "en",
+          "file": "turn-36-reveal-2.mp3",
+          "hash": "3021fcb0a94dd9a74267dadc5218825bd94c85319fe71e5fc4753d74fb744bf1"
+        },
+        {
+          "text": "nosotras vemos.",
+          "lang": "es",
+          "file": "turn-36-reveal-3.mp3",
+          "hash": "1f7d1961fee98d039f93732d832364494c6f3f63299f664aa8a67d3db14206a5"
+        },
+        {
+          "text": "Good. 'Usted' is the formal 'you'.",
+          "lang": "en",
+          "file": "turn-36-reveal-4.mp3",
+          "hash": "2432452874c6272f1638620ee91e06d5590bcf4cfb4fd4a67bc1d1bb3c839072"
+        }
+      ]
+    },
+    "turn-36-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'you see' formally?",
+          "lang": "en",
+          "file": "turn-36-prompt-1.mp3",
+          "hash": "e029182f25e5406126a78d843eb204429cba91006dfe36572f2d048cee2022e3"
+        }
+      ]
+    },
+    "turn-38-reveal": {
+      "segments": [
+        {
+          "text": "Usted ve.",
+          "lang": "es",
+          "file": "turn-38-reveal-1.mp3",
+          "hash": "45aaa1a752c65b1c89cd755f4205149518957c5963ef4bf47eddceca61352e97"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-38-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-38-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'you see it' formally?",
+          "lang": "en",
+          "file": "turn-38-prompt-1.mp3",
+          "hash": "ba0d2ad1aee0ab3af273b52c47ea80660136fd56edb4c900f4161bc34cf181f2"
+        }
+      ]
+    },
+    "turn-40-reveal": {
+      "segments": [
+        {
+          "text": "Lo ve usted",
+          "lang": "es",
+          "file": "turn-40-reveal-1.mp3",
+          "hash": "0df8df953614842b5f024cb37f57e60841cc6a5369e0b55d30478599f3e75688"
+        },
+        {
+          "text": "or",
+          "lang": "en",
+          "file": "turn-40-reveal-2.mp3",
+          "hash": "3021fcb0a94dd9a74267dadc5218825bd94c85319fe71e5fc4753d74fb744bf1"
+        },
+        {
+          "text": "usted lo ve.",
+          "lang": "es",
+          "file": "turn-40-reveal-3.mp3",
+          "hash": "921513ee09488bbfd19bf4a5d82ec390668041f32a167bf26704f6af1fd96e6a"
+        },
+        {
+          "text": "Both are correct.",
+          "lang": "en",
+          "file": "turn-40-reveal-4.mp3",
+          "hash": "320f305aa72575425b3ae107882d36a439f68ccea2111e1684b7b9f1af7e5303"
+        }
+      ]
+    },
+    "turn-40-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'they see'?",
+          "lang": "en",
+          "file": "turn-40-prompt-1.mp3",
+          "hash": "550714b6cfeeb3163a99cc268b7ead102ed65738a2e7a418a36a5d42020e86c2"
+        }
+      ]
+    },
+    "turn-42-reveal": {
+      "segments": [
+        {
+          "text": "Ellos ven",
+          "lang": "es",
+          "file": "turn-42-reveal-1.mp3",
+          "hash": "2376a333e8f80fe9b0615683e542804c859dc1ec44f97d1b18ea42e8b3dcb93c"
+        },
+        {
+          "text": "or",
+          "lang": "en",
+          "file": "turn-42-reveal-2.mp3",
+          "hash": "3021fcb0a94dd9a74267dadc5218825bd94c85319fe71e5fc4753d74fb744bf1"
+        },
+        {
+          "text": "ellas ven.",
+          "lang": "es",
+          "file": "turn-42-reveal-3.mp3",
+          "hash": "2ab8a6cf527469b9f46345f643d0ffec8fb5ab58f0383188201327d2483ccb70"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-42-reveal-4.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-42-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'they see them'?",
+          "lang": "en",
+          "file": "turn-42-prompt-1.mp3",
+          "hash": "cb7d3f378e6457e6abf650ea7acce3ce0e0efed8d2353fa60d812f808b985806"
+        }
+      ]
+    },
+    "turn-44-full": {
+      "segments": [
+        {
+          "text": "Ellos los ven",
+          "lang": "es",
+          "file": "turn-44-full-1.mp3",
+          "hash": "c93c772ed118b25275c37bcf64249d7f7006a684991761c6069c7d13bbab0e63"
+        },
+        {
+          "text": "or",
+          "lang": "en",
+          "file": "turn-44-full-2.mp3",
+          "hash": "3021fcb0a94dd9a74267dadc5218825bd94c85319fe71e5fc4753d74fb744bf1"
+        },
+        {
+          "text": "ellas las ven.",
+          "lang": "es",
+          "file": "turn-44-full-3.mp3",
+          "hash": "fefd8717ecee4fdc7b6d6dd9dc2f3b01059301d07377143a25c9c5fb7adc2564"
+        },
+        {
+          "text": "Good. Remember, we have two sets of important words: subject pronouns like 'yo', 'él', 'ella', 'nosotros', and object pronouns like 'me', 'te', 'lo', 'la'.",
+          "lang": "en",
+          "file": "turn-44-full-4.mp3",
+          "hash": "83b6f464c3cc648f1008336758bcb6986e9a82aaf8b7289b6a85e43ded8f9c07"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to use 'haber' to form the past tense and practiced using object pronouns.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "3f72fdc6b7b9b6d773b35ab52b78dc1cfab838c39a60adee44df9b61554df34e"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try forming sentences with other verbs you know, like 'comer' or 'vivir', using 'haber'.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "c2445bf5682fef8db118d583322dd5766b7c532fc3eefbb592527c1ac8a9b3a4"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Remember, practice makes perfect. The more you use these structures, the more natural they will become.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "35f86442384b8fd0866dc6f4b4cd65e78e0db6674ba610d32637e1593a135d80"
+        }
+      ]
+    }
+  }
+}

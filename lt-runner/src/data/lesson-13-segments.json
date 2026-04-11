@@ -1,0 +1,326 @@
+{
+  "turn-1-full": [
+    {
+      "text": "To do or to make in Spanish is hacer. It has a silent h, spelled h-a-c-e-r. In most of the Spanish-speaking world, it's pronounced ha/s/er. What is the verb ending?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "-er",
+      "lang": "es"
+    },
+    {
+      "text": "verb. Whenever we come across a new verb, note the ending. If we know it's an",
+      "lang": "en"
+    },
+    {
+      "text": "-er",
+      "lang": "es"
+    },
+    {
+      "text": "verb, we know how to work with it.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'he's doing' or 'she's making'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Hace.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say 'you're doing it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Lo hace.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "How would you say 'they're doing it' or 'you guys are doing it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Lo hacen.",
+      "lang": "es"
+    },
+    {
+      "text": "For informal 'you', we add an 's'.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How do you say 'you're doing it' informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Lo haces.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. The word for 'what' in Spanish is 'qué'.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How do you say 'what are you doing'?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-full": [
+    {
+      "text": "¿Qué haces? This can also mean 'how are you' or 'what are you up to'. For -ar verbs, we add 'n' for 'they' or 'you (plural)', and 's' for informal 'you'. For -er/-ir verbs, we add 's' for informal 'you', 'n' for 'they', 'you (plural)'.",
+      "lang": "en"
+    }
+  ],
+  "turn-14-full": [
+    {
+      "text": "Puedo in Spanish means 'I can' or 'I am able'. How would you say 'he can' or 'she can'?",
+      "lang": "en"
+    }
+  ],
+  "turn-16-reveal": [
+    {
+      "text": "Puede.",
+      "lang": "es"
+    }
+  ],
+  "turn-16-prompt": [
+    {
+      "text": "And informally, 'you can'?",
+      "lang": "en"
+    }
+  ],
+  "turn-18-reveal": [
+    {
+      "text": "Puedes.",
+      "lang": "es"
+    }
+  ],
+  "turn-18-prompt": [
+    {
+      "text": "How would you say 'can you come?' informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-20-prompt": [
+    {
+      "text": "¿Puedes venir?",
+      "lang": "es"
+    },
+    {
+      "text": "How about 'can't you come?'",
+      "lang": "en"
+    }
+  ],
+  "turn-22-reveal": [
+    {
+      "text": "¿No puedes venir?",
+      "lang": "es"
+    }
+  ],
+  "turn-22-prompt": [
+    {
+      "text": "Why can't you come?",
+      "lang": "en"
+    }
+  ],
+  "turn-24-prompt": [
+    {
+      "text": "¿Por qué no puedes venir?",
+      "lang": "es"
+    },
+    {
+      "text": "I want to know why you can't come.",
+      "lang": "en"
+    }
+  ],
+  "turn-26-reveal": [
+    {
+      "text": "Quiero saber por qué no puedes venir.",
+      "lang": "es"
+    },
+    {
+      "text": "Well done. Let's recap: for -ar verbs, we remove the ending for 'I' and add 'o'. For -er/-ir verbs, we do the same.",
+      "lang": "en"
+    }
+  ],
+  "turn-26-prompt": [
+    {
+      "text": "Vender is 'to sell', and 'I sell' is:",
+      "lang": "en"
+    }
+  ],
+  "turn-28-reveal": [
+    {
+      "text": "Vendo.",
+      "lang": "es"
+    }
+  ],
+  "turn-28-prompt": [
+    {
+      "text": "Comprar is 'to buy', and 'I buy' is:",
+      "lang": "en"
+    }
+  ],
+  "turn-30-reveal": [
+    {
+      "text": "Compro.",
+      "lang": "es"
+    }
+  ],
+  "turn-30-prompt": [
+    {
+      "text": "Llegar is 'to arrive', and 'I arrive' is:",
+      "lang": "en"
+    }
+  ],
+  "turn-32-full": [
+    {
+      "text": "Llego.",
+      "lang": "es"
+    },
+    {
+      "text": "Some verbs are irregular, like salir, which means 'to leave'. If we apply the rule, we might say 'salo', but it's actually 'salgo'.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-full": [
+    {
+      "text": "Esperar means 'to wait' or 'to hope'. How do you say 'I wait' or 'I hope'?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Espero.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "How do you say 'he waits'?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Espera.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "How do you say 'they wait'?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Esperan.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "If you want to say 'they're waiting for me', you say '",
+      "lang": "en"
+    },
+    {
+      "text": "me esperan",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Me esperan.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How do you say 'they're not waiting for me'?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "No me esperan.",
+      "lang": "es"
+    },
+    {
+      "text": "I want to know why they're not waiting for me.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-full": [
+    {
+      "text": "Quiero saber por qué no me esperan.",
+      "lang": "es"
+    },
+    {
+      "text": "Well done. Words ending in -ary become -ario in Spanish. For example, 'necessary' becomes 'necesario'.",
+      "lang": "en"
+    }
+  ],
+  "turn-46-full": [
+    {
+      "text": "How do you say 'contrary'?",
+      "lang": "en"
+    }
+  ],
+  "turn-48-full": [
+    {
+      "text": "Contrario.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how to use the verb 'hacer' and understand verb conjugations for different subjects.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try using 'hacer' in different sentences. How would you say 'we are making it' or 'they are doing it'?",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Practice these conjugations with other verbs you know. The more you use them, the more natural they'll become.",
+      "lang": "en"
+    }
+  ]
+}

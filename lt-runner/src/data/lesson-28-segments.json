@@ -1,0 +1,858 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Spanish dialects don't change very much. Slang changes a lot, but Spanish is pretty standard. It's not like Arabic for example, where you have such a different Arabic in Morocco to Egypt, for example. All of the different Spanishes are completely mutually intelligible. But in slang, you get many different terms and words and car is one of these words that have different versions. Money is another one. You might hear dinero, which is like the standard word; you might hear plata, which actually means silver; pasta you might hear pasta, that's one they use that in Spain. So we had a few words for car. Do you remember any of them?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Carro. Two r's. Let's stay with carro.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say the car?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "El carro.",
+      "lang": "es"
+    },
+    {
+      "text": "And",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "how would you say, a car?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Un carro.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So it's a masculine word, and we use el for the, and un for a.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "What if we say, the cars?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Los carros.",
+      "lang": "es"
+    },
+    {
+      "text": "So the plural of el is los. It's a little bit different, el to los. The word for expensive is",
+      "lang": "en"
+    },
+    {
+      "text": "caro.",
+      "lang": "es"
+    },
+    {
+      "text": "So it's like carro, but with one r.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Caro.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "So again it's a nice bit to feel the difference between having the single r and the double r, just as we saw in pero, meaning but and perro meaning dog.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "So how would you say, the car is expensive?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "El carro es caro.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So",
+      "lang": "en"
+    },
+    {
+      "text": "es",
+      "lang": "es"
+    },
+    {
+      "text": "we said was it is, she is, he is or just is. Or you are, talking to usted. Talking formally.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So if you just wanted to say it is expensive:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "And what if you were talking about a feminine thing?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Es cara.",
+      "lang": "es"
+    },
+    {
+      "text": "And when I say feminine thing I really mean a feminine",
+      "lang": "en"
+    },
+    {
+      "text": "noun.",
+      "lang": "es"
+    },
+    {
+      "text": "If you're referring in your mind to a feminine",
+      "lang": "en"
+    },
+    {
+      "text": "noun,",
+      "lang": "es"
+    },
+    {
+      "text": "because if you, in your country, call cars máquinas, then you're going to say",
+      "lang": "en"
+    },
+    {
+      "text": "es cara.",
+      "lang": "es"
+    },
+    {
+      "text": "But if you call them autos, then you're going to say",
+      "lang": "en"
+    },
+    {
+      "text": "es caro.",
+      "lang": "es"
+    },
+    {
+      "text": "So it refers to the word more than the object, to the",
+      "lang": "en"
+    },
+    {
+      "text": "noun,",
+      "lang": "es"
+    },
+    {
+      "text": "the gender of the",
+      "lang": "en"
+    },
+    {
+      "text": "noun.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "es",
+      "lang": "es"
+    },
+    {
+      "text": "we have for is, and for they are, or you guys are - we know they always come together - we have",
+      "lang": "en"
+    },
+    {
+      "text": "son. Son.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "S-o-n.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Son.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "if you want to say the cars are expensive, and we will use carro again. So the cars are expensive:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Los carros son",
+      "lang": "es"
+    },
+    {
+      "text": "caros. Good. What if you use a feminine word like máquina, how's it going to be?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "The cars are expensive:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Las máquinas son caras.",
+      "lang": "es"
+    },
+    {
+      "text": "And the car is expensive: Using again máquina.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "Good. La máquina",
+      "lang": "en"
+    },
+    {
+      "text": "es cara.",
+      "lang": "es"
+    },
+    {
+      "text": "The word teacher in Spanish is professor.",
+      "lang": "en"
+    },
+    {
+      "text": "Profesor.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Profesor.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So how would you say, he is a professor? And we don't need to say “a”, we can just say he is professor.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es profesor.",
+      "lang": "es"
+    },
+    {
+      "text": "What if you wanted to say, she is a professor?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "What do you think might happen?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es profesora.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "What if you wanted to say, they are teachers, and you mean a group of females?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Son profesoras.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, this is a",
+      "lang": "en"
+    },
+    {
+      "text": "noun, profesor.",
+      "lang": "es"
+    },
+    {
+      "text": "It's a word you can put the or a in front of. Now, we said that adjectives, they change for gender if they end in - o. If they don't, they don't.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "For example, the global situation was:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Where does that global go?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "La situación global.",
+      "lang": "es"
+    },
+    {
+      "text": "So situación is feminine, but we're not saying “globala describing words that we can put is in front of, they only change if they end in - o. But nouns, they can change to feminine like profesor/profesora to differentiate. So this is why it's important to know what type of word we're dealing with. We're doing this already, but we don't even realize it. The moment we come in contact with a verb, we know exactly what to do. We know it's a verb, and we know how to manage it. We don't start trying to make a verb masculine or feminine, for example. So we are already making this differentiation, but we want to do it more consciously to get more control. So this is a",
+      "lang": "en"
+    },
+    {
+      "text": "noun.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Doctor,",
+      "lang": "es"
+    },
+    {
+      "text": "what do you think that means?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good. Is it a",
+      "lang": "en"
+    },
+    {
+      "text": "noun,",
+      "lang": "es"
+    },
+    {
+      "text": "is it an adjective, is it a verb?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "What is it?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Noun.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "how do you think feminine, a female",
+      "lang": "en"
+    },
+    {
+      "text": "doctor,",
+      "lang": "es"
+    },
+    {
+      "text": "will be?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Doctora.",
+      "lang": "es"
+    },
+    {
+      "text": "We just stick an a. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "So how would you say he is a",
+      "lang": "en"
+    },
+    {
+      "text": "doctor?",
+      "lang": "es"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "She is a",
+      "lang": "en"
+    },
+    {
+      "text": "doctor:",
+      "lang": "es"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good. Now, if you want to get the plural of professor,",
+      "lang": "en"
+    },
+    {
+      "text": "profesor,",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "doctor, doctor,",
+      "lang": "es"
+    },
+    {
+      "text": "or any other word in Spanish that ends in a consonant, you don't add s; you add - es. so",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "how do you think it would sound, the plural of",
+      "lang": "en"
+    },
+    {
+      "text": "profesor?",
+      "lang": "es"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Profesores.",
+      "lang": "es"
+    },
+    {
+      "text": "So this is the plural for masculine or for mixed.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "The plural for feminine:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "So how would you say they are professors? And you mean a masculine or mixed group.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Son profesores.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "And if they were all female?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "They are doctors: mixed or masculine:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Son doctores.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "What if they were females?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Son doctoras.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Words ending - ive in English, i-v-e, tend to become - ivo, i-v-o for masculine singular. This is the one we always start from though and build from, this masculine singular, or neuter let's say. So for example addictive becomes adictivo. Now when I say neuter, we don't really have a neuter in Spanish, we have masculine and feminine. But the concept of neuter exists. For example, if I say it's addictive, and I'm referring to living in the mountains, is addictive; eating healthily is addictive or something like this, then I use the masculine singular.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "So how would you say it's addictive?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es adictivo.",
+      "lang": "es"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "How would you say he is positive?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Good. And you pronounced an s where most English speakers will probably find themselves pronouncing a z there because in English we have positive, so that would probably transfer into Spanish to /pozitivo/ and we want to be careful not to do that. Positivo with an s. Positivo.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "She is positive:",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "They are positive:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "They are intuitive:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Son intuitivos.",
+      "lang": "es"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "What if you meant women?",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Son intuitivas.",
+      "lang": "es"
+    },
+    {
+      "text": "She is very attractive: The word for very is",
+      "lang": "en"
+    },
+    {
+      "text": "muy,",
+      "lang": "es"
+    },
+    {
+      "text": "and it's spelled m-u-y. The y you can imagine it like an i.",
+      "lang": "en"
+    },
+    {
+      "text": "Muy.",
+      "lang": "es"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "So she is very attractive:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "Atractiva.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Good. Atractiva is showing us that it refers to a female. So this would probably help us work out who we are talking about. But, maybe we would want to say, to clarify or to emphasize or to contrast.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "So how would you say that, using the word for she? She is very attractive:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "So I want you to spend some time to think about it, and not guess. Think about which is which, make a decision.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Ella es muy atractiva.",
+      "lang": "es"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "How would you say, she is very creative?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "But, she's aggressive:, is it “aggressiva”? I was thinking of the double",
+      "lang": "en"
+    }
+  ],
+  "turn-87-reveal": [
+    {
+      "text": "Well these random double letters that we don't need in English really, they just become single letters in Spanish. So I think there's a double s there as well in English, well that would also become singular. The only double letters that cross over are the r's and the n's.",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "Like connotación.",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "“Con-notación”. If you get a double f, double s, double g, these random double letters you get in English; they don't cross over into Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "How would you say, they are aggressive, talking about a masculine or mixed group?",
+      "lang": "en"
+    }
+  ],
+  "turn-91-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "And what if you wanted to use the word for they?",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "How would you say, he is negative?",
+      "lang": "en"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "Good, and if you use the word for he?",
+      "lang": "en"
+    }
+  ],
+  "turn-97-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-97-prompt": [
+    {
+      "text": "He is very negative:",
+      "lang": "en"
+    }
+  ],
+  "turn-99-prompt": [
+    {
+      "text": "How would you say, It's intensive?",
+      "lang": "en"
+    }
+  ],
+  "turn-101-reveal": [
+    {
+      "text": "Good. So we use the neuter there, we don't know what we're talking about. So we can just use the masculine singular, which is also like neuter.",
+      "lang": "en"
+    },
+    {
+      "text": "Es intensivo.",
+      "lang": "es"
+    }
+  ],
+  "turn-101-prompt": [
+    {
+      "text": "How would you say, they are natives?",
+      "lang": "en"
+    }
+  ],
+  "turn-103-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Son nativos.",
+      "lang": "es"
+    }
+  ],
+  "turn-103-prompt": [
+    {
+      "text": "And what if it was a female group?",
+      "lang": "en"
+    }
+  ],
+  "turn-105-full": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "lessonId": "lesson-07",
+  "generatedAt": "2026-04-11T13:53:33.097Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to continue'?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "b03e14b5ac1e35f7373bcd87630c0696e042d7ab4d444d3dab63c1726773bb5a"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Quiero continuar.",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "56cf3f59c20a89f9cde52cf0e24504cb520db682a970a714dcd846c05dd785fa"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to continue it'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "a6e55f0999462830d6c30ac4d6d2480ee6efc238097c5b337c5ff441850f6690"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Quiero continuarlo.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "70638c4e9f728371b5f8a375c26befb10796f33386996308d2d89c09727826f1"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I am trying to continue'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "c7bbf233a9482ebc7ca1fcb831b9165fc381fd1463930d7b2c798a3fc4b7fe9e"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Intento continuar.",
+          "lang": "es",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "80b63d7642d467e4108359983bf04ad6802d74ce7d5d81b8fcda36249221a8a1"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-7-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "What is 'demonstration' in Spanish?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "fb8382cc29b47ada8bffcefb11512e5f2059df6c260d78f1383cdae573fbe188"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Demostración.",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "57b897ac5477224981524f76305dcb02b3737694c34ef53633ae3f388a66f9a9"
+        },
+        {
+          "text": "Notice there's",
+          "lang": "en",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "5b0937551bbd5eb4fe240ec02d76d17eff83f1b71c00b1fb648256f7269593ef"
+        },
+        {
+          "text": "no",
+          "lang": "es",
+          "file": "turn-9-reveal-3.mp3",
+          "hash": "e44058d78fedc84c827371a9d85127cff2fd79d4ea7766b292cbd10d12afaad3"
+        },
+        {
+          "text": "'n'.",
+          "lang": "en",
+          "file": "turn-9-reveal-4.mp3",
+          "hash": "3b84d6b30e028055deb5de021b2ec922c33c85aae3723ce8e1f71195effc2661"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to demonstrate'?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "77ecfd13c892f48e7895b6e98b687adfa73ab64bded9f793d323ce5e3d06135d"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Demostrar.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "4aa0811764da788b55e21563d4fcb183bcbc8160b4537eb4398529b116b7aa0f"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-11-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "And if you remove 'de-', what does it become?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "2e309f8a40326637b6d1e7d39a208197831b987704b2a6219a5202dddb4a5c19"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Mostrar,",
+          "lang": "es",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "eeca3c547a145588dc58254a2016ed2e4aebe5c73e51d2962f533af13953592b"
+        },
+        {
+          "text": "meaning 'to show'.",
+          "lang": "en",
+          "file": "turn-13-reveal-2.mp3",
+          "hash": "f4be498703e9acf2c4f9498bdcf3fca7837a0cb77c6816c856b99aa48763d90a"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "What is the word for 'something'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "7f93c94e72d9cb8021eb5ced453378686a1fec0babf55d6177c34a84a4468978"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Algo.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "f9e52c448bcb329d24a20ecf16fe8369cbac7aae9b34ddc88303fcd801d6e63b"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to show you something'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "a18932f3a8f4ec3945a6b62709dfa6192c4892aa06eb9b77dec2e32e56ffd26e"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Quiero mostrarte algo.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "53fab79ab0a661f7f8640adcdee95ac15cca5a7c8e83f844d386a0ab4da1908f"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-17-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I am going to'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "bd48e66d398ecf05ac29e3e8e800dd2cec1dc10c0dc80ae12385c0655cc9568f"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "Voy a.",
+          "lang": "es",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "d2cefffe2849944762692082abb4c2a375e4980ff5812fdab961890d7b89cf33"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-19-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I am going to confiscate it'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "77a8b3e25dc8533ef0b7b66a986ec63df8eb0e9b7f7dd28fbc6bc5e834ee48fc"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Voy a confiscarlo.",
+          "lang": "es",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "44ca76b813635d59d77165ac2589c18a21d507f19c28483a658663e792f1ab7e"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-21-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "Now, how do you say 'I want to see them'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "d047a4e824d1681bdbf3721df05988d7830874193f70720b61a345715c83b98c"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Quiero verlos.",
+          "lang": "es",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "2fdff4be85037a67cc97c468f350878cba51ceae4509d13b603fe2e15cb07712"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-23-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "And 'I am going to see them'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "c546e07c8c4279a28bc9d81b2c7ee34208f46709bdf574bc6b23be23329d6a37"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Voy a verlos.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "520c6542a74da5ebec3ec8ca2d36108332be09b71cb1cdbaaf196466dae6c71b"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I am trying to see them'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "cfcf6e28c175c5a93b0e1442f4d04fa583b77050738426724566770d9488e090"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "Intento verlos.",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "edc7e5a155cc96ca4de2a74f57e974e4677970c7bd25eaa5c1e02b78f17abc57"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-27-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "Now, how do you say 'I am going to try'?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "89ce927fb0d91b50a72d3dcca8fc2f88c164330ea78ba117145bbff6cb823098"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Voy a intentar.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "ce7bd2faf28be3d7437a6db72848342dfa56dc4a6e95b1c3fe47103fc1afe1ab"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-29-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I am going to try to see them'?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "f6a8eed4ef4bed046378e02f6cb91e5fcf3991fbae09e8e29d333f07fefdf7ce"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Voy a intentar verlos.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "250e39a9cf533ebb160f46c300ac4631c5b7e539a66f30181e920d05ebdf809f"
+        },
+        {
+          "text": "Good. Now, let's look at another verb of movement: 'pasar'.",
+          "lang": "en",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "7b4149b57d269b236c2e578de653662eeae11524f891da1f05176fdfe3eb21b6"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "What does 'pasar' mean?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "d8aebc8bcd0271d4b6b4bc3fc3f898c9964a2ce74e8a1922b6488b5112b741cf"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "text": "Yes, 'pasar' means '",
+          "lang": "en",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "cab56c4193be5f751f59e8f6f5c602b7d5e3c1b405c020cabf6f078f4f501149"
+        },
+        {
+          "text": "to pass",
+          "lang": "es",
+          "file": "turn-33-reveal-2.mp3",
+          "hash": "2d146b72aba3d0d9adb4b319dc98d4b7c215f74119103f823d76e80fe4bc688a"
+        },
+        {
+          "text": "' or '",
+          "lang": "en",
+          "file": "turn-33-reveal-3.mp3",
+          "hash": "6f10942aacc6fd7ce148e2a23f9c3aae94722d50c5a1b5c0f889d8114f9d3af8"
+        },
+        {
+          "text": "to pass by",
+          "lang": "es",
+          "file": "turn-33-reveal-4.mp3",
+          "hash": "2cdf9ba7f59015337a2fe746d1182ea64b1fc9936bc6074824f1392f50283e1f"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-33-reveal-5.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I am going",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "1f65c98ff81da5189a9caafd619b49db18826516ac8576e781837bfc26a5d9b2"
+        },
+        {
+          "text": "to pass by",
+          "lang": "es",
+          "file": "turn-33-prompt-2.mp3",
+          "hash": "2cdf9ba7f59015337a2fe746d1182ea64b1fc9936bc6074824f1392f50283e1f"
+        },
+        {
+          "text": "to visit you'?",
+          "lang": "en",
+          "file": "turn-33-prompt-3.mp3",
+          "hash": "1e1554aecc255f154d3684c0d4c887f7a25d6b8047bf65fbf572fc43b998c9df"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "text": "Voy a pasar a visitarte.",
+          "lang": "es",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "96fe7d204429dc537f426bc407750efe754480e0c493be0561edcfee9386726a"
+        },
+        {
+          "text": "Good. Remember, with verbs of movement like 'voy' and 'pasar', we use 'a' before the next verb.",
+          "lang": "en",
+          "file": "turn-35-reveal-2.mp3",
+          "hash": "7491926c006729a7b1666a8a7b72fca5187148f307d7a7f67bf47f2d44d2b2ce"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "9dee9a6a4a1ef2b24037031fc7200836871d8b30112e71744718f24a2d1628a8"
+        },
+        {
+          "text": "to pass by",
+          "lang": "es",
+          "file": "turn-35-prompt-2.mp3",
+          "hash": "2cdf9ba7f59015337a2fe746d1182ea64b1fc9936bc6074824f1392f50283e1f"
+        },
+        {
+          "text": "to show you something'?",
+          "lang": "en",
+          "file": "turn-35-prompt-3.mp3",
+          "hash": "45a99c1773c3aea8486d035ac40e7ed271427315e23c27f043e8bde397faa1dc"
+        }
+      ]
+    },
+    "turn-37-full": {
+      "segments": [
+        {
+          "text": "Quiero pasar a mostrarte algo.",
+          "lang": "es",
+          "file": "turn-37-full-1.mp3",
+          "hash": "9d7122f12670161f078f0106126200d8307637e1c96b987e7b6381d331a68268"
+        },
+        {
+          "text": "Good. Remember, 'a' connects verbs of movement to the next action.",
+          "lang": "en",
+          "file": "turn-37-full-2.mp3",
+          "hash": "73633a93b0202fc1c57eb2eb1bf5ca10eedf203b8bce2185b1061b1451fcf374"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "In this lesson, you learned how to use verbs of motion with 'a' and practiced continuing actions in Spanish.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "124ec0cfa575ec87cf202aeb282e339311bae371e5c9550c6dba098d1eb6d0b6"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try creating your own sentences using 'voy a' and other verbs of motion. How would you say 'I am going to visit my friend'?",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "b30453becbe02d4930e9700801143fe30563f1a1f1e7fd293a598ec4c57f0d29"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Remember, using 'a' with verbs of motion helps connect actions in Spanish. Keep practicing to internalize this rule.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "774f60f1c649b4fd3c041fea6c215dcaef990d9fa76be742043abc8408d8151e"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "lesson_number": 54,
+  "title": "Lesson 54",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "Now, these versions of the verb that we get after haber haber,, whether it’s, whether it’s whether it’s he había habría, we could even say I will have. I will have – lost it lo habré perdido. Any version of haber - we will have the - ado, - ido version after it, even if it’s in the “to” form – we could say something like I would like to have gone. I would like to have gone. I would like, it would please me:",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me gustaría"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "To have gone.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Haber ido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me gustaría haber ido, it would please me to have gone, I would like to have gone, me gustaría haber ido. So, even after the “to” form we’re having just one version of the verb that can come after haber. Now, this version of the verb that can come after haber is very useful, because, if it makes sense, we can use it as an adjective, just as we can in English. For example, in English we say: I have sold. And sold we can use like an adjective, we can say it is sold. We say I have lost. And we can use it like an adjective – I am lost. And you can do the same in Spanish, which gives you hundreds and hundreds of words now that you can access as adjectives. So, for example, to close is cerrar. Cerrar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cerrar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "How would you say: I have closed it? I have closed it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo he cerrado."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Lo he cerrado. You might be referring to the door, which is la puerta. So, if you were referring to the door, how would you say that? I have closed it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La he cerrado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. La he cerrado. Good. So cerrado – we can take that and we can use it as an adjective. Now, it doesn’t change ever after haber – it’s always cerrado: lo he cerrado, la he cerrado, lo hemos cerrado. But, when it’s an adjective, when it’s behaving like an adjective, then of course, it can change. So, if you say it is closed and you mean the door, how would you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cerrada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, so how would you say that, it is closed?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es cerrada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You think to be closed is a state or a characteristic?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Está cerrada."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Está cerrada. In fact, the great majority, with just a couple of exceptions, of these adjectives that we get from - ado, - ido, that we get from the version that comes after haber, go with estar. With this particular type of adjective we don’t need to really think about whether it’s a state or a characteristic, they are just gonna go with estar, with a couple of exceptions. To lose was:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Perder"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "What is the version that comes after haber, after any form of haber? Perder becomes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Perdido. So, how would you say: I am lost?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy perdido perdida"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estoy perdido, or for feminine, perdida. Good. What was to finish or to terminate?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Terminar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Terminar. How would you say: I have finished?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He terminado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. He terminado. So now you can also say it is finished, and use it like an adjective.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Está terminado."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Está terminado. What if you were referring to the movie, which is la película:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Está terminada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Está terminada at some of them. To sell was vender, and then sold would be:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vendido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. They are sold:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Están vendidos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Están vendidos. And if we mean las casas, how will it sound?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Están vendidas."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Están vendidas. Good. Some of the adjectives that we already met are actually adjectives that were formed in this way. How was the word for tired?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cansado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cansado. And this comes from the verb cansar, to tire. So cansar is to tire, and then cansado is, and it’s the adjective, the version that you get after haber cansado, tired. So, if you want to say I, so now it’s present: get tired, I tire myself",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me canso."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me canso. That means I get tired or even I get fed up. How would you say I have tired myself? And like I said, it doesn’t literally mean that you are responsible for tiring yourself, it just means that you’ve got tired or you can use it like “I’ve had enough”. So, I have tired myself:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He- Me he cansado."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me he cansado.. Good. And then cansado - which is the version of cansar after haber - is also, of course, the adjective tired. I am tired:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy cansada."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So, to close is cerrar, and we said that closed is cerrado. And we said that these – ado, - ido adjectives, with a couple of exceptions, go with estar. So, how would you say it is closed?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Está cerrado."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say he is closed to the idea - idea is the same word in Spanish. He is closed to the idea:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Está cerrado a el idea?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "What gender does it look like: idea?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La idea."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Está cerrado a la idea. He is closed to the idea. But if you want to say he is a closed person, you mean as a person he is closed, how do you think you would say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es un person cerrado?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Almost. This is exactly the structure that we want, well done. But, the word for person is feminine, it doesn’t refer to anybody specifically, just the word itself is feminine.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es una persona cerrado- cerrada."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Cerrada refers to person. Very good. Es una persona cerrada. So that’s how we can get around that, if we want to say he is closed and we mean he is a closed person. If we just say es cerrado it sounds like a mistake. But es una persona cerrada is fine, because es is going with persona, what you are saying essentially is he is a person that is closed. Es una persona cerrada. How would you say she is lost?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Está perdida."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Está perdida, she is lost. But if you want to say She is lost, you know, as a person, lost her way:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es una persona perdida está"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "In this structure you are saying she is a person, you are not looking at lost person, you are looking at person. The adjective is totally secondary. So when you say this is a chair you are going to use it’s a wet chair ser. If you are going to say, even thought that is a state, you are still going to use it’s a chair ser. Because what you are saying is, the adjective is secondary. But, if you say it is wet, then you use estar. So, chair or seat is silla. Silla.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Silla"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Mojar, mojar means to wet. Mojar. Now, how do you think you say wet as an adjective?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Mojada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. For silla, mojada. Feminine. Good. So, how would you say the chair, la silla, the chair is wet?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La silla está mojada."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. La silla está mojada. But, if you say it is a wet chair, you are just saying it is a chair, and then an adjective is secondary, and the fact that it is a chair is about as characteristic as it gets. So, you are saying it is a chair:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es una silla."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Wet:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Mojada."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Es una silla mojada. So, when we say something is a noun, when we give it its name, there’s nothing more characteristic. Es una persona, it is a person; it is a happy person, es una persona It’s a chair it’s a wet chair feliz., es una silla;, es una silla mojada. The structure there is it is a chair, the adjective is secondary. But, when we say the chair is wet, then we are talking about a state of the chair with is: la silla está mojada. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

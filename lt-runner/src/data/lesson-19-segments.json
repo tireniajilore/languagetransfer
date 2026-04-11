@@ -1,0 +1,246 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We said that the word for 'always' was",
+      "lang": "en"
+    },
+    {
+      "text": "siempre.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Good. Now, let's work with the verb 'to go', which is ir. We have 'vamos' for 'we go' or 'let's go'.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'he goes' or 'she goes'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-full": [
+    {
+      "text": "Va. Good. How would you make that 'you go' (informal)?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Vas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. To ask 'where are you going?', you say '",
+      "lang": "en"
+    },
+    {
+      "text": "a dónde vas?",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "¿A dónde",
+      "lang": "en"
+    },
+    {
+      "text": "vas?",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How would you say 'they go' or 'you (plural) go'?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Van.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. The 'I' form is '",
+      "lang": "en"
+    },
+    {
+      "text": "voy",
+      "lang": "es"
+    },
+    {
+      "text": "', as in 'I'm going on a voyage'.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Now, the 'to' form 'to go' is ir. It's irregular because it combines forms from two different verbs.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say 'I want to go'?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-full": [
+    {
+      "text": "Good. How about 'I can go'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Puedo ir.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. 'I must go' is '",
+      "lang": "en"
+    },
+    {
+      "text": "debo ir",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Debo ir.",
+      "lang": "es"
+    },
+    {
+      "text": "For 'I have to go', we use '",
+      "lang": "en"
+    },
+    {
+      "text": "tengo que ir",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-full": [
+    {
+      "text": "Tengo que ir.",
+      "lang": "es"
+    },
+    {
+      "text": "How would you say 'I have to go now'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good. 'Tonight' is 'esta noche'.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How would you say 'I have to go tonight'?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Tengo que ir esta noche.",
+      "lang": "es"
+    },
+    {
+      "text": "'Noche' is feminine, as indicated by 'esta'.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say 'the night'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "La noche.",
+      "lang": "es"
+    },
+    {
+      "text": "Words ending in 'e' can be masculine or feminine. For example, 'carne' (meat) is feminine.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you say 'the meat'?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "La carne.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "How do you say 'I don't eat meat'?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "No como carne.",
+      "lang": "es"
+    },
+    {
+      "text": "The word for 'and' is 'y'.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How would you say 'I don't eat meat and I don't drink alcohol'?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-full": [
+    {
+      "text": "No como carne y no tomo alcohol.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned the irregular verb 'ir' and its conjugations. Practice using them in sentences to describe actions.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Remember, nouns ending in 'e' can be masculine or feminine. Use context to determine gender.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Try creating your own sentences using 'ir' and other verbs you've learned.",
+      "lang": "en"
+    }
+  ]
+}

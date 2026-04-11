@@ -1,0 +1,697 @@
+{
+  "lesson_number": 45,
+  "title": "Lesson 45",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "So how was to like, or we said that the translation that we would give it in Spanish was to please or to be pleasing to?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me gusta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So, the \"to\" version?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Gustar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Gustar. Good. So how would you say we like it, and we want to take the route of the literal translation, so it is pleasing to us?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos gustamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So remember the first place you want your thoughts to go. This is very important, ah.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "gustar gustamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It is pleasing, to us. So, it is pleasing:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Gusta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos gusta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos gusta. We were saying that gustar, we can translate as to please or to be pleasing. Now it would probably make more sense for us to store it as to be pleasing. Because, if we want to say something like she likes it, what we will say is it is pleasing to her. So we have the to her with gustar, so that's why it makes more sense to translate it as it is pleasing to her rather than it pleases her. This way we store this idea of to. So what is to her?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Le. Good. So we have la for her, and to her, le. So if you want to say it is pleasing to her, or she likes it, how would it be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le gusta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Le gusta. And it is pleasing to them, or they like it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les gusta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Les gusta. You had a little battle there, right, with whether it was gustan or not. Good. And you take control of that going it is pleasing, gusta. It is pleasing to them, les gusta. So with gustar, we're not using lo and la and los and las. We're using le and les. They like it, it is pleasing to them. Les gusta. How would you say they like them, or they are pleasing to them?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les gustan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Les gustan. He likes them, or they are pleasing to him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le gustan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. So there are a couple of other verbs as well that we would prefer to give this kind of translation to. What do you think interesar means? Interesar:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Interesting."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Interesante is interesting. What does interesar look like? It might not be, but what does it look like? Interesar. What type of word does it look like?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "It's a verb."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ah.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "So it's to interest."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. To interest. Good. So this helps us with comprehension as well, understanding what are our types of words and what they tend to look like. So we could translate it as to interest, or we could translate it as to be interesting to. And here in this case, it's another verb like gustar, in that it makes more sense to translate it for ourselves as to be interesting to, because it goes with le and not lo. So in our minds this fits then in the Spanish structure if we save that translation as to be interesting to rather than to interest. So how would you say it interests me, it is interesting to me?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me interesa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me interesa. Does it interest you? Let's speak informally. Does it interest you?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te interesa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Te interesa? Doesn't it interest you?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No te interesa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ No te interesa? Why doesn't it interest you?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Por qué no te interesa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Por qué no te interesa? So if we want to say it interests him, what we're really saying is it is interesting to him. So we want to him here. So how would you say that? It interests him or it's interesting to him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le interesa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Le interesa. They're interested in it. It's interesting to them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les interesa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Les interesa. You remember how was to dance, related to ballerina?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Bailar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Bailar. Good. So you can ask does it interest her to dance tonight? Does it interest her to dance tonight?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le interesa bailar esta noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Le interesa bailar esta noche? Good. Salir, salir is to leave or to go out. To leave or to go out. So you can say does it interest her, is it interesting to her to go out to dance tonight? Does it interest her to go out to dance tonight? So let's go from the beginning, does it interest her?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le interesa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Le interesa? And of course le interesa could mean does it interest her, does it interest him, does it interest you (formal). We don't know by the le. Le interesa, to go out to dance tonight:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Salir a bailar esta noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So here we have a because salir is a verb of coming and going. ¿ Le interesa salir a bailar esta noche? Now what if you wanted to ask would it interest you, would it be interesting to you,, that we add on to the “to” form of the verb? informally? So what was our sound for would What's our key sound for would?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "- ía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "- ía, good. Would it interest you?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Interaría"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Slower.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Interesar interesaría Te interesaría"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Another verb like this is parecer. Parecer, which is to seem. But, in English we already put to. It seems to me. It seems to him. So how do you say it seems to m e? Parecer is to seem. It seems to me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me paresa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Before you change a verb, there's something very quick and very essential that you must do.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "It's an - er, not an - ar."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. You must go back to your takeoff point, which is the \"to\" form, and make a quick check. Parecer, - er verb. Ok, I know where I am, I know what I'm doing.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me parece"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me parece. It seems to me. It seems to me that. What is this that that we put here? Same as what:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Que"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Que. Spanish kind of highlights for you that what is the question version of that. It kinds of shows you that much more clearly than English does. But English shows you as well. If you think, in English if you take the word that and you get rid of the t and you replace it with a w, you get what. In the same way that if you take the word there and you get rid of the t and you replace it with w, you get where. Or if you take the word then and get rid of the t and replace it with w, you get when. So you have que for that, and then qué for what. Same word. So, it seems to me that:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me parece que"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "He doesn't want to go out tonight. He doesn't want to go out tonight:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No quiere salir esta noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me parece que no quiere salir esta noche. Good. How would you say it seems to me that he doesn't like it? It seems to me that he doesn't like it. Now in English, this that is optional. No? It seems to me he doesn't like it. It seems to me that he doesn't like it. It's optional. But in Spanish, it's obligatory. You want to put this that. And actually, it's really gonna help you think out your sentences to put that always. So, it seems to me that he doesn't like it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me parece que no lo gusta. Le. No le gusta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. You might want to say me parece bien. That would mean it seems good to me, it seems fine to me. But we're not using the word good, we're using the word well. Bien. Me parece bien. It seems to me well. You'll find a little gray area between English and Spanish about when we say good, bueno, and when we say well, bien. But it's something you'll pick up listening. So here you would say well, it seems well to me, it seems good to me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me parece bien"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me parece bien. It doesn't seem good to me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me parece bien"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No me parece bien. It doesn't seem good to her, or to him, or to you (formal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No le parece bien"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Now let's make it a question. Doesn't it seem ok to you?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No le parece bien"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ No le parece bien? What was to interest?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Interesar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Interesar. How would you say it would interest me, it would interest me?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me interesaría"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. It would interest me to see it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me interesaría verlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. To put, we said was poner. Poner.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Poner"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Poner. And we said that it's an interesting verb because when we have - pose inside a verb in English, we can change that - pose to poner and we get the verb in Spanish. So for example, to compose in Spanish is componer. And this com - is actually con -. The n changes next to the p, so it literally means “with putting”. To compose is “with putting”, putting together. Compose, componer. To suppose:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Suponer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Suponer. To oppose:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Oponer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Oponer. To impose:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Imponer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say I want to put it here? I want to put it here:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiero ponerlo aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Quiero ponerlo aquí. I would like to put it here. It would please me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me gustaría ponerlo aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Now if you want to say I want to put salt on it, you don't need to say on. What do you think you can replace this on it with? So instead of saying on it, what do you think you might be able to say in Spanish? What is the word for it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And what do you think you could to do that to make it like on it? How do you say to it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "This is not how you say to it.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No, it's not."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ah, so how do you say to it, for it, from it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Le. So, if you want to say I want to put salt on it, you don't say on it, you just say le. Salt is sal, sal. So how would you say I want to put it salt, and with this it we mean on it.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiero ponerle sal"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Quiero ponerle sal. I would like to put salt on it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me gustaría ponerle sal"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me gustaría ponerle sal. A little, a little is un poco. Un poco. Literally a little, un poco.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Un poco"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So you could say I would like to put it a little more, what was the word for more, like in more late?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Más"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I would like to put it a little more salt, I would like to put on it a little more salt:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me gustaría ponerle un poco más sal"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Me gustaría ponerle un poco más sal. What if you wanted to say I would like to put on them a little more salt? You know maybe you mean las papas fritas. The chips, the french fries. I would like to put on them a little more salt:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me gustaría ponerles un poco más sal"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Me gustaría ponerles un poco más sal.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

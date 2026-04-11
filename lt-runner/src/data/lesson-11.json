@@ -1,0 +1,365 @@
+{
+  "lesson_number": 11,
+  "title": "Verb Conjugation - Present Tense",
+  "description": "Learn to conjugate regular -ar, -er, and -ir verbs in the present tense and use object pronouns.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "How would you say 'to tolerate'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "tolerar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly, tolerar. It's always going to be -ar, -er, or -ir. To say 'I tolerate', you remove the ending and add -o. How would you say 'I tolerate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "tolero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Remember to move the accent back in the present tense. What was 'to eat'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "comer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And how do you say 'I eat'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "como"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Como. Good. Now, most verbs in Spanish are -ar verbs. For example, tuitear means 'to tweet'. How would you say 'to eliminate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "eliminar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'I eliminate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "elimino"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Elimino. Good. For 'he/she/it/you (formal)', just use an 'a' at the end. How would you say 'he eliminates'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "elimina"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Elimina. Good. How would you say 'to last', as in 'it lasts a long time'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "durar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Durar. How would you say 'it lasts a long time'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "dura mucho"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No dura mucho. How do you say 'to exaggerate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "exagerar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "How would you say 'I exaggerate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "exagero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exagero. Good. How would you say 'he exaggerates'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "exagera"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exagera. Good. How would you say 'to chew'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "masticar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Masticar. How would you say 'I chew'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "mastico"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Mastico. Good. How would you say 'he chews'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "mastica"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Mastica. Good. How would you say 'to collaborate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "colaborar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "How would you say 'I collaborate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "colaboro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Colaboro. Good. How would you say 'he collaborates'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "colabora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Colabora. Good. How would you say 'to speak'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hablar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "How do you say 'I speak'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablo. Good. How would you say 'they're not speaking with Pablo'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no hablan con Pablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'I want to speak'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero hablar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "How would you say 'I'm going to speak'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a hablar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'you speak' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hablas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablas. Good. How would you say 'I want it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo quiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'I want to see it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero verlo",
+        "lo quiero ver"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'it's important to speak about it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "es importante hablarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'I must invite him'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "debo invitarlo",
+        "lo debo invitar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. That's how we use these little words. Well done.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to conjugate regular verbs in the present tense and use object pronouns."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try conjugating some new verbs you know in the present tense and see how they fit into sentences.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "With practice, these conjugations will become second nature, allowing you to express yourself more fluently."
+    }
+  ]
+}

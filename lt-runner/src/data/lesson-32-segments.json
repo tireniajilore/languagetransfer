@@ -1,0 +1,764 @@
+{
+  "turn-1-full": [
+    {
+      "text": "The word for boring or bored is",
+      "lang": "en"
+    },
+    {
+      "text": "aburrido. Aburrido.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "A-b-u-r-r-i-d-o.",
+      "lang": "en"
+    },
+    {
+      "text": "Aburrido.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Now this is boring or bored. One of these words in English is",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "and the other one is",
+      "lang": "en"
+    },
+    {
+      "text": "a state.",
+      "lang": "es"
+    },
+    {
+      "text": "Which is which?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Boring, if I say you are boring, is it",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic?",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And if I say you are bored, is it",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic?",
+      "lang": "es"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "A state.",
+      "lang": "es"
+    },
+    {
+      "text": "So in English we have two different words to express this difference whereas in Spanish you will just decide whether you are going to use ser or estar. So, you will have to think about it.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How will you say, it is boring?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Es aburrido.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "He is bored, is it",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "a state?",
+      "lang": "es"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So, he is bored:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Está aburrido.",
+      "lang": "es"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "But he is boring:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "And she is boring:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Spanish is more subtle than that.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Es aburrida.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "They are boring:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Son aburridos.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "They are bored:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Están aburridos.",
+      "lang": "es"
+    },
+    {
+      "text": "So with some adjectives we get a different meaning depending on whether we use ser or estar. The word for from in Spanish is de. From or of, de.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "De.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "We get this forming part of many Latin-English words, for example, deliver. The de- of deliver is actually from. - liver is to do with freedom, like liberation, liberación.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you say to liberate?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good. Libre is free in Spanish. So again we see this grey area between v and b, between English and Spanish, between libre and - liver in deliver just as we did between savvy and saber for example, so deliver is like from or of freeing, which has much more sense if you look at the original meanings of deliver, like to deliver a baby, deliver me from evil, rather than to deliver a package, which is a much more modern meaning. You can see much more the ideology in the vocabulary with the older uses. Another interesting word that we can see this de in, in English, is decipher for example. Decipher is actually a combination of Arabic and Latin. You have de meaning of or from, and “cipher” from “sifr” which means zero in Arabic. So to decipher is to go from zero, or something like this. So anyway we have de for from or of. Now, if I want to ask, where is he from?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "Is it",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "a state,",
+      "lang": "es"
+    },
+    {
+      "text": "where you are from?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Yes, it's not where you are, it's where you are from, this is",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "of you. So in Spanish we are going to say, from where are you, from where is he, from where is she? This is the word order.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So, from where is what?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "De dónde.",
+      "lang": "es"
+    },
+    {
+      "text": "From where is he? From where are you (formal)?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "et cetera?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "De dónde es?",
+      "lang": "es"
+    },
+    {
+      "text": "And you informal. You remember how was you are, you informal.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "It's kind of similar to es:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "De dónde eres?",
+      "lang": "es"
+    },
+    {
+      "text": "So this sentence actually will help you remember this kind of irregular form eres because you will hear it all the time. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "De dónde eres?",
+      "lang": "es"
+    },
+    {
+      "text": "From where are you, where are you from?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "How would you say, where are they from?:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "De dónde son?",
+      "lang": "es"
+    },
+    {
+      "text": "But if you want to ask, where are they? Their location, where are they?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "How would you ask?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good, ¿ Donde están? Because now we refer to",
+      "lang": "en"
+    },
+    {
+      "text": "a state.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, we have this adjective as well, libre, like in deliver and liberation, libre, which means free. Again, we might mean",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "or we might mean",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic.",
+      "lang": "es"
+    },
+    {
+      "text": "Now sometimes, to show the difference, we might not just use ser and estar, we might actually also change the way we say it. So for example,",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "if you want to say I am free, and you mean from your exams, from work, do you think you mean",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic?",
+      "lang": "es"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "A state.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "So how would you say that, I am free?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy libre.",
+      "lang": "es"
+    },
+    {
+      "text": "And libre does not change for masculine and feminine because it ends e. Only adjectives ending o will change.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy libre.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "Now if you mean as",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic,",
+      "lang": "es"
+    },
+    {
+      "text": "as",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "of your personality, you are a free person, then you might say:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Soy libre.",
+      "lang": "es"
+    },
+    {
+      "text": "You might also say, I am a free person.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "So person is persona, and you could say, I am a - what's a person?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "I am a free person:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Soy una persona libre.",
+      "lang": "es"
+    },
+    {
+      "text": "Persona is feminine, not because of you, because the word is feminine. So I, as a male, would also say,",
+      "lang": "en"
+    },
+    {
+      "text": "soy una persona libre.",
+      "lang": "es"
+    },
+    {
+      "text": "So it's the noun in itself, persona, that is feminine. So in this case, with libre, there's no problem to move between ser and estar. You can use libre with ser or with estar to give slightly different meanings. So some adjectives you will be able to move between ser and estar and others you won't. If you want to get around that uncertainty, instead of trying out",
+      "lang": "en"
+    },
+    {
+      "text": "soy libre",
+      "lang": "es"
+    },
+    {
+      "text": "you could just say",
+      "lang": "en"
+    },
+    {
+      "text": "soy una persona libre,",
+      "lang": "es"
+    },
+    {
+      "text": "and then because persona is going with soy, because what you are saying in fact is, I am a person, soy",
+      "lang": "en"
+    },
+    {
+      "text": "una persona,",
+      "lang": "es"
+    },
+    {
+      "text": "then you know you are safe. Also, different Spanish dialects can have different ideas about what should go with ser and what should go with estar. So for example, casado, which means married, not cansado, casado, comes from casa, which literally means housed. When you are married you are housed. Casado, in some places they use with ser and in some places they use with estar. They can't agree on whether being married is",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "a state.",
+      "lang": "es"
+    },
+    {
+      "text": "If you want to avoid this insecurity about it you can say, soy",
+      "lang": "en"
+    },
+    {
+      "text": "una persona",
+      "lang": "es"
+    },
+    {
+      "text": "casada, and then you know that persona is going with soy, so whatever then describes persona is not important. Persona goes with soy. When you say I am a person, then that is",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic.",
+      "lang": "es"
+    },
+    {
+      "text": "Let's explore this idea a little more. Busy in Spanish is occupied,",
+      "lang": "en"
+    },
+    {
+      "text": "ocupado.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "Ocupado.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "How do you say, I am busy?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Estoy ocupada.",
+      "lang": "es"
+    },
+    {
+      "text": "Or I would say, estoy",
+      "lang": "en"
+    },
+    {
+      "text": "ocupado.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, if I want to say, I am a busy person, then with this adjective, actually, I can't switch to soy, and say soy",
+      "lang": "en"
+    },
+    {
+      "text": "ocupado.",
+      "lang": "es"
+    },
+    {
+      "text": "That's bad Spanish. But you as a Spanish learner, how are you supposed to know that? So, you can use persona as a safety net, in the sense of I am a busy person, and then you're sure it's perfect Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "So how would you say I am a busy person?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Soy una persona ocupada.",
+      "lang": "es"
+    },
+    {
+      "text": "So that's",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic,",
+      "lang": "es"
+    },
+    {
+      "text": "because what you are actually saying is, I am a person, and much more",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "than that you can't get. So, estoy",
+      "lang": "en"
+    },
+    {
+      "text": "ocupado,",
+      "lang": "es"
+    },
+    {
+      "text": "as",
+      "lang": "en"
+    },
+    {
+      "text": "a state,",
+      "lang": "es"
+    },
+    {
+      "text": "and then",
+      "lang": "en"
+    },
+    {
+      "text": "soy una persona ocupada, characteristic,",
+      "lang": "es"
+    },
+    {
+      "text": "males or females would say persona ocupada. Ocupada refers to persona, not to the speaker, so I would also say,",
+      "lang": "en"
+    },
+    {
+      "text": "soy una persona ocupada.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "How would you say, we are busy?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Estamos ocupados.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "But if you wanted to say, we are busy people:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Somos personas ocupadas.",
+      "lang": "es"
+    },
+    {
+      "text": "To be worried is to be preoccupied. So",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "how do you think that would sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Preocupado.",
+      "lang": "es"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "I am worried:",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "He is worried:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good. He is a worried person. He is worried as",
+      "lang": "en"
+    },
+    {
+      "text": "a characteristic.",
+      "lang": "es"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "He is worryful:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es una persona preocupada.",
+      "lang": "es"
+    }
+  ]
+}

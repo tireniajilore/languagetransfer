@@ -1,0 +1,746 @@
+{
+  "turn-1-full": [
+    {
+      "text": "In English we have many ways to talk about the past. If you get any random verb like to eat, for example, you can say I ate. You can say I have eaten. You can say I was eating. You can say I used to eat. You can say I would eat an ice cream every week when I was a child, and there you use would to speak about the past in English. I would go to the cinema every day when I was young. So we have many different ways of talking about the past, but we can divide them into three. And in Spanish there are three. We have the I have eaten past, which is the one that we learnt already. I have eaten, with",
+      "lang": "en"
+    },
+    {
+      "text": "haber.",
+      "lang": "es"
+    },
+    {
+      "text": "And then the other two pasts we can think of as a line in the past and a dot in the past. So, what would fit into the line in the past is I was eating, I used to eat, I would eat, all of that is ongoing. It’s like a line in the past. But then the dot all the time when I was younger, that’s your dot in the past. Those are what we will consider our in the past is I ate, finished. I ate three different pasts, which all of the different ways of expressing the past in English fit into, and in Spanish we have these three forms. The one we learnt already is I have eaten, for example. First we need to manage the verb to have. What is the verb for to have in this context?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Haber.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So we have",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "and we had a neat trick to find the different versions of",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "as we know it’s very irregular.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So what is I have?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "And we have:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And what is he/she/it/you (formal) have or",
+      "lang": "en"
+    },
+    {
+      "text": "has?",
+      "lang": "es"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And you, informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "And they have or you guys have:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "So that’s our panorama of",
+      "lang": "en"
+    },
+    {
+      "text": "haber.",
+      "lang": "es"
+    },
+    {
+      "text": "And then we need to find eaten. So, the version after",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "we want to think of it in this way, the version of the verb that comes after",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "rather than trying to translate eaten because the version of the verb that comes after have in English is often so different. I have wanted. I have been. Very different. But in Spanish, for – ar verbs we take off - ar and –er/-ir put - ado, and for verbs we take off the - er or - ir and we put - ido.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So I have eaten:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good. You’re taking off your ending and putting -. The only times we’re adding onto the “to” ido forms is with the futures, will and would. He comido.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "I have spoken:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "He hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "I have danced:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "They have danced:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Han bailado.",
+      "lang": "es"
+    },
+    {
+      "text": "The version that comes after",
+      "lang": "en"
+    },
+    {
+      "text": "haber:",
+      "lang": "es"
+    },
+    {
+      "text": "comido, bailado I or for we or for they or for he or she. Always the same. We need to focus on",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "to get the correct version of",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "and then we have the version of the verb that comes after it. So",
+      "lang": "en"
+    },
+    {
+      "text": "he bailado, han bailado, hemos",
+      "lang": "es"
+    },
+    {
+      "text": "bailado. We can also say more complicated things like I have been able to eat.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "What is to be able, related to power?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Poder.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So I have been able, the version that comes after",
+      "lang": "en"
+    },
+    {
+      "text": "haber.",
+      "lang": "es"
+    },
+    {
+      "text": "Rather than translating been, so let’s do that first. able, we just want",
+      "lang": "en"
+    },
+    {
+      "text": "poder",
+      "lang": "es"
+    },
+    {
+      "text": "after",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "I have been able:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "To eat:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "He podido comer.",
+      "lang": "es"
+    },
+    {
+      "text": "I have been able to eat.:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No he podido comer.",
+      "lang": "es"
+    },
+    {
+      "text": "So we can make more interesting structures as well, like this, using",
+      "lang": "en"
+    },
+    {
+      "text": "haber.",
+      "lang": "es"
+    },
+    {
+      "text": "We can also put",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "in would time, which gives us the opportunity to make some useful structures.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "What is our sound for would?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So I would have from",
+      "lang": "en"
+    },
+    {
+      "text": "haber:",
+      "lang": "es"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good. The / e / fell out.",
+      "lang": "en"
+    },
+    {
+      "text": "Habría.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "What was to leave or to go out?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Salir.",
+      "lang": "es"
+    },
+    {
+      "text": "So you can say I would have gone out.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "I would have gone out:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "So you’ve taken the sentence as a block to translate it all together, and then you have this kind of ía’s salad situation where this - coming out in the wrong place. You must take the time to divide it, what’s that? up. I would have is your first bit, and you stop there.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "I would have",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Habría",
+      "lang": "es"
+    },
+    {
+      "text": "habería, habería, habería, habería, habería, it happens very naturally for that e to fall out. It only happens with a few verbs, though.",
+      "lang": "en"
+    },
+    {
+      "text": "Habría.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "So I would have gone out:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Habría salido.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I would have been able to go out.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "I would have been able to go out:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Habría podido salir.",
+      "lang": "es"
+    },
+    {
+      "text": "out:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No habría podido salir.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So we have this",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "that we can use for the past, but then also we can make some other very useful structures out of it, like would have, would have been, etc. So now we’re going to focus on another past in Spanish. We’re going to focus now on able the line in the past. So the line in the past representing I was eating, I used to eat, I would eat all the time, that would that we use for past. All of those are represented by this line in the past. Now, for the pasts – for both pasts, the line and the point – again we are taking off our verb ending before we add on our endings for the past. So we have a verb like hablar, for example, an – ar verb, and we will take off this - ar and we will put - aba, -aba, to get I/he/she/it/you (formal). So again, like in would time, we have I jumping in with he, she, it, and you (formal).",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "So you have hablar, you take off the - ar and you put - aba:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Hablaba. Hablaba.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "hablaba",
+      "lang": "es"
+    },
+    {
+      "text": "means I was speaking, I used to speak, he was speaking, she was speaking, he used to speak, she used to speak, you were speaking, you used to speak, all of this in",
+      "lang": "en"
+    },
+    {
+      "text": "hablaba.",
+      "lang": "es"
+    },
+    {
+      "text": "Now you can probably make the other versions.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "How would you say you were speaking, speaking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "And they or you guys were speaking:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Hablaban.",
+      "lang": "es"
+    },
+    {
+      "text": "And for the we version, the accent’s going to stay in the same place on - aba.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "So how would you say we were speaking?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Hablábamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. To wait is",
+      "lang": "en"
+    },
+    {
+      "text": "esperar. Esperar,",
+      "lang": "es"
+    },
+    {
+      "text": "to wait or to hope.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "how would you say I was waiting, I used to wait?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good. I was waiting for you for, no?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "I was awaiting you:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Te esperaba.",
+      "lang": "es"
+    },
+    {
+      "text": "What if you were speaking formally?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "If you were speaking to usted and you wanted to say I was waiting for you:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "Or to a female, it would be?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good. So lo and la other than it and he and she can also mean you (formal). We see those are always pairing together – he, she, it, and you (formal). Keeping it formal, speaking to usted,",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "how would you say We were waiting for you?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo esperábamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "And what if you wanted to say We were waiting for you guys?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Los esperábamos.",
+      "lang": "es"
+    },
+    {
+      "text": "And of course, this could also mean We were waiting for them.",
+      "lang": "en"
+    },
+    {
+      "text": "Los esperábamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "To try, related to intent:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Intentar.",
+      "lang": "es"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "So how would you say I was trying?",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Intentaba.",
+      "lang": "es"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "He was trying:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "What was to find, to encounter?",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "So how would you say They were trying to find it? They were trying to find it: so divide up the thoughts. They were trying, the first bit:? It’s",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Good. Intentaban",
+      "lang": "en"
+    },
+    {
+      "text": "encontrarlo.",
+      "lang": "es"
+    },
+    {
+      "text": "If you wanted to say They were trying to find it for me, the most natural way of saying this in Spanish is They were trying to find me it.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "They were trying to find me it:",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Intentaban encontrármelo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. They were trying to find me it. But if you wanted to emphasize They were trying to find me it, then you could say this sentence in the way that we would probably say it in English, which is They were trying to find it for me. Then you could do that in Spanish. You have that option.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "So how would you say that? They were trying to find it for me, using the word for:",
+      "lang": "en"
+    }
+  ],
+  "turn-85-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Intentaban encontrarlo para mí.",
+      "lang": "es"
+    },
+    {
+      "text": "So here we are emphasizing, actually me. But mostly in Spanish we kind of avoid the use of the preposition, as we’ve been noticing.",
+      "lang": "en"
+    },
+    {
+      "text": "Intentaban encontrármelo.",
+      "lang": "es"
+    }
+  ]
+}

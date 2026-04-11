@@ -1,0 +1,536 @@
+{
+  "lessonId": "lesson-13",
+  "generatedAt": "2026-04-11T13:54:10.319Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "To do or to make in Spanish is hacer. It has a silent h, spelled h-a-c-e-r. In most of the Spanish-speaking world, it's pronounced ha/s/er. What is the verb ending?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "74964dcdac72c59584d07e7a73efc1784e5e9d4f0d2ef297196e075d1d5de96e"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "-er",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "d8a25891a2ef510dc0957ab353de54d0938a598cca0b4f39847c8ee4ca3259e5"
+        },
+        {
+          "text": "verb. Whenever we come across a new verb, note the ending. If we know it's an",
+          "lang": "en",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "9d2b3f49ca0f231e3c4ccfbcdc9a91b662e8dfa5c88b347729fe2c601979dfb1"
+        },
+        {
+          "text": "-er",
+          "lang": "es",
+          "file": "turn-3-reveal-3.mp3",
+          "hash": "d8a25891a2ef510dc0957ab353de54d0938a598cca0b4f39847c8ee4ca3259e5"
+        },
+        {
+          "text": "verb, we know how to work with it.",
+          "lang": "en",
+          "file": "turn-3-reveal-4.mp3",
+          "hash": "84a809785714dddb47d47f13ffd25e8b6c5eae03002f72d0ae9cdfa6e518babf"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he's doing' or 'she's making'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "04381d0700d60aada7260a5ba83b033cb994fedf72788faaf0424091d8e505d7"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Hace.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "025ddddd351fcadb8002f51968e0f225e5ca423f30755100ca04897c927e75ba"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'you're doing it'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "ef5c75bbe41281942e27b6eff43ffb0885cc61341d682183f07f62ddad036b20"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Lo hace.",
+          "lang": "es",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "55f5230c856db680e7ec2e753a148a243d1c32f7e09efe4eb7d2c36838518837"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'they're doing it' or 'you guys are doing it'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "e2bca6fc991bd2f02a09468d9f0c39768af103438934176e992b2bcc2b7a311a"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Lo hacen.",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "33b0473d39370b3a7ba76bd244a3aea1a1d446af1268ffde8fd142653675a039"
+        },
+        {
+          "text": "For informal 'you', we add an 's'.",
+          "lang": "en",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "c34e9db2fb304a505552de238040ae8daf95b67473c78f16c6fadd9f356804f4"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'you're doing it' informally?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "c9a23a5e9e485e2bb54dbeeb4a7fc992e9757104ba680731f6483adcab0f0f5f"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Lo haces.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "5d599f3c105c311cd85c10aaf4516ae4bde183d86ca7f277d4b7a752cec1ec57"
+        },
+        {
+          "text": "Good. The word for 'what' in Spanish is 'qué'.",
+          "lang": "en",
+          "file": "turn-11-reveal-2.mp3",
+          "hash": "83adda4d3d2b745cae742ac014200fdd5476580c86052fde810d40cf54a1db39"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'what are you doing'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "49165535cdf0df82a5b83a9f54fd2d16026c2219298b3293cf0df29e8960e7e0"
+        }
+      ]
+    },
+    "turn-13-full": {
+      "segments": [
+        {
+          "text": "¿Qué haces? This can also mean 'how are you' or 'what are you up to'. For -ar verbs, we add 'n' for 'they' or 'you (plural)', and 's' for informal 'you'. For -er/-ir verbs, we add 's' for informal 'you', 'n' for 'they', 'you (plural)'.",
+          "lang": "en",
+          "file": "turn-13-full-1.mp3",
+          "hash": "2bfd92450d1ed6b982be693252dcbc691b6100c457c694b2d4b19c99f77e57f7"
+        }
+      ]
+    },
+    "turn-14-full": {
+      "segments": [
+        {
+          "text": "Puedo in Spanish means 'I can' or 'I am able'. How would you say 'he can' or 'she can'?",
+          "lang": "en",
+          "file": "turn-14-full-1.mp3",
+          "hash": "84820106beaa0bf0495def835d98aa8fea1430b4ddb3d4e4ae9a34db35035815"
+        }
+      ]
+    },
+    "turn-16-reveal": {
+      "segments": [
+        {
+          "text": "Puede.",
+          "lang": "es",
+          "file": "turn-16-reveal-1.mp3",
+          "hash": "c2bf07452d04d17e05cfc6e9e99c615ce9138dc9776c49bac26427e11825a1cf"
+        }
+      ]
+    },
+    "turn-16-prompt": {
+      "segments": [
+        {
+          "text": "And informally, 'you can'?",
+          "lang": "en",
+          "file": "turn-16-prompt-1.mp3",
+          "hash": "81264af7b0097b5ef4fb522db44a545992d009ad862462a77382861e3a6d89f5"
+        }
+      ]
+    },
+    "turn-18-reveal": {
+      "segments": [
+        {
+          "text": "Puedes.",
+          "lang": "es",
+          "file": "turn-18-reveal-1.mp3",
+          "hash": "ff76267bf523e9a7afe6d6bca506beed89229018ef6664d61ecb09a1ef3c9183"
+        }
+      ]
+    },
+    "turn-18-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'can you come?' informally?",
+          "lang": "en",
+          "file": "turn-18-prompt-1.mp3",
+          "hash": "9a08bfa9d59899741a98c6087034d1612dde4840ce38b3e5d75bcf18d18bfdf9"
+        }
+      ]
+    },
+    "turn-20-prompt": {
+      "segments": [
+        {
+          "text": "¿Puedes venir?",
+          "lang": "es",
+          "file": "turn-20-prompt-1.mp3",
+          "hash": "39e8e1978f4c09b811b0ec3ded6ad1daed078384a2326dddf6e66c88c1b67fe0"
+        },
+        {
+          "text": "How about 'can't you come?'",
+          "lang": "en",
+          "file": "turn-20-prompt-2.mp3",
+          "hash": "a4bd8a41ff1b96f0cc14a0ec6fa999694719d92b99b1df0b2809733030008523"
+        }
+      ]
+    },
+    "turn-22-reveal": {
+      "segments": [
+        {
+          "text": "¿No puedes venir?",
+          "lang": "es",
+          "file": "turn-22-reveal-1.mp3",
+          "hash": "e2c762548850a91f8c30ce328ed7dfb8cef2f1d3bcd9670434dc90b4e86e666f"
+        }
+      ]
+    },
+    "turn-22-prompt": {
+      "segments": [
+        {
+          "text": "Why can't you come?",
+          "lang": "en",
+          "file": "turn-22-prompt-1.mp3",
+          "hash": "b5f1a3b8148dc403236c3ba6bbb7e4d5b13d8630e37b6297b519d78c27c76dc7"
+        }
+      ]
+    },
+    "turn-24-prompt": {
+      "segments": [
+        {
+          "text": "¿Por qué no puedes venir?",
+          "lang": "es",
+          "file": "turn-24-prompt-1.mp3",
+          "hash": "3efa33f0bf056cb7261c12e2623b6dd24d34acf70e0502f71e05e3389a39a09a"
+        },
+        {
+          "text": "I want to know why you can't come.",
+          "lang": "en",
+          "file": "turn-24-prompt-2.mp3",
+          "hash": "b5e652cc503d29c5f38baf98158d4084ffa1ea558a55ff3b286f3fa0879dfcad"
+        }
+      ]
+    },
+    "turn-26-reveal": {
+      "segments": [
+        {
+          "text": "Quiero saber por qué no puedes venir.",
+          "lang": "es",
+          "file": "turn-26-reveal-1.mp3",
+          "hash": "b7f8f851f374bbd21e6871681a7bc2e2e0e08b5075f756ab9bf678778c1e7783"
+        },
+        {
+          "text": "Well done. Let's recap: for -ar verbs, we remove the ending for 'I' and add 'o'. For -er/-ir verbs, we do the same.",
+          "lang": "en",
+          "file": "turn-26-reveal-2.mp3",
+          "hash": "a32cd8d8b72b177819b4f9de8b18866ec587f9238c4c99b0b83cce4334a226a0"
+        }
+      ]
+    },
+    "turn-26-prompt": {
+      "segments": [
+        {
+          "text": "Vender is 'to sell', and 'I sell' is:",
+          "lang": "en",
+          "file": "turn-26-prompt-1.mp3",
+          "hash": "575fc2b41807b07b8cb5d3bebec57bec5b4d572ae33d057d6d83d537b5e54856"
+        }
+      ]
+    },
+    "turn-28-reveal": {
+      "segments": [
+        {
+          "text": "Vendo.",
+          "lang": "es",
+          "file": "turn-28-reveal-1.mp3",
+          "hash": "13fa8aa717a9cd0d31d33608ad67e130ffb11992c907ce1ab856b71f6580b1db"
+        }
+      ]
+    },
+    "turn-28-prompt": {
+      "segments": [
+        {
+          "text": "Comprar is 'to buy', and 'I buy' is:",
+          "lang": "en",
+          "file": "turn-28-prompt-1.mp3",
+          "hash": "c2c2cc946eaf460a6a66e04af03036a61e8a0e52657dde8d6a5279457b457d6e"
+        }
+      ]
+    },
+    "turn-30-reveal": {
+      "segments": [
+        {
+          "text": "Compro.",
+          "lang": "es",
+          "file": "turn-30-reveal-1.mp3",
+          "hash": "8bb76158515f841e97a893aa5316cf41070dae4d95312aab63091d68066c9535"
+        }
+      ]
+    },
+    "turn-30-prompt": {
+      "segments": [
+        {
+          "text": "Llegar is 'to arrive', and 'I arrive' is:",
+          "lang": "en",
+          "file": "turn-30-prompt-1.mp3",
+          "hash": "37c28beda8163664fd11bbfc842901fb155c50bd62e5f284090916494e03ff14"
+        }
+      ]
+    },
+    "turn-32-full": {
+      "segments": [
+        {
+          "text": "Llego.",
+          "lang": "es",
+          "file": "turn-32-full-1.mp3",
+          "hash": "d26664d1713b4dce201311ab2a831e9580f707b5db9485fe4a55820b4408d1b4"
+        },
+        {
+          "text": "Some verbs are irregular, like salir, which means 'to leave'. If we apply the rule, we might say 'salo', but it's actually 'salgo'.",
+          "lang": "en",
+          "file": "turn-32-full-2.mp3",
+          "hash": "fc950bf5b64cd4d8f927cc3d9fdf06bf43fd8f8b2a0a46c9853d2c5d781bc95d"
+        }
+      ]
+    },
+    "turn-33-full": {
+      "segments": [
+        {
+          "text": "Esperar means 'to wait' or 'to hope'. How do you say 'I wait' or 'I hope'?",
+          "lang": "en",
+          "file": "turn-33-full-1.mp3",
+          "hash": "d366622f03e524ff962b6e246a1702f93adb88789eec89d001f8866999b8eb14"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "text": "Espero.",
+          "lang": "es",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "0a22af06915bffcbcec71b0dbe3dfd264cde356da92cefa9a68215baf2d1c244"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'he waits'?",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "13e09f98ed81418990b6faffa8d207594b1b8259ec91e73e27af1bfca6f67b1f"
+        }
+      ]
+    },
+    "turn-37-reveal": {
+      "segments": [
+        {
+          "text": "Espera.",
+          "lang": "es",
+          "file": "turn-37-reveal-1.mp3",
+          "hash": "519ce33f298d0a960e13f42e93f940a1fe8eef7a3c6b6da099e01abb44cbdc61"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'they wait'?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "4d74a06ff6ad3ade0d19abcaf7a5637746a841fd6fea526660fdc7381078a134"
+        }
+      ]
+    },
+    "turn-39-reveal": {
+      "segments": [
+        {
+          "text": "Esperan.",
+          "lang": "es",
+          "file": "turn-39-reveal-1.mp3",
+          "hash": "a586b7f8edd59caf26460301a4ec310668c9f60ef90c64a430985eb91464d818"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "If you want to say 'they're waiting for me', you say '",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "807c9300e7c9d0661a1874e01dd8579d566e8cae10b7373a04790f708d9e6a15"
+        },
+        {
+          "text": "me esperan",
+          "lang": "es",
+          "file": "turn-39-prompt-2.mp3",
+          "hash": "b5fd7e13831e7bd1878c2d5a03cc7155daad2833a91b694d5918f17cafc0d0f0"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-39-prompt-3.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-41-reveal": {
+      "segments": [
+        {
+          "text": "Me esperan.",
+          "lang": "es",
+          "file": "turn-41-reveal-1.mp3",
+          "hash": "4d0c392d872093dc326553a18d02b5492890e71469d2e048509fbfcf3ba2edf2"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'they're not waiting for me'?",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "84d02ae413e8aa7dafbfabee1b16a37306f95d3cf7a0ca9d728a08df1ca14f0b"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "No me esperan.",
+          "lang": "es",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "370edc4aeb39978cca3e99f3c90e32ab08cbb6f583187d7a33cf3e2acd302e4f"
+        },
+        {
+          "text": "I want to know why they're not waiting for me.",
+          "lang": "en",
+          "file": "turn-43-prompt-2.mp3",
+          "hash": "01f8e4670f2f68fa9da77f9ad46dda26c4d584dbaa45616eb83dc2828100d987"
+        }
+      ]
+    },
+    "turn-45-full": {
+      "segments": [
+        {
+          "text": "Quiero saber por qué no me esperan.",
+          "lang": "es",
+          "file": "turn-45-full-1.mp3",
+          "hash": "de091520463176002c058e770ec72102c059ead9258a27c058a844fd96dc9211"
+        },
+        {
+          "text": "Well done. Words ending in -ary become -ario in Spanish. For example, 'necessary' becomes 'necesario'.",
+          "lang": "en",
+          "file": "turn-45-full-2.mp3",
+          "hash": "a42bae189e01238c16ec4fd12b2802232a7675b224ed50003789695d124ec548"
+        }
+      ]
+    },
+    "turn-46-full": {
+      "segments": [
+        {
+          "text": "How do you say 'contrary'?",
+          "lang": "en",
+          "file": "turn-46-full-1.mp3",
+          "hash": "aa6e7013b8ac0d1607b96e42603f71fd8f8d49ebee6156f901fef80c1de6912e"
+        }
+      ]
+    },
+    "turn-48-full": {
+      "segments": [
+        {
+          "text": "Contrario.",
+          "lang": "es",
+          "file": "turn-48-full-1.mp3",
+          "hash": "2d9068f0fe3132e24f2377d7c36b9198f1e21b918290465ab13f00aedc72e4e6"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-48-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to use the verb 'hacer' and understand verb conjugations for different subjects.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "8018e514b118242b4e6b9d7318d2a35d00079dda43250002d0fe48d1ee124350"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try using 'hacer' in different sentences. How would you say 'we are making it' or 'they are doing it'?",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "2e24b1621d2aeb9eb936ed57d875671acffa6e7b64ca01d0ccaa2d3c402f32eb"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Practice these conjugations with other verbs you know. The more you use them, the more natural they'll become.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "c51afcba760ac8f9cef864b62355c7070e39dc8d73142df9fcaf96aed8ee1ad4"
+        }
+      ]
+    }
+  }
+}

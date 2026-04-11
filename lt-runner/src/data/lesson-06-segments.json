@@ -1,0 +1,308 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Intento means 'I try' or 'I am trying'. How would you say 'I am trying to publish it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Intento publicarlo.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'I am trying to administrate it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Intento administrarlo.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say 'I am trying to imitate it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Exactly. Now, remember that h's in Spanish are completely silent.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "How would you say '",
+      "lang": "en"
+    },
+    {
+      "text": "hospital",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Perfect.",
+      "lang": "en"
+    },
+    {
+      "text": "Hospital.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How would you say '",
+      "lang": "en"
+    },
+    {
+      "text": "horrible",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "how would you say '",
+      "lang": "en"
+    },
+    {
+      "text": "habitual",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Habitual.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "And 'habitually'?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Habitualmente.",
+      "lang": "es"
+    },
+    {
+      "text": "The word for 'now' in Spanish is '",
+      "lang": "en"
+    },
+    {
+      "text": "ahora",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Ahora",
+      "lang": "es"
+    },
+    {
+      "text": "' is spelled a-h-o-r-a.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How would you say 'I want to cancel it, but I don’t want to cancel it now'?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Perfect! The word for 'I go' or 'I am going' in Spanish is 'voy'.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say 'I am going now'?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Voy ahora.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How would you say 'I am not going now'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How do you think you might say 'visit' in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say 'I want to visit him'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How do you think you would say '",
+      "lang": "en"
+    },
+    {
+      "text": "visible",
+      "lang": "es"
+    },
+    {
+      "text": "' in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "How would you say '",
+      "lang": "en"
+    },
+    {
+      "text": "viral",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Viral.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How do you think '",
+      "lang": "en"
+    },
+    {
+      "text": "virus",
+      "lang": "es"
+    },
+    {
+      "text": "' might be?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Virus.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And 'convenient'?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-full": [
+    {
+      "text": "Conveniente.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how to use 'intento' to express 'I try' and the importance of the silent 'h' in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try using 'intento' with other verbs you know. How would you say 'I am trying to learn'?",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Remember, the 'h' is silent in Spanish. Practice saying words like 'hospital' and 'horrible' without pronouncing the 'h'.",
+      "lang": "en"
+    }
+  ]
+}

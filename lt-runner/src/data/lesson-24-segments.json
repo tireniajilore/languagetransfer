@@ -1,0 +1,330 @@
+{
+  "turn-1-full": [
+    {
+      "text": "The word for 'to give' in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "dar.",
+      "lang": "es"
+    },
+    {
+      "text": "D-A-R,",
+      "lang": "en"
+    },
+    {
+      "text": "dar.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "Dar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. 'I give' is",
+      "lang": "en"
+    },
+    {
+      "text": "doy,",
+      "lang": "es"
+    },
+    {
+      "text": "ending in -oy.",
+      "lang": "en"
+    },
+    {
+      "text": "Doy.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say 'I give it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "'I give them'?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And if they were feminine things?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How would you say 'he gives'?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Da.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "To emphasize 'he', you say:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Él da.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "And 'she gives'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How do you say 'they give'?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good! '",
+      "lang": "en"
+    },
+    {
+      "text": "Ellos dan",
+      "lang": "es"
+    },
+    {
+      "text": "' or 'ellas dan' for feminine.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How about 'you (informal) give'?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Das.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "To emphasize 'you', you say:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good. The word for 'something' is algo.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How would you say 'he is giving me something'?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good! '",
+      "lang": "en"
+    },
+    {
+      "text": "Él me da algo.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "' How about 'they give me something'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good. '",
+      "lang": "en"
+    },
+    {
+      "text": "Me dan algo.",
+      "lang": "es"
+    },
+    {
+      "text": "' Now, to say 'they give it to me', you say 'me lo dan'.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you emphasize 'they'?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Ellos me lo dan.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Or 'ellas' for feminine. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "if you want to say 'I will give it to you tomorrow', you can just say 'I give it to you tomorrow'. How would you say this informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Te lo doy mañana.",
+      "lang": "es"
+    },
+    {
+      "text": "Very Spanish sounding. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "how would you say 'are you giving it to me tomorrow?' formally?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "To emphasize 'you', you say:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "¿Usted me lo da mañana?",
+      "lang": "es"
+    },
+    {
+      "text": "These pronouns are flexible for emphasis. Now, 'you guys' is 'ustedes'.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "How would you say 'are you guys giving it to us tomorrow?'",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "To clarify 'you guys', you say:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "How do you say 'I want to give'?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "'I want to give it to you' informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how to use the verb 'dar' with different pronouns and contexts.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try using 'dar' in a sentence about giving something to someone tomorrow.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Practice these structures to get comfortable with giving in Spanish.",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "lesson_number": 37,
+  "title": "Lesson 37",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was the verb to give, do you remember the verb to give?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dar. Good. So how would you say I will give?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Daré"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And we will give:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Daremos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And he will give or she, you (formal), it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dará"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. They, you guys:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Darán"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And you (informal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Darás"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say Will you guys give it to me? Now, me – me – can also mean to me, so we don’t need that to. And out of these little words, me, and what is the word for it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo. So out of these little words, me and lo, the personal one, the one referring to the person, comes first. Will you guys give it to me?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me lo darán"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Me lo darán? What if this it was a feminine thing?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me la darán"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Me la darán Will you guys give it to me?, like Can you guys give it to me? This is more of a literal question, Are you guys going to give it to me? Will you guys give it to me? If you want to get this meaning of will you like can you, you will just use can you in Spanish. The word for something is algo. A-l-g-o.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say They will give you something, and we mean informal you? Remember the thought process. The thought process must be, first, “Who is doing the verb? Who is doing the verb?” They will give. That’s the first place:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Darán"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You something:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te darán algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Te darán algo. Good. How would you say They will give it to you, still speaking informally? They will give it to you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te lo darán"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Te lo darán. They will give it to you. Good. How would you say They will give it to us, they will give it to us:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos lo darán"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nos lo darán. They will not give it to us:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No nos lo darán"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No nos lo darán. So we saw that me, te, nos can mean me or to me, you or to you, us or to us, or even in some other circumstances for me or for us, for you. Me, te, nos can also mean myself, yourself, and ourselves. For example, you can say I give myself and you will just use me. So how would you say I give myself?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me doy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me doy. If you want to say I realize in Spanish, you say me doy cuenta. Cuenta is something like. That’s how you say account, to give yourself account of, to take account of I realize in Spanish. If you say realizar it means to realize like a project, to bring into fruition, no? So you say I give myself account, cuenta. So how would you say that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me doy cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me doy cuenta. This means I realize. You realize, talking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te das cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Te das cuenta. How would you make that a question?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te das cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Te das cuenta? This is used a lot conversationally. ¿ Te das cuenta? Do you realize? Do Do you know what I’m saying? you know what I mean? Good. We realize, we realize, we give ourselves account:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos damos cuenta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nos damos cuenta. So me can mean to me, for me, from me. It can mean myself. Te can mean you or to you, from you, yourself. And nos: us, to us, or ourselves or each other. We said – – that you might hear nos vemos we see each other as a way to say ciao, goodbye. Nos vemos. We see each other later. See you later. Now, you get all of these different meanings with me, te, and nos, but the ones beginning with l, so lo, la, los, las, they do change to get these different meanings. So when we say to him or to her or to you (formal) or to them we go from lo and la and los and las to le and les. So lo and la become le, and los and las become les. For example, lo doy means I give it. Now, if I want to say I give him, what I actually mean is I give to him, in which, I don’t mean I’m going to pick her up and give case here we must change to le. If I say I give her. In which case we’re not going to use, we’re her to somebody. I probably mean I give to her la. So let’s practice this a little bit. So we said going to use le dar is to give. Now, if you say I give it, how do you say that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo doy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo doy. And I give them and you still are talking about the things you are giving?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Los doy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Los doy. But now if you want to say I give them and you mean to them. So remember you might not even say this to in English. But what you mean is I give to them, then this los is going to change.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les doy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Les doy. Good. The word for something was?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Algo:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les doy algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Les doy algo. Good. So this is to them. To speak, to speak, began with a silent h you remember this verb.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablar. Good. So how do you say I speak?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablo. How would you say I have spoken? I have:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. He. So I have spoken:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He hablando"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No. This is speaking and spoken is very similar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "He hablado. Good. I have spoken to him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le he hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Le he hablado. I have spoken to him or to her. Could be either. Now what if you wanted to say We have spoken to him?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le hemos hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Le hemos hablado. So this le, it could be the lo to le, or the la to le. So many meanings are included here. It could be We have spoken to him, We have spoken to her, We have spoken to you (formal), speaking to male or female. Le hemos hablado. How was he has? Or she has or it has, from haber?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ha"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ha. Good. H-a. Ha. He has spoken:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ha hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. They have spoken:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Han hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Han hablado. They have spoken about it, they have spoken it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo han hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. They have spoken to him or to her:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le han hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Le han hablado. They have spoken to them. I mean one them spoken to a different them. They have spoken to them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les han hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Les han hablado. Good. So we had ver, to see. The version for I see was a little bit irregular, how was it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Veo v-o, it’s veo, v-e-o. Good. So if you want to say I see it or I see him or I see you, talking formally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo veo. What if you saw a feminine thing or if you saw her or if you saw you (formal), talking to a female?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La veo. What if you were seeing las casas, what if you meant I see them, and you’re referring to feminine things?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Las veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Las veo. And what else could it mean, then? Other than I see them, talking about things?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "I see them, meaning women."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Or? What else?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "You, females."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah. I see them, females, I see you guys, females, or I see them, feminine objects. Good. We said that the kitchen is la cocina and to make the verb you can just stick an r on cocina and you get?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cocinar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cocinar, with the accent on the end. Cocinar. Now in English if I say He’s cooking me something He’s cooking something for me I can say or. Both are acceptable in English. So we’re not looking for the direct translation, we’re looking for the feeling more than anything. We want to identify the feeling of “is it?” to me, is it for me, or is it directly me Is he cooking me? So it’s the feeling that we want to get our heads around more than the direct translation of whether we’re using. Here we’re to or not in English. For example, I listen to him. But we don’t use it with. So we’re using to in English, with listen hear. I hear him. I listen to him not looking for direct translation of when we’re using to and for or not. What we’re trying to do is generally perceive, ok, am I being cooked? Am I being spoken? Am I coming out of somebody’s mouth? Ah? Or is it indirect, am I being cooked for? Am I being given to? So, like I said, with me, He’s cooking te and nos it doesn’t matter anyway, because they won’t change. So if I want to say me, and I mean he’s directly cooking me in the oven, or if I mean he’s cooking something for me, then the sentence isn’t going to change anyway in Spanish. So how would you say that? He is cooking me something, he is cooking me something:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me cocina algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me cocina algo. Now let’s say:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos cocina algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nos cocina algo., speaking informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te cocina algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So me, te, nos we don’t have to worry about them. They don’t change. But if I want to say He is cooking him something, how would I say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le cocina algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. How would you say He is cooking them something?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les cocina algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Les cocina algo. What if you wanted to say He is cooking them and with this them you are referring to the things he is cooking? Not to the people he is cooking for.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Los cocina algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Eh, we don’t need the algo anymore.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Los cocina"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Los cocina. And if he was cooking feminine things, like las tartas, the tarts, for example, how He’s cooking them would it be?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Las cocina"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Now if you wanted to say and we still mean feminine things, let's He’s cooking them for us stay with las tartas., how would it be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos las cocina"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Perfect. We don’t need for or any of this and we put the personal one first. Nos las cocina. Good. Again, what was to speak?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. I speak:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. I speak to him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Le hablo. Good. And:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. They are speaking to them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les hablan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was to be able, can",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Poder.",
+      "lang": "es"
+    },
+    {
+      "text": "So we have",
+      "lang": "en"
+    },
+    {
+      "text": "poder.",
+      "lang": "es"
+    },
+    {
+      "text": "If we want to make could, we have two different could's. We have the could that refers to the past, I couldn't do it yesterday. And we have a could that refers to the future: but I could do it tomorrow. This future could - we learned it already from to be able, would be, “podería” and the able:",
+      "lang": "en"
+    },
+    {
+      "text": "poder",
+      "lang": "es"
+    },
+    {
+      "text": "e fell out podría. If we want to say I could in the past, most of the time we will probably find ourselves using this line past that we learned. The past that we make with - aba for - ar verbs and - ía for -er/-ir verbs.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So how would you say I could, referring to past? I could, I was able to:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Podía.",
+      "lang": "es"
+    },
+    {
+      "text": "So this is I was able to, I could. The past could,",
+      "lang": "en"
+    },
+    {
+      "text": "podía.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "We could:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good. I couldn't do it because I didn't have the time. For both of these we can use that line in the past, that ongoing past, even though we're not using it in English. I couldn't do it because I didn't have the time.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "So the first bit is I couldn't do it:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No podía hacerlo.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Because:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "I didn't have the time:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No podía hacerlo porque no tenía el tiempo.",
+      "lang": "es"
+    },
+    {
+      "text": "So we're going to contrast much more how we use this line and this dot in the past when we look at that dot. So what we're seeing for now - even though we haven't looked at the dot yet - that the decisions that we need to make in Spanish about whether we will use this line in the past, this ongoing past, or this dot, this point in the past, is a decision based on context rather than identifying which one we're using in English and then translating it. So we can begin to look at that even before we've learned the dot in the past. The word for yesterday was",
+      "lang": "en"
+    },
+    {
+      "text": "ayer.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Ayer.",
+      "lang": "es"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "So how would you say, I couldn't do it yesterday?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No podía hacerlo ayer.",
+      "lang": "es"
+    },
+    {
+      "text": "And when we learn the dot form of the past, we will see that we could have used that one as well. Sometimes they're interchangeable. Sometimes this dot and this line form are not interchangeable. For example, if we want to use haber to say I had eaten rather than I have eaten, I had gone already, rather than I have gone, then we always use the line in the past. Always.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "So from haber, how do you say I had?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Había,",
+      "lang": "es"
+    },
+    {
+      "text": "good. So",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "if you want to say I had eaten, how would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "You have a version of the verb that comes after haber, no matter what version of haber we have,",
+      "lang": "en"
+    },
+    {
+      "text": "había,",
+      "lang": "es"
+    },
+    {
+      "text": "habría, he, it doesn't matter.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Había",
+      "lang": "es"
+    },
+    {
+      "text": "comido. The word for already in Spanish is ya. Y-a. Ya.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "And it tends to go at the beginning. That would be the least emphatic place, the most natural place.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "So how would you say I had eaten already?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Ya había comido.",
+      "lang": "es"
+    },
+    {
+      "text": "So you could say, he wanted to dine with me, but I had dined already.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So, he wanted, what is to want?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Querer.",
+      "lang": "es"
+    },
+    {
+      "text": "So, he wanted. Again we're using the line in the past, because even though in English there we are using the dot - we're not saying he was wanting, he used to want - with",
+      "lang": "en"
+    },
+    {
+      "text": "querer",
+      "lang": "es"
+    },
+    {
+      "text": "we can use the line without any problem because most of the time, when you want something, it's not just for an instant, it's kind of an ongoing feeling. The dinner was la cena.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "What was to dine, or to have dinner?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "He wanted to dine with me:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "And this was a bit of an exception.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "You do not say “con mí”, you say:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good. Quería",
+      "lang": "en"
+    },
+    {
+      "text": "cenar conmigo,",
+      "lang": "es"
+    },
+    {
+      "text": "but I had already had dinner.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "I had dined already:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good. But if you say, quería",
+      "lang": "en"
+    },
+    {
+      "text": "cenar conmigo, pero ya había cenado,",
+      "lang": "es"
+    },
+    {
+      "text": "I might understand he wanted to dine with me, but he had dined already, no?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Because we have the same verb form, so how would we make that clearer?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-full": [
+    {
+      "text": "Exactly. But where? So give it to me again, and we can say the word for he as well, especially when we are contrasting between two people, we will have the habit of putting who. So, he wanted to dine with me, but I had dined already: S: Él quería",
+      "lang": "en"
+    },
+    {
+      "text": "cenar conmigo",
+      "lang": "es"
+    },
+    {
+      "text": "pero yo ya",
+      "lang": "en"
+    },
+    {
+      "text": "había...",
+      "lang": "es"
+    },
+    {
+      "text": "so dined, cenaría,",
+      "lang": "en"
+    },
+    {
+      "text": "no.",
+      "lang": "es"
+    }
+  ],
+  "turn-40-full": [
+    {
+      "text": "No.",
+      "lang": "en"
+    }
+  ],
+  "turn-42-prompt": [
+    {
+      "text": "What you want to translate is not dined. You want to find the version after haber. This is going to save you a lot of pain.",
+      "lang": "en"
+    }
+  ],
+  "turn-44-reveal": [
+    {
+      "text": "Good. He wanted to have dinner with me but I had already had dinner. Él quería",
+      "lang": "en"
+    },
+    {
+      "text": "cenar conmigo",
+      "lang": "es"
+    },
+    {
+      "text": "pero yo ya",
+      "lang": "en"
+    },
+    {
+      "text": "había cenado.",
+      "lang": "es"
+    },
+    {
+      "text": "Now we don't need to look at or discuss when we use had as opposed to when we use have, when we use I had lost it as opposed to I have lost it, because it's exactly the same in Spanish as it is in English. So you will just translate the thought, let's say. For example, you might want to say, he was looking for it because I had lost it. He was looking for it because I had lost it.",
+      "lang": "en"
+    }
+  ],
+  "turn-44-prompt": [
+    {
+      "text": "To look for is",
+      "lang": "en"
+    },
+    {
+      "text": "buscar, buscar,",
+      "lang": "es"
+    },
+    {
+      "text": "to look for.",
+      "lang": "en"
+    }
+  ],
+  "turn-46-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Buscar,",
+      "lang": "es"
+    },
+    {
+      "text": "to look for.",
+      "lang": "en"
+    }
+  ],
+  "turn-46-prompt": [
+    {
+      "text": "So, he was looking for it, he was searching for it:",
+      "lang": "en"
+    }
+  ],
+  "turn-48-prompt": [
+    {
+      "text": "Check the ending first.",
+      "lang": "en"
+    }
+  ],
+  "turn-50-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-50-prompt": [
+    {
+      "text": "He was looking for it:",
+      "lang": "en"
+    }
+  ],
+  "turn-52-prompt": [
+    {
+      "text": "To lose was?",
+      "lang": "en"
+    }
+  ],
+  "turn-54-prompt": [
+    {
+      "text": "Because I had lost it:",
+      "lang": "en"
+    }
+  ],
+  "turn-56-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo buscaba,",
+      "lang": "es"
+    },
+    {
+      "text": "or él",
+      "lang": "en"
+    },
+    {
+      "text": "lo buscaba, porque yo lo había perdido.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-56-prompt": [
+    {
+      "text": "How would you say, I would have lost it - so not I had lost it, I would have lost it?",
+      "lang": "en"
+    }
+  ],
+  "turn-58-reveal": [
+    {
+      "text": "Good. I would have lost it. Lo habría perdido. Now I'm not sure if you said habría or “habería” because this irregularity that we have which is habría happens so naturally because that e kind of falls out so naturally. I think you said “habería”, but you kind of didn't pronounce the e well.",
+      "lang": "en"
+    }
+  ],
+  "turn-58-prompt": [
+    {
+      "text": "Is that right?",
+      "lang": "en"
+    }
+  ],
+  "turn-60-reveal": [
+    {
+      "text": "Yes. So you see that naturally it's happening, that e of haber is falling away, and that has been formalised in Spanish. You write it like this, h-a-b-r-i-a. Habría. Only with a few verbs, this contraction is occurring. Habría. Lo habría perdido. I would have lost it.",
+      "lang": "en"
+    }
+  ],
+  "turn-60-prompt": [
+    {
+      "text": "How would you say, I would have got lost, or I would have lost myself?",
+      "lang": "en"
+    }
+  ],
+  "turn-62-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me habría perdido.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

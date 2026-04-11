@@ -1,0 +1,304 @@
+{
+  "lesson_number": 18,
+  "title": "Present Tense -ER and -IR Verbs",
+  "description": "Learn the present tense endings for -er and -ir verbs, focusing on the 'we' form.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "For -ar verbs, we use -amos for 'we' in the present tense. For -er verbs, it's -emos, and for -ir verbs, it's -imos. This is the only time -er and -ir verbs differ in the entire language. Let's look at preferir. What does preferir mean?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "prefer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. To prefer. How would you say 'I prefer'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "prefiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Prefiero. How about 'he prefers'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "prefiere"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Prefiere. And 'they prefer'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "prefieren"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Prefieren. Now, how would you say 'we prefer'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "preferimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Preferimos. Notice the -imos ending for -ir verbs. What was 'to come'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "venir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Venir. How do you say 'we come'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "venimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Venimos. To live is vivir. How do you say 'I live'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vivo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vivo. How would you say 'I live here'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vivo aquí",
+        "vivo acá"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vivo aquí. Now, 'I don't live here, but he lives here':",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no vivo aquí, pero él vive aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. To know is saber. How do you say 'we live'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vivimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vivimos. And 'he lives'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vive"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vive. How about 'they live here'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "viven aquí",
+        "viven acá"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Viven aquí. The word for 'where' is dónde. How do you say 'where do they live'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "dónde viven"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'I want to know where they live':",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber dónde viven"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero saber dónde viven. To understand is entender. How do you say 'I understand'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "entiendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Entiendo. And 'he understands'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "entiende"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Entiende. 'He doesn't understand':",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no entiende"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No entiende. 'Why doesn't he understand?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿por qué no entiende?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Por qué no entiende? 'I want to know why he doesn't understand':",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber por qué no entiende"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero saber por qué no entiende. How do you say 'we understand'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "entendemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Entendemos. For -er verbs, we use -emos. How do you say 'we lose'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "perdemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Perdemos. 'We always lose':",
+      "is_feedback": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "siempre perdemos",
+        "perdemos siempre"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Siempre perdemos. Good.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned the present tense endings for -er and -ir verbs, focusing on the 'we' form."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try using these endings with other verbs you know. How would you say 'we eat' or 'we write'?",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Practicing with different verbs will help reinforce these patterns and make them second nature."
+    }
+  ]
+}

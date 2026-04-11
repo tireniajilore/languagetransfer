@@ -1,0 +1,535 @@
+{
+  "lesson_number": 17,
+  "title": "Verb Stem Changes - Stress Patterns",
+  "description": "Learn how stress affects verb stem changes in Spanish, focusing on e to ie and o to ue transformations.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "We've seen how sounds in verbs might change under stress in the present tense. For example, the verb 'querer' (to want) changes to 'quiero' (I want). How do you say he wants or she wants or you (formal) want?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiere"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiere. They want?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quieren"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quieren. Good. And you (informal)?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quieres"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. What do you want?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿qué quieres?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Qué quieres? Good. Another example is 'perder' (to lose). How would you say: I lose?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pierdo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pierdo. And he loses, she loses?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pierde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pierde. They lose?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pierden"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And you (informal)?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pierdes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pierdes. Good. We also saw that an o can change to ue, like in 'poder' (to be able) becoming 'puedo' (I can). What did 'dormir' mean?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "to sleep"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And 'duermo' means?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "I sleep"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. What changes when we add 'me'? 'Me duermo' means?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "I fall asleep"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. 'I fall asleep'. Good. Now, 'comer' (to eat) doesn't split. I eat?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "como"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Como. So it didn't split there. Let's try 'colgar' (to hang). I hang?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cuelgo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cuelgo. He hangs?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cuelga"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cuelga. Good. They hang?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cuelgan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Now let's look at verbs starting with 'al-', which often come from Arabic. For example, 'alcohol'. The verb 'tomar' means to take or to drink. How would you say: I don't drink alcohol?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no tomo alcohol"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No tomo alcohol. 'Azúcar' (sugar) is also from Arabic. How would you say: I don't take sugar?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no tomo azúcar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No tomo azúcar. 'Arroz' (rice) is another example. I want rice?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero arroz"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero arroz. Good. Now, 'toma' means he takes, she takes, or you (formal) take. You (informal)?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "tomas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. What are you taking? This could mean what do you want to drink?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿qué tomas?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Qué tomas? Good. They take?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "toman"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Toman. Good. Now, we take is 'tomamos'. What did I do to get 'tomamos' from 'tomar'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "You took out the -ar and added -amos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So 'hablar' (to speak) becomes 'hablamos' (we speak). How do you say: I speak?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablo. She speaks?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "habla"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Habla. They speak?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hablan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You (informal) speak?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hablas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "We speak?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hablamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablamos. Good. Now, 'encontrar' (to find) becomes 'encuentro' (I find). But in the 'we' form, it's 'encontramos'.",
+      "is_feedback": true,
+      "is_prompt": false
+    },
+    {
+      "speaker": "tutor",
+      "text": "What was to demonstrate?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "demostrar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Demostrar. And 'mostrar' means to show. I show?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "muestro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Muestro. He shows?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "muestra"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Muestra. They show?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "muestran"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You (informal) show?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "muestras"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "We show?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "mostramos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Mostramos. Good. 'Pensar' (to think) becomes 'pienso' (I think). I think so?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pienso que sí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pienso que sí. He thinks?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "piensa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Piensa. They think?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "piensan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You (informal) think?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "piensas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "What do you think?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿qué piensas?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. What do you plan to do? 'Hacer' means to do or to make.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿qué piensas hacer?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿Qué piensas hacer? We think?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pensamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pensamos. The verb 'cerrar' (to close) becomes 'cierro' (I close). She closes?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cierra"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cierra. We close?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cerramos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So we're seeing that the issue of the e's and o's splitting is about stress. When we don't stress them, they stay intact.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how stress affects verb stem changes in Spanish, focusing on e to ie and o to ue transformations."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try conjugating other verbs you know and see if they follow the same pattern. Practice with verbs like 'entender' or 'volver'.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Understanding these patterns will help you predict and use verb forms more accurately in conversation."
+    }
+  ]
+}

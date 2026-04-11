@@ -1,0 +1,646 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was tonight in Spanish, tonight?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Esta noche.",
+      "lang": "es"
+    },
+    {
+      "text": "Good, “this night”. And we can use this as a hook to work out the other this ’s and that these and those that we might need.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So,",
+      "lang": "en"
+    },
+    {
+      "text": "esta noche,",
+      "lang": "es"
+    },
+    {
+      "text": "which tells us that noche is what kind of noun, what gender?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Feminine.",
+      "lang": "es"
+    },
+    {
+      "text": "Good, and what if you wanted to say that night?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "What do you do to esta to get that?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Esa.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Good, take away the t, good, so that night:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Esa noche.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And those nights:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Esas noches.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. The word for man is",
+      "lang": "en"
+    },
+    {
+      "text": "hombre, hombre,",
+      "lang": "es"
+    },
+    {
+      "text": "h-o-m-b-r-e,",
+      "lang": "en"
+    },
+    {
+      "text": "hombre.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say this man?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "You think",
+      "lang": "en"
+    },
+    {
+      "text": "hombre",
+      "lang": "es"
+    },
+    {
+      "text": "is a",
+      "lang": "en"
+    },
+    {
+      "text": "feminine",
+      "lang": "es"
+    },
+    {
+      "text": "word?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Este hombre.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "That man:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good. You can also say el",
+      "lang": "en"
+    },
+    {
+      "text": "hombre",
+      "lang": "es"
+    },
+    {
+      "text": "este, el",
+      "lang": "en"
+    },
+    {
+      "text": "hombre",
+      "lang": "es"
+    },
+    {
+      "text": "ese, to say this man or that man in Spanish, which might be a structure taken from Arabic, because in Arabic you don’t really have to be in the present tense, so you can’t say this man, because you would understand from it that this is a man, so in Arabic it’s the same: alrajul hdha - el",
+      "lang": "en"
+    },
+    {
+      "text": "hombre",
+      "lang": "es"
+    },
+    {
+      "text": "este. As I mentioned before when languages come into contact, like the eight hundred years between Spanish and Arabic, they don’t just share vocabulary.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say these men?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estos hombres.",
+      "lang": "es"
+    },
+    {
+      "text": "So, with este we have the / e / of el, el",
+      "lang": "en"
+    },
+    {
+      "text": "hombre, este hombre,",
+      "lang": "es"
+    },
+    {
+      "text": "and with estos we have the - os of los, los hombres,",
+      "lang": "en"
+    },
+    {
+      "text": "estos hombres,",
+      "lang": "es"
+    },
+    {
+      "text": "these men.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How about those men?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Esos hombres.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, this means that we have este and esta for this, when we are referring to oh, I can’t believe a masculine noun or a",
+      "lang": "en"
+    },
+    {
+      "text": "feminine",
+      "lang": "es"
+    },
+    {
+      "text": "noun. But sometimes we say this just generally,, we don’t mean a specific noun when we say I can’t believe this this, so we have like a neuter this, ’s. that is not masculine or",
+      "lang": "en"
+    },
+    {
+      "text": "feminine,",
+      "lang": "es"
+    },
+    {
+      "text": "and that one is esto. So, creer is to believe, creer, with two e I don’t believe this",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How would you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No creo esto.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I don't believe this.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say this? In Spanish we will say nothing pleases me more than this, nothing pleases me more than this, I don’t like anything more than this:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nada me gusta más que esto.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you say nothing pleased me more than that? I didn’t like anything more than that, nothing pleased me more than that:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "Nothing pleased me:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nada me gustó más que eso.",
+      "lang": "es"
+    },
+    {
+      "text": "more than that.",
+      "lang": "en"
+    },
+    {
+      "text": "Nada me gustó más que eso.",
+      "lang": "es"
+    },
+    {
+      "text": "Tan, tan, in Spanish means so, like in the sense of so tired, tan. T-a-n.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How would you say so tired?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "how would you say I was so tired, and we mean a line in time?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "And you being",
+      "lang": "en"
+    },
+    {
+      "text": "feminine?",
+      "lang": "es"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good. Estaba tan",
+      "lang": "en"
+    },
+    {
+      "text": "cansada.",
+      "lang": "es"
+    },
+    {
+      "text": "What if you wanted to say we were so tired that we slept all day?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "So,, let’s be a masculine or mixed group, first bit is we were so tired we were so tired:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estábamos tan cansados,",
+      "lang": "es"
+    },
+    {
+      "text": "that we slept all day.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "So what is this that?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Que. Estábamos tan cansados que",
+      "lang": "es"
+    },
+    {
+      "text": "we slept all day.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "Now, all day is “all the day”, you remember how is day?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Día.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "And the day:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "It would be, but-",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "El día.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "It ends in a all day is “all the day”, how would it be?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "It’s masculine.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "We were so tired that we slept all day, we were so tired that we slept all day:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estábamos tan cansados que dormimos todo el día.",
+      "lang": "es"
+    },
+    {
+      "text": "So dormimos could be we slept, we know it’s the same in the present, but or we sleep",
+      "lang": "en"
+    },
+    {
+      "text": "estábamos tan cansados",
+      "lang": "es"
+    },
+    {
+      "text": "gives us our context, so we understand that of course it refers to past,",
+      "lang": "en"
+    },
+    {
+      "text": "estábamos tan cansados que dormimos todo el día.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "How would you say we were so tired when we arrived that we slept all day? So, we were so tired:",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "When we arrived:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "That we slept all day:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estábamos tan cansados cuando llegamos que dormimos todo el día.",
+      "lang": "es"
+    },
+    {
+      "text": "So, here in this sentence we have llegamos and dormimos that could be past or present, but estábamos brings us into the context right from the beginning,",
+      "lang": "en"
+    },
+    {
+      "text": "estábamos tan cansados cuando llegamos que dormimos todo el día.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "So, we said that when was:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "Cuándo.",
+      "lang": "es"
+    },
+    {
+      "text": "And how much is",
+      "lang": "en"
+    },
+    {
+      "text": "cuánto,",
+      "lang": "es"
+    },
+    {
+      "text": "with a t,",
+      "lang": "en"
+    },
+    {
+      "text": "cuánto.",
+      "lang": "es"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Cuánto.",
+      "lang": "es"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "How do you say again, like another time?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Otra vez.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, you could say how many times, how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "How many times:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Cuántas veces. Good. We know it’s",
+      "lang": "en"
+    },
+    {
+      "text": "feminine,",
+      "lang": "es"
+    },
+    {
+      "text": "because we said",
+      "lang": "en"
+    },
+    {
+      "text": "otra vez,",
+      "lang": "es"
+    },
+    {
+      "text": "and not otro vez. So, we can, if we have a word like vez where it’s not obvious what is the gender, we need to look back to, oh, ok, it’s",
+      "lang": "en"
+    },
+    {
+      "text": "feminine,",
+      "lang": "es"
+    },
+    {
+      "text": "somewhere that we used it –",
+      "lang": "en"
+    },
+    {
+      "text": "otra vez",
+      "lang": "es"
+    },
+    {
+      "text": "cuántas veces, good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "How would you I don’t know how many times I visited him I don’t know how many times I visited him say?:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "I visited him:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "No sé cuántas veces lo visité.,",
+      "lang": "es"
+    },
+    {
+      "text": "many times they visited him:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No sé cuántas veces",
+      "lang": "es"
+    },
+    {
+      "text": "lo visitaron.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "And what if you wanted to say times they visited her?",
+      "lang": "en"
+    }
+  ],
+  "turn-75-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No sé cuántas veces la visitaron.",
+      "lang": "es"
+    }
+  ]
+}

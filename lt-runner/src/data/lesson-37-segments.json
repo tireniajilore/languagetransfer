@@ -1,0 +1,888 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was the verb to give, do you remember the verb to give?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Dar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So how would you say I will give?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "And we will give:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And he will give or she, you (formal), it:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "They, you guys:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "And you (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say Will you guys give it to me? Now, me – me – can also mean to me, so we don’t need that to. And out of these little words, me, and what is the word for it?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Lo. So out of these little words, me and lo, the personal one, the one referring to the person, comes first. Will you guys give it to me?:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Me lo darán?",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "What if this it was a feminine thing?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Me la darán",
+      "lang": "es"
+    },
+    {
+      "text": "Will you guys give it to me? , like Can you guys give it to me? This is more of a literal question, Are you guys going to give it to me? Will you guys give it to me? If you want to get this meaning of will you like can you, you will just use can you in Spanish. The word for something is",
+      "lang": "en"
+    },
+    {
+      "text": "algo.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "A-l-g-o.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "So how would you say They will give you something, and we mean informal you? Remember the thought process. The thought process must be, first, “Who is doing the verb? Who is doing the verb?” They will give. That’s the first place:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "You something:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Te darán algo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say They will give it to you, still speaking informally? They will give it to you:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Te lo darán.",
+      "lang": "es"
+    },
+    {
+      "text": "They will give it to you. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you say They will give it to us, they will give it to us:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nos lo darán.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "They will not give it to us:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No nos lo darán.",
+      "lang": "es"
+    },
+    {
+      "text": "So we saw that me, te, nos can mean me or to me, you or to you, us or to us, or even in some other circumstances for me or for us, for you. Me, te, nos can also mean myself, yourself, and ourselves. For example, you can say I give myself and you will just use me.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So how would you say I give myself?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Me doy.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "If you want to say I realize in Spanish, you say",
+      "lang": "en"
+    },
+    {
+      "text": "me doy cuenta.",
+      "lang": "es"
+    },
+    {
+      "text": "Cuenta is something like. That’s how you say account, to give yourself account of, to take account of I realize in Spanish. If you say realizar it means to realize like a project, to bring into fruition, no? So you say I give myself account, cuenta. So how would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Me doy cuenta.",
+      "lang": "es"
+    },
+    {
+      "text": "This means I realize.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "You realize, talking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Te das cuenta.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "How would you make that a question?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Te das cuenta?",
+      "lang": "es"
+    },
+    {
+      "text": "This is used a lot conversationally. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Te das cuenta?",
+      "lang": "es"
+    },
+    {
+      "text": "Do you realize? Do Do you know what I’m saying? you know what I mean? Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "We realize, we realize, we give ourselves account:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nos damos cuenta.",
+      "lang": "es"
+    },
+    {
+      "text": "So me can mean to me, for me, from me. It can mean myself. Te can mean you or to you, from you, yourself. And nos: us, to us, or ourselves or each other. We said – – that you might hear nos vemos we see each other as a way to say ciao, goodbye. Nos vemos. We see each other later. See you later. Now, you get all of these different meanings with me, te, and nos, but the ones beginning with l, so lo, la, los, las, they do change to get these different meanings. So when we say to him or to her or to you (formal) or to them we go from lo and la and los and las to le and les. So lo and la become le, and los and las become les. For example,",
+      "lang": "en"
+    },
+    {
+      "text": "lo doy",
+      "lang": "es"
+    },
+    {
+      "text": "means I give it. Now, if I want to say I give him, what I actually mean is I give to him, in which, I don’t mean I’m going to pick her up and give case here we must change to le. If I say I give her. In which case we’re not going to use, we’re her to somebody. I probably mean I give to her la. So let’s practice this a little bit. So we said going to use le",
+      "lang": "en"
+    },
+    {
+      "text": "dar",
+      "lang": "es"
+    },
+    {
+      "text": "is to give.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "Now, if you say I give it, how do you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Lo doy.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "And I give them and you still are talking about the things you are giving?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Los doy.",
+      "lang": "es"
+    },
+    {
+      "text": "But now if you want to say I give them and you mean to them. So remember you might not even say this to in English.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "But what you mean is I give to them, then this los is going to change.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Les doy.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "The word for something was?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "Algo:",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "Les doy algo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So this is to them. To speak, to speak, began with a silent h you remember this verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Hablar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "So how do you say I speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Hablo.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "How would you say I have spoken? I have:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Yes. He.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "So I have spoken:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "No. This is speaking and spoken is very similar.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "He hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "I have spoken to him:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Le he hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "I have spoken to him or to her. Could be either.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "Now what if you wanted to say We have spoken to him?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Le hemos hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "So this le, it could be the lo to le, or the la to le. So many meanings are included here. It could be We have spoken to him, We have spoken to her, We have spoken to you (formal), speaking to male or female.",
+      "lang": "en"
+    },
+    {
+      "text": "Le hemos hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "How was he has?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "Or she has or it has, from haber?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Ha. Good. H-a. Ha.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "He has spoken:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "They have spoken:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Han hablado.",
+      "lang": "es"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "They have spoken about it, they have spoken it:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "They have spoken to him or to her:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Le han hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "They have spoken to them. I mean one them spoken to a different them.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "They have spoken to them:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Les han hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So we had ver, to see.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "The version for I see was a little bit irregular, how was it?",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Veo",
+      "lang": "es"
+    },
+    {
+      "text": "v-o, it’s",
+      "lang": "en"
+    },
+    {
+      "text": "veo,",
+      "lang": "es"
+    },
+    {
+      "text": "v-e-o. Good. So",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "if you want to say I see it or I see him or I see you, talking formally:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Lo veo.",
+      "lang": "es"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "What if you saw a feminine thing or if you saw her or if you saw you (formal), talking to a female?",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "La veo.",
+      "lang": "es"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "What if you were seeing las casas, what if you meant I see them, and you’re referring to feminine things?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Las veo.",
+      "lang": "es"
+    },
+    {
+      "text": "And what else could it mean, then?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "Other than I see them, talking about things?",
+      "lang": "en"
+    }
+  ],
+  "turn-87-reveal": [
+    {
+      "text": "Or?",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "What else?",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Yeah. I see them, females, I see you guys, females, or I see them, feminine objects. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "We said that the kitchen is la cocina and to make the verb you can just stick an r on cocina and you get?",
+      "lang": "en"
+    }
+  ],
+  "turn-91-reveal": [
+    {
+      "text": "Cocinar,",
+      "lang": "es"
+    },
+    {
+      "text": "with the accent on the end.",
+      "lang": "en"
+    },
+    {
+      "text": "Cocinar.",
+      "lang": "es"
+    },
+    {
+      "text": "Now in English if I say He’s cooking me something He’s cooking something for me I can say or. Both are acceptable in English. So we’re not looking for the direct translation, we’re looking for the feeling more than anything. We want to identify the feeling of “is it?” to me, is it for me, or is it directly me Is he cooking me? So it’s the feeling that we want to get our heads around more than the direct translation of whether we’re using. Here we’re to or not in English. For example, I listen to him. But we don’t use it with. So we’re using to in English, with listen hear. I hear him. I listen to him not looking for direct translation of when we’re using to and for or not. What we’re trying to do is generally perceive, ok, am I being cooked? Am I being spoken? Am I coming out of somebody’s mouth? Ah? Or is it indirect, am I being cooked for? Am I being given to? So, like I said, with me, He’s cooking te and nos it doesn’t matter anyway, because they won’t change. So if I want to say me, and I mean he’s directly cooking me in the oven, or if I mean he’s cooking something for me, then the sentence isn’t going to change anyway in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "So how would you say that? He is cooking me something, he is cooking me something:",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me cocina algo.",
+      "lang": "es"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "Now let’s say:",
+      "lang": "en"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nos cocina algo.,",
+      "lang": "es"
+    },
+    {
+      "text": "speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-97-reveal": [
+    {
+      "text": "Good. So me, te, nos we don’t have to worry about them. They don’t change.",
+      "lang": "en"
+    }
+  ],
+  "turn-97-prompt": [
+    {
+      "text": "But if I want to say He is cooking him something, how would I say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-99-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-99-prompt": [
+    {
+      "text": "How would you say He is cooking them something?",
+      "lang": "en"
+    }
+  ],
+  "turn-101-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Les cocina algo.",
+      "lang": "es"
+    },
+    {
+      "text": "What if you wanted to say He is cooking them and with this them you are referring to the things he is cooking?",
+      "lang": "en"
+    }
+  ],
+  "turn-101-prompt": [
+    {
+      "text": "Not to the people he is cooking for.",
+      "lang": "en"
+    }
+  ],
+  "turn-103-prompt": [
+    {
+      "text": "Eh, we don’t need the",
+      "lang": "en"
+    },
+    {
+      "text": "algo",
+      "lang": "es"
+    },
+    {
+      "text": "anymore.",
+      "lang": "en"
+    }
+  ],
+  "turn-105-prompt": [
+    {
+      "text": "Los cocina.",
+      "lang": "es"
+    },
+    {
+      "text": "And if he was cooking feminine things, like las tartas, the tarts, for example, how He’s cooking them would it be?:",
+      "lang": "en"
+    }
+  ],
+  "turn-107-reveal": [
+    {
+      "text": "Good. Now if you wanted to say and we still mean feminine things, let's He’s cooking them for us stay with las tartas.",
+      "lang": "en"
+    }
+  ],
+  "turn-107-prompt": [
+    {
+      "text": ", how would it be?",
+      "lang": "en"
+    }
+  ],
+  "turn-109-reveal": [
+    {
+      "text": "Perfect. We don’t need for or any of this and we put the personal one first.",
+      "lang": "en"
+    },
+    {
+      "text": "Nos las cocina.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Again,",
+      "lang": "en"
+    }
+  ],
+  "turn-109-prompt": [
+    {
+      "text": "what was to speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-111-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-111-prompt": [
+    {
+      "text": "I speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-113-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-113-prompt": [
+    {
+      "text": "I speak to him:",
+      "lang": "en"
+    }
+  ],
+  "turn-115-reveal": [
+    {
+      "text": "Le hablo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-115-prompt": [
+    {
+      "text": "And:",
+      "lang": "en"
+    }
+  ],
+  "turn-117-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-117-prompt": [
+    {
+      "text": "They are speaking to them:",
+      "lang": "en"
+    }
+  ],
+  "turn-119-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

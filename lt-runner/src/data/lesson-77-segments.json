@@ -1,0 +1,294 @@
+{
+  "turn-1-full": [
+    {
+      "text": "How would you say there should be something to eat? There should be something to eat - so, we said that should was would owe or would must, so what is to owe, which we can use like must and it’s related to debt?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "Deber.",
+      "lang": "es"
+    },
+    {
+      "text": "And would must or would owe gives us the meaning should.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "There should be something to eat:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good. Your first place your mind is going to go is to choose between ser and estar. If neither fit,?” And then you know it’s make that little check, “oh, is this exist? Is this the be that means exist haber.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "So, there should be, there should exist something to eat:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good, in order to eat, there should be something in order to eat, good.",
+      "lang": "en"
+    },
+    {
+      "text": "Debería haber",
+      "lang": "es"
+    },
+    {
+      "text": "algo para comer, there should be something to eat. Very good. Another common place that we use the mood tense in Spanish, is when we say it is, an adjective, que, and then a verb. This verb is going to go into the mood tense, you are noticing that que has a lot to do with the subjunctive, that this que introduces the mood tense in many cases. So, for example, if I want to give you some advice and it’s terrible that you eat this, it is terrible that you eat this tell you.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "So, let’s speak informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es terrible que comas esto.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, it’s the que, the combination of es terrible and que,, then you don’t use the which introduces this mood tense. If you say it is terrible if you eat this mood tense. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "how would you say that? It is terrible if you eat this, still speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es terrible si comes esto.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say it is possible?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you say? What is later, or more late?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good. And what is the root for the mood tense of go?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Voy, va becomes:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So, it is possible that we go later:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es posible que vayamos más tarde.",
+      "lang": "es"
+    },
+    {
+      "text": "Fuerte in Spanish means strong colloquially and maybe the closest translation that I can think of would be something like, I mean, again it’s very colloquial, but you can say oh, that’s hardcore, that’s full-on, in Spanish you say a lot qué fuerte, qué fuerte, how heavy, how hardcore, how full-on, qué fuerte. And we see that we can use qué like how – qué fuerte; qué lindo, how nice, how beautiful; qué bueno, how good. ’s there in Spanish, You can say qué increíble que or qué fuerte que, so, whilst we have two que this is just how incredible that, how hardcore that, and, of course, we will carry on into the mood tense. So, how strong, how heavy, that he is here,",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "how would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Qué fuerte que esté aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "In English we achieve a similar feeling to what we get with the Spanish subjunctive sometimes with words like should or might. Here for example, in English we, here we don’t mean could say how incredible that he should come should, like in its literal meaning like",
+      "lang": "en"
+    },
+    {
+      "text": "debería, no,",
+      "lang": "es"
+    },
+    {
+      "text": "here in English we are using should to give this kind of mood tense, means it’s okay. The literal feeling: how incredible that he should come. Está bien, está bien translation of bien is well, and to be well is a state, so it goes with estar: está bien, but it can also it’s okay it’s okay that you ask but I don’t be used like. So for example, you could say, you know, have to reply. So, to ask is preguntar, and to reply or to respond is responder. So, we will say it’s okay that you ask, but it’s not necessary that I respond, I don’t need to respond, it’s not it’s okay that you ask necessary that I respond.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "So, the first bit –, and we are speaking informally, and to ask was preguntar:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está bien que preguntes.",
+      "lang": "es"
+    },
+    {
+      "text": "So, it’s like okay, you can ask as much as you like, so this is the feeling we get here with the mood tense, or in English we might use might here to get this kind of it’s okay that you might ask.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "But mood tense feeling::",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": ", there",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "'s a few ways we can say this:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "Necesito is the verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Is necessity. So, necessary.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How is vocabulary in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "So,:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está bien que preguntes, pero no es necesario que responda.",
+      "lang": "es"
+    },
+    {
+      "text": "And there we have the mood tense after",
+      "lang": "en"
+    },
+    {
+      "text": "es necesario,",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "no es necesario",
+      "lang": "es"
+    },
+    {
+      "text": "que, so we have it is, adjective, que, and then the verb, and that verb with the mood tense. We also could have said no hace falta que it doesn’t make lack responda,, this common expression we said that we will hear around, hacer falta, no hace falta que responda.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "How would you say it is important that we find it soon? It’s important that we find it soon:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es importante que lo encontremos pronto.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

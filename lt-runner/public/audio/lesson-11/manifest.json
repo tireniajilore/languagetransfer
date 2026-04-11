@@ -1,0 +1,564 @@
+{
+  "lessonId": "lesson-11",
+  "generatedAt": "2026-04-11T13:51:22.072Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "How would you say 'to tolerate'?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "c2403008296dfecc13947ddbbdc26d1bd8eac83d1ac2e94e099060db5778549c"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Exactly,",
+          "lang": "en",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "c22a9032cd10a5155e257618bfb0a011c1ff4f951e71f10da93c832b7831f703"
+        },
+        {
+          "text": "tolerar.",
+          "lang": "es",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "fe967c37e3d55f48d331208e3973457c9bfb843aad35f1b1b3b7386a602356be"
+        },
+        {
+          "text": "It's always going to be -ar, -er, or -ir. To say 'I tolerate', you remove the ending and add -o.",
+          "lang": "en",
+          "file": "turn-3-reveal-3.mp3",
+          "hash": "2ce96dbe004e7b41e4f6b834e5a329b1ebeddbb9b214274a6af8c789dde3d7ca"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I tolerate'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "89382edc09d3967b31f5bedd6658caf5fbae18ef2334899f8eace7f9b8c954d8"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Good. Remember to move the accent back in the present tense.",
+          "lang": "en",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "c57850e9a9d0a860974852abbb4c2a185ca2ca1a8d7fe5f54038ed3865dcafa9"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "What was 'to eat'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "87b8340ac9f7b3dd865a78383c130f4506792d37937982ca7806f9ae4e45ce6b"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "And how do you say 'I eat'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "c200328b4c0f6e72722baf6199f8bc8c7509cdad610b5d6080b6a7075491ba9c"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Como.",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "43fd2e489b1a87d0eb031e0139c29390f20f43e4ee9f8af0ca0e39c77c9f3c96"
+        },
+        {
+          "text": "Good. Now, most verbs in Spanish are -ar verbs. For example, tuitear means 'to tweet'.",
+          "lang": "en",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "66381462e6ad327904d8645ad07c9454c9e1cb3819006728d8969a8715fa321b"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to eliminate'?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "c313ef586f46d4ef44821b9dcf70a6cc5470a78e3acc57c3d6edeed293abb432"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I eliminate'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "c44c23dc2e0258d536cb6fddde091f91bab25b07ced93e2f8160a4349b5beb5c"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Elimino.",
+          "lang": "es",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "e31b171cb81acd67e73e937a8a05dc7d5c325fc88d1084b25b93b80f5a4afd7b"
+        },
+        {
+          "text": "Good. For 'he/she/it/you (formal)', just use an 'a' at the end.",
+          "lang": "en",
+          "file": "turn-13-reveal-2.mp3",
+          "hash": "c759b53de5175e04e8a645bd583d67a3ee13d5b1b249c74e6d9e8156bfa92b3a"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he eliminates'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "6440717aa73b521144860b092c7697aed32161c245e99e4a992e97a6ff18c54e"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Elimina.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "2f94be8773fedf0a3af5227f355194387edf77de764aeac3a267cfcc0dd83b24"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to last', as in 'it lasts a long time'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "5fa7152d2ed9eca6566f209e3181bcc682b6a07b57e7493900f5597c461cac8e"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Durar.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "019a1cf22174342afdc24b9059768fad6a12f0e0ef166c35de6431ae67f3372e"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'it lasts a long time'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "45c86abe085d581c67cd20cd1b68e3b3a432bfa9630b81f1aeec12c500512281"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "No dura mucho.",
+          "lang": "es",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "9a3b88798dec75e8060b61072a7dd6077d678c29e20424606d1aaa20a63946cf"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'to exaggerate'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "ef3c199434baf3004b33a027ed023bc6e709fd3150d3a83ad94c992cf05df9a4"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I exaggerate'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "e42169a0134ce6f024cdcfaf974e6bc09da7a8bda7130fdce043976617cd7182"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Exagero.",
+          "lang": "es",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "5a675425b17e094bed45f05059d974abaed2702c05e44654b1c9d91c9360ad7b"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-23-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he exaggerates'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "df9216dc6f975a04f466952c3d014e48929e83115fba3cf26dbec3d4db73ff9e"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Exagera.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "41ac90e9691c5ad610bba6cc83463f28de83c6137824c3baac1edb12adc6a574"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to chew'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "27aac6e0374341c50d180a1ceda323a5dfe877f1c06a7e8099df230690a02f63"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "Masticar.",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "254c83331f39e150c325b262b892b46c4262537a6071c5cfed5a6c2e3ac4d3ab"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I chew'?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "81b6d0fe2fc3d89b3150fe6f9d473017c6dba4fe00d99481fa26f924676cd72a"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Mastico.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "2097597d6d172ac6eccabcd95383241e2a778d5e8a15598ab31465235ea63124"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-29-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he chews'?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "2b242c537d8616b08b050efa9a429b9b42165ef22b65bc7519fc98d5ed3821b7"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Mastica.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "0945a6ef7aaa6ff58347089ab3b1d3014f34c663f9c6d1bbd102241fa9ee4e40"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to collaborate'?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "6389d2bceda1ebc3f2f346828810858a0083d82fd8a3e997eb3b1a5ad0549cab"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I collaborate'?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "4b9e451cbb2b811c9392002bad56895992d6ca206f736e94a1840b520fe5168b"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "text": "Colaboro.",
+          "lang": "es",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "d44cd1e3c968eb5b0bdb475e4998f8f3242c97d3b7e7cb74d9a4ff4025209db2"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-35-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he collaborates'?",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "801f74cb3036e8e24b8b4120dba23a7c4ae409a887fb16534c6f93f138e8bb1b"
+        }
+      ]
+    },
+    "turn-37-reveal": {
+      "segments": [
+        {
+          "text": "Colabora.",
+          "lang": "es",
+          "file": "turn-37-reveal-1.mp3",
+          "hash": "ad7462ef5aa2726287af475846c471098b21728c7c17c18d02d82c096fcb569c"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-37-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'to speak'?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "1ef271ec1f734f6cdeb2fa1a65cf2708313f9f6d0e1a3200beba64afd6b2b7a1"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I speak'?",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "acff3ef0f4e7b73026289a861235b2deea3b9e6cc6afb6161ea714893edec547"
+        }
+      ]
+    },
+    "turn-41-reveal": {
+      "segments": [
+        {
+          "text": "Hablo.",
+          "lang": "es",
+          "file": "turn-41-reveal-1.mp3",
+          "hash": "41528d9b13b9d0962a9c3816883b5ae0933b2a22d04430944fa3790edd56251b"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-41-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'they're not speaking with Pablo'?",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "d8ad3519d1daf5b84095f01ef2f8b1f7318244748d5a1011cf278f546ba5473f"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to speak'?",
+          "lang": "en",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "2f0afc508c5dd5b2a1926b07518d84bfe36f7bd6d9b59530ec26326563c8e789"
+        }
+      ]
+    },
+    "turn-45-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I'm going to speak'?",
+          "lang": "en",
+          "file": "turn-45-prompt-1.mp3",
+          "hash": "59dfb130ee7546e8c4a76b8983da882e8a43d24920770d566f5a113a05b67f58"
+        }
+      ]
+    },
+    "turn-47-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'you speak' informally?",
+          "lang": "en",
+          "file": "turn-47-prompt-1.mp3",
+          "hash": "9fabd31d050c464818bfc38653732f2fa7c6133b0d0e41d5abade820b345d617"
+        }
+      ]
+    },
+    "turn-49-reveal": {
+      "segments": [
+        {
+          "text": "Hablas.",
+          "lang": "es",
+          "file": "turn-49-reveal-1.mp3",
+          "hash": "a50f69998113b9d68f91afd1b91bd7f421a020233e6c698b5d97ef4743704e86"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-49-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-49-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want it'?",
+          "lang": "en",
+          "file": "turn-49-prompt-1.mp3",
+          "hash": "f7bda8df28046bc90eb3f74bc889f8af2c93ceb7dc36b36826c7cd3525f351d6"
+        }
+      ]
+    },
+    "turn-51-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to see it'?",
+          "lang": "en",
+          "file": "turn-51-prompt-1.mp3",
+          "hash": "8c564f07fdb6e7a0e62ae0f52241d5b13d28046a33704728b6331b8cf46f2150"
+        }
+      ]
+    },
+    "turn-53-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'it's important to speak about it'?",
+          "lang": "en",
+          "file": "turn-53-prompt-1.mp3",
+          "hash": "4d13e032711915add506a49975cf46359e7cf4d52483d4a507bc6ca62247ecd3"
+        }
+      ]
+    },
+    "turn-55-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I must invite him'?",
+          "lang": "en",
+          "file": "turn-55-prompt-1.mp3",
+          "hash": "97361bb2bb31e07786339d5fdff59d5fffa844f04e681845eafb5b270136b86c"
+        }
+      ]
+    },
+    "turn-57-full": {
+      "segments": [
+        {
+          "text": "Good. That's how we use these little words. Well done.",
+          "lang": "en",
+          "file": "turn-57-full-1.mp3",
+          "hash": "7084c2dd44ad9d9d08990bef425c7feca1678a6a2a2c8636a9250f67bda11524"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to conjugate regular verbs in the present tense and use object pronouns.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "6c7c98250ac0059ec4b7886eb562f5d3c63a1849ac1a651b002c476a30277d8e"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try conjugating some new verbs you know in the present tense and see how they fit into sentences.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "1a475c4080afc1475b4cc4ba67cf65d71cb7148ab6b71f9f73a26a91d2165e01"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "With practice, these conjugations will become second nature, allowing you to express yourself more fluently.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "ec517626127f9b91fa803b046a9fe5299fdab344fba3916efd738e31f3e98987"
+        }
+      ]
+    }
+  }
+}

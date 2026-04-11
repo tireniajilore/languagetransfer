@@ -1,0 +1,902 @@
+{
+  "lessonId": "lesson-17",
+  "generatedAt": "2026-04-11T13:52:45.483Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "We've seen how sounds in verbs might change under stress in the present tense. For example, the verb 'querer' (to want) changes to 'quiero' (I want). How do you say he wants or she wants or you (formal) want?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "703232328ded22f5a8dcbe94f462087f8f9e9fa50d9ba72b49a3d03ef69d0c69"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Quiere.",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "1205911114232298c5251dd1d72c6e95ef31cf0e17af73f57a635b67b26e475d"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "They want?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "76e9d7103636ed36a1a990b9958ed0477b826421a7d33a0b4b4b5af4d5a1434b"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Quieren.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "e9c4762d07fea54f6d4aca51824301599b177bc55e8ac8fc1e2fea56fb605d42"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "And you (informal)?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "d87743198b38933e117ae64a8f96884e7f494a7f8b7b02e6d01f77b77c882517"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "What do you want?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "f02b794a272b49faa1601c5f7bba436241a36e0e468266be5e6f615cb28e852d"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "¿Qué quieres?",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "15691356c7a4e09c00236af0739d755ad393cefcb722dc77e44b77bf22b3d293"
+        },
+        {
+          "text": "Good. Another example is 'perder' (to lose).",
+          "lang": "en",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "066f23c50af122eb8da34ebfc3f20a75b637a80e8aeb630f364994f975fbd703"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How would you say: I lose?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "5c0d5e4d77326ba90223efd73a96b7daf543fd4805467af900377af102976eac"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Pierdo.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "282d5b2abc616d206a88aa828a2dc95b72061be889938e988c117c674ddd2fb4"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "And he loses, she loses?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "a33a683d186227bab25b3aabe68b6b5a593b1d73a166368c7a6c6ddf68b03471"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Pierde.",
+          "lang": "es",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "b0197b5b075c1715949b1404736c4df89eb60e249f136a942d08258aaadd1103"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "They lose?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "cf5ba944d197ab6473e9729fe2cb2cde54c7c55ab96b5517600f8642ecaff351"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "And you (informal)?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "d87743198b38933e117ae64a8f96884e7f494a7f8b7b02e6d01f77b77c882517"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Pierdes.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "cdf16eaa8e15bdf6eebb40121317d119b36fa7b01254f6d57eb7195ea3c2a0e0"
+        },
+        {
+          "text": "Good. We also saw that an o can change to ue, like in 'poder' (to be able) becoming 'puedo' (I can).",
+          "lang": "en",
+          "file": "turn-17-reveal-2.mp3",
+          "hash": "40db39fb7da4b8398d01e1901de5c34dcb854b404aac7c5913bb369c156424db"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "What did 'dormir' mean?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "6a277f78ec9e5f853f91b2d68b73450d476b4ad97e043cfb91fc273f4154ce04"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "And 'duermo' means?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "4cfbaa38f4b4c9408d9bf4c67d768624d6c3e9dcafe2c281950de5a3193e3a81"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Good. What changes when we add 'me'?",
+          "lang": "en",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "e87ddecc35cea1a1be3ab1ae99865a5110e119fb1f9cc7b981d8023543187894"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "'Me duermo' means?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "35f3f7c0a80b99c12a861d161e7017724dc76cdfb964865685467cbb5152736e"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Yes. '",
+          "lang": "en",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "05bd06eedef752081f153be46d64457ec2c3266855d4a89a30e5decf9ca02114"
+        },
+        {
+          "text": "I fall asleep",
+          "lang": "es",
+          "file": "turn-23-reveal-2.mp3",
+          "hash": "283e041d6822ba214703a31d58988426114166a3331658610aa3f57936caa058"
+        },
+        {
+          "text": "'. Good. Now, 'comer' (to eat) doesn't split.",
+          "lang": "en",
+          "file": "turn-23-reveal-3.mp3",
+          "hash": "07b00d5b5f11493fab88b3f1e0e79dae50dda381f8bcccd85eaf71c6968b9408"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "I eat?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "c55e6279239f5f8c579c628b68fb1fa44c854e3896bed8c065d577daac957abe"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Como.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "43fd2e489b1a87d0eb031e0139c29390f20f43e4ee9f8af0ca0e39c77c9f3c96"
+        },
+        {
+          "text": "So it didn't split there. Let's try 'colgar' (to hang).",
+          "lang": "en",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "8453582b688f918fb4c12dd260b66237ad2f337bb5beaf59b61f32bbaca31d09"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "I hang?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "e72a491d401a010be1e24bb2167f4e6cb4618251eeaa8694fd4ae1b84dfd53f3"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "Cuelgo.",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "850585c9b9b69e6df75d3a5aabf707462cc2c8c704915fb56148101156372757"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "He hangs?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "96781963db4324838b228458dc6390ec3ce8081177688579a5d67c6fb888dd02"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Cuelga.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "b4b323f0a20efe433308b59438a355c518746403c2fdb8f94d11f1404d7c16d7"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-29-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "They hang?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "8f79fe297e6bb74cecf431800a4e3e955d5e0329476d79addd87b49c1ed221a1"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Good. Now let's look at verbs starting with 'al-', which often come from Arabic. For example, 'alcohol'. The verb 'tomar' means to take or to drink.",
+          "lang": "en",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "bf659864fcbf7b0078d6bd4cb9ae7ddbc67b1412a758076574c72a7ca7a87d75"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How would you say: I don't drink alcohol?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "8fdec6fb0036203cfa5cb247c0df6f8e8cde7db94badd012fc91de11eb9a17a4"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        },
+        {
+          "text": "No tomo alcohol.",
+          "lang": "es",
+          "file": "turn-33-reveal-2.mp3",
+          "hash": "211623cc14f574b33b0c2ff32e66947ca5a52ec7b10495511a0f19ce011b0b1b"
+        },
+        {
+          "text": "'Azúcar' (sugar) is also from Arabic.",
+          "lang": "en",
+          "file": "turn-33-reveal-3.mp3",
+          "hash": "c4f63ce77f2589fe1b9bd41035fad8b1f06aa90d015ce928e24c222f8d598b4d"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "How would you say: I don't take sugar?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "6b5e1a1d7bdae46bb5d3a8ad93381711f3e6b9ed7bee0bb72542719f8326426b"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        },
+        {
+          "text": "No tomo azúcar.",
+          "lang": "es",
+          "file": "turn-35-reveal-2.mp3",
+          "hash": "e9c30cbd62df31ac6b93f216048eec80799fbecc59e7c1a7f1db78895c74fabb"
+        },
+        {
+          "text": "'Arroz' (rice) is another example.",
+          "lang": "en",
+          "file": "turn-35-reveal-3.mp3",
+          "hash": "d9f5f4a7e01d44dcf868332bee7998373ca8e21e32709b0aac042f4d3c5b84ad"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "I want rice?",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "50b4f5a552d2bcfac18466d820578185562355d258fe45c9334aadac69a3308d"
+        }
+      ]
+    },
+    "turn-37-reveal": {
+      "segments": [
+        {
+          "text": "Quiero arroz.",
+          "lang": "es",
+          "file": "turn-37-reveal-1.mp3",
+          "hash": "8572a229a76a4da58a8a34615c07ae8db78b31e51d52a62baf8e27f3043224fd"
+        },
+        {
+          "text": "Good. Now, 'toma' means he takes, she takes, or you (formal) take.",
+          "lang": "en",
+          "file": "turn-37-reveal-2.mp3",
+          "hash": "ba5c14b73f05908bd6e044b809f3335131b0d71052441b6660660e9a53eccade"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "You (informal)?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "afb958b6614ae25809574ae8064fa5d86440efd6229aca48912efaf112654ec2"
+        }
+      ]
+    },
+    "turn-39-reveal": {
+      "segments": [
+        {
+          "text": "Good. What are you taking?",
+          "lang": "en",
+          "file": "turn-39-reveal-1.mp3",
+          "hash": "3722ab3288a688653779f32c0ce0da42dfbae84b2ed27234d60221bb6a2af079"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "This could mean what do you want to drink?",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "85cd751d8f92d7fbf4faab1670a769a4d4cb2882c9ade16d9e36044ae678956c"
+        }
+      ]
+    },
+    "turn-41-reveal": {
+      "segments": [
+        {
+          "text": "¿Qué tomas?",
+          "lang": "es",
+          "file": "turn-41-reveal-1.mp3",
+          "hash": "7baedbb4ca27506d15eb3098bd7e15fce63a4c3d10c974a48b94615c01de11cf"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-41-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "They take?",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "cd3211648e6bf0d7a1390db6e8e250084de18d7752196cc84aa7357abed92b3b"
+        }
+      ]
+    },
+    "turn-43-reveal": {
+      "segments": [
+        {
+          "text": "Toman.",
+          "lang": "es",
+          "file": "turn-43-reveal-1.mp3",
+          "hash": "2d380b17bda3c03998a6bf4e443e8f912c5e8f4cf58f4daaaca0ae52a7f62fd0"
+        },
+        {
+          "text": "Good. Now, we take is 'tomamos'.",
+          "lang": "en",
+          "file": "turn-43-reveal-2.mp3",
+          "hash": "520996b1a12874effffbc0add2e733de9d319bd86f5cc39c9412343310b64aff"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "What did I do to get 'tomamos' from 'tomar'?",
+          "lang": "en",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "c9c770b5914fa5263f4030ffa6d1c960be74b75089fe6b5b425ac76aa27e0094"
+        }
+      ]
+    },
+    "turn-45-reveal": {
+      "segments": [
+        {
+          "text": "Good. So 'hablar' (to speak) becomes '",
+          "lang": "en",
+          "file": "turn-45-reveal-1.mp3",
+          "hash": "ac1e24f22a25451d4614f9b360727264325438635d57d6a627cb304e41d61a1f"
+        },
+        {
+          "text": "hablamos",
+          "lang": "es",
+          "file": "turn-45-reveal-2.mp3",
+          "hash": "d6cee51717effe642353d8c25bbfabe97e8a5c9d4d4196174771afb9b17146ae"
+        },
+        {
+          "text": "' (we speak).",
+          "lang": "en",
+          "file": "turn-45-reveal-3.mp3",
+          "hash": "8097c684af3a0d9dbb57d422c460976bb967d22dd686a2d9b9fb8a2b907fe6d6"
+        }
+      ]
+    },
+    "turn-45-prompt": {
+      "segments": [
+        {
+          "text": "How do you say: I speak?",
+          "lang": "en",
+          "file": "turn-45-prompt-1.mp3",
+          "hash": "d0e3bd93fce3dae1a5b55b8f84c4dca4c797dd20707b6dc31e8633ce432ec0f2"
+        }
+      ]
+    },
+    "turn-47-reveal": {
+      "segments": [
+        {
+          "text": "Hablo.",
+          "lang": "es",
+          "file": "turn-47-reveal-1.mp3",
+          "hash": "41528d9b13b9d0962a9c3816883b5ae0933b2a22d04430944fa3790edd56251b"
+        }
+      ]
+    },
+    "turn-47-prompt": {
+      "segments": [
+        {
+          "text": "She speaks?",
+          "lang": "en",
+          "file": "turn-47-prompt-1.mp3",
+          "hash": "a00ef06651e9e5182c536e8a350ee9ebb6a578daaf9b99a87cf181741e9ab7b2"
+        }
+      ]
+    },
+    "turn-49-reveal": {
+      "segments": [
+        {
+          "text": "Habla.",
+          "lang": "es",
+          "file": "turn-49-reveal-1.mp3",
+          "hash": "76e5ab20aa84951ce9d974cbb51b3919cd39c90613d27c5dd7f87b7c0f6ef80d"
+        }
+      ]
+    },
+    "turn-49-prompt": {
+      "segments": [
+        {
+          "text": "They speak?",
+          "lang": "en",
+          "file": "turn-49-prompt-1.mp3",
+          "hash": "b90b4e0946952fa958b4ae8f13a122f5d8ae9092575a6d9a52312b77c14da8f8"
+        }
+      ]
+    },
+    "turn-51-prompt": {
+      "segments": [
+        {
+          "text": "You (informal) speak?",
+          "lang": "en",
+          "file": "turn-51-prompt-1.mp3",
+          "hash": "1f62494e56b91dc7756660b1f59dcf1d9d7f8f14da0525a43486a1c6fd4b6fdc"
+        }
+      ]
+    },
+    "turn-53-prompt": {
+      "segments": [
+        {
+          "text": "We speak?",
+          "lang": "en",
+          "file": "turn-53-prompt-1.mp3",
+          "hash": "0ef5a971b19bd6ab8983e4645f3834cc982fb5312c1fb84e1e404764be668bc5"
+        }
+      ]
+    },
+    "turn-55-full": {
+      "segments": [
+        {
+          "text": "Hablamos.",
+          "lang": "es",
+          "file": "turn-55-full-1.mp3",
+          "hash": "eebf40f0f63632144034ee4952cbfe3dddd6b44db27b10227f93c7598c6d3f18"
+        },
+        {
+          "text": "Good. Now, 'encontrar' (to find) becomes 'encuentro' (I find). But in the 'we' form, it's 'encontramos'.",
+          "lang": "en",
+          "file": "turn-55-full-2.mp3",
+          "hash": "5c9bdb0ee01abaa9ff945910ec1d84b19af536235da6f43501e52fd25e1850ea"
+        }
+      ]
+    },
+    "turn-56-full": {
+      "segments": [
+        {
+          "text": "What was to demonstrate?",
+          "lang": "en",
+          "file": "turn-56-full-1.mp3",
+          "hash": "3eeb68c6210580a4e71c17bd4c38160ffb929a4019baf66ec69154d556516a7f"
+        }
+      ]
+    },
+    "turn-58-reveal": {
+      "segments": [
+        {
+          "text": "Demostrar.",
+          "lang": "es",
+          "file": "turn-58-reveal-1.mp3",
+          "hash": "4aa0811764da788b55e21563d4fcb183bcbc8160b4537eb4398529b116b7aa0f"
+        },
+        {
+          "text": "And 'mostrar' means to show.",
+          "lang": "en",
+          "file": "turn-58-reveal-2.mp3",
+          "hash": "8d27ac6d848146d99f20eb383444a0c3c0d487a86a4133176a1361f9878872f8"
+        }
+      ]
+    },
+    "turn-58-prompt": {
+      "segments": [
+        {
+          "text": "I show?",
+          "lang": "en",
+          "file": "turn-58-prompt-1.mp3",
+          "hash": "30bb30bc9546fc465def3a8906a17ea31cd684458b3a7b5406b10d8a20268f17"
+        }
+      ]
+    },
+    "turn-60-reveal": {
+      "segments": [
+        {
+          "text": "Muestro.",
+          "lang": "es",
+          "file": "turn-60-reveal-1.mp3",
+          "hash": "563a894b809fcc07a7693d79dd7d234d64f49ccb1edb894e1e0143321247ec9e"
+        }
+      ]
+    },
+    "turn-60-prompt": {
+      "segments": [
+        {
+          "text": "He shows?",
+          "lang": "en",
+          "file": "turn-60-prompt-1.mp3",
+          "hash": "37ba8afc4bb18679f97cf212a9f3ebd3863f8dadce166e212efe175afcf26b1e"
+        }
+      ]
+    },
+    "turn-62-reveal": {
+      "segments": [
+        {
+          "text": "Muestra.",
+          "lang": "es",
+          "file": "turn-62-reveal-1.mp3",
+          "hash": "0ef257dad5c2cec7f8636129836cadafa36d10555d43aad260ae4b704dd6aef4"
+        }
+      ]
+    },
+    "turn-62-prompt": {
+      "segments": [
+        {
+          "text": "They show?",
+          "lang": "en",
+          "file": "turn-62-prompt-1.mp3",
+          "hash": "458c9d9d922ba75c8f93418d053706ed5c0d27123bf7eab9b55b606d46328bb7"
+        }
+      ]
+    },
+    "turn-64-prompt": {
+      "segments": [
+        {
+          "text": "You (informal) show?",
+          "lang": "en",
+          "file": "turn-64-prompt-1.mp3",
+          "hash": "082d8cde74108a6dde13834c47840b4212150acf874b35a877a19322e81904e7"
+        }
+      ]
+    },
+    "turn-66-prompt": {
+      "segments": [
+        {
+          "text": "We show?",
+          "lang": "en",
+          "file": "turn-66-prompt-1.mp3",
+          "hash": "6712500bba7fe421f5099e7975320018491ca5f5ee5e72be9385743c345742d2"
+        }
+      ]
+    },
+    "turn-68-reveal": {
+      "segments": [
+        {
+          "text": "Mostramos.",
+          "lang": "es",
+          "file": "turn-68-reveal-1.mp3",
+          "hash": "dd5480f9f9a494569ee82486543f805d6090a7adac8d1788855d2d0869917a43"
+        },
+        {
+          "text": "Good. 'Pensar' (to think) becomes 'pienso' (I think).",
+          "lang": "en",
+          "file": "turn-68-reveal-2.mp3",
+          "hash": "fd5516e9dbf6c5291ca84848e73745cff0b47cfd34be87b911976b7b3d985488"
+        }
+      ]
+    },
+    "turn-68-prompt": {
+      "segments": [
+        {
+          "text": "I think so?",
+          "lang": "en",
+          "file": "turn-68-prompt-1.mp3",
+          "hash": "622e3e2eca6d252cbd0f2ce559264b6a5ed4404415d0e5ce0ed4f5624c210592"
+        }
+      ]
+    },
+    "turn-70-reveal": {
+      "segments": [
+        {
+          "text": "Pienso que sí.",
+          "lang": "es",
+          "file": "turn-70-reveal-1.mp3",
+          "hash": "9a6231261fb3c6675b03b46fe24455c186b26ac8a1bfe708f997d41a91cd1fef"
+        }
+      ]
+    },
+    "turn-70-prompt": {
+      "segments": [
+        {
+          "text": "He thinks?",
+          "lang": "en",
+          "file": "turn-70-prompt-1.mp3",
+          "hash": "53a47362b5dcd3c48dd3b25712a69f2d3302fe660a48390b332b91b2a5f6005b"
+        }
+      ]
+    },
+    "turn-72-reveal": {
+      "segments": [
+        {
+          "text": "Piensa.",
+          "lang": "es",
+          "file": "turn-72-reveal-1.mp3",
+          "hash": "3d5c3e5887a2ae3c370234c43b0d1071dc509149e86a6383c40da8e181ff8757"
+        }
+      ]
+    },
+    "turn-72-prompt": {
+      "segments": [
+        {
+          "text": "They think?",
+          "lang": "en",
+          "file": "turn-72-prompt-1.mp3",
+          "hash": "d69907b708fc13108d601a203868f8d03ea5725e278697861d6d6da39ef63ee7"
+        }
+      ]
+    },
+    "turn-74-prompt": {
+      "segments": [
+        {
+          "text": "You (informal) think?",
+          "lang": "en",
+          "file": "turn-74-prompt-1.mp3",
+          "hash": "f137caccd6e48ab91816c1c3870e772b5a7b706c25d01431ada87f02276b1bf8"
+        }
+      ]
+    },
+    "turn-76-prompt": {
+      "segments": [
+        {
+          "text": "What do you think?",
+          "lang": "en",
+          "file": "turn-76-prompt-1.mp3",
+          "hash": "f76b882bca6a5d79f40d7636084f757dcaf842ee287435e60ca6e78df755026d"
+        }
+      ]
+    },
+    "turn-78-prompt": {
+      "segments": [
+        {
+          "text": "Good. What do you plan to do? 'Hacer' means to do or to make.",
+          "lang": "en",
+          "file": "turn-78-prompt-1.mp3",
+          "hash": "058326248c933b1ddd98dc41d5f1f8827a8e62e4f5a2faad682ad2810df693c3"
+        }
+      ]
+    },
+    "turn-80-reveal": {
+      "segments": [
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-80-reveal-1.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        },
+        {
+          "text": "¿Qué piensas hacer?",
+          "lang": "es",
+          "file": "turn-80-reveal-2.mp3",
+          "hash": "6cbf2f140ecff90295de58c8dd511af72e9c75257ef86aeedead4fdfd6899fb2"
+        }
+      ]
+    },
+    "turn-80-prompt": {
+      "segments": [
+        {
+          "text": "We think?",
+          "lang": "en",
+          "file": "turn-80-prompt-1.mp3",
+          "hash": "930e9133fa29f1c2edf23adbbe6332c2617a8fca83b4b444a6b19c8ccf30983f"
+        }
+      ]
+    },
+    "turn-82-reveal": {
+      "segments": [
+        {
+          "text": "Pensamos.",
+          "lang": "es",
+          "file": "turn-82-reveal-1.mp3",
+          "hash": "0d2240cb6f6a192c6d1194358b69da4da504d9d731fa236fa4c7ec425ce646f6"
+        },
+        {
+          "text": "The verb 'cerrar' (to close) becomes 'cierro' (I close).",
+          "lang": "en",
+          "file": "turn-82-reveal-2.mp3",
+          "hash": "77c13f619cc4ecd5a8886aa64c9b9a76ae08a1608e2d36ae88d698e797595c86"
+        }
+      ]
+    },
+    "turn-82-prompt": {
+      "segments": [
+        {
+          "text": "She closes?",
+          "lang": "en",
+          "file": "turn-82-prompt-1.mp3",
+          "hash": "191c4ef7aa4be805ebff27ac0ebeb61c8912b48dbd5b5c4fcb2221e20130b084"
+        }
+      ]
+    },
+    "turn-84-reveal": {
+      "segments": [
+        {
+          "text": "Cierra.",
+          "lang": "es",
+          "file": "turn-84-reveal-1.mp3",
+          "hash": "5e0472aa28a26c31b04f0a3c0f712c4b417cafd7cad44b9bc305ef381f899749"
+        }
+      ]
+    },
+    "turn-84-prompt": {
+      "segments": [
+        {
+          "text": "We close?",
+          "lang": "en",
+          "file": "turn-84-prompt-1.mp3",
+          "hash": "18feaeb916d599e945f9cbae7dc55175f3bf7230c0f30e27e2344c0b20c9bbe6"
+        }
+      ]
+    },
+    "turn-86-full": {
+      "segments": [
+        {
+          "text": "Good. So we're seeing that the issue of the e's and o's splitting is about stress. When we don't stress them, they stay intact.",
+          "lang": "en",
+          "file": "turn-86-full-1.mp3",
+          "hash": "09fb758d23a2784a32ba48fb26067d48ce7cbaa9caedcb695bfd21c32116457a"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how stress affects verb stem changes in Spanish, focusing on e to ie and o to ue transformations.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "4a489afe038e36057417143cf07a0680804b88a65321d4a25d88da4348d0ee4b"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try conjugating other verbs you know and see if they follow the same pattern. Practice with verbs like 'entender' or 'volver'.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "f4fc0ce1bca871d4b987e8335b94e245a49e22e64b345d222d3efbd77a3ebf21"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Understanding these patterns will help you predict and use verb forms more accurately in conversation.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "921c9ecafa925ef40e2e93986e904674bb71bb0e1a9eaed90a924807d96a8233"
+        }
+      ]
+    }
+  }
+}

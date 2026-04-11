@@ -1,0 +1,604 @@
+{
+  "turn-1-full": [
+    {
+      "text": "To count in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "contar, contar.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Contar",
+      "lang": "es"
+    },
+    {
+      "text": "to recount, like in English how you say to recount a story. So,",
+      "lang": "en"
+    },
+    {
+      "text": "contar,",
+      "lang": "es"
+    },
+    {
+      "text": "you can also use it like to tell, especially with telling stories.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say I tell?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Cuento,",
+      "lang": "es"
+    },
+    {
+      "text": "you would be correct,",
+      "lang": "en"
+    },
+    {
+      "text": "cuento,",
+      "lang": "es"
+    },
+    {
+      "text": "good, the o splits. So,",
+      "lang": "en"
+    },
+    {
+      "text": "cuento",
+      "lang": "es"
+    },
+    {
+      "text": "is I tell, and",
+      "lang": "en"
+    },
+    {
+      "text": "cuento",
+      "lang": "es"
+    },
+    {
+      "text": "is the noun, meaning story, un",
+      "lang": "en"
+    },
+    {
+      "text": "cuento",
+      "lang": "es"
+    },
+    {
+      "text": "is a story. So, we can see how",
+      "lang": "en"
+    },
+    {
+      "text": "contar",
+      "lang": "es"
+    },
+    {
+      "text": "is to count, but also to recount or another verb for to tell. C-o-n-t-a-r. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "how would you say I want you to tell me, I want you to recount to me (informally)?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero que me cuentes.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "I want you to tell me something and speaking plurally now, speaking to more than one you:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero que me cuenten algo.",
+      "lang": "es"
+    },
+    {
+      "text": "To count on, to count on, in the sense of you can count on, so, “to count with” in Spanish. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "how would you say me, to count on is",
+      "lang": "en"
+    },
+    {
+      "text": "contar",
+      "lang": "es"
+    },
+    {
+      "text": "con I want you to count on me? I want you to count on me (speaking informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good. Quiero que cuentes conmigo. Good. I want you to count on me. Quiero que cuentes conmigo. Very good. So, we said that sometimes, between English and Spanish, that the prepositions might change, we say to count on in English and in Spanish to count with. We also spoke about how we can use the negative language transfer of Spanish speakers speaking English, that may make some mistake and we can make certain assumptions about Spanish through that. So, maybe we hear a native Spanish speaker speaking English, saying you can count with me, and if we hear that a couple of times we can understand that that’s probably how it’s said in Spanish. So, we can take advantage of any negative language transfer we may hear from Spanish speakers in English.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "What was to wait or to hope?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Esperar.",
+      "lang": "es"
+    },
+    {
+      "text": "So, if you say I hope that, then of course you will also follow this up with our mood tense. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "how would you say I hope that you count on me (informally)?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Espero que cuentes conmigo.",
+      "lang": "es"
+    },
+    {
+      "text": "I hope that you count on me. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you say We hope that they count on Maria? We hope that they count on Maria:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Esperamos que cuenten con María.",
+      "lang": "es"
+    },
+    {
+      "text": "We hope that they count on Maria. What if you wanted to say we hope that they tell Maria it, using",
+      "lang": "en"
+    },
+    {
+      "text": "contar?",
+      "lang": "es"
+    },
+    {
+      "text": "So now we’re using",
+      "lang": "en"
+    },
+    {
+      "text": "contar,",
+      "lang": "es"
+    },
+    {
+      "text": "to count, like to recount, we hope that they recount it to",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Maria, we hope that they tell it to Maria:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Esperamos que lo cuenten a María.",
+      "lang": "es"
+    },
+    {
+      "text": "So, here we have the other meaning of",
+      "lang": "en"
+    },
+    {
+      "text": "contar,",
+      "lang": "es"
+    },
+    {
+      "text": "to recount, to tell.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "What was to see?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Ver.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "So, if we say, for example, we hope that they see Maria, what is they see in the present?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Ven.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, if you want to make the mood tense and you switch to the other side you would get“van”, which would probably cause, especially in the optional uses of the mood tense, a lot of confusion, because “van” sounds like-",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Yes, so, we actually build the mood tense on the I form, which was the only irregular form of",
+      "lang": "en"
+    },
+    {
+      "text": "ver",
+      "lang": "es"
+    },
+    {
+      "text": "in the present.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "Do you remember how to say I see?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Veo.",
+      "lang": "es"
+    },
+    {
+      "text": "So, we kept the e. So, the mood tense is based on this version to avoid any ambiguity that might be caused with va, vas, van. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "how would you say I hope that they see, I hope that they see:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Espero que vean.",
+      "lang": "es"
+    },
+    {
+      "text": "Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "if you want to say I hope that they see Maria, we will say a María. Now the literal translation doesn’t make any sense: I hope that they see to Maria. In Spanish we have this personal a, that we use when we are referring to somebody that we are doing the action of the verb to. So, in this case the person that we are doing the action of seeing to,",
+      "lang": "en"
+    },
+    {
+      "text": "espero que vean",
+      "lang": "es"
+    },
+    {
+      "text": "a María. The reason for this is that the order in Spanish is quite flexible, words like María can come before the verb or after the verb, which might cause confusion about whether Maria is doing or being done to, whether David is doing or being done to. So, when it’s being done to, we include this a, and when there is not any other preposition there that shows us that we are doing it, there we don’t need the to, so we saw already, for example,",
+      "lang": "en"
+    },
+    {
+      "text": "contar",
+      "lang": "es"
+    },
+    {
+      "text": "con María a, but if there is. So, let’s practice this. What is no other preposition we will have to put that a to understand?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Comprender.",
+      "lang": "es"
+    },
+    {
+      "text": "So,",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "how would you say, I hope that you, speaking informally, I hope that you understand David? David. I hope that you understand David:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Espero que comprendas a David.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "How would you say the same sentence speaking formally? I hope that you, formally, I hope that you understand David:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Espero que comprenda a David.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, we can see why this a is important, because if it weren’t there, if we were to say espero que comprenda David, it would sound like I hope that David understands, because David is flexible: espero que David comprenda, espero que comprenda David would both mean I hope that David understands. So, to make it clear, this habit formed in Spanish of putting the a there. For example, the word for man was?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Begins with a silent h.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Hombre.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "The man:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "El hombre.",
+      "lang": "es"
+    },
+    {
+      "text": "If you say to the man a",
+      "lang": "en"
+    },
+    {
+      "text": "el hombre",
+      "lang": "es"
+    },
+    {
+      "text": "a and el, they stick together and they form al, and it’s written like this: a-l, al",
+      "lang": "en"
+    },
+    {
+      "text": "hombre.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "So, if you were to say I want him to see the man, I want that he sees the man, I want that he sees to the man, so how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "We go from",
+      "lang": "en"
+    },
+    {
+      "text": "veo,",
+      "lang": "es"
+    },
+    {
+      "text": "to avoid that ambiguity.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good. Quiero que vea al",
+      "lang": "en"
+    },
+    {
+      "text": "hombre.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "But if you were to say: I want the man to see, I want that the man sees:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Quiero que el hombre vea.",
+      "lang": "es"
+    },
+    {
+      "text": "Or quiero que vea",
+      "lang": "en"
+    },
+    {
+      "text": "el hombre.",
+      "lang": "es"
+    },
+    {
+      "text": "So, because the order is flexible, we can’t just put",
+      "lang": "en"
+    },
+    {
+      "text": "el hombre",
+      "lang": "es"
+    },
+    {
+      "text": "afterwards and understand from that I want that he sees the man. If we put",
+      "lang": "en"
+    },
+    {
+      "text": "el hombre",
+      "lang": "es"
+    },
+    {
+      "text": "afterwards we will still understand I want that the man sees. So, we need to say al",
+      "lang": "en"
+    },
+    {
+      "text": "hombre.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "What was I like, it pleases me?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Me gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "So, you could say I like that the teacher visits, and here we will use the mood tense after I like that, because again you are casting your subjectivity onto the world and you show that with this mood tense. I like that the teacher visits.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "The teacher, we say the professor, so how is that?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "Good, or for female, for feminine?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Very good. So, either one.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "I like that the teacher visits:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gusta que la profesora visite",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "me gusta que visite la profesora,",
+      "lang": "es"
+    },
+    {
+      "text": "the order is flexible.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Now, if you wanted to say I like that she visits the teacher, how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "So I still understand from this sentence: I like that the teacher visits, because the order, the word order is not changing the information for us, because the word order is flexible. So,",
+      "lang": "en"
+    },
+    {
+      "text": "me gusta que visite la profesora,",
+      "lang": "es"
+    },
+    {
+      "text": "I like that the teacher visits.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "But, if we want to make it understood I like that he visits the teacher, how are we going to clear that up?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me gusta que visite a la profesora.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good. So, to clarify, it’s not just when there might be some ambiguity that we have to use this personal a, we always need to use this a when the human that we mention is having the action of the verb done to them and there is no other preposition present. Now, I say the human, not a human, because it’s when we refer to a specific person, and whilst this personal a is generally used with humans, we might also see it as a way of personifying non-humans, so some people use it with pets, for example, or it can be used in some creative ways, for example, a la muerte, escapar a la muerte, to escape death, and using this personal a in this expression personifies death, but generally speaking, we will use it with humans, and with specific humans, when we are referring to a specific person. So, for example, I need to – there we would use the personal – there we wouldn’t. find the plumber a, I need to find a plumber So, it’s important to listen out for it and to analyze, when you hear it, to understand why it was used, and this is the way we internalize this kind of quite specific details that we find in language. And the reason why I keep stressing the importance of listening is to practice this thinking process, to practice analyzing the language and becoming our own teachers. This is how language becomes something fascinating and pleasant to learn instead of frustrating and painful.",
+      "lang": "en"
+    }
+  ]
+}

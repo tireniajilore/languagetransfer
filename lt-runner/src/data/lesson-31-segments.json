@@ -1,0 +1,598 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We spoke about how we have two verbs for to be in Spanish, estar and",
+      "lang": "en"
+    },
+    {
+      "text": "ser.",
+      "lang": "es"
+    },
+    {
+      "text": "And we practiced with estar, which is the verb that we use for states. And we said that the word state is related to estar. Actually, it's like the same word. What looks most different there between state and estar is that / eh / that you get at the beginning of estar. But you will find this actually with words that start st-, sp-, s- and consonant. You can't begin a word like this in Spanish, where you can in English. So, actually, you will find many words between English and Spanish that get like an extra e at the beginning in Spanish. For example, the word Spanish in Spanish is Español. Or Spain, which is España. Student - estudiante. School - escuela. There you have the o splitting of school to ue. Escuela. Special - especial. Spatial:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Espacial.",
+      "lang": "es"
+    },
+    {
+      "text": "Strict:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "how do you think you might say strict, if it's the same word in English and Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Estricto.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Spectacular. It's the same word as well.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Espectacular.",
+      "lang": "es"
+    },
+    {
+      "text": "So this is the difference that we see between state and estar. So we said that estar we use with what we will consider states of being. Now with what we consider characteristics of being, we will use",
+      "lang": "en"
+    },
+    {
+      "text": "ser.",
+      "lang": "es"
+    },
+    {
+      "text": "And we said that",
+      "lang": "en"
+    },
+    {
+      "text": "ser,",
+      "lang": "es"
+    },
+    {
+      "text": "all by itself, means being. Un",
+      "lang": "en"
+    },
+    {
+      "text": "ser",
+      "lang": "es"
+    },
+    {
+      "text": "is a being. Un",
+      "lang": "en"
+    },
+    {
+      "text": "ser",
+      "lang": "es"
+    },
+    {
+      "text": "humano is a human being. Here, humano is acting like an adjective, so it's coming afterwards. But it could also be a noun. We can say the human. How would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "The human:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "El humano.",
+      "lang": "es"
+    },
+    {
+      "text": "And there it's a noun. But el",
+      "lang": "en"
+    },
+    {
+      "text": "ser",
+      "lang": "es"
+    },
+    {
+      "text": "humano, there it's an adjective. So I am, from",
+      "lang": "en"
+    },
+    {
+      "text": "ser,",
+      "lang": "es"
+    },
+    {
+      "text": "is",
+      "lang": "en"
+    },
+    {
+      "text": "soy. Soy.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "So like estoy from estar, it ends o-y. There are just four verbs in the whole spanish language that use oy instead of o, for I. Voy, doy from dar, to give, doy, I am giving, and then estoy and",
+      "lang": "en"
+    },
+    {
+      "text": "soy.",
+      "lang": "es"
+    },
+    {
+      "text": "So we said that student is estudiante.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "So if you wanted to say I am a student:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Soy estudiante.",
+      "lang": "es"
+    },
+    {
+      "text": "It is or she is, he is, you are, to",
+      "lang": "en"
+    },
+    {
+      "text": "usted.",
+      "lang": "es"
+    },
+    {
+      "text": "We learned it already, but we didn't learn that it was from",
+      "lang": "en"
+    },
+    {
+      "text": "ser.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say It is possible?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Es posible.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So we have",
+      "lang": "en"
+    },
+    {
+      "text": "es. Es",
+      "lang": "es"
+    },
+    {
+      "text": "is from",
+      "lang": "en"
+    },
+    {
+      "text": "ser.",
+      "lang": "es"
+    },
+    {
+      "text": "Now,",
+      "lang": "en"
+    },
+    {
+      "text": "ser",
+      "lang": "es"
+    },
+    {
+      "text": "is more irregular than estar. Doesn't look like",
+      "lang": "en"
+    },
+    {
+      "text": "es",
+      "lang": "es"
+    },
+    {
+      "text": "is from",
+      "lang": "en"
+    },
+    {
+      "text": "ser,",
+      "lang": "es"
+    },
+    {
+      "text": "not too much. And then we had they are, or you guys are.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "What was that?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Son.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, we've got three of the versions now.",
+      "lang": "en"
+    },
+    {
+      "text": "Soy, son,",
+      "lang": "es"
+    },
+    {
+      "text": "and",
+      "lang": "en"
+    },
+    {
+      "text": "es.",
+      "lang": "es"
+    },
+    {
+      "text": "We can take",
+      "lang": "en"
+    },
+    {
+      "text": "son",
+      "lang": "es"
+    },
+    {
+      "text": "and we can work out the \"we\" form from",
+      "lang": "en"
+    },
+    {
+      "text": "son,",
+      "lang": "es"
+    },
+    {
+      "text": "working backwards. Now we said that working backwards means taking off the consonant that you know associates to they, then bumping on the ending that associates to we, for example. So, to go from",
+      "lang": "en"
+    },
+    {
+      "text": "son,",
+      "lang": "es"
+    },
+    {
+      "text": "they are, to we are.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How do you think it will sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Somos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Which leaves one left, which is the you (informal). Which is",
+      "lang": "en"
+    },
+    {
+      "text": "eres. Eres.",
+      "lang": "es"
+    },
+    {
+      "text": "E-r-e-s.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Eres.",
+      "lang": "es"
+    },
+    {
+      "text": "So let's make a recap.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "To be:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "I am:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Soy.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "And if you want to use the word for I:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Yo soy.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "He is:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "And if you want to use the word for he:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "And she is:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "They are:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Son,",
+      "lang": "es"
+    },
+    {
+      "text": "and what if you wanted to use the word for they? A nice way to remember they as well, is you can make she plural and you will get the feminine they.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "So they are:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Ellos son, ellas son.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. You guys are.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "What is you (formal)?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "Good, and you guys is the plural of that:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Ustedes.",
+      "lang": "es"
+    },
+    {
+      "text": "So it's the plural of",
+      "lang": "en"
+    },
+    {
+      "text": "usted,",
+      "lang": "es"
+    },
+    {
+      "text": "but it's not necessarily formal.",
+      "lang": "en"
+    },
+    {
+      "text": "Ustedes.",
+      "lang": "es"
+    },
+    {
+      "text": "Only in some parts of Spain, which we will talk about later. But everywhere else in the Spanish speaking world, this is just how you refer to you guys. It doesn't sound formal any more when it becomes plural.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "So how would you say you guys are?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Ustedes son.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "Then we have we are:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "Somos",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "nosotros somos,",
+      "lang": "es"
+    },
+    {
+      "text": "or if we were an all female group?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Nosotras somos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And then we have the you (informal), which is",
+      "lang": "en"
+    },
+    {
+      "text": "eres,",
+      "lang": "es"
+    },
+    {
+      "text": "which is probably the weirdest form out of these ones. We can relate it to es maybe, they are similar,",
+      "lang": "en"
+    },
+    {
+      "text": "es, eres.",
+      "lang": "es"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "So how would you say you are, using the word for you?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Tú eres.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "What was the word for how?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Cómo.",
+      "lang": "es"
+    },
+    {
+      "text": "Now if I want to say How is he?, How is he doing? I will use estar. So how would I say, using estar, how is he, how is he doing?:",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cómo está?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now if I want to ask you, what is he like? Maybe you tell me about your new boss or a new friend, and I ask you, what is he like, or what is she like?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "Am I referring to their state or to their",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic?",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "So how would I ask How is he, what is he like? How is she, what is she like?:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-full": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cómo es?",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

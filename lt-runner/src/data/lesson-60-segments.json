@@ -1,0 +1,738 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was to speak in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Hablar.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "I spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Hablé.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "And he spoke/she spoke/you (formal) spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Habló.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We spoke is",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "which, I’m sure you’ve noticed, is exactly the same as the present, we speak. So,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "means we speak or we spoke, which, for one side is wonderful because it means you get another version of this very irregular tense without having to remember a new one. But, of course, it can cause some ambiguity, and in real life it can cause some ambiguity, not often, mind, because most of the time you have some context showing that you are talking about the past.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "For example, the word for when is",
+      "lang": "en"
+    },
+    {
+      "text": "cuando.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "So,",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "if you want to say when we speak I understand everything, what was to understand?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-full": [
+    {
+      "text": "Comprender.",
+      "lang": "es"
+    },
+    {
+      "text": "So, when we speak, I understand everything: S:",
+      "lang": "en"
+    },
+    {
+      "text": "Cuando hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "comprendo todo.",
+      "lang": "en"
+    }
+  ],
+  "turn-12-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cuando hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "comprendo todo. So,",
+      "lang": "en"
+    },
+    {
+      "text": "cuando hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "that bit could be when we speak, generally, or when we spoke, so that second half brings us into the context and we understand that when we speak, generally speaking, I understand everything.",
+      "lang": "en"
+    },
+    {
+      "text": "Cuando hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "comprendo todo. But, if you wanted to say when we spoke I understood everything, then, of course, the first bit is going to be the same, but that second bit, I understood everything, is going to give you that context. So, let’s practice that one - when we spoke I understood everything:",
+      "lang": "en"
+    }
+  ],
+  "turn-14-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cuando hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "comprendí todo. So again, the second part of that sentence is making it clear whether this",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "is the present or the past.",
+      "lang": "en"
+    },
+    {
+      "text": "Cuando hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "comprendo todo;",
+      "lang": "en"
+    },
+    {
+      "text": "cuando hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "comprendí todo. We spoke yesterday.",
+      "lang": "en"
+    }
+  ],
+  "turn-14-prompt": [
+    {
+      "text": "We spoke yesterday:",
+      "lang": "en"
+    }
+  ],
+  "turn-16-reveal": [
+    {
+      "text": "Hablamos ayer.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And we know that we can use the present with future context in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-16-prompt": [
+    {
+      "text": "So, if you wanted to say we will speak tomorrow:",
+      "lang": "en"
+    }
+  ],
+  "turn-18-reveal": [
+    {
+      "text": "Hablamos mañana.",
+      "lang": "es"
+    },
+    {
+      "text": "So,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos ayer,",
+      "lang": "es"
+    },
+    {
+      "text": "we spoke yesterday;",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos mañana,",
+      "lang": "es"
+    },
+    {
+      "text": "we will speak tomorrow.",
+      "lang": "en"
+    }
+  ],
+  "turn-18-prompt": [
+    {
+      "text": "How would you say we wait a lot, we wait a lot, generally? What is a lot in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-20-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-20-prompt": [
+    {
+      "text": "To wait or to hope:",
+      "lang": "en"
+    }
+  ],
+  "turn-22-reveal": [
+    {
+      "text": "Esperar.",
+      "lang": "es"
+    },
+    {
+      "text": "If you forget this one you can think of desperate, which means “un-hoped”. Desesperado in Spanish, again one of these -ado/-ido adjectives from the version that comes after haber. You can see desesperar – desesperado, which made desperate. And it’s desesperado in Spanish, not“desperado”, like we have some spanishisms, let’s say, that have entered English, but they can enter incorrectly, like “desperado” is desesperado in Spanish; or in English you might hear “no problemo”, this is loosely based on Spanish, but of course, problem in Spanish is problema, not“problemo”, and actually you would say, not “no problema”. So, ningun problema",
+      "lang": "en"
+    },
+    {
+      "text": "esperar,",
+      "lang": "es"
+    },
+    {
+      "text": "to wait or to hope.",
+      "lang": "en"
+    }
+  ],
+  "turn-22-prompt": [
+    {
+      "text": "So, talking generally, we wait a lot, we wait around a lot:",
+      "lang": "en"
+    }
+  ],
+  "turn-24-reveal": [
+    {
+      "text": "Esperamos mucho.",
+      "lang": "es"
+    },
+    {
+      "text": "Maybe you meant yesterday, here it might be ambiguous, unless the context is clear. So, if you want to clarify, you might want to say the word yesterday.",
+      "lang": "en"
+    }
+  ],
+  "turn-24-prompt": [
+    {
+      "text": "How would you say we waited a lot yesterday?",
+      "lang": "en"
+    }
+  ],
+  "turn-26-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Esperamos mucho ayer.",
+      "lang": "es"
+    }
+  ],
+  "turn-26-prompt": [
+    {
+      "text": "What was to eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-28-reveal": [
+    {
+      "text": "Comer.",
+      "lang": "es"
+    }
+  ],
+  "turn-28-prompt": [
+    {
+      "text": "And what is we eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-30-reveal": [
+    {
+      "text": "Comemos.",
+      "lang": "es"
+    },
+    {
+      "text": "We ate is",
+      "lang": "en"
+    },
+    {
+      "text": "comimos, comimos.",
+      "lang": "es"
+    }
+  ],
+  "turn-30-prompt": [
+    {
+      "text": "We ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-32-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-34-reveal": [
+    {
+      "text": "No comimos.",
+      "lang": "es"
+    }
+  ],
+  "turn-34-prompt": [
+    {
+      "text": "What was to live?",
+      "lang": "en"
+    }
+  ],
+  "turn-36-prompt": [
+    {
+      "text": "And we live (generally):",
+      "lang": "en"
+    }
+  ],
+  "turn-38-prompt": [
+    {
+      "text": "And we lived:",
+      "lang": "en"
+    }
+  ],
+  "turn-40-reveal": [
+    {
+      "text": "Vivimos.",
+      "lang": "es"
+    },
+    {
+      "text": "So, what this means is that because of this one difference we have in the entire language between -er and -ir verbs, in the present we have -emos for -er and -imos for -ir, what that means –er is that when we go into the past, -ir verbs stay the same,",
+      "lang": "en"
+    },
+    {
+      "text": "vivimos",
+      "lang": "es"
+    },
+    {
+      "text": "-",
+      "lang": "en"
+    },
+    {
+      "text": "vivimos,",
+      "lang": "es"
+    },
+    {
+      "text": "but verbs are different:",
+      "lang": "en"
+    },
+    {
+      "text": "comemos",
+      "lang": "es"
+    },
+    {
+      "text": "-",
+      "lang": "en"
+    },
+    {
+      "text": "comimos.",
+      "lang": "es"
+    },
+    {
+      "text": "So,",
+      "lang": "en"
+    }
+  ],
+  "turn-40-prompt": [
+    {
+      "text": "what was to see?",
+      "lang": "en"
+    }
+  ],
+  "turn-42-prompt": [
+    {
+      "text": "And we see, in the present?",
+      "lang": "en"
+    }
+  ],
+  "turn-44-reveal": [
+    {
+      "text": "Vemos.",
+      "lang": "es"
+    }
+  ],
+  "turn-44-prompt": [
+    {
+      "text": "And we saw:",
+      "lang": "en"
+    }
+  ],
+  "turn-46-reveal": [
+    {
+      "text": "Vimos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-46-prompt": [
+    {
+      "text": "What was to go out or to leave?",
+      "lang": "en"
+    }
+  ],
+  "turn-48-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-48-prompt": [
+    {
+      "text": "We are going out, or we are leaving:",
+      "lang": "en"
+    }
+  ],
+  "turn-50-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-50-prompt": [
+    {
+      "text": "And we went out or we left:",
+      "lang": "en"
+    }
+  ],
+  "turn-52-reveal": [
+    {
+      "text": "The same.",
+      "lang": "en"
+    }
+  ],
+  "turn-52-prompt": [
+    {
+      "text": "What was to lose?",
+      "lang": "en"
+    }
+  ],
+  "turn-54-reveal": [
+    {
+      "text": "Perder.",
+      "lang": "es"
+    }
+  ],
+  "turn-54-prompt": [
+    {
+      "text": "We lose:",
+      "lang": "en"
+    }
+  ],
+  "turn-56-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-56-prompt": [
+    {
+      "text": "We lost:",
+      "lang": "en"
+    }
+  ],
+  "turn-58-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-58-prompt": [
+    {
+      "text": "How would you say we got lost or we lost ourselves?",
+      "lang": "en"
+    }
+  ],
+  "turn-60-reveal": [
+    {
+      "text": "Nos perdimos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Okay,",
+      "lang": "en"
+    }
+  ],
+  "turn-60-prompt": [
+    {
+      "text": "so how would you say yesterday? First thing - what was the word for always?",
+      "lang": "en"
+    }
+  ],
+  "turn-62-reveal": [
+    {
+      "text": "Siempre.",
+      "lang": "es"
+    },
+    {
+      "text": "So,",
+      "lang": "en"
+    }
+  ],
+  "turn-62-prompt": [
+    {
+      "text": "how would you say we always get lost?",
+      "lang": "en"
+    },
+    {
+      "text": "Siempre",
+      "lang": "es"
+    },
+    {
+      "text": "perdemos…",
+      "lang": "en"
+    },
+    {
+      "text": "Siempre",
+      "lang": "es"
+    },
+    {
+      "text": "nos",
+      "lang": "en"
+    },
+    {
+      "text": "perdemos",
+      "lang": "es"
+    }
+  ],
+  "turn-64-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Siempre",
+      "lang": "es"
+    },
+    {
+      "text": "nos",
+      "lang": "en"
+    },
+    {
+      "text": "perdemos,",
+      "lang": "es"
+    },
+    {
+      "text": "or nos",
+      "lang": "en"
+    },
+    {
+      "text": "perdemos siempre.",
+      "lang": "es"
+    }
+  ],
+  "turn-64-prompt": [
+    {
+      "text": "But:",
+      "lang": "en"
+    }
+  ],
+  "turn-66-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    },
+    {
+      "text": "No",
+      "lang": "es"
+    },
+    {
+      "text": "perdimos…",
+      "lang": "en"
+    },
+    {
+      "text": "No nos perdimos",
+      "lang": "es"
+    },
+    {
+      "text": "ayer",
+      "lang": "en"
+    }
+  ],
+  "turn-68-reveal": [
+    {
+      "text": "Good. Nos",
+      "lang": "en"
+    },
+    {
+      "text": "perdemos siempre, pero no nos perdimos",
+      "lang": "es"
+    },
+    {
+      "text": "ayer. Very good. There we see in that sentence,",
+      "lang": "en"
+    },
+    {
+      "text": "perdemos",
+      "lang": "es"
+    },
+    {
+      "text": "for present and",
+      "lang": "en"
+    },
+    {
+      "text": "perdimos",
+      "lang": "es"
+    },
+    {
+      "text": "for past. But, of course, with -ir verbs, they have we don’t go out often, but we went out the same version for both. So, we could say, for example, yesterday. And often is a menudo, a menudo. Menudo is like a literary word that's not used very often for small, related to minute, actually, or miniscule, it’s not used very often in that sense, in we don’t go out often the sense of small. But a menudo is used very often to mean often.",
+      "lang": "en"
+    }
+  ],
+  "turn-68-prompt": [
+    {
+      "text": "So,:",
+      "lang": "en"
+    }
+  ],
+  "turn-70-prompt": [
+    {
+      "text": "But we went out yesterday:",
+      "lang": "en"
+    }
+  ],
+  "turn-72-reveal": [
+    {
+      "text": "Good, very good. So, here we have the present and the past in this sentence and we see that both. Let’s make a recap. So, let’s do of them are",
+      "lang": "en"
+    },
+    {
+      "text": "salimos. No salimos a menudo, pero salimos ayer",
+      "lang": "es"
+    },
+    {
+      "text": "it with",
+      "lang": "en"
+    },
+    {
+      "text": "hablar",
+      "lang": "es"
+    },
+    {
+      "text": "and",
+      "lang": "en"
+    },
+    {
+      "text": "comer,",
+      "lang": "es"
+    },
+    {
+      "text": "which we will use as our hook verbs.",
+      "lang": "en"
+    }
+  ],
+  "turn-72-prompt": [
+    {
+      "text": "So, I spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-74-prompt": [
+    {
+      "text": "He spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-76-prompt": [
+    {
+      "text": "We spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-78-reveal": [
+    {
+      "text": "And",
+      "lang": "en"
+    },
+    {
+      "text": "comer",
+      "lang": "es"
+    },
+    {
+      "text": "is to eat.",
+      "lang": "en"
+    }
+  ],
+  "turn-78-prompt": [
+    {
+      "text": "So, I ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-80-prompt": [
+    {
+      "text": "He ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-82-prompt": [
+    {
+      "text": "We ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-84-full": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ]
+}

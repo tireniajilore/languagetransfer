@@ -1,0 +1,344 @@
+{
+  "turn-1-full": [
+    {
+      "text": "How would you say 'I want to continue'?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Quiero continuar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'I want to continue it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Quiero continuarlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How do you say 'I am trying to continue'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Intento continuar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "What is 'demonstration' in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Demostración.",
+      "lang": "es"
+    },
+    {
+      "text": "Notice there's",
+      "lang": "en"
+    },
+    {
+      "text": "no",
+      "lang": "es"
+    },
+    {
+      "text": "'n'.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How would you say 'to demonstrate'?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Demostrar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "And if you remove 'de-', what does it become?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Mostrar,",
+      "lang": "es"
+    },
+    {
+      "text": "meaning 'to show'.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "What is the word for 'something'?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Algo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you say 'I want to show you something'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Quiero mostrarte algo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How do you say 'I am going to'?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Voy a.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say 'I am going to confiscate it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Voy a confiscarlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "Now, how do you say 'I want to see them'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Quiero verlos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "And 'I am going to see them'?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Voy a verlos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say 'I am trying to see them'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Intento verlos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Now, how do you say 'I am going to try'?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Voy a intentar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "How would you say 'I am going to try to see them'?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Voy a intentar verlos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now, let's look at another verb of movement: 'pasar'.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "What does 'pasar' mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Yes, 'pasar' means '",
+      "lang": "en"
+    },
+    {
+      "text": "to pass",
+      "lang": "es"
+    },
+    {
+      "text": "' or '",
+      "lang": "en"
+    },
+    {
+      "text": "to pass by",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "How would you say 'I am going",
+      "lang": "en"
+    },
+    {
+      "text": "to pass by",
+      "lang": "es"
+    },
+    {
+      "text": "to visit you'?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Voy a pasar a visitarte.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Remember, with verbs of movement like 'voy' and 'pasar', we use 'a' before the next verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "How would you say 'I want",
+      "lang": "en"
+    },
+    {
+      "text": "to pass by",
+      "lang": "es"
+    },
+    {
+      "text": "to show you something'?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-full": [
+    {
+      "text": "Quiero pasar a mostrarte algo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Remember, 'a' connects verbs of movement to the next action.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "In this lesson, you learned how to use verbs of motion with 'a' and practiced continuing actions in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try creating your own sentences using 'voy a' and other verbs of motion. How would you say 'I am going to visit my friend'?",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Remember, using 'a' with verbs of motion helps connect actions in Spanish. Keep practicing to internalize this rule.",
+      "lang": "en"
+    }
+  ]
+}

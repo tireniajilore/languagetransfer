@@ -1,0 +1,714 @@
+{
+  "lessonId": "lesson-20",
+  "generatedAt": "2026-04-11T13:50:31.460Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "We can talk about the future using the present tense with future context words. For example, how do you say 'tomorrow'?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "ea6f3cb636496af2f32600258d0d6c77d886704a70316c566b7bd405626aec7f"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Mañana.",
+          "lang": "es",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "d92ebc9975588aaacfe371e2ac2ba5c32fc0a531b774dd49416e82aeafa5d950"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How about 'later' or 'more late'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "572d778b01933d2ba9dd85b4d3c769b24ee76f79337007196ccdf937bbbfe515"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Más tarde.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "ad68bf8745df59ec6b1b2f037aa000793f9734bae44eb8ddfc7dd397d21f8c68"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "And 'tonight' or 'this night'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "707914e29c22391b27444c97848417c677c4f0214f8b60c0f2f27824c0797135"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Esta noche.",
+          "lang": "es",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "372af3bbe41155ed40dedc0f353b1a58f04ec3ee6aa14d58472b1b02f2ea997d"
+        },
+        {
+          "text": "Good. Another word is 'pronto'.",
+          "lang": "en",
+          "file": "turn-7-reveal-2.mp3",
+          "hash": "db2e48301a74d779f019d16a4a61a41399f59c882dd7002989fe56edee6a198d"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "What does 'pronto' mean?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "eed5a18755392cf3c18c792956b7c60d3c899ba867cd15401c04172f4a1337d5"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Soon.",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "addd66c1c625cd88cbab6c3a1c06fbbb45821d023f745f56c4b6e35385f787b6"
+        },
+        {
+          "text": "You might hear 'get here pronto' in English, meaning 'get here",
+          "lang": "en",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "9bd028e67d3bef46350b5df6d44dced280effbdb9d1db4e6f6f7d15a69f53d00"
+        },
+        {
+          "text": "soon",
+          "lang": "es",
+          "file": "turn-9-reveal-3.mp3",
+          "hash": "c3264b1ec5ce735ca675bfd4f15370b23dba81f9714ed6b6ead66f86701bead2"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-9-reveal-4.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "Now, what is the verb 'to see'?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "15146037dfe627384ae8217e3f943e9a174165d7ee3889ee9e070e32f97fbaf9"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Ver.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "f898869acb2e46b51ff8a1a53737f5b1afe1000e9018fd97118ca2909ce0324a"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'he sees'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "ff55611c04c74a7f8fbc008cb4c5b1c1396a72c520510253c94a2e61515c2d08"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Ve. Good.",
+          "lang": "en",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "fe6b544edcbbdfeddc4fb47e64a769ccb2f92af8ed9d9b427a34d159f5722d95"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "How about 'they see'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "4ba0ca806b1408024f7d6f479743ac306bcb869b7d6f66130999aed9e386bb39"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Ven.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "20794216483ed7d24fe87f74ac99f3cef661a1cdb77c1725813e4b575622ae8f"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "And 'you (informal) see'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "c5c43b59ac34853b97f4da6bd13a4bd88892c80a19c42128d3084d4b922adb70"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Ves.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "8af4b757ea32a8553a7b6a3f319de0b5b3930f8fe166e9162eed45b56ba5efb5"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'we see'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "b634b99301ddf4147cb854b0d856499ada4adee87ff42a0746c95a0a6029bbf6"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "Vemos.",
+          "lang": "es",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "3b3160742d7f5e0bf4b0f3fb6e4eecd6debf5f7ca2559818030bdcefe8b15504"
+        },
+        {
+          "text": "The 'I' form is a bit irregular: it's '",
+          "lang": "en",
+          "file": "turn-19-prompt-2.mp3",
+          "hash": "9773974ca0128a64e7233c0b0efd2b97455a89ee3651663fb129b085f5cca104"
+        },
+        {
+          "text": "veo",
+          "lang": "es",
+          "file": "turn-19-prompt-3.mp3",
+          "hash": "8e29ff942fb8da65174ee5af21bf8e9619caa7cf2d67c4dcfca03477bdfccd62"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-19-prompt-4.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Veo.",
+          "lang": "es",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "c5e9499e1266e744a7631d1b618e2a90c40e7fc5ea34746aaa49bbc037afa39e"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I see her later'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "0acd609a4a1c8632d95cd12b768f13dc6cbd194e6156bb2aeb6944cca462b4fb"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "La veo más tarde.",
+          "lang": "es",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "68f4251bd71f354d63a908a7f9ea3df5f9991b1210bfc06a0b75f20543d95b18"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How about 'I'm seeing her tonight'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "e848b9f0c2744755566714226f318f8c9bc2267400d88f9ffcb99fd956325d28"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "La veo esta noche.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "210c0db82ad320da7d9b43b5a38d3b226d3d5a3bc1a0fb6bb44d52c6c6012c00"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'we are seeing her",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "3caa58a60d5e32aa4cb3f1f4bd0d7786b687d0d295b68d10db53f848559fe0d8"
+        },
+        {
+          "text": "soon",
+          "lang": "es",
+          "file": "turn-25-prompt-2.mp3",
+          "hash": "c3264b1ec5ce735ca675bfd4f15370b23dba81f9714ed6b6ead66f86701bead2"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-25-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "La vemos pronto.",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "3ad22a23f7c5fa92e2934bc4fdc0a657b3ce05c40215225bb710f724e3541605"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "If we mean a female group, how do you say 'we're seeing them",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "2f382f0ecccc1fea845ee24124b6a7d12d2060d5667e649d9c596a9685d8ee54"
+        },
+        {
+          "text": "soon",
+          "lang": "es",
+          "file": "turn-27-prompt-2.mp3",
+          "hash": "c3264b1ec5ce735ca675bfd4f15370b23dba81f9714ed6b6ead66f86701bead2"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-27-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Las vemos pronto.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "f6b9ca58a771b54f5cabef28212b3c8c0513890a5fac60acea3aedd987bf78d8"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he is seeing them",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "f325857427997b979c207fea89508159a6b30e8f414776b3adf1362f49e01ffb"
+        },
+        {
+          "text": "soon",
+          "lang": "es",
+          "file": "turn-29-prompt-2.mp3",
+          "hash": "c3264b1ec5ce735ca675bfd4f15370b23dba81f9714ed6b6ead66f86701bead2"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-29-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Las ve pronto.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "7347312503df04a29ab7dc428bbd67c8ab017894dd8b7ace60bd133e2160063b"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "And 'you (informal) are seeing them",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "9b89b7fab8eda8604900b4620620a829e5ff315fdca623602c2435c4eaeb80f8"
+        },
+        {
+          "text": "soon",
+          "lang": "es",
+          "file": "turn-31-prompt-2.mp3",
+          "hash": "c3264b1ec5ce735ca675bfd4f15370b23dba81f9714ed6b6ead66f86701bead2"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-31-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "text": "Las ves pronto.",
+          "lang": "es",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "cb4a2d1dbfcaf6f2ec32fe32859c90ad7015d342a09f1eb7915078aff4f622a8"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "How would you ask 'are you seeing them",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "14b165961fd9b5b1f874fb7b2114b167bf193d7985a19953fb74c6891c30e917"
+        },
+        {
+          "text": "soon?",
+          "lang": "es",
+          "file": "turn-33-prompt-2.mp3",
+          "hash": "c2003c85a02d6bb74f1e3b50088a959b44279a0e276989d8b8e96f38b369eb51"
+        },
+        {
+          "text": "'",
+          "lang": "en",
+          "file": "turn-33-prompt-3.mp3",
+          "hash": "74fbcc4b0e1bc86834d80a976fd246abd2a5b342642197a0cc105a98ed6de2fc"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "¿Las ves pronto?",
+          "lang": "es",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "79723c9a08972bc1d4987068057abfead4f178968fa2635c9b519baec1db0710"
+        },
+        {
+          "text": "And 'why aren't you seeing them",
+          "lang": "en",
+          "file": "turn-35-prompt-2.mp3",
+          "hash": "f85a45e496e13a24cce2a386ab88a9abc849e6558ce06ee65d64d91c09ae7ff8"
+        },
+        {
+          "text": "soon?",
+          "lang": "es",
+          "file": "turn-35-prompt-3.mp3",
+          "hash": "c2003c85a02d6bb74f1e3b50088a959b44279a0e276989d8b8e96f38b369eb51"
+        },
+        {
+          "text": "'",
+          "lang": "en",
+          "file": "turn-35-prompt-4.mp3",
+          "hash": "74fbcc4b0e1bc86834d80a976fd246abd2a5b342642197a0cc105a98ed6de2fc"
+        }
+      ]
+    },
+    "turn-37-reveal": {
+      "segments": [
+        {
+          "text": "¿Por qué no las ves pronto?",
+          "lang": "es",
+          "file": "turn-37-reveal-1.mp3",
+          "hash": "3f36854159ced26ecb4bff368ad609d75403fc2d1d7aa6a56aa90e9f57213383"
+        },
+        {
+          "text": "Now, let's use 'going to' for future.",
+          "lang": "en",
+          "file": "turn-37-reveal-2.mp3",
+          "hash": "dec8b42fedbd957c278712f2acf934f5145703803e5de369a959018db5fffc84"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'we're going to see her'?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "85be22789872506777717ab9b85eb968b6139a0e583b50fe2c4322b736201076"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "Good. How about 'are you going to see him",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "8e7552e413390f47d14b532f935062a3c8f195b5afd17b877a94d762dd81e552"
+        },
+        {
+          "text": "soon?",
+          "lang": "es",
+          "file": "turn-39-prompt-2.mp3",
+          "hash": "c2003c85a02d6bb74f1e3b50088a959b44279a0e276989d8b8e96f38b369eb51"
+        },
+        {
+          "text": "'",
+          "lang": "en",
+          "file": "turn-39-prompt-3.mp3",
+          "hash": "74fbcc4b0e1bc86834d80a976fd246abd2a5b342642197a0cc105a98ed6de2fc"
+        }
+      ]
+    },
+    "turn-41-reveal": {
+      "segments": [
+        {
+          "text": "¿Vas a verlo pronto?",
+          "lang": "es",
+          "file": "turn-41-reveal-1.mp3",
+          "hash": "84a42708a1c7bdf31dfd2df463183636a8a34c229d7b34205d3b6dce5d8b3b7e"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'are you going to see us",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "e13ba9bea603e6011bc2b8d825f16c199a6fe186ac8407b4b9d1b2ac0185d62b"
+        },
+        {
+          "text": "soon?",
+          "lang": "es",
+          "file": "turn-41-prompt-2.mp3",
+          "hash": "c2003c85a02d6bb74f1e3b50088a959b44279a0e276989d8b8e96f38b369eb51"
+        },
+        {
+          "text": "'",
+          "lang": "en",
+          "file": "turn-41-prompt-3.mp3",
+          "hash": "74fbcc4b0e1bc86834d80a976fd246abd2a5b342642197a0cc105a98ed6de2fc"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "¿Vas a vernos pronto?",
+          "lang": "es",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "2e6cad2838107138818dfccdd7cb3ebda431df90fd032275d7f076fc3e0ef425"
+        },
+        {
+          "text": "Or you could say, ¿Nos vas a",
+          "lang": "en",
+          "file": "turn-43-prompt-2.mp3",
+          "hash": "80648effec017d3747e2723c614931b8ea69155770aac631e6e41d714bb5e3dd"
+        },
+        {
+          "text": "ver",
+          "lang": "es",
+          "file": "turn-43-prompt-3.mp3",
+          "hash": "8d53ea1d657346b3ef3f93063bf1d9ed9a3e5bf3eb5b75b3b87ea63618acc0ee"
+        },
+        {
+          "text": "pronto? How about 'why aren't you going to see us",
+          "lang": "en",
+          "file": "turn-43-prompt-4.mp3",
+          "hash": "84b7cdd613c7bb0bc3b74b682f4db25b217a5c90ac4dbce69313ecac347e8930"
+        },
+        {
+          "text": "soon?",
+          "lang": "es",
+          "file": "turn-43-prompt-5.mp3",
+          "hash": "c2003c85a02d6bb74f1e3b50088a959b44279a0e276989d8b8e96f38b369eb51"
+        },
+        {
+          "text": "'",
+          "lang": "en",
+          "file": "turn-43-prompt-6.mp3",
+          "hash": "74fbcc4b0e1bc86834d80a976fd246abd2a5b342642197a0cc105a98ed6de2fc"
+        }
+      ]
+    },
+    "turn-45-reveal": {
+      "segments": [
+        {
+          "text": "¿Por qué no vas a vernos pronto?",
+          "lang": "es",
+          "file": "turn-45-reveal-1.mp3",
+          "hash": "c13309acfe0e61d2a919a0168df4764bfee5b71eae55cda8a7f997e3e8a42904"
+        }
+      ]
+    },
+    "turn-45-prompt": {
+      "segments": [
+        {
+          "text": "Now, how do you say 'next week' using 'the week that comes'?",
+          "lang": "en",
+          "file": "turn-45-prompt-1.mp3",
+          "hash": "e63884f8d27a6c18412d8a31e7562b991a333991a51f88fda0f2145a160d1a82"
+        }
+      ]
+    },
+    "turn-47-reveal": {
+      "segments": [
+        {
+          "text": "La semana que viene.",
+          "lang": "es",
+          "file": "turn-47-reveal-1.mp3",
+          "hash": "dd6eedc34f6955728f88734573d6247b35791c9ea7ba2600d40de76ceaff7a74"
+        }
+      ]
+    },
+    "turn-47-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'let's speak next week'?",
+          "lang": "en",
+          "file": "turn-47-prompt-1.mp3",
+          "hash": "cf98b6970daa87a545285449f005dc0f834b98321603612114c3a6f4405cbb01"
+        }
+      ]
+    },
+    "turn-49-reveal": {
+      "segments": [
+        {
+          "text": "Hablamos la semana que viene.",
+          "lang": "es",
+          "file": "turn-49-reveal-1.mp3",
+          "hash": "ea9b68542bd6f06fde2637e1faf66a7aa9c4aa3b61cfde7f182c2640168191a0"
+        }
+      ]
+    },
+    "turn-49-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'we see each other'?",
+          "lang": "en",
+          "file": "turn-49-prompt-1.mp3",
+          "hash": "6378108cd2fb0b435e21e7d7a4e05ea2bbe458479e7b9a0b5dd9653f73f2b1a9"
+        }
+      ]
+    },
+    "turn-51-reveal": {
+      "segments": [
+        {
+          "text": "Nos vemos.",
+          "lang": "es",
+          "file": "turn-51-reveal-1.mp3",
+          "hash": "23c46bed5f98d7039f5aa69d761d40274e0e621982151bca3c4117b9c257bc16"
+        },
+        {
+          "text": "This is a common way to say goodbye in Spanish.",
+          "lang": "en",
+          "file": "turn-51-reveal-2.mp3",
+          "hash": "af1ee680f9aa175285aaacba1a83228e90d899b282125ad2c13c0586b4faf061"
+        }
+      ]
+    },
+    "turn-51-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'we will see each other next week'?",
+          "lang": "en",
+          "file": "turn-51-prompt-1.mp3",
+          "hash": "501eb8ad97759e5ec93d132172fbd23a55c72cd8c569f1f2f4fa0e76d05160e9"
+        }
+      ]
+    },
+    "turn-53-full": {
+      "segments": [
+        {
+          "text": "Nos vemos la semana que viene.",
+          "lang": "es",
+          "file": "turn-53-full-1.mp3",
+          "hash": "b871a2d327369dd99136166f1ad1cc2108864bd1a8db83f7eef62c915ac57af4"
+        },
+        {
+          "text": "Remember, using present tense with future context allows us to talk about future events.",
+          "lang": "en",
+          "file": "turn-53-full-2.mp3",
+          "hash": "e46986ed86a56ef1700d2c8cf25d7c58156e5620982da0cf61cb7d63537fe723"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to use present tense with future context words to talk about future events.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "b7d67f21102df0581d5b51b68f3f55a9bb24775ba18549cf9c5d2c43f13a85d7"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try using 'mañana', 'pronto', or 'la semana que viene' in your own sentences to describe future plans.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "2ef2098a5bcf0b1c7eb1a5cf92a40e31ea921211dd1a3875f0e6673431357683"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Next time, we'll explore more ways to express future actions in Spanish.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "e589587e44c4ae113ad0799c600068c73c27b0e8026ffcf7fd126e89a3f4626c"
+        }
+      ]
+    }
+  }
+}

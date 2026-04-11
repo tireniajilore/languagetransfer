@@ -1,0 +1,232 @@
+{
+  "lesson_number": 6,
+  "title": "Silent 'H' and Intento",
+  "description": "Learn about the silent 'h' in Spanish and how to use 'intento' for expressing 'I try'.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "Intento means 'I try' or 'I am trying'. How would you say 'I am trying to publish it'?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "intento publicarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Intento publicarlo. How would you say 'I am trying to administrate it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "intento administrarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Intento administrarlo. How would you say 'I am trying to imitate it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "intento imitarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly. Now, remember that h's in Spanish are completely silent. How would you say 'hospital'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hospital"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Perfect. Hospital. How would you say 'horrible'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "horrible"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Now, how would you say 'habitual'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "habitual"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Habitual. And 'habitually'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "habitualmente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Habitualmente. The word for 'now' in Spanish is 'ahora'. How would you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ahora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Ahora' is spelled a-h-o-r-a. How would you say 'I want to cancel it, but I don’t want to cancel it now'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero cancelarlo, pero no quiero cancelarlo ahora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Perfect! The word for 'I go' or 'I am going' in Spanish is 'voy'. How would you say 'I am going now'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy ahora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy ahora. How would you say 'I am not going now'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no voy ahora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How do you think you might say 'visit' in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "visitar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'I want to visit him'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero visitarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How do you think you would say 'visible' in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "visible"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'viral'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "viral"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Viral. How do you think 'virus' might be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "virus"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Virus. And 'convenient'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "conveniente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Conveniente. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to use 'intento' to express 'I try' and the importance of the silent 'h' in Spanish."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try using 'intento' with other verbs you know. How would you say 'I am trying to learn'?",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Remember, the 'h' is silent in Spanish. Practice saying words like 'hospital' and 'horrible' without pronouncing the 'h'."
+    }
+  ]
+}

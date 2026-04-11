@@ -1,0 +1,384 @@
+{
+  "turn-1-full": [
+    {
+      "text": "In Spanish, 'quiero' means 'I want' without needing the word for 'I'. The word for 'I' is 'yo', but it's only used for emphasis. How would you say 'I want' with emphasis?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Yo quiero.",
+      "lang": "es"
+    },
+    {
+      "text": "Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "how would you say 'I don't want'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Yo no quiero.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say 'I don't want to cancel'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Yo no quiero cancelar.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Now, how do you say 'celebration'?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Celebración.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And to celebrate?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Celebrar.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How would you say 'I want to celebrate'?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Quiero celebrar.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "What does 'quiero ilustrar' mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Correct. 'Ilustrar' means 'to illustrate'. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "how would you say 'I want to find out'? In Spanish, you say 'I want to inform myself'.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Quiero informarme.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How do you say 'information'?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Información.",
+      "lang": "es"
+    },
+    {
+      "text": "Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "how would you say 'I don't want to oblige you'?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "No quiero obligarte.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How would you say 'I want to cancel it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Quiero cancelarlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, let's talk about the Spanish 'r'. An initial 'r' is rolled, like in 'regular'. The word for 'but' is 'pero', and 'dog' is 'perro'.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How would you say 'I want to regulate it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Quiero regularlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Let's move to 'salvation'.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How do you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Salvación.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "And 'to save'?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Salvar.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "How would you say 'I want to save him'?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Quiero salvarlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, let's look at 'situation'.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How do you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Situación.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And 'to situate'?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Situar.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, 'participation'.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Participación.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "And 'to participate'?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Participar.",
+      "lang": "es"
+    },
+    {
+      "text": "Remember to break words into syllables to avoid mistakes.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "How would you say 'creation'?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Creación.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "And 'to create'?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Crear.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Now, 'to experiment' or 'to experience'?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Experimentar.",
+      "lang": "es"
+    },
+    {
+      "text": "This verb means both 'to experiment' and 'to experience'.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "How do you say 'difference'?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Diferencia.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "And 'influence'?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Influencia.",
+      "lang": "es"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "How about 'existence'?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Existencia.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "And 'consistence'?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Consistencia.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Finally, 'inconsistence'?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-full": [
+    {
+      "text": "Inconsistencia.",
+      "lang": "es"
+    },
+    {
+      "text": "Great job!",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how to use 'yo' for emphasis and how to form verbs from nouns.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try forming more verbs from nouns you know. Think of 'communication' or 'operation' and convert them to Spanish.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Remember, breaking words into syllables helps avoid mistakes. Practice this technique with new words.",
+      "lang": "en"
+    }
+  ],
+  "outro-4-full": [
+    {
+      "text": "Next time, we'll explore more verb forms and continue building your Spanish vocabulary.",
+      "lang": "en"
+    }
+  ]
+}

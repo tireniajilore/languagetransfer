@@ -1,0 +1,632 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So, we said that lo and la and los and las, become le and les. The four become two. The four options of lo, la, los, las become le and les when it’s to him, to her, for him, for her. And we said, they don’t change to get these different meanings. They stay as they are. And that me, te, and nos we also saw that these words, me, te, and nos could mean myself, yourself, ourselves or each other. So how would you say I speak to myself?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Me hablo.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "We speak to ourselves:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Nos hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Although, of course, the more natural meaning you would probably understand from",
+      "lang": "en"
+    },
+    {
+      "text": "nos hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "is we speak to each other, as nos also means each other. Now to get the meaning of himself, herself, themselves, lo and la and los and las become se. Which is very easy to remember because it’s the beginning of self. So when we want this meaning of self or selves, we get se. So, to recap: me, te, and nos, they already have the meanings included of myself, yourself, ourselves, each other, but these ones that change, the small words that change, lo, la, los. So let’s practice it. and las, to get the meaning of himself, herself, themselves is going to be se He speaks to himself.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Se habla.",
+      "lang": "es"
+    },
+    {
+      "text": "You could say the word for he.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "What is the word for he?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Él",
+      "lang": "en"
+    },
+    {
+      "text": "se habla.",
+      "lang": "es"
+    },
+    {
+      "text": "She speaks to herself, and clarify. Use the word for she.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Ella",
+      "lang": "en"
+    },
+    {
+      "text": "se habla.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "They speak to themselves:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Se hablan. Se habla. Se hablan.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Se I speak to myself:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Me hablo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So here we are not using se. For me, te and nos we have all of the meanings included in me, te, and nos. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Tell me again how is they speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Good, but the accent was-",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Hablan.",
+      "lang": "es"
+    },
+    {
+      "text": "They speak to them. Now a different them. Not themselves. Ah, they speak to them. This group is speaking to another group.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "So now we can go back to a verb like to stay, to remain was quedar. So to get the meaning of stay, you say I remain myself.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "So how was that?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me quedo.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "We remain ourselves or we stay:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "- ar verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Nos quedamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And you stay, talking informally.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "You remain yourself:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "Te quedas.",
+      "lang": "es"
+    },
+    {
+      "text": "Are you staying?:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Por qué no te quedas?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Let’s just practice the words for emphasis as well. So you could say I am staying.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "What is the word for I:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Yo.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Yo me quedo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "What was the word for we? Not us, but we?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Nosotros.",
+      "lang": "es"
+    },
+    {
+      "text": "So we have",
+      "lang": "en"
+    },
+    {
+      "text": "nosotros",
+      "lang": "es"
+    },
+    {
+      "text": "for we.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How would you say we are staying? We are remaining ourselves:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nosotros nos quedamos.",
+      "lang": "es"
+    },
+    {
+      "text": "And if you are an all female group,",
+      "lang": "en"
+    },
+    {
+      "text": "nosotros",
+      "lang": "es"
+    },
+    {
+      "text": "will change.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nosotras nos quedamos",
+      "lang": "es"
+    },
+    {
+      "text": "if you are an all female group. What is the word for you in the sense of if we want to clarify or emphasize you are staying, speaking informally.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "Not te, but:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Tú. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "So how would you say you are staying - emphasizing that we mean you?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Tú te quedas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So these are the versions actually we were practicing before with me, te, and. We didn’t look at nos he stays, because actually what we needed to say he stays is he remains and we didn’t have that yet. But now we do.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "himself",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Good. That’s it.",
+      "lang": "en"
+    },
+    {
+      "text": "Se queda.",
+      "lang": "es"
+    },
+    {
+      "text": "He stays. She stays. You stay.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "They stay, or they remain themselves:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Se quedan.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Querer was to want. Querer.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "What was I want?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Quiero.",
+      "lang": "es"
+    },
+    {
+      "text": "The / e / of querer splits when we put the stress on it.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero.",
+      "lang": "es"
+    },
+    {
+      "text": "Now",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "if you want to say I want to stay, you say, I want to remain myself. So how is that?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero quedarme.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "He wants to remain himself or she wants to remain herself, he wants to stay, she wants to stay:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiere quedarse.",
+      "lang": "es"
+    },
+    {
+      "text": "She wants to stay. Ella",
+      "lang": "en"
+    },
+    {
+      "text": "quiere quedarse.",
+      "lang": "es"
+    },
+    {
+      "text": "He wants to stay. Él",
+      "lang": "en"
+    },
+    {
+      "text": "quiere quedarse.",
+      "lang": "es"
+    },
+    {
+      "text": "You (formal) want to stay. Usted",
+      "lang": "en"
+    },
+    {
+      "text": "quiere quedarse.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "What if you wanted to say they want to stay or you guys want to stay?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Quieren quedarse.",
+      "lang": "es"
+    },
+    {
+      "text": "So this could mean they want to stay or you guys want to stay.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "How would you clarify? Let’s clarify they want to stay:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "And what if it was a female group?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Ellas quieren quedarse.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "And you guys:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Ustedes quieren quedarse.",
+      "lang": "es"
+    },
+    {
+      "text": "And we said that while usted is formal, ustedes, the plural you, is not necessarily formal. Quedarse is the version of the verb that you are going to find in the dictionary. So in the dictionary you will find quedar and all of the different meanings of quedar which is remain and the various other meanings, actually, this verb has, could be used like to fit. Me queda bien. It fits me well. It suits me well. And then you will find the next entry: quedarse. And then you will find next to it to stay. So when this reflexive, when this “doing it to oneself” carries a different meaning, it will get a different entry in the dictionary. And it’s not going to be in the dictionary as quedarme, or quedarte, or quedarnos, but quedarse because this se is also. No? If it’s; it’s also like like oneself himself, herself, itself oneself. So in the dictionary what you find is to remain oneself. Quedarse. The se is written like one word. Whenever we put se, lo, me,, one of these small words at the end of the “to” form, it’s written like one word. You write te, nos it all together. Let’s practice this just with one more verb. We said that to get the sense of realize, I realize. In Spanish you say to give yourself account. Which is a little bit like to take acount of in English. Now you need to look at darse cuenta to know how to manipulate it to get the different versions of it that you might want. So let’s begin with I realize. I realize.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "I give myself account.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "That’s it. I don’t realize Me doy cuenta.:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "No me doy cuenta.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "We realize, or we give ourselves account:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nos damos cuenta.",
+      "lang": "es"
+    },
+    {
+      "text": "Perfect.:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No nos damos cuenta.",
+      "lang": "es"
+    },
+    {
+      "text": "Now we can make the other versions with he, she, it and you formal and they and you guys because we have se. So now we can do this.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "So how would you say he realizes or she realizes? Go back to dar.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Good. Se da cuenta. What if we wanted to clarify?",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "She - she realizes:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Ella se da cuenta.",
+      "lang": "es"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "Good, and they realize:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "And:",
+      "lang": "en"
+    }
+  ],
+  "turn-83-full": [
+    {
+      "text": "No se dan cuenta.",
+      "lang": "es"
+    },
+    {
+      "text": "So this could be or. Well done.",
+      "lang": "en"
+    }
+  ]
+}

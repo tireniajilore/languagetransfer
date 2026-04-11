@@ -1,0 +1,780 @@
+{
+  "turn-1-full": [
+    {
+      "text": "How would you say I don't want the door to close on me? So what was to close?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And the door:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "La puerta.",
+      "lang": "es"
+    },
+    {
+      "text": "Which is related to port. Of course, you stress down on the o of port and you get puerto. Puerto is port. And you change the o to an a and you get puerta, door.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "So, I don't want the door to close on me:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Exactly.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Very good. After quiero que,",
+      "lang": "en"
+    },
+    {
+      "text": "no quiero que,",
+      "lang": "es"
+    },
+    {
+      "text": "we're using the mood tense.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que la puerta se me cierre.",
+      "lang": "es"
+    },
+    {
+      "text": "Or",
+      "lang": "en"
+    },
+    {
+      "text": "no quiero que",
+      "lang": "es"
+    },
+    {
+      "text": "se me cierre",
+      "lang": "en"
+    },
+    {
+      "text": "la puerta.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How do you say again, or another time?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "I don't want the door to close on me again:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que la puerta se me cierre otra vez.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "What was the verb to return or to come back? And it's related to revolve.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Volver.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Volver.",
+      "lang": "es"
+    },
+    {
+      "text": "Instead of saying",
+      "lang": "en"
+    },
+    {
+      "text": "otra vez,",
+      "lang": "es"
+    },
+    {
+      "text": "another way of saying again in Spanish is to use",
+      "lang": "en"
+    },
+    {
+      "text": "volver.",
+      "lang": "es"
+    },
+    {
+      "text": "So, for example, it closes again, we can say vuelve",
+      "lang": "en"
+    },
+    {
+      "text": "a cerrarse.",
+      "lang": "es"
+    },
+    {
+      "text": "It returns to close. Why do we have a here?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Vuelve",
+      "lang": "en"
+    },
+    {
+      "text": "a cerrarse?",
+      "lang": "es"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "So how would you say I don't want the door to close again, with",
+      "lang": "en"
+    },
+    {
+      "text": "volver,",
+      "lang": "es"
+    },
+    {
+      "text": "how would it be? So let's take it from the beginning. I don't want that:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "The door returns:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "To close itself:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que la puerta vuelva a cerrarse.",
+      "lang": "es"
+    },
+    {
+      "text": "Or",
+      "lang": "en"
+    },
+    {
+      "text": "no quiero que",
+      "lang": "es"
+    },
+    {
+      "text": "vuelva",
+      "lang": "en"
+    },
+    {
+      "text": "a cerrarse la puerta.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "volver",
+      "lang": "es"
+    },
+    {
+      "text": "a can be used like again, and it's very common in Spanish. You might hear it around. So if you say I don't want it to happen again, for to happen you can use to pass.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "What was to pass? Or if you don't remember, you can make a guess here.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Pasar.",
+      "lang": "es"
+    },
+    {
+      "text": "Or occur, ocurrir. You can use that as well, for happen. Suceder, succession, suceder. All of these mean to happen.",
+      "lang": "en"
+    },
+    {
+      "text": "Pasar",
+      "lang": "es"
+    },
+    {
+      "text": "is probably easier, and easier to remember. So, I don't want it to happen again.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "I don't want it to return to happen:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que vuelva a pasar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So we saw that we have the mood tense with which we are switching the vowel, so we go from vuelve to vuelva to get the mood tense. Or we have",
+      "lang": "en"
+    },
+    {
+      "text": "cerrar",
+      "lang": "es"
+    },
+    {
+      "text": "and we go from cierra to cierre to get the mood tense. We only have mood tense in the present and in the past. It doesn't exist in the futures. It used to, and there are a couple of words left behind in fixed expressions that still have this form. But for all intents and purposes, it doesn't exist any more in Spanish, the future mood tense. We have the present, which we've practiced and have a very good hold on, and the past mood tense. Now, the past mood tense is very easy to build. We will always build it going from the they form of the point in the past. And now that I've mentioned the point in the past, I should also mention that the mood tense for the past is the same for the line and the point. There are no two different ones. It counts for both. And we build it going from the point in the past for they.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So for example, if we take a verb like to speak, hablar, and they spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Yes,",
+      "lang": "en"
+    },
+    {
+      "text": "hablaron.",
+      "lang": "es"
+    },
+    {
+      "text": "So that's the first step to find the mood tense for the past, is to go to the they form for the point in the past,",
+      "lang": "en"
+    },
+    {
+      "text": "hablaron.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "So you find",
+      "lang": "en"
+    },
+    {
+      "text": "hablaron",
+      "lang": "es"
+    },
+    {
+      "text": "and you change that last o to an a and what do you get?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Hablaran.",
+      "lang": "es"
+    },
+    {
+      "text": "And that is your mood tense for they in the past. Now from that, we can work backwards to find the I, he, she, it, you (formal) version.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "If we work backwards from",
+      "lang": "en"
+    },
+    {
+      "text": "hablaran,",
+      "lang": "es"
+    },
+    {
+      "text": "what would we do to work backwards from",
+      "lang": "en"
+    },
+    {
+      "text": "hablaran,",
+      "lang": "es"
+    },
+    {
+      "text": "what would we get rid of?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Hablara.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And then we can make the you (informal) version:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Good. And we, and the accent won't move.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Habláramos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So that's your set. We can do the same now with comer.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "What was they ate, the point in the past?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Comieron,",
+      "lang": "es"
+    },
+    {
+      "text": "good.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "So now give me the mood tense version of they ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Comieran.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "And I ate, he, she, it, you (formal) ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "We:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Comiéramos.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "And you (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Comieras.",
+      "lang": "es"
+    },
+    {
+      "text": "So this is how we form our mood tense in the past. We want to go from the they form. So we use this pretty much in the same kind of situations that we use the present mood tense. Just in the past, with a couple of situations that are specifically for past. So for example, where quiero que necessitates the mood tense in the present,",
+      "lang": "en"
+    },
+    {
+      "text": "quería",
+      "lang": "es"
+    },
+    {
+      "text": "que, I wanted that, will necessitate the mood tense in the past.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "What is I wanted, using the line in the past?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "So now you could say something like I wanted them to eat with us. I wanted that they ate with us. And that they ate of course will be in the mood tense.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "I wanted that they ate with us:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quería que comieran con nosotros.",
+      "lang": "es"
+    },
+    {
+      "text": "And as we said, point in the past, line in the past, when it comes to the mood tense, it's the same. I was hoping that he would call me.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "I was hoping:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "That he would call me. So, I was hoping that, we don't say would, we use the past mood tense again.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "I was hoping that he called me:",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Esperaba que me llamara.",
+      "lang": "es"
+    },
+    {
+      "text": "So whilst in English we would say I was hoping that he would call me, in Spanish I was hoping that he called me, and we use the past mood tense.",
+      "lang": "en"
+    },
+    {
+      "text": "Esperaba que me llamara.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "What was to need or to necessitate?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Necesitar.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "How would you say we needed, using the line in the past? We needed, we were needing:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Necesitábamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "How would you say we needed to speak with him? We needed to speak with him:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Why que?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "We needed to speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "With him:",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good. So here we don't need the mood tense.",
+      "lang": "en"
+    },
+    {
+      "text": "Necesitábamos hablar con él.",
+      "lang": "es"
+    },
+    {
+      "text": "We needed to speak with him. But, if you were to say we needed that he speak with us, we needed that he spoke with us, then this that, this que is what most of the time in Spanish is alerting you that maybe you want to use the mood tense.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "So, we needed that he speak with us, how is that?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Necesitábamos que hablara con nosotros.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "What was to return, and we said that we can also use this verb like again?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Volver.",
+      "lang": "es"
+    },
+    {
+      "text": "So if I wanted to say I called you again, I could just say I returned to call you. It's got nothing to do with actually returning, ah? It's just a way of saying again.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "So what is I returned, from to return, from",
+      "lang": "en"
+    },
+    {
+      "text": "volver:",
+      "lang": "es"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "Go back to comer:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "So I called you again, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Volví a llamarte.",
+      "lang": "es"
+    },
+    {
+      "text": "To organize.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "In order to organize:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "So all together, I called you again in order to organize, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Volví a llamarte para organizar.",
+      "lang": "es"
+    },
+    {
+      "text": "So, if we have",
+      "lang": "en"
+    },
+    {
+      "text": "para organizar,",
+      "lang": "es"
+    },
+    {
+      "text": "we don't need to worry about the mood tense. And we can sometimes adjust our sentence, putting to forms so that we can avoid finding the mood tense. So you could say something like",
+      "lang": "en"
+    },
+    {
+      "text": "volví a llamarte para organizar, volví a llamarte para organizar,",
+      "lang": "es"
+    },
+    {
+      "text": "I called you again in order to organize, and there you don't need the mood tense. But if you were to say I called you again so that, in order that, we organized, then there you would have to use the mood tense. So how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "I called you again, informally still:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "So that:",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "We organized.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "So it's the mood tense now, in the past:",
+      "lang": "en"
+    }
+  ],
+  "turn-85-full": [
+    {
+      "text": "Very good. Very good. So you have to take a trip through, ah, to find it. And it's quite time consuming at the beginning. But once you start practicing this past mood tense, of course it becomes much quicker to find these different forms.",
+      "lang": "en"
+    },
+    {
+      "text": "Volví a llamarte para que",
+      "lang": "es"
+    },
+    {
+      "text": "organizáramos. And like I said, you can even avoid the use of the mood tense just by saying",
+      "lang": "en"
+    },
+    {
+      "text": "volví a llamarte para organizar,",
+      "lang": "es"
+    },
+    {
+      "text": "in a structure like this one, for example. So we're seeing that there are similar structures to the structures we practiced the mood tense in the present with, just in the past.",
+      "lang": "en"
+    }
+  ]
+}

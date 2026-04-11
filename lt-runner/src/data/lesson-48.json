@@ -1,0 +1,553 @@
+{
+  "lesson_number": 48,
+  "title": "Lesson 48",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "We said that for - ar verbs, we take away the - ar and we put - aba to get this line in the past. So cenar, to dine or to have dinner. Cenaba, I was having dinner, I was dining, I used to have dinner, I used to dine. Now for -er/-ir verbs, we take away our -er/-ir ending and we put -ía. Where did we hear that before? - ía?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "The “would” tense."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comer was to eat. How was I would eat?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comería"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comería. Good. Now for the line in the past, we are not adding on to the full verb. We are taking off our ending before we put - ía. So how would it be? I was eating, he was eating, she was eating, etc.?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comía. Vender is to sell. Vender. I would sell it. I would sell it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo vendería"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo vendería. I was selling it. I was selling it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo vendía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo vendía. Good. If you want to say for sale, you can just say sale. How would that be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se vende"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se vende. Good. For sale. Se vende. It sells itself. And if you go to a Spanish speaking place, you will see on houses and on cars this expression. Se vende. It was selling itself, it was for sale:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se vendía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se vendía. It would be for sale. It would sell itself:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se vendería"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se vendería. It would sell itself. It would be for sale. Good. What was to break again? Related to rupture?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Romper"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Romper. Good. How would you say I was breaking it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo rompía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo rompía. Good. And if you just wanted to say it was breaking, and you mean by itself. It was breaking, not something else. How would you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se rompía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se rompía. Good. How would you say they were breaking?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se rompían"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se rompían. Good. Give me again the “to” form. To break:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Romper"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Romper. What is I would break it? I would break it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo rompía lo rompería"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo rompería. I would break it. How would you say I was breaking it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo rompía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo rompía. Good. How would you say they would break it? They would break it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Les"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "They would break is where you need to begin.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Romperían Lo romperían"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo romperían. They were breaking it, they were breaking it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo rompían"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo rompían. So, we have the same endings for would and for the line in the past for -er/-ir verbs. The big difference of course is that for would we are adding on to the “to” form of the verb and for the past we are taking off our endings first, which means we get pairs like comería, I would eat; comía, I was eating. Rompería, I would break; rompía, I was breaking. So how would you say it breaks, it breaks, and you mean it gets broken? It breaks itself in the present tense:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se rompe"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se rompe. How would you say?. How is we are going or let’s go?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It is going to break.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se va a romper"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Se va a romper or va a romperse. So this means. It’s going to get and there we are not waiting to hear what it’s going to break because we have broken se. So we completed that structure. We completed the sentence with se. The word for how in Spanish is cómo. If you want to ask somebody in Spanish, how do you say? - so maybe you have a Spanish speaking friend that speaks English. And you want to use them like a dictionary and say how do you say x, y, or z? What you will say in Spanish is how does it say itself? How is it said? How does it say itself? So this is another example of where you might be using this structure of self, which we are seeing in Spanish is very flexible. It’s giving us many different meanings, this structure of myself, yourself, ourselves, itself, this structure. So it says from decir is dice. It's a little bit irregular, but then the other versions follow. So we have dice for he, she, it, or usted. How would you say, you (informal) say?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dices"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And they:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dicen"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dicen. And as we know the we form tends to escape the irregularity as the accent is somewhere else, so we go back to decir. And to say we say:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Decimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Decimos. Good. So how would you say, how is it said? How does it say itself?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo se dice"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Cómo se dice? So you will use this often. You don’t say “¿cómo dices?” This means how do you, as an individual, say... how do you say it? If you want to say, how is it said, ¿Cómo se dice? How does it say itself? So se is doing quite a lot in Spanish. Sometimes we are using it to wrap up the sentence, to show that we are not using a verb “to” anybody or “to” anything else like in it breaks, or it transforms, these examples that we saw. Sometimes the se is changing the meaning like between quedar, remain, or be leftover and quedarse, to stay. And sometimes this se has quite a creative application. Se vende. It sells itself, for sale. Or, we could even have se habla. Se habla español. Spanish speaks itself. Spanish is spoken. Spanish spoken. Se habla español. Quedar by itself means to remain. And you can use this in the sense of I have one left. In Spanish, you will say it remains to me one. This is the structure in Spanish. I have one left. It remains to me one. So how would you say that? I have one left. What is the word for one?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Uno"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Uno, or una if you are talking about a feminine thing. So I have one left, it remains to me one:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me quedo un"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That means I stay one. So there you made the reflexive structure. You said I remain myself and you got the meaning of to stay. But what you want is it remains to me.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me queda un"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me queda uno. I have one left. Me queda uno. I have two left. If me queda uno is it remains to me one, I have one left. How do you think you would say I have two left? The word for two is dos. Dos.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Related to duo. So I have two left. They remain to me two:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me quedan dos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me quedan dos. Very good. And of course we have the they form of the verb because it’s they. As I’m saying remain they remain to me, to me, how do you think it would be if you wanted to say he has two left?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le quedan dos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Le quedan dos. Two of them, they remain to him. Le quedan dos. He has two left or she has two left, or you (formal) have two left. So maybe if you go to a shop and you ask for something and there’s none left, maybe they will say I don’t have any left no me quedan.. No me quedan, no me queda, you will hear both just depending on what the person has in their mind. I have none they’ve all gone left as in one. I have none left as in. No me queda. No me quedan. But, we saw that with this verb then when we use this reflexive structure, this “self” structure, we get a different meaning. If I say I remain myself then I get the meaning of to stay. I stay. So how is I remain myself?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me quedo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me quedo. We remain ourselves:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos quedamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos quedamos. Good. He remains himself or she remains herself:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se queda"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se queda. They stay:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se quedan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se quedan. Good. Ah, It’s all of those that begin with l - lo, la, los, las, all become se for the “self” version. From hablar, to speak, if you want to say I was speaking, he was speaking:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaba. So we have - aba as our key sound for the line in the past for - ar verbs. They were speaking:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaban"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how do you say they were staying, they were remaining themselves?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se quedaban"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se quedaban. Good.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No se quedaban aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me quedabo no"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So - aba works for I, he, she, it, and you formal.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me quedaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No me quedaba aquí. And we were staying here:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos quedabamos aquí."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "The accent stays.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quedábamos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos quedábamos aquí.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No nos quedábamos aquí."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No nos quedábamos aquí. Good. Now if you wanted to say, so here, what it didn’t they didn’t we will say is, or, we have the option, remain to us.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No nos quedaban"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No nos quedaba or no nos quedaban. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

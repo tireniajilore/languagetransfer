@@ -1,0 +1,718 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We said that for - ar verbs, we take away the - ar and we put - aba to get this line in the past. So cenar, to dine or to have dinner. Cenaba, I was having dinner, I was dining, I used to have dinner, I used to dine. Now for -er/-ir verbs, we take away our -er/-ir ending and we put -ía. Where did we hear that before? - ía?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Comer was to eat.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How was I would eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Comería.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now for the line in the past, we are not adding on to the full verb. We are taking off our ending before we put - ía. So how would it be?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "I was eating, he was eating, she was eating, etc.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Comía.",
+      "lang": "es"
+    },
+    {
+      "text": "Vender is to sell. Vender. I would sell it.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "I would sell it:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Lo vendería.",
+      "lang": "es"
+    },
+    {
+      "text": "I was selling it.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "I was selling it:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Lo vendía.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "If you want to say for sale, you can just say sale. How would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Se vende.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. For sale.",
+      "lang": "en"
+    },
+    {
+      "text": "Se vende.",
+      "lang": "es"
+    },
+    {
+      "text": "It sells itself. And if you go to a Spanish speaking place, you will see on houses and on cars this expression.",
+      "lang": "en"
+    },
+    {
+      "text": "Se vende.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "It was selling itself, it was for sale:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Se vendía.",
+      "lang": "es"
+    },
+    {
+      "text": "It would be for sale.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "It would sell itself:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Se vendería.",
+      "lang": "es"
+    },
+    {
+      "text": "It would sell itself. It would be for sale. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "What was to break again? Related to rupture?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Romper.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say I was breaking it?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Lo rompía.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And if you just wanted to say it was breaking, and you mean by itself. It was breaking, not something else.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Se rompía.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How would you say they were breaking?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Se rompían.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Give me again the “to” form.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "To break:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Romper.",
+      "lang": "es"
+    },
+    {
+      "text": "What is I would break it?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "I would break it:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Lo rompería. I would break it.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "How would you say I was breaking it?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Lo rompía.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How would you say they would break it? They would break it:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "They would break is where you need to begin.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Lo romperían.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "They were breaking it, they were breaking it:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Lo rompían.",
+      "lang": "es"
+    },
+    {
+      "text": "So, we have the same endings for would and for the line in the past for -er/-ir verbs. The big difference of course is that for would we are adding on to the “to” form of the verb and for the past we are taking off our endings first, which means we get pairs like",
+      "lang": "en"
+    },
+    {
+      "text": "comería,",
+      "lang": "es"
+    },
+    {
+      "text": "I would eat;",
+      "lang": "en"
+    },
+    {
+      "text": "comía,",
+      "lang": "es"
+    },
+    {
+      "text": "I was eating. Rompería, I would break; rompía, I was breaking.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "So how would you say it breaks, it breaks, and you mean it gets broken? It breaks itself in the present tense:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Se rompe.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "How would you say?. How is we are going or let’s go?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "It is going to break.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Se va a romper",
+      "lang": "es"
+    },
+    {
+      "text": "or va a romperse. So this means. It’s going to get and there we are not waiting to hear what it’s going to break because we have broken se. So we completed that structure. We completed the sentence with se. The word for how in Spanish is cómo. If you want to ask somebody in Spanish, how do you say? - so maybe you have a Spanish speaking friend that speaks English. And you want to use them like a dictionary and say how do you say x, y, or z? What you will say in Spanish is how does it say itself? How is it said? How does it say itself? So this is another example of where you might be using this structure of self, which we are seeing in Spanish is very flexible. It’s giving us many different meanings, this structure of myself, yourself, ourselves, itself, this structure. So it says from decir is dice. It's a little bit irregular, but then the other versions follow. So we have dice for he, she, it, or usted.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "How would you say, you (informal) say?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "And they:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Dicen.",
+      "lang": "es"
+    },
+    {
+      "text": "And as we know the we form tends to escape the irregularity as the accent is somewhere else, so we go back to decir.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "And to say we say:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Decimos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "So how would you say, how is it said? How does it say itself?:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cómo se dice?",
+      "lang": "es"
+    },
+    {
+      "text": "So you will use this often. You don’t say “¿cómo",
+      "lang": "en"
+    },
+    {
+      "text": "dices?",
+      "lang": "es"
+    },
+    {
+      "text": "” This means how do you, as an individual, say... how do you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "If you want to say, how is it said, ¿Cómo se dice? How does it say itself? So se is doing quite a lot in Spanish. Sometimes we are using it to wrap up the sentence, to show that we are not using a verb “to” anybody or “to” anything else like in it breaks, or it transforms, these examples that we saw. Sometimes the se is changing the meaning like between quedar, remain, or be leftover and quedarse, to stay. And sometimes this se has quite a creative application.",
+      "lang": "en"
+    },
+    {
+      "text": "Se vende.",
+      "lang": "es"
+    },
+    {
+      "text": "It sells itself, for sale. Or, we could even have se habla. Se habla español. Spanish speaks itself. Spanish is spoken. Spanish spoken. Se habla español. Quedar by itself means to remain. And you can use this in the sense of I have one left. In Spanish, you will say it remains to me one. This is the structure in Spanish. I have one left. It remains to me one. So how would you say that? I have one left. What is the word for one?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Uno,",
+      "lang": "es"
+    },
+    {
+      "text": "or una if you are talking about a feminine thing.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "So I have one left, it remains to me one:",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "That means I stay one. So there you made the reflexive structure. You said I remain myself and you got the meaning of to stay.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "But what you want is it remains to me.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Me queda",
+      "lang": "en"
+    },
+    {
+      "text": "uno.",
+      "lang": "es"
+    },
+    {
+      "text": "I have one left. Me queda",
+      "lang": "en"
+    },
+    {
+      "text": "uno.",
+      "lang": "es"
+    },
+    {
+      "text": "I have two left. If me queda",
+      "lang": "en"
+    },
+    {
+      "text": "uno",
+      "lang": "es"
+    },
+    {
+      "text": "is it remains to me one, I have one left.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "How do you think you would say I have two left? The word for two is",
+      "lang": "en"
+    },
+    {
+      "text": "dos. Dos.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Related to duo. So I have two left.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "They remain to me two:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Me quedan dos.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good. And of course we have the they form of the verb because it’s they. As I’m saying remain they remain to me, to me,",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "how do you think it would be if you wanted to say he has two left?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Le quedan dos.",
+      "lang": "es"
+    },
+    {
+      "text": "Two of them, they remain to him.",
+      "lang": "en"
+    },
+    {
+      "text": "Le quedan dos.",
+      "lang": "es"
+    },
+    {
+      "text": "He has two left or she has two left, or you (formal) have two left. So maybe if you go to a shop and you ask for something and there’s none left, maybe they will say I don’t have any left no me quedan. No me quedan, no me queda, you will hear both just depending on what the person has in their mind. I have none they’ve all gone left as in one. I have none left as in. No me queda. No me quedan. But, we saw that with this verb then when we use this reflexive structure, this “self” structure, we get a different meaning. If I say I remain myself then I get the meaning of to stay. I stay.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "So how is I remain myself?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me quedo.",
+      "lang": "es"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "We remain ourselves:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Nos quedamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "He remains himself or she remains herself:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Se queda.",
+      "lang": "es"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "They stay:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Se quedan.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Ah, It’s all of those that begin with l - lo, la, los, las, all become se for the “self” version. From hablar, to speak,",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "if you want to say I was speaking, he was speaking:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Hablaba.",
+      "lang": "es"
+    },
+    {
+      "text": "So we have - aba as our key sound for the line in the past for - ar verbs.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "They were speaking:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "So how do you say they were staying, they were remaining themselves?",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "Se quedaban.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "Good.:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "So - aba works for I, he, she, it, and you formal.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "No me quedaba",
+      "lang": "es"
+    },
+    {
+      "text": "aquí.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "And we were staying here:",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "The accent stays.",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "Nos",
+      "lang": "en"
+    },
+    {
+      "text": "quedábamos",
+      "lang": "es"
+    },
+    {
+      "text": "aquí.:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "No nos quedábamos aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now if you wanted to say, so here, what it didn’t they didn’t we will say is, or, we have the option, remain to us.",
+      "lang": "en"
+    }
+  ],
+  "turn-91-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No",
+      "lang": "es"
+    },
+    {
+      "text": "nos quedaba or",
+      "lang": "en"
+    },
+    {
+      "text": "no nos quedaban.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

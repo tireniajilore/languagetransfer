@@ -1,0 +1,296 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was the word for 'what'?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And do you remember how to say 'to pass'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Pasar.",
+      "lang": "es"
+    },
+    {
+      "text": "This can also mean 'to happen'.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How do you say 'he passes'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And 'she passes'?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And 'it passes'?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How would you say 'what happens' or 'what's going on'?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "If you want to say 'I want to know what's happening', how would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Quiero saber qué pasa.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, let's look at verbs like 'tener' and 'querer'. These verbs have an E in their root that changes to IE when stressed.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How do you say 'I want'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Quiero.",
+      "lang": "es"
+    },
+    {
+      "text": "Notice how 'querer' becomes '",
+      "lang": "en"
+    },
+    {
+      "text": "quiero",
+      "lang": "es"
+    },
+    {
+      "text": "'. The E splits into IE. The same happens with 'tener'.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How do you say 'he has'?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Tiene.",
+      "lang": "es"
+    },
+    {
+      "text": "Let's try another verb: 'venir'.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How do you say 'he comes'?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Viene.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now, 'pensar' means 'to think'.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How do you say 'I think'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Pienso.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "And 'he thinks'?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Piensa.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say 'what do you think'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "¿Qué piensas?",
+      "lang": "es"
+    },
+    {
+      "text": "If you say 'I think to eat', it means 'I plan on eating'.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Pienso comer.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "How would you say 'I plan on eating later'?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Pienso comer más tarde.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, 'entender' means 'to understand'.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How do you say 'I understand'?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Entiendo.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And 'he understands'?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Entiende.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, 'perder' means 'to lose'.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "How do you say 'I lose'?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Pierdo.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "How would you say 'I lose it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Lo pierdo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "And 'I lose them'?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-full": [
+    {
+      "text": "Los pierdo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how certain verbs in Spanish change from E to IE in the present tense. This pattern will help you with many verbs.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try using these verbs in sentences. How would you say 'I want to understand' or 'he plans to come'?",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "These patterns make it easier to predict how verbs behave. Keep practicing to get more comfortable with them.",
+      "lang": "en"
+    }
+  ]
+}

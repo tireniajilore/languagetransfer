@@ -1,0 +1,433 @@
+{
+  "lesson_number": 61,
+  "title": "Lesson 61",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "You remember how to say to call? You need to open the association between to call and to phone and to call myself, my name is, and then you remember it.",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Llamar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. Llamar. Now we can look a little bit at how the line in the past and the dot in the past interact. Now, we do this in some very common structures in both languages. For example, you might say something like I was cooking when the phone rang. So, I was cooking when the phone rang, which part is the line? And which part is the point?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "I was cooking is the line."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "The phone rang is the dot."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So, let’s begin with I was cooking. What is to cook?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cocinar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cocinar. Good. I was cooking:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cocinaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "When:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuando"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cuando. The phone rang. El teléfono is the phone, like in English, which is actually from Greek. This first bit, tele-, means far, distant, and phone means voice. It’s the “distant voice”, it’s the telephone. So when the phone rang, and we will say when the phone sounded. And to sound is sonar. Sonar. So when the phone sounded:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuando el teléfono sonó"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "All together, I was cooking when the phone rang. Not from memory but thinking it through again. I was cooking when the phone rang:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cocinaba cuando el teléfono sonó."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Cocinaba cuando el teléfono sonó, or cocinaba cuando sonó el teléfono, which would probably be more natural order in Spanish. Cocinaba cuando sonó el teléfono. But both orders are perfectly fine. To arrive was llegar. Llegar, to arrive.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Llegar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And this is l-l, so we have the double l, which is like a y sound, e-g-a-r. verb, llegar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Llegar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I arrived:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Llegué"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Llegué. He arrived:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Llegó"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Llegó. We arrived:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Llegamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Llegamos. Good. I was speaking on the phone when Maria arrived. And we’re not going to say literally on the phone in Spanish. We will say por, por teléfono, by phone. Por can also mean by. So I was speaking on the phone when Maria arrived:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaba por teléfono cuando María llegó"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Hablaba por teléfono cuando María llegó. Or hablaba por teléfono cuando llegó María. Either way. Good. So we can see how we’re using the line and the point together. If you were to look up to stay in the dictionary, you would find quedarse. Then, you need to do something with that se so if you wanted to say I stayed, how would it be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me quedé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me quedé. He stayed? Or she stayed, or you (formal) stayed, it stayed:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se quedó"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Se quedó. And we stayed:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos quedamos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos quedamos. Which, of course, could also mean we stay or we are staying. Good. What was to please? The verb that we use to express like. To please:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Gustar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Gustar. Good. And if you want to say I like it, you say it pleases me. So how do you say I like it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me gusto. Me lo gusto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "We’re working on intuition, no? We’ve got me and it and we’re throwing it all in there. But we must-",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "me gusta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. We must process it literally. It pleases me. It pleases, gusta. It pleases me, me gusta. Good. Now if you want to say I liked it, you just say, of course, it pleased me. So how would that be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me gusté me gustó"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me gustó. Good. Me gusté, what does that mean? Me gusté?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "I pleased myself. I didn’t like it"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I liked myself. Ah? Me gustó, it pleased me, I liked it. Good.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me gustó"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No me gustó.,. Apart from the point in the past, you could also It wasn’t use the line in the past here depending on the context. So how would you say that? pleasing me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me gustaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No me gustaba. So with this line and point, we’re not looking for direct translations from English. We are looking to understand the concept of the line in time and the point in time and applying it I wasn’t liking it directly in Spanish. Because in English you would never say something like. And a lot of the time it’s totally interchangeable in Spanish. No me gustó, no me gustaba, just means you’re thinking in a different way when you say it., you’re referring to something as No me gustó, you’re thinking about something as an ongoing an event, as something closed. And no me gustaba thing that occurred over a period of time. Really, a lot of the time that difference between the point and the line in time just originates in the mind. Parecer, parecer, was to seem. Parecer.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Parecer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It’s related to apparent and we have aparecer in Spanish, which means to appear.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Is transparent similar?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Transparent also is related, yes of course. Good. So parecer is to seem. How would you say it seems to me? It seems to me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me parece"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. It seems good to me, or in Spanish it seems well to me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me parece bien"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me parece bien. How would you say it seemed good to me?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me parecí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It seemed:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me pareció bien."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me pareció bien. It seemed good to me. And you might want to use the line in the past. You might want to say, like, it was seeming good to me. So even though this is not a translation you would use in English, in Spanish you’re just thinking about do I mean a point in time or do I mean ongoing in this context? So we might want it was seeming to me well. How would you say that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Parecer parecía. Me parecía bien"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me parecía bien.. So it seemed good to me, it was seeming good to me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me parecía bien"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "But:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Pero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "When I saw it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuando lo vi."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": ":",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me gustó."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Me parecía bien, pero cuando lo vi, no me gustó. And again, here we see the interaction, no? Between the line and the point. Me parecía bien, it was seeming ok, fine, to me, I didn’t like it pero cuando lo vi, but when I saw it, this is a very clear point in the past,, in that moment when I saw it I didn’t like it. Again the point in the past. Me parecía bien, pero cuando lo vi, no me gustó. Excellent.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

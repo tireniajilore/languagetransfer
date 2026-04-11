@@ -1,0 +1,316 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So, we are looking a bit at possession now, and how we express that in Spanish. Now, in English, much more than we do in Spanish. So, it’s something we use possessive words: my, your, his, her we want to look out for. We already saw an example actually, for example, how we would say I responded him the mail, rather than I responded to his mail. Another example would be how we refer to body parts in Spanish. So you don’t say in Spanish, for example, my leg hurts, you say it hurts me the leg. Doler, doler, is to hurt. How would you say, firstly, it hurts me, from doler? It hurts me:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "It hurts me:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "I want you to divide the sentence up and to take control of it, no guessing.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "It hurts me:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Good, it would be “”",
+      "lang": "en"
+    },
+    {
+      "text": "dole,",
+      "lang": "es"
+    },
+    {
+      "text": "but the o splits. So, this is an error that’s not a problem, you thought it through and you got to “”, but the",
+      "lang": "en"
+    },
+    {
+      "text": "dole",
+      "lang": "es"
+    },
+    {
+      "text": "o splits here.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Me duele.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me duele",
+      "lang": "es"
+    },
+    {
+      "text": "my leg hurts mi pierna duele don’t say that, you say it hurts me the leg, it hurts me the leg. So, leg is pierna,",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "how would you say my leg hurts?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me duele la pierna.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "If you want to say, you can just use more for anymore. So, what was more, again?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Más.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So,:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Good. Now, the noun, pain, is",
+      "lang": "en"
+    },
+    {
+      "text": "dolor, dolor.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "If you want to say I have a headache, you can just say I have pain of head",
+      "lang": "en"
+    },
+    {
+      "text": "dolor",
+      "lang": "es"
+    },
+    {
+      "text": "de cabeza,",
+      "lang": "en"
+    },
+    {
+      "text": "dolor",
+      "lang": "es"
+    },
+    {
+      "text": "de cabeza.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "So, how would that be, I have a headache?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Tengo dolor de cabeza.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I had, I was having, pain of head, so, the line in the past.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Tenía dolor de cabeza.",
+      "lang": "es"
+    },
+    {
+      "text": "And of course we can also say",
+      "lang": "en"
+    },
+    {
+      "text": "me duele",
+      "lang": "es"
+    },
+    {
+      "text": "la cabeza or me dolía la – this would be another way of saying it. So, just as we can say cabeza",
+      "lang": "en"
+    },
+    {
+      "text": "dolor",
+      "lang": "es"
+    },
+    {
+      "text": "de cabeza to say José’s house Maria’s house headache, the ache of the head. If we want to say,, in Spanish we will the house of José, José’s house say the house of Maria, the house of José. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "how would you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "So,",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "how would you say we are going to José’s house?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Vamos a la casa de José.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "What if you wanted to say we are going to Maria’s party:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "That’s correct.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    },
+    {
+      "text": "Vamos a la fiesta de María.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "What was nobody?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Nadie.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "And nobody else or nobody more:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "Good. I didn’t speak party, I only spoke with you. So, let’s start from the beginning.:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "With anybody else:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No hablé con nadie más en la fiesta de María,",
+      "lang": "es"
+    },
+    {
+      "text": "I only spoke with you. Now, only or just, that we say a lot in English, I just spoke with you, I only spoke with you, in Spanish is solo, solo.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "So, I only spoke with you (speaking informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "I only spoke, with you",
+      "lang": "en"
+    }
+  ],
+  "turn-43-full": [
+    {
+      "text": "Good. Or, more naturally might be solo hablé contigo. But solo at the end there, it’s fine, it just sounds more emphatic, you might want to be emphatic here:",
+      "lang": "en"
+    },
+    {
+      "text": "no hablé con nadie más",
+      "lang": "es"
+    },
+    {
+      "text": "en la fiesta de Maria, solo hablé contigo. Hablé solo contigo,",
+      "lang": "en"
+    },
+    {
+      "text": "hablé contigo solo.",
+      "lang": "es"
+    }
+  ]
+}

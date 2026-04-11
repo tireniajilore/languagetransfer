@@ -1,0 +1,332 @@
+{
+  "turn-1-full": [
+    {
+      "text": "To remember in Spanish, to remember in Spanish is acordarse. Acordarse acordar. It just means, this - se on the end, just means that when we use this verb we need to say I remember myself to give the meaning of I remember. So how would you say I remember?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "Good. The - o splits.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "So, I remember:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Me acuerdo.:",
+      "lang": "es"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "No me acuerdo. No me acuerdo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, him or to her. I don’t remember if I gave it to him or to her I don’t remember.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "So,:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "If I gave it to him or to her:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Or to her:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No me acuerdo si",
+      "lang": "es"
+    },
+    {
+      "text": "se lo di a él",
+      "lang": "en"
+    },
+    {
+      "text": "o a ella.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you say we don’t remember if we gave it to him or to them? And we mean feminine them. So, is the first bit:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No nos acordamos",
+      "lang": "es"
+    },
+    {
+      "text": "because here we are not stressing the - o",
+      "lang": "en"
+    },
+    {
+      "text": "No nos acordamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "If:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "We gave it to him or to them (female group):",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "The to when we actually say to him or to them",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "To him or to them.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Feminine them:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good. So all together.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "(feminine):",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Where is the se in",
+      "lang": "en"
+    },
+    {
+      "text": "no acordamos?",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Where is the se of acordarse?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "It became nos.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Well done.",
+      "lang": "en"
+    },
+    {
+      "text": "No nos acordamos si se lo dimos a él o a ellas.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "What was he likes it, it is pleasing to him?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Make sure you take the mid road until you are extremely comfortable with how gustar works.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "Take the mid road of it is pleasing to him:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Le gusta.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "She likes it:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Le gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "It’s still to her. It is pleasing to her.",
+      "lang": "en"
+    },
+    {
+      "text": "Le gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "le gusta",
+      "lang": "es"
+    },
+    {
+      "text": "could mean he likes it, she likes it. What else could it mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "It is pleasing to who else?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good. So maybe here you want to clarify",
+      "lang": "en"
+    },
+    {
+      "text": "le gusta",
+      "lang": "es"
+    },
+    {
+      "text": "context it might be, but we’re seeing especially with this group of he, she, and it and",
+      "lang": "en"
+    },
+    {
+      "text": "usted",
+      "lang": "es"
+    },
+    {
+      "text": "all together, many times we are wanting to clarify. So bearing in mind that the structure is it is pleasing to him, it is pleasing to her, it is pleasing to you, how are you going to clarify?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "If you want to clarify that you mean she likes it:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "A ella she’s pleasing to would probably just say ella",
+      "lang": "en"
+    },
+    {
+      "text": "le gusta,",
+      "lang": "es"
+    },
+    {
+      "text": "which would mean whoever that le is. We would just understand that somebody likes her. She is pleasing to, ah? So, to make it clear we need to put the a.",
+      "lang": "en"
+    },
+    {
+      "text": "Le gusta a ella.",
+      "lang": "es"
+    },
+    {
+      "text": "A ella",
+      "lang": "en"
+    },
+    {
+      "text": "le gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "To her it is pleasing. It is pleasing to her.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "And if we wanted to say he liked it, it was pleasing to him:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "So this could mean it was pleasing to him, it was pleasing to her, it was pleasing to you (formal), could be any combination of he, she, it, or you (formal) liking. He, she, it or you (formal).",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "So how would you clarify? How would you say it was pleasing to her? She liked it, it was pleasing to her:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-full": [
+    {
+      "text": "Le gustó a ella.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

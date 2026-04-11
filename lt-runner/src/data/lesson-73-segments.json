@@ -1,0 +1,416 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So we’ve seen how with orders we want to use this mood tense, with the exception of positive orders which are informal. There we have a shortcut, we can just cut off the s of the informal form. For example, what is to wait?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And what is you wait, informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Esperas.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "And wait, the order:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Espera?",
+      "lang": "es"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Esperemos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And you can also say esperamos, it just sounds less like an order. It would Let’s sound more like shall we wait? ¿ Esperamos? Shall we wait? But then the order,",
+      "lang": "en"
+    },
+    {
+      "text": "esperemos.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "not wait:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "No esperemos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So orders, we are using with you, the different versions of you, and with we. But maybe I want to say what I want him to do, or what I want her to do, or what I want them to do. Other than the structures that we learned already, quiero que, prefiero que, etc, we can just say que and follow it with the subjunctive. So for example, maybe you tell me David is waiting, but I’m using this mood tense so I’m for you and I say que espere. Que espere. That he waits saying let him wait. Let him wait. Que espere. Maybe I really want the show to finish. I want the show to hurry up and finish. I can say que, it finishes in the mood tense and then I get that meaning of let it finish. Hurry up and finish. So how would I say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Let it finish:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Que termine.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Que termine.",
+      "lang": "es"
+    },
+    {
+      "text": "We said that the word for already was ya.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "And we can use that here, so let it finish already:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Que termine ya.",
+      "lang": "es"
+    },
+    {
+      "text": "Enough already. We said that callarse was to quiet oneself or to shut up. So maybe you want somebody to shut up. You’re not angry enough to tell them directly. Maybe you will just say oh, let them, let him shut up. Let him quiet himself.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Que se calle.",
+      "lang": "es"
+    },
+    {
+      "text": "Another situation that we use the mood tense in, is when after the word cuando, we refer to the future.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "For example, if I say when we speak and I mean generally, how will it sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Cuando hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "So this is generally, when we speak generally and you could continue, no? But, if you mean in a future event, when we speak later on, then you will use this mood tense. Now this is a very interesting use of the mood tense because it highlights some kind of superstition maybe that the language is uncomfortable with referring to something in the future that didn’t happen yet as a fact. So you’re putting this mood tense there to kind of highlight that subjectivity. Give me when we speak then. When we speak, and we mean the future.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "When we speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Cuando hablemos.",
+      "lang": "es"
+    },
+    {
+      "text": "We are using this mood tense because we are referring to something that’s going to happen in the future that we give it as a fact. And it’s like who are we as mere mortals to do such a thing, to refer to this event or to this fact that will be. So for example, you could say when we eat together, we speak. And you mean generally. When we eat together, we speak.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "What was together? Related to junction, related to joint? Related to what in English they say military",
+      "lang": "en"
+    },
+    {
+      "text": "junta.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "how would you say when we eat together, we speak? When we eat together, we speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Junta",
+      "lang": "es"
+    },
+    {
+      "text": "is the version you found through military",
+      "lang": "en"
+    },
+    {
+      "text": "junta,",
+      "lang": "es"
+    },
+    {
+      "text": "but you are not just going to take it, you are going to have to process it as well.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "When we eat together:",
+      "lang": "en"
+    }
+  ],
+  "turn-28-reveal": [
+    {
+      "text": "Good. All together.",
+      "lang": "en"
+    }
+  ],
+  "turn-28-prompt": [
+    {
+      "text": "When we eat together, we speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-30-reveal": [
+    {
+      "text": "Good. Cuando comemos juntas,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "So here you’re speaking generally, generalmente, generally. When we eat together, we spea k, but if you want to say when we eat together and you’re referring to the future. A fact that you’re naming that hasn’t happened yet, there you want to use your mood tense. So let’s work our way through it., and we’re referring to",
+      "lang": "en"
+    }
+  ],
+  "turn-30-prompt": [
+    {
+      "text": "When we eat together the future:",
+      "lang": "en"
+    }
+  ],
+  "turn-32-prompt": [
+    {
+      "text": "We will speak will with we will speak because the when we eat together is a future context. We can just go back to normal everyday present again.",
+      "lang": "en"
+    }
+  ],
+  "turn-34-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cuando comamos juntas",
+      "lang": "es"
+    },
+    {
+      "text": "(two females) when we eat together,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "we will speak. Now",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "is just normal present because it is not directly connected to cuando and we have future context already so we can just use",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "So if we compare these two sentences, the only difference is in that mood tense. Cuando comemos juntos,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "This means generally. I went back to male or mixed group. Cuando comemos juntos,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos,",
+      "lang": "es"
+    },
+    {
+      "text": "generally. Cuando I’m going comamos juntos,",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "When we eat together, we will speak.",
+      "lang": "en"
+    }
+  ],
+  "turn-34-prompt": [
+    {
+      "text": "What is I go or?",
+      "lang": "en"
+    }
+  ],
+  "turn-36-reveal": [
+    {
+      "text": "Voy.",
+      "lang": "es"
+    },
+    {
+      "text": "Now you could probably guess that the mood tense of",
+      "lang": "en"
+    },
+    {
+      "text": "voy",
+      "lang": "es"
+    },
+    {
+      "text": "and va and vamos is irregular. So the root is vaya, v-a-y-a, vaya.",
+      "lang": "en"
+    }
+  ],
+  "turn-36-prompt": [
+    {
+      "text": "And then we add on our consonants if we need them, so for example the they form or the you plural form would be?",
+      "lang": "en"
+    }
+  ],
+  "turn-38-reveal": [
+    {
+      "text": "Vayan.",
+      "lang": "es"
+    }
+  ],
+  "turn-38-prompt": [
+    {
+      "text": "We form:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "La vemos.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "When we go, generally speaking:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La vemos cuando vamos.",
+      "lang": "es"
+    },
+    {
+      "text": "But, if we want to say we will see her when we go referring to the future, not generally. We will see her when we go. How will that be? So, we will see her, we can just use the present because when we go is the future context.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "So, again how is we will see her?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "When we go, and we refer now to the future with when we go:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La vemos cuando vayamos.",
+      "lang": "es"
+    },
+    {
+      "text": "So, we have",
+      "lang": "en"
+    },
+    {
+      "text": "la vemos cuando vamos",
+      "lang": "es"
+    },
+    {
+      "text": "generally,",
+      "lang": "en"
+    },
+    {
+      "text": "la vemos cuando vayamos",
+      "lang": "es"
+    },
+    {
+      "text": "in the future.",
+      "lang": "en"
+    }
+  ]
+}

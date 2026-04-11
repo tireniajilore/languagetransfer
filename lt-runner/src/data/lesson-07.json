@@ -1,0 +1,242 @@
+{
+  "lesson_number": 7,
+  "title": "Continuing Actions and Motion Verbs",
+  "description": "Learn to use verbs of motion with 'a' and practice continuing actions in Spanish.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "How would you say 'I want to continue'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero continuar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero continuar. Good. How would you say 'I want to continue it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero continuarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero continuarlo. Good. How do you say 'I am trying to continue'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "intento continuar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Intento continuar. Good. What is 'demonstration' in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "demostración"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Demostración. Notice there's no 'n'. How would you say 'to demonstrate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "demostrar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Demostrar. Good. And if you remove 'de-', what does it become?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "mostrar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Mostrar, meaning 'to show'. What is the word for 'something'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Algo. Good. How would you say 'I want to show you something'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero mostrarte algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero mostrarte algo. Good. How do you say 'I am going to'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a. Good. How would you say 'I am going to confiscate it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a confiscarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a confiscarlo. Good. Now, how do you say 'I want to see them'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero verlos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero verlos. Good. And 'I am going to see them'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a verlos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a verlos. Good. How would you say 'I am trying to see them'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "intento verlos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Intento verlos. Good. Now, how do you say 'I am going to try'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a intentar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a intentar. Good. How would you say 'I am going to try to see them'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a intentar verlos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a intentar verlos. Good. Now, let's look at another verb of movement: 'pasar'. What does 'pasar' mean?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "to pass",
+        "to pass by"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes, 'pasar' means 'to pass' or 'to pass by'. How would you say 'I am going to pass by to visit you'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a pasar a visitarte"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a pasar a visitarte. Good. Remember, with verbs of movement like 'voy' and 'pasar', we use 'a' before the next verb. How would you say 'I want to pass by to show you something'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero pasar a mostrarte algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero pasar a mostrarte algo. Good. Remember, 'a' connects verbs of movement to the next action.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "In this lesson, you learned how to use verbs of motion with 'a' and practiced continuing actions in Spanish."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try creating your own sentences using 'voy a' and other verbs of motion. How would you say 'I am going to visit my friend'?"
+    },
+    {
+      "type": "narration",
+      "text": "Remember, using 'a' with verbs of motion helps connect actions in Spanish. Keep practicing to internalize this rule."
+    }
+  ]
+}

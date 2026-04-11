@@ -1,0 +1,784 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was to do or to make?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Hacer.",
+      "lang": "es"
+    },
+    {
+      "text": "We said that for the informal positive command, we have a shortcut. We find the you. “Hace”. But with version of the verb, haces, and we take away the s",
+      "lang": "en"
+    },
+    {
+      "text": "hacer",
+      "lang": "es"
+    },
+    {
+      "text": "we have an irregularity. The informal command for",
+      "lang": "en"
+    },
+    {
+      "text": "hacer",
+      "lang": "es"
+    },
+    {
+      "text": "is",
+      "lang": "en"
+    },
+    {
+      "text": "haz.",
+      "lang": "es"
+    },
+    {
+      "text": "H-a-z. So in most of Spain, you will hear / hath /.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "Haz.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "if you want to say do it:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Hazlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Another use of the mood tense is to turn words like where into wherever.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "What was where?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Donde donde",
+      "lang": "es"
+    },
+    {
+      "text": "because it’s not a verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How do you say where you want, where you want, speaking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Donde quieres.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now if we want to say wherever you want, then to get wherever actually we can change the verb to the mood tense and that changes the feeling of where. And then where turns into wherever. So",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "if you want to say wherever you want, still informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "I want to hear well though the i and the e in quieras.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Donde quieras.",
+      "lang": "es"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "So do it wherever you want:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Hazlo donde quieras.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "What was you like it, still informally? You like it:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Te gusta.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say do it how you like to do it - so do it how you like. What was the How are you called? What’s your name? word for how?:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Cómo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So do it how it pleases you.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "Do it how you like:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Hazlo como te gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "Do it how you like to. Do it how you like to do it.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Now, what if you wanted to give the meaning do it however you like?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Hazlo como te guste.",
+      "lang": "es"
+    },
+    {
+      "text": "In English we are changing how to however and in Spanish we are changing",
+      "lang": "en"
+    },
+    {
+      "text": "te gusta",
+      "lang": "es"
+    },
+    {
+      "text": "to te guste.",
+      "lang": "en"
+    },
+    {
+      "text": "Hazlo como te guste.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say do what you prefer? Do what you prefer. Still informal:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "And:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Haz",
+      "lang": "es"
+    },
+    {
+      "text": "lo que",
+      "lang": "en"
+    },
+    {
+      "text": "prefieres.",
+      "lang": "es"
+    },
+    {
+      "text": "So what we are investigating here is an optional use of the mood tense,",
+      "lang": "en"
+    },
+    {
+      "text": "no?",
+      "lang": "es"
+    },
+    {
+      "text": "Because",
+      "lang": "en"
+    },
+    {
+      "text": "haz",
+      "lang": "es"
+    },
+    {
+      "text": "lo que",
+      "lang": "en"
+    },
+    {
+      "text": "prefieres",
+      "lang": "es"
+    },
+    {
+      "text": "is perfect Spanish. It just means do what you prefer.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "But if you want to give the meaning do whatever you prefer how will you change that?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Haz lo que prefieras.",
+      "lang": "es"
+    },
+    {
+      "text": "Do whatever you prefer. Eat whatever you prefer.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "Eat whatever you prefer, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Comes lo que prefieras",
+      "lang": "es"
+    },
+    {
+      "text": "would be you eat whatever you prefer.",
+      "lang": "en"
+    },
+    {
+      "text": "Comes lo que prefieras,",
+      "lang": "es"
+    },
+    {
+      "text": "which is a way of saying it. You could say it like this.",
+      "lang": "en"
+    },
+    {
+      "text": "Comes lo que prefieras.",
+      "lang": "es"
+    },
+    {
+      "text": "It just sounds actually a little sweeter. You eat whatever you prefer, rather than eat whatever you prefer. But, here we are working with the order. We have a shortcut where we are not using the mood tense, what is it? We have comes, you eat.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And what do we do to get the order?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Come.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So making the order, even though your sentence was very nice and very sweet,. Let’s make it an order.",
+      "lang": "en"
+    },
+    {
+      "text": "comes lo que prefieras",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Eat whatever you prefer:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Come lo que prefieras.",
+      "lang": "es"
+    },
+    {
+      "text": "Now make this formal.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Eat whatever you prefer, but speaking formally:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Very good. So here we have two mood tenses. We have coma which is the order and then prefiera, giving us whatever from what.",
+      "lang": "en"
+    },
+    {
+      "text": "Coma lo que prefiera.",
+      "lang": "es"
+    },
+    {
+      "text": "What if you were speaking to more than one person?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "Eat whatever you prefer:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Coman lo que prefieran.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "What was to need in Spanish? Sounding more like to necessitate.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Necesitar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Whenever you need. Whenever you need. How do you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cuando necesites.",
+      "lang": "es"
+    },
+    {
+      "text": "Whenever you need. Good. We said that to choose was like elect. Elegir. Elegir.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "How would you say I choose?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "And we had some change happening with that e.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Elijo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Elijo.",
+      "lang": "es"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "You choose, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Eliges.",
+      "lang": "es"
+    },
+    {
+      "text": "To follow and also to continue or to carry on, we can use this verb like that, is",
+      "lang": "en"
+    },
+    {
+      "text": "seguir.",
+      "lang": "es"
+    },
+    {
+      "text": "So it’s",
+      "lang": "en"
+    },
+    {
+      "text": "Seguir",
+      "lang": "es"
+    },
+    {
+      "text": "to follow or to continue, to carry on.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "Seguir.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "And this behaves like elegir in that the e will not split, it will just turn into an i when we stress it.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "So how do you say I continue or I follow?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Sigo.",
+      "lang": "es"
+    },
+    {
+      "text": "And there are some other verbs that",
+      "lang": "en"
+    },
+    {
+      "text": "come",
+      "lang": "es"
+    },
+    {
+      "text": "from",
+      "lang": "en"
+    },
+    {
+      "text": "seguir.",
+      "lang": "es"
+    },
+    {
+      "text": "We have conseguir, to get or to manage to. We have perseguir which means to chase. And we will see the same irregularity in them. The I version of conseguir, consigo. Perseguir, persigo. So like we said before, we can generalize the irregularities in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "sigo,",
+      "lang": "es"
+    },
+    {
+      "text": "I follow, and how about he, she, it follows, or you (formal) follow:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Sigue.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "You (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "They or you guys:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "But we:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Seguimos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We are not stressing the e so it escapes from the irregularity.",
+      "lang": "en"
+    },
+    {
+      "text": "Seguimos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I’ll follow you wherever you go So we could say something like. So, we can say I will follow you or we can just use the present I follow you.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "Because, the wherever you go is a future context informally.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Te sigo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Wherever you go. So this is actually to wherever you go. Wherever you go to, to wherever you go.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "So how would you say to where?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "Adonde.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And you go (informally) and we want the mood tense which is irregular.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "Yes. Very good. So now we can say the whole sentence. wherever you go, informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "Good. Very good. Another irregular verb in the mood tense is ser. The base for the mood tense of ser is",
+      "lang": "en"
+    },
+    {
+      "text": "sea. Sea.",
+      "lang": "es"
+    },
+    {
+      "text": "S-e-a.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "And you’ll hear the very common expression. Literally meaning something like “or it o",
+      "lang": "en"
+    },
+    {
+      "text": "sea,",
+      "lang": "es"
+    },
+    {
+      "text": "o",
+      "lang": "en"
+    },
+    {
+      "text": "sea",
+      "lang": "es"
+    },
+    {
+      "text": "might be”. is just like this kind of way to break up speech whilst you’re thinking what O",
+      "lang": "en"
+    },
+    {
+      "text": "sea,",
+      "lang": "es"
+    },
+    {
+      "text": "o",
+      "lang": "en"
+    },
+    {
+      "text": "sea",
+      "lang": "es"
+    },
+    {
+      "text": "to say like an uhhh. So",
+      "lang": "en"
+    },
+    {
+      "text": "sea",
+      "lang": "es"
+    },
+    {
+      "text": "is the base for the mood tense. So",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "if you want to say something like I prefer that it be like this. I prefer that it’s like this. I prefer for it to be like this. Of course we say I prefer that it be like this. What was the word for like this or like that?",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "So I prefer that it be like this, I prefer it to be like this:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Prefiero que sea así.",
+      "lang": "es"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "What does",
+      "lang": "en"
+    },
+    {
+      "text": "sea",
+      "lang": "es"
+    },
+    {
+      "text": "lo que",
+      "lang": "en"
+    },
+    {
+      "text": "sea",
+      "lang": "es"
+    },
+    {
+      "text": "mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-81-full": [
+    {
+      "text": "Whatever it is, whatever will be, will be.",
+      "lang": "en"
+    },
+    {
+      "text": "Sea",
+      "lang": "es"
+    },
+    {
+      "text": "lo que",
+      "lang": "en"
+    },
+    {
+      "text": "sea.",
+      "lang": "es"
+    },
+    {
+      "text": "Whatever will",
+      "lang": "en"
+    },
+    {
+      "text": "come.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

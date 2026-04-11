@@ -1,0 +1,346 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We can use the present in Spanish to talk about the past, just as in English. For example: I ate, I was eating, and I have eaten. We'll focus on 'I have eaten', which uses 'haber'.",
+      "lang": "en"
+    }
+  ],
+  "turn-2-full": [
+    {
+      "text": "The verb 'haber' is used for 'have' in 'I have eaten'. It's irregular, but we can remember its forms by focusing on its vowel sounds, /a/ and /e/. What are these vowel sounds?",
+      "lang": "en"
+    }
+  ],
+  "turn-4-reveal": [
+    {
+      "text": "Good. Let's start with 'he', which means 'I have'. It's spelled h-e. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-4-prompt": [
+    {
+      "text": "what was the verb for 'to know'?",
+      "lang": "en"
+    }
+  ],
+  "turn-6-reveal": [
+    {
+      "text": "Saber.",
+      "lang": "es"
+    },
+    {
+      "text": "And 'I know' is 'sé'. Just like 'sé', 'he' is the I form of 'haber'.",
+      "lang": "en"
+    }
+  ],
+  "turn-6-prompt": [
+    {
+      "text": "What do you think 'we have' is?",
+      "lang": "en"
+    }
+  ],
+  "turn-8-reveal": [
+    {
+      "text": "Hemos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. From 'haber', we get 'he' and '",
+      "lang": "en"
+    },
+    {
+      "text": "hemos",
+      "lang": "es"
+    },
+    {
+      "text": "'. Now, 'ha' means 'he/she/it",
+      "lang": "en"
+    },
+    {
+      "text": "has",
+      "lang": "es"
+    },
+    {
+      "text": "'.",
+      "lang": "en"
+    }
+  ],
+  "turn-8-prompt": [
+    {
+      "text": "What about 'they have'?",
+      "lang": "en"
+    }
+  ],
+  "turn-10-reveal": [
+    {
+      "text": "Han.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-10-prompt": [
+    {
+      "text": "And 'you have' informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-12-reveal": [
+    {
+      "text": "Has.",
+      "lang": "es"
+    },
+    {
+      "text": "Great. So, we have 'he-",
+      "lang": "en"
+    },
+    {
+      "text": "hemos",
+      "lang": "es"
+    },
+    {
+      "text": "', 'ha-",
+      "lang": "en"
+    },
+    {
+      "text": "has-han",
+      "lang": "es"
+    },
+    {
+      "text": "'. Now, to form the past participle for -ar verbs, remove -ar and add -ado.",
+      "lang": "en"
+    }
+  ],
+  "turn-12-prompt": [
+    {
+      "text": "For example, 'hablar' becomes:",
+      "lang": "en"
+    }
+  ],
+  "turn-14-reveal": [
+    {
+      "text": "Hablado.",
+      "lang": "es"
+    }
+  ],
+  "turn-14-prompt": [
+    {
+      "text": "Now, let's say 'I have spoken':",
+      "lang": "en"
+    }
+  ],
+  "turn-16-reveal": [
+    {
+      "text": "He hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-16-prompt": [
+    {
+      "text": "How about 'I haven't spoken'?",
+      "lang": "en"
+    }
+  ],
+  "turn-18-reveal": [
+    {
+      "text": "No he hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-18-prompt": [
+    {
+      "text": "'We have spoken'?",
+      "lang": "en"
+    }
+  ],
+  "turn-20-reveal": [
+    {
+      "text": "Hemos hablado.",
+      "lang": "es"
+    }
+  ],
+  "turn-20-prompt": [
+    {
+      "text": "'He",
+      "lang": "en"
+    },
+    {
+      "text": "has",
+      "lang": "es"
+    },
+    {
+      "text": "spoken'?",
+      "lang": "en"
+    }
+  ],
+  "turn-22-reveal": [
+    {
+      "text": "Ha hablado.",
+      "lang": "es"
+    }
+  ],
+  "turn-22-prompt": [
+    {
+      "text": "'They have spoken'?",
+      "lang": "en"
+    }
+  ],
+  "turn-24-reveal": [
+    {
+      "text": "Han hablado.",
+      "lang": "es"
+    }
+  ],
+  "turn-24-prompt": [
+    {
+      "text": "'You (informal) have spoken'?",
+      "lang": "en"
+    }
+  ],
+  "turn-26-reveal": [
+    {
+      "text": "Has hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "Perfect. Now, let's use 'anticipar'.",
+      "lang": "en"
+    }
+  ],
+  "turn-26-prompt": [
+    {
+      "text": "How would you say 'we have anticipated it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-28-reveal": [
+    {
+      "text": "Lo hemos anticipado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-28-prompt": [
+    {
+      "text": "How about 'we have anticipated it for a long time'?",
+      "lang": "en"
+    }
+  ],
+  "turn-30-prompt": [
+    {
+      "text": "Lo hemos anticipado por mucho tiempo.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good. Now, let's ask 'have you celebrated?' informally.",
+      "lang": "en"
+    }
+  ],
+  "turn-32-prompt": [
+    {
+      "text": "Has celebrado?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. 'Haven't you celebrated?'",
+      "lang": "en"
+    }
+  ],
+  "turn-34-prompt": [
+    {
+      "text": "No has celebrado.",
+      "lang": "es"
+    },
+    {
+      "text": "'Where have you celebrated it?'",
+      "lang": "en"
+    }
+  ],
+  "turn-36-reveal": [
+    {
+      "text": "Dónde lo has celebrado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now, let's use 'tomar'.",
+      "lang": "en"
+    }
+  ],
+  "turn-36-prompt": [
+    {
+      "text": "How would you say 'I have taken'?",
+      "lang": "en"
+    }
+  ],
+  "turn-38-reveal": [
+    {
+      "text": "He tomado.",
+      "lang": "es"
+    }
+  ],
+  "turn-38-prompt": [
+    {
+      "text": "'We have taken'?",
+      "lang": "en"
+    }
+  ],
+  "turn-40-prompt": [
+    {
+      "text": "Hemos tomado.",
+      "lang": "es"
+    },
+    {
+      "text": "'",
+      "lang": "en"
+    },
+    {
+      "text": "Has",
+      "lang": "es"
+    },
+    {
+      "text": "she taken it?'",
+      "lang": "en"
+    }
+  ],
+  "turn-42-full": [
+    {
+      "text": "Lo ha tomado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Remember to think about each part of the sentence separately to build it correctly.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how to use 'haber' to form the present perfect tense in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try forming sentences with other verbs, like 'comer' or 'vivir', using the present perfect tense.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "This tense is very common in Spanish, so practice using it in different contexts.",
+      "lang": "en"
+    }
+  ]
+}

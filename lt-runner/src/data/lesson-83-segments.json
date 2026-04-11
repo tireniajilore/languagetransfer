@@ -1,0 +1,478 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was the word for what or that?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Que.",
+      "lang": "es"
+    },
+    {
+      "text": "And",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "what was the word for to buy?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Comprar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So if we wanted to say something like that you bought it is not my problem, that you might have bought it is not my problem, the fact that you bought it is not my problem, we can just start with",
+      "lang": "en"
+    },
+    {
+      "text": "que",
+      "lang": "es"
+    },
+    {
+      "text": "and put the verb in the mood tense, and we get this feeling. The fact that you may have bought it. We're doing the same thing in English - may have - with this may we are getting some mood. So, let's start.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Speaking informally, that you bought it, that you may have bought it:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Don't forget your it just because you're concentrating so much on the verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Is not my problem:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Que lo compraras no es mi problema.",
+      "lang": "es"
+    },
+    {
+      "text": "Maybe you want to say something like, that you told him is not my problem. So, to tell we can use decir, to tell or to say, or contar we saw as well. Contar means to count or to recount. So let's use contar. That you told him, the fact that you told him, is not my problem.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Speaking informally still:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Que",
+      "lang": "es"
+    },
+    {
+      "text": "le contaras",
+      "lang": "en"
+    },
+    {
+      "text": "no es mi problema.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. In English I should say - although I have this London English so often I don't say - I should say if I were you. Now I was is the normal past tense, from to be. I was. So we change was to were to get the past mood tense in English. If I were you, hypothetical past. In Spanish whenever we speak about the past hypothetically, after si, after if, we will use the mood tense. So for example,",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "what was the verb to be able to, can, related to power?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Poder.",
+      "lang": "es"
+    },
+    {
+      "text": "Now if you want to make the they form in the past, they could, they were able to, there's a slight change. The pod that you would be left with after taking - er away from",
+      "lang": "en"
+    },
+    {
+      "text": "poder,",
+      "lang": "es"
+    },
+    {
+      "text": "turns to pud. Pud.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "So how would you say they were able to, using the point in the past?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Pudieron.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So from this base we can form the mood tense. So if you wanted to say something like if I could. If I could cook, I would cook.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So, if I could:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "To cook",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Si pudiera cocinar,",
+      "lang": "es"
+    },
+    {
+      "text": "I would cook. So to find would, you must look back at I would like.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "It would please me:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good. So, there you have your would.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "So I would cook:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Si pudiera cocinar, cocinaría.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you say if I could cancel it, I would? So, if I could cancel it, I would cancel it:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "I would.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "So I would cancel it:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Si pudiera cancelarlo, lo cancelaría.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "What was to have? The to have that we use to go into the past?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "Haber.",
+      "lang": "es"
+    },
+    {
+      "text": "Now when",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "goes into the point in the past, that first bit hab of",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "when you take off your - er, it changes for the point in the past. It becomes hub, h-u-b. So how would you say they had using the point in the past, going from",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "and this hab of",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "will become hub when we make the point in the past:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Hubieron.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So we can say, if you had told me it. So speaking informally, if you had told me it,",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "how would you say that? If you had told me it:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Si me lo hubieras contado,",
+      "lang": "es"
+    },
+    {
+      "text": "I would have gone. So if you had told me, if you had told me it, I would have gone. So now we need would have. We leave everything else at the door.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "So how do we get would have from",
+      "lang": "en"
+    },
+    {
+      "text": "haber?",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "Habría.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good. The e falls away.",
+      "lang": "en"
+    },
+    {
+      "text": "Habría.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "So I would have gone:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good. So all together.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "If you had told me it, if you had told me it, I would have gone:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Si me lo hubieras contado, habría ido.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "If we had known, we would have gone, if we had known, we would have gone:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "We would have gone:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "What is to see?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Ver.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "And what is they saw, point in the past?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Vieron.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "What was my house?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Mi casa.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "Your house, informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Tu casa.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "Do you remember how to say his house, her house, your house (formally), their house?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Su casa.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "So how would you say if you saw their house? If you saw their house:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Si vieras su casa.",
+      "lang": "es"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "How would you say if you saw it, you would understand it? Let's speak formally. If you saw it, you would understand it, speaking formally:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-full": [
+    {
+      "text": "The line in the past. Very good. Si lo viera, lo comprendería. Or we can use entender, which also means to understand. Si lo viera, lo entendería. I should mention that there also exists an alternative form for the past mood tense: the past subjunctive, with - ase or - iese. So you may hear hablase instead of hablara, or entendiese instead of entendiera, comiese instead of comiera, comiésemos instead of comiéramos. But how much that alternative form is used really depends on the dialect. The main way, the most common way of using the past subjunctive is the one that we've learned here. And there's no difference between the two in meaning. They are just two versions of the same tense. So you don't need to worry about using hablase instead of hablara for example, but you will need to recognize it if you hear it or read it somewhere.",
+      "lang": "en"
+    }
+  ]
+}

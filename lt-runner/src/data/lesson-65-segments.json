@@ -1,0 +1,1306 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was the word for nothing?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Nada.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And nobody:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Yes,",
+      "lang": "en"
+    },
+    {
+      "text": "nadie.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "What was the word for more, like in “more late” or later?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Más.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good. So if you add",
+      "lang": "en"
+    },
+    {
+      "text": "más",
+      "lang": "es"
+    },
+    {
+      "text": "to",
+      "lang": "en"
+    },
+    {
+      "text": "nada",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "nadie",
+      "lang": "es"
+    },
+    {
+      "text": "you get else. So",
+      "lang": "en"
+    },
+    {
+      "text": "más",
+      "lang": "es"
+    },
+    {
+      "text": "can also mean else, like",
+      "lang": "en"
+    },
+    {
+      "text": "nadie más.",
+      "lang": "es"
+    },
+    {
+      "text": "What does that mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Nadie más:",
+      "lang": "es"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Nobody else.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Nada más:",
+      "lang": "es"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Nothing else. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So how would you say?:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "So we have double negative.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "So we’ll say I didn’t eat nothing else, nothing more:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No comí nada más..",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Didn’t you eat anything else?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "(speaking informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "You have the s in there which relates to you informal. And you also have the t in there,",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "Good. Which also relates to you informal, that t Didn’t you eat anything else? and they will help you remember that ending,",
+      "lang": "en"
+    },
+    {
+      "text": "comiste.:",
+      "lang": "es"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "No comiste nada más?",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "What was to see?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Ver.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "I saw:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Vi. Good. You got the ending right.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "He saw:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Vio.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "You saw (speaking informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Viste.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "We saw:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Vimos.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And they saw:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Vieron.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Yes,",
+      "lang": "en"
+    },
+    {
+      "text": "vieron.",
+      "lang": "es"
+    },
+    {
+      "text": "So that’s our set. Vi,",
+      "lang": "en"
+    },
+    {
+      "text": "vio, vimos, viste, vieron.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Didn’t you see me last night?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "(speaking informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "No me viste anoche?",
+      "lang": "es"
+    },
+    {
+      "text": "Time in the sense of occasion, no? - like when we say once we mean one time. Or when we say again we mean another time - is",
+      "lang": "en"
+    },
+    {
+      "text": "vez. Vez.",
+      "lang": "es"
+    },
+    {
+      "text": "V-e-z. So in Spain this would sound like / bes /.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "Vez.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "This is a feminine word,",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "so how would you say one time or once?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Una vez.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "So how would you say I saw him once?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo vi una vez.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "How would you say I saw them once?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Los vi una vez.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "They saw them once:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Los vieron una vez.",
+      "lang": "es"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "How do you think you would say one more time, one more time, how do you think you would say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Yes,",
+      "lang": "en"
+    },
+    {
+      "text": "una vez más.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So you could say something like I want to see them one more time. I want to see them one more time.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "How would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero verlos una vez más.",
+      "lang": "es"
+    },
+    {
+      "text": "I want to see them one more time. Once more.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "What was the word for we? The word for we:",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Nosotros.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now",
+      "lang": "en"
+    },
+    {
+      "text": "nosotros",
+      "lang": "es"
+    },
+    {
+      "text": "is actually the combination of nos, like how we have in us, and otros which means others. So we is kind of like us others.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "How would you say another time? And you don’t say. So you don’t need an other time in Spanish, you just say other time an. So another time:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Otra vez.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We can take this otros, we can work backwards to get otra,",
+      "lang": "en"
+    },
+    {
+      "text": "otra vez.",
+      "lang": "es"
+    },
+    {
+      "text": "So you can use this like again.",
+      "lang": "en"
+    },
+    {
+      "text": "Otra vez.",
+      "lang": "es"
+    },
+    {
+      "text": "Another time. So you could say I want to see them again.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "I want to see them again:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero verlos otra vez.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "What was to leave or to go out?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Salir.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "what was to dance, related to ballerina?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Bailar.",
+      "lang": "es"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "So how would you ask informally, did you go out to dance again? Did you go out to dance again (speaking informally)?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Very good. Saliste a, because we have this verb of motion of coming and going. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Saliste a bailar otra vez?",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "What was to speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Hablar.",
+      "lang": "es"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "And I spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Hablé.",
+      "lang": "es"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "He spoke, she spoke, it spoke, you (formal) spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Habló.",
+      "lang": "es"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "We spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Hablamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "You (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Hablaste.",
+      "lang": "es"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "And they:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "Hablaron.",
+      "lang": "es"
+    },
+    {
+      "text": "Well done. To arrive, to arrive was",
+      "lang": "en"
+    },
+    {
+      "text": "llegar.",
+      "lang": "es"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Llegar.",
+      "lang": "es"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "How would you say you arrived, informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "Llegaste.",
+      "lang": "es"
+    },
+    {
+      "text": "Did you arrive late again? Did you arrive late again?:",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Llegaste tarde otra vez?",
+      "lang": "es"
+    },
+    {
+      "text": "Did you arrive late again? Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "What was my house?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Mi casa.",
+      "lang": "es"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "How would you say he arrived late to my house again? So he arrived late to my house again:",
+      "lang": "en"
+    }
+  ],
+  "turn-87-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Llegó tarde a mi casa otra vez.",
+      "lang": "es"
+    },
+    {
+      "text": "Or llegó a",
+      "lang": "en"
+    },
+    {
+      "text": "mi casa",
+      "lang": "es"
+    },
+    {
+      "text": "tarde",
+      "lang": "en"
+    },
+    {
+      "text": "otra vez.",
+      "lang": "es"
+    },
+    {
+      "text": "This is ah, flexible. How would you say he arrived at my house again, wanting to speak with me.",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "He arrived at my house, to my house, again, wanting to speak with me:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "Wanting:",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Llegó a mi casa otra vez",
+      "lang": "es"
+    },
+    {
+      "text": "queriendo",
+      "lang": "en"
+    },
+    {
+      "text": "hablar",
+      "lang": "es"
+    },
+    {
+      "text": "conmigo. So we saw that we don’t use the - ing in Spanish nearly half as much as we do in English. In English we really overuse the -ing, but this is one situation where we do want it, in structures like this. He arrived at my house again, wanting to speak with me.",
+      "lang": "en"
+    },
+    {
+      "text": "Llegó a mi casa otra vez",
+      "lang": "es"
+    },
+    {
+      "text": "queriendo",
+      "lang": "en"
+    },
+    {
+      "text": "hablar",
+      "lang": "es"
+    },
+    {
+      "text": "conmigo. Good. So my house is",
+      "lang": "en"
+    },
+    {
+      "text": "mi casa,",
+      "lang": "es"
+    },
+    {
+      "text": "your house, speaking informally, is",
+      "lang": "en"
+    },
+    {
+      "text": "tu casa.",
+      "lang": "es"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "Tu casa.",
+      "lang": "es"
+    }
+  ],
+  "turn-95-reveal": [
+    {
+      "text": "You might have heard the expression",
+      "lang": "en"
+    },
+    {
+      "text": "mi casa es tu casa.",
+      "lang": "es"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "What does that mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-97-reveal": [
+    {
+      "text": "If you want to say at what time, you say at what hour.",
+      "lang": "en"
+    }
+  ],
+  "turn-97-prompt": [
+    {
+      "text": "How would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-99-reveal": [
+    {
+      "text": "Hora. Here we use hora. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "A qué hora?",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-99-prompt": [
+    {
+      "text": "So how would you say at what time did they arrive at your house? To your house? At what time did they arrive at your house?:",
+      "lang": "en"
+    }
+  ],
+  "turn-101-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "A qué hora llegaron a tu casa?",
+      "lang": "es"
+    },
+    {
+      "text": "Very good. At what time did they arrive at your house or to your house? Good. If you say a la",
+      "lang": "en"
+    },
+    {
+      "text": "vez,",
+      "lang": "es"
+    },
+    {
+      "text": "a la",
+      "lang": "en"
+    },
+    {
+      "text": "vez,",
+      "lang": "es"
+    },
+    {
+      "text": "it means at the same time, like in English when we say at a time. A la",
+      "lang": "en"
+    },
+    {
+      "text": "vez.",
+      "lang": "es"
+    },
+    {
+      "text": "Two at a time, we can say in English. This is at the time, at the same time. A la",
+      "lang": "en"
+    },
+    {
+      "text": "vez.",
+      "lang": "es"
+    },
+    {
+      "text": "So you might want to say everybody arrived at my house at the same time.",
+      "lang": "en"
+    }
+  ],
+  "turn-101-prompt": [
+    {
+      "text": "What was the word for all?",
+      "lang": "en"
+    }
+  ],
+  "turn-103-reveal": [
+    {
+      "text": "Todo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. If you make this plural, todos, you get everybody. Everybody, or you might also hear. “All the world” to say in Spanish",
+      "lang": "en"
+    },
+    {
+      "text": "todo",
+      "lang": "es"
+    },
+    {
+      "text": "el mundo everybody, but todos is very common.",
+      "lang": "en"
+    }
+  ],
+  "turn-103-prompt": [
+    {
+      "text": "So everybody arrived at my house at the same time:",
+      "lang": "en"
+    }
+  ],
+  "turn-105-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Todos llegaron a mi casa a la vez.",
+      "lang": "es"
+    },
+    {
+      "text": "Todos llegaron a la",
+      "lang": "en"
+    },
+    {
+      "text": "vez",
+      "lang": "es"
+    },
+    {
+      "text": "a",
+      "lang": "en"
+    },
+    {
+      "text": "mi casa.",
+      "lang": "es"
+    },
+    {
+      "text": "Flexible.",
+      "lang": "en"
+    }
+  ],
+  "turn-105-prompt": [
+    {
+      "text": "What was to find or to encounter?",
+      "lang": "en"
+    }
+  ],
+  "turn-107-reveal": [
+    {
+      "text": "Encontrar.",
+      "lang": "es"
+    }
+  ],
+  "turn-107-prompt": [
+    {
+      "text": "And I found:",
+      "lang": "en"
+    }
+  ],
+  "turn-109-reveal": [
+    {
+      "text": "Encontré..",
+      "lang": "es"
+    }
+  ],
+  "turn-109-prompt": [
+    {
+      "text": "What was your house again?",
+      "lang": "en"
+    }
+  ],
+  "turn-111-prompt": [
+    {
+      "text": "Tu casa.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. in your house:",
+      "lang": "en"
+    }
+  ],
+  "turn-113-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No encontré nada más en tu casa.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So we have",
+      "lang": "en"
+    },
+    {
+      "text": "mi casa, tu casa.",
+      "lang": "es"
+    },
+    {
+      "text": "Now the word for our is nuestro. Our house is nuestra casa. Nuestra casa. We can see the o splitting of",
+      "lang": "en"
+    },
+    {
+      "text": "nosotros",
+      "lang": "es"
+    },
+    {
+      "text": "there in nuestro, nuestra. So that’s our.",
+      "lang": "en"
+    }
+  ],
+  "turn-113-prompt": [
+    {
+      "text": "So how would you say did you visit our house? What is to visit? Visitation:",
+      "lang": "en"
+    }
+  ],
+  "turn-115-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-115-prompt": [
+    {
+      "text": "So did you visit our house, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-117-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Visitaste nuestra casa?",
+      "lang": "es"
+    },
+    {
+      "text": "Did you visit our house?",
+      "lang": "en"
+    }
+  ],
+  "turn-117-prompt": [
+    {
+      "text": "How would you say we are with our friends - how do you think you would say that, we are with our friends? We are with, what to be do you think we will use?",
+      "lang": "en"
+    }
+  ],
+  "turn-119-reveal": [
+    {
+      "text": "Estar",
+      "lang": "es"
+    },
+    {
+      "text": "because we are with, location. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-119-prompt": [
+    {
+      "text": "So we are with our friends:",
+      "lang": "en"
+    }
+  ],
+  "turn-121-reveal": [
+    {
+      "text": "Good. Nuestros amigos. Good, you make it plural to match amigos. We are with our friends.",
+      "lang": "en"
+    }
+  ],
+  "turn-121-prompt": [
+    {
+      "text": "What if we meant all female friends?",
+      "lang": "en"
+    }
+  ],
+  "turn-123-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estamos con nuestras amigas.",
+      "lang": "es"
+    }
+  ],
+  "turn-123-prompt": [
+    {
+      "text": "How would you say I am with my friends? I am with my friends:",
+      "lang": "en"
+    }
+  ],
+  "turn-125-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy con mis amigos.",
+      "lang": "es"
+    },
+    {
+      "text": "So the words for possession, mi, tu, nuestro can change for number to match the number: mi amigo, mis amigos. And if it ends in - o like nuestro, it can change for gender as well. Nuestro amigo, nuestra amiga. So we have mi / my, tu/your, nuestro or nuestra / our. For his/her/their/your (speaking formally), for all of that, we have the same word which is su. Su.",
+      "lang": "en"
+    }
+  ],
+  "turn-125-prompt": [
+    {
+      "text": "S-u.",
+      "lang": "en"
+    }
+  ],
+  "turn-127-reveal": [
+    {
+      "text": "Su.",
+      "lang": "en"
+    }
+  ],
+  "turn-127-prompt": [
+    {
+      "text": "So how would you say I want to go to his house? I want to go to his house:",
+      "lang": "en"
+    }
+  ],
+  "turn-129-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero ir a su casa.",
+      "lang": "es"
+    },
+    {
+      "text": "I want to go to his house.",
+      "lang": "en"
+    }
+  ],
+  "turn-129-prompt": [
+    {
+      "text": "How would you say I want to go to their house?",
+      "lang": "en"
+    }
+  ],
+  "turn-131-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero ir a su casa.",
+      "lang": "es"
+    },
+    {
+      "text": "So it’s the same. If you put it in plural or not refers to the things that are possessed, not the possessors. So avoid any temptation to say sus, because you mean they. You are only going to say sus if you are saying houses, for example. So if you were to say I want to go to their houses, there you can put it in plural.",
+      "lang": "en"
+    }
+  ],
+  "turn-131-prompt": [
+    {
+      "text": "How would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-133-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero ir a sus casas.",
+      "lang": "es"
+    }
+  ],
+  "turn-133-prompt": [
+    {
+      "text": "And I want to go to his houses, I want to go to his houses:",
+      "lang": "en"
+    }
+  ],
+  "turn-135-reveal": [
+    {
+      "text": "Exactly. The same.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero ir a sus casas.",
+      "lang": "es"
+    },
+    {
+      "text": "So these possessive words mi, tu, nuestro, su, they refer to the thing being possessed, rather than the possessor when they’re changing. If you want to say my own house, if you want to say my own house or my very own house, you can say",
+      "lang": "en"
+    },
+    {
+      "text": "mi propia casa.",
+      "lang": "es"
+    },
+    {
+      "text": "Like property.",
+      "lang": "en"
+    }
+  ],
+  "turn-135-prompt": [
+    {
+      "text": "Mi propia casa.",
+      "lang": "es"
+    }
+  ],
+  "turn-137-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-137-prompt": [
+    {
+      "text": "How would you say my own car?",
+      "lang": "en"
+    }
+  ],
+  "turn-139-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Mi propio auto.",
+      "lang": "es"
+    },
+    {
+      "text": "The word for eye in Spanish - not I as in your, eye as in the two things in your head, is",
+      "lang": "en"
+    },
+    {
+      "text": "ojo. Ojo.",
+      "lang": "es"
+    },
+    {
+      "text": "O-j-o.",
+      "lang": "en"
+    },
+    {
+      "text": "Ojo.",
+      "lang": "es"
+    }
+  ],
+  "turn-141-reveal": [
+    {
+      "text": "Ojo.",
+      "lang": "es"
+    }
+  ],
+  "turn-141-prompt": [
+    {
+      "text": "How would you say my own eyes, my own eyes?",
+      "lang": "en"
+    }
+  ],
+  "turn-143-prompt": [
+    {
+      "text": "There’s some kind of disagreements going on in there.",
+      "lang": "en"
+    }
+  ],
+  "turn-145-reveal": [
+    {
+      "text": "Good. So, I saw it with my own eyes.",
+      "lang": "en"
+    }
+  ],
+  "turn-145-prompt": [
+    {
+      "text": "I saw it with my own eyes:",
+      "lang": "en"
+    }
+  ],
+  "turn-147-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo vi con mis propios ojos.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-147-prompt": [
+    {
+      "text": "How would you say I want to live in my own house? I want to live in my own house:",
+      "lang": "en"
+    }
+  ],
+  "turn-149-full": [
+    {
+      "text": "Good. Quiero vivir en",
+      "lang": "en"
+    },
+    {
+      "text": "mi propia casa.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I want to live in my own house. Good.",
+      "lang": "en"
+    }
+  ]
+}

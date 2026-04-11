@@ -1,0 +1,400 @@
+{
+  "lessonId": "lesson-19",
+  "generatedAt": "2026-04-11T13:48:38.840Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "We said that the word for 'always' was",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "fa0ef490eca710de00667780f30836a613f55870796610317727d3e823964e19"
+        },
+        {
+          "text": "siempre.",
+          "lang": "es",
+          "file": "turn-1-full-2.mp3",
+          "hash": "0d44fbc3844e718821c49e63476a78c13742ad763ee72800a6fe1a730cafc9f6"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Good. Now, let's work with the verb 'to go', which is ir. We have 'vamos' for 'we go' or 'let's go'.",
+          "lang": "en",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "03e8276ccc553af52def75460bd8058a4616f3d0e9d2c8470a77c73dc3592c9e"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he goes' or 'she goes'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "8781d0de4586c2d854e963ec58550c72c7cccf7b7180937c7a85694faa2fa1f7"
+        }
+      ]
+    },
+    "turn-5-full": {
+      "segments": [
+        {
+          "text": "Va. Good. How would you make that 'you go' (informal)?",
+          "lang": "en",
+          "file": "turn-5-full-1.mp3",
+          "hash": "a4e172b9fa25a6046a605a3ee84642042deee39cefb6212bef852727fffa43c7"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "Vas.",
+          "lang": "es",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "8a06b4d5c71e0ccf7ae04c362f63fe5ae49ed5f912a0c4669af73b2e68c76221"
+        },
+        {
+          "text": "Good. To ask 'where are you going?', you say '",
+          "lang": "en",
+          "file": "turn-7-prompt-2.mp3",
+          "hash": "1dc7d58dd2ad9611ad33d8f45a30859f8d6c2bd25021ac999149dbf0b1e58292"
+        },
+        {
+          "text": "a dónde vas?",
+          "lang": "es",
+          "file": "turn-7-prompt-3.mp3",
+          "hash": "e34f53b12099e9e3ee8187295810679398f444ece2ada0af370cb99a43d2099c"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-7-prompt-4.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "¿A dónde",
+          "lang": "en",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "b5d636184a8e59cb647c4a18083247654783385824e5b37eed1aa25e7e393bb4"
+        },
+        {
+          "text": "vas?",
+          "lang": "es",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "8eb33389f2bde243b28bc9c3ba63686a3871a216e04ca7c1b65205d1c52eccaa"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'they go' or 'you (plural) go'?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "74481024198a55f67db7972a75461911be8221cd1e9f109c504f742316bc1a4a"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "Van.",
+          "lang": "es",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "77efd014aedfa60b35bd51e8b150d816fd74eb5a53de611941b63705b7e456ac"
+        },
+        {
+          "text": "Good. The 'I' form is '",
+          "lang": "en",
+          "file": "turn-11-prompt-2.mp3",
+          "hash": "dfed55433797ac731fb39f5e855eaa00560e388b94d8681dd3eeded1552c31b2"
+        },
+        {
+          "text": "voy",
+          "lang": "es",
+          "file": "turn-11-prompt-3.mp3",
+          "hash": "b838e2270884cd3cc3a65b279a79fc29ca80f70e3ceb67b63a79d1ed7e8bc485"
+        },
+        {
+          "text": "', as in 'I'm going on a voyage'.",
+          "lang": "en",
+          "file": "turn-11-prompt-4.mp3",
+          "hash": "8df9f3701a9a5d0ef8562fb0aef3fd584b7614ed501c6b5f793fd0ce614b01fc"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Now, the 'to' form 'to go' is ir. It's irregular because it combines forms from two different verbs.",
+          "lang": "en",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "841b80ea88dc8cdfaf98b63615082e2f1205395810f943d68d23e193587ecaef"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to go'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "a284e3e2dd54bbc664b616f14785954dc4c35fa816985a120173c277371826cb"
+        }
+      ]
+    },
+    "turn-15-full": {
+      "segments": [
+        {
+          "text": "Good. How about 'I can go'?",
+          "lang": "en",
+          "file": "turn-15-full-1.mp3",
+          "hash": "c0a265ef4a0a4556fcdb6d6231a04e4357b79bffd2d60328eff3bbafca43bb5f"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "Puedo ir.",
+          "lang": "es",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "0451466088435b645dc7ed6b4d5948a1de2672f81e6d570e275e4e4ef5334904"
+        },
+        {
+          "text": "Good. 'I must go' is '",
+          "lang": "en",
+          "file": "turn-17-prompt-2.mp3",
+          "hash": "ea0018c5e6401171464628aeee7943141868a168c33d4e52f9d39568ecb5f853"
+        },
+        {
+          "text": "debo ir",
+          "lang": "es",
+          "file": "turn-17-prompt-3.mp3",
+          "hash": "480db99ec86ef0effde5afdeb8b974dfebfd1f902e53d0e37c4cb3ef8ff4f2d5"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-17-prompt-4.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "Debo ir.",
+          "lang": "es",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "9ecdf09f752dbb6479398c781077ec848bd902d3ec9071e88294e941476edf30"
+        },
+        {
+          "text": "For 'I have to go', we use '",
+          "lang": "en",
+          "file": "turn-19-prompt-2.mp3",
+          "hash": "edfeacc6f370780075b9038222cadb95c9c0cb288360f14f003273ad779e799c"
+        },
+        {
+          "text": "tengo que ir",
+          "lang": "es",
+          "file": "turn-19-prompt-3.mp3",
+          "hash": "989e1a2f992b653b22f40dc29ddfc720752af379ae6066cf17a5292db70ede72"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-19-prompt-4.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-21-full": {
+      "segments": [
+        {
+          "text": "Tengo que ir.",
+          "lang": "es",
+          "file": "turn-21-full-1.mp3",
+          "hash": "6627c762f6b3b0c641e325eb04550460c683dd5acc3dc4a43a6d7365b7c0ab4f"
+        },
+        {
+          "text": "How would you say 'I have to go now'?",
+          "lang": "en",
+          "file": "turn-21-full-2.mp3",
+          "hash": "69f31961befdfcfd6da29567ed4cf6b983b7c5e3ecf4e1611bcc34d342166567"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Good. 'Tonight' is 'esta noche'.",
+          "lang": "en",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "f2629272f61d15a19a6fcc9429a4554cc0f2ba1661a560282e4f19edc634677c"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I have to go tonight'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "6e78e861ba4fe050209726064f02b6e1b6f3b0bc3e4cc4ff8de32425bb433810"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Tengo que ir esta noche.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "eaff623f138068fb83b576a10852bad89880f4605b7839364b7332ed015a357e"
+        },
+        {
+          "text": "'Noche' is feminine, as indicated by 'esta'.",
+          "lang": "en",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "04c8b98efe7639a87b76e2a5bae74750e12af6694d513786c40a775b65987fe6"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'the night'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "17e7524f4fc9c9e18b524a3138ab05b0fb3be60a08cd6fd6953e2dd04a606dd3"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "La noche.",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "6954ea950da0ea21d8b99d207e6de89d6c2e72b97cb4f606d667a29ff6ea7e94"
+        },
+        {
+          "text": "Words ending in 'e' can be masculine or feminine. For example, 'carne' (meat) is feminine.",
+          "lang": "en",
+          "file": "turn-27-reveal-2.mp3",
+          "hash": "69d59064a0ff0e7dce4f1aa27fedced9d6e28fe9e76b198372d621cfa0624ea3"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'the meat'?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "568858d417a25431fb77c28ba47cea3fca0c4752f5cbabba9d94a59b94117409"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "La carne.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "36df194c15515fbf3603ae46c8db56b434a4d24dcea778a4b487e00218ec826d"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I don't eat meat'?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "408d5a923692fbedba63bcdb753fb46691339e2c6d15a58606add3e41e7ef04c"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "No como carne.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "9277883b97630671df414e4e09baf83aabc11f094d9ebeb5e66937691205f632"
+        },
+        {
+          "text": "The word for 'and' is 'y'.",
+          "lang": "en",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "5245b00fe8aec0b91cc572fead847e44f83352952dc137798903082dcac000a5"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I don't eat meat and I don't drink alcohol'?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "896b346887597492d9e1a17de13aab7fd1b2d8b13240a265a1c57e5e62a52086"
+        }
+      ]
+    },
+    "turn-33-full": {
+      "segments": [
+        {
+          "text": "No como carne y no tomo alcohol.",
+          "lang": "es",
+          "file": "turn-33-full-1.mp3",
+          "hash": "e9ee60b3ce36aab08fe1431e629a79b823ff3767434bdb4f96dabaed532626be"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-33-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned the irregular verb 'ir' and its conjugations. Practice using them in sentences to describe actions.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "9a80324d2be07ead95e74927f65f5c5a64027afe3c0ec32526dcddda9f5f2848"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Remember, nouns ending in 'e' can be masculine or feminine. Use context to determine gender.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "7a441a2de1abd718a52333360edc5a0e43b9026dab8e1da794be52accb056455"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Try creating your own sentences using 'ir' and other verbs you've learned.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "0d3a44e87e68825821dfc84510e214919e6b5b513d5a1a5cda94158e40a51e3d"
+        }
+      ]
+    }
+  }
+}

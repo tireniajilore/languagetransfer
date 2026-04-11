@@ -1,0 +1,462 @@
+{
+  "lessonId": "lesson-06",
+  "generatedAt": "2026-04-11T13:52:04.103Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "Intento means 'I try' or 'I am trying'. How would you say 'I am trying to publish it'?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "9fea166aff47a85805ef15b325657c8bdd3946efca06cd4ffb335791b1b7d4fa"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        },
+        {
+          "text": "Intento publicarlo.",
+          "lang": "es",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "0131c3735236f2daa827d1d453d87c0c950c7070ae923c8433cc9fe0bbdc2ca0"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I am trying to administrate it'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "e70ce8b52d6d1d1b2a575e382d27e74a1e63e1124e0b5b25deac65b451c575c2"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        },
+        {
+          "text": "Intento administrarlo.",
+          "lang": "es",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "0a071a445db871cf82f8bc3ef5eeb20fbe0bea4f2735e55a7308d7b7e77771a7"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I am trying to imitate it'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "2cd64b3b65ca015ec75b5ee7b30ee2d895b27d08c843cef9b5c29cd2d7d818fa"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Exactly. Now, remember that h's in Spanish are completely silent.",
+          "lang": "en",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "6578f70bb258f0685ceba983ac33b847fb5f7b43248eaaed683a3fb76e57349e"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "How would you say '",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "d054098b34f4a32606120770318bef734c5c0158d6828e1ead6e5659a21c9403"
+        },
+        {
+          "text": "hospital",
+          "lang": "es",
+          "file": "turn-7-prompt-2.mp3",
+          "hash": "65df4d8168c683ea33b2cd103a7020cf5cee365fd0227c65ccce3982ab9fdc06"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-7-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Perfect.",
+          "lang": "en",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "f8407bd6cef9e56d2fde4b0fa8fb184f1b481ea7139549e80d555ab947dae98a"
+        },
+        {
+          "text": "Hospital.",
+          "lang": "es",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "12c266b8ea86c3eafeb7d3e9ce6fef528a3eca024b50ea346ebcef6959fe7349"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How would you say '",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "d054098b34f4a32606120770318bef734c5c0158d6828e1ead6e5659a21c9403"
+        },
+        {
+          "text": "horrible",
+          "lang": "es",
+          "file": "turn-9-prompt-2.mp3",
+          "hash": "7e2efcb1ef2c8fbfaef16ef3a749a522f7934dd6131e7ec8aba1ed24124372e6"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-9-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Good. Now,",
+          "lang": "en",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "9e824ecf2c35b939370f12787bdb993efba77d986f2a52558f4163cb57a1bebd"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "how would you say '",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "6a606589c5a334524d34dc0a9142e2025210139703a5195298a78d05b551c8d0"
+        },
+        {
+          "text": "habitual",
+          "lang": "es",
+          "file": "turn-11-prompt-2.mp3",
+          "hash": "0fadfef23a5ac74bd71470cd7426ab8095bf9d008b4c37adcad7b6210c4ac655"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-11-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Habitual.",
+          "lang": "es",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "7db94795a635abe1b75fed9f6d6bc50acfa8db6b42139d8e82575074e8f1aee5"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "And 'habitually'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "f94f9864b00277c92dee491b717ef29edc13fc34fd95d9fdc9e865ee1ae3b357"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Habitualmente.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "d649cf06139079b07092f8fdf67b76d1dc5bf94252e179d0a16dfba96dc11775"
+        },
+        {
+          "text": "The word for 'now' in Spanish is '",
+          "lang": "en",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "496a15cae5e1d7320bce803876d4d5248dd2c3510f2f058fe1cfa03e475b0f21"
+        },
+        {
+          "text": "ahora",
+          "lang": "es",
+          "file": "turn-15-reveal-3.mp3",
+          "hash": "9fa5bd66ce705188fab0de8a6bdbea32c74b02ff1f34f8ec684bb87f81512003"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-15-reveal-4.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How would you say it?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "ab3c757e9fdf2759b57765297ba1702a2d1d7b605ffa1b8a907ad0c6a424273e"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Ahora",
+          "lang": "es",
+          "file": "turn-17-reveal-2.mp3",
+          "hash": "4f1513f1338c34407c00454a9cdbbcae513bfaf23be4dca5fdc35f9b972565d3"
+        },
+        {
+          "text": "' is spelled a-h-o-r-a.",
+          "lang": "en",
+          "file": "turn-17-reveal-3.mp3",
+          "hash": "f118b6998060f44d325d5b18a2ad5e4a2a4903677cbd938ffe57c4518853f823"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to cancel it, but I don’t want to cancel it now'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "0f799d44a4d1a2b3ab835d67f774ef3a794f2c8c4180d25906d992abcf7075c8"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "Perfect! The word for 'I go' or 'I am going' in Spanish is 'voy'.",
+          "lang": "en",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "dfee4b01cc7e18e8216c6f6f0c64879e63773402950c1a8f25c8f3a7baefd9e5"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I am going now'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "91a8fb096f32b9e2f52a3ac509d65882f431608c4e15a18bfffd20bf0bbf9f09"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Voy ahora.",
+          "lang": "es",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "d544f57167e5288a39638e6f111cb31ccade51539af72bd691d490b03aeae16b"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I am not going now'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "1dfd03f0c77c1a79924e4b8c55d0c1ccc0357a410e0be0c8e05c154462368ec0"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How do you think you might say 'visit' in Spanish?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "319812f563dde93ffd5a3792d72cfe8747dc3b7aa3492dcce9b7270ec24a166b"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to visit him'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "c2a28eaed0a1db487a2a5088c89c6b4e12ab2a99b2ad05a52f7a229f679c7fc4"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How do you think you would say '",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "7fd357e691bfc1919251d696c732e2ea9454e193be92c0d6aea0ac960744c7ea"
+        },
+        {
+          "text": "visible",
+          "lang": "es",
+          "file": "turn-27-prompt-2.mp3",
+          "hash": "da6a85162ff49673fb202b9a2ab86a68a6cc831b2f7980ded8c48ade4f7cba83"
+        },
+        {
+          "text": "' in Spanish?",
+          "lang": "en",
+          "file": "turn-27-prompt-3.mp3",
+          "hash": "c5d800d70e1a0ae454f5615d43311a3a7742c1c9f3e00613b30ff1e332ee4696"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "How would you say '",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "d054098b34f4a32606120770318bef734c5c0158d6828e1ead6e5659a21c9403"
+        },
+        {
+          "text": "viral",
+          "lang": "es",
+          "file": "turn-29-prompt-2.mp3",
+          "hash": "a9eda332c5a937d6625021cb5a5ee1c20015f02ad49e16cb711937ed0b1e0fbf"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-29-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Viral.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "0385a577610ae1f1844df4a44aa64da6699875eb97ba0a812f0f5ae857cab0ce"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How do you think '",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "8e4b9c53876ba3b2456ceec9ec587b689e3d8ce9f240740899662018b3e1da35"
+        },
+        {
+          "text": "virus",
+          "lang": "es",
+          "file": "turn-31-prompt-2.mp3",
+          "hash": "815d389c2ea63ca9e2b9fb741638e7b6f812cc89807883d25510c83c8db87788"
+        },
+        {
+          "text": "' might be?",
+          "lang": "en",
+          "file": "turn-31-prompt-3.mp3",
+          "hash": "604edb4e384844ee4f54d3a79e929de9bfd898f86bd36bd99c4172cbcfd6b566"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "text": "Virus.",
+          "lang": "es",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "c1235cead73d09354f9f255e35eebaf0b27e8222beec56ec66198b964b93ddf0"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "And 'convenient'?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "e0e691063950a65371120dd523858f73260b9c4cc2b7b3fdfde9336b6a3a4fae"
+        }
+      ]
+    },
+    "turn-35-full": {
+      "segments": [
+        {
+          "text": "Conveniente.",
+          "lang": "es",
+          "file": "turn-35-full-1.mp3",
+          "hash": "ae0d27ce3630a0613031b3a6d5bfee016709ebe38890f74406bdca533d43d566"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-35-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to use 'intento' to express 'I try' and the importance of the silent 'h' in Spanish.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "fcd77640b679779015094ae7840f9d7485bc2bc98e851ee921fe5111a82b3738"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try using 'intento' with other verbs you know. How would you say 'I am trying to learn'?",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "ec915ef424bc4bdcb5aca46ea21478f7b05d8bb933197889bcb42dbe17c5f08a"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Remember, the 'h' is silent in Spanish. Practice saying words like 'hospital' and 'horrible' without pronouncing the 'h'.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "92dd950d29a29bd51c84501d06ff6480b1a770da988194469e9cbe9db19b2617"
+        }
+      ]
+    }
+  }
+}

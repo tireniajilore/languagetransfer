@@ -1,0 +1,1134 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was to do or to make in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Hacer.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say it does or it makes?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Hace.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now",
+      "lang": "en"
+    },
+    {
+      "text": "hace,",
+      "lang": "es"
+    },
+    {
+      "text": "you can use like ago. Like in English when you say two weeks ago, you can say it makes two weeks in Spanish, and you get that meaning. So week is semana.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Two is - do you remember two?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Dos.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "So two weeks ago, you will say it makes two weeks:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Hace dos semanas.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "I saw him two weeks ago:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo vi hace dos semanas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. To respond is responder. Responder.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How would you say I responded?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Respondí.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say I responded to her?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good. Le",
+      "lang": "en"
+    },
+    {
+      "text": "respondí.",
+      "lang": "es"
+    },
+    {
+      "text": "I responded to her. I responded to her seven weeks ago. Do you remember how to say seven?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Related to September:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Siete.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "So I responded to her seven weeks ago:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Le respondí hace siete semanas.",
+      "lang": "es"
+    },
+    {
+      "text": "Now in Spanish, you can say I responded her it. For example, I responded to her letter or I responded to her mail. Instead of saying it this way, to her mail, in Spanish you can just say I responded him the mail. I responded her the mail. Or if you know what you are talking about, I responded him it. I responded her it. This is because, and something we’ll look at again later, Spanish does not use possessive words as much as English does. So, it would be much more natural in Spanish, I responded her the mail. I responded him the, which isn’t mail, instead of I responded to her mail.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So how would you say I responded her it great English, but it’s perfect Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Se lo respondí.",
+      "lang": "es"
+    },
+    {
+      "text": "So the se is actually le, to her. The lo is el mail and you get",
+      "lang": "en"
+    },
+    {
+      "text": "se lo respondí.",
+      "lang": "es"
+    },
+    {
+      "text": "I responded to her the mail. Good. Month is",
+      "lang": "en"
+    },
+    {
+      "text": "mes. Mes.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "M-e-s.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "It’s a masculine word,",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "so how would you say the month?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good, and",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "how would you say a month or one month?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Un mes.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "un mes",
+      "lang": "es"
+    },
+    {
+      "text": "can be a month or one month.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So how would you say I responded it to her one month ago? I responded to her mail, I responded her it one month ago:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Se lo respondí hace un mes.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So we have",
+      "lang": "en"
+    },
+    {
+      "text": "respondí.",
+      "lang": "es"
+    },
+    {
+      "text": "I responded.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "How would you say he, she, it, you (formal) responded?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Respondió.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "And we responded:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Respondimos.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "respondí, respondió, respondimos.",
+      "lang": "es"
+    },
+    {
+      "text": "Let’s make a quick recap with an - ar verb.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "How would you say discrimination?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Again?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "In English we say discrimination or descrimination?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "It’s with an i, right?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Discriminación.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "To discriminate:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Discriminar.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "I discriminated:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Discriminé.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "He, or she, or it, you (formal) discriminated:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "And we discriminated:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good. So we have two more people to learn for the point in the past. They and you informal. Let’s begin with you informal. For you informal, in the point in the past we have - aste for - ar verbs and - iste for -er/-ir verbs. - aste for - ar verbs and - iste for -er/-ir verbs.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "So how would you say you spoke, speaking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Hablaste.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "And you ate, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Comiste.",
+      "lang": "es"
+    },
+    {
+      "text": "Did you eat?:",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Comiste?:",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "No comiste?:",
+      "lang": "es"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "No lo comiste?",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "What was to leave or to go out?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Salir.",
+      "lang": "es"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "How would you say did you go out? Did you leave?:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Saliste?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. is",
+      "lang": "en"
+    },
+    {
+      "text": "anoche. Anoche.",
+      "lang": "es"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Now if you translate tonight directly, what you will come up with is",
+      "lang": "en"
+    },
+    {
+      "text": "anoche.",
+      "lang": "es"
+    },
+    {
+      "text": "So you must be careful not to get confused here.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "How do you say tonight in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Esta noche anoche",
+      "lang": "es"
+    },
+    {
+      "text": "is last night, not tonight.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "So how would you say did you go out last night (speaking informally)?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Saliste anoche?:",
+      "lang": "es"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "No saliste anoche?",
+      "lang": "es"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "What was to live?",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Vivir.",
+      "lang": "es"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "And how do you say where?",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "Donde.",
+      "lang": "es"
+    },
+    {
+      "text": "Where did you live?:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde viviste?",
+      "lang": "es"
+    },
+    {
+      "text": "Where were you living?:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde vivías?",
+      "lang": "es"
+    },
+    {
+      "text": "So in many cases both line and point are perfectly fine. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde viviste?",
+      "lang": "es"
+    },
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Dónde vivías?",
+      "lang": "es"
+    },
+    {
+      "text": "All that means is that the speaker has two different ideas in their mind. Maybe you go abroad to study and I’ll tell you ¿",
+      "lang": "en"
+    },
+    {
+      "text": "dónde viviste?",
+      "lang": "es"
+    },
+    {
+      "text": "Or maybe I’ll tell you ¿",
+      "lang": "en"
+    },
+    {
+      "text": "dónde vivías?",
+      "lang": "es"
+    },
+    {
+      "text": "¿Dónde viviste? Where did you live? And this idea in my mind which is this closed amount of time. Where were you living? just means the idea in my mind is an ongoing idea of time. So many times it is completely interchangeable.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "What was to wait?",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Esperar. Esperar.",
+      "lang": "es"
+    },
+    {
+      "text": "So for you informal, we have -aste for the point in the past.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "So how would you say you waited, speaking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "Esperaste.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Did you wait for me?:",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "Me esperaste?:",
+      "lang": "es"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Good. ¿ Por qúe",
+      "lang": "en"
+    },
+    {
+      "text": "no me esperaste?",
+      "lang": "es"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "What was to arrive?",
+      "lang": "en"
+    }
+  ],
+  "turn-91-reveal": [
+    {
+      "text": "Llegar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. How do you say when did you arrive? When did you arrive?",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "(informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cuándo llegaste?",
+      "lang": "es"
+    },
+    {
+      "text": "This is an example of when you would need the point, because you probably wouldn’t want to say, no? So here’s very strongly the point in when were you arriving time. When did you arrive? ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cuándo llegaste?",
+      "lang": "es"
+    },
+    {
+      "text": "So we have -aste and -iste for you informal. For they, we have -aron for -ar verbs and - ieron for -er/-ir verbs. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "how would you say they spoke? They spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-95-reveal": [
+    {
+      "text": "Hablaron.",
+      "lang": "es"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "They waited:",
+      "lang": "en"
+    }
+  ],
+  "turn-97-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-97-prompt": [
+    {
+      "text": "They prepared it:",
+      "lang": "en"
+    }
+  ],
+  "turn-99-reveal": [
+    {
+      "text": "Lo prepararon.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We have -aron for -ar verbs and -ieron, i-e-r-o-n, for -er/-ir verbs.",
+      "lang": "en"
+    }
+  ],
+  "turn-99-prompt": [
+    {
+      "text": "How would you say they ate?",
+      "lang": "en"
+    }
+  ],
+  "turn-101-reveal": [
+    {
+      "text": "Comieron.",
+      "lang": "es"
+    }
+  ],
+  "turn-101-prompt": [
+    {
+      "text": "They left, they went out:",
+      "lang": "en"
+    }
+  ],
+  "turn-103-reveal": [
+    {
+      "text": "Salieron.",
+      "lang": "es"
+    }
+  ],
+  "turn-103-prompt": [
+    {
+      "text": "They sold them:",
+      "lang": "en"
+    }
+  ],
+  "turn-105-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Los vendieron",
+      "lang": "es"
+    },
+    {
+      "text": "with hablar and comer which we might want to use as our hooks. So we’ll begin with hablar.",
+      "lang": "en"
+    }
+  ],
+  "turn-105-prompt": [
+    {
+      "text": "How do you say I spoke?",
+      "lang": "en"
+    }
+  ],
+  "turn-107-reveal": [
+    {
+      "text": "Hablé.",
+      "lang": "es"
+    }
+  ],
+  "turn-107-prompt": [
+    {
+      "text": "He spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-109-reveal": [
+    {
+      "text": "Habló.",
+      "lang": "es"
+    }
+  ],
+  "turn-109-prompt": [
+    {
+      "text": "We spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-111-reveal": [
+    {
+      "text": "Hablamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-111-prompt": [
+    {
+      "text": "You spoke (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-113-reveal": [
+    {
+      "text": "Hablaste.",
+      "lang": "es"
+    }
+  ],
+  "turn-113-prompt": [
+    {
+      "text": "And they spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-115-reveal": [
+    {
+      "text": "Hablaron.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Hablé, habló, hablamos, hablaste, hablaron.",
+      "lang": "es"
+    },
+    {
+      "text": "Now let’s do the same for comer, so for -er/-ir verbs.",
+      "lang": "en"
+    }
+  ],
+  "turn-115-prompt": [
+    {
+      "text": "How do you say I ate?",
+      "lang": "en"
+    }
+  ],
+  "turn-117-reveal": [
+    {
+      "text": "Comí.",
+      "lang": "es"
+    }
+  ],
+  "turn-117-prompt": [
+    {
+      "text": "He, she, it, you (formal) ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-119-reveal": [
+    {
+      "text": "Comió.",
+      "lang": "es"
+    }
+  ],
+  "turn-119-prompt": [
+    {
+      "text": "We ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-121-prompt": [
+    {
+      "text": "That’s the present.",
+      "lang": "en"
+    }
+  ],
+  "turn-123-reveal": [
+    {
+      "text": "Comimos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-123-prompt": [
+    {
+      "text": "You ate (informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-125-reveal": [
+    {
+      "text": "Comiste.",
+      "lang": "es"
+    }
+  ],
+  "turn-125-prompt": [
+    {
+      "text": "And they ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-127-reveal": [
+    {
+      "text": "Comieron",
+      "lang": "es"
+    },
+    {
+      "text": "-er/-ir verbs in the present, we had / e / popping up everywhere. Vive, viven, vives and just one / i /. Just one / i / sound. Just one i popping up, vivimos. But everything else was / e / for -er/-ir verbs in the present, but in the past for -er/-ir verbs we have i dominating the stage. We have the i, / i / sound everywhere and this time the letter e, the / e / sound, occupying only one space. Popping up in only one place which is -ieron.",
+      "lang": "en"
+    },
+    {
+      "text": "Comí, comió, comiste, comimos, comieron",
+      "lang": "es"
+    },
+    {
+      "text": "which is the exact inverse of what happens in the present tense. We, can see also a logic that crosses over between the - ar group and the -er/-ir group.",
+      "lang": "en"
+    }
+  ],
+  "turn-127-prompt": [
+    {
+      "text": "For example, we have I spoke, how is it?",
+      "lang": "en"
+    }
+  ],
+  "turn-129-reveal": [
+    {
+      "text": "Hablé.",
+      "lang": "es"
+    }
+  ],
+  "turn-129-prompt": [
+    {
+      "text": "And he spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-131-reveal": [
+    {
+      "text": "Habló.",
+      "lang": "es"
+    },
+    {
+      "text": "We saw the -er/-ir in this past point has a special affiliation to the / i / sound, the i, the letter i. So whilst we have",
+      "lang": "en"
+    },
+    {
+      "text": "hablé",
+      "lang": "es"
+    },
+    {
+      "text": "for -ar verbs, for -er/-ir verbs what do we have?",
+      "lang": "en"
+    }
+  ],
+  "turn-131-prompt": [
+    {
+      "text": "How would we say I ate?",
+      "lang": "en"
+    }
+  ],
+  "turn-133-reveal": [
+    {
+      "text": "Comí.",
+      "lang": "es"
+    },
+    {
+      "text": "And whilst we have",
+      "lang": "en"
+    },
+    {
+      "text": "habló",
+      "lang": "es"
+    },
+    {
+      "text": "for - ar verbs, what do we have for -er/-ir verbs?",
+      "lang": "en"
+    }
+  ],
+  "turn-133-prompt": [
+    {
+      "text": "How would you say he ate?",
+      "lang": "en"
+    }
+  ],
+  "turn-135-reveal": [
+    {
+      "text": "Comió",
+      "lang": "es"
+    },
+    {
+      "text": "-ar version, but with that important / i / popping up again.",
+      "lang": "en"
+    }
+  ],
+  "turn-135-prompt": [
+    {
+      "text": "We have, for we spoke, what do we have?",
+      "lang": "en"
+    }
+  ],
+  "turn-137-reveal": [
+    {
+      "text": "Hablamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-137-prompt": [
+    {
+      "text": "And for we ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-139-reveal": [
+    {
+      "text": "Comimos.",
+      "lang": "es"
+    },
+    {
+      "text": "That important / i /, the i, the / i / sound again.",
+      "lang": "en"
+    }
+  ],
+  "turn-139-prompt": [
+    {
+      "text": "For you (informal) spoke, what do we have?",
+      "lang": "en"
+    }
+  ],
+  "turn-141-reveal": [
+    {
+      "text": "Hablaste.",
+      "lang": "es"
+    }
+  ],
+  "turn-141-prompt": [
+    {
+      "text": "But you ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-143-reveal": [
+    {
+      "text": "Comiste.",
+      "lang": "es"
+    },
+    {
+      "text": "You remembered the importance of that i.",
+      "lang": "en"
+    },
+    {
+      "text": "Comiste.",
+      "lang": "es"
+    }
+  ],
+  "turn-143-prompt": [
+    {
+      "text": "They spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-145-reveal": [
+    {
+      "text": "Hablaron.",
+      "lang": "es"
+    }
+  ],
+  "turn-145-prompt": [
+    {
+      "text": "And they ate:",
+      "lang": "en"
+    }
+  ],
+  "turn-147-full": [
+    {
+      "text": "Comieron.",
+      "lang": "es"
+    },
+    {
+      "text": "Again that important i and that e getting just one small look in, in that dot in the past to remind us that this is -er/-ir group, not just - ir. Just as what happened the other way around in the present. Good.",
+      "lang": "en"
+    }
+  ]
+}

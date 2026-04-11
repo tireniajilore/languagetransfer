@@ -1,0 +1,458 @@
+{
+  "lessonId": "lesson-15",
+  "generatedAt": "2026-04-11T13:49:36.736Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "What was the word for 'what'?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "bd0624d0b946b84f11989a4707c587a07591dc5f20f12940dbc4de75d7630a00"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "And do you remember how to say 'to pass'?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "4808fb451de1cf26eaf0ac0205233864e783e7e29dafdfe920325030a198809e"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Pasar.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "327a6499abe0f963d8c241f29dab35ba92e24d7b6147cec66fa44b3303901c6e"
+        },
+        {
+          "text": "This can also mean 'to happen'.",
+          "lang": "en",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "457a4fccaf534235fb4009c4522f5f1f100db3b7dc165620f43787375602c4c0"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'he passes'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "5fc43e79e522540f4489588e3884ff512d7c29ba1b254371b1268b55eae47ee5"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "And 'she passes'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "8501b4a45ec35173aff96068572123b98d74375c24259a8b551ea2e0490e477e"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "And 'it passes'?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "427b2452d24aca45fe55a94b5834c49423918c19119514983d0572779c252cc8"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'what happens' or 'what's going on'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "5d89a71d9e1259215ef56ed991e4bb8ec8c6587444f1afa56b66c5b5b1773699"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "If you want to say 'I want to know what's happening', how would you say it?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "b438efc0f90d628b737770736109ede4d0ae56e4574d99945aed627e06de6cbe"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Quiero saber qué pasa.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "37e34875b9ece6b5682a5e2ee0c488399c2c1563f5712a3391f43e1d3d6e4df7"
+        },
+        {
+          "text": "Now, let's look at verbs like 'tener' and 'querer'. These verbs have an E in their root that changes to IE when stressed.",
+          "lang": "en",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "75b0b956bdc685bed1555fbe01624c89be65f404a2a6e72a325a68889eeea3c0"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I want'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "c9029f5d7e44bd3d02e67d97f07169c7a30376cc50fd713aa3a1955f7e3dff8a"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Quiero.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "353e0a80b68bddbcea4a0dd11024f9712e530fafe3643453f814e3d8d889c638"
+        },
+        {
+          "text": "Notice how 'querer' becomes '",
+          "lang": "en",
+          "file": "turn-17-reveal-2.mp3",
+          "hash": "413512dd2769d698de5f7cf1bc47dc087240994fa48c217f4521471bdfb3699f"
+        },
+        {
+          "text": "quiero",
+          "lang": "es",
+          "file": "turn-17-reveal-3.mp3",
+          "hash": "030084b7dad9e4e26ece396a40b8bb0349e1ba3c3d3db567b87f28ce633b8107"
+        },
+        {
+          "text": "'. The E splits into IE. The same happens with 'tener'.",
+          "lang": "en",
+          "file": "turn-17-reveal-4.mp3",
+          "hash": "767cade34752475607dfabdcc378f94964196765fdeed96d5fe6c081c8db0054"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'he has'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "ca574436767097c8f3f029dc4e2f1c305c99b26cb045e770295a28d7d4a4cfc9"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "Tiene.",
+          "lang": "es",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "6325bf67fa0a1a9093176969c4841f9e80bdc9e6adf823e100d1fdf2d0834cbf"
+        },
+        {
+          "text": "Let's try another verb: 'venir'.",
+          "lang": "en",
+          "file": "turn-19-reveal-2.mp3",
+          "hash": "cd3556dd9ad0f9cbb55e3eb4707641ee2231ac01dd0917fc3d3c1bd8830e9105"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'he comes'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "d6e2fd31ff77ecd8736b7e9d7fe4d226a5571e525cc49a67e5f915c38c0daf40"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Viene.",
+          "lang": "es",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "09e9f17d60ce28bf5c223515645847fc0e6e5fc3b7d715f4dbe5d88140b1c99d"
+        },
+        {
+          "text": "Good. Now, 'pensar' means 'to think'.",
+          "lang": "en",
+          "file": "turn-21-reveal-2.mp3",
+          "hash": "3467d3889513e76e58d9038a6d4a34dbce9b03b4b66a3a41085a73b55cb59384"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I think'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "666a1f51a8fda26a8ede1127544cca9b9f9f47d1b5755dd972fe41cd8759873f"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Pienso.",
+          "lang": "es",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "31330f396afd03390d9c075b28b7b2e02b833d6000000ae3f49d3dcb561f1ff9"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "And 'he thinks'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "29961db62201ec24e67c52976b43572e3376cd32733603e05271197b1b5957f5"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Piensa.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "3d5c3e5887a2ae3c370234c43b0d1071dc509149e86a6383c40da8e181ff8757"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'what do you think'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "edc49ebca4f3d525e4593868d44d2fe2587515c427ee6d19be24de7b86cb39a5"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "¿Qué piensas?",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "10884ce84a18a3c1a3b90a992232aa8f22a1c485b63fa4cb652cbe38d044fa46"
+        },
+        {
+          "text": "If you say 'I think to eat', it means 'I plan on eating'.",
+          "lang": "en",
+          "file": "turn-27-reveal-2.mp3",
+          "hash": "f97405d39b12e9c42c66157437f19741125bb78fbbc038c3af99ab2d20eb2a55"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How would you say that?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "1fdf603cc322e6898644bb0ab63f12c45f1c2bd126b88d491fe7c5e2f6091055"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Pienso comer.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "c49066c072301769995e25fc5830a6e6058571a18222aa29f16c8e2289e17380"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I plan on eating later'?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "1377e4665db8f29b47f09897fa153ab440b23d368f6d4c8aec95f18a97963fd6"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Pienso comer más tarde.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "43d4f607a60ec655c182b0e2ad88371af82f456c175bb609877726261fa31183"
+        },
+        {
+          "text": "Now, 'entender' means 'to understand'.",
+          "lang": "en",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "3fc9d0d759e845230fda994bb3b8d1fd22bc454f980e872626c98ddf5f10963d"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I understand'?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "e40e6de35f54ffc6192d148f755a0d92157c29f6c77d6ef0e8c02fd3996924e7"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "text": "Entiendo.",
+          "lang": "es",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "c72eb64881dbd4b97950a97f0f5e160ae214ed19d15140a9f6e81c2c23464fa1"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "And 'he understands'?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "a75a0dfd4a4c4c4fed4e1d67b1825ddeead2545f10ea8067ac2f6e34db0d20ea"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "text": "Entiende.",
+          "lang": "es",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "80e09de543016e352328b8bffb6a30b76aea6cb3dad49e560c2b16dbc6beb3a3"
+        },
+        {
+          "text": "Now, 'perder' means 'to lose'.",
+          "lang": "en",
+          "file": "turn-35-reveal-2.mp3",
+          "hash": "26b69ec82b640d27628b8108347e56bf4ed2817f009fc0c5f6b75c1b24132d8f"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I lose'?",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "d5bc123c195dce9c2348e3286d1e536cb960d9ee17caec6669c4de9d26686c86"
+        }
+      ]
+    },
+    "turn-37-reveal": {
+      "segments": [
+        {
+          "text": "Pierdo.",
+          "lang": "es",
+          "file": "turn-37-reveal-1.mp3",
+          "hash": "282d5b2abc616d206a88aa828a2dc95b72061be889938e988c117c674ddd2fb4"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I lose it'?",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "a57a55559f86881fefcc695021b2c1468df15aad4a2feef6f1ed9af8709c19c8"
+        }
+      ]
+    },
+    "turn-39-reveal": {
+      "segments": [
+        {
+          "text": "Lo pierdo.",
+          "lang": "es",
+          "file": "turn-39-reveal-1.mp3",
+          "hash": "3327123687832a7071316259e72c157d7cc5f97e7b3a8417a2d0e332838200da"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-39-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "And 'I lose them'?",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "6e6593996094e79f2ee538c70c05aafcb20878d08288bee2aa46b9366aeea2c9"
+        }
+      ]
+    },
+    "turn-41-full": {
+      "segments": [
+        {
+          "text": "Los pierdo.",
+          "lang": "es",
+          "file": "turn-41-full-1.mp3",
+          "hash": "2dbe37e57770efbe50e8a2c724578d016d5d024bf7b8286ba6c25d4d11923d75"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-41-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how certain verbs in Spanish change from E to IE in the present tense. This pattern will help you with many verbs.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "5de06edcffe26734df21d3605b4b56bf6533add9ec139de416785ed61221438b"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try using these verbs in sentences. How would you say 'I want to understand' or 'he plans to come'?",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "f3f810e24dfbb230bbde2b6ac61c9aaeb402e0d7652b13eccf285b6730527700"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "These patterns make it easier to predict how verbs behave. Keep practicing to get more comfortable with them.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "de47edd87efcaca329dc06b855a5251f4b68fa42e3387727f53603a08b27db16"
+        }
+      ]
+    }
+  }
+}

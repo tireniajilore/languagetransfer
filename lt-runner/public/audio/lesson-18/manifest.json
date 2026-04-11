@@ -1,0 +1,562 @@
+{
+  "lessonId": "lesson-18",
+  "generatedAt": "2026-04-11T13:54:09.529Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "For -ar verbs, we use -amos for 'we' in the present tense. For -er verbs, it's -emos, and for -ir verbs, it's -imos. This is the only time -er and -ir verbs differ in the entire language. Let's look at preferir. What does preferir mean?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "81b039baf09fc2756b99d0e68239cbf1010b9e24a22951d598dedcee4ed3e749"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Good. To",
+          "lang": "en",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "8b2d7bcfa019031ceb17050da34e6827256103b6034509e30d34eebb37af2d68"
+        },
+        {
+          "text": "prefer.",
+          "lang": "es",
+          "file": "turn-3-reveal-2.mp3",
+          "hash": "22117582fef48432fee52437a2b989fabc30bfc532353d6c079665294640ced2"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "73ba73523bc15fcf859ba78cbe3daa02064dea3676a16f277f69c393fea45eb2"
+        },
+        {
+          "text": "prefer",
+          "lang": "es",
+          "file": "turn-3-prompt-2.mp3",
+          "hash": "1ba618b0fdec3343886d4e0da73de4cdd8af359104ef562cfec3711578d31333"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-3-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Prefiero.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "bb92712371b5268b98e90aa3a3e614215b8699d8ceec1dcc688f43e9ff3b107b"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How about 'he prefers'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "9b10ecfdb775abf1deb96f16a240f82a69a8561562a1d3a0d442b93f7773757c"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Prefiere.",
+          "lang": "es",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "643cdfd0768328c85ff8689da03997f22ebb210fdce375e22426ac603630bafc"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "And 'they",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "12156bd266223b37841d05f7ca06f750b506f519bd12038a8f15d75af6d42671"
+        },
+        {
+          "text": "prefer",
+          "lang": "es",
+          "file": "turn-7-prompt-2.mp3",
+          "hash": "1ba618b0fdec3343886d4e0da73de4cdd8af359104ef562cfec3711578d31333"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-7-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "Prefieren.",
+          "lang": "es",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "f25fc5cc3c5d3baf2e3398bbaaeef2073f0b423d69842174e74750e0379c38c2"
+        },
+        {
+          "text": "Now,",
+          "lang": "en",
+          "file": "turn-9-reveal-2.mp3",
+          "hash": "ea54001f451067939afbbbc76dcf654ce5519dba8d14c4652e1c1194cd5b3545"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "how would you say 'we",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "f20b1ba8133c911f1a90e336126ce2718d9487fcf12e3e9b70dcde7beba3cff1"
+        },
+        {
+          "text": "prefer",
+          "lang": "es",
+          "file": "turn-9-prompt-2.mp3",
+          "hash": "1ba618b0fdec3343886d4e0da73de4cdd8af359104ef562cfec3711578d31333"
+        },
+        {
+          "text": "'?",
+          "lang": "en",
+          "file": "turn-9-prompt-3.mp3",
+          "hash": "5baaadb5df7828617ab2c5e183a1d5a99d6c4766569c1be4c9c5041cf9a75a90"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "Preferimos.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "a6be3c9d4421065c519eed27c595368b2cbe2a13af0f9bc694065a657356dec6"
+        },
+        {
+          "text": "Notice the -imos ending for -ir verbs.",
+          "lang": "en",
+          "file": "turn-11-reveal-2.mp3",
+          "hash": "1a10004ef8ce6c0478fe5821fa1bd21a810042df79fd14e4dde895179d7ed423"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "What was 'to come'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "c3120da63978e9a0977ffe36829bd6a6c6d7013ddeabdc3bb7df47c91a0d5375"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Venir.",
+          "lang": "es",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "cc352a008f2aef23e339ac02199c2f35babfed741e486b12bb64dd05ff212261"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'we come'?",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "0d05b850ea14a825c6f89b235d7c4935a4570e3b85a3037d7b88320f68ad7308"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Venimos.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "c0b1226bca5d597e60f24f178f02f335b139e97b80fe8c1ee04128890452a6dd"
+        },
+        {
+          "text": "To live is vivir.",
+          "lang": "en",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "7b91bb1320e0466e363c1fb5ea08ff8b4b90d669afde4c4e4110fe3034e61632"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I live'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "fc693dce89922f01cbb5a1f60ff715c7704c1c28359cc9e026278850214df0b5"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "Vivo.",
+          "lang": "es",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "bc3f03ad78558627e11b3b07d2a93ee5e73048fe902c1cf4e9ad90e50684a6ed"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I live here'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "3a9df68ea2eafb1041483afbe1d2af9df4c72726e06493b978d6e8884a6fd520"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "Vivo aquí.",
+          "lang": "es",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "77cd69ba8e5fb66ee20dbd3ff185dfb6dbcb3c693ac0585f679bd01360f3eb16"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "Now, 'I don't live here, but he lives here':",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "39d5536b7ee391dcc1cac5146458300c153314b449c710d3ee22e702fce2b5fc"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Good. To know is saber.",
+          "lang": "en",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "bbd218710807d1d6f5edc08f0f29b248b1e28176147b6ef7b4c786542a7f84cb"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'we live'?",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "e61d6734efc4f85898093f20158d1249434b2d10925a4c008d02cf00793b8e2c"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Vivimos.",
+          "lang": "es",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "d9d3fae983c3f816ae64b7289fb677fd466a70786bfaa9ec13031cc6ba61352e"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "And 'he lives'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "5f07636599f3b2ac1259e9f6347b7d15b5692f177e7c697c2b4438c3b03ffdbf"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Vive.",
+          "lang": "es",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "6b6d4a190ea76b3e6930a9abd0685a6855d7a2be5754798d0675408efbd12442"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How about 'they live here'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "69eabad917a2c00531fe2a101dde2ef591c2ee045f17983e35e3b05d321b5fda"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "Viven aquí.",
+          "lang": "es",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "c8c838e85b103b570e41742da63bba990d6228a0802f5319181000a954194d7b"
+        },
+        {
+          "text": "The word for 'where' is dónde.",
+          "lang": "en",
+          "file": "turn-27-reveal-2.mp3",
+          "hash": "9ada47c712e93837dc76d11c15ab0adf4cde8faf2b31d85ced676b3fd50449cc"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'where do they live'?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "b0cad32e4e46f4bed39f067499118544a7ee4889ee99f34c94dd6c90c185b7f3"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "'I want to know where they live':",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "ae1781b0a8107f91693911f9a36e13b527dbb9af011e5baccc7534d0785be82b"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Quiero saber dónde viven.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "96916adb309a0722279a04b1306d81ebc208ed500d80118ecea7fcaae4dc0d88"
+        },
+        {
+          "text": "To understand is entender.",
+          "lang": "en",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "ecd2ece0663893162ace152c529d549280eb01d3b7ee4e710b069ff2082617df"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I understand'?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "e40e6de35f54ffc6192d148f755a0d92157c29f6c77d6ef0e8c02fd3996924e7"
+        }
+      ]
+    },
+    "turn-33-reveal": {
+      "segments": [
+        {
+          "text": "Entiendo.",
+          "lang": "es",
+          "file": "turn-33-reveal-1.mp3",
+          "hash": "c72eb64881dbd4b97950a97f0f5e160ae214ed19d15140a9f6e81c2c23464fa1"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "And 'he understands'?",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "a75a0dfd4a4c4c4fed4e1d67b1825ddeead2545f10ea8067ac2f6e34db0d20ea"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "text": "Entiende.",
+          "lang": "es",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "80e09de543016e352328b8bffb6a30b76aea6cb3dad49e560c2b16dbc6beb3a3"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "'He doesn't understand':",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "01ca862026f8090e58119513b6852b7afc4b0dd62a71a2958355aac15101e9f7"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "No entiende.",
+          "lang": "es",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "b4f3951d59dffdb5c879ef6eb0cda76b22c309348fce95f52cd3fb244162b431"
+        },
+        {
+          "text": "'Why doesn't he understand?'",
+          "lang": "en",
+          "file": "turn-37-prompt-2.mp3",
+          "hash": "4fb28912380390c33dff289ee11c3e2ff55da6362184bcb9ef11c4f9f87c6cf7"
+        }
+      ]
+    },
+    "turn-39-reveal": {
+      "segments": [
+        {
+          "text": "¿Por qué no entiende?",
+          "lang": "es",
+          "file": "turn-39-reveal-1.mp3",
+          "hash": "a72cf11a57440e68b71e5a518d24d3dc5ef8b338be5c15e9e5302ccbecca2f0f"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "'I want to know why he doesn't understand':",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "3717b330235334de2422a2765b76d033a5609d3f55df5061d2332dbf1d0bac51"
+        }
+      ]
+    },
+    "turn-41-reveal": {
+      "segments": [
+        {
+          "text": "Quiero saber por qué no entiende.",
+          "lang": "es",
+          "file": "turn-41-reveal-1.mp3",
+          "hash": "72de2512cf69be0c29ab91a245facd863c861ab885976f1c33e40ab8559b544a"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'we understand'?",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "ae5d981bf60ddd19f6818faf782eaf5ad0d77d66422ebae03065b90ce496f6cf"
+        }
+      ]
+    },
+    "turn-43-reveal": {
+      "segments": [
+        {
+          "text": "Entendemos.",
+          "lang": "es",
+          "file": "turn-43-reveal-1.mp3",
+          "hash": "fc38f3c0f7bc303eed3334889a945d2a5e51b3be80a341251299967909007731"
+        },
+        {
+          "text": "For -er verbs, we use -emos.",
+          "lang": "en",
+          "file": "turn-43-reveal-2.mp3",
+          "hash": "47374cfab7cbc26816e08436d70bcdf4c7c9549566e24f8d5fa6fe2683bb852e"
+        }
+      ]
+    },
+    "turn-43-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'we lose'?",
+          "lang": "en",
+          "file": "turn-43-prompt-1.mp3",
+          "hash": "233e060af0e61878a290e8ee4668368550bc139d84b91e7f8dbbef7ae9110c4a"
+        }
+      ]
+    },
+    "turn-45-full": {
+      "segments": [
+        {
+          "text": "Perdemos.",
+          "lang": "es",
+          "file": "turn-45-full-1.mp3",
+          "hash": "8d6c359a9c1d1470ec3511855d1aefcb9c8596a9907dbf76d2aa3be85774b42d"
+        },
+        {
+          "text": "'We always lose':",
+          "lang": "en",
+          "file": "turn-45-full-2.mp3",
+          "hash": "70cbd17058e12ed895c6fc16c253c65c4b04e338ab23af817338c46613eb0e5f"
+        }
+      ]
+    },
+    "turn-47-full": {
+      "segments": [
+        {
+          "text": "Siempre perdemos.",
+          "lang": "es",
+          "file": "turn-47-full-1.mp3",
+          "hash": "6050aba49339b5e95742019db7fec95acb2457b17b6c4344a9b9d3db9e947890"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-47-full-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned the present tense endings for -er and -ir verbs, focusing on the 'we' form.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "b03df5c9ec865e0500d1e0be4393f056e4fa8282707cb425549a009987187c74"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try using these endings with other verbs you know. How would you say 'we eat' or 'we write'?",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "a37554e8c193c783a8d431e0b93dd3bc61f6255f107519a0424dbb80d9fa9741"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Practicing with different verbs will help reinforce these patterns and make them second nature.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "6002488b9728afff734bb4033fb20f299d6e5dc57dd22ba1e8c1fe92d2194fb6"
+        }
+      ]
+    }
+  }
+}

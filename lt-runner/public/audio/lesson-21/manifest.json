@@ -1,0 +1,562 @@
+{
+  "lessonId": "lesson-21",
+  "generatedAt": "2026-04-11T13:52:03.822Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "We can use the present in Spanish to talk about the past, just as in English. For example: I ate, I was eating, and I have eaten. We'll focus on 'I have eaten', which uses 'haber'.",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "4933c0c8cc95014ac319e2200ef86896054c75afcacff674fe569c6df54845b9"
+        }
+      ]
+    },
+    "turn-2-full": {
+      "segments": [
+        {
+          "text": "The verb 'haber' is used for 'have' in 'I have eaten'. It's irregular, but we can remember its forms by focusing on its vowel sounds, /a/ and /e/. What are these vowel sounds?",
+          "lang": "en",
+          "file": "turn-2-full-1.mp3",
+          "hash": "0a4e2cbc9325b2ee4339ae82647d36ca89f4c3bb6fc3544efdc4fbca9fb659bc"
+        }
+      ]
+    },
+    "turn-4-reveal": {
+      "segments": [
+        {
+          "text": "Good. Let's start with 'he', which means 'I have'. It's spelled h-e. Now,",
+          "lang": "en",
+          "file": "turn-4-reveal-1.mp3",
+          "hash": "532ae45c01053b305d3ab757ea8100f26a67121d8b372bb0fa3c8f6126655e6b"
+        }
+      ]
+    },
+    "turn-4-prompt": {
+      "segments": [
+        {
+          "text": "what was the verb for 'to know'?",
+          "lang": "en",
+          "file": "turn-4-prompt-1.mp3",
+          "hash": "a21beb0c1d4aa314c31bcd40fa0e5250428ee0a5cc87ff705b48515e4450f021"
+        }
+      ]
+    },
+    "turn-6-reveal": {
+      "segments": [
+        {
+          "text": "Saber.",
+          "lang": "es",
+          "file": "turn-6-reveal-1.mp3",
+          "hash": "c17c87db5cf27f78b8905b02e769599650b2769cfdcd75b79feb3620a96249e2"
+        },
+        {
+          "text": "And 'I know' is 'sé'. Just like 'sé', 'he' is the I form of 'haber'.",
+          "lang": "en",
+          "file": "turn-6-reveal-2.mp3",
+          "hash": "f363ee91aa82439c43d1769efc063956c7d0aa2e8a1b4f520fe815166f1eeeb9"
+        }
+      ]
+    },
+    "turn-6-prompt": {
+      "segments": [
+        {
+          "text": "What do you think 'we have' is?",
+          "lang": "en",
+          "file": "turn-6-prompt-1.mp3",
+          "hash": "2fb5b5ba14028c08bd4a1fefd2c37b0f5ff3238b1bacdcfa5404948c87e13aed"
+        }
+      ]
+    },
+    "turn-8-reveal": {
+      "segments": [
+        {
+          "text": "Hemos.",
+          "lang": "es",
+          "file": "turn-8-reveal-1.mp3",
+          "hash": "2d2f311e47c0ca5ee084ded995ca71effc482a003ddef536caf66419cd5b7c76"
+        },
+        {
+          "text": "Good. From 'haber', we get 'he' and '",
+          "lang": "en",
+          "file": "turn-8-reveal-2.mp3",
+          "hash": "b4d9f81fdd358f7185f077db9c120c862898fa206992a0c13bd7af64bb482456"
+        },
+        {
+          "text": "hemos",
+          "lang": "es",
+          "file": "turn-8-reveal-3.mp3",
+          "hash": "a10187c6ca84f91c3f5210c8eb465e686cbed5631a2f98d1718b85e470eb6783"
+        },
+        {
+          "text": "'. Now, 'ha' means 'he/she/it",
+          "lang": "en",
+          "file": "turn-8-reveal-4.mp3",
+          "hash": "d20f929a8d1ebea3b97d6b5e6e573e6dc67a49432bb1d9a51221908705462e3d"
+        },
+        {
+          "text": "has",
+          "lang": "es",
+          "file": "turn-8-reveal-5.mp3",
+          "hash": "542370e6c56c3c4119d4b87cde50a5fb9b356cff81a1faea9b72fe950bfd643c"
+        },
+        {
+          "text": "'.",
+          "lang": "en",
+          "file": "turn-8-reveal-6.mp3",
+          "hash": "2877c6401b9b33befbc0fbe4af811e03bdd3105be021e2a0c25ba8ca0df656a0"
+        }
+      ]
+    },
+    "turn-8-prompt": {
+      "segments": [
+        {
+          "text": "What about 'they have'?",
+          "lang": "en",
+          "file": "turn-8-prompt-1.mp3",
+          "hash": "dcf5cfb6a855c20538ad0deec0a6b9c201291f02fb24862ed2430db49dd79e63"
+        }
+      ]
+    },
+    "turn-10-reveal": {
+      "segments": [
+        {
+          "text": "Han.",
+          "lang": "es",
+          "file": "turn-10-reveal-1.mp3",
+          "hash": "d0869ce5a6802a3174c46aef78d99fcb1c4f0e7e44774f3998ff7eb75ffdab7a"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-10-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-10-prompt": {
+      "segments": [
+        {
+          "text": "And 'you have' informally?",
+          "lang": "en",
+          "file": "turn-10-prompt-1.mp3",
+          "hash": "22e53352b7ea3ce3af1bd6ca504dea55297079ffd0a81c76bbed9b1d24912498"
+        }
+      ]
+    },
+    "turn-12-reveal": {
+      "segments": [
+        {
+          "text": "Has.",
+          "lang": "es",
+          "file": "turn-12-reveal-1.mp3",
+          "hash": "6831f7da53a3b82aab991ba7ac684da2a015714bda4b8669c68b677791c2ab9b"
+        },
+        {
+          "text": "Great. So, we have 'he-",
+          "lang": "en",
+          "file": "turn-12-reveal-2.mp3",
+          "hash": "a87633cb3c4201024f3f5cdf69f1dc63caa38936a8050a63f1309e5256d69a73"
+        },
+        {
+          "text": "hemos",
+          "lang": "es",
+          "file": "turn-12-reveal-3.mp3",
+          "hash": "a10187c6ca84f91c3f5210c8eb465e686cbed5631a2f98d1718b85e470eb6783"
+        },
+        {
+          "text": "', 'ha-",
+          "lang": "en",
+          "file": "turn-12-reveal-4.mp3",
+          "hash": "dedfdffbf6dd40957cf8337cae035d6232b3da6fd54cf9e7fe1fa1966bddb0e4"
+        },
+        {
+          "text": "has-han",
+          "lang": "es",
+          "file": "turn-12-reveal-5.mp3",
+          "hash": "0a46cd3f88f88e359e180ec4942b08fe856540b58182e82ea9b1a0dcfad177a4"
+        },
+        {
+          "text": "'. Now, to form the past participle for -ar verbs, remove -ar and add -ado.",
+          "lang": "en",
+          "file": "turn-12-reveal-6.mp3",
+          "hash": "daa6ae77514ca30a2b3019bd218898c99e28e3b359333420f7fea63a6da55b85"
+        }
+      ]
+    },
+    "turn-12-prompt": {
+      "segments": [
+        {
+          "text": "For example, 'hablar' becomes:",
+          "lang": "en",
+          "file": "turn-12-prompt-1.mp3",
+          "hash": "0ea8ad7c85c3df6b4727926f86c192e67bf72b0489fd3c63ee02f9e576dd66fd"
+        }
+      ]
+    },
+    "turn-14-reveal": {
+      "segments": [
+        {
+          "text": "Hablado.",
+          "lang": "es",
+          "file": "turn-14-reveal-1.mp3",
+          "hash": "da7a3f53c8a294ea74e20c691aa5941cb66c64348f9fde84dd52790afe98c461"
+        }
+      ]
+    },
+    "turn-14-prompt": {
+      "segments": [
+        {
+          "text": "Now, let's say 'I have spoken':",
+          "lang": "en",
+          "file": "turn-14-prompt-1.mp3",
+          "hash": "97eb2d9ec71900260c43be59547a820cc7d9ce5478b3c2033d417688b2723c4d"
+        }
+      ]
+    },
+    "turn-16-reveal": {
+      "segments": [
+        {
+          "text": "He hablado.",
+          "lang": "es",
+          "file": "turn-16-reveal-1.mp3",
+          "hash": "a9d790c43eb0e17db472558b23633af10d67b360377b71cc1ad3d1dfd35fd19e"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-16-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-16-prompt": {
+      "segments": [
+        {
+          "text": "How about 'I haven't spoken'?",
+          "lang": "en",
+          "file": "turn-16-prompt-1.mp3",
+          "hash": "a4e594b0da2374e51c1b68f1326c3ec01866fe7245d7a8553370ff3f96f7544d"
+        }
+      ]
+    },
+    "turn-18-reveal": {
+      "segments": [
+        {
+          "text": "No he hablado.",
+          "lang": "es",
+          "file": "turn-18-reveal-1.mp3",
+          "hash": "60a0b2d6ad04096bc5f117757943038acf09739036d209ee1134556ef02ab84e"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-18-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-18-prompt": {
+      "segments": [
+        {
+          "text": "'We have spoken'?",
+          "lang": "en",
+          "file": "turn-18-prompt-1.mp3",
+          "hash": "0229466c737c5a1283b549b8f01ef5f4db69b7484fa5e4583e58d5b494958314"
+        }
+      ]
+    },
+    "turn-20-reveal": {
+      "segments": [
+        {
+          "text": "Hemos hablado.",
+          "lang": "es",
+          "file": "turn-20-reveal-1.mp3",
+          "hash": "3472302e39fc1174d6f393d0de870f79d99ca73ebf6f71a895e471af4d1e9613"
+        }
+      ]
+    },
+    "turn-20-prompt": {
+      "segments": [
+        {
+          "text": "'He",
+          "lang": "en",
+          "file": "turn-20-prompt-1.mp3",
+          "hash": "12e14ed31b065be949a16d42b64491fd741457c0c02eff5a6cdf7f0a9e534d1b"
+        },
+        {
+          "text": "has",
+          "lang": "es",
+          "file": "turn-20-prompt-2.mp3",
+          "hash": "542370e6c56c3c4119d4b87cde50a5fb9b356cff81a1faea9b72fe950bfd643c"
+        },
+        {
+          "text": "spoken'?",
+          "lang": "en",
+          "file": "turn-20-prompt-3.mp3",
+          "hash": "44305dc736c53a0f2d2aa68233ffd2942885dae5b25246f98131334f57d7301a"
+        }
+      ]
+    },
+    "turn-22-reveal": {
+      "segments": [
+        {
+          "text": "Ha hablado.",
+          "lang": "es",
+          "file": "turn-22-reveal-1.mp3",
+          "hash": "a7a7f2dd8aebc9a04a29da87a854cc439e60c9a7ff3945252b8aab8658f2fe6a"
+        }
+      ]
+    },
+    "turn-22-prompt": {
+      "segments": [
+        {
+          "text": "'They have spoken'?",
+          "lang": "en",
+          "file": "turn-22-prompt-1.mp3",
+          "hash": "b71e2aed87575ebde618c4abbc0745d3212fe15792e5f0304799fdca8d7b7945"
+        }
+      ]
+    },
+    "turn-24-reveal": {
+      "segments": [
+        {
+          "text": "Han hablado.",
+          "lang": "es",
+          "file": "turn-24-reveal-1.mp3",
+          "hash": "e071784bb1f21e23010a8066d25ec3128d735f08bcef3690e9456de5be033ff4"
+        }
+      ]
+    },
+    "turn-24-prompt": {
+      "segments": [
+        {
+          "text": "'You (informal) have spoken'?",
+          "lang": "en",
+          "file": "turn-24-prompt-1.mp3",
+          "hash": "b3dbda948e379d2d5399f4fa6176e31221f2b1eff6fc01b7041191b8f7b29a72"
+        }
+      ]
+    },
+    "turn-26-reveal": {
+      "segments": [
+        {
+          "text": "Has hablado.",
+          "lang": "es",
+          "file": "turn-26-reveal-1.mp3",
+          "hash": "ece7b5beca41088891254eeefdd1cda1c53b778b8d63923ac06ea32d82d61213"
+        },
+        {
+          "text": "Perfect. Now, let's use 'anticipar'.",
+          "lang": "en",
+          "file": "turn-26-reveal-2.mp3",
+          "hash": "721b00a1b346cee8851e995db6baec37c8ed684068e78974369f306f0434c15a"
+        }
+      ]
+    },
+    "turn-26-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'we have anticipated it'?",
+          "lang": "en",
+          "file": "turn-26-prompt-1.mp3",
+          "hash": "449f90bf33d0a7f7e6267b6bf0602ffa8e0d37e5cceb1e996af628138dbd161c"
+        }
+      ]
+    },
+    "turn-28-reveal": {
+      "segments": [
+        {
+          "text": "Lo hemos anticipado.",
+          "lang": "es",
+          "file": "turn-28-reveal-1.mp3",
+          "hash": "cecd654343bec5d1ad08cbe1a3dfb30a0182e734a869ca12841646cd36ae8784"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-28-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-28-prompt": {
+      "segments": [
+        {
+          "text": "How about 'we have anticipated it for a long time'?",
+          "lang": "en",
+          "file": "turn-28-prompt-1.mp3",
+          "hash": "ca52040054000ad5b0226bd6e2490be519e23db028a3bf24e61ff3ecf1b56407"
+        }
+      ]
+    },
+    "turn-30-prompt": {
+      "segments": [
+        {
+          "text": "Lo hemos anticipado por mucho tiempo.",
+          "lang": "es",
+          "file": "turn-30-prompt-1.mp3",
+          "hash": "d43d5b2e5d8772744fa087fc128455804ac5cd7946d77a40565e982af0fcb64a"
+        },
+        {
+          "text": "Very good. Now, let's ask 'have you celebrated?' informally.",
+          "lang": "en",
+          "file": "turn-30-prompt-2.mp3",
+          "hash": "0c1639f29c10381c61792fa14d0119d4177a9cfde5429ea056e4c937276520c9"
+        }
+      ]
+    },
+    "turn-32-prompt": {
+      "segments": [
+        {
+          "text": "Has celebrado?",
+          "lang": "es",
+          "file": "turn-32-prompt-1.mp3",
+          "hash": "476aa0bf6b1fa55632221ea04d290acf8f50b5d296698c2370205c3a872820d5"
+        },
+        {
+          "text": "Good. 'Haven't you celebrated?'",
+          "lang": "en",
+          "file": "turn-32-prompt-2.mp3",
+          "hash": "11cfaf1a9ccf9933b86b1970346f0612777a2712fdd223b0af012e170c4df5eb"
+        }
+      ]
+    },
+    "turn-34-prompt": {
+      "segments": [
+        {
+          "text": "No has celebrado.",
+          "lang": "es",
+          "file": "turn-34-prompt-1.mp3",
+          "hash": "588c2dd6e7b8e5478bd433b4439afbd9753969d40bf3049db511f5520a90a5ca"
+        },
+        {
+          "text": "'Where have you celebrated it?'",
+          "lang": "en",
+          "file": "turn-34-prompt-2.mp3",
+          "hash": "69d8834eee502cea893bf448b08225debb72f26f2a54452730f7ae6f7ea1ef53"
+        }
+      ]
+    },
+    "turn-36-reveal": {
+      "segments": [
+        {
+          "text": "Dónde lo has celebrado.",
+          "lang": "es",
+          "file": "turn-36-reveal-1.mp3",
+          "hash": "26bc807ed4954812dbdba3076846482e8cfba64196db912a1d95ecbfcf930408"
+        },
+        {
+          "text": "Good. Now, let's use 'tomar'.",
+          "lang": "en",
+          "file": "turn-36-reveal-2.mp3",
+          "hash": "739be3cacc3d00a0dcb0372fa25f8ed216e6868311b795fce5127707bc95853e"
+        }
+      ]
+    },
+    "turn-36-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I have taken'?",
+          "lang": "en",
+          "file": "turn-36-prompt-1.mp3",
+          "hash": "d92d0b080f6b2d1db819dab428ad472e47de9c3f2f6a39a1cc19471624cec212"
+        }
+      ]
+    },
+    "turn-38-reveal": {
+      "segments": [
+        {
+          "text": "He tomado.",
+          "lang": "es",
+          "file": "turn-38-reveal-1.mp3",
+          "hash": "e9bb0a8022336b9c6a775f01813b806ce27b51bf82c082968c9fc09273d8e1c2"
+        }
+      ]
+    },
+    "turn-38-prompt": {
+      "segments": [
+        {
+          "text": "'We have taken'?",
+          "lang": "en",
+          "file": "turn-38-prompt-1.mp3",
+          "hash": "64716eb17cc06e6bf34091e66ad6d418347040bfc8e526f1bf7f7846cf0a9cc4"
+        }
+      ]
+    },
+    "turn-40-prompt": {
+      "segments": [
+        {
+          "text": "Hemos tomado.",
+          "lang": "es",
+          "file": "turn-40-prompt-1.mp3",
+          "hash": "922314d444756109c9dcb24b7ece1fef1363c8259a040a1871b81ba9f7ea87e1"
+        },
+        {
+          "text": "'",
+          "lang": "en",
+          "file": "turn-40-prompt-2.mp3",
+          "hash": "74fbcc4b0e1bc86834d80a976fd246abd2a5b342642197a0cc105a98ed6de2fc"
+        },
+        {
+          "text": "Has",
+          "lang": "es",
+          "file": "turn-40-prompt-3.mp3",
+          "hash": "956b7554df03739751ee55f25cfcd186d90cce7e21c2888349f49ceb8ad81474"
+        },
+        {
+          "text": "she taken it?'",
+          "lang": "en",
+          "file": "turn-40-prompt-4.mp3",
+          "hash": "a1ab380e37b8fd37a5fc6a50ba807f7903d855ec7c3068748bd57909d06cf440"
+        }
+      ]
+    },
+    "turn-42-full": {
+      "segments": [
+        {
+          "text": "Lo ha tomado.",
+          "lang": "es",
+          "file": "turn-42-full-1.mp3",
+          "hash": "a2cb8eb59cdd7e0455f305b59d208c20faed7dfb1aa198f015741485f9389ae7"
+        },
+        {
+          "text": "Good. Remember to think about each part of the sentence separately to build it correctly.",
+          "lang": "en",
+          "file": "turn-42-full-2.mp3",
+          "hash": "5bf31187369bb22bfe28287eeac83b4dd90352371dca3803b80bfe839a524b67"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to use 'haber' to form the present perfect tense in Spanish.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "297dbe0c9170577fbb2d1d185da9f9ed4daec7b9fda9d978d73a726bad30025e"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try forming sentences with other verbs, like 'comer' or 'vivir', using the present perfect tense.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "55214ecfcf3d6be261e61905a5ad2a55bf5f7e633641d65ef288581586b796a9"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "This tense is very common in Spanish, so practice using it in different contexts.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "b065c0c9932a598ea8ec98c8bcb5320bac6a8ef07f622835be87d478f491e5e8"
+        }
+      ]
+    }
+  }
+}

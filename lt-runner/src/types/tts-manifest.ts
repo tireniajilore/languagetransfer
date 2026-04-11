@@ -11,6 +11,7 @@ export interface TTSManifestEntry {
 
 export interface TTSManifest {
   lessonId: string;
+  baseUrl?: string;
   generatedAt: string;
   entries: Record<string, TTSManifestEntry>;
 }

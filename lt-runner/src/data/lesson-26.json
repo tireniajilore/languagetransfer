@@ -1,0 +1,410 @@
+{
+  "lesson_number": 26,
+  "title": "Staying and Calling - Reflexive Verbs",
+  "description": "Learn to use reflexive verbs for staying and calling in various contexts.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "You're staying here, informal. How would you say that?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "te quedas aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Te quedas aquí. Good. Now, how would you say 'You're not staying here'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no te quedas aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No te quedas aquí. Good. To make it a question, 'Aren't you staying here?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no te quedas aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿No te quedas aquí? Good. How would you say 'Why aren't you staying here?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "por qué no te quedas aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Por qué no te quedas aquí. Very good. How do you say 'I'm going'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy. Good. How would you say 'I'm going to stay'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a quedarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a quedarme. Good. How do you say 'I'm going to stay until seven o'clock'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a quedarme hasta las siete"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a quedarme hasta las siete. How do you say 'I want to stay'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero quedarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero quedarme. Good. How would you ask 'Do you want to stay?' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quieres quedarte"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Quieres quedarte? Good. What was 'I must' or 'I owe'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "debo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Debo. Good. How do you say 'We must stay'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "debemos quedarnos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Debemos quedarnos. Good. How do you say 'I have to stay'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "tengo que quedarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tengo que quedarme. How would you say 'You have to stay' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "tienes que quedarte"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tienes que quedarte. How do you say 'I want to know why you have to stay here'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber por qué tienes que quedarte aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero saber por qué tienes que quedarte aquí. Good. What was 'I can'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "puedo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Puedo. How do you say 'I can stay'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "puedo quedarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Puedo quedarme. How do you say 'I can't stay'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no puedo quedarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No puedo quedarme. How do you say 'I can't stay tonight'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no puedo quedarme esta noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No puedo quedarme esta noche. How would you say 'We can stay'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "podemos quedarnos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Podemos quedarnos. How do you say 'We can't stay tonight'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no podemos quedarnos esta noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No podemos quedarnos esta noche. What was 'to think'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pensar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pensar. How do you say 'We think'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pensamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pensamos. How do you say 'You think' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "piensas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Piensas. How do you say 'What do you think?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "qué piensas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Qué piensas? Good. How would you say 'Do you plan on staying here tonight?' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "piensas quedarte aquí esta noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Piensas quedarte aquí esta noche? Good. How would you say 'I have stayed'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "me he quedado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me he quedado. Good. How do you say 'We have stayed'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "nos hemos quedado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos hemos quedado. How do you say 'We haven't stayed'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no nos hemos quedado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No nos hemos quedado. How do you say 'You have stayed' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "te has quedado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Te has quedado. Make it a question: 'Have you stayed?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "te has quedado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Te has quedado? Good. How would you say 'You call yourself' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "te llamas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Te llamas. How do you ask 'How do you call yourself?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cómo te llamas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Cómo te llamas? Good. Now we understand it's 'How do you call yourself?'",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to use reflexive verbs for staying and calling in Spanish. Practice these structures to build confidence."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try creating your own sentences using 'quedarse' and 'llamarse'. How would you say 'I want to stay here' or 'How do you call yourself?'",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "These reflexive verbs are essential for everyday conversations. Keep practicing to master them."
+    }
+  ]
+}

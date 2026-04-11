@@ -1,0 +1,394 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was 'is' or 'he is', 'she is', 'it is'?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Es. Good. Words ending in -ant or -ent often become Spanish by adding -e. For example, 'important' becomes importante.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'it is important'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Es importante.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say 'it's not important'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "No es importante.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "How would you say 'different'?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Diferente.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "It's not different:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "No es diferente.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How would you say 'constant'?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Constante.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say 'it is constant'?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Es constante.",
+      "lang": "es"
+    },
+    {
+      "text": "Add -mente to form adverbs. 'Constantly' is constantemente.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you say 'legally'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Legalmente.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "'Illegally'?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Ilegalmente.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How do you say '",
+      "lang": "en"
+    },
+    {
+      "text": "real",
+      "lang": "es"
+    },
+    {
+      "text": "' in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Real.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How would you say 'really'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Realmente.",
+      "lang": "es"
+    },
+    {
+      "text": "'Normally' is normalmente.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How would you say 'normally it's important'?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Normalmente es importante.",
+      "lang": "es"
+    },
+    {
+      "text": "If a word has a /j/ sound, it becomes /kh/ in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say '",
+      "lang": "en"
+    },
+    {
+      "text": "global",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Global.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "'Globally'?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Globalmente.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "'",
+      "lang": "en"
+    },
+    {
+      "text": "General",
+      "lang": "es"
+    },
+    {
+      "text": "' becomes?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "General.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "'Generally'?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Generalmente.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "'",
+      "lang": "en"
+    },
+    {
+      "text": "Original",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Original.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "'Originally'?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Originalmente.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "'",
+      "lang": "en"
+    },
+    {
+      "text": "Digital",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Digital.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "'Naturally'?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Naturalmente.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How would you say 'naturally it's",
+      "lang": "en"
+    },
+    {
+      "text": "original",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Naturalmente es original.",
+      "lang": "es"
+    },
+    {
+      "text": "Words ending in -ible or -able often convert by pronouncing syllable by syllable with stress on the second last syllable. 'Possible' becomes posible.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "How would you say 'probably'?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Probablemente.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "'Possibly'?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Posiblemente.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "'",
+      "lang": "en"
+    },
+    {
+      "text": "Flexible",
+      "lang": "es"
+    },
+    {
+      "text": "'?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-full": [
+    {
+      "text": "Flexible.",
+      "lang": "es"
+    },
+    {
+      "text": "Remember, experiment with vocabulary conversion, but be aware of exceptions. This approach can help you quickly expand your Spanish vocabulary.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned to convert English words ending in -ant, -ent, -ible, and -able into Spanish.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try converting more words like 'elegant' or 'responsible' into Spanish.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "You've also learned to form adverbs with -mente, allowing you to express actions more precisely.",
+      "lang": "en"
+    }
+  ],
+  "outro-4-full": [
+    {
+      "text": "Keep experimenting with these patterns to build your vocabulary and confidence in Spanish.",
+      "lang": "en"
+    }
+  ]
+}

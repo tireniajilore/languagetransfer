@@ -1,0 +1,589 @@
+{
+  "lesson_number": 30,
+  "title": "Lesson 30",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "The word for how in Spanish is cómo.",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cómo. How do you think you would say, how are you?, talking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo estás"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Cómo estás? Because when you ask somebody how they are, you're referring to their state. ¿ Cómo estás? And formally, how would you ask?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo está"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And if you're asking more than one person?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo están"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very nice. The word for where is dónde. So how would you say, where are you?, talking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde estás"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Dónde estás? I don't know where we are. So what was I don't know?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No sé. Good. I don't know where we are:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no sé donde estamos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No sé donde estamos. Good. How would you say, I am here?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy aquí, Estoy acá. How would you say, I want to be here?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quiero estar aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Quiero estar aquí. Good. How would you say, I'm going to be here later? What was the word for late?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tarde. Good. And later or more late?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Más tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So I'm going to be here later:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Voy a estar aquí más tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Voy a estar aquí más tarde. Voy is I go or I'm going. How do you say you go or you are going, speaking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vas. Good. So how would you say, where are you going to be? So break it up: where are you going to be?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde vas a estar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. ¿ Dónde vas a estar? W here are you going to be? Good. So let's run through the forms again, and let's use the words for emphasis just to practice them. So I am is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Yo estoy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Yo estoy. He is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Él está"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Él está. She is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ella está"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And you (talking formally) are:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Usted está"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Usted está. Good. They are, using the word for they:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ellos están"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ellos están. Or for feminine:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ellas están"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. What is we are?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nosotros estamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And for feminine:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nosotros, nosotras estamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So nosotros changes to nosotras. You are, talking informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estás"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And if we used the word for you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tú estás"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Tú estás. Tú estás. Good. How would you ask more than one person, where do you have to be later? So the first bit is where.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Do you have?, and we are talking to you (plural), which is the same as they. Do you have? Yeah, what's to have?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tener. Good. And we have it as - tain in words like maintain - mantener, contain - contener, sustain - sostener, entertain - entretener, obtain - obtener. That will help us. So first we want to build you guys have from tener.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tienen"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So where do you have to be later, to you (plural). Try it.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde tienen están"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Slower., and I’ve forgotten the other one now.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It's okay, work it out again.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde tienen estar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "There is something we need to add to tienen to get this meaning of have to, and it's not a comfortable translation.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde tienen que estar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Later:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Más tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Dónde tienen que estar más tarde? Good. You might want to say, he must be here, and you can use this in the same way as you do in English, to refer to probability. Oh, he must be here by now, or something like this. You have the same use in Spanish. And must is the same as to owe, which is related to debt. So what was to owe?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Deber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Deber. Good. So he owes or he must:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Debe"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Debe. This e doesn't split. Good. Debe. So he must be here:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Debe estar aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And he must be tired:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Debe estar cansado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Debe estar cansado. They must be tired:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Deben estar cansados"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. What if they were females?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cansadas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "All together. Don't miss the fun.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Deben estar cansadas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Deben estar cansadas. To remain was quedar. Quedar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quedar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And to get the meaning of I stay, we say, I remain myself. So how would that sound? I remain myself:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me quedo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me quedo. I am staying. How would we are staying, or we remain ourselves, be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nos quedamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. We are not going to stay, because we are very tired. We are not going to stay, because we are very tired. So the first bit that needs to command all of our attention is we are not going:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No vamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No vamos. We are not going to stay, so we are not going to remain ourselves:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No vamos a quedarnos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No vamos a quedarnos or no nos vamos a quedar. You can have this as well. No nos vamos a quedar. Because, same as why:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Porque"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Porque. We are very tired. And let's be a masculine or a mixed group. We are very tired:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estamos muy cansados"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, now all together and not from memory. Thinking about it again, block by block. If you rush it, you will trip and tripping is very time-consuming. So, we are not going to remain ourselves. To stay:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No vamos a quedarnos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Because we are very tired.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Porque estamos muy cansados"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Well done. No vamos a quedarnos, no nos vamos a quedar porque, estamos muy cansados. Very good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

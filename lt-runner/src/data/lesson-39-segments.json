@@ -1,0 +1,802 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was the word for with in Spanish? And we have it in words like convenient, confirm -",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "is with and we have it as like a Latin building block in many Latin/English words. Consequence: with sequence. Now in Spanish you don’t say with her, with him, with them, you actually just say with he, with she, with they.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So how would you say with him or with he?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Con él.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "With her:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Con ella.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "With them:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Or, I mean if it was feminine:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Yeah,",
+      "lang": "en"
+    },
+    {
+      "text": "con ellas.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "With us:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Nos",
+      "lang": "es"
+    },
+    {
+      "text": "is us with us, we will say with we.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Yes,",
+      "lang": "en"
+    },
+    {
+      "text": "con nosotros.",
+      "lang": "es"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "What if you were an all female group?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Con nosotras.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "With you, speaking formally?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Con usted.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "And with you guys:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Con ustedes.",
+      "lang": "es"
+    },
+    {
+      "text": "The word for for is para.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "So how would you say for him?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Para él.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So when you decided that it was",
+      "lang": "en"
+    },
+    {
+      "text": "para él,",
+      "lang": "es"
+    },
+    {
+      "text": "you put para and",
+      "lang": "en"
+    },
+    {
+      "text": "con",
+      "lang": "es"
+    },
+    {
+      "text": "in the same group. And they are in the same group. They’re in a group of words which are called prepositions. Now prepositions show some kind of movement or position; and they’re very important and interesting words so it’s useful for us to identify them as we did with verbs and adjectives and nouns. So we are going to investigate now a little more about prepositions and how they behave in Spanish. So for him,",
+      "lang": "en"
+    },
+    {
+      "text": "para él.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "For her:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Para ella.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "For them:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Or?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "And for us:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Para nosotros.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "Or?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good. Para",
+      "lang": "en"
+    },
+    {
+      "text": "nosotras",
+      "lang": "es"
+    },
+    {
+      "text": "if it’s an all feminine group. Good. Like I said, we don’t say for him, but for and we don’t say he for her, but for she, with the exception of me and you informal, we get two different versions of the words for me and you. So for me is para mí. Para mí. And you informal becomes ti. So for you, speaking informally, is para ti. So this is just after prepositions we get this mí and ti. M-i and t-i. So we can find another preposition that we learned already. The word for of or from. So again this is a small word which is showing movement, direction or position; these are prepositions.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "So what was of or from?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "De. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "So how would you say from him?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "De él.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "From her:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "De ella.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "From me:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    },
+    {
+      "text": "De mí,",
+      "lang": "es"
+    },
+    {
+      "text": "spelled m-i.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "From you speaking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "De ti.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "From them:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "De ellos.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Or",
+      "lang": "en"
+    },
+    {
+      "text": "ellas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. De",
+      "lang": "en"
+    },
+    {
+      "text": "ellas.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "From us:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "De nosotros.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "From you guys:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "Good. Is it- Is it from you guys?:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good. Is it from you guys? ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Es de ustedes?",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "How would you say?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es para ustedes.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "How do you say it is with you guys?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Now something to me doesn’t feel right here. When we say it’s from you guys",
+      "lang": "en"
+    },
+    {
+      "text": "es de ustedes,",
+      "lang": "es"
+    },
+    {
+      "text": "and it’s for you guys",
+      "lang": "en"
+    },
+    {
+      "text": "es para ustedes,:",
+      "lang": "es"
+    },
+    {
+      "text": "we are speaking about things are quite characteristic of whatever It’s for you guys. It’s from you guys. it’s with this thing is, whatever this it is. But, when we say you guys, we are speaking about a state because we are speaking about the location of something. So",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "how do you think it would be - it is with you guys?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está con ustedes.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good. To do or to make was",
+      "lang": "en"
+    },
+    {
+      "text": "hacer.",
+      "lang": "es"
+    },
+    {
+      "text": "H-a-c-e-r.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Hacer.",
+      "lang": "es"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "So how do you say he does or or he makes or:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "This is from haber, but well thought out. [Laughter]",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Hace.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. A favor is un favor. Un favor.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "So how would you say doing me a favor:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me hace un favor.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "How do you?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Now if you say la",
+      "lang": "en"
+    },
+    {
+      "text": "hace,",
+      "lang": "es"
+    },
+    {
+      "text": "it sounds like - a feminine thing.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "If you want to say doing her a favor, for her. So what does la turn to to become to her, for her?",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Le hace un favor.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Decir",
+      "lang": "es"
+    },
+    {
+      "text": "is to tell.",
+      "lang": "en"
+    },
+    {
+      "text": "No?",
+      "lang": "es"
+    },
+    {
+      "text": "So we have hablar to speak or to talk and",
+      "lang": "en"
+    },
+    {
+      "text": "decir",
+      "lang": "es"
+    },
+    {
+      "text": "is to say or to tell. D-e-c-i-r. So / dethir / in most of Spain.",
+      "lang": "en"
+    },
+    {
+      "text": "Decir.",
+      "lang": "es"
+    },
+    {
+      "text": "So how do you say I want to tell, I want to say?",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "I want, just think of I want.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "To say or to tell:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "Ah, all together.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Quiero decir.",
+      "lang": "es"
+    },
+    {
+      "text": "Ah. I want to tell him.",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "I want to tell him:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "Le quiero decir",
+      "lang": "es"
+    },
+    {
+      "text": "or?",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Good. You have the option there of where you can put the le, before the changed verb or after the complete verb.",
+      "lang": "en"
+    },
+    {
+      "text": "Le quiero decir. Quiero decirle.",
+      "lang": "es"
+    },
+    {
+      "text": "But",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "if you want to say, I want to say it:",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Lo quiero decir.",
+      "lang": "es"
+    },
+    {
+      "text": "So we see actually with this le, we are kind of replacing a preposition with le and les, an imaginary preposition: to, for, from. For example, comprar. Comprar means to buy. I can say I buy you something. Now this you is actually replacing for you. I buy something for you.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "So what is I buy from comprar?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Compro.",
+      "lang": "es"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "How do you say I buy them and you refer to the things that you are buying?",
+      "lang": "en"
+    }
+  ],
+  "turn-87-reveal": [
+    {
+      "text": "Los compro.",
+      "lang": "es"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "But, if you say I buy them and you mean I buy for them:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Les compro.",
+      "lang": "es"
+    },
+    {
+      "text": "So this is the most natural Spanish structure.",
+      "lang": "en"
+    },
+    {
+      "text": "Les compro.",
+      "lang": "es"
+    },
+    {
+      "text": "You use les instead of for them. But, you could say I buy for them. You could do that if you wanted to, using for them literally. I’m buying for them",
+      "lang": "en"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "So how would you say I buy or?",
+      "lang": "en"
+    }
+  ],
+  "turn-91-reveal": [
+    {
+      "text": "Compro para ellos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So in an everyday situation,, les. I’m just",
+      "lang": "en"
+    },
+    {
+      "text": "compro.",
+      "lang": "es"
+    },
+    {
+      "text": "Mostly we are going to be avoiding these prepositions, so he buys it for me going to say he buys me it rather than he buys it for me.",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "So how would you say that? He buys me it:",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Me lo compra.",
+      "lang": "es"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "They buy me it or they buy it for me:",
+      "lang": "en"
+    }
+  ],
+  "turn-95-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me lo compran.",
+      "lang": "es"
+    },
+    {
+      "text": "They buy them for me.",
+      "lang": "en"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "They buy them for me:",
+      "lang": "en"
+    }
+  ],
+  "turn-97-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me los compran.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now, we said that these small words me,",
+      "lang": "en"
+    },
+    {
+      "text": "nos,",
+      "lang": "es"
+    },
+    {
+      "text": "te, le, les, most of, but sometimes it’s like the time what we are replacing with them is to for, like to do a favor for, but they also might be replacing other prepositions like de. For example, if I want to say he buys, I don’t really need the it from me from there either. I could just say he buys me it. So how would I say that? He buys it from me.",
+      "lang": "en"
+    }
+  ],
+  "turn-97-prompt": [
+    {
+      "text": "He buys me it:",
+      "lang": "en"
+    }
+  ],
+  "turn-99-full": [
+    {
+      "text": "Me lo compra.",
+      "lang": "es"
+    },
+    {
+      "text": "So this is totally ambiguous. No? It could mean he buys it for me or he buys it from, but it’s something that we’ll understand from the context. So the key point to take away from me here is that we probably use prepositions much more in English than in Spanish and you just want to kind of like listen out for this and then you will start shedding them. You will start shedding your prepositions the more you listen to Spanish.",
+      "lang": "en"
+    }
+  ]
+}

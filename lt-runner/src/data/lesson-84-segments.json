@@ -1,0 +1,460 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So now we really do have the panorama of all times and moods in Spanish. So now that's everything. That's every tense including both the idea of time and the idea of mood. We've learned how to construct them all, and we should really listen actively to refresh any knowledge that we might need to refresh through our exposure to Spanish. Analyzing always what we hear, and if you're listening to a song or a movie maybe you just hear the endings of the verbs at the beginning. But if you can identify what that ending means, that's the important bit. In the same way this course has been focused equally on the process that we go through in building our structures in Spanish, as it has been focused on content. So half of the point of this course has been content, has been teaching you Spanish; and the other half has been how to manage Spanish, how to manage these elements that we've learned. How to think about this information and how to relate to information generally in a new way. How to find things that you think you might have forgotten. We've also looked now and then at some irregularities in Spanish. Verbs or other words that don't follow the rules that we learned. Now the older the language, the more irregularities it tends to have. Spanish, effectively being modern Latin, is quite prone to irregularities. But the irregularities can be made sense of within themselves. You can group together irregularities. So whilst throughout the course we were looking at the odd irregularity as it popped up, now at the end of the course we are going to tidy up the irregular verbs. So there are a group of verbs, which we can call the “go verbs\". These are the verbs that use - go instead of - o for the I form. For example, how do you say to have, to have, for possession?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Tener.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And I have:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Tengo.",
+      "lang": "es"
+    },
+    {
+      "text": "So this - go pops up for the I version, but only for the I version.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How do you say he has, or she has, you (formal) have?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Tiene.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And you (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And they:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Tienen.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "And we:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Tenemos.",
+      "lang": "es"
+    },
+    {
+      "text": "So the - go is only popping up for the I version.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "What was to come?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Venir.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "I come:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Vengo.",
+      "lang": "es"
+    },
+    {
+      "text": "So here we have the - go again.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "But he comes:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Viene.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "They come:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "You (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "We:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Venimos. Good. So we have this - go popping up just for the I form. We've seen other verbs like this.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "What was to go out or to leave?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Salir.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "And I go out or I leave:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Salgo.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "To put:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Poner.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "And I put:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Pongo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We have decir, to say or to tell and we get digo, which is even more irregular but we see the - go. We have hacer, to make or to do, and we get hago. Oír, which means to hear, oír. And we have oigo, I hear. Traer, traer means to bring. And I bring is",
+      "lang": "en"
+    },
+    {
+      "text": "traigo.",
+      "lang": "es"
+    },
+    {
+      "text": "So, to bring is t-r- a-e-r, traer, and then I is",
+      "lang": "en"
+    },
+    {
+      "text": "traigo.",
+      "lang": "es"
+    },
+    {
+      "text": "It takes an extra i. So here we get",
+      "lang": "en"
+    },
+    {
+      "text": "traigo.",
+      "lang": "es"
+    },
+    {
+      "text": "Traer is interesting because traer means to bring. But when it forms part of another verb, we can translate it like - tract.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "For example, extraer means:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "How would you say attract?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Atraer.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Contract:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "Distract:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "I distract:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Distraigo.",
+      "lang": "es"
+    },
+    {
+      "text": "I distract. Or you could say I get distracted. Me",
+      "lang": "en"
+    },
+    {
+      "text": "distraigo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So these - go verbs are a little bit special and they behave quite irregularly. But more or less in the same way. One of the things they do in the same way is that in the mood tense, instead of switching vowels like the rest of the verbs do in the mood tense in the present, they go from - go to - ga. So whilst in the normal present this - go only pops up for I, we have",
+      "lang": "en"
+    },
+    {
+      "text": "tengo",
+      "lang": "es"
+    },
+    {
+      "text": "/",
+      "lang": "en"
+    },
+    {
+      "text": "tiene",
+      "lang": "es"
+    },
+    {
+      "text": "/",
+      "lang": "en"
+    },
+    {
+      "text": "tienes",
+      "lang": "es"
+    },
+    {
+      "text": "/",
+      "lang": "en"
+    },
+    {
+      "text": "tienen",
+      "lang": "es"
+    },
+    {
+      "text": "/",
+      "lang": "en"
+    },
+    {
+      "text": "tenemos,",
+      "lang": "es"
+    },
+    {
+      "text": "the - ga for the mood sense is for everybody. So we get tenga for I, he / she / it and you formal.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "How would you make it informal?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Exactly.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "So if you were to say I want you to come, I want that you come, speaking informally - so I want that:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good. Now we want you come and we want the mood tense version. So it's a - go verb, so our base for the mood tense is venga.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "So if you want to speak informally and say I want that you come, I want you to come:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero que vengas.",
+      "lang": "es"
+    },
+    {
+      "text": "And you will hear actually in Spain venga, venga, venga. They use it all the time, meaning come on, come on. Venga vale. They say vale as well in Spain. Venga vale. You will hear this all the time. When a Spanish person is hanging up the telephone you can hear fifteen of them, venga vale, vale venga, venga vale. So this venga that you will hear around a lot will be a nice hook to remember that this - go goes to - ga. Actually, when somebody is answering the phone in Spain, you might hear diga or dígame.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "What does that mean, dígame?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Yes. The mood tense by itself is an order. For a positive order then we have the me after the verb, dígame. So you will hear people answering the phone like this in Spain.",
+      "lang": "en"
+    },
+    {
+      "text": "Tell me.",
+      "lang": "es"
+    },
+    {
+      "text": "Dígame. So traer was to bring.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "What is I bring?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Traigo.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "And what is you bring, speaking informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "This is the mood tense. But we don't want the mood tense, we just want you bring informally.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Traes.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. But if you say I want you to bring it,",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "how would you say that? I want you to bring it, informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero que lo traigas.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "I don't want you to distract me, I don't want you to distract me, still informal:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-full": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "No quiero que me distraigas.",
+      "lang": "es"
+    },
+    {
+      "text": "I don't want you to distract me. Very good.",
+      "lang": "en"
+    }
+  ]
+}

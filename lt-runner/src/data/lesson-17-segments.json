@@ -1,0 +1,566 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We've seen how sounds in verbs might change under stress in the present tense. For example, the verb 'querer' (to want) changes to 'quiero' (I want). How do you say he wants or she wants or you (formal) want?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Quiere.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "They want?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Quieren.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "And you (informal)?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "What do you want?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "¿Qué quieres?",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Another example is 'perder' (to lose).",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How would you say: I lose?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Pierdo.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "And he loses, she loses?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Pierde.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "They lose?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "And you (informal)?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Pierdes.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We also saw that an o can change to ue, like in 'poder' (to be able) becoming 'puedo' (I can).",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "What did 'dormir' mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "And 'duermo' means?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good. What changes when we add 'me'?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "'Me duermo' means?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Yes. '",
+      "lang": "en"
+    },
+    {
+      "text": "I fall asleep",
+      "lang": "es"
+    },
+    {
+      "text": "'. Good. Now, 'comer' (to eat) doesn't split.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "I eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Como.",
+      "lang": "es"
+    },
+    {
+      "text": "So it didn't split there. Let's try 'colgar' (to hang).",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "I hang?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Cuelgo.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "He hangs?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Cuelga.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "They hang?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good. Now let's look at verbs starting with 'al-', which often come from Arabic. For example, 'alcohol'. The verb 'tomar' means to take or to drink.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How would you say: I don't drink alcohol?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No tomo alcohol.",
+      "lang": "es"
+    },
+    {
+      "text": "'Azúcar' (sugar) is also from Arabic.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "How would you say: I don't take sugar?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No tomo azúcar.",
+      "lang": "es"
+    },
+    {
+      "text": "'Arroz' (rice) is another example.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "I want rice?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Quiero arroz.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now, 'toma' means he takes, she takes, or you (formal) take.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "You (informal)?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good. What are you taking?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "This could mean what do you want to drink?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "¿Qué tomas?",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "They take?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Toman.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now, we take is 'tomamos'.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "What did I do to get 'tomamos' from 'tomar'?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good. So 'hablar' (to speak) becomes '",
+      "lang": "en"
+    },
+    {
+      "text": "hablamos",
+      "lang": "es"
+    },
+    {
+      "text": "' (we speak).",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "How do you say: I speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Hablo.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "She speaks?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Habla.",
+      "lang": "es"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "They speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "You (informal) speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "We speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-full": [
+    {
+      "text": "Hablamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now, 'encontrar' (to find) becomes 'encuentro' (I find). But in the 'we' form, it's 'encontramos'.",
+      "lang": "en"
+    }
+  ],
+  "turn-56-full": [
+    {
+      "text": "What was to demonstrate?",
+      "lang": "en"
+    }
+  ],
+  "turn-58-reveal": [
+    {
+      "text": "Demostrar.",
+      "lang": "es"
+    },
+    {
+      "text": "And 'mostrar' means to show.",
+      "lang": "en"
+    }
+  ],
+  "turn-58-prompt": [
+    {
+      "text": "I show?",
+      "lang": "en"
+    }
+  ],
+  "turn-60-reveal": [
+    {
+      "text": "Muestro.",
+      "lang": "es"
+    }
+  ],
+  "turn-60-prompt": [
+    {
+      "text": "He shows?",
+      "lang": "en"
+    }
+  ],
+  "turn-62-reveal": [
+    {
+      "text": "Muestra.",
+      "lang": "es"
+    }
+  ],
+  "turn-62-prompt": [
+    {
+      "text": "They show?",
+      "lang": "en"
+    }
+  ],
+  "turn-64-prompt": [
+    {
+      "text": "You (informal) show?",
+      "lang": "en"
+    }
+  ],
+  "turn-66-prompt": [
+    {
+      "text": "We show?",
+      "lang": "en"
+    }
+  ],
+  "turn-68-reveal": [
+    {
+      "text": "Mostramos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. 'Pensar' (to think) becomes 'pienso' (I think).",
+      "lang": "en"
+    }
+  ],
+  "turn-68-prompt": [
+    {
+      "text": "I think so?",
+      "lang": "en"
+    }
+  ],
+  "turn-70-reveal": [
+    {
+      "text": "Pienso que sí.",
+      "lang": "es"
+    }
+  ],
+  "turn-70-prompt": [
+    {
+      "text": "He thinks?",
+      "lang": "en"
+    }
+  ],
+  "turn-72-reveal": [
+    {
+      "text": "Piensa.",
+      "lang": "es"
+    }
+  ],
+  "turn-72-prompt": [
+    {
+      "text": "They think?",
+      "lang": "en"
+    }
+  ],
+  "turn-74-prompt": [
+    {
+      "text": "You (informal) think?",
+      "lang": "en"
+    }
+  ],
+  "turn-76-prompt": [
+    {
+      "text": "What do you think?",
+      "lang": "en"
+    }
+  ],
+  "turn-78-prompt": [
+    {
+      "text": "Good. What do you plan to do? 'Hacer' means to do or to make.",
+      "lang": "en"
+    }
+  ],
+  "turn-80-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "¿Qué piensas hacer?",
+      "lang": "es"
+    }
+  ],
+  "turn-80-prompt": [
+    {
+      "text": "We think?",
+      "lang": "en"
+    }
+  ],
+  "turn-82-reveal": [
+    {
+      "text": "Pensamos.",
+      "lang": "es"
+    },
+    {
+      "text": "The verb 'cerrar' (to close) becomes 'cierro' (I close).",
+      "lang": "en"
+    }
+  ],
+  "turn-82-prompt": [
+    {
+      "text": "She closes?",
+      "lang": "en"
+    }
+  ],
+  "turn-84-reveal": [
+    {
+      "text": "Cierra.",
+      "lang": "es"
+    }
+  ],
+  "turn-84-prompt": [
+    {
+      "text": "We close?",
+      "lang": "en"
+    }
+  ],
+  "turn-86-full": [
+    {
+      "text": "Good. So we're seeing that the issue of the e's and o's splitting is about stress. When we don't stress them, they stay intact.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how stress affects verb stem changes in Spanish, focusing on e to ie and o to ue transformations.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try conjugating other verbs you know and see if they follow the same pattern. Practice with verbs like 'entender' or 'volver'.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Understanding these patterns will help you predict and use verb forms more accurately in conversation.",
+      "lang": "en"
+    }
+  ]
+}

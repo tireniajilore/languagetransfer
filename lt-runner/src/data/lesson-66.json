@@ -1,0 +1,265 @@
+{
+  "lesson_number": 66,
+  "title": "Lesson 66",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "So, we are looking a bit at possession now, and how we express that in Spanish. Now, in English, much more than we do in Spanish. So, it’s something we use possessive words: my, your, his, her we want to look out for. We already saw an example actually, for example, how we would say I responded him the mail, rather than I responded to his mail. Another example would be how we refer to body parts in Spanish. So you don’t say in Spanish, for example, my leg hurts, you say it hurts me the leg. Doler, doler, is to hurt. How would you say, firstly, it hurts me, from doler? It hurts me:",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me dolo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It hurts me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo me"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I want you to divide the sentence up and to take control of it, no guessing. It hurts me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dole"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, it would be “” dole, but the o splits. So, this is an error that’s not a problem, you thought it through and you got to “”, but the dole o splits here.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "me duele"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me duele. Good. Me duele my leg hurts mi pierna duele don’t say that, you say it hurts me the leg, it hurts me the leg. So, leg is pierna, how would you say my leg hurts?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me duele la pierna"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me duele la pierna. If you want to say, you can just use more for anymore. So, what was more, again?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Más"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Más. So,:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me duele la pierna más"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Now, the noun, pain, is dolor, dolor.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dolor"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "If you want to say I have a headache, you can just say I have pain of head dolor de cabeza, dolor de cabeza. So, how would that be, I have a headache?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tengo dolor de cabeza"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Tengo dolor de cabeza. Good. I had, I was having, pain of head, so, the line in the past.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tenía dolor de cabeza"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Tenía dolor de cabeza. And of course we can also say me duele la cabeza or me dolía la – this would be another way of saying it. So, just as we can say cabeza dolor de cabeza to say José’s house Maria’s house headache, the ache of the head. If we want to say,, in Spanish we will the house of José, José’s house say the house of Maria, the house of José. So, how would you say?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La casa de José"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So, how would you say we are going to José’s house?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vamos a la casa de José"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Vamos a la casa de José. What if you wanted to say we are going to Maria’s party:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vamos a la fie-"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That’s correct.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vamos a la fiesta de María."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. Vamos a la fiesta de María. Very good. What was nobody?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nadie"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nadie. And nobody else or nobody more:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nadie más."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. I didn’t speak party, I only spoke with you. So, let’s start from the beginning.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No hablé."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "With anybody else:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Con nadie más."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": ":",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "En la fiesta de María."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No hablé con nadie más en la fiesta de María, I only spoke with you. Now, only or just, that we say a lot in English, I just spoke with you, I only spoke with you, in Spanish is solo, solo. So, I only spoke with you (speaking informally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I only spoke, with you",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablé contigo solo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Or, more naturally might be solo hablé contigo. But solo at the end there, it’s fine, it just sounds more emphatic, you might want to be emphatic here: no hablé con nadie más en la fiesta de Maria, solo hablé contigo. Hablé solo contigo, hablé contigo solo.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

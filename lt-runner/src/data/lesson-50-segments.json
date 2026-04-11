@@ -1,0 +1,640 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Gracias por venir. Gracias por venir",
+      "lang": "es"
+    },
+    {
+      "text": "in Spanish means thanks for coming.",
+      "lang": "en"
+    },
+    {
+      "text": "Gracias por venir.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "So there’s two things that we can see in this sentence. We can use this sentence like a hook to remember two important things about Spanish. The first thing is that we have two words for for. We already saw another word for for.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "For example, how were we saying for me?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Para mí.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "And for you, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Para ti.",
+      "lang": "es"
+    },
+    {
+      "text": "So we had mí and ti coming with prepositions.",
+      "lang": "en"
+    },
+    {
+      "text": "Para mí, para ti,",
+      "lang": "es"
+    },
+    {
+      "text": "de mí, from me, de ti, from you, but then for the other people we just say for he, for example.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "So how is for him or for he in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And for her:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good. So this para is when something is for somebody. No? For example,",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "if you want to say this, speaking informally, let’s say it’s a masculine object. is for you This, this one, is for you. How would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "What is tonight?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Good. So that’s your hook and you go from there.",
+      "lang": "en"
+    },
+    {
+      "text": "Esta",
+      "lang": "es"
+    },
+    {
+      "text": "noche. But, I want a masculine thing.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "What you should do is look at somewhere that you’ve used it. So you should look at this car.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "And then you find it. These are the processes that we’re learning and this is half of the method. You can take yourself through those processes when you need to find it. Then it comes to your memory. Then you know it after that. But, the first few times, you need to have a look around, let’s say, and seek to find it.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So this or this one, masculine thing:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Este.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "So this one is for you (speaking informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Este es para ti",
+      "lang": "es"
+    },
+    {
+      "text": "if we mean a masculine thing.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "What if you meant these are for you (masculine or mixed things)?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Well done.",
+      "lang": "en"
+    },
+    {
+      "text": "Estos son para ti.",
+      "lang": "es"
+    },
+    {
+      "text": "So we saw that actually for this and these we have",
+      "lang": "en"
+    },
+    {
+      "text": "este",
+      "lang": "es"
+    },
+    {
+      "text": "and estos. In",
+      "lang": "en"
+    },
+    {
+      "text": "este",
+      "lang": "es"
+    },
+    {
+      "text": "we have the / e / of el and in estos we have the / os / of los.",
+      "lang": "en"
+    },
+    {
+      "text": "Estos son para ti.",
+      "lang": "es"
+    },
+    {
+      "text": "So this is the for that we learned until now, no? Then we have por which is much more flexible. It has many more meanings. Let’s investigate some of them. Por. You can use it like because of. No? Sometimes when we say for in English, we mean because of. For example, if you say for this. So you don’t mean reason. What you mean is because of this reason para, you mean por. So por also means for in the sense of because of.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "And actually in the words because and why, which were?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Por qué.",
+      "lang": "es"
+    },
+    {
+      "text": "Here in why, we see that it is because of.",
+      "lang": "en"
+    },
+    {
+      "text": "Por qué,",
+      "lang": "es"
+    },
+    {
+      "text": "why, actually means because of what. Because of what? And then porque as because. We said that we have the same word for why and because. Porque as because means because of that. So in both cases you have por, meaning because of. So reason in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "razón.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Razón.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "Or / rathón / in most of Spain. / Rathón /. But in most of the Spanish speaking world / rasón /.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Razón",
+      "lang": "es"
+    },
+    {
+      "text": "is feminine.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So how would you say this reason?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "So how would you say? Because of this reason, I don’t want to go:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Por",
+      "lang": "en"
+    },
+    {
+      "text": "esta razón, no",
+      "lang": "es"
+    },
+    {
+      "text": "quiero ir to buy?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "Do you remember to buy?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Comprar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Comprar.",
+      "lang": "es"
+    },
+    {
+      "text": "You can say",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "How would you say that? Let’s I’m buying it for you keep it informal.:",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo compro para ti.",
+      "lang": "es"
+    },
+    {
+      "text": "That means, you know, this thing I’m buying it for you. But maybe, in I’m buying it because of you some contexts you want to say.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "How would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo compro por ti.",
+      "lang": "es"
+    },
+    {
+      "text": "So it doesn’t mean necessarily that this thing is for that person, just that you’ve bought it because of that person. So maybe you buy an ashtray in your house and your one friend that smokes comes and you say lo he comprado por ti. I have bought it because of you. If, then he’ll run to take the ashtray home. Another use for you say lo he comprado",
+      "lang": "en"
+    },
+    {
+      "text": "para ti,",
+      "lang": "es"
+    },
+    {
+      "text": "for you por is when we’re talking about time. When you are talking about periods of time, for two weeks, for two days, you will not say para. You will say por. This is another place where you use por. The word for day is",
+      "lang": "en"
+    },
+    {
+      "text": "día.",
+      "lang": "es"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "Día.",
+      "lang": "es"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Día",
+      "lang": "es"
+    },
+    {
+      "text": "light. And deity in English comes from the same root. Or the ju- of Jupiter is actually also from this root. Jupiter means something like the father of the gods. You have - piter like paternal there and ju- from this same root as",
+      "lang": "en"
+    },
+    {
+      "text": "día",
+      "lang": "es"
+    },
+    {
+      "text": "and deity. And of course you have Jupiter which is the biggest planet, so the father of the gods, Jupiter.",
+      "lang": "en"
+    },
+    {
+      "text": "Día",
+      "lang": "es"
+    },
+    {
+      "text": "is a word that looks feminine and it’s one of those few words that end in - a, that look feminine, but are masculine.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "So the day is:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "El día.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "And the days:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Los días.",
+      "lang": "es"
+    },
+    {
+      "text": "And every day is all the days. Before we said todo el tiempo to say all the time.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "If you want to say every day, you say all the days. How do you think that would sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good. Todos in plural.",
+      "lang": "en"
+    },
+    {
+      "text": "Todos los días.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. If you wanted to say, I’m staying for three days, I remain myself for three days three is tres. Tres.,",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "so how would you I’m staying for three days say that?:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me quedo por tres días..",
+      "lang": "es"
+    },
+    {
+      "text": "How would you say I will stay for three days, I will stay for three days. You don’t really need- you don’t need the will here. The fact is already some kind of a future context. The days didn’t happen yet, that you say for three days but let’s practice the future.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "So I will stay for three days:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "In both futures, we are adding on to the verb-",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Yes, we are pushing it into the future.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "So I will stay for three days:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me quedaré por tres días.",
+      "lang": "es"
+    },
+    {
+      "text": "So this sounds a little bit more certain, you know, when you use I’m staying for three days the future.",
+      "lang": "en"
+    },
+    {
+      "text": "Me quedo por tres días..",
+      "lang": "es"
+    },
+    {
+      "text": "Me quedaré por tres días.",
+      "lang": "es"
+    },
+    {
+      "text": "I will stay for three days.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "How would you say I would stay for three days? I would stay for three days. A nice hook to remember would is I would like or it would please me. This is a nice hook.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "So this is a nice hook to remember would, because it is something that is very common that you will use a lot.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "So what is that little bit you need for would that you can pluck out of",
+      "lang": "en"
+    },
+    {
+      "text": "me gustaría?",
+      "lang": "es"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Perfect.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "So I would stay for three days:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me quedaría por tres días.",
+      "lang": "es"
+    },
+    {
+      "text": "But, I have to work. Do you remember what is to work?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "We saw it very briefly?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Trabajar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Trabajar",
+      "lang": "es"
+    },
+    {
+      "text": "is t-r-a-b-a-j-a-r and that - jar makes / har /.",
+      "lang": "en"
+    },
+    {
+      "text": "Trabajar.",
+      "lang": "es"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "So, but I have to work:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "Yes, now all together. I would stay for three days, but I have to work. And not from memory, but thinking it through.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good. So, thinking it through again. Taking that time to think it through again.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "I would stay is the first bit:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "For three days:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "But, I have to work:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-full": [
+    {
+      "text": "Perfect.",
+      "lang": "en"
+    },
+    {
+      "text": "Me quedaría por tres días, pero tengo que trabajar.",
+      "lang": "es"
+    },
+    {
+      "text": "Perfect. Very good.",
+      "lang": "en"
+    }
+  ]
+}

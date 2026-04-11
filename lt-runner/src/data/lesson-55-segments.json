@@ -1,0 +1,972 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was the to have, that we use to go in the past?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Haber.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say I have cancelled? I have cancelled:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "He cancelado.",
+      "lang": "es"
+    },
+    {
+      "text": "And we said that the version of the verb that you get after",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "– you can use it like an adjective as well in Spanish, just as we do in English. For example in English we it’s cancelled could say. We use the same version, cancelled, that comes after",
+      "lang": "en"
+    },
+    {
+      "text": "haber.",
+      "lang": "es"
+    },
+    {
+      "text": "So we can do the same in Spanish. So, how would you say it is cancelled, and I remind you that the adjectives that we form in this way tend to go with estar, only with a few exceptions that are more flexible.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "So it is cancelled:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Está cancelado.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "What if we meant la fiesta, the party?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está cancelada.",
+      "lang": "es"
+    },
+    {
+      "text": "Fiesta, by the way is actually related to festival, festivity, we can see the e splitting between festival and fiesta.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "To complicate in Spanish, what’s complication?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Complicar complicar. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "If you want to say it has got complicated, it has got complicated, how do you think you will say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Se ha complicado.",
+      "lang": "es"
+    },
+    {
+      "text": "It has got complicated. It has complicated itself, we would say. Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So, the adjective complicated is:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Complicado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "So, you can say: It is complicated:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Es complicado.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Or?",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "Está complicado.",
+      "lang": "es"
+    },
+    {
+      "text": "Actually, with this one you can use either; there tends to be a tendency to go with estar with these types of adjectives, but with",
+      "lang": "en"
+    },
+    {
+      "text": "complicado",
+      "lang": "es"
+    },
+    {
+      "text": "you could say either.",
+      "lang": "en"
+    },
+    {
+      "text": "Es complicado, está complicado,",
+      "lang": "es"
+    },
+    {
+      "text": "depending on what you were talking about, you might feel more drawn to one or to the other, but most of the time they are going to be interchangeable here. We. Let’s start with can also make structures like should have, could have with this",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "should have., and it’s related to Now should, we take it from the verb to owe, which also we use like must English debt.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Deber. Deber.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So,",
+      "lang": "en"
+    },
+    {
+      "text": "deber",
+      "lang": "es"
+    },
+    {
+      "text": "is to owe or must. And if you say would owe you get should. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "how would you say I should?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good. So now we can say I should have canceled, and this have is to have.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "I should to have canceled:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Very good. I should have canceled.",
+      "lang": "en"
+    },
+    {
+      "text": "Debería haber cancelado.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "I should have canceled it:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo debería haber cancelado.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Where else could that lo go there?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Yeah,",
+      "lang": "en"
+    },
+    {
+      "text": "debería haberlo cancelado.",
+      "lang": "es"
+    },
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "What was could? So, we take to be able and we say would be able to get this could, this could that refers to future. So, what is to be able, related to power?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Poder.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So how would you say I would be able or I could?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "Okay,",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Podría.",
+      "lang": "es"
+    },
+    {
+      "text": "So, you could say something like I could have gone. I could have gone.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "What was to go?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Ir. And",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "what was gone, the version of to go after",
+      "lang": "en"
+    },
+    {
+      "text": "haber?",
+      "lang": "es"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "I could have gone:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Podría haber ido.",
+      "lang": "es"
+    },
+    {
+      "text": "We could have gone.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "We could have gone:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Podríamos haber ido.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, after",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "any version of",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "whether it’s form,",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "habría, any version of",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "it’s going to have – ado or –",
+      "lang": "en"
+    },
+    {
+      "text": "ido",
+      "lang": "es"
+    },
+    {
+      "text": "with the following verb. But some verbs are irregular and they don’t form their version after",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "in this way. So, to break, related to rupture in English, was romper. Now, this after",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "is not“rompido”, “rompido” doesn’t exist, it’s irregular, after",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "it’s roto: r-o-t-o, roto. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "how would you say I have broken it?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo he roto.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "I have broken them:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Los he roto.",
+      "lang": "es"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "What if you want to say it has broken? It has broken:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Se ha roto.",
+      "lang": "es"
+    },
+    {
+      "text": "It has broken itself. It has broken. Very good. If you had just said ha roto I would understand he, she, it or you (formal) has or have broken, and I would be waiting to hear",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "what was broken. So, we have roto instead of “rompido”, let’s say. Roto is the version of romper after",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "which means it will also count for the adjective. So, if you want to say it is broken, how would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Está roto.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "And if it was a feminine thing?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Está rota.",
+      "lang": "es"
+    },
+    {
+      "text": "To die is",
+      "lang": "en"
+    },
+    {
+      "text": "morir, morir.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "And the version after",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "muerto, muerto.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "How would you say he has died?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Ha muerto.",
+      "lang": "es"
+    },
+    {
+      "text": "And with",
+      "lang": "en"
+    },
+    {
+      "text": "morir",
+      "lang": "es"
+    },
+    {
+      "text": "you can hear it with se or without se, there is not really a lot of difference, sometimes the se doesn’t actually make a lot of difference -",
+      "lang": "en"
+    },
+    {
+      "text": "ha muerto,",
+      "lang": "es"
+    },
+    {
+      "text": "se",
+      "lang": "en"
+    },
+    {
+      "text": "ha muerto",
+      "lang": "es"
+    },
+    {
+      "text": "- you hear both. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "if you want to say he is dead, how do you think you would say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "We know that this type of adjective tends to go with:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Yes, but it doesn’t, it never goes with ser. So, some of these adjectives we form in this way can go, but this one can’t.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "So, firstly, how would that be, with ser he is dead?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Está muerto.",
+      "lang": "es"
+    },
+    {
+      "text": "So, complicated, for example, could go with ser and estar, but muerto can’t. Maybe it’s not just because they are this type of adjective, that dead will go with estar, maybe it is about the way Spanish perceives the world. To be dead is a state, that the soul goes through, let’s say, you don’t know what is the perception behind that, or, if it’s just going with estar because it’s one of these adjectives. So, they are interesting points to think about, and thinking about those points helps your memory, even if you are just looking out of interest and not coming to any conclusions. I’m dead",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "How would you say (and you can use this to mean tired)? This is quite common in oh, I’m dead. Spanish, if you are really tired, you can say",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Yes, feminine.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy muerta.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. You can say also I die myself here, like morirse, in all different kinds of circumstances, when something’s really funny, when you can’t believe something, in many different circumstances you could use that, you will hear it around, but let’s build it, let’s see how it would sound.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "So, to die,",
+      "lang": "en"
+    },
+    {
+      "text": "morir,",
+      "lang": "es"
+    },
+    {
+      "text": "I die myself, making this reflexive structure, how would it sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Me muero.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me muero.",
+      "lang": "es"
+    },
+    {
+      "text": "So, you will hear this all the time actually in Spanish, ay,",
+      "lang": "en"
+    },
+    {
+      "text": "me muero,",
+      "lang": "es"
+    },
+    {
+      "text": "maybe from embarrassment, maybe from laughter, maybe from disbelief, it’s a common thing –",
+      "lang": "en"
+    },
+    {
+      "text": "me muero.",
+      "lang": "es"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "To open in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "abrir, abrir.",
+      "lang": "es"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "Abrir.",
+      "lang": "es"
+    },
+    {
+      "text": "And if you want to say I have opened it, you say lo he abierto after",
+      "lang": "en"
+    },
+    {
+      "text": "haber,",
+      "lang": "es"
+    },
+    {
+      "text": "we have abierto. Another irregular one. Lo he abierto.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "No, good question though, good that you are thinking about that.",
+      "lang": "en"
+    },
+    {
+      "text": "Abrir",
+      "lang": "es"
+    },
+    {
+      "text": "is a-b-r-i-r.",
+      "lang": "en"
+    },
+    {
+      "text": "Abrir",
+      "lang": "es"
+    },
+    {
+      "text": "becomes abierto. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "how would you say it is open?",
+      "lang": "en"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está abierto.",
+      "lang": "es"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "How would you say they are open?",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "Están,",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Están abiertos.",
+      "lang": "es"
+    },
+    {
+      "text": "Decir and hacer, to say or to tell, decir, and to make or to do, hacer, also are irregular after",
+      "lang": "en"
+    },
+    {
+      "text": "haber.",
+      "lang": "es"
+    },
+    {
+      "text": "These two verbs are quite irregular in most places, we will pay them a little more attention later. So decir, to say or to tell, and hacer, to do and to make, are irregular after",
+      "lang": "en"
+    },
+    {
+      "text": "haber.",
+      "lang": "es"
+    },
+    {
+      "text": "Decir becomes dicho, dicho, and hacer becomes hecho; which is why they are nice to see together, because they both have this / ch / sound. Decir becomes dicho, and hacer becomes hecho. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "how would you say I have said it? I have said it:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo he dicho.",
+      "lang": "es"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "And what if you wanted to say I have told him?",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "But what we want here is not him; what want here is to him.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "I have told to him:",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Le he dicho.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "We have told him:",
+      "lang": "en"
+    }
+  ],
+  "turn-87-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Le hemos dicho.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Interestingly, dicho is also a noun. We said that some version of the verb can form the noun; sometimes it’s the “to” form, sometimes it’s the “I” form, sometimes it’s the “he, she, it” form. Here it’s this form. Un dicho is a saying, a saying. Hacer after",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "becomes hecho. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "how would you say I have done it or I have made it?",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo he hecho.",
+      "lang": "es"
+    },
+    {
+      "text": "I should have done it. I should have done it.",
+      "lang": "en"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "I should:",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "I should have done it:",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Yes!",
+      "lang": "en"
+    },
+    {
+      "text": "Debería haberlo hecho.",
+      "lang": "es"
+    },
+    {
+      "text": "Of course we can put the lo there because we have",
+      "lang": "en"
+    },
+    {
+      "text": "haber",
+      "lang": "es"
+    },
+    {
+      "text": "in the “to” form.",
+      "lang": "en"
+    },
+    {
+      "text": "Debería haberlo hecho",
+      "lang": "es"
+    },
+    {
+      "text": "or lo",
+      "lang": "en"
+    },
+    {
+      "text": "debería haber",
+      "lang": "es"
+    },
+    {
+      "text": "hecho. Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "You should have done it (informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-95-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Deberías haberlo hecho.",
+      "lang": "es"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "How would you say it is done? It is done:",
+      "lang": "en"
+    }
+  ],
+  "turn-97-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está hecho.",
+      "lang": "es"
+    },
+    {
+      "text": "You might also see this used like hecho en China, made in China, or hecho en España, made in Spain, you will see this on products, should be a nice reminder. So, hecho as an adjective, made or done,",
+      "lang": "en"
+    },
+    {
+      "text": "está hecho,",
+      "lang": "es"
+    },
+    {
+      "text": "it is done, it is made; but, it can also be a noun: un hecho,, and it’s actually connected to the word un hecho is a fact fact, even though they look so different. ’s and ’s, because There is in Spanish and English what we can call a kind of grey area between h f ’s became silent ’s, just as in a phonetic change that occurred in Spanish many f h hecho is from, so “faire”, like in French, if you know some French, is hacer, fact is from to do to do, and fact is related to “faire”, just as hecho is related to hacer. And we can find some other connections between this f and this silent h, between English and Spanish. For example in English we have fable, a fable is a story, and a story is spoken, and from there we see the relation with hablar. Fable, hablar. We have fugitive, which is the same root as huir, h-u-i-r, huir, which means to escape or to run away in Spanish. We have hermano or hermana in Spanish, brother or sister, spelled h-e-r-m-a-n-o, or with an a on the end for hermana, and there we see the connection with fraternal. Hembra, which means female, h-e-m-b-r -a. Even within Spanish you can see this ’s and the ’s. For example you have phenomenon of the h f iron which is hierro, h-i-e-r-r-o, hierro, iron, and then you get ferrocarril, which means railways, so they look totally unrelated, but if you know that the f became the silent h and that the e split into ie you can see the connection between hierro and ferrocarril. You have profundo, profundo, profound, in Spanish, as you do in English, and then you have hondo, which means deep, so hondo is the “fundo” bit of profundo, but with some changes, hondo, h-o-n-d-o to mean deep. Fumar means to smoke. And then humo, h-u-m-o, is smoke, like a noun, el humo, the smoke. So there are some interesting things we can ’s and ’s. Also you can find between English and Spanish and within Spanish itself with these f h look out for some connections with other letters, you will find other pairs of letters like this, for ’s and ’s – you get example w g war in English and guerra in Spanish, William in English and Guillermo in Spanish. So this is an interesting thing to keep an eye out for to make connections between vocabulary and, of course, in this way aid your memory.",
+      "lang": "en"
+    }
+  ]
+}

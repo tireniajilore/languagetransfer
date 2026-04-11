@@ -1,0 +1,996 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Para, this for, para, can also mean in order to, in order to. So in a sentence, for example, We have spoken in order to resolve it. We have spoken in order to resolve it. Now in English we could just, no? We don’t need to say say We have spoken to resolve it in order to. But whenever we have this to meaning in order to, we want to translate this as para in Spanish. So let’s make this sentence. First bit is We have spoken. We have spoken:",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Hemos hablado.",
+      "lang": "es"
+    },
+    {
+      "text": "To resolve it – in order to resolve it. Now, to resolve is resolver. Ah? The same word, resolver.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So We have spoken in order to resolve it:",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Hemos hablado para resolverlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So whilst the to of to resolve, resolver, would fit nicely here, I mean if we were to translate directly from English, We have spoken to resolve it, it doesn’t work in Spanish. Whenever this to means in order to, we must put that para.",
+      "lang": "en"
+    },
+    {
+      "text": "Hemos hablado para resolverlo.",
+      "lang": "es"
+    },
+    {
+      "text": "You could say We have spoken in order to try to resolve it.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "What was to try? Related to intention:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "We have spoken in order to try to resolve it:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Hemos hablado",
+      "lang": "es"
+    },
+    {
+      "text": "para",
+      "lang": "en"
+    },
+    {
+      "text": "intentar",
+      "lang": "es"
+    },
+    {
+      "text": "resolverlo. So only when the to implies in order to we want. The “to” to put para form of the verb in Spanish is not enough to include that meaning. We must I’m here to see you I’m here in order put para. So for example,",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "if you want to say, does it mean to see you?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "So I am here to see you (informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy aquí para verte.",
+      "lang": "es"
+    },
+    {
+      "text": "This is also something we could learn or interiorize through the negative language transfer that some Spanish speakers make when they speak English. For example, you might hear a Spanish speaker say I am here for see you or for seeing you. You might hear a Spanish speaker, especially with basic English, making this mistake. Now once you’ve heard that a few times, you would say, “Oh, maybe this is how you say it in Spanish.” So we don’t want to forget this opportunity, the opportunity to learn from the negative language transfer, the mistakes that Spanish speakers make in English, which originate from Spanish. Once you hear the same mistake a few times, you can assume it probably comes from Spanish. I have called you in order to speak about it: so the first bit is",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "I have called you, I have phoned, I have called (informally):",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "In order to speak about it:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "No.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Te he llamado",
+      "lang": "en"
+    },
+    {
+      "text": "para hablarlo.",
+      "lang": "es"
+    },
+    {
+      "text": "So if we take the sentence in English, I have called you to speak about it, and we translate it directly, then we will say Te he llamado hablarlo. But when our to means in order to, we must put this para. Te he llamado",
+      "lang": "en"
+    },
+    {
+      "text": "para hablarlo.",
+      "lang": "es"
+    },
+    {
+      "text": "I have called you in order to speak about it. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "What was to be, for states?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Estar.",
+      "lang": "es"
+    },
+    {
+      "text": "And we said that we can use this to express when we are doing something right now. We can say, instead of I eat, como, I am eating, using this structure with",
+      "lang": "en"
+    },
+    {
+      "text": "estar",
+      "lang": "es"
+    },
+    {
+      "text": "and then the - ing form of the verb. Do you remember how you would get the - ing form of",
+      "lang": "en"
+    },
+    {
+      "text": "comer,",
+      "lang": "es"
+    },
+    {
+      "text": "for example?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "Of – er or – ir verbs?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Comiendo.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Comiendo.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "So we add on - iendo for verbs and for – ar verbs we add on?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So how would you say I am eating?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Estoy comiendo.",
+      "lang": "es"
+    },
+    {
+      "text": "And this means right now,",
+      "lang": "en"
+    },
+    {
+      "text": "no?",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "I am speaking:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Estoy hablando.",
+      "lang": "es"
+    },
+    {
+      "text": "I am explaining it: to explain – we would go from explanation but explanation is an exception. It’s not “explanación” in Spanish as we might hope, it’s",
+      "lang": "en"
+    },
+    {
+      "text": "explicación.",
+      "lang": "es"
+    },
+    {
+      "text": "And we see we even have that / k / sound in explain,",
+      "lang": "en"
+    },
+    {
+      "text": "explicación,",
+      "lang": "es"
+    },
+    {
+      "text": "we have it in English as well in inexplicable, for example we say in English. Inexplicable in Spanish. So we can see where that sound’s coming from.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So how is explanation or explication in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And to explain:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Explicar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "So and you mean right now?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Estoy explicándolo.",
+      "lang": "es"
+    },
+    {
+      "text": "Lo estoy explicando. The lo can go on the end of a “to” form, but it can also go on the end of one of these",
+      "lang": "en"
+    },
+    {
+      "text": "- ando",
+      "lang": "es"
+    },
+    {
+      "text": "or - iendo forms as well. So you have the option. Lo estoy explicando.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy explicándolo.",
+      "lang": "es"
+    },
+    {
+      "text": "And you mean right now. Actually in",
+      "lang": "en"
+    },
+    {
+      "text": "explicar,",
+      "lang": "es"
+    },
+    {
+      "text": "we get this - plicar from “plicare“ that we mentioned before, meaning to fold in Latin. So",
+      "lang": "en"
+    },
+    {
+      "text": "explicar,",
+      "lang": "es"
+    },
+    {
+      "text": "to I’m taking a Spanish course. Even if you’re not in the explain, to unfold. You might want to say course right now in this moment, when we are taking a course, in our minds there’s a period of I’m time in which we are taking a course and when we say it we’re in that period of time. If I say, maybe I mean for three months and I’m in that period. Do you remember taking a Spanish course what to take was? We used it with to take a photo.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Tomar.",
+      "lang": "es"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Tomar.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "tomar",
+      "lang": "es"
+    },
+    {
+      "text": "is to take.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "So I am taking:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy tomando.",
+      "lang": "es"
+    },
+    {
+      "text": "A course",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Close. It’s not with, it’s with a o.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "Un curso, with a u. Un curso. Good. Of Spanish, this is how you would say a Spanish course, a course of Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy tomando un curso de español.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now, what if we put this estoy in the past tense that we learnt? The past tense that is - aba or - ía.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "I was taking a Spanish course:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estaba tomando un curso de español.",
+      "lang": "es"
+    },
+    {
+      "text": "Which means we actually have two ways of saying I was taking. We can say estaba tomando or we can just use",
+      "lang": "en"
+    },
+    {
+      "text": "tomar",
+      "lang": "es"
+    },
+    {
+      "text": "and use that line in the past.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "How would that sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "es"
+    },
+    {
+      "text": "So both",
+      "lang": "en"
+    },
+    {
+      "text": "tomaba",
+      "lang": "es"
+    },
+    {
+      "text": "and estaba tomando mean I was taking. So you have that option.",
+      "lang": "en"
+    },
+    {
+      "text": "Estaba tomando un curso de español",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "tomaba un curso de español.",
+      "lang": "es"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "What was to eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Comer.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "How would you say I was eating?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Comía.",
+      "lang": "es"
+    },
+    {
+      "text": "Or?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "How else could you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "So you have this option.",
+      "lang": "en"
+    },
+    {
+      "text": "Comía",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "estaba comiendo",
+      "lang": "es"
+    },
+    {
+      "text": "sometimes one might fit slightly better than the other and it’s something you will pick up very naturally when you’re practicing. So if in one situation people tend to use",
+      "lang": "en"
+    },
+    {
+      "text": "estaba comiendo",
+      "lang": "es"
+    },
+    {
+      "text": "rather than",
+      "lang": "en"
+    },
+    {
+      "text": "comía,",
+      "lang": "es"
+    },
+    {
+      "text": "you will pick it up. So we have",
+      "lang": "en"
+    },
+    {
+      "text": "- ando",
+      "lang": "es"
+    },
+    {
+      "text": "and - iendo to form this - ing. And we saw in Spanish that we don’t use it after prepositions. You don’t use this - ing either if you say something. You don’t use the - like swimming is healthy or running is healthy ing there either. You will just say to run is healthy, to swim is healthy. If you hear people toast in Spanish you might hear them say salud, which means health. Healthy is saludable.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "To dance is healthy:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Bailar es saludable.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. To swim is nadar. Nadar.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "To swim is healthy:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Nadar es saludable.",
+      "lang": "es"
+    },
+    {
+      "text": "So we’re seeing that we don’t use the - ing in Spanish as much as we do in English. Sometimes in English we make an adjective with - ing. We go from to interest to interesting. When we do this in English, this - ing that we use in English to form an adjective, in Spanish it’s - –er/-ir ante for – ar verbs and - iente for verbs. So for example, we have to interest,",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "what was to interest?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Interesar.",
+      "lang": "es"
+    },
+    {
+      "text": "So if you get rid of - ar and you put - ante, you get that - ing adjective, interesting.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "So how would you say interesting?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Interesante.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So when you make an adjective with - ing in English from the verb, you can just replace it with - ante or - iente.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "How would you say to irritate in Spanish? And you can go from irritation:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Irritar. So",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "if you want to say irritating:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Irritante.",
+      "lang": "es"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "It is irritating:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Es irritante.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "How would you say to frustrate in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "Frustrar.",
+      "lang": "es"
+    }
+  ],
+  "turn-77-reveal": [
+    {
+      "text": "Yes,",
+      "lang": "es"
+    },
+    {
+      "text": "because you have the two r's,",
+      "lang": "en"
+    },
+    {
+      "text": "no?",
+      "lang": "es"
+    },
+    {
+      "text": "Frustrate. Frustrate,",
+      "lang": "en"
+    },
+    {
+      "text": "Frustrar.",
+      "lang": "es"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "Frustrating:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "Frustrante.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. To wane, to wane, to reduce in size, in Spanish this is",
+      "lang": "en"
+    },
+    {
+      "text": "menguar. Menguar.",
+      "lang": "es"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "When the moon gets smaller, it’s waning. And the moon is",
+      "lang": "en"
+    },
+    {
+      "text": "la luna.",
+      "lang": "es"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "La luna.",
+      "lang": "es"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "So how would you say the waning moon?",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Good. So there we’re making waning like an adjective, not like the verb, not menguando. Ah? Menguante,",
+      "lang": "en"
+    },
+    {
+      "text": "la luna menguante.",
+      "lang": "es"
+    },
+    {
+      "text": "Luna is an interesting word. I don’t know if you ever noticed, like, in English Monday is “moon day”. It’s not very obvious in English that the days of the week relate back to the planets. But in Spanish it’s very obvious. You have",
+      "lang": "en"
+    },
+    {
+      "text": "la luna,",
+      "lang": "es"
+    },
+    {
+      "text": "the moon, and then you have lunes, Monday. Tuesday is martes. And Mars is marte, planeta marte. Wednesday in Spanish is miércoles.",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "What planet does that sound like?",
+      "lang": "en"
+    }
+  ],
+  "turn-87-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "es"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "Jueves in Spanish is spelt with a j:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-reveal": [
+    {
+      "text": "Jupiter.",
+      "lang": "es"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "Viernes is Friday:",
+      "lang": "en"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "Venus.",
+      "lang": "es"
+    },
+    {
+      "text": "So you can see much clearer there how our days of the week are named after planets. To live was",
+      "lang": "en"
+    },
+    {
+      "text": "vivir.",
+      "lang": "es"
+    },
+    {
+      "text": "V-i-v-i-r. So",
+      "lang": "en"
+    },
+    {
+      "text": "vivir",
+      "lang": "es"
+    },
+    {
+      "text": "is to live.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "We have two “to be”s, we have",
+      "lang": "en"
+    },
+    {
+      "text": "estar",
+      "lang": "es"
+    },
+    {
+      "text": "for states, and for characteristics we have?",
+      "lang": "en"
+    }
+  ],
+  "turn-95-reveal": [
+    {
+      "text": "Ser.",
+      "lang": "es"
+    },
+    {
+      "text": "And we said that un",
+      "lang": "en"
+    },
+    {
+      "text": "ser,",
+      "lang": "es"
+    },
+    {
+      "text": "un",
+      "lang": "en"
+    },
+    {
+      "text": "ser,",
+      "lang": "es"
+    },
+    {
+      "text": "means a being, that we can use",
+      "lang": "en"
+    },
+    {
+      "text": "ser",
+      "lang": "es"
+    },
+    {
+      "text": "like a noun and we get a being.",
+      "lang": "en"
+    }
+  ],
+  "turn-95-prompt": [
+    {
+      "text": "So a human being is?",
+      "lang": "en"
+    }
+  ],
+  "turn-97-reveal": [
+    {
+      "text": "Un ser humano.",
+      "lang": "es"
+    }
+  ],
+  "turn-97-prompt": [
+    {
+      "text": "You could also say a living being, a living being:",
+      "lang": "en"
+    }
+  ],
+  "turn-99-prompt": [
+    {
+      "text": "How do you get this –",
+      "lang": "en"
+    }
+  ],
+  "turn-101-reveal": [
+    {
+      "text": "You could say un",
+      "lang": "en"
+    },
+    {
+      "text": "ser vivo. Vivo",
+      "lang": "es"
+    },
+    {
+      "text": "is also like an adjective, which means alive. But living is adjective –er/-ir that we make with - ing. We can build it from",
+      "lang": "en"
+    },
+    {
+      "text": "vivir.",
+      "lang": "es"
+    }
+  ],
+  "turn-101-prompt": [
+    {
+      "text": "For – ar verbs we have - ante and for verbs we have - iente.",
+      "lang": "en"
+    }
+  ],
+  "turn-103-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Un ser viviente.",
+      "lang": "es"
+    },
+    {
+      "text": "A living being.",
+      "lang": "en"
+    }
+  ],
+  "turn-103-prompt": [
+    {
+      "text": "What was to go out or to leave?",
+      "lang": "en"
+    }
+  ],
+  "turn-105-prompt": [
+    {
+      "text": "To go out or to leave to r.",
+      "lang": "en"
+    }
+  ],
+  "turn-107-reveal": [
+    {
+      "text": "Salir. Now we have in English, you might have heard, salient, which means kind of protruding or outstanding, or something that stands out or sticks out or protrudes. This is a Latin-English version of this - ante /- iente rule. So we can see it even in English. How would salient be in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-107-prompt": [
+    {
+      "text": "You can go from salient or you can go from salir.",
+      "lang": "en"
+    }
+  ],
+  "turn-109-full": [
+    {
+      "text": "Saliente.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

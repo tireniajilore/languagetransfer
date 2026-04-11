@@ -1,0 +1,366 @@
+{
+  "lessonId": "lesson-08",
+  "generatedAt": "2026-04-11T13:54:32.019Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "What was the word for 'it', 'him', or 'you' (formal)?",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "d6e1e6398130c40220b760ab5749eb2b174482a08085318f5f4679bfadf5f9a8"
+        }
+      ]
+    },
+    "turn-3-reveal": {
+      "segments": [
+        {
+          "text": "Lo. To make it feminine, change the 'o' to 'a', giving us la. This means 'her', 'it' (for feminine nouns), or 'you' (formal, feminine). For example, 'casa' (house) is feminine.",
+          "lang": "en",
+          "file": "turn-3-reveal-1.mp3",
+          "hash": "edc6824b3527e54969c10da2189992ceb5af0eceb35f6f07b7caf0737a36089a"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I want to see it', referring to the house?",
+          "lang": "en",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "3cef25189acd4a71f201cbb867da3e319626f82972cfa425708375aa2607af8c"
+        }
+      ]
+    },
+    "turn-5-reveal": {
+      "segments": [
+        {
+          "text": "Quiero verla.",
+          "lang": "es",
+          "file": "turn-5-reveal-1.mp3",
+          "hash": "16f79366009e2c3b6a86d1faded1c8ec33c1eb2faecaff8f3d582550857fd3c5"
+        },
+        {
+          "text": "This could also mean 'I want to see her'. 'La' could mean 'her', 'it', or 'you' (formal, feminine). The use of formal language varies by region, so it's safe to start formally with 'lo' or 'la'. 'Quiere' means 'he wants', 'she wants', 'it wants', or 'you (formal) want'.",
+          "lang": "en",
+          "file": "turn-5-reveal-2.mp3",
+          "hash": "b5349e20c25b5448ff148b6f0ddd13073121cd9ee2f687fdf2afb718c1f87776"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'you want to visit me'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "79ebdf3c2f3e833360905dda6c879415a3413ab43c08da26f1acb0885babe228"
+        }
+      ]
+    },
+    "turn-7-reveal": {
+      "segments": [
+        {
+          "text": "Quiere visitarme.",
+          "lang": "es",
+          "file": "turn-7-reveal-1.mp3",
+          "hash": "59e2197686f3836fc01e7f9439de6e176b336bb7bad3a2761784fea1693b085c"
+        },
+        {
+          "text": "To make it a question, just change your intonation.",
+          "lang": "en",
+          "file": "turn-7-reveal-2.mp3",
+          "hash": "2e71a32d05f4f0d244e289c3b2a1408228eebf4bace66fa2a27692aee9da3399"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'Do you want to visit me?'",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "088ffa1641261e9a3c7d918cb6444dda6465bb39177e6ca38e0385a5829df418"
+        }
+      ]
+    },
+    "turn-9-reveal": {
+      "segments": [
+        {
+          "text": "¿Quiere visitarme?",
+          "lang": "en",
+          "file": "turn-9-reveal-1.mp3",
+          "hash": "e5e56908f4db81ec664c960f251e8c446ed64ed17d808ec2a4ae10445bf4d770"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'You don't want to visit me'?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "accd03573c654cc63777182c39a0c1eeeb89312a593b9d584745d9b1cf424280"
+        }
+      ]
+    },
+    "turn-11-reveal": {
+      "segments": [
+        {
+          "text": "No quiere visitarme.",
+          "lang": "es",
+          "file": "turn-11-reveal-1.mp3",
+          "hash": "eb8b8c19eaf9a926bdf563d066d78fd100b09dd4a6391372d94169d18ffbc17f"
+        },
+        {
+          "text": "Now,",
+          "lang": "en",
+          "file": "turn-11-reveal-2.mp3",
+          "hash": "ea54001f451067939afbbbc76dcf654ce5519dba8d14c4652e1c1194cd5b3545"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "how would you ask 'Don't you want to visit me?'",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "dc2fc2a75eb38b262a111156291785380f96d6a37c428d128433c8615764c5b2"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "¿",
+          "lang": "en",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "fa55a98180355c6ce04dbab7286f1b9e99d5e5dc58346659583e21f2b9cc3c50"
+        },
+        {
+          "text": "No quiere visitarme?",
+          "lang": "es",
+          "file": "turn-13-reveal-2.mp3",
+          "hash": "3cda71ed84aa744f0bf11fdd5790f782c21789554338f5466148e2c6a1d8a5b4"
+        },
+        {
+          "text": "You can add 'why' with 'por qué'.",
+          "lang": "en",
+          "file": "turn-13-reveal-3.mp3",
+          "hash": "7fbba9b8a4080ca48d47e4f064bd1589cdf7db0e5a7387266c94d8981aeb52ad"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "How would you ask 'Why don't you want to visit me?'",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "a3eb0ddf558f30e1713297ce524d43a556a785e780a1016d2dbc8eab196f7696"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "¿Por qué",
+          "lang": "en",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "d35657e437c346ea7363bb3bbe95aa1ed39c23cb8a6ba19150fbef8da3cccad1"
+        },
+        {
+          "text": "no quiere visitarme?",
+          "lang": "es",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "913138e83e17a31fe46e672a2b7a3dc60c4a6b7d8ed052f1900fe7bcd816b768"
+        },
+        {
+          "text": "The verb 'to come' is 'venir'.",
+          "lang": "en",
+          "file": "turn-15-reveal-3.mp3",
+          "hash": "86d54b87c0c673a532a3ef5932c054e29929ab787f1334ec5493922e901a1160"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'Do you want to come?'",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "c832258f7dc17a9f56bcc40ec50c16a112bfb648911fa10d4e5072280678c36b"
+        }
+      ]
+    },
+    "turn-17-reveal": {
+      "segments": [
+        {
+          "text": "¿Quiere venir? 'Venir' is related to 'bienvenido' (welcome).",
+          "lang": "en",
+          "file": "turn-17-reveal-1.mp3",
+          "hash": "4813aae5f7fe61c36a7f2fa042e72112bd5717b7520167944f21b3adb0d1b0ec"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'Do you want to come to the house?'",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "633d362b084f682a049830ae0c78251d55ef734ee059e99fe9e6e2e6bedeb344"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "¿Quiere venir a la casa? How about 'Do you want to come to visit me?'",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "822fe5779b36a28955a7461b5e3bafed431744798e777309d414cae2b3acef6f"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "¿Quiere venir a visitarme? Now, 'Don't you want to come to visit me?'",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "c40d889268e01d7bb91799fe5934f154b29ea6260a7b01a0d3377d2883cae56e"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "¿",
+          "lang": "en",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "fa55a98180355c6ce04dbab7286f1b9e99d5e5dc58346659583e21f2b9cc3c50"
+        },
+        {
+          "text": "No quiere venir a visitarme?",
+          "lang": "es",
+          "file": "turn-23-reveal-2.mp3",
+          "hash": "88f47a80d23ea6cc5b8f0cf1714f933fd60d94e67f71698af9559699ded0fb6c"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How would you ask 'Why don't you want to come to visit me?'",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "cfca8dd59d0ad4e09ca536a8d36a9a0e815f090ab9b2752276b4336f894035ef"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "¿Por qué",
+          "lang": "en",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "d35657e437c346ea7363bb3bbe95aa1ed39c23cb8a6ba19150fbef8da3cccad1"
+        },
+        {
+          "text": "no quiere venir a visitarme?",
+          "lang": "es",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "20b4dd4f2d704b9e31cda1c3fbff5876b4bb20cbe0cbb47a3b95a26c77b89edb"
+        },
+        {
+          "text": "The word 'debo' means 'I owe' or 'I must'.",
+          "lang": "en",
+          "file": "turn-25-reveal-3.mp3",
+          "hash": "20eb422c8274874d3c8296c6f04de1b7f4f0fa4277fe9f3aef457e37df7fe098"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I must continue'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "fcac37e22e069c4275fb5711c9639cd2ce258c3cb04cfa25ef42303986f24b74"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I must identify it'?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "06cfe0fd179b0de4deef93b1e5872fefc92e7b7b5adea73d600e4d134da9edbc"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Debo identificarlo.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "c7771bfa23c1030fa386954fc5ea218970c853d3087fd081fa1f3d447a83c981"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "For feminine objects, what change would you make?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "7c602f2d003a7be95bbf8d1fd935be9c23b27b4b6c3b6181d52962bf347a977b"
+        }
+      ]
+    },
+    "turn-31-full": {
+      "segments": [
+        {
+          "text": "Good. Debo identificarlas.",
+          "lang": "en",
+          "file": "turn-31-full-1.mp3",
+          "hash": "34c1d0770847ea2e735e62a665c51b1f1ab4feafdd944173084d40024ef7b587"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to use 'lo' and 'la' for direct objects and formal address in Spanish.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "11ad8faeec28c3783bdc113377361a2661b9869330648f0705a78eac66c8d011"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try forming questions using 'quieres' and 'por qué'. Practice with different verbs and objects.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "280e14282ecceabb471dce04d00f6bb0f00859aab0bb9f542737d76eacd24f53"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Remember, intonation is key for forming questions in Spanish. Practice changing statements into questions.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "f07060a4bfd752aa9d61bc6d4afa51d397687e0d77b4212806d395a53f0241e2"
+        }
+      ]
+    }
+  }
+}

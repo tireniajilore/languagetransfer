@@ -1,0 +1,662 @@
+{
+  "turn-1-full": [
+    {
+      "text": "We have one more time in Spanish to learn, one more verb time, and that’s the point in the past. The one that usually we would express with - ed in English: wanted, walked, or, you know, the. This is the point in the past and it’s much more random than the other irregular versions: ran, ate tenses that we looked at. The point in the past is a little bit more messy, but we will find some logic in it, just not the same one that we’ve been seeing until now. So, we will practice with",
+      "lang": "en"
+    },
+    {
+      "text": "hablar",
+      "lang": "es"
+    },
+    {
+      "text": "for – ar verbs and with comer for – er/ - ir verbs, and we will use these verbs as our hooks that we can look back to when we need to remember one of these endings. So, I spoke, I spoke, is",
+      "lang": "en"
+    },
+    {
+      "text": "hablé, hablé.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "Can you tell me what I did there then to get I spoke from to speak, from",
+      "lang": "en"
+    },
+    {
+      "text": "hablar?",
+      "lang": "es"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Anything else?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Perfect.",
+      "lang": "en"
+    },
+    {
+      "text": "Hablé.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, that’s I spoke. And he/she/it or you (formal) spoke is",
+      "lang": "en"
+    },
+    {
+      "text": "habló, habló.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "And what did I do there to get",
+      "lang": "en"
+    },
+    {
+      "text": "habló",
+      "lang": "es"
+    },
+    {
+      "text": "from",
+      "lang": "en"
+    },
+    {
+      "text": "hablar?",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "Okay, and what else?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good. So, remember when we said how important the accent was in the present, because if you stress HA-blo, I speak, if you stress it wrong we said that we will get this version in the past, I didn’t speak ha-BLÓ, he/she/it and you (formal) spoke.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "What was:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "I",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "No hablé.",
+      "lang": "es"
+    },
+    {
+      "text": "And that might happen to you often, because we have such strong connection between, but in this point in the past it’s / he didn’t speak she didn’t speak / o / and I e /.",
+      "lang": "en"
+    },
+    {
+      "text": "No hablé.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "And or or didn’t speak you (formal):",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "No habló.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "What was to buy?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good,",
+      "lang": "en"
+    },
+    {
+      "text": "comprar",
+      "lang": "es"
+    },
+    {
+      "text": "just run a little check and change the ending: “comprir”, “comprer”,",
+      "lang": "en"
+    },
+    {
+      "text": "comprar,",
+      "lang": "es"
+    },
+    {
+      "text": "and the one that you heard before is going to be the one that jumps out at you:",
+      "lang": "en"
+    },
+    {
+      "text": "comprar.",
+      "lang": "es"
+    },
+    {
+      "text": "So,",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "how would you say I bought?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Compré.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "And I bought it:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "Lo compré.:",
+      "lang": "es"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No lo compré.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "He bought it:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Lo compró.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "He bought it for me:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good, we don’t need the for. Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me lo compró.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "We could use the for, if we wanted, if we wanted to emphasize or stress that it’s for me, so, how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo compró para mi.",
+      "lang": "es"
+    },
+    {
+      "text": "To send in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "enviar.",
+      "lang": "es"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "So we have envoy from this in English.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Is that from there?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Or is it from envelop, like to encapsulate, you have encapsulate, envelop need to know when we consider these things, just considering it helps us remember that word and if you are particularly curious there are, I mean, to check, there are some very good online free resources, for example, etymonline.com, is an excellent free etymological dictionary, where you can check any word you have a curiosity for. So",
+      "lang": "en"
+    },
+    {
+      "text": "enviar,",
+      "lang": "es"
+    },
+    {
+      "text": "to send.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "I sent:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Exactly.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "I sent it:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "I sent it to you, speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "Good.:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No te lo envié.",
+      "lang": "es"
+    },
+    {
+      "text": "The word for still or yet, the same word in Spanish, still or yet, is",
+      "lang": "en"
+    },
+    {
+      "text": "todavía, todavía.",
+      "lang": "es"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Which is actually the combination of todo, here toda, in feminine, meaning all, and vía, like via, so it’s “all the way”. But of course no Spanish speaker hears that, when they in English, is a way, we don’t think that that’s built of hear",
+      "lang": "en"
+    },
+    {
+      "text": "todavía,",
+      "lang": "es"
+    },
+    {
+      "text": "just like when we say expressions like as well as and well. So, the words, sometimes the small words we build these bigger words out of in English and in Spanish, don’t make much sense to us most of the time, but for a learner it’s useful for you, because it’s long and you might find it difficult to remember, and if to divide a word like",
+      "lang": "en"
+    },
+    {
+      "text": "todavía",
+      "lang": "es"
+    },
+    {
+      "text": "you identify that it’s, even if that doesn’t really make any sense with the meaning of toda and vía yet and still, it’s gonna help you internalize that vocabulary.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "So, yet or still:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "Todavía.,",
+      "lang": "es"
+    },
+    {
+      "text": "still speaking informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No te lo envié todavía.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "What was he sent or she sent or you (formal) sent, it sent?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Envió.",
+      "lang": "es"
+    },
+    {
+      "text": "Yesterday, the word for yesterday was",
+      "lang": "en"
+    },
+    {
+      "text": "ayer,",
+      "lang": "es"
+    },
+    {
+      "text": "a-y-e-r.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good. So,",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "how would you say he sent it yesterday?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo envió ayer.",
+      "lang": "es"
+    },
+    {
+      "text": "He sent it yesterday, she sent it yesterday, you (formal) sent it yesterday.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "If you want to say it was sent yesterday, this kind of structure in English where we don’t say who did it, we just say it was sent yesterday, how do you think you might say that in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "Think first, the structure in English, what you will say in Spanish, but in English.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Exactly.",
+      "lang": "en"
+    },
+    {
+      "text": "It sent itself.",
+      "lang": "es"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "So what is it sent?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "Okay,",
+      "lang": "en"
+    },
+    {
+      "text": "It sent itself:",
+      "lang": "es"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "Yes,",
+      "lang": "es"
+    },
+    {
+      "text": "and you are dying to put the lo there, right?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "So, this is the intuition because you have it sent in your mind, but if you don’t succumb to that, okay, then you don’t get intuition and you work mechanically it sent,",
+      "lang": "en"
+    },
+    {
+      "text": "envió, it sent itself, se envió",
+      "lang": "es"
+    },
+    {
+      "text": "lo, because you don’t need it.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "So,",
+      "lang": "en"
+    },
+    {
+      "text": "it sent itself",
+      "lang": "es"
+    },
+    {
+      "text": "yesterday, it was sent yesterday:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Se envió ayer.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Again,",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "what was to speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "Good, and I spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "Good, and he spoke:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "He spoke with me:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Habló conmigo.",
+      "lang": "es"
+    },
+    {
+      "text": "I don’t know why speak with me.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "So, the first bit is:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No sé por qué no habló conmigo.",
+      "lang": "es"
+    },
+    {
+      "text": "To forget is",
+      "lang": "en"
+    },
+    {
+      "text": "olvidar, olvidar.",
+      "lang": "es"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "That means to forget. And the noun, olvido The, like the experience of forgetting, I don’t think we have a word forgetting, el olvido, the process like this in English, and you will hear it a lot in songs especially in Spanish, especially tango, if you listen to tangos, they speak about falling in love and forgetting, not ever falling out of love, only el olvido.",
+      "lang": "en"
+    },
+    {
+      "text": "Olvidar,",
+      "lang": "es"
+    },
+    {
+      "text": "to forget.",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "How would you say I forgot?",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "And he forgot:",
+      "lang": "en"
+    }
+  ],
+  "turn-89-prompt": [
+    {
+      "text": "I was going to do it, but I forgot it. I was going to do it, but I forgot it. So, the first bit is I was, this is your line in the past, and it’s one of the three irregular verbs that we have in the line going of the past.",
+      "lang": "en"
+    }
+  ],
+  "turn-91-reveal": [
+    {
+      "text": "Iba.",
+      "lang": "es"
+    }
+  ],
+  "turn-91-prompt": [
+    {
+      "text": "So, I was going to do it:",
+      "lang": "en"
+    }
+  ],
+  "turn-93-prompt": [
+    {
+      "text": "But I forgot it:",
+      "lang": "en"
+    }
+  ],
+  "turn-95-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Lo iba a hacer pero lo olvidé.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

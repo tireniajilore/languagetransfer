@@ -1,0 +1,784 @@
+{
+  "turn-1-full": [
+    {
+      "text": "To call in Spanish, so to call to somebody and also to make a phone call is",
+      "lang": "en"
+    },
+    {
+      "text": "llamar.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "L-l, and we said this double l creates a / yuh / sound in most Spanish dialects just like the y. L-l-a- m-a-r.",
+      "lang": "en"
+    },
+    {
+      "text": "Llamar.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good. And we said that in Spanish you don’t tend to say my name is or I am called, you say I call myself to introduce yourself.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "So how would you say I call myself?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Me llamo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And if you want to ask somebody what their name is, you could say how do you call yourself? So let’s do this informally. How do you call yourself?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "What was the word for how?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "Cómo.",
+      "lang": "es"
+    },
+    {
+      "text": "How do you call yourself?:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cómo te llamas?",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How would you say how does she call herself? What is her name?:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cómo se llama?",
+      "lang": "es"
+    },
+    {
+      "text": "Imagine you heard her name once before and you wanted to say",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "what was she called? How was she calling herself?:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cómo se llamaba?",
+      "lang": "es"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "What was her name, what was his name, or what was your name (formally)? What was their name, what were they calling themselves?:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Cómo se llamaban?",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "What was to have, not in the sense of haber, not the have that we use to go into the past, but the have that we used for possession?",
+      "lang": "en"
+    }
+  ],
+  "turn-20-reveal": [
+    {
+      "text": "Obtener.",
+      "lang": "es"
+    },
+    {
+      "text": "Maintain changed a little bit.",
+      "lang": "en"
+    }
+  ],
+  "turn-20-prompt": [
+    {
+      "text": "Have a go:",
+      "lang": "en"
+    }
+  ],
+  "turn-22-prompt": [
+    {
+      "text": "Mantener.",
+      "lang": "es"
+    }
+  ],
+  "turn-24-prompt": [
+    {
+      "text": "Mantener.",
+      "lang": "es"
+    },
+    {
+      "text": "And we said that man- actually is like from mano, hand. Sustain. And this one changed a little bit as well.",
+      "lang": "en"
+    }
+  ],
+  "turn-26-reveal": [
+    {
+      "text": "Sostener.",
+      "lang": "es"
+    },
+    {
+      "text": "So this - tain that we have in English is tener. To have.",
+      "lang": "en"
+    }
+  ],
+  "turn-26-prompt": [
+    {
+      "text": "So how would you say I used to have?",
+      "lang": "en"
+    }
+  ],
+  "turn-28-reveal": [
+    {
+      "text": "Tenía.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-28-prompt": [
+    {
+      "text": "So if you wanted to say I used to have a big house:",
+      "lang": "en"
+    }
+  ],
+  "turn-30-prompt": [
+    {
+      "text": "Yeah, almost, but un?",
+      "lang": "en"
+    }
+  ],
+  "turn-32-reveal": [
+    {
+      "text": "Good. These bits and pieces require a little thought as well.",
+      "lang": "en"
+    },
+    {
+      "text": "Tenía",
+      "lang": "es"
+    },
+    {
+      "text": "una casa grande.",
+      "lang": "en"
+    }
+  ],
+  "turn-32-prompt": [
+    {
+      "text": "We used to have a big house:",
+      "lang": "en"
+    }
+  ],
+  "turn-34-prompt": [
+    {
+      "text": "Good. Teníamos una casa grande. And the accent stays in the same place on the - ía.",
+      "lang": "en"
+    },
+    {
+      "text": "Tenía,",
+      "lang": "es"
+    },
+    {
+      "text": "teníamos. Good. I used to have four, but now I don’t have any left. I used to have four, but now I don’t have any left: the word for four is",
+      "lang": "en"
+    },
+    {
+      "text": "cuatro, cuatro.",
+      "lang": "es"
+    }
+  ],
+  "turn-36-prompt": [
+    {
+      "text": "Related to:",
+      "lang": "en"
+    }
+  ],
+  "turn-38-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    }
+  ],
+  "turn-38-prompt": [
+    {
+      "text": "So I used to have four:",
+      "lang": "en"
+    }
+  ],
+  "turn-40-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-40-prompt": [
+    {
+      "text": "But now:",
+      "lang": "en"
+    }
+  ],
+  "turn-42-prompt": [
+    {
+      "text": "So, or I don’t have any left: say to give that",
+      "lang": "en"
+    }
+  ],
+  "turn-44-prompt": [
+    {
+      "text": "Good. So all together.:",
+      "lang": "en"
+    }
+  ],
+  "turn-46-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Tenía cuatro, pero ahora no me queda",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "pero ahora, no",
+      "lang": "es"
+    },
+    {
+      "text": "me quedan. You could use either. So, we are not using have to give this meaning we have left.",
+      "lang": "en"
+    }
+  ],
+  "turn-46-prompt": [
+    {
+      "text": "How was I have in the present?",
+      "lang": "en"
+    }
+  ],
+  "turn-48-reveal": [
+    {
+      "text": "Tengo.",
+      "lang": "es"
+    },
+    {
+      "text": "And how did you make that I have to?",
+      "lang": "en"
+    }
+  ],
+  "turn-48-prompt": [
+    {
+      "text": "I have to in the sense of I must:",
+      "lang": "en"
+    }
+  ],
+  "turn-50-prompt": [
+    {
+      "text": "So I have to see you",
+      "lang": "en"
+    }
+  ],
+  "turn-52-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Tengo que verte.",
+      "lang": "es"
+    },
+    {
+      "text": "Now if you want to say I had to see you, you can use this line in the past that we learned even though in English we are saying had, not having to, this is fine in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "turn-52-prompt": [
+    {
+      "text": "So I had to see you, I was having to see you:",
+      "lang": "en"
+    }
+  ],
+  "turn-54-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Tenía que verte.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Yesterday is",
+      "lang": "en"
+    },
+    {
+      "text": "ayer,",
+      "lang": "es"
+    },
+    {
+      "text": "a-y-e-r.",
+      "lang": "en"
+    },
+    {
+      "text": "Ayer.",
+      "lang": "es"
+    }
+  ],
+  "turn-56-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-56-prompt": [
+    {
+      "text": "So I had to see you yesterday:",
+      "lang": "en"
+    }
+  ],
+  "turn-58-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Tenía que verte ayer.",
+      "lang": "es"
+    },
+    {
+      "text": "To do or to make was",
+      "lang": "en"
+    },
+    {
+      "text": "hacer.",
+      "lang": "es"
+    },
+    {
+      "text": "H-a-c-e-r.",
+      "lang": "en"
+    },
+    {
+      "text": "Hacer.",
+      "lang": "es"
+    }
+  ],
+  "turn-60-prompt": [
+    {
+      "text": "Did you have to do it yesterday? Talking informally, did you have to do it yesterday?:",
+      "lang": "en"
+    }
+  ],
+  "turn-62-prompt": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Tenías que hacerlo ayer?:",
+      "lang": "es"
+    }
+  ],
+  "turn-64-reveal": [
+    {
+      "text": "Good. And you could use this like ¿",
+      "lang": "en"
+    },
+    {
+      "text": "No tenías que hacerlo ayer?",
+      "lang": "es"
+    },
+    {
+      "text": "Didn’t you have to do it yesterday? Weren’t you supposed to do it yesterday? Good. I want to look at just three irregular verbs that we have for this line in the past. Now this is a very regular tense. There are very few irregularities in this tense. It’s a very safe tense and the irregularities that we have are with very small verbs. For example, ver.",
+      "lang": "en"
+    }
+  ],
+  "turn-64-prompt": [
+    {
+      "text": "How was I see, from ver?",
+      "lang": "en"
+    }
+  ],
+  "turn-66-reveal": [
+    {
+      "text": "Veo.",
+      "lang": "es"
+    },
+    {
+      "text": "The same irregularity that we get in the I form in the present,",
+      "lang": "en"
+    },
+    {
+      "text": "veo;",
+      "lang": "es"
+    },
+    {
+      "text": "we get it in this line in the past. So instead of taking off - er and putting - o, we ended up with this extra e. So veía is I was seeing, I used to see, he was seeing, he used to see, she was seeing, she used to see, or you (formal). Veía. Give me the other versions then.",
+      "lang": "en"
+    }
+  ],
+  "turn-66-prompt": [
+    {
+      "text": "We were seeing:",
+      "lang": "en"
+    }
+  ],
+  "turn-68-reveal": [
+    {
+      "text": "Veíamos.",
+      "lang": "es"
+    }
+  ],
+  "turn-68-prompt": [
+    {
+      "text": "They or you guys:",
+      "lang": "en"
+    }
+  ],
+  "turn-70-reveal": [
+    {
+      "text": "Veían.",
+      "lang": "es"
+    }
+  ],
+  "turn-70-prompt": [
+    {
+      "text": "You (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-72-reveal": [
+    {
+      "text": "Good. Another irregular verb in this tense is ser. Ser. To be. Now the base for I, he, she, it, you (formal) is era, era. Now this is very easy to remember because we are looking at the past which is a line in time and then era in English is a line in time in the past. So we can just think of an era. We would use this with characteristic things. So for example, if you wanted to say I used to be a student,",
+      "lang": "en"
+    }
+  ],
+  "turn-72-prompt": [
+    {
+      "text": "what was student?",
+      "lang": "en"
+    }
+  ],
+  "turn-74-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-74-prompt": [
+    {
+      "text": "So how would you say I used to be a student?",
+      "lang": "en"
+    }
+  ],
+  "turn-76-reveal": [
+    {
+      "text": "Era estudiante.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We don’t need the word for a.",
+      "lang": "en"
+    },
+    {
+      "text": "Era estudiante.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-76-prompt": [
+    {
+      "text": "Were you a student, informally?",
+      "lang": "en"
+    }
+  ],
+  "turn-78-prompt": [
+    {
+      "text": "Good. ¿",
+      "lang": "en"
+    },
+    {
+      "text": "Eras estudiante?",
+      "lang": "es"
+    },
+    {
+      "text": "We were students.",
+      "lang": "en"
+    }
+  ],
+  "turn-80-prompt": [
+    {
+      "text": "Where are you putting the accent? I couldn’t tell., but it’s",
+      "lang": "en"
+    }
+  ],
+  "turn-82-reveal": [
+    {
+      "text": "Éramos era, éramos. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-82-prompt": [
+    {
+      "text": "We were students:",
+      "lang": "en"
+    }
+  ],
+  "turn-84-prompt": [
+    {
+      "text": "Good. What were they? What were they?:",
+      "lang": "en"
+    }
+  ],
+  "turn-86-reveal": [
+    {
+      "text": "Yeah, ¿Qué eran? Good. And then the last one of course, that is irregular in this tense is ir. Ir. To go. Now I was going is kind of like a blend of the two different ways we have of creating this past: - aba and -ía. I was going is",
+      "lang": "en"
+    },
+    {
+      "text": "iba.",
+      "lang": "es"
+    },
+    {
+      "text": "So you see we get a bit of -ía and a bit of - aba with ir. I was going from to go.",
+      "lang": "en"
+    },
+    {
+      "text": "Iba.",
+      "lang": "es"
+    },
+    {
+      "text": "So you can give me the other versions.",
+      "lang": "en"
+    }
+  ],
+  "turn-86-prompt": [
+    {
+      "text": "We were going:",
+      "lang": "en"
+    }
+  ],
+  "turn-88-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-88-prompt": [
+    {
+      "text": "They were going:",
+      "lang": "en"
+    }
+  ],
+  "turn-90-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-90-prompt": [
+    {
+      "text": "You were going, informally:",
+      "lang": "en"
+    }
+  ],
+  "turn-92-prompt": [
+    {
+      "text": "Ibas.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Why were you going?:",
+      "lang": "en"
+    }
+  ],
+  "turn-94-reveal": [
+    {
+      "text": "Good. Now",
+      "lang": "en"
+    },
+    {
+      "text": "iba",
+      "lang": "es"
+    },
+    {
+      "text": "is very useful because, of course, you can use it like in the English I was going to call you, for example. I was going to go, but I didn’t have the time. I was going to do it, but I forgot. So you can use it in this way as well, which is very common.",
+      "lang": "en"
+    }
+  ],
+  "turn-94-prompt": [
+    {
+      "text": "So how would you say I was going to call you, and we are talking informally? I was going to call you:",
+      "lang": "en"
+    }
+  ],
+  "turn-96-prompt": [
+    {
+      "text": "There is something missing.",
+      "lang": "en"
+    },
+    {
+      "text": "Iba llamarte.",
+      "lang": "es"
+    }
+  ],
+  "turn-98-prompt": [
+    {
+      "text": "Hmm, what kind of verb is going?",
+      "lang": "en"
+    }
+  ],
+  "turn-100-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Iba a llamarte.",
+      "lang": "es"
+    }
+  ],
+  "turn-100-prompt": [
+    {
+      "text": "I was going to do it:",
+      "lang": "en"
+    }
+  ],
+  "turn-102-prompt": [
+    {
+      "text": "Good. And I’m not sure here if you are putting the a to connect the verbs.",
+      "lang": "en"
+    }
+  ],
+  "turn-104-prompt": [
+    {
+      "text": "Yeah.",
+      "lang": "en"
+    }
+  ],
+  "turn-106-prompt": [
+    {
+      "text": "Ok, so again.",
+      "lang": "en"
+    }
+  ],
+  "turn-108-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Iba a hacerlo.",
+      "lang": "es"
+    },
+    {
+      "text": "So actually in fluent speech you would hear / ibacerlo /. All of those three / a /’s,",
+      "lang": "en"
+    },
+    {
+      "text": "iba,",
+      "lang": "es"
+    },
+    {
+      "text": "a,",
+      "lang": "en"
+    },
+    {
+      "text": "hacer",
+      "lang": "es"
+    },
+    {
+      "text": "would blend together, so that’s why I wasn’t sure if you said it or not.",
+      "lang": "en"
+    }
+  ],
+  "turn-108-prompt": [
+    {
+      "text": "We were going to do it or make it:",
+      "lang": "en"
+    }
+  ],
+  "turn-110-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Íbamos a hacerlo.",
+      "lang": "es"
+    }
+  ],
+  "turn-110-prompt": [
+    {
+      "text": "We were going to do them or we were going to make them:",
+      "lang": "en"
+    }
+  ],
+  "turn-112-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Íbamos a hacerlos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

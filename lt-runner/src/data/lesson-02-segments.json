@@ -1,0 +1,592 @@
+{
+  "turn-1-full": [
+    {
+      "lang": "en",
+      "text": "English and Spanish are two related languages. English is considered a Germanic language, but it’s kind of half Latin. We have a huge amount of Latin vocabulary in English and this Latin vocabulary we can convert it over to Spanish really easily because Spanish is practically Modern Latin. Whoever said Latin is a dead language lied. Just in the same way that Greek is a modern version of ancient Greek, Spanish is like a modern version of Latin. It's actually a street Latin that became Spanish. So we can identify Latin words in English, and we can, with just some rule or other, convert them over to Spanish, and this will give us around 3,000 words, I didn't count them, but there are around 3,000 words. So for example, one of these rules is that words ending in - al tend to come from Latin, so we can make them Spanish. So to give you an example, normal in Spanish is"
+    },
+    {
+      "lang": "es",
+      "text": "normal"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "lang": "es",
+      "text": "Normal"
+    },
+    {
+      "lang": "en",
+      "text": ", good."
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "lang": "en",
+      "text": "What do you notice different between normal and"
+    },
+    {
+      "lang": "es",
+      "text": "normal"
+    },
+    {
+      "lang": "en",
+      "text": "?"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "lang": "en",
+      "text": "What do you mean by the accent?"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "lang": "en",
+      "text": "Where’s it stressed in English?"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "lang": "en",
+      "text": "Good. At the beginning, right? NORmal, NORmal, and in Spanish we’re stressing the end, right?"
+    },
+    {
+      "lang": "es",
+      "text": "NorMAL"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "lang": "en",
+      "text": "So if we assume the same happens with other words,"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "lang": "en",
+      "text": "how do you think you would say metal? Metal:"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "lang": "es",
+      "text": "Metal"
+    },
+    {
+      "lang": "en",
+      "text": ". To get a perfect accent in Spanish we just need to pronounce all of the vowels exactly as they are written so a, e, i, o, u in Spanish is /ah/, /eh/, /ee/, /oh/, /oo/, where in English the vowel, it can have many different sounds. Like if you look at the a sound in apple or in mare, it's a very different sound. But a in Spanish is always going to be /ah/, e is always going to be /eh/. So if you pronounce the vowels as they're written, not this kind of uh-uh-uh English vowels that we get, then we get a perfect Spanish accent."
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "lang": "en",
+      "text": "Perfect. So we can begin to make sentences with this already. The word for is in Spanish is"
+    },
+    {
+      "lang": "es",
+      "text": "es,"
+    },
+    {
+      "lang": "en",
+      "text": "e-s."
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "lang": "es",
+      "text": "Es"
+    },
+    {
+      "lang": "en",
+      "text": ". And this also means it is, she is, he is, or even you are, talking to somebody formally."
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "lang": "en",
+      "text": "So now we can say he is normal, she is normal:"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "lang": "en",
+      "text": "Yeah,"
+    },
+    {
+      "lang": "es",
+      "text": "Es normal"
+    },
+    {
+      "lang": "en",
+      "text": ". And you pronounced an s which is excellent. English speakers should beware that maybe they feel themselves pronouncing a z, because many times we have an s in English like in the word is, and we pronounce a z. So you might find slipping out a / z /, but this is incorrect--you should be careful to pronounce an s. S."
+    },
+    {
+      "lang": "es",
+      "text": "Es normal"
+    },
+    {
+      "lang": "en",
+      "text": ". Good,"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "lang": "en",
+      "text": "how would you say legal?"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "lang": "en",
+      "text": "Yeah,"
+    },
+    {
+      "lang": "es",
+      "text": "legal"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "lang": "en",
+      "text": "So how would you say it is legal?"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "lang": "es",
+      "text": "Es legal"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "lang": "en",
+      "text": "Illegal?"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "lang": "es",
+      "text": "Ilegal"
+    },
+    {
+      "lang": "en",
+      "text": ", good. So here in English we have an i and an e producing the same sound, “. The i and the e are producing the same sound, so this is really confusing if you want to learn English. But in Spanish you're not going to have this problem. The i is like in ink and the e is like in elephant."
+    },
+    {
+      "lang": "es",
+      "text": "Ilegal"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    },
+    {
+      "lang": "es",
+      "text": "Ilegal"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "lang": "en",
+      "text": "So, it is illegal:"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "lang": "en",
+      "text": "Good."
+    },
+    {
+      "lang": "es",
+      "text": "Es ilegal"
+    },
+    {
+      "lang": "en",
+      "text": ". What if you wanted to say he is liberal? You don't need the word for he if you know who you’re talking about, you can just use"
+    },
+    {
+      "lang": "es",
+      "text": "es"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "lang": "en",
+      "text": "Yeah,"
+    },
+    {
+      "lang": "es",
+      "text": "es liberal"
+    },
+    {
+      "lang": "en",
+      "text": ". Now Spanish is much more phonetic than English; what that means is that the letters are going to represent the same sound, where English has a million rules and a million exceptions to those rules. I mean it's really hard even for native English speakers often to understand how to pronounce a new word when they see it written; but you're not going to have that problem in Spanish. So you know natural and you don't just want to just change the accent and say natuRAL; this is not Spanish. You want to think “how is it written?” and pronounce the letters as they are. So"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "lang": "en",
+      "text": "how do you think you would say natural in Spanish?"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "lang": "es",
+      "text": "Natural"
+    },
+    {
+      "lang": "en",
+      "text": ", good. That’s a t, so you pronounce a t. A is like /ah/, u is like /oo/:"
+    },
+    {
+      "lang": "es",
+      "text": "natural"
+    },
+    {
+      "lang": "en",
+      "text": ". Very good, and the accent on the end as well."
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "lang": "en",
+      "text": "It's natural?"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "lang": "es",
+      "text": "Es Natural."
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "lang": "en",
+      "text": "If you want to say it isn't or, the word for not or don't is the same as the word for no. And the word for no in Spanish is the same as the word for no in English, but you pronounce it like in Spanish. So how do you think you say no in Spanish?"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "lang": "es",
+      "text": "No"
+    },
+    {
+      "lang": "en",
+      "text": ". Good. And you put this before is"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "lang": "en",
+      "text": "if you want to say it is not, he is not, she is not, you (formal) are not. So how would that sound, it is not?"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "lang": "es",
+      "text": "No es"
+    },
+    {
+      "lang": "en",
+      "text": ", good."
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "lang": "en",
+      "text": "So now we can say things like it's not normal:"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "lang": "es",
+      "text": "No es normal"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "lang": "en",
+      "text": "How would you say ideal? So really think about how it's spelled and try and pronounce each of those vowels as they're written. I like ink, e like elephant, a like apple."
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "lang": "en",
+      "text": "Good."
+    },
+    {
+      "lang": "es",
+      "text": "Ideal"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "lang": "en",
+      "text": "How would you say?"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "lang": "es",
+      "text": "Es ideal"
+    },
+    {
+      "lang": "en",
+      "text": "."
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "lang": "en",
+      "text": "Good."
+    },
+    {
+      "lang": "es",
+      "text": "No es ideal."
+    },
+    {
+      "lang": "en",
+      "text": "Perfect."
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "lang": "en",
+      "text": "How would you say fatal?"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "lang": "es",
+      "text": "Fatal."
+    },
+    {
+      "lang": "en",
+      "text": "Good."
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "lang": "en",
+      "text": "Natal:"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "lang": "es",
+      "text": "Natal"
+    },
+    {
+      "lang": "en",
+      "text": ", good."
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "lang": "en",
+      "text": "Colonial:"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "lang": "es",
+      "text": "Colonial."
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "lang": "en",
+      "text": "Cultural:"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "lang": "en",
+      "text": "So think about how it’s written."
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "lang": "en",
+      "text": "Yes and perfect Spanish accent there."
+    },
+    {
+      "lang": "es",
+      "text": "Cultural"
+    },
+    {
+      "lang": "en",
+      "text": ", very nice."
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "lang": "en",
+      "text": "Annual:"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "lang": "es",
+      "text": "Anual"
+    },
+    {
+      "lang": "en",
+      "text": ". And you cut this y sound that comes in English ann-y-ual. This y sound comes from nowhere in English and you cut it out ’cause you focused on how it’s written."
+    },
+    {
+      "lang": "es",
+      "text": "Anual."
+    },
+    {
+      "lang": "en",
+      "text": "Very nice."
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "lang": "en",
+      "text": "Dental:"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "lang": "en",
+      "text": "Tooth in Spanish is"
+    },
+    {
+      "lang": "es",
+      "text": "diente"
+    },
+    {
+      "lang": "en",
+      "text": ". So this is coming from"
+    },
+    {
+      "lang": "es",
+      "text": "dental"
+    },
+    {
+      "lang": "en",
+      "text": ". So if you look up tooth in the dictionary and you find"
+    },
+    {
+      "lang": "es",
+      "text": "diente"
+    },
+    {
+      "lang": "en",
+      "text": ", rather than treating it as a random piece of vocabulary that you have to memorize, you can relate it back to dental. Oh okay, like dental it comes from there. And this is useful for memory."
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "lang": "en",
+      "text": "A couple more: festival:"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "lang": "en",
+      "text": "Personal:"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "lang": "es",
+      "text": "Personal."
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "lang": "en",
+      "text": "Good, total:"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "lang": "es",
+      "text": "Total."
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "lang": "en",
+      "text": "Good, verbal:"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "lang": "es",
+      "text": "Verbal"
+    },
+    {
+      "lang": "en",
+      "text": ". So if we wanted to say verb, we might not have a rule to convert that word over. But if we know verbal is"
+    },
+    {
+      "lang": "es",
+      "text": "verbal"
+    },
+    {
+      "lang": "en",
+      "text": ", we can guess that the verb is probably going to be the same in Spanish. And most of the time words are either the same that we don’t have a rule, maybe we need to stick an o or an e or an a on the end. So we can make a guess."
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "lang": "en",
+      "text": "How do you think you say verb in Spanish?"
+    }
+  ],
+  "turn-69-full": [
+    {
+      "lang": "en",
+      "text": "Yeah, that’s right. So with structure, with the building, when we’re going to be making sentences with these words, we don’t ever want to guess. We want to take our time and think it through. But with vocabulary, we can happily guess and try. Imagine we said verba for example, and they would look at us funny and they would go “ah” and when that person says “ah,"
+    },
+    {
+      "lang": "es",
+      "text": "verbo"
+    },
+    {
+      "lang": "en",
+      "text": "” then we learn “oh ok this is the right word”. And it’s the best way to learn quickly."
+    },
+    {
+      "lang": "es",
+      "text": "verbo"
+    }
+  ]
+}

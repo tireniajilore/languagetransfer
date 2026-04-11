@@ -1,0 +1,228 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was the word for 'it', 'him', or 'you' (formal)?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Lo. To make it feminine, change the 'o' to 'a', giving us la. This means 'her', 'it' (for feminine nouns), or 'you' (formal, feminine). For example, 'casa' (house) is feminine.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'I want to see it', referring to the house?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Quiero verla.",
+      "lang": "es"
+    },
+    {
+      "text": "This could also mean 'I want to see her'. 'La' could mean 'her', 'it', or 'you' (formal, feminine). The use of formal language varies by region, so it's safe to start formally with 'lo' or 'la'. 'Quiere' means 'he wants', 'she wants', 'it wants', or 'you (formal) want'.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say 'you want to visit me'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Quiere visitarme.",
+      "lang": "es"
+    },
+    {
+      "text": "To make it a question, just change your intonation.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "How would you say 'Do you want to visit me?'",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "¿Quiere visitarme?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "How would you say 'You don't want to visit me'?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "No quiere visitarme.",
+      "lang": "es"
+    },
+    {
+      "text": "Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "how would you ask 'Don't you want to visit me?'",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "No quiere visitarme?",
+      "lang": "es"
+    },
+    {
+      "text": "You can add 'why' with 'por qué'.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you ask 'Why don't you want to visit me?'",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "¿Por qué",
+      "lang": "en"
+    },
+    {
+      "text": "no quiere visitarme?",
+      "lang": "es"
+    },
+    {
+      "text": "The verb 'to come' is 'venir'.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you say 'Do you want to come?'",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "¿Quiere venir? 'Venir' is related to 'bienvenido' (welcome).",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How would you say 'Do you want to come to the house?'",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "¿Quiere venir a la casa? How about 'Do you want to come to visit me?'",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "¿Quiere venir a visitarme? Now, 'Don't you want to come to visit me?'",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "¿",
+      "lang": "en"
+    },
+    {
+      "text": "No quiere venir a visitarme?",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "How would you ask 'Why don't you want to come to visit me?'",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "¿Por qué",
+      "lang": "en"
+    },
+    {
+      "text": "no quiere venir a visitarme?",
+      "lang": "es"
+    },
+    {
+      "text": "The word 'debo' means 'I owe' or 'I must'.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "How would you say 'I must continue'?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "How would you say 'I must identify it'?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Debo identificarlo.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "For feminine objects, what change would you make?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-full": [
+    {
+      "text": "Good. Debo identificarlas.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned how to use 'lo' and 'la' for direct objects and formal address in Spanish.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try forming questions using 'quieres' and 'por qué'. Practice with different verbs and objects.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "Remember, intonation is key for forming questions in Spanish. Practice changing statements into questions.",
+      "lang": "en"
+    }
+  ]
+}

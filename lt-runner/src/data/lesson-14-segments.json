@@ -1,0 +1,208 @@
+{
+  "turn-1-full": [
+    {
+      "text": "What was 'to know'?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Saber.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. 'I know' is an exception: sé.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say 'he knows' or 'she knows'?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Sabe.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say 'I don't know'?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "No sé.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "How would you say 'I don't know what he wants'? Remember, 'what' is 'qué'.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good. If you want to emphasize 'he', you can say '",
+      "lang": "en"
+    },
+    {
+      "text": "no sé",
+      "lang": "es"
+    },
+    {
+      "text": "qué él quiere'. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "how would you say 'she sees'? Remember 'to see' is 'ver'.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Ella ve.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How would you say 'I don't want to invite him, but she does'?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "No quiero invitarlo, pero ella sí. Now, 'to leave' or 'to go out' is 'salir'.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "How would you say 'he leaves'?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Sale.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How do you say 'I'm going out to eat'?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Salgo a comer.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "How would you say 'I have to do it'? Remember 'to do' is 'hacer'.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Tengo que hacerlo.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, let's look at verbs with the '-go' ending like 'tengo', 'vengo', 'salgo'.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "How would you say 'I suppose'?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Supongo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "How would you say 'I must see her'?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Debo verla.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now,",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "how would you say 'I'm going to try to eat later'?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-full": [
+    {
+      "text": "Voy a intentar comer más tarde.",
+      "lang": "es"
+    },
+    {
+      "text": "Excellent. Let's recap these useful verbs: 'quiero', 'voy a', 'tengo que', 'puedo', 'debo'. They allow you to easily add another verb after them.",
+      "lang": "en"
+    }
+  ],
+  "outro-1-full": [
+    {
+      "text": "You've learned about irregular verbs like 'saber' and 'salir', and how to use them in sentences.",
+      "lang": "en"
+    }
+  ],
+  "outro-2-full": [
+    {
+      "text": "Try creating your own sentences using these verbs. For example, 'I want to go out' or 'I must know'.",
+      "lang": "en"
+    }
+  ],
+  "outro-3-full": [
+    {
+      "text": "These verbs are essential for everyday conversation. Practice using them to build your confidence.",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "turn-1-full": [
+    {
+      "text": "To speak. Do you remember how to say to speak? It begins with the silent h.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Hablar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "What is I speak or I am speaking?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Hablo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "what was to sleep, or to be dormant let’s say?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Dormir.",
+      "lang": "es"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "And how do you say I sleep?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "We said also that you can get the additional meaning of I fall asleep by saying I sleep myself:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Me duermo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "To eat was:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Comer.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So I eat or I am eating is:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Como.",
+      "lang": "es"
+    },
+    {
+      "text": "So here the o doesn’t split. Good. To have breakfast, to have breakfast Spanish to have breakfast. We have a verb to breakfast, let’s say, and the verb to breakfast is",
+      "lang": "en"
+    },
+    {
+      "text": "desayunar, desayunar.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Breakfast and",
+      "lang": "en"
+    },
+    {
+      "text": "desayunar",
+      "lang": "es"
+    },
+    {
+      "text": "are direct translations of each other in fact. I don’t know if you noticed that in English breakfast is “break fast”. When we have breakfast we break the fast. And in Spanish“des” is like. So to “un-fast”. So un, ayunar is to fast",
+      "lang": "en"
+    },
+    {
+      "text": "desayunar",
+      "lang": "es"
+    },
+    {
+      "text": "is like to “un-fast”, to “break fast”.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Desayunar.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "To have breakfast.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "I'm having breakfast or I have breakfast:",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Desayuno.",
+      "lang": "es"
+    },
+    {
+      "text": "And",
+      "lang": "en"
+    },
+    {
+      "text": "desayuno",
+      "lang": "es"
+    },
+    {
+      "text": "is also the noun. El",
+      "lang": "en"
+    },
+    {
+      "text": "desayuno",
+      "lang": "es"
+    },
+    {
+      "text": "is the breakfast.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "What was to wait or to hope? Desperate is related because again we have this “des” like in",
+      "lang": "en"
+    },
+    {
+      "text": "desayunar",
+      "lang": "es"
+    },
+    {
+      "text": "which is like “un-” or “un- hopeful” hoped is to be desperate. So to wait or to hope:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Esperar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "What is I wait or I am waiting or I hope or I am hoping?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Espero",
+      "lang": "es"
+    },
+    {
+      "text": "I speak or I am speaking, I go or I am going, I wait or I am waiting. This is because this – ing tense in English we really overuse it. For example we use this – ing in English to refer to the future: He is doing it tomorrow, whereas in Spanish we just use the present tense with that future context. Lo hace mañana. Which is why we need to give both translations for hace, for example. He makes or does. But this doesn’t or he is making or doing. And we translate",
+      "lang": "en"
+    },
+    {
+      "text": "hablo",
+      "lang": "es"
+    },
+    {
+      "text": "as I speak and I am speaking mean that I am speaking doesn’t exist. It does exist but we use it in Spanish only when we want to show what we are doing right now in this moment.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "So, beginning this structure I am speaking, this I am: do you think that you would choose ser for characteristics, or do you think that you would choose estar for states?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Good. We will use estar because of course what we are doing is a state. So we will always use estar with these structures. So the first part of this sentence is",
+      "lang": "en"
+    },
+    {
+      "text": "estoy.",
+      "lang": "es"
+    },
+    {
+      "text": "Now to get speaking, – ing, from to speak we take off – r and we add – ando, - ando.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "And we get",
+      "lang": "en"
+    },
+    {
+      "text": "hablando.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "So,:",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Estoy hablando.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So maybe somebody interrupts you and you won’t say",
+      "lang": "en"
+    },
+    {
+      "text": "hablo,",
+      "lang": "es"
+    },
+    {
+      "text": "you will say",
+      "lang": "en"
+    },
+    {
+      "text": "estoy hablando.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "How would you say I am waiting and you mean right now? Right now, I am waiting here, I am waiting here:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Estoy esperando aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So you could say",
+      "lang": "en"
+    },
+    {
+      "text": "espero",
+      "lang": "es"
+    },
+    {
+      "text": "aquí. Maybe it would sound a little more like I'll wait here rather than I am waiting here but both are fine. In many situations both are fine and there will be just a slight change in meaning.",
+      "lang": "en"
+    },
+    {
+      "text": "Espero",
+      "lang": "es"
+    },
+    {
+      "text": "aquí,",
+      "lang": "en"
+    },
+    {
+      "text": "estoy esperando aquí.",
+      "lang": "es"
+    },
+    {
+      "text": "What you can’t do is say I am eating with her tomorrow. The – ing, you need to use it just for what you are doing right now.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "So how was to speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "And",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "how would you say I speak or I am speaking?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Hablo.",
+      "lang": "es"
+    },
+    {
+      "text": "And",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "what was to prepare? If you forgot it you can go from preparation.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "And I prepare or I am preparing:",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "So how would you say I am preparing it tomorrow?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Lo preparo mañana.",
+      "lang": "es"
+    },
+    {
+      "text": "So if you want to show, if you want to emphasize that we are doing something right now,",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "I am preparing, firstly if we divide that up into two bits: I am - preparing:",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Estoy.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "Preparar becomes?",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "So how would you say I am preparing?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy preparando.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So that’s",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "if you want to say I am preparing it right now, you can use this structure. So how would you say I am preparing it?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Lo estoy preparando",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy preparándolo.",
+      "lang": "es"
+    },
+    {
+      "text": "Even though it’s a changed verb here we can have the lo after – ando.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy preparándolo",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "lo estoy preparando.",
+      "lang": "es"
+    },
+    {
+      "text": "We said that to have breakfast was",
+      "lang": "en"
+    },
+    {
+      "text": "desayunar, desayunar.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "So how would you say we are having breakfast and you mean right now?",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "- ando. Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estamos desayunando.",
+      "lang": "es"
+    },
+    {
+      "text": "So, for – ar verbs we take off the – ar and we put – ando and we get this tense to show what we are doing right now. And we are not going to use it as we do in English: I'm finding out tomorrow and I'm doing it next week, I'm preparing it later.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "How would you say I'm preparing it later?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "This is not how we use it. So in Spanish we only use it to describe what we're doing right now.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "So this is why we are giving",
+      "lang": "en"
+    },
+    {
+      "text": "preparo,",
+      "lang": "es"
+    },
+    {
+      "text": "for example, the translation of both I prepare and I am preparing. So that when we want to say things like I am preparing it later, we don’t go to",
+      "lang": "en"
+    },
+    {
+      "text": "estoy preparando.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Lo preparo más tarde.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. But if you wanted to give the meaning of I am preparing it right now,",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "how would you say it?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy preparándolo",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "lo estoy preparando.",
+      "lang": "es"
+    },
+    {
+      "text": "And there you get the meaning of right now in this moment. Good. So for – ar verbs we are taking off the – ar and we are putting – ando to get this – ing. For – er, – ir verbs we take off the – er or the – ir and we put on - iendo, - iendo, i-e-n-d-o, to get this – ing form.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "So how would you get eating from to eat? How would eating be from",
+      "lang": "en"
+    },
+    {
+      "text": "comer?",
+      "lang": "es"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "So how would you say I am eating, and you mean right now?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Estoy comiendo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I am eating. And",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "how would you say he is eating or she is eating or you formal?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Está comiendo.",
+      "lang": "es"
+    },
+    {
+      "text": "So maybe somebody calls you and they say Can I speak to Pablo?, and you say",
+      "lang": "en"
+    },
+    {
+      "text": "Está comiendo,",
+      "lang": "es"
+    },
+    {
+      "text": "you mean right now.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "What was to sell? You can think of vending machine.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Vender.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "How would you say: They sell it, they sell it?",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Lo venden. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "How would you say they are selling it tomorrow or they will sell it tomorrow?",
+      "lang": "en"
+    }
+  ],
+  "turn-73-reveal": [
+    {
+      "text": "Lo venden mañana. Good. Now",
+      "lang": "en"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "if you want to say they are selling it right now, and you want to give that meaning “right now” how would it be?",
+      "lang": "en"
+    }
+  ],
+  "turn-75-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Están vendiéndolo",
+      "lang": "es"
+    },
+    {
+      "text": "or lo están vendiendo. Good.",
+      "lang": "en"
+    }
+  ]
+}

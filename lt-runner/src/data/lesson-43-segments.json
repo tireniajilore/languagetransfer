@@ -1,0 +1,688 @@
+{
+  "turn-1-full": [
+    {
+      "text": "Another verb that contracts in this way, losing its last e, like",
+      "lang": "en"
+    },
+    {
+      "text": "poder",
+      "lang": "es"
+    },
+    {
+      "text": "becoming podría is haber, to have. So I would have, how would it be? You're gonna add the - ía on haber, and it's gonna lose it's e like",
+      "lang": "en"
+    },
+    {
+      "text": "poder",
+      "lang": "es"
+    },
+    {
+      "text": "did. So how would it sound?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Habría.",
+      "lang": "es"
+    },
+    {
+      "text": "So,",
+      "lang": "en"
+    },
+    {
+      "text": "habría",
+      "lang": "es"
+    },
+    {
+      "text": "means I would have, you would have (formally), he would have, she would have,",
+      "lang": "en"
+    },
+    {
+      "text": "it would have.",
+      "lang": "es"
+    },
+    {
+      "text": "Which means, now you can make sentences like I would have gone. I would have eaten something, but..., etc. So let's practice this.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "How would you say I would have gone? What's to go, first?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Ir.",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you make gone from to go? What is the rule to get gone from to go? The version that we need after haber. After any version of haber, doesn't matter if it's he, hemos, or",
+      "lang": "en"
+    },
+    {
+      "text": "habría,",
+      "lang": "es"
+    },
+    {
+      "text": "it's the version of the verb that comes after haber. How do we get that version?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Yes. Ok, I take away - ir, the ending. It's the whole verb. But whatever, it doesn't matter. I'm taking away the ending, - ir, and I'm putting -",
+      "lang": "en"
+    },
+    {
+      "text": "ido.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "I would have gone:",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Habría ido.",
+      "lang": "es"
+    },
+    {
+      "text": "We would have eaten, how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "We would have eaten:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Habríamos comido.",
+      "lang": "es"
+    },
+    {
+      "text": "We could even make a sentence now, like We would have been able to go. We would have been able to go. And as long as you tackle each individual part individually, you will stay in control. And you will be able to make these apparently really complicated sentences, which are actually quite simple because they take the same structure in English and Spanish. So, we would have, how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "We would have:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good. Been able.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So what's to be able, related to power?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Ahh.",
+      "lang": "en"
+    },
+    {
+      "text": "Poder",
+      "lang": "es"
+    },
+    {
+      "text": "is to be able.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "How would you make that been able, or just the version after haber? What does it do when it comes after haber?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "To go:",
+      "lang": "en"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Habríamos podido",
+      "lang": "es"
+    },
+    {
+      "text": "ir. We would have been able to go. Good. You could say",
+      "lang": "en"
+    },
+    {
+      "text": "they would have",
+      "lang": "es"
+    },
+    {
+      "text": "been able to eat.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So, divide it up block by block, and it is very simple.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Habrían podido comer.",
+      "lang": "es"
+    },
+    {
+      "text": "So if you were to say something like",
+      "lang": "en"
+    },
+    {
+      "text": "they would have",
+      "lang": "es"
+    },
+    {
+      "text": "come to eat, then come is a verb of motion.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "So how would you say",
+      "lang": "en"
+    },
+    {
+      "text": "they would have",
+      "lang": "es"
+    },
+    {
+      "text": "come to eat?",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Habrían venido a comer,",
+      "lang": "es"
+    },
+    {
+      "text": "because we have venir, a verb of motion, connecting to another to form. Good. With this very useful structure of",
+      "lang": "en"
+    },
+    {
+      "text": "habría,",
+      "lang": "es"
+    },
+    {
+      "text": "habrían,",
+      "lang": "en"
+    },
+    {
+      "text": "habríamos,",
+      "lang": "es"
+    },
+    {
+      "text": "would have, you could also say something like I would have liked it. You just need to think in this Spanglish, in this in between language, the literal translation of how we want to say it in English, and then convert it. So, I would have liked it is",
+      "lang": "en"
+    },
+    {
+      "text": "it would have",
+      "lang": "es"
+    },
+    {
+      "text": "pleased me.",
+      "lang": "en"
+    },
+    {
+      "text": "It would have",
+      "lang": "es"
+    },
+    {
+      "text": "pleased me.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "So to not lose our control and to stay in control of this process, where is the first place we want our thoughts to go?",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Yeah.",
+      "lang": "en"
+    },
+    {
+      "text": "It would have.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So what is",
+      "lang": "en"
+    },
+    {
+      "text": "it would have?",
+      "lang": "es"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good. Pleased. So it's gustar after haber. So maybe it's better to think of it in this way, “I'm finding the version of the verb after haber,” instead of actually trying to find the translation of the word, because the versions after have are so different in English. We have eaten, gone, walked, so if we are looking for walked, gone, or eaten, and we forget that it's just the version after haber, we might be looking for a very long time, ah?",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "So, the version after haber, we have - ado or -",
+      "lang": "en"
+    },
+    {
+      "text": "ido, no?",
+      "lang": "es"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "Good. So now we can make the sentence,",
+      "lang": "en"
+    },
+    {
+      "text": "It would have",
+      "lang": "es"
+    },
+    {
+      "text": "pleased me, I would have liked it.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me habría gustado.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So, I would have liked it.",
+      "lang": "en"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "How would you say we would have liked it – so -",
+      "lang": "en"
+    },
+    {
+      "text": "it would have",
+      "lang": "es"
+    },
+    {
+      "text": "pleased us?",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Nos habría gustado.",
+      "lang": "es"
+    },
+    {
+      "text": "And maybe, you might want to say we would have liked them. First give me the Spanglish, the literal translation in English. So we want to say we would have liked them.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "What is the literal translation of how we put it into Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "Perfect. Well done.",
+      "lang": "en"
+    },
+    {
+      "text": "They would have pleased us.",
+      "lang": "es"
+    },
+    {
+      "text": "So now you have all you need to make that sentence.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good. Nos habrían",
+      "lang": "en"
+    },
+    {
+      "text": "gustado, they would have pleased us,",
+      "lang": "es"
+    },
+    {
+      "text": "we would have liked them. So we just saw some complicated structures with this would, which is especially useful because we can make could, and we can make would have. We can also make should with this would.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "What was to owe, or must, which was related to debt in English?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Deber.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. - er verb.",
+      "lang": "en"
+    },
+    {
+      "text": "Deber.",
+      "lang": "es"
+    },
+    {
+      "text": "Now if you say would owe, this means should.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "How would you say then, I should, he should, it should, she should, you (formal) should?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    },
+    {
+      "text": "Debería.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "How would you say you should come to my house? You should come to my house (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Deberías venir a mi casa.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. You should come to my house to eat. You should come to my house to eat: (Informally, still.)",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "Good. Deberías venir a comer a mi casa, or",
+      "lang": "en"
+    },
+    {
+      "text": "deberías venir a mi casa a comer,",
+      "lang": "es"
+    },
+    {
+      "text": "both are perfectly fine. Well done.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "How would you say we should?",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "How would you say we should speak?",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Here, speak is to speak. The confusion might come that in English, after can, after should, after must, we don't say to. I must eat, not I must to eat. I can eat, not I can to eat. In Spanish, you're just using the to form afterwards.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "So, we should speak, we should speak:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "Good. We should speak.",
+      "lang": "en"
+    },
+    {
+      "text": "Deberíamos hablar.",
+      "lang": "es"
+    },
+    {
+      "text": "We should speak about it: (And we said we don't need about.)",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Deberíamos hablarlo.",
+      "lang": "es"
+    },
+    {
+      "text": "We should speak about it, we should speak it.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "What if you wanted to say we should speak to him?",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Deberíamos hablarle.",
+      "lang": "es"
+    },
+    {
+      "text": "This could actually be to him or to her or to you (formal),",
+      "lang": "en"
+    },
+    {
+      "text": "no? Deberíamos hablarle.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "What if you wanted to say we should speak to them or we should speak to you guys?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Deberíamos hablarles.",
+      "lang": "es"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "How would you say we should speak with him?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "And with her:",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "All together?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-reveal": [
+    {
+      "text": "Good. So choosing these structures, you get around the ambiguity of",
+      "lang": "en"
+    },
+    {
+      "text": "deberíamos hablarle,",
+      "lang": "es"
+    },
+    {
+      "text": "which could mean him or her or you (formal). Now if we use con, we see very clearly who we mean.",
+      "lang": "en"
+    },
+    {
+      "text": "Deberíamos hablar con él. Deberíamos hablar con ella.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. To give is dar. Dar. To give.",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "How would you say I would give?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Daría.",
+      "lang": "es"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "They would give:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "They would give me, or to me:",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "They would give me it:",
+      "lang": "en"
+    }
+  ],
+  "turn-73-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ]
+}

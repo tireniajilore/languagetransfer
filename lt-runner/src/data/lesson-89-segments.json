@@ -1,0 +1,186 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So in the spirit of looking at irregularities in Spanish and how to deal with them and how to identify them, I wanted to spend a little bit of time speaking about making your own rules. We’ve taught you a great amount of Spanish for you to be very conversational and reach fluency just through practice and listening in a very short amount of time, if you get practicing. But we haven’t looked at every single piece of content of Spanish, of course, but the content that we’ve looked at has taken from every area of the language in an analytical way which will allow you to make your own rules when you come across things that you don’t quite understand whilst you’re practicing and exposing yourself to Spanish. So I just want to experiment a little bit in regards to that with you now. So I will present you with some imaginary situations where you see the language behaving in certain ways and I want you to make your own rule. Now it doesn’t mean it’s necessarily your own. Somebody else might have come up with it before, but that you will figure out for yourself what is going on. So for example, the word for too, as in t-o-o is",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado. Demasiado.",
+      "lang": "es"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "It is a bit of a long word, but if you break it up it’s easier to digest. You have de más, of more, - iado. And this is too, t-o-o, as in too many. Actually de más can be used by itself if you say tengo cuatro de más. I have four of more, tengo cuatro de más. It means I have four too many. I have four spare. I have four extra. So",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "means too. Now imagine you hear these following sentences and I want you to work out what’s happening here. Why this word is behaving differently in different circumstances. So you might hear demasiadas casas. You might hear demasiados coches. And you might hear",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "agresivo,",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "agresiva, and",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado.",
+      "lang": "es"
+    },
+    {
+      "text": "Here it’s changing agresivos. Again. You might hear demasiadas casas, demasiados coches And then here it’s not. from the base form",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado.",
+      "lang": "es"
+    },
+    {
+      "text": "Demasiadas casas. Demasiados coches.",
+      "lang": "en"
+    },
+    {
+      "text": "Demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "agresivo.",
+      "lang": "en"
+    },
+    {
+      "text": "Demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "agresiva.",
+      "lang": "en"
+    },
+    {
+      "text": "Demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "agresivos.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So why in one situation is it changing and why in the other situation is it not?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Adjectives.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Espectacular will mostly be all we need to do to figure out what’s going on. So we understand from this that when",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "goes with a noun, it will change to match it: demasiadas casas, demasiados coches. But when it goes with an adjective it won’t:",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "agresivo,",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "agresiva,. It’s not changing. So we didn’t learn that here, but",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "agresivos,",
+      "lang": "en"
+    },
+    {
+      "text": "demasiado",
+      "lang": "es"
+    },
+    {
+      "text": "agresivas we have been analytical enough of the language for you to figure that out by yourself. So another example for you to figure out what’s going on. Now the words ala, wing, agua, water and aula, hole or classroom are all feminine words, but we say el ala, the wing. El agua, the water. And el. What’s going on?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "aula, the classroom, and it would be weird to say “la ala”.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "You have other words that begin with a where you have la at the beginning, for example la. So you need to find something that’s different alfombra, the carpet. La almohada, the pillow between la almohada and la alfombra to el agua, el ala, el aula.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "That’s it. There are two syllables and they begin and end in. So it’s a very specific thing. It’s not a something that we are really going to spend time on learning here in this course. Because it’s very likely as well that you’ll forget it. So what we have done throughout this course is given you the analytical skills to work it out by yourself and the confidence to make your own rules. So that’s the rule. They are all feminine words, but they take el becuase they are two syllables and they begin and end with a. And we know that they are feminine because we say el agua fria. The cold water. Fria, not frio. So we know they are actually feminine even though they are taking el. One more exercise like this. The word for one is uno. The word for some is alguno. And the word for none is ninguno. So we have uno, alguno, ninguno. One, some, none. So if I tell you how many. Or if you don’t want any, do you want, you will reply to me uno ninguno.",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "But if I say one man, how do I say one man or a man?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Un hombre.",
+      "lang": "es"
+    },
+    {
+      "text": "And if I say some man, I say algun hombre. And if I say no man, I say ningun hombre. So we have uno, alguno and ninguno. No quiero ninguno, quiero uno, quiero alguno. But, if I say I want one car, for example. Quiero un coche. Quiero algun coche. No quiero ningun coche. So what’s happening there?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "Why does uno become un and why does alguno become algun?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-full": [
+    {
+      "text": "Yes, because we have a noun following it and it loses that last o. So uno, alguno, ninguno, become. And you would notice that it doesn’t happen with the feminine. So we have un, algun, ningun una mujer, a woman. Alguna mujer, some woman. Ninguna mujer, no woman. So the point is just this, that we need to analyze the language that we are coming across, trying to pick out anything that we don’t understand to tackle it so that we control it and we understand what’s happening so that that element of the language doesn’t control us. Very quickly, thinking in this way you will get over your technical problems in the language. You will solve your technical problems and then when you solve your technical problems in a specific language, then you can start to live freely in that language. And become somebody else in that language that is also you, but somebody else, because you are using this mechanism or this tool which as we’ve said a few times, permits and obliges you to perceive and express the world in a certain way. But before we can fully take advantage of that, we want to get over our technical difficulties and this is achieved not through memorizing what is correct, but analyzing and understanding what is correct and finding why.",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "lessonId": "lesson-24",
+  "generatedAt": "2026-04-11T13:56:22.303Z",
+  "entries": {
+    "turn-1-full": {
+      "segments": [
+        {
+          "text": "The word for 'to give' in Spanish is",
+          "lang": "en",
+          "file": "turn-1-full-1.mp3",
+          "hash": "13df5c56199328b943e9d49a90db8139326e90eb257a1bb97946301ed0f6afb1"
+        },
+        {
+          "text": "dar.",
+          "lang": "es",
+          "file": "turn-1-full-2.mp3",
+          "hash": "d7ab22be1115eb2a2a526a1427882782b168ce70ad6a14ac6b8df95173f58b50"
+        },
+        {
+          "text": "D-A-R,",
+          "lang": "en",
+          "file": "turn-1-full-3.mp3",
+          "hash": "66421d03785f6efaf43da49aab73a0eb9ab5b5a55784e6bc892411f4a9c601b9"
+        },
+        {
+          "text": "dar.",
+          "lang": "es",
+          "file": "turn-1-full-4.mp3",
+          "hash": "d7ab22be1115eb2a2a526a1427882782b168ce70ad6a14ac6b8df95173f58b50"
+        }
+      ]
+    },
+    "turn-3-prompt": {
+      "segments": [
+        {
+          "text": "Dar.",
+          "lang": "es",
+          "file": "turn-3-prompt-1.mp3",
+          "hash": "e65663b7332e726770efa68c31702855bddc1929210bcee3c7fb1703a40a8ba1"
+        },
+        {
+          "text": "Good. 'I give' is",
+          "lang": "en",
+          "file": "turn-3-prompt-2.mp3",
+          "hash": "06e713dd7667774cf6650b5e66fe6a25ea198980505e4a42ce5e0d5e983a4808"
+        },
+        {
+          "text": "doy,",
+          "lang": "es",
+          "file": "turn-3-prompt-3.mp3",
+          "hash": "70f48f4b6d9826519f9e919b64d00cdce381e49012daab9a6958487f94751ac1"
+        },
+        {
+          "text": "ending in -oy.",
+          "lang": "en",
+          "file": "turn-3-prompt-4.mp3",
+          "hash": "1bf172d949ef92a761278c3bdee36cd1535ad585da5dd659fba700ac74fe6290"
+        },
+        {
+          "text": "Doy.",
+          "lang": "es",
+          "file": "turn-3-prompt-5.mp3",
+          "hash": "f685b260b3bfc912d9a3308799fd9f9826f051c428662b33a7cecb919e174b8b"
+        }
+      ]
+    },
+    "turn-5-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'I give it'?",
+          "lang": "en",
+          "file": "turn-5-prompt-1.mp3",
+          "hash": "a3f4e75536285b55303a70c8c5ca18643faaa09e8ae7e0dbc171acee4d8c99da"
+        }
+      ]
+    },
+    "turn-7-prompt": {
+      "segments": [
+        {
+          "text": "'I give them'?",
+          "lang": "en",
+          "file": "turn-7-prompt-1.mp3",
+          "hash": "ba4554276389bd8d23bbb6502fbabe43cb73bc835f3636c7f2877efa6ef61ace"
+        }
+      ]
+    },
+    "turn-9-prompt": {
+      "segments": [
+        {
+          "text": "And if they were feminine things?",
+          "lang": "en",
+          "file": "turn-9-prompt-1.mp3",
+          "hash": "1611b532a5197878497f9f8ce8e4010e705b25a55e0e55b7f101a35c32596a3e"
+        }
+      ]
+    },
+    "turn-11-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he gives'?",
+          "lang": "en",
+          "file": "turn-11-prompt-1.mp3",
+          "hash": "a142d6e932134f33398b6d2443e3a95cf35607060720c0bc230370dc6a53cf03"
+        }
+      ]
+    },
+    "turn-13-reveal": {
+      "segments": [
+        {
+          "text": "Da.",
+          "lang": "en",
+          "file": "turn-13-reveal-1.mp3",
+          "hash": "d2f2966d7c0c8ccb71fbb288ddf1436a28619fe1d073aa5452a3ae9828a7c3b0"
+        }
+      ]
+    },
+    "turn-13-prompt": {
+      "segments": [
+        {
+          "text": "To emphasize 'he', you say:",
+          "lang": "en",
+          "file": "turn-13-prompt-1.mp3",
+          "hash": "1f1cb6b8d787e2e46ac64d8b013ca4dc29b93bfeec50b50d8bc520f96914e16e"
+        }
+      ]
+    },
+    "turn-15-reveal": {
+      "segments": [
+        {
+          "text": "Él da.",
+          "lang": "es",
+          "file": "turn-15-reveal-1.mp3",
+          "hash": "5a5d4ae4701827459920e7c58c6124d62cafa072f756d935544b5764a80639dd"
+        },
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-15-reveal-2.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "turn-15-prompt": {
+      "segments": [
+        {
+          "text": "And 'she gives'?",
+          "lang": "en",
+          "file": "turn-15-prompt-1.mp3",
+          "hash": "415617ee5616019841babb267f30c689804cfc56adcb8fb198e3cf964ad2c18d"
+        }
+      ]
+    },
+    "turn-17-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'they give'?",
+          "lang": "en",
+          "file": "turn-17-prompt-1.mp3",
+          "hash": "26d374b98c1bf50e5b46568291b17605b2c436e4478c2000e688f8d0506ff2eb"
+        }
+      ]
+    },
+    "turn-19-reveal": {
+      "segments": [
+        {
+          "text": "Good! '",
+          "lang": "en",
+          "file": "turn-19-reveal-1.mp3",
+          "hash": "752b0df950afd03aa7b478b87ad75f59ee4e80abb72fe760dcb58fb66b1d1e4b"
+        },
+        {
+          "text": "Ellos dan",
+          "lang": "es",
+          "file": "turn-19-reveal-2.mp3",
+          "hash": "f987f50eca0cea6f24f5f7430fa6a1728729148168dce5c972a2ab03a4391f24"
+        },
+        {
+          "text": "' or 'ellas dan' for feminine.",
+          "lang": "en",
+          "file": "turn-19-reveal-3.mp3",
+          "hash": "e0e800df10129019d41c19aa7dcefb74978152f54fe1d80d65d0f200a81fe8b8"
+        }
+      ]
+    },
+    "turn-19-prompt": {
+      "segments": [
+        {
+          "text": "How about 'you (informal) give'?",
+          "lang": "en",
+          "file": "turn-19-prompt-1.mp3",
+          "hash": "d10c392b77952482557143095770dd453380cd450d7c6fdffe50ce16b9e445fa"
+        }
+      ]
+    },
+    "turn-21-reveal": {
+      "segments": [
+        {
+          "text": "Das.",
+          "lang": "es",
+          "file": "turn-21-reveal-1.mp3",
+          "hash": "516d209bc31ed99c14ef7b3fea22852696b9f12ae2c4cda57a1e7d8fb134c343"
+        }
+      ]
+    },
+    "turn-21-prompt": {
+      "segments": [
+        {
+          "text": "To emphasize 'you', you say:",
+          "lang": "en",
+          "file": "turn-21-prompt-1.mp3",
+          "hash": "6a9c6052d5e61861f1e9f169410285d867e0da706510c85eb1c6ef8630072007"
+        }
+      ]
+    },
+    "turn-23-reveal": {
+      "segments": [
+        {
+          "text": "Good. The word for 'something' is algo.",
+          "lang": "en",
+          "file": "turn-23-reveal-1.mp3",
+          "hash": "9ca8dafbe708d3c81c7d73da9d44960a39d819a16c7174d4265bb4340d6a7e11"
+        }
+      ]
+    },
+    "turn-23-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'he is giving me something'?",
+          "lang": "en",
+          "file": "turn-23-prompt-1.mp3",
+          "hash": "b25bf2229fad5342ae612be9f2c90bc6d42c032953feca2c66488f3039676031"
+        }
+      ]
+    },
+    "turn-25-reveal": {
+      "segments": [
+        {
+          "text": "Good! '",
+          "lang": "en",
+          "file": "turn-25-reveal-1.mp3",
+          "hash": "752b0df950afd03aa7b478b87ad75f59ee4e80abb72fe760dcb58fb66b1d1e4b"
+        },
+        {
+          "text": "Él me da algo.",
+          "lang": "es",
+          "file": "turn-25-reveal-2.mp3",
+          "hash": "b9fd00fe0874fc489046ef5d15c773db5e7f325a5a0910f826ba5485bb412af8"
+        }
+      ]
+    },
+    "turn-25-prompt": {
+      "segments": [
+        {
+          "text": "' How about 'they give me something'?",
+          "lang": "en",
+          "file": "turn-25-prompt-1.mp3",
+          "hash": "41b797f1bf21920e7441fe543d4f6a929d05813b868b4d9d384b63f62b355af8"
+        }
+      ]
+    },
+    "turn-27-reveal": {
+      "segments": [
+        {
+          "text": "Good. '",
+          "lang": "en",
+          "file": "turn-27-reveal-1.mp3",
+          "hash": "5f20db48ad89c36c369b2d2957557e8fd33b25b8cc2808c041f4b96995fd7a03"
+        },
+        {
+          "text": "Me dan algo.",
+          "lang": "es",
+          "file": "turn-27-reveal-2.mp3",
+          "hash": "3911f6687806669d36286e7632600cf79d5aa6261a7c58d96b5cc3710778e01e"
+        },
+        {
+          "text": "' Now, to say 'they give it to me', you say 'me lo dan'.",
+          "lang": "en",
+          "file": "turn-27-reveal-3.mp3",
+          "hash": "495b02876b49b4f4f1bd73932dee66c42544dc6e9e4882561b82ff7ea3b58819"
+        }
+      ]
+    },
+    "turn-27-prompt": {
+      "segments": [
+        {
+          "text": "How would you emphasize 'they'?",
+          "lang": "en",
+          "file": "turn-27-prompt-1.mp3",
+          "hash": "00bd57f6c29ce9e4ba48b3a9c01c3255dfa920e3c18bc12f66681728658f1d4c"
+        }
+      ]
+    },
+    "turn-29-reveal": {
+      "segments": [
+        {
+          "text": "Ellos me lo dan.",
+          "lang": "es",
+          "file": "turn-29-reveal-1.mp3",
+          "hash": "f22c61fc99193d8839107e430e554d35251c4ab47a157cff3bbf5617d3952feb"
+        },
+        {
+          "text": "Good. Or 'ellas' for feminine. Now,",
+          "lang": "en",
+          "file": "turn-29-reveal-2.mp3",
+          "hash": "2d6ac85bc3f1e3b5f18be34be8bb8688443eb1dbb77661056a435c306027f33b"
+        }
+      ]
+    },
+    "turn-29-prompt": {
+      "segments": [
+        {
+          "text": "if you want to say 'I will give it to you tomorrow', you can just say 'I give it to you tomorrow'. How would you say this informally?",
+          "lang": "en",
+          "file": "turn-29-prompt-1.mp3",
+          "hash": "853e2e64504d1bbd11b300c711d72c0ce42be196681a55b5101d0cba471e52f9"
+        }
+      ]
+    },
+    "turn-31-reveal": {
+      "segments": [
+        {
+          "text": "Te lo doy mañana.",
+          "lang": "es",
+          "file": "turn-31-reveal-1.mp3",
+          "hash": "e4466994af394b2613b013f9859dce9c8b16fe710e169eb16d097e1e357a1405"
+        },
+        {
+          "text": "Very Spanish sounding. Now,",
+          "lang": "en",
+          "file": "turn-31-reveal-2.mp3",
+          "hash": "2dfa01f2da7cf1df22d34d61beaf58e4b0b219b539b14ea80b12f755e369a201"
+        }
+      ]
+    },
+    "turn-31-prompt": {
+      "segments": [
+        {
+          "text": "how would you say 'are you giving it to me tomorrow?' formally?",
+          "lang": "en",
+          "file": "turn-31-prompt-1.mp3",
+          "hash": "76490676d797e5855564222b7624c936718a3f1da9883b8cf618ee7cf00c2fd0"
+        }
+      ]
+    },
+    "turn-33-prompt": {
+      "segments": [
+        {
+          "text": "To emphasize 'you', you say:",
+          "lang": "en",
+          "file": "turn-33-prompt-1.mp3",
+          "hash": "6a9c6052d5e61861f1e9f169410285d867e0da706510c85eb1c6ef8630072007"
+        }
+      ]
+    },
+    "turn-35-reveal": {
+      "segments": [
+        {
+          "text": "¿Usted me lo da mañana?",
+          "lang": "es",
+          "file": "turn-35-reveal-1.mp3",
+          "hash": "6bb1ca94b1dd8db9be1822abfbea6326bac02d3cf71eaffaf6c6ecf3a0ac64ad"
+        },
+        {
+          "text": "These pronouns are flexible for emphasis. Now, 'you guys' is 'ustedes'.",
+          "lang": "en",
+          "file": "turn-35-reveal-2.mp3",
+          "hash": "02fd5711ebb961a0197dc4eb5afc6425b018d0c7ce0d1d060cf308dc64730eb7"
+        }
+      ]
+    },
+    "turn-35-prompt": {
+      "segments": [
+        {
+          "text": "How would you say 'are you guys giving it to us tomorrow?'",
+          "lang": "en",
+          "file": "turn-35-prompt-1.mp3",
+          "hash": "8ad03dc18f35164262ff76dd2b12a78144a4c7f7dc568f7f9bcedd06cfbdf675"
+        }
+      ]
+    },
+    "turn-37-prompt": {
+      "segments": [
+        {
+          "text": "To clarify 'you guys', you say:",
+          "lang": "en",
+          "file": "turn-37-prompt-1.mp3",
+          "hash": "77ef01ce907ba97c82b3a09980d7eac05d46108e87f311bb329eac87fa5defba"
+        }
+      ]
+    },
+    "turn-39-prompt": {
+      "segments": [
+        {
+          "text": "How do you say 'I want to give'?",
+          "lang": "en",
+          "file": "turn-39-prompt-1.mp3",
+          "hash": "9cee5408798edf5186dd9462a418f362cdd0368382aa71ca7dda4ba17decc86c"
+        }
+      ]
+    },
+    "turn-41-prompt": {
+      "segments": [
+        {
+          "text": "'I want to give it to you' informally?",
+          "lang": "en",
+          "file": "turn-41-prompt-1.mp3",
+          "hash": "e4bbcb04b768a1501c8e87558eb9b47b0112783f41d3cbae5a11a6583b79c45a"
+        }
+      ]
+    },
+    "turn-43-full": {
+      "segments": [
+        {
+          "text": "Good.",
+          "lang": "en",
+          "file": "turn-43-full-1.mp3",
+          "hash": "69b4cb7ec400c3cce7b9f1130780bd0e6d55ba3ff60b75455ccc93c20cf75eb6"
+        }
+      ]
+    },
+    "outro-1-full": {
+      "segments": [
+        {
+          "text": "You've learned how to use the verb 'dar' with different pronouns and contexts.",
+          "lang": "en",
+          "file": "outro-1-full-1.mp3",
+          "hash": "14800ac9b087ef976d67c57acb8c319f6673899b4f5d3e713a639c39730acdf8"
+        }
+      ]
+    },
+    "outro-2-full": {
+      "segments": [
+        {
+          "text": "Try using 'dar' in a sentence about giving something to someone tomorrow.",
+          "lang": "en",
+          "file": "outro-2-full-1.mp3",
+          "hash": "ea1308c0ea0db335269abb59d1c9d9533cec0ddb64ba9f6083cabd422633d421"
+        }
+      ]
+    },
+    "outro-3-full": {
+      "segments": [
+        {
+          "text": "Practice these structures to get comfortable with giving in Spanish.",
+          "lang": "en",
+          "file": "outro-3-full-1.mp3",
+          "hash": "e7f8f602d0028600073f7cd47daf9adf15b435c765939a72fe8d9d093cbc2d88"
+        }
+      ]
+    }
+  }
+}

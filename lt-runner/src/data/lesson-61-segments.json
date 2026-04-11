@@ -1,0 +1,540 @@
+{
+  "turn-1-full": [
+    {
+      "text": "You remember how to say to call? You need to open the association between to call and to phone and to call myself, my name is, and then you remember it.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Yes.",
+      "lang": "en"
+    },
+    {
+      "text": "Llamar.",
+      "lang": "es"
+    },
+    {
+      "text": "Now we can look a little bit at how the line in the past and the dot in the past interact. Now, we do this in some very common structures in both languages. For example, you might say something like I was cooking when the phone rang. So, I was cooking when the phone rang, which part is the line?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "And which part is the point?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Good. So, let’s begin with I was cooking.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "What is to cook?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Cocinar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "I was cooking:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "When:",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Cuando.",
+      "lang": "es"
+    },
+    {
+      "text": "The phone rang. El teléfono is the phone, like in English, which is actually from Greek. This first bit, tele-, means far, distant, and phone means voice. It’s the “distant voice”, it’s the telephone. So when the phone rang, and we will say when the phone sounded. And to sound is sonar. Sonar.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "So when the phone sounded:",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "All together, I was cooking when the phone rang. Not from memory but thinking it through again.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "I was cooking when the phone rang:",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Cocinaba cuando el teléfono sonó,",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "cocinaba cuando",
+      "lang": "es"
+    },
+    {
+      "text": "sonó el teléfono, which would probably be more natural order in Spanish.",
+      "lang": "en"
+    },
+    {
+      "text": "Cocinaba cuando",
+      "lang": "es"
+    },
+    {
+      "text": "sonó el teléfono. But both orders are perfectly fine. To arrive was",
+      "lang": "en"
+    },
+    {
+      "text": "llegar.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Llegar,",
+      "lang": "es"
+    },
+    {
+      "text": "to arrive.",
+      "lang": "en"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "And this is l-l, so we have the double l, which is like a y sound, e-g-a-r. verb,",
+      "lang": "en"
+    },
+    {
+      "text": "llegar.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "I arrived:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Llegué.",
+      "lang": "es"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "He arrived:",
+      "lang": "en"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Llegó.",
+      "lang": "es"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "We arrived:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "Llegamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. I was speaking on the phone when Maria arrived. And we’re not going to say literally on the phone in Spanish. We will say por, por teléfono, by phone. Por can also mean by.",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "So I was speaking on the phone when Maria arrived:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Hablaba por teléfono cuando María llegó.",
+      "lang": "es"
+    },
+    {
+      "text": "Or hablaba por teléfono",
+      "lang": "en"
+    },
+    {
+      "text": "cuando llegó",
+      "lang": "es"
+    },
+    {
+      "text": "María. Either way. Good. So we can see how we’re using the line and the point together. If you were to look up to stay in the dictionary, you would find quedarse.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "Then, you need to do something with that se so if you wanted to say I stayed, how would it be?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Me quedé.",
+      "lang": "es"
+    },
+    {
+      "text": "He stayed?",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "Or she stayed, or you (formal) stayed, it stayed:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "Se quedó.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "And we stayed:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Nos quedamos.",
+      "lang": "es"
+    },
+    {
+      "text": "Which, of course, could also mean we stay or we are staying. Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "What was to please? The verb that we use to express like. To please:",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Gustar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "if you want to say I like it, you say it pleases me. So how do you say I like it?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "We’re working on intuition, no? We’ve got me and it and we’re throwing it all in there. But we must-",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Yes. We must process it literally. It pleases me. It pleases, gusta. It pleases me,",
+      "lang": "en"
+    },
+    {
+      "text": "me gusta.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "if you want to say I liked it, you just say, of course, it pleased me. So how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Me gustó. Good. Me gusté, what does that mean?",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "Me gusté?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "I liked myself. Ah? Me gustó, it pleased me, I liked it. Good.:",
+      "lang": "en"
+    }
+  ],
+  "turn-47-reveal": [
+    {
+      "text": "No me gustó.,.",
+      "lang": "es"
+    },
+    {
+      "text": "Apart from the point in the past, you could also It wasn’t use the line in the past here depending on the context.",
+      "lang": "en"
+    }
+  ],
+  "turn-47-prompt": [
+    {
+      "text": "So how would you say that? pleasing me:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "No me gustaba.",
+      "lang": "es"
+    },
+    {
+      "text": "So with this line and point, we’re not looking for direct translations from English. We are looking to understand the concept of the line in time and the point in time and applying it I wasn’t liking it directly in Spanish. Because in English you would never say something like. And a lot of the time it’s totally interchangeable in Spanish.",
+      "lang": "en"
+    },
+    {
+      "text": "No me gustó, no me gustaba,",
+      "lang": "es"
+    },
+    {
+      "text": "just means you’re thinking in a different way when you say it. , you’re referring to something as",
+      "lang": "en"
+    },
+    {
+      "text": "No me gustó,",
+      "lang": "es"
+    },
+    {
+      "text": "you’re thinking about something as an ongoing an event, as something closed. And",
+      "lang": "en"
+    },
+    {
+      "text": "no me gustaba",
+      "lang": "es"
+    },
+    {
+      "text": "thing that occurred over a period of time. Really, a lot of the time that difference between the point and the line in time just originates in the mind.",
+      "lang": "en"
+    },
+    {
+      "text": "Parecer, parecer,",
+      "lang": "es"
+    },
+    {
+      "text": "was to seem.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "Parecer.",
+      "lang": "es"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "It’s related to apparent and we have aparecer in Spanish, which means to appear.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Transparent also is related, yes of course. Good. So",
+      "lang": "en"
+    },
+    {
+      "text": "parecer",
+      "lang": "es"
+    },
+    {
+      "text": "is to seem.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "How would you say it seems to me? It seems to me:",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "It seems good to me, or in Spanish it seems well to me:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Me parece bien.",
+      "lang": "es"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "How would you say it seemed good to me?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "It seemed:",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me pareció bien.",
+      "lang": "es"
+    },
+    {
+      "text": "It seemed good to me. And you might want to use the line in the past. You might want to say, like, it was seeming good to me. So even though this is not a translation you would use in English, in Spanish you’re just thinking about do I mean a point in time or do I mean ongoing in this context? So we might want it was seeming to me well.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "How would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me parecía bien..",
+      "lang": "es"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "So it seemed good to me, it was seeming good to me:",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "But:",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "When I saw it:",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": ":",
+      "lang": "en"
+    }
+  ],
+  "turn-71-full": [
+    {
+      "text": "Very good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me parecía bien, pero cuando lo vi, no me gustó.",
+      "lang": "es"
+    },
+    {
+      "text": "And again, here we see the interaction, no? Between the line and the point.",
+      "lang": "en"
+    },
+    {
+      "text": "Me parecía bien,",
+      "lang": "es"
+    },
+    {
+      "text": "it was seeming ok, fine, to me, I didn’t like it",
+      "lang": "en"
+    },
+    {
+      "text": "pero cuando lo vi,",
+      "lang": "es"
+    },
+    {
+      "text": "but when I saw it, this is a very clear point in the past,, in that moment when I saw it I didn’t like it. Again the point in the past.",
+      "lang": "en"
+    },
+    {
+      "text": "Me parecía bien, pero cuando lo vi, no me gustó.",
+      "lang": "es"
+    },
+    {
+      "text": "Excellent.",
+      "lang": "en"
+    }
+  ]
+}

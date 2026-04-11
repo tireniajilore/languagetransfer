@@ -1,0 +1,610 @@
+{
+  "turn-1-full": [
+    {
+      "text": "So I want to talk about something now that's different in Spanish. And first I want to speak about what this means; rather than an obstacle to learning, it's part of the experience of learning a new language which can make you realize that in your own language you are both permitted and obliged to perceive and express the world in a certain way. There's two important, kind of contradictory concepts here almost. It permits you and obliges you, it allows you and requires you, to perceive and to express the world in a certain way. So, in Spanish we have two verbs for to be. So remember to be is is, am, are; we get all of this from to be. We don't say I be; we say I am. So we have ser. This is where es comes from; this is where son comes from. And ser is about characteristics. When we refer to the characteristics of something. Actually un ser is a being. We said that some form of the verb is often the noun; here it's the complete form. Un ser is a being. Un ser humano is what?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "A human being.",
+      "lang": "es"
+    },
+    {
+      "text": "And we could have found humano, even though there's no rule to find humano, that word, we have humanity.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "The words with - ity end how in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Humanidad.",
+      "lang": "es"
+    },
+    {
+      "text": "And then we can probably guess then that human is humano. Un ser humano is",
+      "lang": "en"
+    },
+    {
+      "text": "a human being.",
+      "lang": "es"
+    },
+    {
+      "text": "So ser refers to things that are",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "of something. Then estar, which is the other to be, estar, refers to states - states we are in. The word state is related to estar. So Spanish permits us, allows us, but also obliges us, when we are perceiving and expressing the world around us, to make a decision and to think about something. Is this",
+      "lang": "en"
+    },
+    {
+      "text": "a state,",
+      "lang": "es"
+    },
+    {
+      "text": "or is it a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic?",
+      "lang": "es"
+    },
+    {
+      "text": "So this kind of sounds very abstract right now, so let's look at some examples. To be tired: do you think this is",
+      "lang": "en"
+    },
+    {
+      "text": "a state?",
+      "lang": "es"
+    },
+    {
+      "text": "Or do you think it's a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "of you, to be tired?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "Is it",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "you're in, or is it a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "of you?",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "Good. Where you are: is it",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "you are in or is it a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "of you? Where you are.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "A state.",
+      "lang": "es"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "To be a good or a bad person: do you think this is a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "of you or",
+      "lang": "en"
+    },
+    {
+      "text": "a state?",
+      "lang": "es"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Characteristic.",
+      "lang": "es"
+    },
+    {
+      "text": "So it's very very important to kind of snub out now any temptation that you might have to simplify this to temporary and permanent. This is what most learners do, and actually what many teachers do: simplify this concept to temporary and permanent. Which, if you think about it this way, will work most of the time, but not all of the time. We want to think in this way, is it",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "or is it a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic?",
+      "lang": "es"
+    },
+    {
+      "text": "For example if I say I am a student, it's not very permanent is it? But is it",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "or a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic?",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "My profession or my occupation.",
+      "lang": "en"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "It's temporary but that doesn't make it",
+      "lang": "en"
+    },
+    {
+      "text": "a state.",
+      "lang": "es"
+    },
+    {
+      "text": "Your profession, according to Spanish, is",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "of you. Even if you do it for five minutes.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Exactly. And we will see actually some adjectives we can use with both ser and estar to give different meanings. But the great bulk of them go with one or the other. This is Spanish conceptually deciding whether it's a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "a state;",
+      "lang": "es"
+    },
+    {
+      "text": "forcing us to make this differentiation and to express it. Let's look at the forms, lets look at the forms of estar to begin. Now I am from estar is",
+      "lang": "en"
+    },
+    {
+      "text": "estoy. Estoy.",
+      "lang": "es"
+    },
+    {
+      "text": "So it ends - oy. We already saw another verb that ends - oy which is voy: I go or I'm going.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "Estoy.",
+      "lang": "es"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Estoy.",
+      "lang": "es"
+    },
+    {
+      "text": "Now to be is a very irregular verb in most languages. Look at English: from to be we get am, is, are, was. But this is actually not so irregular.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "We have this little irregularity - oy,",
+      "lang": "en"
+    },
+    {
+      "text": "estoy.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "And the other irregularity that we have is that this verb is the only verb in the entire Spanish language that doesn't have the accent on the penultimate syllable in the present tense. So it's not“éstoy” it's",
+      "lang": "en"
+    },
+    {
+      "text": "estoy;",
+      "lang": "es"
+    },
+    {
+      "text": "the accent is on the ending. This hasn't happened until now, and it won't happen again. So we have estar and from estar we have",
+      "lang": "en"
+    },
+    {
+      "text": "estoy.",
+      "lang": "es"
+    },
+    {
+      "text": "Now, all of the other forms are regular. We build them how we would expect to, with the exception that the accent will be on the last syllable. And it's the only verb in the entire present tense that has this",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "So how would you say he is / she is / it is / you are, from estar, using estar?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Está.",
+      "lang": "es"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "They or for you guys:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "And make it for you (informal):",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "Good. And for the “we” version, the accent is where it should be because we're adding two syllables. So give me the “” version. we",
+      "lang": "en"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "Estamos.",
+      "lang": "es"
+    },
+    {
+      "text": "So that's it, that's your set.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy, está, están, estás, estamos.",
+      "lang": "es"
+    },
+    {
+      "text": "The word for tired is",
+      "lang": "en"
+    },
+    {
+      "text": "cansado, cansado.",
+      "lang": "es"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "C-a-n-s-a-d-o.",
+      "lang": "en"
+    },
+    {
+      "text": "Cansado.",
+      "lang": "es"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So how would you say, I am tired? This is",
+      "lang": "en"
+    },
+    {
+      "text": "a state.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Estoy cansada.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "We are tired, talking about a mixed or a masculine group?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estamos cansados.",
+      "lang": "es"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "What if you are an all female group?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good. Now the word for always we said was siempre. Siempre. Now if you say, I'm always tired, because tired as an adjective, as an idea, is",
+      "lang": "en"
+    },
+    {
+      "text": "a state,",
+      "lang": "es"
+    },
+    {
+      "text": "not a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic,",
+      "lang": "es"
+    },
+    {
+      "text": "because we are looking at that whether it's",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "or a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic,",
+      "lang": "es"
+    },
+    {
+      "text": "rather than is it permanent or is it temporary, we're using estar. So even if you say I'm always tired it doesn't matter, you still use estar. So siempre is very flexible in this sentence, you can put it anywhere. The emphasis is going to change when you move it, but it's legal anywhere.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "So how would you say, I'm always tired?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy cansada siempre. Estoy",
+      "lang": "es"
+    },
+    {
+      "text": "siempre cansada. Siempre",
+      "lang": "en"
+    },
+    {
+      "text": "estoy cansada.",
+      "lang": "es"
+    },
+    {
+      "text": "Or I would say. Good. So we want to resist the temptation to simplify this concept to “temporary” and cansado“permanent”. We want to ask ourself “is it",
+      "lang": "en"
+    },
+    {
+      "text": "a state,",
+      "lang": "es"
+    },
+    {
+      "text": "or is it a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic?",
+      "lang": "es"
+    },
+    {
+      "text": "” To be tired: is it",
+      "lang": "en"
+    },
+    {
+      "text": "a state",
+      "lang": "es"
+    },
+    {
+      "text": "or is it a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic?",
+      "lang": "es"
+    },
+    {
+      "text": "If we simplify it to temporary and permanent, most of the time it's going to work, this simplification. But many times we're going to feel frustrated, feeling like there's something we don't understand because Spanish disagrees with us. If we have the concepts of",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "and state, the few times Spanish disagrees with what we consider a",
+      "lang": "en"
+    },
+    {
+      "text": "characteristic",
+      "lang": "es"
+    },
+    {
+      "text": "and state it's going to be an interesting point of perspective. For example, muerto.",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "Which means:",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "Dead.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. We looked at this briefly before as a part of mortgage, meaning death-pact. Muerto, in Spanish, is",
+      "lang": "en"
+    },
+    {
+      "text": "a state.",
+      "lang": "es"
+    },
+    {
+      "text": "Death is",
+      "lang": "en"
+    },
+    {
+      "text": "a state.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "if you want to say I'm",
+      "lang": "en"
+    },
+    {
+      "text": "dead,",
+      "lang": "es"
+    },
+    {
+      "text": "you would use estar. So how would you say that?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-full": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy muerta.",
+      "lang": "es"
+    },
+    {
+      "text": "And I would say",
+      "lang": "en"
+    },
+    {
+      "text": "estoy",
+      "lang": "es"
+    },
+    {
+      "text": "muerto. And you can use it to say, I'm very tired as well.",
+      "lang": "en"
+    },
+    {
+      "text": "Estoy muerta, estoy",
+      "lang": "es"
+    },
+    {
+      "text": "muerto. I'm very tired. Good.",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "turn-1-full": [
+    {
+      "text": "How would you say the situation in Spanish?",
+      "lang": "en"
+    }
+  ],
+  "turn-3-reveal": [
+    {
+      "text": "Good. - ión is a",
+      "lang": "en"
+    },
+    {
+      "text": "feminine",
+      "lang": "es"
+    },
+    {
+      "text": "ending, so the word takes la for the.",
+      "lang": "en"
+    },
+    {
+      "text": "La situación.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Now in Spanish, adjectives are describing words. Adjectives are words that describe, like big or yellow or happy. Words that we can put is in front of are adjectives, describing words. These words come after the noun they describe in Spanish. So instead of saying, “the global situation\" for example, you say“the situation global\". There's a bit of flexibility for emphasis as well, but the normal standard position is to come after the noun.",
+      "lang": "en"
+    }
+  ],
+  "turn-3-prompt": [
+    {
+      "text": "So how would you say the global situation?",
+      "lang": "en"
+    }
+  ],
+  "turn-5-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La situación global.",
+      "lang": "es"
+    }
+  ],
+  "turn-5-prompt": [
+    {
+      "text": "How would you say digital camera? Digital camera:",
+      "lang": "en"
+    }
+  ],
+  "turn-7-reveal": [
+    {
+      "text": "Yeah.",
+      "lang": "en"
+    },
+    {
+      "text": "Cámara digital.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. Cámara is",
+      "lang": "en"
+    },
+    {
+      "text": "feminine,",
+      "lang": "es"
+    },
+    {
+      "text": "so a digital camera is una",
+      "lang": "en"
+    },
+    {
+      "text": "cámara digital.",
+      "lang": "es"
+    },
+    {
+      "text": "So we have la for the, and una for a.",
+      "lang": "en"
+    }
+  ],
+  "turn-7-prompt": [
+    {
+      "text": "So how would you say, I want to buy a digital camera? What was the verb to buy?",
+      "lang": "en"
+    }
+  ],
+  "turn-9-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-9-prompt": [
+    {
+      "text": "So I want to buy a digital camera:",
+      "lang": "en"
+    }
+  ],
+  "turn-11-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero comprar una cámara digital.",
+      "lang": "es"
+    }
+  ],
+  "turn-11-prompt": [
+    {
+      "text": "How would you say I want to buy the digital camera?",
+      "lang": "en"
+    }
+  ],
+  "turn-13-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Quiero comprar la cámara digital.",
+      "lang": "es"
+    }
+  ],
+  "turn-13-prompt": [
+    {
+      "text": "What if you wanted to say, I want to buy it and with the it, you meant the digital camera?",
+      "lang": "en"
+    }
+  ],
+  "turn-15-reveal": [
+    {
+      "text": "Good. So this la is it. There's a lot of words in Spanish for car depending on where you are. It's one of the words that changes a lot between the dialects, but I think everybody understands all of the words that are heard. You might hear coche, which is related to coach; carro, which of course is car, carro, so we have two r's in carro, that's why we have this rolling r.",
+      "lang": "en"
+    }
+  ],
+  "turn-15-prompt": [
+    {
+      "text": "You might hear auto, where do you think auto comes from?",
+      "lang": "en"
+    }
+  ],
+  "turn-17-reveal": [
+    {
+      "text": "Of course, and it exists: automóbil. But people will say auto. You might even hear",
+      "lang": "en"
+    },
+    {
+      "text": "máquina,",
+      "lang": "es"
+    },
+    {
+      "text": "which means machine. So machine, the car,",
+      "lang": "en"
+    },
+    {
+      "text": "máquina.",
+      "lang": "es"
+    },
+    {
+      "text": "This is another example of the q-u spelling producing k sound. M-a-q-u-i-n-a.",
+      "lang": "en"
+    }
+  ],
+  "turn-17-prompt": [
+    {
+      "text": "Máquina.",
+      "lang": "es"
+    }
+  ],
+  "turn-19-reveal": [
+    {
+      "text": "Good. So there's a few words there for car, and you might hear others as well. Coche is",
+      "lang": "en"
+    },
+    {
+      "text": "masculine,",
+      "lang": "es"
+    }
+  ],
+  "turn-19-prompt": [
+    {
+      "text": "so how would you say the car?",
+      "lang": "en"
+    }
+  ],
+  "turn-21-reveal": [
+    {
+      "text": "Good. A for",
+      "lang": "en"
+    },
+    {
+      "text": "masculine",
+      "lang": "es"
+    },
+    {
+      "text": "words is un. U-n. Un.",
+      "lang": "en"
+    }
+  ],
+  "turn-21-prompt": [
+    {
+      "text": "So, a car:",
+      "lang": "en"
+    }
+  ],
+  "turn-23-reveal": [
+    {
+      "text": "The machine?",
+      "lang": "en"
+    }
+  ],
+  "turn-23-prompt": [
+    {
+      "text": "Does",
+      "lang": "en"
+    },
+    {
+      "text": "máquina",
+      "lang": "es"
+    },
+    {
+      "text": "look",
+      "lang": "en"
+    },
+    {
+      "text": "masculine",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "feminine?",
+      "lang": "es"
+    }
+  ],
+  "turn-25-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-25-prompt": [
+    {
+      "text": "So the machine:",
+      "lang": "en"
+    }
+  ],
+  "turn-27-reveal": [
+    {
+      "text": "La máquina.",
+      "lang": "es"
+    }
+  ],
+  "turn-27-prompt": [
+    {
+      "text": "A machine:",
+      "lang": "en"
+    }
+  ],
+  "turn-29-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-29-prompt": [
+    {
+      "text": "And does carro look",
+      "lang": "en"
+    },
+    {
+      "text": "masculine",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "feminine?",
+      "lang": "es"
+    }
+  ],
+  "turn-31-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-31-prompt": [
+    {
+      "text": "So the car:",
+      "lang": "en"
+    }
+  ],
+  "turn-33-reveal": [
+    {
+      "text": "El carro.",
+      "lang": "es"
+    }
+  ],
+  "turn-33-prompt": [
+    {
+      "text": "A car:",
+      "lang": "en"
+    }
+  ],
+  "turn-35-reveal": [
+    {
+      "text": "Un carro.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So it's the noun that has the gender, not the object. Of course it's not the car that is",
+      "lang": "en"
+    },
+    {
+      "text": "masculine",
+      "lang": "es"
+    },
+    {
+      "text": "or",
+      "lang": "en"
+    },
+    {
+      "text": "feminine,",
+      "lang": "es"
+    },
+    {
+      "text": "it's the noun, it’s the word itself. So even though all of these words refer to car, some are",
+      "lang": "en"
+    },
+    {
+      "text": "masculine",
+      "lang": "es"
+    },
+    {
+      "text": "and some are",
+      "lang": "en"
+    },
+    {
+      "text": "feminine.",
+      "lang": "es"
+    },
+    {
+      "text": "Big, in Spanish, is grande, grande. Of course we can relate this to grand in English, grande. So using any of these words that you like,",
+      "lang": "en"
+    }
+  ],
+  "turn-35-prompt": [
+    {
+      "text": "how would you say, the big car?",
+      "lang": "en"
+    }
+  ],
+  "turn-37-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "La máquina grande.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "la máquina grande, el auto grande.",
+      "lang": "es"
+    },
+    {
+      "text": "Now if you say the big cars, this adjective is also going to become plural.",
+      "lang": "en"
+    }
+  ],
+  "turn-37-prompt": [
+    {
+      "text": "How do you say the house?",
+      "lang": "en"
+    }
+  ],
+  "turn-39-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-39-prompt": [
+    {
+      "text": "And how was the houses?",
+      "lang": "en"
+    }
+  ],
+  "turn-41-prompt": [
+    {
+      "text": "Good, so la also became plural. So",
+      "lang": "en"
+    },
+    {
+      "text": "las casas,",
+      "lang": "es"
+    },
+    {
+      "text": "if you say the big houses, big is also going to become plural.",
+      "lang": "en"
+    }
+  ],
+  "turn-43-reveal": [
+    {
+      "text": "So",
+      "lang": "en"
+    }
+  ],
+  "turn-43-prompt": [
+    {
+      "text": "how would you say the big houses?",
+      "lang": "en"
+    }
+  ],
+  "turn-45-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Las casas grandes.",
+      "lang": "es"
+    }
+  ],
+  "turn-45-prompt": [
+    {
+      "text": "The big car, using auto:",
+      "lang": "en"
+    }
+  ],
+  "turn-49-reveal": [
+    {
+      "text": "Los autos grandes.",
+      "lang": "es"
+    },
+    {
+      "text": "Los carros",
+      "lang": "en"
+    },
+    {
+      "text": "grandes.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-49-prompt": [
+    {
+      "text": "If you want to say Can you see the big car? you can say, can you see?, or in Spanish you can just say, do you see? We kind of overuse this can a lot in English. So, Do you see the big car?:",
+      "lang": "en"
+    }
+  ],
+  "turn-51-reveal": [
+    {
+      "text": "Good. You needed some time there to look at ves. And this was the more common way actually, of saying it in Spanish: ¿ Ves",
+      "lang": "en"
+    },
+    {
+      "text": "el auto grande?",
+      "lang": "es"
+    },
+    {
+      "text": "But, if you didn't have that time to think about it, can you see… even though it's more natural to say it like this it really doesn't matter; you can say Now you would probably be quicker at building can you see than you see because can is something very common that you're going to be using all the time. So in conversation, where you just want to get the meaning across, you might want to use this.",
+      "lang": "en"
+    }
+  ],
+  "turn-51-prompt": [
+    {
+      "text": "So how would you say can you see the big car?:",
+      "lang": "en"
+    }
+  ],
+  "turn-53-reveal": [
+    {
+      "text": "Good. So puedo, quiero, tengo que, debo, these verbs that are followed by two versions that you're going to be using a lot, even though the sentence is longer, they are short cuts. They are short cuts in thought. And once you become very confident with that, you're going to start noticing that people say things differently to you. So instead of I can't find it, I don't find it. You will notice that yourself and your speech will adjust, but in the beginning what you're trying to do is to be conversational and correct structurally. Once you get over that hurdle of being communicative, you're going to start noticing that people say things differently to you. So instead of I can't find it, I don't find it. So you could say, I can't find it.",
+      "lang": "en"
+    }
+  ],
+  "turn-53-prompt": [
+    {
+      "text": "How would you say I can't find it? What was to find, or to encounter?",
+      "lang": "en"
+    }
+  ],
+  "turn-55-reveal": [
+    {
+      "text": "Encontrar.",
+      "lang": "es"
+    }
+  ],
+  "turn-55-prompt": [
+    {
+      "text": "So say I can't find it:",
+      "lang": "en"
+    }
+  ],
+  "turn-57-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "No puedo encontrarlo.",
+      "lang": "es"
+    },
+    {
+      "text": "This would be the short cut even though it's longer, it's much easier to build",
+      "lang": "en"
+    },
+    {
+      "text": "no puedo encontrarlo",
+      "lang": "es"
+    },
+    {
+      "text": "because puedo is something you're going to be using all the time, and",
+      "lang": "en"
+    },
+    {
+      "text": "encontrar",
+      "lang": "es"
+    },
+    {
+      "text": "is in the “to\" form.",
+      "lang": "en"
+    }
+  ],
+  "turn-57-prompt": [
+    {
+      "text": "I don't find it, how would that be?",
+      "lang": "en"
+    }
+  ],
+  "turn-59-reveal": [
+    {
+      "text": "No lo encuentro.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. So it's very useful to bear in mind these verbs like puedo, debo, which we can use with “to\" forms which give us a short cut and allow us to get conversational very quickly.",
+      "lang": "en"
+    }
+  ],
+  "turn-59-prompt": [
+    {
+      "text": "What was to remain?",
+      "lang": "en"
+    }
+  ],
+  "turn-61-reveal": [
+    {
+      "text": "Quedar.",
+      "lang": "es"
+    },
+    {
+      "text": "Good. And I remain myself is how we get the meaning of I stay.",
+      "lang": "en"
+    }
+  ],
+  "turn-61-prompt": [
+    {
+      "text": "So how do you say I stay?",
+      "lang": "en"
+    }
+  ],
+  "turn-63-reveal": [
+    {
+      "text": "I remain myself. I remain myself.",
+      "lang": "en"
+    }
+  ],
+  "turn-63-prompt": [
+    {
+      "text": "What's to remain?",
+      "lang": "en"
+    }
+  ],
+  "turn-65-prompt": [
+    {
+      "text": "What's I remain?",
+      "lang": "en"
+    }
+  ],
+  "turn-67-reveal": [
+    {
+      "text": "Uh-huh.",
+      "lang": "en"
+    }
+  ],
+  "turn-67-prompt": [
+    {
+      "text": "What's I remain myself?",
+      "lang": "en"
+    }
+  ],
+  "turn-69-prompt": [
+    {
+      "text": "What was happening?",
+      "lang": "en"
+    }
+  ],
+  "turn-71-reveal": [
+    {
+      "text": "Well you start when you're building the sentence with the verb. With who's doing that. So if you start with that, then it's not in the “to\" form anymore. The order of thought is very important; the verb is the backbone. That's the first place you want to go:",
+      "lang": "en"
+    },
+    {
+      "text": "quedo.",
+      "lang": "es"
+    },
+    {
+      "text": "I remain myself:",
+      "lang": "en"
+    },
+    {
+      "text": "me quedo.",
+      "lang": "es"
+    },
+    {
+      "text": "So",
+      "lang": "en"
+    },
+    {
+      "text": "me quedo",
+      "lang": "es"
+    },
+    {
+      "text": "is I stay. The word for red in Spanish is",
+      "lang": "en"
+    },
+    {
+      "text": "rojo. Rojo.",
+      "lang": "es"
+    },
+    {
+      "text": "This is spelled r-o-j-o. And j's in Spanish are pronounced / kh /.",
+      "lang": "en"
+    }
+  ],
+  "turn-71-prompt": [
+    {
+      "text": "Like this,",
+      "lang": "en"
+    },
+    {
+      "text": "rojo.",
+      "lang": "es"
+    }
+  ],
+  "turn-73-prompt": [
+    {
+      "text": "And we have the initial r, so if you can do it, it will be the rolling r.",
+      "lang": "en"
+    },
+    {
+      "text": "Rojo.",
+      "lang": "es"
+    }
+  ],
+  "turn-75-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-75-prompt": [
+    {
+      "text": "So how would you say I'm staying in the red car? I'm staying in the car red. The word for in is en. E-n. So let's divide it up: I'm staying, only think about that bit. I'm staying, I remain myself:",
+      "lang": "en"
+    }
+  ],
+  "turn-77-prompt": [
+    {
+      "text": "In:",
+      "lang": "en"
+    }
+  ],
+  "turn-79-reveal": [
+    {
+      "text": "The red car, the car red. And let's use the word auto for car for now.",
+      "lang": "en"
+    }
+  ],
+  "turn-79-prompt": [
+    {
+      "text": "So I'm staying in the red car, the car red:",
+      "lang": "en"
+    }
+  ],
+  "turn-81-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    },
+    {
+      "text": "Me quedo en el auto rojo.",
+      "lang": "es"
+    },
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-81-prompt": [
+    {
+      "text": "How would you say I have stayed in the red car? I have stayed, I have remained myself in the red car. Again we want to divide it up. I have remained myself. There's a lot to think about there, in that first bit.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-reveal": [
+    {
+      "text": "Uh-huh.",
+      "lang": "en"
+    }
+  ],
+  "turn-83-prompt": [
+    {
+      "text": "In the red car:",
+      "lang": "en"
+    }
+  ],
+  "turn-85-reveal": [
+    {
+      "text": "Good.",
+      "lang": "en"
+    }
+  ],
+  "turn-85-prompt": [
+    {
+      "text": "How would you say I have bought a red car? What is the verb to buy?",
+      "lang": "en"
+    }
+  ],
+  "turn-87-prompt": [
+    {
+      "text": "Comprar.",
+      "lang": "es"
+    }
+  ],
+  "turn-89-full": [
+    {
+      "text": "Comprar.",
+      "lang": "es"
+    }
+  ],
+  "turn-90-full": [
+    {
+      "text": "So I have bought a red car, and let's use auto. I have bought a red car:",
+      "lang": "en"
+    }
+  ],
+  "turn-92-reveal": [
+    {
+      "text": "Good. He comprado un, (",
+      "lang": "en"
+    },
+    {
+      "text": "masculine",
+      "lang": "es"
+    },
+    {
+      "text": "word), un, un auto",
+      "lang": "en"
+    },
+    {
+      "text": "rojo.",
+      "lang": "es"
+    }
+  ],
+  "turn-92-prompt": [
+    {
+      "text": "How would you say I have bought myself a red car?",
+      "lang": "en"
+    }
+  ],
+  "turn-94-full": [
+    {
+      "text": "Me he comprado un auto rojo.",
+      "lang": "es"
+    },
+    {
+      "text": "I have bought myself a red car. Very good.",
+      "lang": "en"
+    }
+  ]
+}
