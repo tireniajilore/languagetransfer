@@ -1,4 +1,6 @@
 export type NextLessonInterest = 'yes' | 'maybe' | 'no';
+export type KeepGoingReason = 'teaching_style' | 'actually_learning' | 'fun' | 'want_spanish';
+export type DiscoveryChannel = 'discord' | 'reddit' | 'friend' | 'search' | 'other';
 
 export interface DemandSubmission {
   sessionId: string;
@@ -9,6 +11,8 @@ export interface DemandSubmission {
   email?: string;
   rating: number;
   feedbackText?: string;
+  keepGoingReason?: KeepGoingReason;
+  discoveryChannel?: DiscoveryChannel;
   referrer?: string;
   utmSource?: string;
   utmMedium?: string;
