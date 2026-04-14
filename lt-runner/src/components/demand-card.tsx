@@ -3,7 +3,7 @@
 import { useMemo, useState } from 'react';
 import { trackEvent } from '@/lib/analytics';
 import { getClientSessionContext } from '@/lib/session';
-import type { DemandSubmissionRequest, NextLessonInterest } from '@/types/demand';
+import type { DemandSubmissionRequest, NextLessonInterest, KeepGoingReason, DiscoveryChannel } from '@/types/demand';
 
 interface DemandCardProps {
   lessonId: string;
@@ -17,6 +17,8 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
   const [email, setEmail] = useState('');
   const [rating, setRating] = useState<number | null>(null);
   const [feedbackText, setFeedbackText] = useState('');
+  const [keepGoingReason, setKeepGoingReason] = useState<KeepGoingReason | ''>('');
+  const [discoveryChannel, setDiscoveryChannel] = useState<DiscoveryChannel | ''>('');
   const [honeypot, setHoneypot] = useState('');
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -53,6 +55,8 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
       email: needsEmail ? email.trim() : undefined,
       rating,
       feedbackText: feedbackText.trim() || undefined,
+      keepGoingReason: keepGoingReason || undefined,
+      discoveryChannel: discoveryChannel || undefined,
       referrer: context.referrer,
       utmSource: context.utmSource,
       utmMedium: context.utmMedium,
@@ -80,7 +84,9 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
       completionPercent,
       wantsNextLesson: interest,
       rating,
-      emailCaptured: Boolean(needsEmail && email.trim())
+      emailCaptured: Boolean(needsEmail && email.trim()),
+      keepGoingReason: keepGoingReason || null,
+      discoveryChannel: discoveryChannel || null
     });
 
     setStatus('success');
@@ -142,6 +148,57 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
             />
           </div>
         ) : null}
+
+        <div>
+          <p className="text-sm font-medium text-ink/70">What kept you going?</p>
+          <div className="mt-3 flex flex-wrap gap-3">
+            {([
+              ['teaching_style', 'The teaching style'],
+              ['actually_learning', 'I was actually learning'],
+              ['fun', 'It was fun'],
+              ['want_spanish', 'I want to learn Spanish'],
+            ] as [KeepGoingReason, string][]).map(([value, label]) => (
+              <button
+                key={value}
+                type="button"
+                onClick={() => setKeepGoingReason(value)}
+                className={`rounded-full px-5 py-3 text-sm font-semibold transition ${
+                  keepGoingReason === value
+                    ? 'bg-leaf text-white'
+                    : 'border border-ink/15 bg-white text-ink hover:bg-white/90'
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <p className="text-sm font-medium text-ink/70">How did you find this?</p>
+          <div className="mt-3 flex flex-wrap gap-3">
+            {([
+              ['discord', 'Discord'],
+              ['reddit', 'Reddit'],
+              ['friend', 'Friend'],
+              ['search', 'Search'],
+              ['other', 'Other'],
+            ] as [DiscoveryChannel, string][]).map(([value, label]) => (
+              <button
+                key={value}
+                type="button"
+                onClick={() => setDiscoveryChannel(value)}
+                className={`rounded-full px-5 py-3 text-sm font-semibold transition ${
+                  discoveryChannel === value
+                    ? 'bg-leaf text-white'
+                    : 'border border-ink/15 bg-white text-ink hover:bg-white/90'
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
 
         <div>
           <p className="text-sm font-medium text-ink/70">How useful was this lesson?</p>

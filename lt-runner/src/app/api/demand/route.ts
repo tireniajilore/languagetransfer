@@ -95,6 +95,8 @@ export async function POST(request: Request) {
     email: payload.email ?? null,
     rating: payload.rating,
     feedback_text: payload.feedbackText ?? null,
+    keep_going_reason: payload.keepGoingReason ?? null,
+    discovery_channel: payload.discoveryChannel ?? null,
     referrer: payload.referrer ?? null,
     utm_source: payload.utmSource ?? null,
     utm_medium: payload.utmMedium ?? null,
