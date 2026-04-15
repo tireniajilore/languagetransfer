@@ -138,7 +138,7 @@ export function LessonPlayer({ lesson, autostart = false }: LessonPlayerProps) {
             href="/"
             className="text-sm uppercase tracking-[0.3em] text-ink/45 transition hover:text-ink/70"
           >
-            VoiceAI Demand Test
+            Language Transfer
           </Link>
           <div className="mt-3 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
             <div className="max-w-3xl">

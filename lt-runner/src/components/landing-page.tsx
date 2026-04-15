@@ -32,7 +32,7 @@ export function LandingPage() {
 
           <div className="mt-8 border-t border-ink/[0.08] pt-6">
             <p className="text-sm text-ink/45">
-              Based on <span className="font-semibold text-ink/60">Language Transfer</span>, used by 2M+ learners worldwide.
+              Based on <span className="font-semibold text-ink/60">Language Transfer</span>, used by thousands of learners worldwide.
             </p>
           </div>
         </section>
