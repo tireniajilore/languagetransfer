@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'VoiceAI',
+  title: 'Language Transfer Spanish',
   description: 'Interactive Spanish lessons built around the Language Transfer thinking method'
 };
 
