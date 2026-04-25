@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useReducer, useRef } from 'react';
+import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from 'react';
 import { BrowserTTS } from '@/adapters/tts/browser-tts';
 import { ElevenLabsTTS } from '@/adapters/tts/elevenlabs';
 import { StaticTTS } from '@/adapters/tts/static-tts';
@@ -13,8 +13,24 @@ import type { Lesson } from '@/types/lesson';
 
 const FALLBACK_MESSAGE = 'Taking note and moving on.';
 
-export function useLessonEngine(lesson: Lesson) {
+type WaitingMode = 'auto_timeout' | 'manual_nudge';
+
+interface UseLessonEngineOptions {
+  waitingMode?: WaitingMode;
+  promptNudgeMessage?: string;
+}
+
+interface PlaybackState {
+  status: 'idle' | 'playing';
+  degradedStepId: string | null;
+}
+
+export function useLessonEngine(
+  lesson: Lesson,
+  options: UseLessonEngineOptions = {}
+) {
   const [state, dispatch] = useReducer(lessonEngineReducer, lesson, createInitialEngineState);
+  const [playback, setPlayback] = useState<PlaybackState>({ status: 'idle', degradedStepId: null });
   const stepTimerRef = useRef<number | null>(null);
   const waitIntervalRef = useRef<number | null>(null);
   const timeoutRef = useRef<number | null>(null);
@@ -43,6 +59,9 @@ export function useLessonEngine(lesson: Lesson) {
     }
   }, []);
 
+  const waitingMode = options.waitingMode ?? 'auto_timeout';
+  const promptNudgeMessage = options.promptNudgeMessage ?? FALLBACK_MESSAGE;
+
   useEffect(() => {
     ttsRef.current = typeof window !== 'undefined'
       ? new StaticTTS(lesson.id, new ElevenLabsTTS(new BrowserTTS()))
@@ -63,8 +82,11 @@ export function useLessonEngine(lesson: Lesson) {
     if (!currentStep) return;
     if (state.mode !== 'playing') return;
 
+    setPlayback({ status: 'playing', degradedStepId: null });
+
     if (currentStep.type === 'pause') {
       stepTimerRef.current = window.setTimeout(() => {
+        setPlayback((current) => ({ status: 'idle', degradedStepId: current.degradedStepId }));
         dispatch({ type: 'STEP_COMPLETE' });
       }, (currentStep.estimatedDuration ?? 2) * 1000);
       return;
@@ -77,6 +99,7 @@ export function useLessonEngine(lesson: Lesson) {
     const isPrompt = currentStep.type === 'prompt' || currentStep.type === 'open_prompt';
 
     const handleStepDone = () => {
+      setPlayback((current) => ({ status: 'idle', degradedStepId: current.degradedStepId }));
       if (isPrompt) {
         dispatch({
           type: 'PROMPT_REACHED',
@@ -88,6 +111,7 @@ export function useLessonEngine(lesson: Lesson) {
     };
 
     if (usingTextOnly) {
+      setPlayback({ status: 'idle', degradedStepId: currentStep.id });
       if (isPrompt) {
         handleStepDone();
       } else {
@@ -103,6 +127,7 @@ export function useLessonEngine(lesson: Lesson) {
       })
       .catch(() => {
         if (cancelled) return;
+        setPlayback({ status: 'idle', degradedStepId: currentStep.id });
         if (isPrompt) {
           handleStepDone();
         } else {
@@ -146,19 +171,21 @@ export function useLessonEngine(lesson: Lesson) {
       timeoutRef.current = window.setTimeout(() => {
         dispatch({
           type: 'SET_FALLBACK_MESSAGE',
-          payload: { message: FALLBACK_MESSAGE }
+          payload: { message: promptNudgeMessage }
         });
 
-        fallbackAdvanceRef.current = window.setTimeout(() => {
-          dispatch({ type: 'TIMEOUT' });
-        }, 1200);
+        if (waitingMode === 'auto_timeout') {
+          fallbackAdvanceRef.current = window.setTimeout(() => {
+            dispatch({ type: 'TIMEOUT' });
+          }, 1200);
+        }
       }, waitingTotalSeconds * 1000);
     }
 
     return () => {
       clearWaitingTimers();
     };
-  }, [state.mode, waitingStartedAt, waitingTotalSeconds, waitingForOpenPrompt, clearWaitingTimers]);
+  }, [state.mode, waitingStartedAt, waitingTotalSeconds, waitingForOpenPrompt, clearWaitingTimers, waitingMode, promptNudgeMessage]);
 
   useEffect(() => {
     return () => {
@@ -210,6 +237,7 @@ export function useLessonEngine(lesson: Lesson) {
   return {
     ...snapshot,
     canSkipIntro,
+    playback,
     start,
     pause,
     resume,
