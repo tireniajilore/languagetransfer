@@ -16,14 +16,6 @@ function getStepLabel(step?: LessonStep, mode?: string) {
   return 'Listen';
 }
 
-function getStepInstruction(step?: LessonStep, mode?: string) {
-  if (!step) return 'Keep listening.';
-  if (mode === 'completed') return 'The prototype is complete.';
-  if (step.type === 'prompt') return 'Say your answer out loud, then reveal it when you are ready.';
-  if (step.type === 'reveal') return 'Listen to the answer and continuation.';
-  return 'Listen carefully.';
-}
-
 function MinimalControls({
   canPause,
   canResume,
@@ -57,9 +49,8 @@ function MinimalControls({
 
 function WaitingPanel({ text }: { text: string }) {
   return (
-    <div className="rounded-[2rem] border border-sun/30 bg-sun/10 p-5">
-      <p className="text-xs uppercase tracking-[0.25em] text-ink/45">Pause</p>
-      <p className="mt-3 text-base font-medium text-ink">{text}</p>
+    <div className="rounded-[2rem] border border-sun/30 bg-sun/10 px-5 py-4">
+      <p className="text-sm font-medium text-ink/70">{text}</p>
     </div>
   );
 }
@@ -96,7 +87,7 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
   }, [currentStep, state.lesson.steps]);
 
   const isWaitingForReveal = state.mode === 'waiting_for_response' && currentStep?.type === 'prompt';
-  const waitingText = state.waiting?.fallbackMessage || 'Say it out loud, then tap when you are ready.';
+  const waitingText = state.waiting?.fallbackMessage || 'When you are ready';
   const showDegradedNotice = playback.degradedStepId === activeStep?.id;
 
   const handleRestart = () => {
@@ -109,8 +100,7 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
       <main className="min-h-screen px-4 py-10 md:px-8">
         <div className="mx-auto flex min-h-[80vh] max-w-3xl items-center justify-center">
           <section className="w-full rounded-[2.5rem] bg-white/80 p-8 text-center shadow-panel backdrop-blur md:p-12">
-            <p className="text-sm uppercase tracking-[0.3em] text-ink/45">Lesson 2 Prototype</p>
-            <h1 className="mt-4 text-3xl font-semibold tracking-tight text-ink md:text-5xl">
+            <h1 className="text-3xl font-semibold tracking-tight text-ink md:text-5xl">
               Listen. Say it out loud. Then reveal it.
             </h1>
             <div className="mt-10">
@@ -134,11 +124,9 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
     <main className="min-h-screen px-4 py-8 md:px-8">
       <div className="mx-auto flex max-w-3xl flex-col gap-6">
         <header className="rounded-[2rem] bg-white/70 p-5 shadow-panel backdrop-blur">
-          <p className="text-sm uppercase tracking-[0.3em] text-ink/45">Lesson 2 Prototype</p>
-          <div className="mt-4 flex flex-wrap items-center justify-between gap-4">
+          <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
               <h1 className="text-2xl font-semibold tracking-tight text-ink">{lesson.title}</h1>
-              <p className="mt-1 text-sm text-ink/55">Speak your answer out loud before you reveal it.</p>
             </div>
             <MinimalControls
               canPause={canPause}
@@ -159,9 +147,6 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
             <span className="h-3 w-3 rounded-full bg-ink/25" />
             <span className="h-3 w-3 rounded-full bg-ink/25" />
           </div>
-          <p className="mt-5 text-lg font-medium text-ink md:text-xl">
-            {getStepInstruction(activeStep, state.mode)}
-          </p>
         </section>
 
         {showDegradedNotice ? <DegradedNotice /> : null}
