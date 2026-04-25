@@ -18,6 +18,7 @@ type WaitingMode = 'auto_timeout' | 'manual_nudge';
 interface UseLessonEngineOptions {
   waitingMode?: WaitingMode;
   promptNudgeMessage?: string;
+  ttsMode?: 'static_first' | 'dynamic_first';
 }
 
 interface PlaybackState {
@@ -61,16 +62,26 @@ export function useLessonEngine(
 
   const waitingMode = options.waitingMode ?? 'auto_timeout';
   const promptNudgeMessage = options.promptNudgeMessage ?? FALLBACK_MESSAGE;
+  const ttsMode = options.ttsMode ?? 'static_first';
 
   useEffect(() => {
-    ttsRef.current = typeof window !== 'undefined'
-      ? new StaticTTS(lesson.id, new ElevenLabsTTS(new BrowserTTS()))
-      : new TextTTS();
+    if (typeof window === 'undefined') {
+      ttsRef.current = new TextTTS();
+      return () => {
+        ttsRef.current?.stop();
+      };
+    }
+
+    const browserFallback = new BrowserTTS();
+    const dynamicTTS = new ElevenLabsTTS(browserFallback);
+    ttsRef.current = ttsMode === 'dynamic_first'
+      ? dynamicTTS
+      : new StaticTTS(lesson.id, dynamicTTS);
 
     return () => {
       ttsRef.current?.stop();
     };
-  }, []);
+  }, [lesson.id, ttsMode]);
 
   const currentStep = state.lesson.steps[state.currentStepIndex];
 

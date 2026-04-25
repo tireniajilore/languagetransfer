@@ -87,7 +87,8 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
     playback
   } = useLessonEngine(lesson, {
     waitingMode: 'manual_nudge',
-    promptNudgeMessage: "Tap when you're ready to hear it."
+    promptNudgeMessage: "Tap when you're ready to hear it.",
+    ttsMode: 'dynamic_first'
   });
 
   const activeStep = useMemo(() => {
