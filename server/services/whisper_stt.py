@@ -2,10 +2,10 @@
 from __future__ import annotations
 
 import tempfile
-import whisper
 from pathlib import Path
 from typing import Union
-from server.config import WHISPER_MODEL, TEMP_DIR
+
+from server.config import TEMP_DIR, WHISPER_MODEL
 
 # Load model once at module level
 _model = None
@@ -14,6 +14,13 @@ def get_model():
     """Get or load the Whisper model."""
     global _model
     if _model is None:
+        try:
+            import whisper
+        except ModuleNotFoundError as exc:
+            raise RuntimeError(
+                "Speech transcription is unavailable because the optional "
+                "'openai-whisper' dependency is not installed."
+            ) from exc
         print(f"Loading Whisper model '{WHISPER_MODEL}'...")
         _model = whisper.load_model(WHISPER_MODEL)
         print("Whisper model loaded.")

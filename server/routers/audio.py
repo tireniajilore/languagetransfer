@@ -27,6 +27,8 @@ async def transcribe_audio(file: UploadFile = File(...)):
             "text": result["text"],
             "language": result["language"]
         }
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Transcription failed: {str(e)}")
 

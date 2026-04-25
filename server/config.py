@@ -15,12 +15,13 @@ ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data"
 LESSONS_DIR = DATA_DIR / "lessons"
-PROGRESS_DIR = DATA_DIR / "user_progress"
-TEMP_DIR = BASE_DIR / "temp"
+WRITABLE_BASE_DIR = Path("/tmp/voiceai") if os.getenv("VERCEL") else BASE_DIR
+PROGRESS_DIR = WRITABLE_BASE_DIR / "user_progress"
+TEMP_DIR = WRITABLE_BASE_DIR / "temp"
 
 # Create directories if they don't exist
-TEMP_DIR.mkdir(exist_ok=True)
-PROGRESS_DIR.mkdir(exist_ok=True)
+TEMP_DIR.mkdir(parents=True, exist_ok=True)
+PROGRESS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Whisper settings
 WHISPER_MODEL = "base"

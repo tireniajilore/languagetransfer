@@ -211,6 +211,8 @@ async def submit_response(session_id: str, file: UploadFile = File(...)):
             correct_spanish=evaluation.get("correct_spanish", expected_answers[0] if expected_answers else ""),
             specific_issue=evaluation.get("specific_issue")
         )
+    except RuntimeError as e:
+        raise HTTPException(status_code=503, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Response evaluation failed: {str(e)}")
 

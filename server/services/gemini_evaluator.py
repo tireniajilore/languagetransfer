@@ -2,11 +2,27 @@
 
 import json
 import re
-from google import genai
+
 from server.config import GOOGLE_API_KEY
 
-# Initialize client
-client = genai.Client(api_key=GOOGLE_API_KEY)
+_client = None
+
+
+def get_client():
+    """Get or lazily initialize the Gemini client."""
+    global _client
+    if _client is None:
+        if not GOOGLE_API_KEY:
+            raise RuntimeError("Answer evaluation is unavailable because GOOGLE_API_KEY is not set.")
+        try:
+            from google import genai
+        except ModuleNotFoundError as exc:
+            raise RuntimeError(
+                "Answer evaluation is unavailable because the optional "
+                "'google-generativeai' dependency is not installed."
+            ) from exc
+        _client = genai.Client(api_key=GOOGLE_API_KEY)
+    return _client
 
 def get_evaluation_prompt(prompt: str, expected_answers: list, user_response: str, lesson_title: str) -> str:
     """Generate the evaluation prompt for Gemini."""
@@ -56,7 +72,7 @@ def evaluate_answer(
         prompt, expected_answers, user_response, lesson_title
     )
 
-    response = client.models.generate_content(
+    response = get_client().models.generate_content(
         model="gemini-2.0-flash",
         contents=evaluation_prompt
     )

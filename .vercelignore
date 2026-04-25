@@ -1,0 +1,11 @@
+.claude
+.gstack
+.env
+__pycache__
+docs
+lt-runner
+scripts
+spanish
+temp
+transcripts
+web
