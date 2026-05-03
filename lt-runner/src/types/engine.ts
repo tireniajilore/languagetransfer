@@ -16,6 +16,8 @@ export interface ResponseRecord {
   response: string;
   kind: ResponseKind;
   acceptedAnswers?: string[];
+  isCorrect?: boolean;
+  confidence?: number;
 }
 
 export interface WaitingState {
@@ -49,6 +51,8 @@ export interface FallbackPayload {
 export interface SubmitResponsePayload {
   response: string;
   kind: ResponseKind;
+  isCorrect?: boolean;
+  confidence?: number;
 }
 
 export type EngineAction =

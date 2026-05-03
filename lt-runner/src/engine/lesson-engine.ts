@@ -1,7 +1,8 @@
 import type {
   EngineAction,
   EngineState,
-  ResponseRecord
+  ResponseRecord,
+  SubmitResponsePayload
 } from '@/types/engine';
 import type { Lesson } from '@/types/lesson';
 
@@ -14,19 +15,24 @@ function nextModeForIndex(index: number, lesson: Lesson): EngineState['mode'] {
   return index >= lesson.steps.length ? 'completed' : 'playing';
 }
 
-function buildResponseRecord(state: EngineState, kind: ResponseRecord['kind'], response: string): ResponseRecord {
+function buildResponseRecord(
+  state: EngineState,
+  payload: SubmitResponsePayload
+): ResponseRecord {
   const promptStep = state.lesson.steps[state.currentStepIndex];
   return {
     stepId: promptStep.id,
     stepIndex: state.currentStepIndex,
     promptText: promptStep.text,
-    response,
-    kind,
-    acceptedAnswers: promptStep.acceptedAnswers
+    response: payload.response,
+    kind: payload.kind,
+    acceptedAnswers: promptStep.acceptedAnswers,
+    isCorrect: payload.isCorrect,
+    confidence: payload.confidence
   };
 }
 
-function advanceWithResponse(state: EngineState, kind: ResponseRecord['kind'], response: string): EngineState {
+function advanceWithResponse(state: EngineState, payload: SubmitResponsePayload): EngineState {
   const nextIndex = state.currentStepIndex + 1;
   return {
     ...state,
@@ -34,7 +40,7 @@ function advanceWithResponse(state: EngineState, kind: ResponseRecord['kind'], r
     currentStepIndex: nextIndex,
     mode: nextModeForIndex(nextIndex, state.lesson),
     waiting: null,
-    responses: [...state.responses, buildResponseRecord(state, kind, response)]
+    responses: [...state.responses, buildResponseRecord(state, payload)]
   };
 }
 
@@ -126,15 +132,15 @@ export function lessonEngineReducer(state: EngineState, action: EngineAction): E
         currentInput: action.value
       };
     case 'RESPOND':
-      return advanceWithResponse(state, action.payload.kind, action.payload.response);
+      return advanceWithResponse(state, action.payload);
     case 'SKIP':
       return state.lesson.steps[state.currentStepIndex]?.type === 'open_prompt'
         ? advanceWithoutResponse(state)
-        : advanceWithResponse(state, 'skipped', '');
+        : advanceWithResponse(state, { kind: 'skipped', response: '' });
     case 'TIMEOUT':
       return state.lesson.steps[state.currentStepIndex]?.type === 'open_prompt'
         ? advanceWithoutResponse(state)
-        : advanceWithResponse(state, 'timed_out', '');
+        : advanceWithResponse(state, { kind: 'timed_out', response: '' });
     case 'STEP_COMPLETE': {
       const nextIndex = state.currentStepIndex + 1;
       return {

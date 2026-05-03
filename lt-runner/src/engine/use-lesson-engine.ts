@@ -213,12 +213,14 @@ export function useLessonEngine(
   const next = useCallback(() => dispatch({ type: 'NEXT_STEP' }), []);
   const previous = useCallback(() => dispatch({ type: 'PREVIOUS_STEP' }), []);
   const setInput = useCallback((value: string) => dispatch({ type: 'SET_INPUT', value }), []);
-  const submitResponse = useCallback((value?: string) => {
+  const submitResponse = useCallback((value?: string, evaluation?: { isCorrect: boolean; confidence: number }) => {
     dispatch({
       type: 'RESPOND',
       payload: {
         response: (value ?? state.currentInput).trim(),
-        kind: 'submitted'
+        kind: 'submitted',
+        isCorrect: evaluation?.isCorrect,
+        confidence: evaluation?.confidence
       }
     });
   }, [state.currentInput]);

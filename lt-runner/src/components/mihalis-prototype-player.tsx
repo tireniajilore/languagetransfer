@@ -1,7 +1,9 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { BrowserSTT } from '@/adapters/stt/browser-stt';
 import { useLessonEngine } from '@/engine/use-lesson-engine';
+import { evaluateSpokenResponse } from '@/lib/evaluate-response';
 import type { Lesson, LessonStep } from '@/types/lesson';
 
 interface MihalisPrototypePlayerProps {
@@ -65,6 +67,9 @@ function DegradedNotice() {
 
 export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) {
   const [hasBegun, setHasBegun] = useState(false);
+  const [listeningMessage, setListeningMessage] = useState('Listening for Spanish...');
+  const [speechUnavailable, setSpeechUnavailable] = useState(false);
+  const sttRef = useRef<BrowserSTT | null>(null);
   const {
     state,
     currentStep,
@@ -87,10 +92,64 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
   }, [currentStep, state.lesson.steps]);
 
   const isWaitingForReveal = state.mode === 'waiting_for_response' && currentStep?.type === 'prompt';
-  const waitingText = state.waiting?.fallbackMessage || 'When you are ready';
+  const waitingText = speechUnavailable
+    ? 'Speech recognition is unavailable in this browser.'
+    : listeningMessage;
   const showDegradedNotice = playback.degradedStepId === activeStep?.id;
 
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    sttRef.current = new BrowserSTT();
+
+    return () => {
+      sttRef.current?.cancelListening();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!hasBegun || !isWaitingForReveal || playback.status === 'playing') return;
+
+    let cancelled = false;
+
+    async function listen() {
+      try {
+        setSpeechUnavailable(false);
+        setListeningMessage('Listening for Spanish...');
+
+        const transcript = await sttRef.current?.listenForCompleteUtterance();
+        if (cancelled) return;
+
+        const spoken = transcript?.trim() ?? '';
+        if (!spoken) {
+          setListeningMessage('Listening for Spanish...');
+          window.setTimeout(() => {
+            if (!cancelled) listen();
+          }, 250);
+          return;
+        }
+
+        setListeningMessage('Got it.');
+        submitResponse(
+          spoken,
+          evaluateSpokenResponse(spoken, currentStep?.acceptedAnswers)
+        );
+      } catch {
+        if (!cancelled) {
+          setSpeechUnavailable(true);
+        }
+      }
+    }
+
+    listen();
+
+    return () => {
+      cancelled = true;
+      sttRef.current?.cancelListening();
+    };
+  }, [hasBegun, isWaitingForReveal, playback.status, currentStep, submitResponse]);
+
   const handleRestart = () => {
+    sttRef.current?.cancelListening();
     restart();
     window.setTimeout(() => start(), 0);
   };
@@ -154,15 +213,17 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
         {isWaitingForReveal ? (
           <>
             <WaitingPanel text={waitingText} />
-            <div className="flex justify-start">
-              <button
-                onClick={() => submitResponse('spoken')}
-                disabled={!isWaitingForReveal || playback.status === 'playing'}
-                className="rounded-full bg-ink px-7 py-4 text-base font-semibold text-white transition hover:bg-ink/90 disabled:cursor-not-allowed disabled:bg-ink/30"
-              >
-                I said it
-              </button>
-            </div>
+            {speechUnavailable ? (
+              <div className="flex justify-start">
+                <button
+                  onClick={() => submitResponse('spoken')}
+                  disabled={!isWaitingForReveal || playback.status === 'playing'}
+                  className="rounded-full bg-ink px-7 py-4 text-base font-semibold text-white transition hover:bg-ink/90 disabled:cursor-not-allowed disabled:bg-ink/30"
+                >
+                  Continue
+                </button>
+              </div>
+            ) : null}
           </>
         ) : null}
       </div>
