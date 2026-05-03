@@ -11,7 +11,10 @@ export type AnalyticsEventName =
   | 'lesson_completed'
   | 'outro_prompt_reached'
   | 'demand_card_viewed'
-  | 'demand_submitted';
+  | 'demand_submitted'
+  | 'mihalis_prototype_started'
+  | 'mihalis_voice_response_heard'
+  | 'mihalis_prototype_completed';
 
 export type AnalyticsPayload = Record<string, string | number | boolean | null | undefined>;
 

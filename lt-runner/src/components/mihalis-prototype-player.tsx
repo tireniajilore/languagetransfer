@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { BrowserSTT } from '@/adapters/stt/browser-stt';
 import { useLessonEngine } from '@/engine/use-lesson-engine';
+import { trackEvent, trackEventOnce } from '@/lib/analytics';
 import { evaluateSpokenResponse } from '@/lib/evaluate-response';
 import type { Lesson, LessonStep } from '@/types/lesson';
 
@@ -96,6 +97,9 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
     ? 'Speech recognition is unavailable in this browser.'
     : listeningMessage;
   const showDegradedNotice = playback.degradedStepId === activeStep?.id;
+  const completionPercent = Math.round(
+    (Math.min(state.currentStepIndex + 1, state.lesson.steps.length) / state.lesson.steps.length) * 100
+  );
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -129,9 +133,20 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
         }
 
         setListeningMessage('Got it.');
+        const evaluation = evaluateSpokenResponse(spoken, currentStep?.acceptedAnswers);
+        void trackEvent('mihalis_voice_response_heard', {
+          lessonId: lesson.id,
+          stepId: currentStep?.id,
+          currentStepIndex: state.currentStepIndex,
+          completionPercent,
+          isCorrect: evaluation.isCorrect,
+          confidence: Number(evaluation.confidence.toFixed(2)),
+          responseLength: spoken.length,
+          acceptedAnswerCount: currentStep?.acceptedAnswers?.length ?? 0
+        });
         submitResponse(
           spoken,
-          evaluateSpokenResponse(spoken, currentStep?.acceptedAnswers)
+          evaluation
         );
       } catch {
         if (!cancelled) {
@@ -146,7 +161,48 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
       cancelled = true;
       sttRef.current?.cancelListening();
     };
-  }, [hasBegun, isWaitingForReveal, playback.status, currentStep, submitResponse]);
+  }, [
+    hasBegun,
+    isWaitingForReveal,
+    playback.status,
+    currentStep,
+    state.currentStepIndex,
+    lesson.id,
+    completionPercent,
+    submitResponse
+  ]);
+
+  useEffect(() => {
+    if (!hasBegun || state.mode === 'idle') return;
+
+    const commonProps = {
+      lessonId: lesson.id,
+      prototype: 'mihalis_voice',
+      currentStepIndex: state.currentStepIndex,
+      completionPercent
+    };
+
+    if (completionPercent >= 25) {
+      trackEventOnce(`${lesson.id}-mihalis-progress-25`, 'lesson_progress_25', commonProps);
+    }
+    if (completionPercent >= 50) {
+      trackEventOnce(`${lesson.id}-mihalis-progress-50`, 'lesson_progress_50', commonProps);
+    }
+    if (completionPercent >= 75) {
+      trackEventOnce(`${lesson.id}-mihalis-progress-75`, 'lesson_progress_75', commonProps);
+    }
+  }, [completionPercent, hasBegun, lesson.id, state.currentStepIndex, state.mode]);
+
+  useEffect(() => {
+    if (state.mode !== 'completed') return;
+
+    trackEventOnce(`${lesson.id}-mihalis-completed`, 'mihalis_prototype_completed', {
+      lessonId: lesson.id,
+      prototype: 'mihalis_voice',
+      completionPercent: 100,
+      responseCount: state.responses.length
+    });
+  }, [lesson.id, state.mode, state.responses.length]);
 
   const handleRestart = () => {
     sttRef.current?.cancelListening();
@@ -166,6 +222,11 @@ export function MihalisPrototypePlayer({ lesson }: MihalisPrototypePlayerProps) 
               <button
                 onClick={() => {
                   setHasBegun(true);
+                  trackEventOnce(`${lesson.id}-mihalis-started`, 'mihalis_prototype_started', {
+                    lessonId: lesson.id,
+                    prototype: 'mihalis_voice',
+                    completionPercent: 0
+                  });
                   window.setTimeout(() => start(), 0);
                 }}
                 className="inline-flex items-center justify-center rounded-full bg-leaf px-10 py-5 text-lg font-semibold text-white transition hover:bg-leaf/90"
