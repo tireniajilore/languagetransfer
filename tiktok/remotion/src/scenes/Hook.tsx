@@ -1,15 +1,16 @@
 import React from 'react';
 import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
 import {COLORS, FONT_DISPLAY, TYPE} from '../theme';
-import {Karaoke} from '../components/Karaoke';
 import {script} from '../script';
 
-// Loop anchor: frame 0 must match the loop-bridge's final frame, but later
-// frames can still animate (Freeze captures whatever frame 0 looks like). Fade
-// only — no slide. The punch line's last word carries the single lime accent.
-export const Hook: React.FC<{speechSec: number}> = ({speechSec}) => {
+// Loop anchor (frame 0 == the loop bridge's last frame). Built to hit hard at
+// frame 0: the headline is full-strength and dominant immediately (no fade), and
+// the spoken line is NOT duplicated as a caption here — the big text IS the line.
+// So the scroll-stop frame is one punch, not three stacked text blocks. The CTA
+// is the only thing that fades in, after the headline has already landed.
+export const Hook: React.FC<{speechSec: number}> = () => {
   const frame = useCurrentFrame();
-  const ctaOpacity = interpolate(frame, [10, 20], [0, 1], {
+  const ctaOpacity = interpolate(frame, [12, 22], [0, 1], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
   });
@@ -17,16 +18,16 @@ export const Hook: React.FC<{speechSec: number}> = ({speechSec}) => {
     fontFamily: FONT_DISPLAY,
     fontWeight: 700,
     fontSize: TYPE.hookHeadline,
-    letterSpacing: -3,
+    letterSpacing: -4,
     textAlign: 'center',
-    lineHeight: 1.05,
+    lineHeight: 1.02,
     margin: 0,
   };
   const h = script.hook;
   const mainWords = h.show_main.trim().split(/\s+/);
   return (
     <AbsoluteFill>
-      <div style={{position: 'absolute', top: 640, width: '100%'}}>
+      <div style={{position: 'absolute', top: 600, width: '100%'}}>
         <p style={{...big, color: COLORS.ink}}>{h.show_top}</p>
         <p style={{...big, color: COLORS.ink}}>
           {mainWords.map((w, i) => (
@@ -40,7 +41,7 @@ export const Hook: React.FC<{speechSec: number}> = ({speechSec}) => {
       <div
         style={{
           position: 'absolute',
-          top: 920,
+          top: 900,
           width: '100%',
           textAlign: 'center',
           fontFamily: FONT_DISPLAY,
@@ -51,11 +52,10 @@ export const Hook: React.FC<{speechSec: number}> = ({speechSec}) => {
       >
         {h.show_sub}
       </div>
-      <Karaoke text={h.say} speechSec={speechSec} top={1180} />
       <div
         style={{
           position: 'absolute',
-          top: 1500,
+          top: 1480,
           width: '100%',
           textAlign: 'center',
           opacity: ctaOpacity,

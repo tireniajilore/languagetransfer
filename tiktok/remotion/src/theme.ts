@@ -46,7 +46,7 @@ export const FONT_MONO = monoFamily;
 // the 110 rung on purpose — English in and Spanish out at the same size says
 // "it's the same word".
 export const TYPE = {
-  hookHeadline: 88, // Geist 700, ink (one word in accent)
+  hookHeadline: 112, // Geist 700, ink (one word in accent) — dominant scroll-stop
   leadLine: 70, // Geist 500, ink
   promptWord: 110, // Geist 600, ink — the English word
   howDoYouSay: 45, // Geist 400, muted — small labels
