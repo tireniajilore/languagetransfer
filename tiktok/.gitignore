@@ -1,0 +1,4 @@
+# Build outputs and scratch artifacts (regenerable)
+out/
+work/
+node_modules/

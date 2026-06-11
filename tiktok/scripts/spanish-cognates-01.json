@@ -1,0 +1,41 @@
+{
+  "id": "spanish-cognates-01",
+  "title": "You already speak Spanish (-al words)",
+  "concept": "Cold-start hook clip. The English -al/-ble cognate rule: same spelling, stress the final syllable, clean Spanish vowels. Pick the most instantly-recognizable words so the 'I already know this' feeling is maximal.",
+  "target_seconds": 32,
+  "voice_notes": "Patient Language Transfer teacher. Warm, slow, unhurried. Tiny pause before each answer.",
+
+  "hook": {
+    "say": "You already speak Spanish. You just don't know it yet.",
+    "lang": "en",
+    "show_top": "YOU ALREADY",
+    "show_main": "SPEAK SPANISH",
+    "show_sub": "you just don't know it yet",
+    "show_cta": "say every word out loud"
+  },
+
+  "lead_in": {
+    "say": "Hundreds of English words are almost identical in Spanish. Just move the stress to the end.",
+    "lang": "en",
+    "show_main": "same word.\nnew stress.",
+    "show_sub": "move the emphasis to the end"
+  },
+
+  "cards": [
+    { "english": "animal",   "spanish": "animal",   "prompt_say": "How do you say animal?",   "reveal_say": "Animal.",   "stress_hint": "ah-nee-MAL" },
+    { "english": "hospital", "spanish": "hospital", "prompt_say": "How do you say hospital?", "reveal_say": "Hospital.", "stress_hint": "os-pee-TAL" },
+    { "english": "capital",  "spanish": "capital",  "prompt_say": "How do you say capital?",  "reveal_say": "Capital.",  "stress_hint": "ka-pee-TAL" },
+    { "english": "natural",  "spanish": "natural",  "prompt_say": "How do you say natural?",  "reveal_say": "Natural.",  "stress_hint": "na-too-RAL" }
+  ],
+
+  "outro": {
+    "say": "That's hundreds of words you already know. Follow for the free course.",
+    "lang": "en",
+    "show_main": "Hundreds more\nyou already know",
+    "show_cta": "Follow for the free course",
+    "show_url": "languagetransfer.org"
+  },
+
+  "caption": "You already speak Spanish — you just don't know it yet 🤯 Same words, just move the stress to the end. Say them out loud: animal, hospital, capital, natural.",
+  "hashtags": ["learnspanish", "spanish", "spanishtok", "languagelearning", "fyp"]
+}
