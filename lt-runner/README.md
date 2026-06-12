@@ -46,6 +46,16 @@ ELEVENLABS_SPEED_EN=1.1
 ELEVENLABS_SPEED_ES=0.9
 ```
 
+To audition other ElevenLabs voices:
+
+```bash
+npm run test-voices -- --list
+npm run test-voices -- --voices Rachel,Adam
+npm run test-voices -- --voices Rachel --text "Think it through slowly. How would you say: I want to eat something today?"
+```
+
+The generated MP3s are saved under `public/voice-tests/`.
+
 ## Demand test setup
 
 Optional analytics forwarding:
