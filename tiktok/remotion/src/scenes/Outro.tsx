@@ -44,20 +44,22 @@ export const Outro: React.FC<{speechSec: number}> = ({speechSec}) => {
           {out.show_cta}
         </span>
       </div>
-      <div
-        style={{
-          position: 'absolute',
-          top: 1380,
-          width: '100%',
-          textAlign: 'center',
-          fontFamily: FONT_DISPLAY,
-          fontWeight: 400,
-          fontSize: TYPE.howDoYouSay,
-          color: COLORS.muted,
-        }}
-      >
-        {out.show_url}
-      </div>
+      {out.show_url ? (
+        <div
+          style={{
+            position: 'absolute',
+            top: 1380,
+            width: '100%',
+            textAlign: 'center',
+            fontFamily: FONT_DISPLAY,
+            fontWeight: 400,
+            fontSize: TYPE.howDoYouSay,
+            color: COLORS.muted,
+          }}
+        >
+          {out.show_url}
+        </div>
+      ) : null}
     </AbsoluteFill>
   );
 };

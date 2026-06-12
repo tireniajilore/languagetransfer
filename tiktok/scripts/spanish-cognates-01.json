@@ -3,7 +3,7 @@
   "title": "You already speak Spanish (-al words)",
   "concept": "Cold-start hook clip. The English -al/-ble cognate rule: same spelling, stress the final syllable, clean Spanish vowels. Pick the most instantly-recognizable words so the 'I already know this' feeling is maximal.",
   "target_seconds": 32,
-  "voice_notes": "Patient Language Transfer teacher. Warm, slow, unhurried. Tiny pause before each answer.",
+  "voice_notes": "Warm, patient teacher. Slow, unhurried. Tiny pause before each answer.",
 
   "hook": {
     "say": "You already speak Spanish. You just don't know it yet.",
@@ -33,7 +33,7 @@
     "lang": "en",
     "show_main": "Hundreds more\nyou already know",
     "show_cta": "Follow for the free course",
-    "show_url": "languagetransfer.org"
+    "show_url": ""
   },
 
   "caption": "You already speak Spanish — you just don't know it yet 🤯 Same words, just move the stress to the end. Say them out loud: animal, hospital, capital, natural.",

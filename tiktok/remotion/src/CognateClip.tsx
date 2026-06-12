@@ -1,25 +1,25 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Freeze, Sequence, staticFile, useCurrentFrame} from 'remotion';
-import {Background, Header} from './components/Background';
-import {ProgressBar, CardCounter} from './components/Overlays';
+import {Background} from './components/Background';
+import {ProgressBar} from './components/Overlays';
 import {Hook} from './scenes/Hook';
 import {Lead} from './scenes/Lead';
 import {Prompt, Ring, Reveal} from './scenes/Card';
 import {Outro} from './scenes/Outro';
-import {script, Scene, ClipProps} from './script';
+import {Scene, ClipProps} from './script';
 
-const renderScene = (s: Scene, totalCards: number) => {
+const renderScene = (s: Scene) => {
   // The scene's voice clip, if any (ring + loop are silent beats).
   const audio = s.audioKey ? <Audio src={staticFile(`audio/${s.audioKey}.mp3`)} /> : null;
   return (
     <>
       {audio}
-      {renderSceneContent(s, totalCards)}
+      {renderSceneContent(s)}
     </>
   );
 };
 
-const renderSceneContent = (s: Scene, totalCards: number) => {
+const renderSceneContent = (s: Scene) => {
   switch (s.kind) {
     case 'hook':
       return <Hook speechSec={s.speechSec} />;
@@ -34,26 +34,11 @@ const renderSceneContent = (s: Scene, totalCards: number) => {
     case 'lead':
       return <Lead speechSec={s.speechSec} />;
     case 'prompt':
-      return (
-        <>
-          <CardCounter index={s.cardIndex!} total={totalCards} />
-          <Prompt cardIndex={s.cardIndex!} speechSec={s.speechSec} />
-        </>
-      );
+      return <Prompt cardIndex={s.cardIndex!} speechSec={s.speechSec} />;
     case 'ring':
-      return (
-        <>
-          <CardCounter index={s.cardIndex!} total={totalCards} />
-          <Ring cardIndex={s.cardIndex!} />
-        </>
-      );
+      return <Ring cardIndex={s.cardIndex!} />;
     case 'reveal':
-      return (
-        <>
-          <CardCounter index={s.cardIndex!} total={totalCards} />
-          <Reveal cardIndex={s.cardIndex!} />
-        </>
-      );
+      return <Reveal cardIndex={s.cardIndex!} />;
     case 'outro':
       return <Outro speechSec={s.speechSec} />;
     default:
@@ -74,7 +59,6 @@ const activeAt = (scenes: Scene[], frame: number) => {
 };
 
 export const CognateClip: React.FC<ClipProps> = ({scenes}) => {
-  const totalCards = script.cards.length;
   const frame = useCurrentFrame();
   const {scene, localFrame} = activeAt(scenes, frame);
 
@@ -87,14 +71,13 @@ export const CognateClip: React.FC<ClipProps> = ({scenes}) => {
   return (
     <AbsoluteFill>
       <Background boost={bloomBoost} />
-      <Header />
       <ProgressBar />
       {scenes.map((s, i) => {
         const from = offset;
         offset += s.durFrames;
         return (
           <Sequence key={i} from={from} durationInFrames={s.durFrames}>
-            {renderScene(s, totalCards)}
+            {renderScene(s)}
           </Sequence>
         );
       })}
