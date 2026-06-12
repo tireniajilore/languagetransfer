@@ -1,0 +1,123 @@
+{
+  "id": "lesson-08-able-ible",
+  "title": "ABLE And IBLE Words Carry Over",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Here is another English ending that often carries into Spanish.",
+      "show": "another ending\ncarries over"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Words ending in ible or able often work if you pronounce them the Spanish way.",
+      "show": "ible / able\nSpanish sounds"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Possible becomes posible.",
+      "show": "possible\nposible"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say it is possible in Spanish.",
+      "word": "it is possible"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es posible.",
+      "word": "Es posible",
+      "phon": "es po-SI-ble"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now use the same ending with probable.",
+      "show": "probable"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say probable in Spanish.",
+      "word": "probable"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, probable.",
+      "word": "probable",
+      "phon": "pro-BA-ble"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say it is probable in Spanish.",
+      "word": "it is probable"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es probable.",
+      "word": "Es probable",
+      "phon": "es pro-BA-ble"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try one more word: say flexible in Spanish.",
+      "word": "flexible"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, flexible.",
+      "word": "flexible",
+      "phon": "flek-SI-ble"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now attach mente, the ending for many ly words.",
+      "show": "attach\nmente"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say probably in Spanish.",
+      "word": "probably"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, probablemente.",
+      "word": "probablemente",
+      "phon": "pro-ba-ble-MEN-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And say possibly in Spanish.",
+      "word": "possibly"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, posiblemente.",
+      "word": "posiblemente",
+      "phon": "po-si-ble-MEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Possible gave you posible, and then posiblemente.",
+      "show": "possible -> posible\npossibly -> posiblemente"
+    }
+  ],
+  "caption": "Many ible and able words carry into Spanish: posible, probable, flexible. Then attach mente: probablemente, posiblemente.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

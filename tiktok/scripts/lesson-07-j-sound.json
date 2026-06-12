@@ -1,0 +1,127 @@
+{
+  "id": "lesson-07-j-sound",
+  "title": "The English J Sound Changes",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding. English prompts should say the cognate as an English word; Spanish reveals should keep the full Spanish carrier phrase.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Before we use words like general, we need one Spanish sound.",
+      "show": "one sound first"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "English has a j sound, like in jacket.",
+      "show": "English j sound\njacket"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "In many Spanish words, that sound becomes a soft breath in the throat.",
+      "show": "Spanish sound\nsoft throat breath"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Escucha: Argentina.",
+      "show": "Argentina\nar-hen-TI-na"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Hear it in the middle? Not the English j from jacket. Let the air rub in the throat.",
+      "show": "not jacket\nsoft throat sound"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now take the English word general. In English, it starts with that jacket sound.",
+      "show": "English: general\nj sound"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say the English word general in Spanish.",
+      "word": "general"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: general.",
+      "word": "general",
+      "phon": "he-ne-RAL"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. The English j sound became the Spanish throat sound.",
+      "show": "j sound\nthroat sound"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now add mente. That gives us the English ly feeling.",
+      "show": "+ mente\n= ly feeling"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say the English word generally in Spanish.",
+      "word": "generally"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: generalmente.",
+      "word": "generalmente",
+      "phon": "he-ne-ral-MEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Another one: the English word original has that same j sound in the middle.",
+      "show": "English: original\nmiddle j sound"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say the English word original in Spanish.",
+      "word": "original"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: original.",
+      "word": "original",
+      "phon": "o-ri-he-NAL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say the English word originally in Spanish.",
+      "word": "originally"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: originalmente.",
+      "word": "originalmente",
+      "phon": "o-ri-hi-nal-MEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Listen for the sound, not just the letter.",
+      "show": "listen for\nthe sound"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Global keeps the hard g. General changes because English gives it that j sound.",
+      "show": "global stays hard\ngeneral changes"
+    }
+  ],
+  "caption": "The English J sound often becomes a Spanish throat sound in cognates: general, generalmente, original, originalmente. Listen for the sound, not just the letter.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}
