@@ -9,6 +9,7 @@ import { useLessonEngine } from '@/engine/use-lesson-engine';
 import {
   countCompletedLessons,
   loadCognatesProgress,
+  resetLessonProgress,
   saveCognatesProgress,
   upsertLessonProgress,
   type CognatesProgress
@@ -399,6 +400,7 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
 
   function handleRestart() {
     trackedCompletion.current = false;
+    hasResumed.current = false;
     reachedPromptIds.current.clear();
     revealStepIds.current.clear();
     trackedResponseCount.current = 0;
@@ -406,6 +408,8 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
     checkpointedSectionIds.current.clear();
     setCheckpoint(null);
     setCheckpointTicked(false);
+    setSpeechStatus('idle');
+    commitProgress((current) => resetLessonProgress(current, lessonId));
     restart();
   }
 

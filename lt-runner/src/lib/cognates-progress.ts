@@ -108,6 +108,16 @@ export function upsertLessonProgress(
   };
 }
 
+export function resetLessonProgress(progress: CognatesProgress, lessonId: string): CognatesProgress {
+  const { [lessonId]: _removedLesson, ...lessons } = progress.lessons;
+
+  return {
+    ...progress,
+    updatedAt: nowIso(),
+    lessons
+  };
+}
+
 export function countCompletedLessons(progress: CognatesProgress) {
   return Object.values(progress.lessons).filter((lesson) => Boolean(lesson.completedAt)).length;
 }
