@@ -1,0 +1,104 @@
+{
+  "id": "lesson-14-tion-cion",
+  "title": "TION Words Become CION",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That common English ending is secretly a Spanish word machine.",
+      "show": "English -tion\nSpanish word machine"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When English says tion, Spanish often writes cion.",
+      "show": "English -tion\nSpanish -ción"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "But Spanish puts the stress at the end.",
+      "show": "stress the end"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try the English word preparation.",
+      "word": "preparation"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, preparación.",
+      "word": "preparación",
+      "phon": "pre-pa-ra-SYON"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about organization?",
+      "word": "organization"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, organización.",
+      "word": "organización",
+      "phon": "or-ga-ni-za-SYON"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now generation.",
+      "word": "generation"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, generación.",
+      "word": "generación",
+      "phon": "he-ne-ra-SYON"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Hear that first G? In Spanish, it has the soft throat sound.",
+      "show": "generation:\nsoft throat G"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try it again: generation.",
+      "word": "generation"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, generación.",
+      "word": "generación",
+      "phon": "he-ne-ra-SYON"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And confirmation.",
+      "word": "confirmation"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, confirmación.",
+      "word": "confirmación",
+      "phon": "kon-feer-ma-SYON"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You used English as a map, then cleaned off the English sound.",
+      "show": "use English as a map\nclean off the English sound"
+    }
+  ],
+  "caption": "English -tion words often become Spanish -ción words: preparación, organización, generación, confirmación. Stress the end.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

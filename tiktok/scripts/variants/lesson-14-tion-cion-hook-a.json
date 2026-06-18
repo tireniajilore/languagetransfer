@@ -1,0 +1,126 @@
+{
+  "id": "lesson-14-tion-cion-hook-a",
+  "title": "TION Words Become CION (hook swap A)",
+  "audioDir": "lesson-14-tion-cion",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-14-tion-cion audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Every English tion word is a free Spanish word.",
+      "show": "-tion =\nfree word",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When English says tion, Spanish often writes cion.",
+      "show": "English -tion\nSpanish -ción",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "But Spanish puts the stress at the end.",
+      "show": "stress the end",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try the English word preparation.",
+      "word": "preparation",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, preparación.",
+      "word": "preparación",
+      "phon": "pre-pa-ra-SYON",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about organization?",
+      "word": "organization",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, organización.",
+      "word": "organización",
+      "phon": "or-ga-ni-za-SYON",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now generation.",
+      "word": "generation",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, generación.",
+      "word": "generación",
+      "phon": "he-ne-ra-SYON",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Hear that first G? In Spanish, it has the soft throat sound.",
+      "show": "generation:\nsoft throat G",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try it again: generation.",
+      "word": "generation",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, generación.",
+      "word": "generación",
+      "phon": "he-ne-ra-SYON",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And confirmation.",
+      "word": "confirmation",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, confirmación.",
+      "word": "confirmación",
+      "phon": "kon-feer-ma-SYON",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You used English as a map, then cleaned off the English sound.",
+      "show": "use English as a map\nclean off the English sound",
+      "audio": "seg-14"
+    }
+  ],
+  "caption": "Every English -tion word is a free Spanish word: preparacion, organizacion, generacion.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

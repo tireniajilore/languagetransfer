@@ -1,0 +1,82 @@
+{
+  "id": "lesson-20-lo-cancelarlo-quizfirst",
+  "title": "Lo Means It Or Him (quiz-first)",
+  "audioDir": "lesson-20-lo-cancelarlo",
+  "voice_notes": "Remix variant - reuses lesson-20-lo-cancelarlo audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Test it first: to cancel it.",
+      "word": "to cancel it",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, cancelarlo.",
+      "word": "cancelarlo",
+      "phon": "kan-se-LAR-lo",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Lo is the little piece that can mean it.",
+      "show": "lo = it",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When the verb is unchanged, lo can attach to the end.",
+      "show": "verb + lo",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Cancel becomes cancelar.",
+      "show": "cancel -> cancelar",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Cancelar.",
+      "show": "cancelar",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now you try the full sentence: I want to cancel it.",
+      "word": "I want to cancel it",
+      "pauseSec": 3.3,
+      "audio": "seg-11"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cancelarlo.",
+      "word": "Quiero cancelarlo",
+      "phon": "KYE-ro kan-se-LAR-lo",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You learned where lo goes before you had to build the sentence.",
+      "show": "learn the spot\nthen build",
+      "audio": "seg-22"
+    }
+  ],
+  "caption": "Could you say it before the reveal? to cancel it -> cancelarlo.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

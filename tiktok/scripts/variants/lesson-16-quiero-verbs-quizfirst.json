@@ -1,0 +1,84 @@
+{
+  "id": "lesson-16-quiero-verbs-quizfirst",
+  "title": "Build Sentences With Quiero (quiz-first)",
+  "audioDir": "lesson-16-quiero-verbs",
+  "voice_notes": "Remix variant - reuses lesson-16-quiero-verbs audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I want to prepare.",
+      "word": "I want to prepare",
+      "pauseSec": 3.2,
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero preparar.",
+      "word": "Quiero preparar",
+      "phon": "KYE-ro pre-pa-RAR",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "Quiero = I want",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That means I want.",
+      "show": "quiero =\nI want",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Quick check: say I want.",
+      "word": "I want",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero.",
+      "word": "Quiero",
+      "phon": "KYE-ro",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now: I want to cooperate.",
+      "word": "I want to cooperate",
+      "pauseSec": 3.5,
+      "audio": "seg-15"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cooperar.",
+      "word": "Quiero cooperar",
+      "phon": "KYE-ro ko-o-pe-RAR",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You stacked one known piece onto another.",
+      "show": "one known piece\nonto another",
+      "audio": "seg-24"
+    }
+  ],
+  "caption": "Could you build it before the reveal? I want to prepare -> Quiero preparar.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

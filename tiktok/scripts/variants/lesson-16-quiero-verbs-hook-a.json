@@ -1,0 +1,202 @@
+{
+  "id": "lesson-16-quiero-verbs-hook-a",
+  "title": "Build Sentences With Quiero (hook swap A)",
+  "audioDir": "lesson-16-quiero-verbs",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-16-quiero-verbs audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One phrase plus one pattern makes real Spanish sentences.",
+      "show": "phrase +\npattern",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You just need one phrase and a verb pattern.",
+      "show": "one phrase\none verb pattern",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "Quiero = I want",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That means I want.",
+      "show": "quiero =\nI want",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Quick check: say I want.",
+      "word": "I want",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero.",
+      "word": "Quiero",
+      "phon": "KYE-ro",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Now we need the second piece: to prepare, which we can build from English.",
+      "show": "second piece:\nto prepare",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "From prepare, think preparation.",
+      "show": "prepare -> preparation",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Preparation becomes preparación.",
+      "show": "preparation -> preparación",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Preparación.",
+      "show": "preparación",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Then take off ción and add ar.",
+      "show": "take off ción\nadd ar",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Preparar.",
+      "show": "preparar",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I want to prepare.",
+      "word": "I want to prepare",
+      "pauseSec": 3.2,
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero preparar.",
+      "word": "Quiero preparar",
+      "phon": "KYE-ro pre-pa-RAR",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Now apply that same build to other examples.",
+      "show": "same build\nnew examples",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now: I want to cooperate.",
+      "word": "I want to cooperate",
+      "pauseSec": 3.5,
+      "audio": "seg-15"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cooperar.",
+      "word": "Quiero cooperar",
+      "phon": "KYE-ro ko-o-pe-RAR",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I want to cancel.",
+      "word": "I want to cancel",
+      "pauseSec": 3.2,
+      "audio": "seg-17"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cancelar.",
+      "word": "Quiero cancelar",
+      "phon": "KYE-ro kan-se-LAR",
+      "audio": "seg-18"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And the negative is still just no in front.",
+      "show": "negative:\nno in front",
+      "audio": "seg-19"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I do not want to cancel.",
+      "word": "I don't want to cancel",
+      "pauseSec": 3.5,
+      "audio": "seg-20"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero cancelar.",
+      "word": "No quiero cancelar",
+      "phon": "no KYE-ro kan-se-LAR",
+      "audio": "seg-21"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Last one: I want to explore.",
+      "word": "I want to explore",
+      "pauseSec": 3.2,
+      "audio": "seg-22"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero explorar.",
+      "word": "Quiero explorar",
+      "phon": "KYE-ro eks-plo-RAR",
+      "audio": "seg-23"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You stacked one known piece onto another.",
+      "show": "one known piece\nonto another",
+      "audio": "seg-24"
+    }
+  ],
+  "caption": "One phrase + one pattern = full sentences: quiero preparar, quiero cooperar, quiero explorar.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

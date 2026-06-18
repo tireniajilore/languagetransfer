@@ -1,0 +1,81 @@
+{
+  "id": "lesson-10-mixed-patterns-15s",
+  "title": "Normalmente Negative Stack (15s micro-cut)",
+  "audioDir": "lesson-10-mixed-patterns",
+  "voice_notes": "Remix variant - reuses lesson-10-mixed-patterns audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "No es means it is not.",
+      "show": "no es = it is not",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is not",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es.",
+      "word": "No es",
+      "phon": "no es",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Important changes in Spanish.",
+      "show": "important\nimportante",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "important",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: importante.",
+      "word": "importante",
+      "phon": "im-por-TAN-te",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is not important.",
+      "word": "it is not important",
+      "pauseSec": 2.5,
+      "audio": "seg-11"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es importante.",
+      "word": "No es importante",
+      "phon": "no es im-por-TAN-te",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same pieces, new sentence.",
+      "show": "same pieces\nnew sentence",
+      "audio": "seg-29"
+    }
+  ],
+  "caption": "Spanish negatives are one move: no es. No es importante.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

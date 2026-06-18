@@ -1,0 +1,67 @@
+{
+  "id": "lesson-15-acion-to-ar-15s",
+  "title": "Turn ACION Words Into Verbs (15s micro-cut)",
+  "audioDir": "lesson-15-acion-to-ar",
+  "voice_notes": "Remix variant - reuses lesson-15-acion-to-ar audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One English ation word can give you a Spanish noun and a Spanish verb.",
+      "show": "one English word\ntwo Spanish words",
+      "audio": "seg-00"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Then take that ending off, and add ar.",
+      "show": "take off ción\nadd ar",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try this one: generation.",
+      "word": "generation",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Generación.",
+      "word": "generación",
+      "phon": "he-ne-ra-SYON",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now turn it into: to generate.",
+      "word": "to generate",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Generar.",
+      "word": "generar",
+      "phon": "he-ne-RAR",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You did not learn four verbs. You unlocked a pattern.",
+      "show": "not four verbs\na pattern",
+      "audio": "seg-20"
+    }
+  ],
+  "caption": "One -ation word = two Spanish words: generacion -> generar.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

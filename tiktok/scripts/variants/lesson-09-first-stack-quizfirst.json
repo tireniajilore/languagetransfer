@@ -1,0 +1,97 @@
+{
+  "id": "lesson-09-first-stack-quizfirst",
+  "title": "Realmente Sentence Stack (quiz-first)",
+  "audioDir": "lesson-09-first-stack",
+  "voice_notes": "Remix variant - reuses lesson-09-first-stack audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is urgent.",
+      "word": "it is urgent",
+      "pauseSec": 2.3,
+      "audio": "seg-08"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es urgente.",
+      "word": "Es urgente",
+      "phon": "es ur-HEN-te",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es means it is.",
+      "show": "es = it is",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is",
+      "pauseSec": 0.9
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es.",
+      "word": "Es",
+      "phon": "es",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The English word urgent changes in Spanish.",
+      "show": "urgent\nurgente",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "urgent",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: urgente.",
+      "word": "urgente",
+      "phon": "ur-HEN-te",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Really, it is urgent.",
+      "word": "really, it is urgent",
+      "pauseSec": 3,
+      "audio": "seg-19"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Realmente es urgente.",
+      "word": "Realmente es urgente",
+      "phon": "re-al-MEN-te es ur-HEN-te",
+      "audio": "seg-20"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That is the point. You are building, not memorizing.",
+      "show": "building\nnot memorizing",
+      "audio": "seg-26"
+    }
+  ],
+  "caption": "Could you build it before the reveal? Es urgente, then realmente es urgente.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

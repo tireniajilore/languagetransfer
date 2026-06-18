@@ -1,0 +1,111 @@
+{
+  "id": "lesson-23-ence-ance",
+  "title": "ENCE And ANCE Become Spanish Too",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "English has another Spanish word machine hiding in plain sight.",
+      "show": "another hidden\nSpanish pattern"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When English ends in the ending spelled E N C E, Spanish often has encia.",
+      "show": "English -ence\nSpanish -encia"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Experience becomes experiencia.",
+      "show": "experience -> experiencia"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, experiencia.",
+      "word": "experiencia",
+      "phon": "eks-pe-ryen-SYA"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "You know different. Now try difference.",
+      "word": "difference"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, diferencia.",
+      "word": "diferencia",
+      "phon": "dee-fe-REN-sya"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about influence?",
+      "word": "influence"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, influencia.",
+      "word": "influencia",
+      "phon": "een-floo-EN-sya"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And when English ends in the ending spelled A N C E, Spanish often has ancia.",
+      "show": "English -ance\nSpanish -ancia"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Important gave you importante. Now importance gives you importancia.",
+      "show": "important -> importante\nimportance -> importancia"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, importancia.",
+      "word": "importancia",
+      "phon": "eem-por-TAN-sya"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try distance.",
+      "word": "distance"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, distancia.",
+      "word": "distancia",
+      "phon": "dees-TAN-sya"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "One more: consistency.",
+      "word": "consistency"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, consistencia.",
+      "word": "consistencia",
+      "phon": "kon-sees-TEN-sya"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You are not memorizing nouns. You are collecting word machines.",
+      "show": "not memorizing\nword machines"
+    }
+  ],
+  "caption": "English -ence and -ance often become Spanish -encia and -ancia: diferencia, influencia, importancia, distancia.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

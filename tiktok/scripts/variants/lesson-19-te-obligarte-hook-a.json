@@ -1,0 +1,178 @@
+{
+  "id": "lesson-19-te-obligarte-hook-a",
+  "title": "Te At The End Means You (hook swap A)",
+  "audioDir": "lesson-19-te-obligarte",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-19-te-obligarte audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One syllable turns a Spanish verb into doing it to you.",
+      "show": "+te\n= you",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The word is te.",
+      "show": "te",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Here, te means you.",
+      "show": "te = you",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Start with inform. In Spanish, informar.",
+      "show": "information -> informar",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Informar.",
+      "show": "informar",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Attach te at the end.",
+      "show": "informar + te",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to inform you.",
+      "word": "to inform you",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, informarte.",
+      "word": "informarte",
+      "phon": "een-for-MAR-te",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "quiero = I want",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Quick reminder: quiero means I want.",
+      "show": "quiero =\nI want",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to inform you.",
+      "word": "I want to inform you",
+      "pauseSec": 3.1,
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero informarte.",
+      "word": "Quiero informarte",
+      "phon": "KYE-ro een-for-MAR-te",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Now we can handle a more serious verb.",
+      "show": "same shape\nbigger verb",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Obligation becomes obligación, then obligar.",
+      "show": "obligation -> obligación -> obligar",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Attach you: to oblige you.",
+      "word": "to oblige you",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, obligarte.",
+      "word": "obligarte",
+      "phon": "o-blee-GAR-te",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I do not want to oblige you.",
+      "word": "I don't want to oblige you",
+      "pauseSec": 3.5,
+      "audio": "seg-16"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero obligarte.",
+      "word": "No quiero obligarte",
+      "phon": "no KYE-ro o-blee-GAR-te",
+      "audio": "seg-17"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One stretch: provocation gives provocar.",
+      "show": "provocation -> provocar",
+      "audio": "seg-18"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I do not want to provoke you.",
+      "word": "I don't want to provoke you",
+      "pauseSec": 3.5,
+      "audio": "seg-19"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero provocarte.",
+      "word": "No quiero provocarte",
+      "phon": "no KYE-ro pro-vo-KAR-te",
+      "audio": "seg-20"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Te stayed the same. Only the verb changed.",
+      "show": "same te\nnew verb",
+      "audio": "seg-21"
+    }
+  ],
+  "caption": "One syllable turns a Spanish verb into doing it to you: informarte, obligarte.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

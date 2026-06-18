@@ -1,0 +1,97 @@
+{
+  "id": "lesson-10-mixed-patterns-quizfirst",
+  "title": "Normalmente Negative Stack (quiz-first)",
+  "audioDir": "lesson-10-mixed-patterns",
+  "voice_notes": "Remix variant - reuses lesson-10-mixed-patterns audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is not important.",
+      "word": "it is not important",
+      "pauseSec": 2.5,
+      "audio": "seg-11"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es importante.",
+      "word": "No es importante",
+      "phon": "no es im-por-TAN-te",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es means it is.",
+      "show": "es = it is",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is",
+      "pauseSec": 0.9
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es.",
+      "word": "Es",
+      "phon": "es",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "No es means it is not.",
+      "show": "no es = it is not",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is not",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es.",
+      "word": "No es",
+      "phon": "no es",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Normally, it is not important.",
+      "word": "normally, it is not important",
+      "pauseSec": 3.2,
+      "audio": "seg-22"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Normalmente no es importante.",
+      "word": "Normalmente no es importante",
+      "phon": "nor-mal-MEN-te no es im-por-TAN-te",
+      "audio": "seg-23"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same pieces, new sentence.",
+      "show": "same pieces\nnew sentence",
+      "audio": "seg-29"
+    }
+  ],
+  "caption": "Could you make it negative before the reveal? No es importante.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

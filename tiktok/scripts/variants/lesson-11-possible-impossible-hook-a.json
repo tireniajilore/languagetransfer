@@ -1,0 +1,178 @@
+{
+  "id": "lesson-11-possible-impossible-hook-a",
+  "title": "Posiblemente Possible Stack (hook swap A)",
+  "audioDir": "lesson-11-possible-impossible",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-11-possible-impossible audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "If you can say es and no es, you can already build this.",
+      "show": "es + no es\n= this",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es means it is.",
+      "show": "es = it is",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Possible changes in Spanish.",
+      "show": "possible\nposible",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "possible",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: posible.",
+      "word": "posible",
+      "phon": "po-SI-ble",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is possible.",
+      "word": "it is possible",
+      "pauseSec": 2.3,
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es posible.",
+      "word": "Es posible",
+      "phon": "es po-SI-ble",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "No es means it is not.",
+      "show": "no es = it is not",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Impossible changes the same way.",
+      "show": "impossible\nimposible",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "impossible",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: imposible.",
+      "word": "imposible",
+      "phon": "im-po-SI-ble",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is not impossible.",
+      "word": "it is not impossible",
+      "pauseSec": 2.8,
+      "audio": "seg-11"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es imposible.",
+      "word": "No es imposible",
+      "phon": "no es im-po-SI-ble",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "For many English words that end in L Y, Spanish uses mente.",
+      "show": "English: ly\nSpanish: mente",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Possible becomes possibly.",
+      "show": "possible\npossibly",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "En español: posible. En español: posiblemente.",
+      "show": "posible\nposiblemente",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now build it.",
+      "show": "now build it",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Possibly, it is possible.",
+      "word": "possibly, it is possible",
+      "pauseSec": 3.2,
+      "audio": "seg-17"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Posiblemente es posible.",
+      "word": "Posiblemente es posible",
+      "phon": "po-si-ble-MEN-te es po-SI-ble",
+      "audio": "seg-18"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Possibly, it is not impossible.",
+      "word": "possibly, it is not impossible",
+      "pauseSec": 3.5,
+      "audio": "seg-19"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Posiblemente no es imposible.",
+      "word": "Posiblemente no es imposible",
+      "phon": "po-si-ble-MEN-te no es im-po-SI-ble",
+      "audio": "seg-20"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same pieces, bigger sentence.",
+      "show": "same pieces\nbigger sentence",
+      "audio": "seg-21"
+    }
+  ],
+  "caption": "If you can say es and no es, you can already say this: Posiblemente es posible.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

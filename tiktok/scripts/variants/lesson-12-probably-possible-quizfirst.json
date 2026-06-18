@@ -1,0 +1,76 @@
+{
+  "id": "lesson-12-probably-possible-quizfirst",
+  "title": "Probablemente Possible Stack (quiz-first)",
+  "audioDir": "lesson-12-probably-possible",
+  "voice_notes": "Remix variant - reuses lesson-12-probably-possible audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is probable.",
+      "word": "it is probable",
+      "pauseSec": 2.3,
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es probable.",
+      "word": "Es probable",
+      "phon": "es pro-BA-ble",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Probable barely changes.",
+      "show": "probable\nprobable",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "probable",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: probable.",
+      "word": "probable",
+      "phon": "pro-BA-ble",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Probably, it is possible.",
+      "word": "probably, it is possible",
+      "pauseSec": 3.2,
+      "audio": "seg-18"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Probablemente es posible.",
+      "word": "Probablemente es posible",
+      "phon": "pro-ba-ble-MEN-te es po-SI-ble",
+      "audio": "seg-19"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same pattern, new sentence.",
+      "show": "same pattern\nnew sentence",
+      "audio": "seg-23"
+    }
+  ],
+  "caption": "Could you build it before the reveal? It is probable -> Es probable -> Probablemente es posible.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

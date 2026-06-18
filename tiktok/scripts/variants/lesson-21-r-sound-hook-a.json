@@ -1,0 +1,106 @@
+{
+  "id": "lesson-21-r-sound-hook-a",
+  "title": "The Spanish R Is Not A Crisis (hook swap A)",
+  "audioDir": "lesson-21-r-sound",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-21-r-sound audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The Spanish R is not the boss fight everyone thinks.",
+      "show": "the R\nisn't scary",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "At the start of a word, this sound gets the stronger flick.",
+      "show": "start of word:\nstrong R",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try the English word regular, with Spanish sound.",
+      "word": "regular",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, regular.",
+      "word": "regular",
+      "phon": "rreh-goo-LAR",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And real, with that same first sound.",
+      "word": "real",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, real.",
+      "word": "real",
+      "phon": "rreh-AL",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Inside a word, a single are sound is lighter.",
+      "display": "Inside a word, a single R is lighter.",
+      "show": "single R inside:\nlighter",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Escucha: pero.",
+      "word": "pero",
+      "phon": "PEH-ro",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "But double are gets the stronger sound again.",
+      "display": "But double R gets the stronger sound again.",
+      "show": "double RR:\nstrong R",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Escucha: perro.",
+      "word": "perro",
+      "phon": "PEH-rro",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "If the strong sound does not come out yet, do not let it stop you.",
+      "show": "do not let it\nstop you",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Keep listening. Keep the mouth relaxed. The sound can arrive later.",
+      "show": "listen\nrelax\nkeep going",
+      "audio": "seg-11"
+    }
+  ],
+  "caption": "The Spanish R is not the boss fight everyone thinks: pero vs perro.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "lesson-23-ence-ance-hook-a",
+  "title": "ENCE And ANCE Become Spanish Too (hook swap A)",
+  "audioDir": "lesson-23-ence-ance",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-23-ence-ance audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Every English ence and ance word is a free Spanish word.",
+      "show": "-ence/-ance\n= free",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When English ends in the ending spelled E N C E, Spanish often has encia.",
+      "show": "English -ence\nSpanish -encia",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Experience becomes experiencia.",
+      "show": "experience -> experiencia",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, experiencia.",
+      "word": "experiencia",
+      "phon": "eks-pe-ryen-SYA",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "You know different. Now try difference.",
+      "word": "difference",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, diferencia.",
+      "word": "diferencia",
+      "phon": "dee-fe-REN-sya",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about influence?",
+      "word": "influence",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, influencia.",
+      "word": "influencia",
+      "phon": "een-floo-EN-sya",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And when English ends in the ending spelled A N C E, Spanish often has ancia.",
+      "show": "English -ance\nSpanish -ancia",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Important gave you importante. Now importance gives you importancia.",
+      "show": "important -> importante\nimportance -> importancia",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, importancia.",
+      "word": "importancia",
+      "phon": "eem-por-TAN-sya",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try distance.",
+      "word": "distance",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, distancia.",
+      "word": "distancia",
+      "phon": "dees-TAN-sya",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "One more: consistency.",
+      "word": "consistency",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, consistencia.",
+      "word": "consistencia",
+      "phon": "kon-sees-TEN-sya",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You are not memorizing nouns. You are collecting word machines.",
+      "show": "not memorizing\nword machines",
+      "audio": "seg-15"
+    }
+  ],
+  "caption": "Every English -ence/-ance word is a free Spanish word: experiencia, diferencia, importancia.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

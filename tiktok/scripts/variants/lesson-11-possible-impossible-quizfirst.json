@@ -1,0 +1,76 @@
+{
+  "id": "lesson-11-possible-impossible-quizfirst",
+  "title": "Posiblemente Possible Stack (quiz-first)",
+  "audioDir": "lesson-11-possible-impossible",
+  "voice_notes": "Remix variant - reuses lesson-11-possible-impossible audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is possible.",
+      "word": "it is possible",
+      "pauseSec": 2.3,
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es posible.",
+      "word": "Es posible",
+      "phon": "es po-SI-ble",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Possible changes in Spanish.",
+      "show": "possible\nposible",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "possible",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: posible.",
+      "word": "posible",
+      "phon": "po-SI-ble",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Possibly, it is possible.",
+      "word": "possibly, it is possible",
+      "pauseSec": 3.2,
+      "audio": "seg-17"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Posiblemente es posible.",
+      "word": "Posiblemente es posible",
+      "phon": "po-si-ble-MEN-te es po-SI-ble",
+      "audio": "seg-18"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same pieces, bigger sentence.",
+      "show": "same pieces\nbigger sentence",
+      "audio": "seg-21"
+    }
+  ],
+  "caption": "Could you build it before the reveal? It is possible -> Es posible -> Posiblemente es posible.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

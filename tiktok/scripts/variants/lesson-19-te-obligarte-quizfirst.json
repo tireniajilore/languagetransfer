@@ -1,0 +1,82 @@
+{
+  "id": "lesson-19-te-obligarte-quizfirst",
+  "title": "Te At The End Means You (quiz-first)",
+  "audioDir": "lesson-19-te-obligarte",
+  "voice_notes": "Remix variant - reuses lesson-19-te-obligarte audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to inform you.",
+      "word": "to inform you",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, informarte.",
+      "word": "informarte",
+      "phon": "een-for-MAR-te",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The word is te.",
+      "show": "te",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Start with inform. In Spanish, informar.",
+      "show": "information -> informar",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Informar.",
+      "show": "informar",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Attach te at the end.",
+      "show": "informar + te",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to inform you.",
+      "word": "I want to inform you",
+      "pauseSec": 3.1,
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero informarte.",
+      "word": "Quiero informarte",
+      "phon": "KYE-ro een-for-MAR-te",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Te stayed the same. Only the verb changed.",
+      "show": "same te\nnew verb",
+      "audio": "seg-21"
+    }
+  ],
+  "caption": "Could you say it before the reveal? to inform you -> informarte.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

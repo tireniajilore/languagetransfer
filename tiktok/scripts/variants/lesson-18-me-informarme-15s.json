@@ -1,0 +1,66 @@
+{
+  "id": "lesson-18-me-informarme-15s",
+  "title": "Me At The End (15s micro-cut)",
+  "audioDir": "lesson-18-me-informarme",
+  "voice_notes": "Remix variant - reuses lesson-18-me-informarme audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish has a tiny trick for saying me.",
+      "show": "tiny trick:\nme",
+      "audio": "seg-00"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Start with prepare. In Spanish, preparar.",
+      "show": "prepare -> preparar",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Preparar.",
+      "show": "preparar",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now put me at the end.",
+      "show": "preparar + me",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to prepare myself.",
+      "word": "to prepare myself",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, prepararme.",
+      "word": "prepararme",
+      "phon": "pre-pa-RAR-me",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Do not learn a new sentence. Build the verb, then attach me.",
+      "show": "build the verb\nattach me",
+      "audio": "seg-19"
+    }
+  ],
+  "caption": "Attach me to a Spanish verb: preparar -> prepararme.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

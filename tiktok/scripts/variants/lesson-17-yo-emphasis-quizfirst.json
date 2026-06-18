@@ -1,0 +1,74 @@
+{
+  "id": "lesson-17-yo-emphasis-quizfirst",
+  "title": "Yo Is Emphasis In Practice (quiz-first)",
+  "audioDir": "lesson-17-yo-emphasis",
+  "voice_notes": "Remix variant - reuses lesson-17-yo-emphasis audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say I want, with that me, not them feeling.",
+      "word": "I want",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Yo quiero.",
+      "word": "Yo quiero",
+      "phon": "yo KYE-ro",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The word yo means I.",
+      "show": "yo = I",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Use yo when you want to stress who is doing it: I want it, not someone else.",
+      "show": "I want it\nnot someone else",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Do not say yo every time English says I.",
+      "show": "don't say yo\nevery time",
+      "audio": "seg-00"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I do not want, with emphasis.",
+      "word": "I do not want",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Yo no quiero.",
+      "word": "Yo no quiero",
+      "phon": "yo no KYE-ro",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Use yo when you are contrasting, correcting, or making your own choice clear.",
+      "show": "contrast\ncorrect\nmake it clear",
+      "audio": "seg-15"
+    }
+  ],
+  "caption": "Could you say it before the reveal? I want (with emphasis) -> Yo quiero.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

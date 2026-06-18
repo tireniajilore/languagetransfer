@@ -1,0 +1,88 @@
+{
+  "id": "lesson-21-r-sound",
+  "title": "The Spanish R Is Not A Crisis",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The Spanish are sound scares people more than it should.",
+      "display": "The Spanish R scares people more than it should.",
+      "show": "the Spanish R\nis not a crisis"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "At the start of a word, this sound gets the stronger flick.",
+      "show": "start of word:\nstrong R"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try the English word regular, with Spanish sound.",
+      "word": "regular"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, regular.",
+      "word": "regular",
+      "phon": "rreh-goo-LAR"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And real, with that same first sound.",
+      "word": "real"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, real.",
+      "word": "real",
+      "phon": "rreh-AL"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Inside a word, a single are sound is lighter.",
+      "display": "Inside a word, a single R is lighter.",
+      "show": "single R inside:\nlighter"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Escucha: pero.",
+      "word": "pero",
+      "phon": "PEH-ro"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "But double are gets the stronger sound again.",
+      "display": "But double R gets the stronger sound again.",
+      "show": "double RR:\nstrong R"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Escucha: perro.",
+      "word": "perro",
+      "phon": "PEH-rro"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "If the strong sound does not come out yet, do not let it stop you.",
+      "show": "do not let it\nstop you"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Keep listening. Keep the mouth relaxed. The sound can arrive later.",
+      "show": "listen\nrelax\nkeep going"
+    }
+  ],
+  "caption": "Initial r and double rr use the stronger Spanish R: regular, real, perro. A single r inside a word is lighter: pero.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lesson-03-es-hook-a",
+  "title": "One Tiny Word (hook swap A)",
+  "audioDir": "lesson-03-es",
+  "voice_notes": "Hook-swap variant — only segment 0 (hook-a) needs TTS; everything else reuses lesson-03-es audio.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "This is the first Spanish word I'd learn if I started over.", "show": "the first word\nI'd learn", "audio": "hook-a" },
+    { "kind": "line", "lang": "es", "say": "Es.", "show": "es", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "That little word means is. Keep the S sound clean.", "show": "es = is\nclean s", "audio": "seg-02" },
+    { "kind": "line", "lang": "en", "say": "You already know words like normal, legal, and natural. So now put it together.", "show": "normal\nlegal\nnatural", "audio": "seg-03" },
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is normal?", "word": "it is normal", "audio": "seg-04" },
+    { "kind": "reveal", "lang": "es", "say": "Es normal.", "word": "Es normal", "phon": "es nor-MAL", "audio": "seg-05" },
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is legal?", "word": "it is legal", "audio": "seg-06" },
+    { "kind": "reveal", "lang": "es", "say": "Es legal.", "word": "Es legal", "phon": "es le-GAL", "audio": "seg-07" },
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is natural?", "word": "it is natural", "audio": "seg-08" },
+    { "kind": "reveal", "lang": "es", "say": "Es natural.", "word": "Es natural", "phon": "es na-tu-RAL", "audio": "seg-09" },
+    { "kind": "line", "lang": "en", "say": "Es is also the same word for he is and she is.", "show": "he is\nshe is\nit is", "audio": "seg-10" },
+    { "kind": "prompt", "lang": "en", "say": "Try this one: he is liberal.", "word": "he is liberal", "audio": "seg-11" },
+    { "kind": "reveal", "lang": "es", "say": "Es liberal.", "word": "Es liberal", "phon": "es li-be-RAL", "audio": "seg-12" },
+    { "kind": "prompt", "lang": "en", "say": "And now: she is ideal.", "word": "she is ideal", "audio": "seg-13" },
+    { "kind": "reveal", "lang": "es", "say": "Es ideal.", "word": "Es ideal", "phon": "es i-de-AL", "audio": "seg-14" },
+    { "kind": "line", "lang": "en", "say": "He, she, it. Spanish does not care here. We just use es.", "show": "he / she / it\nes", "audio": "seg-15" }
+  ],
+  "caption": "The first Spanish word I'd learn if I started over: es. It builds sentences instantly — es normal, es legal, es ideal.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

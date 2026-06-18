@@ -1,0 +1,18 @@
+{
+  "id": "lesson-06-mente-15s",
+  "title": "Mente Adverbs (15s micro-cut)",
+  "audioDir": "lesson-06-mente-adverbs",
+  "voice_notes": "Remix variant — reuses lesson-06-mente-adverbs audio via explicit segment keys. No new TTS.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "In English, words like normally and legally often end in ly.", "show": "normally\nlegally", "audio": "seg-00" },
+    { "kind": "line", "lang": "en", "say": "Spanish has its own version of that ending: mente.", "show": "Spanish ending\nmente", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "Normal becomes normalmente.", "show": "normal\nnormalmente", "audio": "seg-02" },
+    { "kind": "prompt", "lang": "en", "say": "Say legally in Spanish.", "word": "legally", "audio": "seg-05" },
+    { "kind": "reveal", "lang": "es", "say": "En español, legalmente.", "word": "legalmente", "phon": "le-gal-MEN-te", "audio": "seg-06" },
+    { "kind": "prompt", "lang": "en", "say": "Say naturally in Spanish.", "word": "naturally", "audio": "seg-07" },
+    { "kind": "reveal", "lang": "es", "say": "En español, naturalmente.", "word": "naturalmente", "phon": "na-tu-ral-MEN-te", "audio": "seg-08" },
+    { "kind": "line", "lang": "en", "say": "Good. Same move each time. Take the word, attach mente.", "show": "same move\nattach mente", "audio": "seg-15" }
+  ],
+  "caption": "Spanish swaps ly for mente: normalmente, legalmente, naturalmente. Same move every time.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "fyp"]
+}

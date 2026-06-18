@@ -1,0 +1,73 @@
+{
+  "id": "lesson-22-long-route-verbs-15s",
+  "title": "Take The Long Route To Verbs (15s micro-cut)",
+  "audioDir": "lesson-22-long-route-verbs",
+  "voice_notes": "Remix variant - reuses lesson-22-long-route-verbs audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Do not jump from the short English verb.",
+      "show": "do not jump",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Use the bigger English noun first.",
+      "show": "use the big noun",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Generate can go through generation.",
+      "show": "generate -> generation",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Generación.",
+      "show": "generación",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Then take off ción and add ar.",
+      "show": "take off ción\nadd ar",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "So how would you say to generate?",
+      "word": "to generate",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, generar.",
+      "word": "generar",
+      "phon": "he-ne-RAR",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. The long route is slower for one second, and safer forever.",
+      "show": "slower now\nsafer forever",
+      "audio": "seg-17"
+    }
+  ],
+  "caption": "Stuck on a Spanish verb? Go through the noun: generation -> generacion -> generar.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

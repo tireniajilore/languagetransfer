@@ -1,0 +1,20 @@
+{
+  "id": "lesson-08-able-ible-quizfirst",
+  "title": "ABLE And IBLE Words (quiz-first)",
+  "audioDir": "lesson-08-able-ible",
+  "voice_notes": "Remix variant - cold-opens on a prompt before teaching. Reuses lesson-08-able-ible audio. No new TTS.",
+  "segments": [
+    { "kind": "prompt", "lang": "en", "say": "Build the whole sentence: it is possible.", "word": "it is possible", "audio": "seg-03" },
+    { "kind": "reveal", "lang": "es", "say": "Es posible.", "word": "Es posible", "phon": "es po-SI-ble", "audio": "seg-04" },
+    { "kind": "line", "lang": "en", "say": "Some English words carry over into Spanish, but your mouth has to switch languages.", "show": "same word family\nSpanish sounds", "audio": "seg-00" },
+    { "kind": "line", "lang": "en", "say": "Today, use Spanish vowels and Spanish rhythm for words ending in ible and able.", "show": "ible / able\nSpanish rhythm", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "Now do the same move with the English sentence: it is probable.", "show": "it is probable\nSpanish rhythm", "audio": "seg-06" },
+    { "kind": "prompt", "lang": "en", "say": "Build the whole sentence: it is probable.", "word": "it is probable", "audio": "seg-07" },
+    { "kind": "reveal", "lang": "es", "say": "Es probable.", "word": "Es probable", "phon": "es pro-BA-ble", "audio": "seg-08" },
+    { "kind": "prompt", "lang": "en", "say": "Try one more full sentence: it is flexible.", "word": "it is flexible", "audio": "seg-10" },
+    { "kind": "reveal", "lang": "es", "say": "Es flexible.", "word": "Es flexible", "phon": "es flek-SI-ble", "audio": "seg-11" },
+    { "kind": "line", "lang": "en", "say": "Good. English gives you the word. Spanish gives you the sound.", "show": "English gives the word\nSpanish gives the sound", "audio": "seg-17" }
+  ],
+  "caption": "Could you switch the sentence into Spanish? Es posible, es probable, es flexible.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "lesson-05-ant-ent-quizfirst",
+  "title": "ANT/ENT Words (quiz-first)",
+  "audioDir": "lesson-05-ant-ent",
+  "voice_notes": "Remix variant — cold-opens on a prompt before teaching. Reuses lesson-05-ant-ent audio. No new TTS.",
+  "segments": [
+    { "kind": "prompt", "lang": "en", "say": "Say it in Spanish: it is important.", "word": "it is important", "audio": "seg-04" },
+    { "kind": "reveal", "lang": "es", "say": "Es importante.", "word": "Es importante", "phon": "es im-por-TAN-te", "audio": "seg-05" },
+    { "kind": "line", "lang": "en", "say": "Words ending in ant or ent often become Spanish by adding e.", "show": "ant / ent\nadd e", "audio": "seg-01" },
+    { "kind": "prompt", "lang": "en", "say": "Say it in Spanish: it is different.", "word": "it is different", "audio": "seg-06" },
+    { "kind": "reveal", "lang": "es", "say": "Es diferente.", "word": "Es diferente", "phon": "es di-fe-REN-te", "audio": "seg-07" },
+    { "kind": "line", "lang": "en", "say": "Good. Now use the same rule on words I have not given you yet.", "show": "same rule\nnew words", "audio": "seg-08" },
+    { "kind": "prompt", "lang": "en", "say": "Say constant in Spanish.", "word": "constant", "audio": "seg-09" },
+    { "kind": "reveal", "lang": "es", "say": "En español, constante.", "word": "constante", "phon": "cons-TAN-te", "audio": "seg-10" },
+    { "kind": "prompt", "lang": "en", "say": "Say excellent in Spanish.", "word": "excellent", "audio": "seg-13" },
+    { "kind": "reveal", "lang": "es", "say": "En español, excelente.", "word": "excelente", "phon": "ex-ce-LEN-te", "audio": "seg-14" },
+    { "kind": "prompt", "lang": "en", "say": "Now say it is evident in Spanish.", "word": "it is evident", "audio": "seg-15" },
+    { "kind": "reveal", "lang": "es", "say": "Es evidente.", "word": "Es evidente", "phon": "es e-vi-DEN-te", "audio": "seg-16" },
+    { "kind": "line", "lang": "en", "say": "That is the payoff. One rule gave you constante, excelente, and evidente.", "show": "one rule\nthree new words", "audio": "seg-17" }
+  ],
+  "caption": "Could you say it before the reveal? ant/ent words become Spanish by adding e. How many did you get?",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "lesson-04-no-es-hook-a",
+  "title": "No Es (hook swap A)",
+  "audioDir": "lesson-04-no-es",
+  "voice_notes": "Hook-swap variant — hook-a is prepended (the original opens straight on content); only hook-a needs TTS.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "Negative sentences in Spanish are easier than English. Watch.", "show": "negatives are easier\nin Spanish", "audio": "hook-a" },
+    { "kind": "line", "lang": "es", "say": "Es normal.", "show": "Es normal.", "audio": "seg-00" },
+    { "kind": "line", "lang": "en", "say": "Es normal means it is normal.", "show": "it's normal", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "To make it negative, Spanish does one thing. It puts no in front.", "show": "put no\nin front", "audio": "seg-02" },
+    { "kind": "line", "lang": "es", "say": "No es normal.", "show": "No es normal.", "audio": "seg-03" },
+    { "kind": "line", "lang": "en", "say": "That means it is not normal.", "show": "it's not normal", "audio": "seg-04" },
+    { "kind": "prompt", "lang": "en", "say": "Now you try: it is not normal.", "word": "it's not normal", "audio": "seg-05" },
+    { "kind": "reveal", "lang": "es", "say": "No es normal.", "word": "No es normal", "phon": "no es nor-MAL", "audio": "seg-06" },
+    { "kind": "prompt", "lang": "en", "say": "What about: it is not legal?", "word": "it's not legal", "audio": "seg-07" },
+    { "kind": "reveal", "lang": "es", "say": "No es legal.", "word": "No es legal", "phon": "no es le-GAL", "audio": "seg-08" },
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is not ideal?", "word": "it's not ideal", "audio": "seg-09" },
+    { "kind": "reveal", "lang": "es", "say": "No es ideal.", "word": "No es ideal", "phon": "no es i-de-AL", "audio": "seg-10" },
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is not natural?", "word": "it's not natural", "audio": "seg-11" },
+    { "kind": "reveal", "lang": "es", "say": "No es natural.", "word": "No es natural", "phon": "no es na-tu-RAL", "audio": "seg-12" },
+    { "kind": "line", "lang": "en", "say": "Now listen to the flip. Same sentence, one word parked in front.", "show": "same sentence\none word in front", "audio": "seg-13" },
+    { "kind": "line", "lang": "es", "say": "Es normal. No es normal.", "show": "Es normal.\nNo es normal.", "audio": "seg-14" },
+    { "kind": "line", "lang": "es", "say": "Es legal. No es legal.", "show": "Es legal.\nNo es legal.", "audio": "seg-15" },
+    { "kind": "line", "lang": "en", "say": "You just park no in front. That is the whole move.", "show": "park no\nin front", "audio": "seg-16" }
+  ],
+  "caption": "Negative sentences in Spanish are easier than English — you just park no in front: no es normal, no es legal.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

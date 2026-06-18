@@ -96,82 +96,77 @@ Realmente. Good.
 
 Good. Same move each time. Take the word, attach mente.
 
-## Lesson 7: The English J Sound Changes
+## Lesson 7: The English J Sound Becomes A Throat Sound
 
-Before we use words like general, we need one Spanish sound.
+One English sound changes a lot when it lands in Spanish.
 
-English has a J sound, like in jacket.
+English has that J sound, like in jacket or general.
 
-In many Spanish words, that sound becomes a soft breath in the throat.
+In Spanish, that sound often becomes a soft breath in the throat.
 
 [on screen: Argentina]
 Escucha: Argentina.
 
-Hear it in the middle? Not the English J from jacket. Let the air rub in the throat.
-
-Now take the English word general. In English, it starts with that jacket sound.
+Hear it in the middle? Not ja. More like a gentle h from the throat.
 
 [on screen: general]
-Say the English word general in Spanish.
+Now take the English word general. Say it with the Spanish throat sound.
 [beat]
-En español: general. Good.
+En español, general. Good.
 
-Good. The English J sound became the Spanish throat sound.
-
-Now add mente. That gives us the English LY feeling.
-
-[on screen: generally]
-Say the English word generally in Spanish.
-[beat]
-En español: generalmente. Good.
-
-Another one: the English word original has that same J sound in the middle.
+Good. Same word shape, different sound.
 
 [on screen: original]
-Say the English word original in Spanish.
+Try one more. Say the English word original with that same throat sound.
 [beat]
-En español: original. Good.
+En español, original. Good.
 
-[on screen: originally]
-Now say the English word originally in Spanish.
+Same move with words you already know.
+
+[on screen: digital]
+Take the English word digital. Give it the Spanish throat sound.
 [beat]
-En español: originalmente. Good.
+En español, digital. Good.
 
-Good. Listen for the sound, not just the letter.
+[on screen: regional]
+And try regional with that same sound.
+[beat]
+En español, regional. Good.
 
-Global keeps the hard G. General changes because English gives it that J sound.
+Good. You changed one sound, four times.
+
+Listen for the English J sound. In Spanish, let it breathe from the throat.
 
 ## Lesson 8: ABLE And IBLE Words Carry Over
 
-Here is another English ending that often carries into Spanish.
+Some English words carry over into Spanish, but your mouth has to switch languages.
 
-Words ending in IBLE or ABLE often work if you pronounce them the Spanish way.
+Today, use Spanish vowels and Spanish rhythm for words ending in IBLE and ABLE.
 
-Possible becomes posible.
+Start with the English sentence: it is possible. Say it as English first, then switch into Spanish.
 
 [on screen: it is possible]
-Say it is possible in Spanish.
+Build the whole sentence: it is possible.
 [beat]
 Es posible. Good.
 
-Now use the same ending with probable.
+Good. You built the sentence, then let possible become Spanish in your mouth.
 
-[on screen: probable]
-Say probable in Spanish.
-[beat]
-Probable. Good.
+Now do the same move with the English sentence: it is probable.
 
 [on screen: it is probable]
-Now say it is probable in Spanish.
+Build the whole sentence: it is probable.
 [beat]
 Es probable. Good.
 
-[on screen: flexible]
-Try one more word: say flexible in Spanish.
-[beat]
-Flexible. Good.
+Good. Don't listen for a brand new word. Listen for the language switch.
 
-Now attach mente, the ending for many LY words.
+[on screen: it is flexible]
+Try one more full sentence: it is flexible.
+[beat]
+Es flexible. Good.
+
+Now bring back mente, the ending for many LY words.
 
 [on screen: probably]
 Say probably in Spanish.
@@ -183,4 +178,4 @@ And say possibly in Spanish.
 [beat]
 Posiblemente. Good.
 
-Good. Possible gave you posible, and then posiblemente.
+Good. English gives you the word. Spanish gives you the sound.

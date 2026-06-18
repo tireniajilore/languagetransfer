@@ -1,0 +1,28 @@
+{
+  "id": "lesson-08-able-ible-hook-a",
+  "title": "ABLE And IBLE Words (hook swap A)",
+  "audioDir": "lesson-08-able-ible",
+  "voice_notes": "Hook-swap variant - only segment 0 (hook-a) needs TTS; everything else reuses lesson-08-able-ible audio.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "English gives you the word. Spanish gives you the sound.", "show": "English word\nSpanish sound", "audio": "hook-a" },
+    { "kind": "line", "lang": "en", "say": "Today, use Spanish vowels and Spanish rhythm for words ending in ible and able.", "show": "ible / able\nSpanish rhythm", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "Start with the English sentence: it is possible. Say it as English first, then switch into Spanish.", "show": "it is possible\nswitch to Spanish", "audio": "seg-02" },
+    { "kind": "prompt", "lang": "en", "say": "Build the whole sentence: it is possible.", "word": "it is possible", "audio": "seg-03" },
+    { "kind": "reveal", "lang": "es", "say": "Es posible.", "word": "Es posible", "phon": "es po-SI-ble", "audio": "seg-04" },
+    { "kind": "line", "lang": "en", "say": "Good. You built the sentence, then let possible become Spanish in your mouth.", "show": "es posible", "audio": "seg-05" },
+    { "kind": "line", "lang": "en", "say": "Now do the same move with the English sentence: it is probable.", "show": "it is probable\nSpanish rhythm", "audio": "seg-06" },
+    { "kind": "prompt", "lang": "en", "say": "Build the whole sentence: it is probable.", "word": "it is probable", "audio": "seg-07" },
+    { "kind": "reveal", "lang": "es", "say": "Es probable.", "word": "Es probable", "phon": "es pro-BA-ble", "audio": "seg-08" },
+    { "kind": "line", "lang": "en", "say": "Good. Don't listen for a brand new word. Listen for the language switch.", "show": "same word family\nlanguage switch", "audio": "seg-09" },
+    { "kind": "prompt", "lang": "en", "say": "Try one more full sentence: it is flexible.", "word": "it is flexible", "audio": "seg-10" },
+    { "kind": "reveal", "lang": "es", "say": "Es flexible.", "word": "Es flexible", "phon": "es flek-SI-ble", "audio": "seg-11" },
+    { "kind": "line", "lang": "en", "say": "Now bring back mente, the ending for many ly words.", "show": "bring back\nmente", "audio": "seg-12" },
+    { "kind": "prompt", "lang": "en", "say": "Say probably in Spanish.", "word": "probably", "audio": "seg-13" },
+    { "kind": "reveal", "lang": "es", "say": "En español, probablemente.", "word": "probablemente", "phon": "pro-ba-ble-MEN-te", "audio": "seg-14" },
+    { "kind": "prompt", "lang": "en", "say": "And say possibly in Spanish.", "word": "possibly", "audio": "seg-15" },
+    { "kind": "reveal", "lang": "es", "say": "En español, posiblemente.", "word": "posiblemente", "phon": "po-si-ble-MEN-te", "audio": "seg-16" },
+    { "kind": "line", "lang": "en", "say": "Good. English gives you the word. Spanish gives you the sound.", "show": "English gives the word\nSpanish gives the sound", "audio": "seg-17" }
+  ],
+  "caption": "English gives you the word, Spanish gives you the sound: es posible, es probable, probablemente, posiblemente.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

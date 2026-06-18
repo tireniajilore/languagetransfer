@@ -1,0 +1,131 @@
+{
+  "id": "lesson-17-yo-emphasis-hook-a",
+  "title": "Yo Is Emphasis In Practice (hook swap A)",
+  "audioDir": "lesson-17-yo-emphasis",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-17-yo-emphasis audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Stop saying yo in Spanish - you usually don't need it.",
+      "show": "skip\nyo",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "quiero",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That already means I want.",
+      "show": "quiero =\nI want",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Quick check: say I want.",
+      "word": "I want",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero.",
+      "word": "Quiero",
+      "phon": "KYE-ro",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The word yo means I.",
+      "show": "yo = I",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "But Spanish usually leaves it out, because the verb already tells you who.",
+      "show": "the verb already\ntells you who",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Use yo when you want to stress who is doing it: I want it, not someone else.",
+      "show": "I want it\nnot someone else",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Yo quiero.",
+      "show": "yo quiero",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That is not just neutral I want. It is more like me, I want.",
+      "show": "me, I want",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say I want, with that me, not them feeling.",
+      "word": "I want",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Yo quiero.",
+      "word": "Yo quiero",
+      "phon": "yo KYE-ro",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "For the negative, no still goes right before quiero.",
+      "show": "yo + no quiero",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I do not want, with emphasis.",
+      "word": "I do not want",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Yo no quiero.",
+      "word": "Yo no quiero",
+      "phon": "yo no KYE-ro",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Use yo when you are contrasting, correcting, or making your own choice clear.",
+      "show": "contrast\ncorrect\nmake it clear",
+      "audio": "seg-15"
+    }
+  ],
+  "caption": "Stop saying yo every time - Spanish only uses it for emphasis: yo quiero, yo no quiero.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

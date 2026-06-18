@@ -1,0 +1,19 @@
+{
+  "id": "lesson-07-j-sound-15s",
+  "title": "J Sound To Throat Sound (15s micro-cut)",
+  "audioDir": "lesson-07-j-sound",
+  "voice_notes": "Remix variant - reuses lesson-07-j-sound audio via explicit segment keys. No new TTS.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "English has that j sound, like in jacket or general.", "show": "English j sound\njacket · general", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "In Spanish, that sound often becomes a soft breath in the throat.", "show": "Spanish sound\nsoft throat breath", "audio": "seg-02" },
+    { "kind": "line", "lang": "en", "say": "Hear it in the middle? Not ja. More like a gentle h from the throat.", "show": "not ja\ngentle throat h", "audio": "seg-04" },
+    { "kind": "prompt", "lang": "en", "say": "Now take the English word general. Say it with the Spanish throat sound.", "word": "general", "audio": "seg-05" },
+    { "kind": "reveal", "lang": "es", "say": "En español, general.", "word": "general", "phon": "he-ne-RAL", "audio": "seg-06" },
+    { "kind": "line", "lang": "en", "say": "Same move with words you already know.", "show": "same move\nmore words", "audio": "seg-10" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word digital. Give it the Spanish throat sound.", "word": "digital", "audio": "seg-11" },
+    { "kind": "reveal", "lang": "es", "say": "En español, digital.", "word": "digital", "phon": "di-hi-TAL", "audio": "seg-12" },
+    { "kind": "line", "lang": "en", "say": "Good. You changed one sound, four times.", "show": "one sound\nfour words", "audio": "seg-15" }
+  ],
+  "caption": "The English J sound often becomes a soft Spanish throat sound: general, digital. Listen for the sound, not the letter.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "fyp"]
+}

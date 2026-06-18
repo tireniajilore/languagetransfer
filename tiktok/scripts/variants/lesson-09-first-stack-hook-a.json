@@ -1,0 +1,215 @@
+{
+  "id": "lesson-09-first-stack-hook-a",
+  "title": "Realmente Sentence Stack (hook swap A)",
+  "audioDir": "lesson-09-first-stack",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-09-first-stack audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You already have the pieces for a full Spanish sentence.",
+      "show": "you have\nthe pieces",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es means it is.",
+      "show": "es = it is",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is",
+      "pauseSec": 0.9
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es.",
+      "word": "Es",
+      "phon": "es",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The English word urgent changes in Spanish.",
+      "show": "urgent\nurgente",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "urgent",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: urgente.",
+      "word": "urgente",
+      "phon": "ur-HEN-te",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now use both pieces.",
+      "show": "use both pieces",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is urgent.",
+      "word": "it is urgent",
+      "pauseSec": 2.3,
+      "audio": "seg-08"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es urgente.",
+      "word": "Es urgente",
+      "phon": "es ur-HEN-te",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Important changes the same way.",
+      "show": "important\nimportante",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "important",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: importante.",
+      "word": "importante",
+      "phon": "im-por-TAN-te",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is important.",
+      "word": "it is important",
+      "pauseSec": 2.3,
+      "audio": "seg-13"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es importante.",
+      "word": "Es importante",
+      "phon": "es im-por-TAN-te",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "For many English words that end in L Y, Spanish uses mente.",
+      "show": "English: ly\nSpanish: mente",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Real becomes really.",
+      "show": "real\nreally",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "En español: real. En español: realmente.",
+      "show": "real\nrealmente",
+      "audio": "seg-17"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now build it.",
+      "show": "now build it",
+      "audio": "seg-18"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Really, it is urgent.",
+      "word": "really, it is urgent",
+      "pauseSec": 3,
+      "audio": "seg-19"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Realmente es urgente.",
+      "word": "Realmente es urgente",
+      "phon": "re-al-MEN-te es ur-HEN-te",
+      "audio": "seg-20"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Really, it is important.",
+      "word": "really, it is important",
+      "pauseSec": 3,
+      "audio": "seg-21"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Realmente es importante.",
+      "word": "Realmente es importante",
+      "phon": "re-al-MEN-te es im-por-TAN-te",
+      "audio": "seg-22"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Last one. You have not seen this full sentence here, but you have the pieces.",
+      "show": "one new combo",
+      "audio": "seg-23"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Really, it is not normal.",
+      "word": "really, it is not normal",
+      "pauseSec": 3.5,
+      "audio": "seg-24"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Realmente no es normal.",
+      "word": "Realmente no es normal",
+      "phon": "re-al-MEN-te no es nor-MAL",
+      "audio": "seg-25"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That is the point. You are building, not memorizing.",
+      "show": "building\nnot memorizing",
+      "audio": "seg-26"
+    }
+  ],
+  "caption": "You already have the pieces: es, urgente, real - realmente es urgente.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}
