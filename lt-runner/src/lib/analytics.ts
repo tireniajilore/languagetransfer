@@ -11,7 +11,18 @@ export type AnalyticsEventName =
   | 'lesson_completed'
   | 'outro_prompt_reached'
   | 'demand_card_viewed'
-  | 'demand_submitted';
+  | 'demand_submitted'
+  | 'cognates_course_viewed'
+  | 'cognates_lesson_started'
+  | 'cognates_prompt_reached'
+  | 'cognates_response_submitted'
+  | 'cognates_response_skipped'
+  | 'cognates_response_timed_out'
+  | 'cognates_reveal_shown'
+  | 'cognates_section_completed'
+  | 'cognates_lesson_completed'
+  | 'cognates_save_progress_viewed'
+  | 'cognates_save_progress_submitted';
 
 export type AnalyticsPayload = Record<string, string | number | boolean | null | undefined>;
 

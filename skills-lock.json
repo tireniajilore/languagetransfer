@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "hallmark": {
+      "source": "nutlope/hallmark",
+      "sourceType": "github",
+      "skillPath": "skills/hallmark/SKILL.md",
+      "computedHash": "8a8ecafd613f09e701330b5aa4a591ac539abb2605596df4a2394f03628d1d76"
+    },
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion/SKILL.md",
+      "computedHash": "006f8413941b59eff54a7ce64851b8a2fb79e7a3a5f1a895e97a48f01482553d"
+    },
+    "tiktok-marketing": {
+      "source": "claude-office-skills/skills",
+      "sourceType": "github",
+      "skillPath": "tiktok-marketing/SKILL.md",
+      "computedHash": "a032f7707e06200535491daab615d36ee0d1ab5aaed766bb30a215bb45eef10f"
+    }
+  }
+}

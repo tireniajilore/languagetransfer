@@ -2,8 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Hallmark · macrostructure: Workbench · genre: atmospheric (light)
+ * theme: custom warm-paper · accent terracotta · Fraunces + Avenir Next
+ * pre-emit critique: P5 H4 E5 S4 R5 V4
+ */
+
 :root {
   color-scheme: light;
+
+  --paper: oklch(98.2% 0.008 83);
+  --paper-2: oklch(96% 0.012 80);
+  --paper-3: oklch(92.5% 0.014 78);
+  --ink: oklch(27% 0.018 55);
+  --ink-2: oklch(46% 0.014 55);
+  --ink-3: oklch(64% 0.012 58);
+  --rule: oklch(89% 0.012 80);
+  --accent: oklch(58% 0.15 40);
+  --accent-2: oklch(52% 0.16 40);
+  --accent-ink: oklch(98.5% 0.01 83);
+  --success: oklch(56% 0.1 150);
+  --focus: oklch(52% 0.17 40);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur: 240ms;
 }
 
 * {
@@ -16,16 +37,107 @@ body {
   min-height: 100%;
 }
 
+html {
+  overflow-x: clip;
+}
+
 body {
-  background:
-    radial-gradient(circle at top left, rgba(253, 230, 138, 0.55), transparent 28%),
-    radial-gradient(circle at top right, rgba(191, 219, 254, 0.7), transparent 30%),
-    linear-gradient(180deg, #fffdf7 0%, #fff7ed 100%);
-  color: #1f2937;
+  overflow-x: clip;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Avenir Next', Avenir, ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 button,
 input,
 textarea {
   font: inherit;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, 'Times New Roman', serif;
+  font-style: normal;
+  letter-spacing: -0.012em;
+}
+
+/* per-step crossfade — the only spatial motion in the player */
+@keyframes step-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.step-enter {
+  animation: step-enter var(--dur) var(--ease-out) both;
+}
+
+/* ambient equalizer — signals "audio is playing", never claims word-sync */
+@keyframes eq {
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+.eq-bar {
+  transform-origin: bottom;
+  animation: eq 1s var(--ease-out) infinite;
+}
+
+.eq-paused .eq-bar {
+  animation-play-state: paused;
+}
+
+/* checkpoint celebration — one-shot, restrained (no confetti storm) */
+@keyframes check-pop {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes ring-bloom {
+  from {
+    transform: scale(0.75);
+    opacity: 0.55;
+  }
+  to {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
+.checkpoint-pop {
+  animation: check-pop 340ms var(--ease-out) both;
+}
+
+.checkpoint-ring {
+  animation: ring-bloom 720ms var(--ease-out) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .step-enter {
+    animation: none;
+  }
+  .eq-bar {
+    animation: none;
+    transform: scaleY(0.6);
+  }
+  .checkpoint-pop,
+  .checkpoint-ring {
+    animation: none;
+  }
 }

@@ -6,6 +6,7 @@ __pycache__/
 node_modules/
 .next/
 dist/
+*.tsbuildinfo
 .DS_Store
 google-credentials.json
 *.wav
@@ -13,3 +14,6 @@ google-credentials.json
 data/user_progress/*.json
 .gstack/
 .vercel
+.tiktok-credentials.json
+.tiktok-tokens.json
+.upload-manifest.json

@@ -9,6 +9,7 @@
     "refine-lesson": "tsx scripts/refine-lesson.ts",
     "generate-tts": "tsx scripts/generate-tts.ts",
     "test-voices": "tsx scripts/test-elevenlabs-voices.ts",
+    "validate:cognates": "tsx scripts/validate-cognates-course.ts",
     "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -25,6 +26,8 @@
     "@types/react": "18.3.18",
     "@types/react-dom": "18.3.5",
     "autoprefixer": "10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.30",
     "postcss": "8.5.3",
     "tailwindcss": "3.4.17",
     "tsx": "4.20.6",

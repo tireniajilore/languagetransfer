@@ -51,7 +51,7 @@ export function useLessonEngine(lesson: Lesson) {
     return () => {
       ttsRef.current?.stop();
     };
-  }, []);
+  }, [lesson.id]);
 
   const currentStep = state.lesson.steps[state.currentStepIndex];
 
@@ -174,6 +174,10 @@ export function useLessonEngine(lesson: Lesson) {
   const restart = useCallback(() => dispatch({ type: 'RESTART' }), []);
   const next = useCallback(() => dispatch({ type: 'NEXT_STEP' }), []);
   const previous = useCallback(() => dispatch({ type: 'PREVIOUS_STEP' }), []);
+  const jumpToStep = useCallback((targetIndex: number) => dispatch({
+    type: 'JUMP_TO_STEP',
+    payload: { targetIndex }
+  }), []);
   const setInput = useCallback((value: string) => dispatch({ type: 'SET_INPUT', value }), []);
   const submitResponse = useCallback((value?: string) => {
     dispatch({
@@ -216,6 +220,7 @@ export function useLessonEngine(lesson: Lesson) {
     restart,
     next,
     previous,
+    jumpToStep,
     setInput,
     submitResponse,
     skip,

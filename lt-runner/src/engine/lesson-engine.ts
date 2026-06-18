@@ -82,7 +82,7 @@ export function lessonEngineReducer(state: EngineState, action: EngineAction): E
         responses: []
       };
     case 'PAUSE':
-      if (state.mode !== 'playing') return state;
+      if (state.mode !== 'playing' && state.mode !== 'waiting_for_response') return state;
       return { ...state, mode: 'paused' };
     case 'RESUME':
       if (state.mode === 'paused') {

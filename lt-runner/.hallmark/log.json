@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-06-18",
+    "macrostructure": "Workbench",
+    "theme": "custom warm-paper",
+    "theme_axes": "light / classical-serif / warm",
+    "vibe": "warm paper, focused listening",
+    "enrichment": "none (ambient equalizer)",
+    "brief": "Cognates lesson player redesign — drop captions during playback, karaoke-fallback focus visual, de-slop"
+  }
+]
