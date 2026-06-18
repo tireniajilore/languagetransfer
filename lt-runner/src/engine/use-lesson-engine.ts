@@ -44,14 +44,19 @@ export function useLessonEngine(lesson: Lesson) {
   }, []);
 
   useEffect(() => {
+    const fallbackTTS = new ElevenLabsTTS(new BrowserTTS());
+    const shouldLoadStaticAudio = lesson.audio?.staticManifest !== false;
+
     ttsRef.current = typeof window !== 'undefined'
-      ? new StaticTTS(lesson.id, new ElevenLabsTTS(new BrowserTTS()))
+      ? shouldLoadStaticAudio
+        ? new StaticTTS(lesson.id, fallbackTTS)
+        : fallbackTTS
       : new TextTTS();
 
     return () => {
       ttsRef.current?.stop();
     };
-  }, [lesson.id]);
+  }, [lesson.audio?.staticManifest, lesson.id]);
 
   const currentStep = state.lesson.steps[state.currentStepIndex];
 

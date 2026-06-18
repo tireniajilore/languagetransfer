@@ -422,6 +422,9 @@ export function getCognatesLessonBundle(lessonId: string): CognatesLessonBundle 
       id: `cognates-${courseLesson.id}`,
       title: courseLesson.title,
       description: buildLessonDescription(courseLesson),
+      audio: {
+        staticManifest: false
+      },
       steps
     },
     sectionStepRanges
