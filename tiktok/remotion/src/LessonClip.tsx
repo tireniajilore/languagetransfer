@@ -3,7 +3,7 @@ import {AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame}
 import {Background} from './components/Background';
 import {Karaoke} from './components/Karaoke';
 import {ProgressBar} from './components/Overlays';
-import {COLORS, FONT_DISPLAY, FONT_MONO, TYPE} from './theme';
+import {ACTIVE_WIDTH, COLORS, FONT_DISPLAY, FONT_MONO, TYPE} from './theme';
 import {LessonProps, LessonScene} from './lesson';
 
 const fadeIn = (frame: number) => interpolate(frame, [0, 8], [0, 1], {extrapolateRight: 'clamp'});
@@ -11,6 +11,34 @@ const fadeIn = (frame: number) => interpolate(frame, [0, 8], [0, 1], {extrapolat
 // Teaching lines keep the show's signature karaoke — the spoken words highlight
 // in time with the voice (top-centered, large).
 const LINE_TOP = 820;
+
+const displayFontSize = (text: string) => {
+  const cleaned = text.trim();
+  const longestWord = Math.max(...cleaned.split(/\s+/).map((word) => word.length), 0);
+  if (cleaned.length > 32 || longestWord > 15) return 68;
+  if (cleaned.length > 24) return 76;
+  if (cleaned.length > 18) return 86;
+  return TYPE.promptWord;
+};
+
+const phonFontSize = (text: string) => {
+  const cleaned = text.trim();
+  if (cleaned.length > 34) return 38;
+  if (cleaned.length > 26) return 44;
+  return 58;
+};
+
+const displayTextStyle = (text: string): React.CSSProperties => ({
+  maxWidth: ACTIVE_WIDTH,
+  fontFamily: FONT_DISPLAY,
+  fontWeight: 600,
+  fontSize: displayFontSize(text),
+  lineHeight: 1.04,
+  color: COLORS.ink,
+  letterSpacing: 0,
+  textAlign: 'center',
+  overflowWrap: 'break-word',
+});
 
 // The five fixed vowels — staggered in, letter in ink, sound in lime mono.
 const Vowels: React.FC = () => {
@@ -49,8 +77,8 @@ const Prompt: React.FC<{word: string; durFrames: number}> = ({word, durFrames}) 
   const frac = Math.max(0, 1 - frame / durFrames);
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', opacity: fadeIn(frame)}}>
-      <div style={{fontFamily: FONT_DISPLAY, fontWeight: 600, fontSize: TYPE.promptWord, color: COLORS.ink, letterSpacing: -3}}>{word}</div>
-      <div style={{marginTop: 40, fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: COLORS.accent}}>SAY IT</div>
+      <div style={displayTextStyle(word)}>{word}</div>
+      <div style={{marginTop: 40, fontFamily: FONT_DISPLAY, fontWeight: 700, fontSize: 30, letterSpacing: 0, color: COLORS.accent}}>SAY IT</div>
       <div style={{marginTop: 30, width: 280, height: 3, background: COLORS.accent, opacity: 0.55, transform: `scaleX(${frac})`}} />
     </AbsoluteFill>
   );
@@ -61,8 +89,23 @@ const Reveal: React.FC<{word: string; phon: string}> = ({word, phon}) => {
   const frame = useCurrentFrame();
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', opacity: fadeIn(frame)}}>
-      <div style={{fontFamily: FONT_DISPLAY, fontWeight: 600, fontSize: TYPE.promptWord, color: COLORS.ink, letterSpacing: -3}}>{word}</div>
-      <div style={{marginTop: 30, fontFamily: FONT_MONO, fontWeight: 500, fontSize: 58, letterSpacing: 2, color: COLORS.accent}}>{phon}</div>
+      <div style={displayTextStyle(word)}>{word}</div>
+      <div
+        style={{
+          marginTop: 30,
+          maxWidth: ACTIVE_WIDTH,
+          fontFamily: FONT_MONO,
+          fontWeight: 500,
+          fontSize: phonFontSize(phon),
+          lineHeight: 1.18,
+          letterSpacing: 0,
+          color: COLORS.accent,
+          textAlign: 'center',
+          overflowWrap: 'break-word',
+        }}
+      >
+        {phon}
+      </div>
     </AbsoluteFill>
   );
 };
@@ -70,7 +113,7 @@ const Reveal: React.FC<{word: string; phon: string}> = ({word, phon}) => {
 const renderScene = (s: LessonScene) => {
   const audio = s.audioKey ? <Audio src={staticFile(`audio/${s.lessonId}/${s.audioKey}.mp3`)} /> : null;
   let content: React.ReactNode = null;
-  if (s.kind === 'line') content = <Karaoke text={s.say ?? s.show ?? ''} speechSec={s.speechSec} top={LINE_TOP} fontSize={62} />;
+  if (s.kind === 'line') content = <Karaoke text={s.display ?? s.say ?? s.show ?? ''} speechSec={s.speechSec} top={LINE_TOP} fontSize={62} />;
   else if (s.kind === 'vowels') content = <Vowels />;
   else if (s.kind === 'prompt') content = <Prompt word={s.word ?? ''} durFrames={s.durFrames} />;
   else if (s.kind === 'reveal') content = <Reveal word={s.word ?? ''} phon={s.phon ?? ''} />;

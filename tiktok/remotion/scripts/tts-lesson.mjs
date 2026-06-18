@@ -24,14 +24,18 @@ const MODEL_ID = process.env.TTS_MODEL || 'eleven_v3';
 const name = process.argv[2] || 'lesson-02-vowels';
 // Optional segment indices to (re)synth just those, e.g. `... lesson-02-vowels 4 7`.
 const only = process.argv.slice(3).map(Number).filter((n) => !Number.isNaN(n));
+const lessonPath = path.join(__dirname, '..', '..', 'scripts', `${name}.json`);
+const variantPath = path.join(__dirname, '..', '..', 'scripts', 'variants', `${name}.json`);
 const lesson = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '..', '..', 'scripts', `${name}.json`), 'utf8'),
+  fs.readFileSync(fs.existsSync(lessonPath) ? lessonPath : variantPath, 'utf8'),
 );
-const OUT_DIR = path.join(__dirname, '..', 'public', 'audio', lesson.id);
+// Remix variants set audioDir to the source lesson and per-segment `audio` keys;
+// new lines for a variant land in the source lesson's folder under that key.
+const OUT_DIR = path.join(__dirname, '..', 'public', 'audio', lesson.audioDir ?? lesson.id);
 
 const clips = lesson.segments
   .map((seg, i) => ({
-    key: `seg-${String(i).padStart(2, '0')}`,
+    key: seg.audio ?? `seg-${String(i).padStart(2, '0')}`,
     text: seg.say,
     lang: seg.lang,
     i,
