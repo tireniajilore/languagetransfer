@@ -1,0 +1,149 @@
+{
+  "id": "lesson-19-te-obligarte",
+  "title": "Te At The End Means You",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish has the same tiny trick for saying you.",
+      "show": "tiny trick:\nyou"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The word is te.",
+      "show": "te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Here, te means you.",
+      "show": "te = you"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Start with inform. In Spanish, informar.",
+      "show": "information -> informar"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Informar.",
+      "show": "informar"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Attach te at the end.",
+      "show": "informar + te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to inform you.",
+      "word": "to inform you"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, informarte.",
+      "word": "informarte",
+      "phon": "een-for-MAR-te"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "quiero = I want"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Quick reminder: quiero means I want.",
+      "show": "quiero =\nI want"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to inform you.",
+      "word": "I want to inform you",
+      "pauseSec": 3.1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero informarte.",
+      "word": "Quiero informarte",
+      "phon": "KYE-ro een-for-MAR-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Now we can handle a more serious verb.",
+      "show": "same shape\nbigger verb"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Obligation becomes obligación, then obligar.",
+      "show": "obligation -> obligación -> obligar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Attach you: to oblige you.",
+      "word": "to oblige you"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, obligarte.",
+      "word": "obligarte",
+      "phon": "o-blee-GAR-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I do not want to oblige you.",
+      "word": "I don't want to oblige you",
+      "pauseSec": 3.5
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero obligarte.",
+      "word": "No quiero obligarte",
+      "phon": "no KYE-ro o-blee-GAR-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One stretch: provocation gives provocar.",
+      "show": "provocation -> provocar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I do not want to provoke you.",
+      "word": "I don't want to provoke you",
+      "pauseSec": 3.5
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero provocarte.",
+      "word": "No quiero provocarte",
+      "phon": "no KYE-ro pro-vo-KAR-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Te stayed the same. Only the verb changed.",
+      "show": "same te\nnew verb"
+    }
+  ],
+  "caption": "Te can mean you, and it can attach to the end of verbs: informarte, obligarte, provocarte.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "lesson-28-visitarlo",
+  "title": "Visit Him With One Ending",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "English sometimes hides the Spanish verb in the bigger word.",
+      "show": "use the bigger word"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Think of visitation. That points you to visitar.",
+      "show": "visitation ->\nvisitar"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Visitar.",
+      "word": "visitar",
+      "phon": "bee-see-TAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That means to visit.",
+      "show": "visitar =\nto visit"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Lo can mean him, and it attaches to the end.",
+      "show": "visitar + lo"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to visit him.",
+      "word": "to visit him"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, visitarlo.",
+      "word": "visitarlo",
+      "phon": "bee-see-TAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Quiero means I want.",
+      "show": "quiero = I want"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to visit him.",
+      "word": "I want to visit him",
+      "pauseSec": 3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero visitarlo.",
+      "word": "Quiero visitarlo",
+      "phon": "KYE-ro bee-see-TAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You found the verb through a bigger English word, then attached lo.",
+      "show": "visitation -> visitar\nvisitar + lo"
+    }
+  ],
+  "caption": "Use the bigger English word to find the Spanish verb: visitation -> visitar. Then attach lo: quiero visitarlo.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

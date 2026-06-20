@@ -1,0 +1,110 @@
+{
+  "id": "lesson-03-es",
+  "title": "One Tiny Word Builds Sentences",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One tiny Spanish word builds a whole pile of sentences. Here it is.",
+      "show": "one tiny word\nbuilds sentences"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Es.",
+      "show": "es"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That little word means is. Keep the S sound clean.",
+      "show": "es = is\nclean s"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You already know words like normal, legal, and natural. So now put it together.",
+      "show": "normal\nlegal\nnatural"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "How would you say: it is normal?",
+      "word": "it is normal"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es normal.",
+      "word": "Es normal",
+      "phon": "es nor-MAL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "How would you say: it is legal?",
+      "word": "it is legal"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es legal.",
+      "word": "Es legal",
+      "phon": "es le-GAL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "How would you say: it is natural?",
+      "word": "it is natural"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es natural.",
+      "word": "Es natural",
+      "phon": "es na-tu-RAL"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es is also the same word for he is and she is.",
+      "show": "he is\nshe is\nit is"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try this one: he is liberal.",
+      "word": "he is liberal"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es liberal.",
+      "word": "Es liberal",
+      "phon": "es li-be-RAL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And now: she is ideal.",
+      "word": "she is ideal"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es ideal.",
+      "word": "Es ideal",
+      "phon": "es i-de-AL"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "He, she, it. Spanish does not care here. We just use es.",
+      "show": "he / she / it\nes"
+    }
+  ],
+  "caption": "One tiny Spanish word builds a pile of sentences: es normal, es legal, es natural, es liberal, es ideal.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

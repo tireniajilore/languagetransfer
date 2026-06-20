@@ -1,0 +1,115 @@
+{
+  "id": "lesson-04-no-es",
+  "title": "Make It Negative With No Es",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Es normal.",
+      "show": "Es normal."
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es normal means it is normal.",
+      "show": "it's normal"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "To make it negative, Spanish does one thing. It puts no in front.",
+      "show": "put no\nin front"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "No es normal.",
+      "show": "No es normal."
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That means it is not normal.",
+      "show": "it's not normal"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now you try: it is not normal.",
+      "word": "it's not normal"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No es normal.",
+      "word": "No es normal",
+      "phon": "no es nor-MAL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about: it is not legal?",
+      "word": "it's not legal"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No es legal.",
+      "word": "No es legal",
+      "phon": "no es le-GAL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "How would you say: it is not ideal?",
+      "word": "it's not ideal"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No es ideal.",
+      "word": "No es ideal",
+      "phon": "no es i-de-AL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "How would you say: it is not natural?",
+      "word": "it's not natural"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No es natural.",
+      "word": "No es natural",
+      "phon": "no es na-tu-RAL"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now listen to the flip. Same sentence, one word parked in front.",
+      "show": "same sentence\none word in front"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Es normal. No es normal.",
+      "show": "Es normal.\nNo es normal."
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Es legal. No es legal.",
+      "show": "Es legal.\nNo es legal."
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You just park no in front. That is the whole move.",
+      "show": "park no\nin front"
+    }
+  ],
+  "caption": "To say it is not in Spanish, put no before es: no es normal, no es legal, no es ideal, no es natural.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

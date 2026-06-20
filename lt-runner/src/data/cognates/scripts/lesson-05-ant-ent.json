@@ -1,0 +1,123 @@
+{
+  "id": "lesson-05-ant-ent",
+  "title": "Add E To ANT And ENT Words",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "English has hidden Spanish words all over it. Here is one pattern.",
+      "show": "hidden Spanish\nwords"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Words ending in ant or ent often become Spanish by adding e.",
+      "show": "ant / ent\nadd e"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Important becomes importante. Different becomes diferente.",
+      "show": "important -> importante\ndifferent -> diferente"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And es means it is.",
+      "show": "es = it is"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say it in Spanish: it is important.",
+      "word": "it is important"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es importante.",
+      "word": "Es importante",
+      "phon": "es im-por-TAN-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say it in Spanish: it is different.",
+      "word": "it is different"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es diferente.",
+      "word": "Es diferente",
+      "phon": "es di-fe-REN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Now use the same rule on words I have not given you yet.",
+      "show": "same rule\nnew words"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say constant in Spanish.",
+      "word": "constant"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, constante.",
+      "word": "constante",
+      "phon": "cons-TAN-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say it is constant in Spanish.",
+      "word": "it is constant"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es constante.",
+      "word": "Es constante",
+      "phon": "es cons-TAN-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say excellent in Spanish.",
+      "word": "excellent"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, excelente.",
+      "word": "excelente",
+      "phon": "ex-ce-LEN-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say it is evident in Spanish.",
+      "word": "it is evident"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Es evidente.",
+      "word": "Es evidente",
+      "phon": "es e-vi-DEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That is the payoff. One rule gave you constante, excelente, and evidente.",
+      "show": "one rule\nthree new words"
+    }
+  ],
+  "caption": "English words ending in ant or ent often become Spanish by adding e: importante, diferente, constante, excelente, evidente.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

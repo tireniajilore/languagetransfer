@@ -1,0 +1,203 @@
+{
+  "id": "lesson-10-mixed-patterns",
+  "title": "Normalmente Negative Stack",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid bare cognates. English prompts should stay fully English; Spanish answers use En español carriers.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "This is the beginner Spanish sentence I wish people learned earlier.",
+      "show": "learn this\nearlier"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es means it is.",
+      "show": "es = it is"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is",
+      "pauseSec": 0.9
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es.",
+      "word": "Es",
+      "phon": "es"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "No es means it is not.",
+      "show": "no es = it is not"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is not",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es.",
+      "word": "No es",
+      "phon": "no es"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Important changes in Spanish.",
+      "show": "important\nimportante"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "important",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: importante.",
+      "word": "importante",
+      "phon": "im-por-TAN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now use no es with that.",
+      "show": "no es\n+ importante"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is not important.",
+      "word": "it is not important",
+      "pauseSec": 2.5
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es importante.",
+      "word": "No es importante",
+      "phon": "no es im-por-TAN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Different changes the same way.",
+      "show": "different\ndiferente"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "different",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: diferente.",
+      "word": "diferente",
+      "phon": "di-fe-REN-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is not different.",
+      "word": "it is not different",
+      "pauseSec": 2.5
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es diferente.",
+      "word": "No es diferente",
+      "phon": "no es di-fe-REN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "For many English words that end in L Y, Spanish uses mente.",
+      "show": "English: ly\nSpanish: mente"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Normal becomes normally.",
+      "show": "normal\nnormally"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "En español: normal. En español: normalmente.",
+      "show": "normal\nnormalmente"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now build it with no es.",
+      "show": "normalmente\n+ no es"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Normally, it is not important.",
+      "word": "normally, it is not important",
+      "pauseSec": 3.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Normalmente no es importante.",
+      "word": "Normalmente no es importante",
+      "phon": "nor-mal-MEN-te no es im-por-TAN-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Normally, it is not different.",
+      "word": "normally, it is not different",
+      "pauseSec": 3.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Normalmente no es diferente.",
+      "word": "Normalmente no es diferente",
+      "phon": "nor-mal-MEN-te no es di-fe-REN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Last one. You have not seen this full sentence here, but you have the pieces.",
+      "show": "one new combo"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Normally, it is not urgent.",
+      "word": "normally, it is not urgent",
+      "pauseSec": 3.5
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Normalmente no es urgente.",
+      "word": "Normalmente no es urgente",
+      "phon": "nor-mal-MEN-te no es ur-HEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same pieces, new sentence.",
+      "show": "same pieces\nnew sentence"
+    }
+  ],
+  "caption": "Build “normally, it’s not different” in Spanish from no es, importante, diferente, normal, normalmente.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}
