@@ -1,5 +1,6 @@
-import { LandingPage } from '@/components/landing-page';
+import { CognatesCoursePage } from '@/components/cognates-course-page';
+import { getCognatesCourseSummary } from '@/data/cognates/adapter';
 
 export default function HomePage() {
-  return <LandingPage />;
+  return <CognatesCoursePage summary={getCognatesCourseSummary()} />;
 }
