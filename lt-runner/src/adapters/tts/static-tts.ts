@@ -98,6 +98,10 @@ export class StaticTTS implements TTSAdapter {
         cache: 'no-store'
       })
         .then(async (response) => {
+          if (response.status === 204) {
+            return null;
+          }
+
           if (!response.ok) {
             return null;
           }

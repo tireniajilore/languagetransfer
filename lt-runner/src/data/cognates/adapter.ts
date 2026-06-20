@@ -423,7 +423,7 @@ export function getCognatesLessonBundle(lessonId: string): CognatesLessonBundle 
       title: courseLesson.title,
       description: buildLessonDescription(courseLesson),
       audio: {
-        staticManifest: false
+        staticManifest: true
       },
       steps
     },
