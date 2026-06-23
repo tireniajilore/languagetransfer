@@ -1,0 +1,75 @@
+{
+  "id": "lesson-23-ence-ance-quizfirst",
+  "title": "ENCE And ANCE Become Spanish Too (quiz-first)",
+  "audioDir": "lesson-23-ence-ance",
+  "voice_notes": "Remix variant - reuses lesson-23-ence-ance audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "You know different. Now try difference.",
+      "word": "difference",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, diferencia.",
+      "word": "diferencia",
+      "phon": "dee-fe-REN-sya",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When English ends in the ending spelled E N C E, Spanish often has encia.",
+      "show": "English -ence\nSpanish -encia",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Experience becomes experiencia.",
+      "show": "experience -> experiencia",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, experiencia.",
+      "word": "experiencia",
+      "phon": "eks-pe-ryen-SYA",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about influence?",
+      "word": "influence",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, influencia.",
+      "word": "influencia",
+      "phon": "een-floo-EN-sya",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You are not memorizing nouns. You are collecting word machines.",
+      "show": "not memorizing\nword machines",
+      "audio": "seg-15"
+    }
+  ],
+  "caption": "Could you say it before the reveal? difference -> diferencia. -ence becomes -encia.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

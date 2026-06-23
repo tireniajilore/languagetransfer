@@ -1,0 +1,17 @@
+{
+  "id": "lesson-04-no-es-15s",
+  "title": "No Es (15s micro-cut)",
+  "audioDir": "lesson-04-no-es",
+  "voice_notes": "Remix variant — reuses lesson-04-no-es audio via explicit segment keys. No new TTS.",
+  "segments": [
+    { "kind": "line", "lang": "es", "say": "Es normal.", "show": "Es normal.", "audio": "seg-00" },
+    { "kind": "line", "lang": "en", "say": "Es normal means it is normal.", "show": "it's normal", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "To make it negative, Spanish does one thing. It puts no in front.", "show": "put no\nin front", "audio": "seg-02" },
+    { "kind": "line", "lang": "es", "say": "No es normal.", "show": "No es normal.", "audio": "seg-03" },
+    { "kind": "prompt", "lang": "en", "say": "What about: it is not legal?", "word": "it's not legal", "audio": "seg-07" },
+    { "kind": "reveal", "lang": "es", "say": "No es legal.", "word": "No es legal", "phon": "no es le-GAL", "audio": "seg-08" },
+    { "kind": "line", "lang": "en", "say": "You just park no in front. That is the whole move.", "show": "park no\nin front", "audio": "seg-16" }
+  ],
+  "caption": "Negative sentences in Spanish: park no in front. Es legal → no es legal. The whole move.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "fyp"]
+}

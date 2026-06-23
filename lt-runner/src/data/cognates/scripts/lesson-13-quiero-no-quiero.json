@@ -1,0 +1,127 @@
+{
+  "id": "lesson-13-quiero-no-quiero",
+  "title": "Quiero and no quiero",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You may already know how to say I love you in Spanish.",
+      "show": "you may already know\nI love you"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Hidden inside it is one of the most useful Spanish phrases.",
+      "show": "hidden inside:\none useful phrase"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Te quiero.",
+      "show": "Te quiero."
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Literally, that is I want you.",
+      "show": "literally:\nI want you"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "Quiero."
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That means I want.",
+      "show": "Quiero =\nI want"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Your turn: I want.",
+      "word": "I want"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero.",
+      "word": "Quiero",
+      "phon": "KYE-ro"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "To make it negative, Spanish does one very kind thing.",
+      "show": "to make it negative"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Park no in front.",
+      "show": "park no\nin front"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I do not want.",
+      "word": "I don't want"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero.",
+      "word": "No quiero",
+      "phon": "no KYE-ro"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now make it a full sentence. Coffee is café, with Spanish sound.",
+      "show": "make it\na full sentence"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Café.",
+      "show": "café"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I want coffee.",
+      "word": "I want coffee"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero café.",
+      "word": "Quiero café",
+      "phon": "KYE-ro ka-FE"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And now: I do not want coffee.",
+      "word": "I don't want coffee"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero café.",
+      "word": "No quiero café",
+      "phon": "no KYE-ro ka-FE"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same sentence, one word parked in front.",
+      "show": "same sentence\none word in front"
+    }
+  ],
+  "caption": "Quiero means I want. To say I don't want coffee, Spanish just parks no in front: quiero café -> no quiero café.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

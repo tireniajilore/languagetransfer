@@ -3,6 +3,10 @@ import type { DemandSubmissionRequest, NextLessonInterest } from '@/types/demand
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX = 5;
+const MAX_EMAIL_LENGTH = 254;
+const MAX_ID_LENGTH = 120;
+const MAX_FEEDBACK_LENGTH = 2000;
+const MAX_ATTRIBUTION_LENGTH = 500;
 
 type RateLimitStore = Map<string, number[]>;
 
@@ -35,8 +39,17 @@ function normalizePayload(body: DemandSubmissionRequest) {
   return {
     ...body,
     email: body.email?.trim() || undefined,
-    feedbackText: body.feedbackText?.trim() || undefined
+    lessonId: body.lessonId?.trim(),
+    feedbackText: body.feedbackText?.trim() || undefined,
+    referrer: body.referrer?.trim() || undefined,
+    utmSource: body.utmSource?.trim() || undefined,
+    utmMedium: body.utmMedium?.trim() || undefined,
+    utmCampaign: body.utmCampaign?.trim() || undefined
   };
+}
+
+function isTooLong(value: string | undefined, maxLength: number) {
+  return Boolean(value && value.length > maxLength);
 }
 
 export async function POST(request: Request) {
@@ -58,6 +71,10 @@ export async function POST(request: Request) {
     return Response.json({ error: 'sessionId and lessonId are required.' }, { status: 400 });
   }
 
+  if (isTooLong(payload.sessionId, MAX_ID_LENGTH) || isTooLong(payload.lessonId, MAX_ID_LENGTH)) {
+    return Response.json({ error: 'sessionId and lessonId are too long.' }, { status: 400 });
+  }
+
   if (!isValidInterest(payload.wantsNextLesson)) {
     return Response.json({ error: 'wantsNextLesson must be yes, maybe, or no.' }, { status: 400 });
   }
@@ -70,8 +87,25 @@ export async function POST(request: Request) {
     return Response.json({ error: 'Email is required if the user wants the next lesson.' }, { status: 400 });
   }
 
+  if (isTooLong(payload.email, MAX_EMAIL_LENGTH)) {
+    return Response.json({ error: 'Email is too long.' }, { status: 400 });
+  }
+
   if (payload.email && !EMAIL_PATTERN.test(payload.email)) {
     return Response.json({ error: 'Please enter a valid email address.' }, { status: 400 });
+  }
+
+  if (isTooLong(payload.feedbackText, MAX_FEEDBACK_LENGTH)) {
+    return Response.json({ error: 'Feedback is too long.' }, { status: 400 });
+  }
+
+  if (
+    isTooLong(payload.referrer, MAX_ATTRIBUTION_LENGTH) ||
+    isTooLong(payload.utmSource, MAX_ATTRIBUTION_LENGTH) ||
+    isTooLong(payload.utmMedium, MAX_ATTRIBUTION_LENGTH) ||
+    isTooLong(payload.utmCampaign, MAX_ATTRIBUTION_LENGTH)
+  ) {
+    return Response.json({ error: 'Attribution fields are too long.' }, { status: 400 });
   }
 
   const now = Date.now();
@@ -119,17 +153,31 @@ export async function POST(request: Request) {
     );
   }
 
-  const response = await fetch(`${supabaseUrl.replace(/\/$/, '')}/rest/v1/demand_submissions`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      apikey: supabaseServiceRoleKey,
-      Authorization: `Bearer ${supabaseServiceRoleKey}`,
-      Prefer: 'return=minimal'
-    },
-    body: JSON.stringify(row),
-    cache: 'no-store'
-  });
+  let response: Response;
+
+  try {
+    response = await fetch(`${supabaseUrl.replace(/\/$/, '')}/rest/v1/demand_submissions`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        apikey: supabaseServiceRoleKey,
+        Authorization: `Bearer ${supabaseServiceRoleKey}`,
+        Prefer: 'return=minimal'
+      },
+      body: JSON.stringify(row),
+      cache: 'no-store'
+    });
+  } catch (error) {
+    if (process.env.NODE_ENV !== 'production') {
+      console.info('Demand submission (Supabase unreachable):', row, error);
+      return Response.json({ ok: true, stored: false }, { status: 200 });
+    }
+
+    return Response.json(
+      { error: 'Demand capture storage is temporarily unavailable.' },
+      { status: 502 }
+    );
+  }
 
   if (!response.ok) {
     const errorText = await response.text();

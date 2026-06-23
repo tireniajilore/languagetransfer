@@ -1,0 +1,67 @@
+{
+  "id": "lesson-11-possible-impossible-15s",
+  "title": "Posiblemente Possible Stack (15s micro-cut)",
+  "audioDir": "lesson-11-possible-impossible",
+  "voice_notes": "Remix variant - reuses lesson-11-possible-impossible audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es means it is.",
+      "show": "es = it is",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Possible changes in Spanish.",
+      "show": "possible\nposible",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "possible",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: posible.",
+      "word": "posible",
+      "phon": "po-SI-ble",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is possible.",
+      "word": "it is possible",
+      "pauseSec": 2.3,
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es posible.",
+      "word": "Es posible",
+      "phon": "es po-SI-ble",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same pieces, bigger sentence.",
+      "show": "same pieces\nbigger sentence",
+      "audio": "seg-21"
+    }
+  ],
+  "caption": "es + posible = es posible. You're building Spanish, not memorizing it.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

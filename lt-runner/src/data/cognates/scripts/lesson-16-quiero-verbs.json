@@ -1,0 +1,170 @@
+{
+  "id": "lesson-16-quiero-verbs",
+  "title": "Build sentences with quiero",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You do not need a big vocabulary to say real Spanish sentences.",
+      "show": "real sentences\nwithout a big vocabulary"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You just need one phrase and a verb pattern.",
+      "show": "one phrase\none verb pattern"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "Quiero = I want"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That means I want.",
+      "show": "quiero =\nI want"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Quick check: say I want.",
+      "word": "I want"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero.",
+      "word": "Quiero",
+      "phon": "KYE-ro"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Now we need the second piece: to prepare, which we can build from English.",
+      "show": "second piece:\nto prepare"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "From prepare, think preparation.",
+      "show": "prepare -> preparation"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Preparation becomes preparación.",
+      "show": "preparation -> preparación"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Preparación.",
+      "show": "preparación"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Then take off ción and add ar.",
+      "show": "take off ción\nadd ar"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Preparar.",
+      "show": "preparar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I want to prepare.",
+      "word": "I want to prepare",
+      "pauseSec": 3.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero preparar.",
+      "word": "Quiero preparar",
+      "phon": "KYE-ro pre-pa-RAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Now apply that same build to other examples.",
+      "show": "same build\nnew examples"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now: I want to cooperate.",
+      "word": "I want to cooperate",
+      "pauseSec": 3.5
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cooperar.",
+      "word": "Quiero cooperar",
+      "phon": "KYE-ro ko-o-pe-RAR"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I want to cancel.",
+      "word": "I want to cancel",
+      "pauseSec": 3.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cancelar.",
+      "word": "Quiero cancelar",
+      "phon": "KYE-ro kan-se-LAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And the negative is still just no in front.",
+      "show": "negative:\nno in front"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I do not want to cancel.",
+      "word": "I don't want to cancel",
+      "pauseSec": 3.5
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero cancelar.",
+      "word": "No quiero cancelar",
+      "phon": "no KYE-ro kan-se-LAR"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Last one: I want to explore.",
+      "word": "I want to explore",
+      "pauseSec": 3.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero explorar.",
+      "word": "Quiero explorar",
+      "phon": "KYE-ro eks-plo-RAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You stacked one known piece onto another.",
+      "show": "one known piece\nonto another"
+    }
+  ],
+  "caption": "Quiero + an unchanged -ar verb gives you real sentences: quiero preparar, quiero cooperar, quiero cancelar, no quiero cancelar.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

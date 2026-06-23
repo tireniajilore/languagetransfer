@@ -1,0 +1,236 @@
+{
+  "id": "lesson-10-mixed-patterns-hook-a",
+  "title": "Normalmente Negative Stack (hook swap A)",
+  "audioDir": "lesson-10-mixed-patterns",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-10-mixed-patterns audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish negation is just two small words: no es.",
+      "show": "negation =\nno es",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es means it is.",
+      "show": "es = it is",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is",
+      "pauseSec": 0.9
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es.",
+      "word": "Es",
+      "phon": "es",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "No es means it is not.",
+      "show": "no es = it is not",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is not",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es.",
+      "word": "No es",
+      "phon": "no es",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Important changes in Spanish.",
+      "show": "important\nimportante",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "important",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: importante.",
+      "word": "importante",
+      "phon": "im-por-TAN-te",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now use no es with that.",
+      "show": "no es\n+ importante",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is not important.",
+      "word": "it is not important",
+      "pauseSec": 2.5,
+      "audio": "seg-11"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es importante.",
+      "word": "No es importante",
+      "phon": "no es im-por-TAN-te",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Different changes the same way.",
+      "show": "different\ndiferente",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "different",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: diferente.",
+      "word": "diferente",
+      "phon": "di-fe-REN-te",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is not different.",
+      "word": "it is not different",
+      "pauseSec": 2.5,
+      "audio": "seg-16"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es diferente.",
+      "word": "No es diferente",
+      "phon": "no es di-fe-REN-te",
+      "audio": "seg-17"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "For many English words that end in L Y, Spanish uses mente.",
+      "show": "English: ly\nSpanish: mente",
+      "audio": "seg-18"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Normal becomes normally.",
+      "show": "normal\nnormally",
+      "audio": "seg-19"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "En español: normal. En español: normalmente.",
+      "show": "normal\nnormalmente",
+      "audio": "seg-20"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now build it with no es.",
+      "show": "normalmente\n+ no es",
+      "audio": "seg-21"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Normally, it is not important.",
+      "word": "normally, it is not important",
+      "pauseSec": 3.2,
+      "audio": "seg-22"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Normalmente no es importante.",
+      "word": "Normalmente no es importante",
+      "phon": "nor-mal-MEN-te no es im-por-TAN-te",
+      "audio": "seg-23"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Normally, it is not different.",
+      "word": "normally, it is not different",
+      "pauseSec": 3.2,
+      "audio": "seg-24"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Normalmente no es diferente.",
+      "word": "Normalmente no es diferente",
+      "phon": "nor-mal-MEN-te no es di-fe-REN-te",
+      "audio": "seg-25"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Last one. You have not seen this full sentence here, but you have the pieces.",
+      "show": "one new combo",
+      "audio": "seg-26"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Normally, it is not urgent.",
+      "word": "normally, it is not urgent",
+      "pauseSec": 3.5,
+      "audio": "seg-27"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Normalmente no es urgente.",
+      "word": "Normalmente no es urgente",
+      "phon": "nor-mal-MEN-te no es ur-HEN-te",
+      "audio": "seg-28"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same pieces, new sentence.",
+      "show": "same pieces\nnew sentence",
+      "audio": "seg-29"
+    }
+  ],
+  "caption": "Spanish negation is just no es: no es importante, no es diferente.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

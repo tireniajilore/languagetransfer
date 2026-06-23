@@ -1,0 +1,153 @@
+{
+  "id": "lesson-13-quiero-no-quiero-hook-a",
+  "title": "Quiero And No Quiero (hook swap A)",
+  "audioDir": "lesson-13-quiero-no-quiero",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-13-quiero-no-quiero audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One Spanish word lets you want anything: quiero.",
+      "show": "quiero =\nI want",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Hidden inside it is one of the most useful Spanish phrases.",
+      "show": "hidden inside:\none useful phrase",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Te quiero.",
+      "show": "Te quiero.",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Literally, that is I want you.",
+      "show": "literally:\nI want you",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "Quiero.",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That means I want.",
+      "show": "Quiero =\nI want",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Your turn: I want.",
+      "word": "I want",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero.",
+      "word": "Quiero",
+      "phon": "KYE-ro",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "To make it negative, Spanish does one very kind thing.",
+      "show": "to make it negative",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Park no in front.",
+      "show": "park no\nin front",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I do not want.",
+      "word": "I don't want",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero.",
+      "word": "No quiero",
+      "phon": "no KYE-ro",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now make it a full sentence. Coffee is café, with Spanish sound.",
+      "show": "make it\na full sentence",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Café.",
+      "show": "café",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I want coffee.",
+      "word": "I want coffee",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero café.",
+      "word": "Quiero café",
+      "phon": "KYE-ro ka-FE",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And now: I do not want coffee.",
+      "word": "I don't want coffee",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero café.",
+      "word": "No quiero café",
+      "phon": "no KYE-ro ka-FE",
+      "audio": "seg-17"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same sentence, one word parked in front.",
+      "show": "same sentence\none word in front",
+      "audio": "seg-18"
+    }
+  ],
+  "caption": "One word lets you want anything - quiero. And no quiero to refuse: no quiero cafe.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

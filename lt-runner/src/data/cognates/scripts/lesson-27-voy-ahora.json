@@ -1,0 +1,73 @@
+{
+  "id": "lesson-27-voy-ahora",
+  "title": "Voy means I am going",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish gives you one tiny word for I go and I am going.",
+      "show": "I go\nI am going"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy.",
+      "word": "voy",
+      "phon": "boy"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Voy can mean I go, or I am going. Context does the work.",
+      "show": "voy =\nI go / I am going"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And ahora means now.",
+      "show": "ahora = now"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am going now.",
+      "word": "I am going now"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy ahora.",
+      "word": "Voy ahora",
+      "phon": "boy a-O-ra"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "To make it negative, park no in front.",
+      "show": "no + voy"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I am not going now.",
+      "word": "I am not going now",
+      "pauseSec": 2.6
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No voy ahora.",
+      "word": "No voy ahora",
+      "phon": "no boy a-O-ra"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You changed the whole sentence by moving one small no.",
+      "show": "one small no"
+    }
+  ],
+  "caption": "Voy means I go or I am going. Add ahora for now, and park no in front for the negative: no voy ahora.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

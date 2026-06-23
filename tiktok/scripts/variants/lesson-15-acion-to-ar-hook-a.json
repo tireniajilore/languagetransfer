@@ -1,0 +1,169 @@
+{
+  "id": "lesson-15-acion-to-ar-hook-a",
+  "title": "Turn ACION Words Into Verbs (hook swap A)",
+  "audioDir": "lesson-15-acion-to-ar",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-15-acion-to-ar audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One English word can hand you two Spanish words at once.",
+      "show": "1 word\n2 words",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "First, the English ending ation.",
+      "show": "English:\n-ation",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "En español, ación.",
+      "show": "Spanish:\n-ación",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Then take that ending off, and add ar.",
+      "show": "take off ción\nadd ar",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Preparación.",
+      "show": "preparación",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That is preparation.",
+      "show": "preparation",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Preparar.",
+      "show": "preparar",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That is to prepare.",
+      "show": "to prepare",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try this one: generation.",
+      "word": "generation",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Generación.",
+      "word": "generación",
+      "phon": "he-ne-ra-SYON",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now turn it into: to generate.",
+      "word": "to generate",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Generar.",
+      "word": "generar",
+      "phon": "he-ne-RAR",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about confirmation?",
+      "word": "confirmation",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Confirmación.",
+      "word": "confirmación",
+      "phon": "kon-feer-ma-SYON",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now: to confirm.",
+      "word": "to confirm",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Confirmar.",
+      "word": "confirmar",
+      "phon": "kon-feer-MAR",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "One more: complication.",
+      "word": "complication",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Complicación.",
+      "word": "complicación",
+      "phon": "kom-plee-ka-SYON",
+      "audio": "seg-17"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now: to complicate.",
+      "word": "to complicate",
+      "audio": "seg-18"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Complicar.",
+      "word": "complicar",
+      "phon": "kom-plee-KAR",
+      "audio": "seg-19"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You did not learn four verbs. You unlocked a pattern.",
+      "show": "not four verbs\na pattern",
+      "audio": "seg-20"
+    }
+  ],
+  "caption": "One English word hands you two Spanish words: the noun (generacion) and the verb (generar).",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

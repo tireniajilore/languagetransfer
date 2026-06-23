@@ -1,0 +1,17 @@
+{
+  "id": "lesson-03-es-15s",
+  "title": "One Tiny Word (15s micro-cut)",
+  "audioDir": "lesson-03-es",
+  "voice_notes": "Remix variant — reuses lesson-03-es audio via explicit segment keys. No new TTS.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "One tiny Spanish word builds a whole pile of sentences. Here it is.", "show": "one tiny word\nbuilds sentences", "audio": "seg-00" },
+    { "kind": "line", "lang": "es", "say": "Es.", "show": "es", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "That little word means is. Keep the S sound clean.", "show": "es = is\nclean s", "audio": "seg-02" },
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is normal?", "word": "it is normal", "audio": "seg-04" },
+    { "kind": "reveal", "lang": "es", "say": "Es normal.", "word": "Es normal", "phon": "es nor-MAL", "audio": "seg-05" },
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is legal?", "word": "it is legal", "audio": "seg-06" },
+    { "kind": "reveal", "lang": "es", "say": "Es legal.", "word": "Es legal", "phon": "es le-GAL", "audio": "seg-07" }
+  ],
+  "caption": "One tiny Spanish word builds sentences: es normal, es legal. That's it, that's the grammar.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "fyp"]
+}

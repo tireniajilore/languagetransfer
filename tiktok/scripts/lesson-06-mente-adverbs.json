@@ -1,0 +1,110 @@
+{
+  "id": "lesson-06-mente-adverbs",
+  "title": "Mente Turns Words Into Adverbs",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "In English, words like normally and legally often end in ly.",
+      "show": "normally\nlegally"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish has its own version of that ending: mente.",
+      "show": "Spanish ending\nmente"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Normal becomes normalmente.",
+      "show": "normal\nnormalmente"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say normally in Spanish.",
+      "word": "normally"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, normalmente.",
+      "word": "normalmente",
+      "phon": "nor-mal-MEN-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say legally in Spanish.",
+      "word": "legally"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, legalmente.",
+      "word": "legalmente",
+      "phon": "le-gal-MEN-te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say naturally in Spanish.",
+      "word": "naturally"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, naturalmente.",
+      "word": "naturalmente",
+      "phon": "na-tu-ral-MEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "From the last pattern, constant became constante.",
+      "show": "constant\nconstante"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "So say constantly in Spanish.",
+      "word": "constantly"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, constantemente.",
+      "word": "constantemente",
+      "phon": "cons-tan-te-MEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Real is real in Spanish too.",
+      "show": "real\nreal"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "One more: say really in Spanish.",
+      "word": "really"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, realmente.",
+      "word": "realmente",
+      "phon": "re-al-MEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same move each time. Take the word, attach mente.",
+      "show": "same move\nattach mente"
+    }
+  ],
+  "caption": "Spanish uses mente for many English ly words: normalmente, legalmente, naturalmente, constantemente, realmente.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

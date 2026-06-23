@@ -1,0 +1,151 @@
+{
+  "id": "lesson-11-possible-impossible",
+  "title": "Posiblemente Possible Stack",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid bare cognates. English prompts should stay fully English; Spanish answers use En español carriers.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "This sentence sounds motivational, but it is just Spanish pieces.",
+      "show": "possibly possible\njust pieces"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es means it is.",
+      "show": "es = it is"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Possible changes in Spanish.",
+      "show": "possible\nposible"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "possible",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: posible.",
+      "word": "posible",
+      "phon": "po-SI-ble"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is possible.",
+      "word": "it is possible",
+      "pauseSec": 2.3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es posible.",
+      "word": "Es posible",
+      "phon": "es po-SI-ble"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "No es means it is not.",
+      "show": "no es = it is not"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Impossible changes the same way.",
+      "show": "impossible\nimposible"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "impossible",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: imposible.",
+      "word": "imposible",
+      "phon": "im-po-SI-ble"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is not impossible.",
+      "word": "it is not impossible",
+      "pauseSec": 2.8
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: No es imposible.",
+      "word": "No es imposible",
+      "phon": "no es im-po-SI-ble"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "For many English words that end in L Y, Spanish uses mente.",
+      "show": "English: ly\nSpanish: mente"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Possible becomes possibly.",
+      "show": "possible\npossibly"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "En español: posible. En español: posiblemente.",
+      "show": "posible\nposiblemente"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now build it.",
+      "show": "now build it"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Possibly, it is possible.",
+      "word": "possibly, it is possible",
+      "pauseSec": 3.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Posiblemente es posible.",
+      "word": "Posiblemente es posible",
+      "phon": "po-si-ble-MEN-te es po-SI-ble"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Possibly, it is not impossible.",
+      "word": "possibly, it is not impossible",
+      "pauseSec": 3.5
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Posiblemente no es imposible.",
+      "word": "Posiblemente no es imposible",
+      "phon": "po-si-ble-MEN-te no es im-po-SI-ble"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same pieces, bigger sentence.",
+      "show": "same pieces\nbigger sentence"
+    }
+  ],
+  "caption": "Build “possibly, it’s possible” in Spanish from es, no es, posible, imposible, and posiblemente.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

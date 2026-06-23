@@ -1,0 +1,113 @@
+{
+  "id": "lesson-24-intento-publicarlo",
+  "title": "Intento means I am trying",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One Spanish word lets you say I try and I am trying.",
+      "show": "I try\nI am trying"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento.",
+      "word": "Intento",
+      "phon": "in-TEN-to"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Intento can mean I try, or I am trying. Context does the rest.",
+      "show": "intento =\nI try / I am trying"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now attach lo to the end of an unchanged verb.",
+      "show": "verb + lo\nat the end"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Publish goes through publication, then publicación, then publicar.",
+      "show": "publication ->\npublicación -> publicar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to publish it.",
+      "word": "to publish it"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, publicarlo.",
+      "word": "publicarlo",
+      "phon": "poo-blee-KAR-lo"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I am trying to publish it.",
+      "word": "I am trying to publish it",
+      "pauseSec": 3.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento publicarlo.",
+      "word": "Intento publicarlo",
+      "phon": "in-TEN-to poo-blee-KAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same move with administration. It gives you administrar.",
+      "show": "administration ->\nadministrar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am trying to administer it.",
+      "word": "I am trying to administer it",
+      "pauseSec": 3.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento administrarlo.",
+      "word": "Intento administrarlo",
+      "phon": "in-TEN-to ad-meen-ees-TRAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One more. Imitation gives imitar.",
+      "show": "imitation ->\nimitar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am trying to imitate it.",
+      "word": "I am trying to imitate it",
+      "pauseSec": 3.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento imitarlo.",
+      "word": "Intento imitarlo",
+      "phon": "in-TEN-to ee-mee-TAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You did not memorize a sentence. You stacked intento, a verb, and lo.",
+      "show": "intento + verb + lo"
+    }
+  ],
+  "caption": "Intento means I try or I am trying. Stack it with verb + lo: intento publicarlo, intento administrarlo, intento imitarlo.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

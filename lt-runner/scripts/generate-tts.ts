@@ -5,8 +5,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { put } from '@vercel/blob';
 import { buildElevenLabsRequestBody, getElevenLabsVoiceId } from '../src/lib/elevenlabs-config';
+import { getCognatesLessonBundle, getCognatesLessonIds } from '../src/data/cognates/adapter';
 import { formatLessonNumber, getAvailableLessons, getLesson } from '../src/data/get-lesson';
-import type { SpeechSegment } from '../src/types/lesson';
+import type { Lesson, SpeechSegment } from '../src/types/lesson';
 import type { TTSManifest } from '../src/types/tts-manifest';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -116,10 +117,7 @@ async function uploadSegmentAudio(
   return uploaded.url.replace(new RegExp(`/${fileName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`), '');
 }
 
-async function generateLessonManifest(lessonId: string) {
-  const lessonNumber = Number(lessonId.replace('lesson-', ''));
-  const lesson = getLesson(lessonNumber);
-
+async function generateLessonManifest(lesson: Lesson) {
   const apiKey = process.env.ELEVENLABS_API_KEY;
   if (!apiKey) {
     throw new Error('ELEVENLABS_API_KEY is required to generate static TTS.');
@@ -182,27 +180,38 @@ async function generateLessonManifest(lessonId: string) {
 async function main() {
   await loadDotEnvLocal();
   await mkdir(publicRoot, { recursive: true });
-  const lessonNumbers = parseLessonNumbers(process.argv.slice(2));
+  const targets = parseTargets(process.argv.slice(2));
 
-  for (let index = 0; index < lessonNumbers.length; index += 1) {
-    const lessonNumber = lessonNumbers[index];
-    await generateLessonManifest(`lesson-${formatLessonNumber(lessonNumber)}`);
+  for (let index = 0; index < targets.length; index += 1) {
+    await generateLessonManifest(targets[index]);
 
-    if (index < lessonNumbers.length - 1) {
+    if (index < targets.length - 1) {
       await delay(5000);
     }
   }
 }
 
-function parseLessonNumbers(args: string[]) {
+function getCognatesLesson(lessonId: string) {
+  const bundle = getCognatesLessonBundle(lessonId);
+  if (!bundle) {
+    throw new Error(`Unknown cognates lesson: ${lessonId}`);
+  }
+
+  return bundle.lesson;
+}
+
+function parseTargets(args: string[]) {
   const availableLessons = new Set(getAvailableLessons());
-  const lessons: number[] = [];
+  const availableCognatesLessons = new Set(getCognatesLessonIds());
+  const lessons: Lesson[] = [];
 
   for (let index = 0; index < args.length; index += 1) {
     const arg = args[index];
 
     if (arg === '--all') {
-      return [...availableLessons].sort((a, b) => a - b);
+      return [...availableLessons]
+        .sort((a, b) => a - b)
+        .map((lessonNumber) => getLesson(lessonNumber));
     }
 
     if (arg === '--lesson') {
@@ -211,12 +220,27 @@ function parseLessonNumbers(args: string[]) {
         throw new Error(`Unknown lesson: ${args[index + 1] ?? '(missing)'}`);
       }
 
-      lessons.push(value);
+      lessons.push(getLesson(value));
+      index += 1;
+    }
+
+    if (arg === '--cognates') {
+      return [...availableCognatesLessons]
+        .map((lessonId) => getCognatesLesson(lessonId));
+    }
+
+    if (arg === '--cognates-lesson') {
+      const lessonId = args[index + 1];
+      if (!lessonId || !availableCognatesLessons.has(lessonId)) {
+        throw new Error(`Unknown cognates lesson: ${lessonId ?? '(missing)'}`);
+      }
+
+      lessons.push(getCognatesLesson(lessonId));
       index += 1;
     }
   }
 
-  return lessons.length > 0 ? [...new Set(lessons)].sort((a, b) => a - b) : [2];
+  return lessons.length > 0 ? lessons : [getLesson(2)];
 }
 
 main().catch((error) => {

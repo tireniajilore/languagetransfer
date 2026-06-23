@@ -1,0 +1,146 @@
+{
+  "id": "lesson-22-long-route-verbs-hook-a",
+  "title": "Take The Long Route To Verbs (hook swap A)",
+  "audioDir": "lesson-22-long-route-verbs",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-22-long-route-verbs audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Stop guessing Spanish verbs - take the long route through the noun.",
+      "show": "long\nroute",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Do not jump from the short English verb.",
+      "show": "do not jump",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Use the bigger English noun first.",
+      "show": "use the big noun",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Generate can go through generation.",
+      "show": "generate -> generation",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Generación.",
+      "show": "generación",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Then take off ción and add ar.",
+      "show": "take off ción\nadd ar",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "So how would you say to generate?",
+      "word": "to generate",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, generar.",
+      "word": "generar",
+      "phon": "he-ne-RAR",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same long route: situation becomes situación.",
+      "show": "situation -> situación",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now turn it into: to situate.",
+      "word": "to situate",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, situar.",
+      "word": "situar",
+      "phon": "see-too-AR",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Participation becomes participación.",
+      "show": "participation -> participación",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Take it slowly: to participate.",
+      "word": "to participate",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, participar.",
+      "word": "participar",
+      "phon": "par-tee-see-PAR",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Creation gives the same pattern.",
+      "show": "creation -> creación",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: to create.",
+      "word": "to create",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, crear.",
+      "word": "crear",
+      "phon": "kreh-AR",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. The long route is slower for one second, and safer forever.",
+      "show": "slower now\nsafer forever",
+      "audio": "seg-17"
+    }
+  ],
+  "caption": "Stop guessing Spanish verbs - route through the noun: generacion -> generar.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

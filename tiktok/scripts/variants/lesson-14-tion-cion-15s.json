@@ -1,0 +1,67 @@
+{
+  "id": "lesson-14-tion-cion-15s",
+  "title": "TION Words Become CION (15s micro-cut)",
+  "audioDir": "lesson-14-tion-cion",
+  "voice_notes": "Remix variant - reuses lesson-14-tion-cion audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When English says tion, Spanish often writes cion.",
+      "show": "English -tion\nSpanish -ción",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "But Spanish puts the stress at the end.",
+      "show": "stress the end",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try the English word preparation.",
+      "word": "preparation",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, preparación.",
+      "word": "preparación",
+      "phon": "pre-pa-ra-SYON",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about organization?",
+      "word": "organization",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, organización.",
+      "word": "organización",
+      "phon": "or-ga-ni-za-SYON",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You used English as a map, then cleaned off the English sound.",
+      "show": "use English as a map\nclean off the English sound",
+      "audio": "seg-14"
+    }
+  ],
+  "caption": "English -tion -> Spanish -cion: preparacion, organizacion. Just stress the end.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

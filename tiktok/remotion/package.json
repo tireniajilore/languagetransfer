@@ -1,0 +1,28 @@
+{
+  "name": "lt-tiktok-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion renderer for Language Transfer TikTok cognate clips",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render CognateClip out/cognate.mp4",
+    "still": "remotion still CognateClip out/still.png",
+    "carousel": "node scripts/render-carousel.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.290",
+    "@remotion/google-fonts": "^4.0.290",
+    "@remotion/noise": "^4.0.290",
+    "@remotion/shapes": "^4.0.290",
+    "@remotion/tailwind": "^4.0.290",
+    "lamejs": "^1.2.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.290",
+    "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.6.3"
+  }
+}

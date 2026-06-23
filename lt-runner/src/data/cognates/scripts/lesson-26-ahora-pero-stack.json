@@ -1,0 +1,101 @@
+{
+  "id": "lesson-26-ahora-pero-stack",
+  "title": "Build a long sentence with ahora",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Long Spanish sentences are usually small pieces glued together.",
+      "show": "long sentence\nsmall pieces"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Ahora means now.",
+      "show": "ahora = now"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Ahora.",
+      "word": "ahora",
+      "phon": "a-O-ra"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Pero means but.",
+      "show": "pero = but"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Pero.",
+      "word": "pero",
+      "phon": "PE-ro"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And cancel it is cancelarlo. The lo goes at the end.",
+      "show": "cancelar + lo\ncancelarlo"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "First piece: I want to cancel it.",
+      "word": "I want to cancel it",
+      "pauseSec": 2.6
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cancelarlo.",
+      "word": "Quiero cancelarlo",
+      "phon": "KYE-ro kan-se-LAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "For the negative, Spanish parks no in front.",
+      "show": "no + quiero"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Second piece: I do not want to cancel it now.",
+      "word": "I don't want to cancel it now",
+      "pauseSec": 3.4
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero cancelarlo ahora.",
+      "word": "No quiero cancelarlo ahora",
+      "phon": "no KYE-ro kan-se-LAR-lo a-O-ra"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now glue both pieces with but.",
+      "word": "I want to cancel it, but I don't want to cancel it now",
+      "pauseSec": 4.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cancelarlo, pero no quiero cancelarlo ahora.",
+      "word": "Quiero cancelarlo, pero no quiero cancelarlo ahora",
+      "phon": "KYE-ro kan-se-LAR-lo, PE-ro no KYE-ro kan-se-LAR-lo a-O-ra"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. That sentence looked big, but nothing inside it was new.",
+      "show": "big sentence\nsmall pieces"
+    }
+  ],
+  "caption": "Build a long Spanish sentence from small pieces: quiero cancelarlo, pero no quiero cancelarlo ahora.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

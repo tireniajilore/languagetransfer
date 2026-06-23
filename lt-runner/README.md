@@ -1,16 +1,18 @@
-# VoiceAI
+# VoiceAI LT Runner
 
-Interactive Spanish lesson demand test built in Next.js + TypeScript.
+Interactive Language Transfer-style Spanish lessons built in Next.js + TypeScript.
 
-## What it does
+## What It Does
 
-- Shows a public landing page on `/`
-- Runs lesson 02 on `/lesson/2`
-- Runs the lesson with a deterministic client-side reducer
-- Uses ElevenLabs through `/api/tts`
-- Captures responses through a text input for the MVP
-- Tracks landing views, lesson starts, progress milestones, and completion
-- Collects end-of-lesson feedback plus email interest for the next lesson
+- Shows the Spanish cognates course picker on `/` and `/cognates`.
+- Runs the five-lesson cognates prototype on `/cognates/[lessonId]`.
+- Keeps the original numbered lesson prototype available on `/lesson/[id]`.
+- Uses a deterministic client-side lesson reducer for playback, prompts, skips, checkpoints, pause/resume, and completion.
+- Prefers stored lesson audio when a static manifest exists, then falls back to `/api/tts`, then browser speech/timing fallback.
+- Captures voice-first answers with typed fallback in the cognates player.
+- Saves cognates progress locally by course version, lesson, section, prompt, completion, and saved email.
+- Tracks course, lesson, prompt, checkpoint, completion, analytics, and demand-capture events without blocking the learner.
+- Collects completion email interest through `/api/demand`.
 
 ## Commands
 
@@ -21,7 +23,15 @@ npm run dev
 
 Then open `http://localhost:3000`.
 
-## ElevenLabs setup
+Useful checks:
+
+```bash
+npm run validate:cognates
+npm run lint
+npm run build
+```
+
+## Audio Setup
 
 Create `lt-runner/.env.local` with:
 
@@ -35,7 +45,9 @@ Optional:
 ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM
 ```
 
-- Requests go from the browser to `/api/tts`, then the server route calls ElevenLabs.
+- Cognates lessons first request `/audio/[lessonId]/manifest.json`.
+- If a manifest exists, `StaticTTS` plays the stored audio files referenced by source step keys.
+- If no stored audio exists, requests go from the browser to `/api/tts`, then the server route calls ElevenLabs.
 - Mixed-language steps can define explicit `segments` so Spanish words are synthesized independently from surrounding English.
 - If ElevenLabs is unavailable before playback begins, the app falls back to BrowserTTS. If a failure happens mid-step, the engine falls back to its timing-based advance.
 
@@ -46,7 +58,17 @@ ELEVENLABS_SPEED_EN=1.1
 ELEVENLABS_SPEED_ES=0.9
 ```
 
-## Demand test setup
+To audition other ElevenLabs voices:
+
+```bash
+npm run test-voices -- --list
+npm run test-voices -- --voices Rachel,Adam
+npm run test-voices -- --voices Rachel --text "Think it through slowly. How would you say: I want to eat something today?"
+```
+
+The generated MP3s are saved under `public/voice-tests/`.
+
+## Analytics And Demand Capture
 
 Optional analytics forwarding:
 
@@ -89,15 +111,18 @@ create table demand_submissions (
 ## Structure
 
 - `src/app` - Next.js App Router entrypoint
-- `src/data/lesson-02.ts` - seed lesson converted from the existing JSON transcript
+- `src/app/cognates` - cognates course picker and lesson routes
+- `src/app/audio/[lessonId]/manifest.json` - stored-audio manifest route
+- `src/data/cognates` - five cognates lessons, script order, validation adapter, and imported micro-lesson JSON
+- `src/lib/cognates-progress.ts` - local cognates course progress persistence
 - `src/lib/parse-transcript.ts` - deterministic turn-to-step converter
-- `src/data/lesson-02-segments.ts` - manual mixed-language segment overrides for lesson 02
+- `src/data/lesson-*-segments.json` - mixed-language segment overrides for legacy numbered lessons
 - `src/engine` - reducer and hook for playback / prompt state
-- `src/components` - lesson player UI
-- `src/adapters` - browser/text adapters plus future runtime stubs
+- `src/components` - course picker, cognates player, legacy player, and capture cards
+- `src/adapters` - static, ElevenLabs, browser/text TTS, and browser STT adapters
 
 ## Notes
 
-- API routes are used for TTS, analytics forwarding, and demand submissions.
-- The timeout path records a timed-out response and advances automatically for the MVP.
-- The active voice path is ElevenLabs with explicit segment overrides for mixed English/Spanish tutor lines.
+- API routes are used for TTS, analytics forwarding, demand submissions, and audio manifests.
+- The timeout path records a timed-out response and advances automatically.
+- The production path should use stored audio for repeated lesson turns; dynamic TTS is a fallback, not the preferred steady-state.

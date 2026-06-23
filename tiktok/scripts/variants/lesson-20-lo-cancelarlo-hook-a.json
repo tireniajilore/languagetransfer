@@ -1,0 +1,184 @@
+{
+  "id": "lesson-20-lo-cancelarlo-hook-a",
+  "title": "Lo Means It Or Him (hook swap A)",
+  "audioDir": "lesson-20-lo-cancelarlo",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-20-lo-cancelarlo audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish bolts it right onto the verb: cancelarlo.",
+      "show": "+lo\n= it",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Lo.",
+      "show": "lo",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Lo is the little piece that can mean it.",
+      "show": "lo = it",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When the verb is unchanged, lo can attach to the end.",
+      "show": "verb + lo",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Cancel becomes cancelar.",
+      "show": "cancel -> cancelar",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Cancelar.",
+      "show": "cancelar",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Add lo to the end, and you get to cancel it.",
+      "show": "cancelar + lo",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Test it first: to cancel it.",
+      "word": "to cancel it",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, cancelarlo.",
+      "word": "cancelarlo",
+      "phon": "kan-se-LAR-lo",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "quiero = I want",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Quick reminder: quiero means I want.",
+      "show": "quiero =\nI want",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now you try the full sentence: I want to cancel it.",
+      "word": "I want to cancel it",
+      "pauseSec": 3.3,
+      "audio": "seg-11"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cancelarlo.",
+      "word": "Quiero cancelarlo",
+      "phon": "KYE-ro kan-se-LAR-lo",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One more thing: lo can also mean him.",
+      "show": "lo can also mean\nhim",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Same verb: to cancel him.",
+      "word": "to cancel him",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, cancelarlo.",
+      "word": "cancelarlo",
+      "phon": "kan-se-LAR-lo",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Salvation gives salvación, then salvar.",
+      "show": "salvation -> salvación -> salvar",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Salvar.",
+      "show": "salvar",
+      "audio": "seg-17"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Add lo to the end, and you get to save him.",
+      "show": "salvar + lo",
+      "audio": "seg-18"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, salvarlo.",
+      "word": "salvarlo",
+      "phon": "sal-BAR-lo",
+      "audio": "seg-19"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to save him.",
+      "word": "I want to save him",
+      "pauseSec": 3.3,
+      "audio": "seg-20"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero salvarlo.",
+      "word": "Quiero salvarlo",
+      "phon": "KYE-ro sal-BAR-lo",
+      "audio": "seg-21"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You learned where lo goes before you had to build the sentence.",
+      "show": "learn the spot\nthen build",
+      "audio": "seg-22"
+    }
+  ],
+  "caption": "Spanish bolts 'it' onto the verb: cancelarlo, salvarlo. Quiero cancelarlo.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

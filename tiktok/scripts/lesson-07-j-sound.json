@@ -1,0 +1,115 @@
+{
+  "id": "lesson-07-j-sound",
+  "title": "The English J Sound Becomes A Throat Sound",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding. English prompts should say the cognate as an English word; Spanish reveals should keep the full Spanish carrier phrase.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One English sound changes a lot when it lands in Spanish.",
+      "show": "one sound changes"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "English has that j sound, like in jacket or general.",
+      "show": "English j sound\njacket · general"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "In Spanish, that sound often becomes a soft breath in the throat.",
+      "show": "Spanish sound\nsoft throat breath"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Escucha: Argentina.",
+      "show": "Argentina\nar-hen-TI-na"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Hear it in the middle? Not ja. More like a gentle h from the throat.",
+      "show": "not ja\ngentle throat h"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now take the English word general. Say it with the Spanish throat sound.",
+      "word": "general"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, general.",
+      "word": "general",
+      "phon": "he-ne-RAL"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same word shape, different sound.",
+      "show": "same shape\ndifferent sound"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try one more. Say the English word original with that same throat sound.",
+      "word": "original"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, original.",
+      "word": "original",
+      "phon": "o-ri-he-NAL"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same move with words you already know.",
+      "show": "same move\nmore words"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Take the English word digital. Give it the Spanish throat sound.",
+      "word": "digital"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, digital.",
+      "word": "digital",
+      "phon": "di-hi-TAL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And try regional with that same sound.",
+      "word": "regional"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, regional.",
+      "word": "regional",
+      "phon": "re-hio-NAL"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You changed one sound, four times.",
+      "show": "one sound\nfour words"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Listen for the English j sound. In Spanish, let it breathe from the throat.",
+      "show": "listen for j\nbreathe from the throat"
+    }
+  ],
+  "caption": "The English J sound often becomes a Spanish throat sound in cognates: general, original, digital, regional. Listen for the sound, not just the letter.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

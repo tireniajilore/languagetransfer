@@ -1,0 +1,17 @@
+{
+  "id": "lesson-02-vowels-15s",
+  "title": "Spanish Vowels (15s micro-cut)",
+  "audioDir": "lesson-02-vowels",
+  "voice_notes": "Remix variant — reuses lesson-02-vowels audio via explicit segment keys. No new TTS.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "Reading Spanish out loud is way easier than English. Here's the reason.", "show": "Reading Spanish\nis easier than English", "audio": "seg-00" },
+    { "kind": "line", "lang": "en", "say": "Spanish vowels never move. Five sounds, locked.", "show": "Spanish vowels\nnever move", "audio": "seg-03" },
+    { "kind": "vowels", "lang": "es", "say": "a, e, i, o, u.", "audio": "seg-04" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word natural.", "word": "natural", "audio": "seg-05" },
+    { "kind": "reveal", "lang": "es", "say": "En español, natural.", "word": "natural", "phon": "na-too-RAL", "audio": "seg-06" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word legal.", "word": "legal", "audio": "seg-09" },
+    { "kind": "reveal", "lang": "es", "say": "En español, legal.", "word": "legal", "phon": "leh-GAL", "audio": "seg-10" }
+  ],
+  "caption": "Spanish vowels never change: a-e-i-o-u = ah-eh-ee-oh-oo. Now read these out loud: natural, legal.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "fyp"]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "lesson-02-vowels",
+  "title": "Spanish Vowels Make The Accent",
+  "voice_notes": "Patient Language Transfer teacher. Warm, unhurried, tiny pause before each answer.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "Reading Spanish out loud is way easier than English. Here's the reason.", "show": "Reading Spanish\nis easier than English" },
+    { "kind": "line", "lang": "en", "say": "English vowels are chaos.", "show": "English vowels\nare chaos" },
+    { "kind": "line", "lang": "en", "say": "A says apple. May. About. One letter, three sounds.", "show": "A\napple · may · about" },
+    { "kind": "line", "lang": "en", "say": "Spanish vowels never move. Five sounds, locked.", "show": "Spanish vowels\nnever move" },
+    { "kind": "vowels", "lang": "es", "say": "a, e, i, o, u." },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word natural.", "word": "natural" },
+    { "kind": "reveal", "lang": "es", "say": "En español, natural.", "word": "natural", "phon": "na-too-RAL" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word metal.", "word": "metal" },
+    { "kind": "reveal", "lang": "es", "say": "En español, metal.", "word": "metal", "phon": "meh-TAL" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word legal.", "word": "legal" },
+    { "kind": "reveal", "lang": "es", "say": "En español, legal.", "word": "legal", "phon": "leh-GAL" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word ideal.", "word": "ideal" },
+    { "kind": "reveal", "lang": "es", "say": "En español, ideal.", "word": "ideal", "phon": "ee-deh-AL" },
+    { "kind": "line", "lang": "en", "say": "You didn't memorize four words.", "show": "you didn't memorize\nfour words" },
+    { "kind": "line", "lang": "en", "say": "You learned five sounds, and now you can read all of them.", "show": "you learned\nfive sounds" }
+  ],
+  "caption": "Spanish is easier to read out loud than English — the vowels never change: a-e-i-o-u = ah-eh-ee-oh-oo. Then read these: natural, metal, legal, ideal.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "fyp"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lesson-03-es-quizfirst",
+  "title": "One Tiny Word (quiz-first)",
+  "audioDir": "lesson-03-es",
+  "voice_notes": "Remix variant — cold-opens on a prompt before teaching. Reuses lesson-03-es audio. No new TTS.",
+  "segments": [
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is normal?", "word": "it is normal", "audio": "seg-04" },
+    { "kind": "reveal", "lang": "es", "say": "Es normal.", "word": "Es normal", "phon": "es nor-MAL", "audio": "seg-05" },
+    { "kind": "line", "lang": "en", "say": "That little word means is. Keep the S sound clean.", "show": "es = is\nclean s", "audio": "seg-02" },
+    { "kind": "line", "lang": "en", "say": "You already know words like normal, legal, and natural. So now put it together.", "show": "normal\nlegal\nnatural", "audio": "seg-03" },
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is legal?", "word": "it is legal", "audio": "seg-06" },
+    { "kind": "reveal", "lang": "es", "say": "Es legal.", "word": "Es legal", "phon": "es le-GAL", "audio": "seg-07" },
+    { "kind": "prompt", "lang": "en", "say": "How would you say: it is natural?", "word": "it is natural", "audio": "seg-08" },
+    { "kind": "reveal", "lang": "es", "say": "Es natural.", "word": "Es natural", "phon": "es na-tu-RAL", "audio": "seg-09" },
+    { "kind": "line", "lang": "en", "say": "Es is also the same word for he is and she is.", "show": "he is\nshe is\nit is", "audio": "seg-10" },
+    { "kind": "prompt", "lang": "en", "say": "Try this one: he is liberal.", "word": "he is liberal", "audio": "seg-11" },
+    { "kind": "reveal", "lang": "es", "say": "Es liberal.", "word": "Es liberal", "phon": "es li-be-RAL", "audio": "seg-12" },
+    { "kind": "line", "lang": "en", "say": "He, she, it. Spanish does not care here. We just use es.", "show": "he / she / it\nes", "audio": "seg-15" }
+  ],
+  "caption": "Did you get it before the reveal? One word — es — covers he is, she is, it is. Drop your score below.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

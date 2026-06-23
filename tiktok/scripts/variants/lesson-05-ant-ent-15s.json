@@ -1,0 +1,17 @@
+{
+  "id": "lesson-05-ant-ent-15s",
+  "title": "ANT/ENT Words (15s micro-cut)",
+  "audioDir": "lesson-05-ant-ent",
+  "voice_notes": "Remix variant — reuses lesson-05-ant-ent audio via explicit segment keys. No new TTS.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "English has hidden Spanish words all over it. Here is one pattern.", "show": "hidden Spanish\nwords", "audio": "seg-00" },
+    { "kind": "line", "lang": "en", "say": "Words ending in ant or ent often become Spanish by adding e.", "show": "ant / ent\nadd e", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "Important becomes importante. Different becomes diferente.", "show": "important -> importante\ndifferent -> diferente", "audio": "seg-02" },
+    { "kind": "prompt", "lang": "en", "say": "Say constant in Spanish.", "word": "constant", "audio": "seg-09" },
+    { "kind": "reveal", "lang": "es", "say": "En español, constante.", "word": "constante", "phon": "cons-TAN-te", "audio": "seg-10" },
+    { "kind": "prompt", "lang": "en", "say": "Say excellent in Spanish.", "word": "excellent", "audio": "seg-13" },
+    { "kind": "reveal", "lang": "es", "say": "En español, excelente.", "word": "excelente", "phon": "ex-ce-LEN-te", "audio": "seg-14" }
+  ],
+  "caption": "English words ending in ant/ent often become Spanish by adding e: importante, constante, excelente.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "fyp"]
+}

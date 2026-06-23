@@ -1,0 +1,27 @@
+{
+  "id": "lesson-07-j-sound-hook-a",
+  "title": "J Sound To Throat Sound (hook swap A)",
+  "audioDir": "lesson-07-j-sound",
+  "voice_notes": "Hook-swap variant - only segment 0 (hook-a) needs TTS; everything else reuses lesson-07-j-sound audio.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "English J is not always Spanish J. Watch it turn into a throat sound.", "show": "English J\nSpanish throat sound", "audio": "hook-a" },
+    { "kind": "line", "lang": "en", "say": "English has that j sound, like in jacket or general.", "show": "English j sound\njacket · general", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "In Spanish, that sound often becomes a soft breath in the throat.", "show": "Spanish sound\nsoft throat breath", "audio": "seg-02" },
+    { "kind": "line", "lang": "es", "say": "Escucha: Argentina.", "show": "Argentina\nar-hen-TI-na", "audio": "seg-03" },
+    { "kind": "line", "lang": "en", "say": "Hear it in the middle? Not ja. More like a gentle h from the throat.", "show": "not ja\ngentle throat h", "audio": "seg-04" },
+    { "kind": "prompt", "lang": "en", "say": "Now take the English word general. Say it with the Spanish throat sound.", "word": "general", "audio": "seg-05" },
+    { "kind": "reveal", "lang": "es", "say": "En español, general.", "word": "general", "phon": "he-ne-RAL", "audio": "seg-06" },
+    { "kind": "line", "lang": "en", "say": "Good. Same word shape, different sound.", "show": "same shape\ndifferent sound", "audio": "seg-07" },
+    { "kind": "prompt", "lang": "en", "say": "Try one more. Say the English word original with that same throat sound.", "word": "original", "audio": "seg-08" },
+    { "kind": "reveal", "lang": "es", "say": "En español, original.", "word": "original", "phon": "o-ri-he-NAL", "audio": "seg-09" },
+    { "kind": "line", "lang": "en", "say": "Same move with words you already know.", "show": "same move\nmore words", "audio": "seg-10" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word digital. Give it the Spanish throat sound.", "word": "digital", "audio": "seg-11" },
+    { "kind": "reveal", "lang": "es", "say": "En español, digital.", "word": "digital", "phon": "di-hi-TAL", "audio": "seg-12" },
+    { "kind": "prompt", "lang": "en", "say": "And try regional with that same sound.", "word": "regional", "audio": "seg-13" },
+    { "kind": "reveal", "lang": "es", "say": "En español, regional.", "word": "regional", "phon": "re-hio-NAL", "audio": "seg-14" },
+    { "kind": "line", "lang": "en", "say": "Good. You changed one sound, four times.", "show": "one sound\nfour words", "audio": "seg-15" },
+    { "kind": "line", "lang": "en", "say": "Listen for the English j sound. In Spanish, let it breathe from the throat.", "show": "listen for j\nbreathe from the throat", "audio": "seg-16" }
+  ],
+  "caption": "English J is not always Spanish J. Try the throat sound in general, original, digital, regional.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

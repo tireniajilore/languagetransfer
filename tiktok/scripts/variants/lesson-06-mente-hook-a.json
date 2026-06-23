@@ -1,0 +1,27 @@
+{
+  "id": "lesson-06-mente-hook-a",
+  "title": "Mente Adverbs (hook swap A)",
+  "audioDir": "lesson-06-mente-adverbs",
+  "voice_notes": "Hook-swap variant — only segment 0 (hook-a) needs TTS; everything else reuses lesson-06-mente-adverbs audio.",
+  "segments": [
+    { "kind": "line", "lang": "en", "say": "Here's how to turn one Spanish word into five.", "show": "one word\ninto five", "audio": "hook-a" },
+    { "kind": "line", "lang": "en", "say": "In English, words like normally and legally often end in ly.", "show": "normally\nlegally", "audio": "seg-00" },
+    { "kind": "line", "lang": "en", "say": "Spanish has its own version of that ending: mente.", "show": "Spanish ending\nmente", "audio": "seg-01" },
+    { "kind": "line", "lang": "en", "say": "Normal becomes normalmente.", "show": "normal\nnormalmente", "audio": "seg-02" },
+    { "kind": "prompt", "lang": "en", "say": "Say normally in Spanish.", "word": "normally", "audio": "seg-03" },
+    { "kind": "reveal", "lang": "es", "say": "En español, normalmente.", "word": "normalmente", "phon": "nor-mal-MEN-te", "audio": "seg-04" },
+    { "kind": "prompt", "lang": "en", "say": "Say legally in Spanish.", "word": "legally", "audio": "seg-05" },
+    { "kind": "reveal", "lang": "es", "say": "En español, legalmente.", "word": "legalmente", "phon": "le-gal-MEN-te", "audio": "seg-06" },
+    { "kind": "prompt", "lang": "en", "say": "Say naturally in Spanish.", "word": "naturally", "audio": "seg-07" },
+    { "kind": "reveal", "lang": "es", "say": "En español, naturalmente.", "word": "naturalmente", "phon": "na-tu-ral-MEN-te", "audio": "seg-08" },
+    { "kind": "line", "lang": "en", "say": "From the last pattern, constant became constante.", "show": "constant\nconstante", "audio": "seg-09" },
+    { "kind": "prompt", "lang": "en", "say": "So say constantly in Spanish.", "word": "constantly", "audio": "seg-10" },
+    { "kind": "reveal", "lang": "es", "say": "En español, constantemente.", "word": "constantemente", "phon": "cons-tan-te-MEN-te", "audio": "seg-11" },
+    { "kind": "line", "lang": "en", "say": "Real is real in Spanish too.", "show": "real\nreal", "audio": "seg-12" },
+    { "kind": "prompt", "lang": "en", "say": "One more: say really in Spanish.", "word": "really", "audio": "seg-13" },
+    { "kind": "reveal", "lang": "es", "say": "En español, realmente.", "word": "realmente", "phon": "re-al-MEN-te", "audio": "seg-14" },
+    { "kind": "line", "lang": "en", "say": "Good. Same move each time. Take the word, attach mente.", "show": "same move\nattach mente", "audio": "seg-15" }
+  ],
+  "caption": "Turn one Spanish word into five: normal → normalmente, legal → legalmente, real → realmente. Attach mente.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

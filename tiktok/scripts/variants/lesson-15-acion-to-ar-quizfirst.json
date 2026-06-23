@@ -1,0 +1,90 @@
+{
+  "id": "lesson-15-acion-to-ar-quizfirst",
+  "title": "Turn ACION Words Into Verbs (quiz-first)",
+  "audioDir": "lesson-15-acion-to-ar",
+  "voice_notes": "Remix variant - reuses lesson-15-acion-to-ar audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try this one: generation.",
+      "word": "generation",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Generación.",
+      "word": "generación",
+      "phon": "he-ne-ra-SYON",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now turn it into: to generate.",
+      "word": "to generate",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Generar.",
+      "word": "generar",
+      "phon": "he-ne-RAR",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Then take that ending off, and add ar.",
+      "show": "take off ción\nadd ar",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about confirmation?",
+      "word": "confirmation",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Confirmación.",
+      "word": "confirmación",
+      "phon": "kon-feer-ma-SYON",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now: to confirm.",
+      "word": "to confirm",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Confirmar.",
+      "word": "confirmar",
+      "phon": "kon-feer-MAR",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You did not learn four verbs. You unlocked a pattern.",
+      "show": "not four verbs\na pattern",
+      "audio": "seg-20"
+    }
+  ],
+  "caption": "Could you build the verb before the reveal? generacion -> generar. Drop cion, add ar.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

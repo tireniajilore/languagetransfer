@@ -1,0 +1,60 @@
+{
+  "id": "lesson-23-ence-ance-15s",
+  "title": "ENCE And ANCE Become Spanish Too (15s micro-cut)",
+  "audioDir": "lesson-23-ence-ance",
+  "voice_notes": "Remix variant - reuses lesson-23-ence-ance audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When English ends in the ending spelled E N C E, Spanish often has encia.",
+      "show": "English -ence\nSpanish -encia",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Experience becomes experiencia.",
+      "show": "experience -> experiencia",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, experiencia.",
+      "word": "experiencia",
+      "phon": "eks-pe-ryen-SYA",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "You know different. Now try difference.",
+      "word": "difference",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, diferencia.",
+      "word": "diferencia",
+      "phon": "dee-fe-REN-sya",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You are not memorizing nouns. You are collecting word machines.",
+      "show": "not memorizing\nword machines",
+      "audio": "seg-15"
+    }
+  ],
+  "caption": "English -ence -> Spanish -encia: experiencia, diferencia, influencia.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

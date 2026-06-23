@@ -1,8 +1,9 @@
-const DEFAULT_VOICE_ID = '21m00Tcm4TlvDq8ikWAM';
-const DEFAULT_ENGLISH_SPEED = 1.1;
-const DEFAULT_SPANISH_SPEED = 0.9;
+const DEFAULT_VOICE_ID = 'Czw3Dn181ypdrCOnPfif'; // Brian (matches TikTok pipeline)
 
-export const ELEVENLABS_MODEL_ID = 'eleven_multilingual_v2';
+// Matches the TikTok lesson pipeline (tiktok/remotion/scripts/tts-lesson.mjs):
+// eleven_v3 with per-segment language tagging keeps cognates English in prompts
+// and Spanish in reveals, so we drop the v2 speed/carrier-phrase params here.
+export const ELEVENLABS_MODEL_ID = 'eleven_v3';
 
 export type ElevenLabsLanguage = 'en' | 'es';
 
@@ -12,28 +13,12 @@ export interface ElevenLabsRequestBody {
   voice_settings: {
     stability: number;
     similarity_boost: number;
-    speed: number;
   };
-  language_code?: 'es';
-  previous_text?: string;
-  next_text?: string;
-}
-
-function parseSpeed(rawValue: string | undefined, fallback: number) {
-  const parsed = Number.parseFloat(rawValue ?? '');
-  return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
+  language_code?: ElevenLabsLanguage;
 }
 
 export function getElevenLabsVoiceId() {
   return process.env.ELEVENLABS_VOICE_ID || DEFAULT_VOICE_ID;
-}
-
-export function getEnglishSpeed() {
-  return parseSpeed(process.env.ELEVENLABS_SPEED_EN, DEFAULT_ENGLISH_SPEED);
-}
-
-export function getSpanishSpeed() {
-  return parseSpeed(process.env.ELEVENLABS_SPEED_ES, DEFAULT_SPANISH_SPEED);
 }
 
 export function buildElevenLabsRequestBody(
@@ -45,15 +30,8 @@ export function buildElevenLabsRequestBody(
     model_id: ELEVENLABS_MODEL_ID,
     voice_settings: {
       stability: 0.5,
-      similarity_boost: 0.75,
-      speed: lang === 'es' ? getSpanishSpeed() : getEnglishSpeed()
+      similarity_boost: 0.8
     },
-    ...(lang === 'es'
-      ? {
-          language_code: 'es' as const,
-          previous_text: 'En español:',
-          next_text: 'Muy bien.'
-        }
-      : {})
+    language_code: lang
   };
 }

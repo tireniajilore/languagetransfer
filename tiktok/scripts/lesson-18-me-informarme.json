@@ -1,0 +1,134 @@
+{
+  "id": "lesson-18-me-informarme",
+  "title": "Me At The End",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish has a tiny trick for saying me.",
+      "show": "tiny trick:\nme"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "In English, prepare me usually means prepare myself.",
+      "show": "prepare me =\nprepare myself"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Start with prepare. In Spanish, preparar.",
+      "show": "prepare -> preparar"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Preparar.",
+      "show": "preparar"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now put me at the end.",
+      "show": "preparar + me"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to prepare myself.",
+      "word": "to prepare myself"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, prepararme.",
+      "word": "prepararme",
+      "phon": "pre-pa-RAR-me"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same verb. You just attached me.",
+      "show": "same verb\n+ me"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now use the old ation pattern.",
+      "show": "old pattern:\n-ation -> -ación -> -ar"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Organization gives organización, then organizar.",
+      "show": "organization -> organización -> organizar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: to organize myself.",
+      "word": "to organize myself"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, organizarme.",
+      "word": "organizarme",
+      "phon": "or-ga-nee-SAR-me"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One more. Information gives información, then informar.",
+      "show": "information -> información -> informar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Attach me: to inform me.",
+      "word": "to inform me"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, informarme.",
+      "word": "informarme",
+      "phon": "een-for-MAR-me"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same idea: inform me usually means inform myself.",
+      "show": "inform me =\ninform myself"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And Spanish often uses that for find out.",
+      "show": "find out"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to find out.",
+      "word": "I want to find out",
+      "pauseSec": 3.3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero informarme.",
+      "word": "Quiero informarme",
+      "phon": "KYE-ro een-for-MAR-me"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Do not learn a new sentence. Build the verb, then attach me.",
+      "show": "build the verb\nattach me"
+    }
+  ],
+  "caption": "Put me on the end of the verb: prepararme, organizarme, informarme. Quiero informarme = I want to find out.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

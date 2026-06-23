@@ -1,0 +1,192 @@
+{
+  "id": "lesson-12-probably-possible-hook-a",
+  "title": "Probablemente Possible Stack (hook swap A)",
+  "audioDir": "lesson-12-probably-possible",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-12-probably-possible audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The most encouraging sentence a beginner can build in Spanish.",
+      "show": "beginner\nsentence",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Es means it is.",
+      "show": "es = it is",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "it is",
+      "pauseSec": 0.9
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es.",
+      "word": "Es",
+      "phon": "es",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Possible changes in Spanish.",
+      "show": "possible\nposible",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "possible",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: posible.",
+      "word": "posible",
+      "phon": "po-SI-ble",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is possible.",
+      "word": "it is possible",
+      "pauseSec": 2.3,
+      "audio": "seg-07"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es posible.",
+      "word": "Es posible",
+      "phon": "es po-SI-ble",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Probable barely changes.",
+      "show": "probable\nprobable",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "word": "probable",
+      "pauseSec": 1
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: probable.",
+      "word": "probable",
+      "phon": "pro-BA-ble",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "It is probable.",
+      "word": "it is probable",
+      "pauseSec": 2.3,
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Es probable.",
+      "word": "Es probable",
+      "phon": "es pro-BA-ble",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "For many English words that end in L Y, Spanish uses mente.",
+      "show": "English: ly\nSpanish: mente",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Probable becomes probably.",
+      "show": "probable\nprobably",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "En español: probable. En español: probablemente.",
+      "show": "probable\nprobablemente",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now build the bigger sentence.",
+      "show": "build the\nbigger sentence",
+      "audio": "seg-17"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Probably, it is possible.",
+      "word": "probably, it is possible",
+      "pauseSec": 3.2,
+      "audio": "seg-18"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Probablemente es posible.",
+      "word": "Probablemente es posible",
+      "phon": "pro-ba-ble-MEN-te es po-SI-ble",
+      "audio": "seg-19"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Last one. You have not seen this full sentence here, but you have the pieces.",
+      "show": "one new combo",
+      "audio": "seg-20"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Probably, it is important.",
+      "word": "probably, it is important",
+      "pauseSec": 3.5,
+      "audio": "seg-21"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español: Probablemente es importante.",
+      "word": "Probablemente es importante",
+      "phon": "pro-ba-ble-MEN-te es im-por-TAN-te",
+      "audio": "seg-22"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same pattern, new sentence.",
+      "show": "same pattern\nnew sentence",
+      "audio": "seg-23"
+    }
+  ],
+  "caption": "The most encouraging beginner sentence: Probablemente es posible. Probablemente es importante.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

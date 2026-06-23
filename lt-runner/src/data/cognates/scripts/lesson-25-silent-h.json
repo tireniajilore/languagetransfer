@@ -1,0 +1,110 @@
+{
+  "id": "lesson-25-silent-h",
+  "title": "Spanish h disappears",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish has one letter you should completely ignore.",
+      "show": "one letter\nto ignore"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The letter h is written, but it does not make a sound.",
+      "show": "h is written\nnot spoken"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "C H together still makes the ch sound. But a plain h disappears.",
+      "show": "ch is different\nplain h disappears"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Do not even give it a tiny breath. Imagine the word starts with the next vowel.",
+      "show": "no breath\nstart at the vowel"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try the word hospital, with no h sound.",
+      "word": "hospital"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, hospital.",
+      "word": "hospital",
+      "phon": "os-pee-TAL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now horrible. No h sound.",
+      "word": "horrible"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, horrible.",
+      "word": "horrible",
+      "phon": "o-RREE-ble"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What about habitual?",
+      "word": "habitual"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, habitual.",
+      "word": "habitual",
+      "phon": "a-bee-TWAL"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And if you add mente, the h still stays silent.",
+      "show": "habitual + mente"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say habitually.",
+      "word": "habitually"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, habitualmente.",
+      "word": "habitualmente",
+      "phon": "a-bee-twal-MEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The word for now also hides one of these silent h's.",
+      "show": "now = ahora"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Ahora.",
+      "word": "ahora",
+      "phon": "a-O-ra"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. The letter is there for your eyes, not your mouth.",
+      "show": "for your eyes\nnot your mouth"
+    }
+  ],
+  "caption": "Spanish h is silent: hospital, horrible, habitual, habitualmente, ahora. See it, but do not pronounce it.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

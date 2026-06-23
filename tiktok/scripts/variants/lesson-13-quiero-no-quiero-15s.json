@@ -1,0 +1,81 @@
+{
+  "id": "lesson-13-quiero-no-quiero-15s",
+  "title": "Quiero And No Quiero (15s micro-cut)",
+  "audioDir": "lesson-13-quiero-no-quiero",
+  "voice_notes": "Remix variant - reuses lesson-13-quiero-no-quiero audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "Quiero.",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That means I want.",
+      "show": "Quiero =\nI want",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Your turn: I want.",
+      "word": "I want",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero.",
+      "word": "Quiero",
+      "phon": "KYE-ro",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "To make it negative, Spanish does one very kind thing.",
+      "show": "to make it negative",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Park no in front.",
+      "show": "park no\nin front",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I do not want.",
+      "word": "I don't want",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "No quiero.",
+      "word": "No quiero",
+      "phon": "no KYE-ro",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same sentence, one word parked in front.",
+      "show": "same sentence\none word in front",
+      "audio": "seg-18"
+    }
+  ],
+  "caption": "Quiero = I want. No quiero = I don't want. Just park no in front.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

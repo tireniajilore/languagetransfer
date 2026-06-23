@@ -1,0 +1,121 @@
+{
+  "id": "lesson-22-long-route-verbs",
+  "title": "Take the long route to verbs",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The slow route is how you stop guessing Spanish verbs.",
+      "show": "stop guessing\nSpanish verbs"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Do not jump from the short English verb.",
+      "show": "do not jump"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Use the bigger English noun first.",
+      "show": "use the big noun"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Generate can go through generation.",
+      "show": "generate -> generation"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Generación.",
+      "show": "generación"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Then take off ción and add ar.",
+      "show": "take off ción\nadd ar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "So how would you say to generate?",
+      "word": "to generate"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, generar.",
+      "word": "generar",
+      "phon": "he-ne-RAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same long route: situation becomes situación.",
+      "show": "situation -> situación"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now turn it into: to situate.",
+      "word": "to situate"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, situar.",
+      "word": "situar",
+      "phon": "see-too-AR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Participation becomes participación.",
+      "show": "participation -> participación"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Take it slowly: to participate.",
+      "word": "to participate"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, participar.",
+      "word": "participar",
+      "phon": "par-tee-see-PAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Creation gives the same pattern.",
+      "show": "creation -> creación"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: to create.",
+      "word": "to create"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, crear.",
+      "word": "crear",
+      "phon": "kreh-AR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. The long route is slower for one second, and safer forever.",
+      "show": "slower now\nsafer forever"
+    }
+  ],
+  "caption": "Don't jump from the short English verb. Use the long route: generation -> generación -> generar, participation -> participación -> participar.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

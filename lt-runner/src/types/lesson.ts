@@ -11,18 +11,30 @@ export interface LessonStep {
   id: string;
   type: StepType;
   text: string;
+  caption?: string;
   segments?: SpeechSegment[];
   sourceKey?: string;
   estimatedDuration?: number;
   expectsResponse?: boolean;
   acceptedAnswers?: string[];
   waitDuration?: WaitDuration;
+  metadata?: {
+    courseLessonId?: string;
+    sectionId?: string;
+    sourceScriptId?: string;
+    sourceSegmentIndex?: number;
+    phoneticHint?: string;
+    sectionTitle?: string;
+  };
 }
 
 export interface Lesson {
   id: string;
   title: string;
   description: string;
+  audio?: {
+    staticManifest?: boolean;
+  };
   steps: LessonStep[];
 }
 

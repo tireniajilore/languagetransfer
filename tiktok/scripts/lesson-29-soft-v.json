@@ -1,0 +1,104 @@
+{
+  "id": "lesson-29-soft-v",
+  "title": "Spanish V Is Often A Soft B",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish v often does not sound like English v.",
+      "show": "Spanish v\nis different"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "In much of the Spanish-speaking world, it sounds closer to a soft b.",
+      "show": "v -> soft b"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Not a hard English b with a burst of air. Softer.",
+      "show": "soft\nnot explosive"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You already saw it in voy.",
+      "show": "voy"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy.",
+      "word": "voy",
+      "phon": "boy"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try visible with that soft Spanish sound.",
+      "word": "visible"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, visible.",
+      "word": "visible",
+      "phon": "bee-SEE-ble"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now viral.",
+      "word": "viral"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, viral.",
+      "word": "viral",
+      "phon": "bee-RAL"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And virus.",
+      "word": "virus"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, virus.",
+      "word": "virus",
+      "phon": "BEE-roos"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One more pattern word. Convenient becomes conveniente.",
+      "show": "convenient ->\nconveniente"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say convenient in Spanish.",
+      "word": "convenient"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, conveniente.",
+      "word": "conveniente",
+      "phon": "kon-be-NYEN-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same letters, but your mouth changed languages.",
+      "show": "same letters\nSpanish mouth"
+    }
+  ],
+  "caption": "Spanish v often sounds close to a soft b: voy, visible, viral, virus, conveniente.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "lesson-02-vowels-quizfirst",
+  "title": "Spanish Vowels (quiz-first)",
+  "audioDir": "lesson-02-vowels",
+  "voice_notes": "Remix variant — cold-opens on a prompt before teaching. Reuses lesson-02-vowels audio. No new TTS.",
+  "segments": [
+    { "kind": "prompt", "lang": "en", "say": "Take the English word natural.", "word": "natural", "audio": "seg-05" },
+    { "kind": "reveal", "lang": "es", "say": "En español, natural.", "word": "natural", "phon": "na-too-RAL", "audio": "seg-06" },
+    { "kind": "line", "lang": "en", "say": "Spanish vowels never move. Five sounds, locked.", "show": "Spanish vowels\nnever move", "audio": "seg-03" },
+    { "kind": "vowels", "lang": "es", "say": "a, e, i, o, u.", "audio": "seg-04" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word metal.", "word": "metal", "audio": "seg-07" },
+    { "kind": "reveal", "lang": "es", "say": "En español, metal.", "word": "metal", "phon": "meh-TAL", "audio": "seg-08" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word legal.", "word": "legal", "audio": "seg-09" },
+    { "kind": "reveal", "lang": "es", "say": "En español, legal.", "word": "legal", "phon": "leh-GAL", "audio": "seg-10" },
+    { "kind": "prompt", "lang": "en", "say": "Take the English word ideal.", "word": "ideal", "audio": "seg-11" },
+    { "kind": "reveal", "lang": "es", "say": "En español, ideal.", "word": "ideal", "phon": "ee-deh-AL", "audio": "seg-12" },
+    { "kind": "line", "lang": "en", "say": "You learned five sounds, and now you can read all of them.", "show": "you learned\nfive sounds", "audio": "seg-14" }
+  ],
+  "caption": "Could you say it before the reveal? Spanish vowels never change: ah-eh-ee-oh-oo. Score yourself in the comments.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "fyp"]
+}

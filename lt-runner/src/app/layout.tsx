@@ -1,5 +1,13 @@
 import type { Metadata } from 'next';
+import { Fraunces } from 'next/font/google';
 import './globals.css';
+
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  style: ['normal'],
+  variable: '--font-display'
+});
 
 export const metadata: Metadata = {
   title: 'Language Transfer Spanish',
@@ -12,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={fraunces.variable}>
       <body>{children}</body>
     </html>
   );

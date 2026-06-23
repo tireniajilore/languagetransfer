@@ -1,0 +1,154 @@
+{
+  "id": "lesson-20-lo-cancelarlo",
+  "title": "Lo means it or him",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish can turn cancel into cancel it without learning a new verb.",
+      "show": "cancel ->\ncancel it"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Lo.",
+      "show": "lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Lo is the little piece that can mean it.",
+      "show": "lo = it"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When the verb is unchanged, lo can attach to the end.",
+      "show": "verb + lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Cancel becomes cancelar.",
+      "show": "cancel -> cancelar"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Cancelar.",
+      "show": "cancelar"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Add lo to the end, and you get to cancel it.",
+      "show": "cancelar + lo"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Test it first: to cancel it.",
+      "word": "to cancel it"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, cancelarlo.",
+      "word": "cancelarlo",
+      "phon": "kan-se-LAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Quiero.",
+      "show": "quiero = I want"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Quick reminder: quiero means I want.",
+      "show": "quiero =\nI want"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now you try the full sentence: I want to cancel it.",
+      "word": "I want to cancel it",
+      "pauseSec": 3.3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cancelarlo.",
+      "word": "Quiero cancelarlo",
+      "phon": "KYE-ro kan-se-LAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One more thing: lo can also mean him.",
+      "show": "lo can also mean\nhim"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Same verb: to cancel him.",
+      "word": "to cancel him"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, cancelarlo.",
+      "word": "cancelarlo",
+      "phon": "kan-se-LAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Salvation gives salvación, then salvar.",
+      "show": "salvation -> salvación -> salvar"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Salvar.",
+      "show": "salvar"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Add lo to the end, and you get to save him.",
+      "show": "salvar + lo"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, salvarlo.",
+      "word": "salvarlo",
+      "phon": "sal-BAR-lo"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to save him.",
+      "word": "I want to save him",
+      "pauseSec": 3.3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero salvarlo.",
+      "word": "Quiero salvarlo",
+      "phon": "KYE-ro sal-BAR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You learned where lo goes before you had to build the sentence.",
+      "show": "learn the spot\nthen build"
+    }
+  ],
+  "caption": "Lo can mean it or him, and it can attach to the end of an unchanged verb: cancelarlo, salvarlo.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

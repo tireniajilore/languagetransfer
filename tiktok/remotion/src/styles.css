@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @remotion/google-fonts (loaded in theme.ts) injects @font-face names; expose
+   them as tokens so the `font-*` utilities resolve correctly. */
+:root {
+  --font-display: 'DM Sans'; /* Waldenburg substitute */
+  --font-ui: 'Inter';
+  --font-logo: 'Space Grotesk'; /* WaldenburgFH substitute */
+}
+
+/* Reusable ElevenLabs surfaces. Elevation comes from surface contrast + a
+   hairline border, never heavy shadow. */
+@layer components {
+  /* Warm Sand feature card — primary content tile. */
+  .sand-card {
+    @apply rounded-cardlg bg-sand;
+    border: 1px solid #e5e5e5;
+  }
+  /* White elevated card — for screenshots/previews only. */
+  .elevated-card {
+    @apply rounded-card shadow-elevated;
+    background: #ffffff;
+  }
+  /* Black filled pill — primary action. */
+  .pill-ink {
+    @apply rounded-pill bg-ink text-canvas font-ui;
+    font-weight: 500;
+  }
+  .hairline {
+    background: #e5e5e5;
+  }
+}

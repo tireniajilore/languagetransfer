@@ -1,0 +1,161 @@
+{
+  "id": "lesson-18-me-informarme-hook-a",
+  "title": "Me At The End (hook swap A)",
+  "audioDir": "lesson-18-me-informarme",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-18-me-informarme audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Saying myself in Spanish is just one syllable on the end.",
+      "show": "+me\n= myself",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "In English, prepare me usually means prepare myself.",
+      "show": "prepare me =\nprepare myself",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Start with prepare. In Spanish, preparar.",
+      "show": "prepare -> preparar",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "es",
+      "say": "Preparar.",
+      "show": "preparar",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now put me at the end.",
+      "show": "preparar + me",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to prepare myself.",
+      "word": "to prepare myself",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, prepararme.",
+      "word": "prepararme",
+      "phon": "pre-pa-RAR-me",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same verb. You just attached me.",
+      "show": "same verb\n+ me",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now use the old ation pattern.",
+      "show": "old pattern:\n-ation -> -ación -> -ar",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Organization gives organización, then organizar.",
+      "show": "organization -> organización -> organizar",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: to organize myself.",
+      "word": "to organize myself",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, organizarme.",
+      "word": "organizarme",
+      "phon": "or-ga-nee-SAR-me",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One more. Information gives información, then informar.",
+      "show": "information -> información -> informar",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Attach me: to inform me.",
+      "word": "to inform me",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, informarme.",
+      "word": "informarme",
+      "phon": "een-for-MAR-me",
+      "audio": "seg-14"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Same idea: inform me usually means inform myself.",
+      "show": "inform me =\ninform myself",
+      "audio": "seg-15"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And Spanish often uses that for find out.",
+      "show": "find out",
+      "audio": "seg-16"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to find out.",
+      "word": "I want to find out",
+      "pauseSec": 3.3,
+      "audio": "seg-17"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero informarme.",
+      "word": "Quiero informarme",
+      "phon": "KYE-ro een-for-MAR-me",
+      "audio": "seg-18"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Do not learn a new sentence. Build the verb, then attach me.",
+      "show": "build the verb\nattach me",
+      "audio": "seg-19"
+    }
+  ],
+  "caption": "'Myself' in Spanish is one syllable on the end: prepararme, organizarme, informarme.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}
