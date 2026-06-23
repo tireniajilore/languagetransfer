@@ -2,9 +2,11 @@ import React from 'react';
 import {CalculateMetadataFunction, Composition, staticFile} from 'remotion';
 import {getAudioDurationInSeconds} from '@remotion/media-utils';
 import {CognateClip} from './CognateClip';
+import {CarouselDeck} from './CarouselDeck';
 import {LessonClip} from './LessonClip';
 import {FPS, WIDTH, HEIGHT} from './theme';
 import {buildScenes, script, totalFrames, ClipProps} from './script';
+import {buildCarouselDeck, CarouselDeckProps} from './carousel';
 import {
   audioKeyFor,
   buildLessonScenes,
@@ -181,6 +183,20 @@ export const RemotionRoot: React.FC = () => {
         height={HEIGHT}
         defaultProps={{scenes: [] as ClipProps['scenes']}}
         calculateMetadata={calculateMetadata}
+      />
+      <Composition
+        id="CarouselDeck"
+        component={CarouselDeck}
+        durationInFrames={1}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={
+          {
+            deck: buildCarouselDeck(script),
+            slideIndex: 0,
+          } as CarouselDeckProps
+        }
       />
       {lessonCompositions.map(([id, currentLesson]) => (
         <Composition

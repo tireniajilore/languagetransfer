@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "remotion studio",
     "render": "remotion render CognateClip out/cognate.mp4",
-    "still": "remotion still CognateClip out/still.png"
+    "still": "remotion still CognateClip out/still.png",
+    "carousel": "node scripts/render-carousel.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.290",
