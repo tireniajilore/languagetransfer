@@ -22,7 +22,7 @@ import lesson22LongRouteVerbs from './scripts/lesson-22-long-route-verbs.json';
 import lesson23EnceAnce from './scripts/lesson-23-ence-ance.json';
 import spanishCognates01 from './scripts/spanish-cognates-01.json';
 
-export const COGNATES_COURSE_VERSION = '2026-06-18.v1';
+export const COGNATES_COURSE_VERSION = '2026-06-22.v2';
 
 export interface CognatesCourseSection {
   id: string;
@@ -48,76 +48,76 @@ export interface CognatesCourseManifest {
 
 export const COGNATES_COURSE: CognatesCourseManifest = {
   id: 'spanish-cognates',
-  title: 'Spanish Cognates Starter',
+  title: 'Spanish cognates starter',
   description: 'A five-lesson speaking path that turns English word patterns into Spanish sentences.',
   version: COGNATES_COURSE_VERSION,
   lessons: [
     {
       id: 'sounds-like-spanish',
       number: 1,
-      title: 'Spanish Sounds Like Spanish',
-      promise: 'Use Spanish vowels, es/no es, and two sounds that stop English from steering.',
+      title: 'Your first Spanish sentences',
+      promise: 'Find the Spanish you already know, then use vowels, es, and no es to make the first sentences.',
       estimatedMinutes: 8,
       sections: [
+        { id: 'al-words', sourceScriptId: 'spanish-cognates-01' },
         { id: 'vowels', sourceScriptId: 'lesson-02-vowels' },
         { id: 'es', sourceScriptId: 'lesson-03-es' },
-        { id: 'no-es', sourceScriptId: 'lesson-04-no-es' },
-        { id: 'j-sound', sourceScriptId: 'lesson-07-j-sound' },
-        { id: 'r-sound', sourceScriptId: 'lesson-21-r-sound' }
+        { id: 'no-es', sourceScriptId: 'lesson-04-no-es' }
       ]
     },
     {
       id: 'cognate-toolkit',
       number: 2,
-      title: 'Your First Cognate Toolkit',
-      promise: 'Turn familiar English endings into Spanish words you can say out loud.',
-      estimatedMinutes: 7,
+      title: 'Patterns that start to stack',
+      promise: 'Add ant/ent, mente, the j sound, and able/ible, then stack them into real sentences.',
+      estimatedMinutes: 12,
       sections: [
-        { id: 'al-words', sourceScriptId: 'spanish-cognates-01' },
         { id: 'ant-ent', sourceScriptId: 'lesson-05-ant-ent' },
+        { id: 'mente', sourceScriptId: 'lesson-06-mente-adverbs' },
+        { id: 'j-sound', sourceScriptId: 'lesson-07-j-sound' },
         { id: 'able-ible', sourceScriptId: 'lesson-08-able-ible' },
-        { id: 'tion-cion', sourceScriptId: 'lesson-14-tion-cion' },
-        { id: 'ence-ance', sourceScriptId: 'lesson-23-ence-ance' }
+        { id: 'first-stack', sourceScriptId: 'lesson-09-first-stack' }
       ]
     },
     {
       id: 'build-real-sentences',
       number: 3,
-      title: 'Build Real Sentences',
-      promise: 'Stack the patterns into full sentences without memorizing a phrasebook.',
-      estimatedMinutes: 11,
+      title: 'Possible, probable, quiero',
+      promise: 'Keep stacking normal, possible, and probable sentences, then open the quiero route.',
+      estimatedMinutes: 12,
       sections: [
-        { id: 'mente', sourceScriptId: 'lesson-06-mente-adverbs' },
-        { id: 'first-stack', sourceScriptId: 'lesson-09-first-stack' },
         { id: 'mixed-patterns', sourceScriptId: 'lesson-10-mixed-patterns' },
         { id: 'possible-impossible', sourceScriptId: 'lesson-11-possible-impossible' },
-        { id: 'probably-possible', sourceScriptId: 'lesson-12-probably-possible' }
+        { id: 'probably-possible', sourceScriptId: 'lesson-12-probably-possible' },
+        { id: 'quiero-no-quiero', sourceScriptId: 'lesson-13-quiero-no-quiero' },
+        { id: 'tion-cion', sourceScriptId: 'lesson-14-tion-cion' }
       ]
     },
     {
       id: 'wanting-doing-emphasis',
       number: 4,
-      title: 'Wanting, Doing, and Emphasis',
-      promise: 'Build useful quiero sentences and feel when yo is actually doing work.',
-      estimatedMinutes: 7,
+      title: 'From -acion to action',
+      promise: 'Convert -acion into verbs, build quiero + verb sentences, then add yo, me, and te.',
+      estimatedMinutes: 11,
       sections: [
-        { id: 'quiero-no-quiero', sourceScriptId: 'lesson-13-quiero-no-quiero' },
+        { id: 'acion-to-ar', sourceScriptId: 'lesson-15-acion-to-ar' },
         { id: 'quiero-verbs', sourceScriptId: 'lesson-16-quiero-verbs' },
-        { id: 'yo-emphasis', sourceScriptId: 'lesson-17-yo-emphasis' }
+        { id: 'yo-emphasis', sourceScriptId: 'lesson-17-yo-emphasis' },
+        { id: 'me-informarme', sourceScriptId: 'lesson-18-me-informarme' },
+        { id: 'te-obligarte', sourceScriptId: 'lesson-19-te-obligarte' }
       ]
     },
     {
       id: 'longer-spanish-routes',
       number: 5,
-      title: 'Longer Spanish Routes',
-      promise: 'Handle longer verb routes with me, te, lo, and -acion without panicking.',
-      estimatedMinutes: 10,
+      title: 'Lo, R, and longer routes',
+      promise: 'Finish lo routes, place the R sound where it belongs, and add long-route verbs plus ence/ance.',
+      estimatedMinutes: 7,
       sections: [
-        { id: 'acion-to-ar', sourceScriptId: 'lesson-15-acion-to-ar' },
-        { id: 'me-informarme', sourceScriptId: 'lesson-18-me-informarme' },
-        { id: 'te-obligarte', sourceScriptId: 'lesson-19-te-obligarte' },
         { id: 'lo-cancelarlo', sourceScriptId: 'lesson-20-lo-cancelarlo' },
-        { id: 'long-route-verbs', sourceScriptId: 'lesson-22-long-route-verbs' }
+        { id: 'r-sound', sourceScriptId: 'lesson-21-r-sound' },
+        { id: 'long-route-verbs', sourceScriptId: 'lesson-22-long-route-verbs' },
+        { id: 'ence-ance', sourceScriptId: 'lesson-23-ence-ance' }
       ]
     }
   ]
