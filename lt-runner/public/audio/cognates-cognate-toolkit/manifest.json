@@ -1,0 +1,966 @@
+{
+  "lessonId": "cognates-cognate-toolkit",
+  "generatedAt": "2026-06-23T00:43:44.151Z",
+  "entries": {
+    "lesson-05-ant-ent-segment-1": {
+      "segments": [
+        {
+          "text": "English has hidden Spanish words all over it. Here is one pattern.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-1-1.mp3",
+          "hash": "c99a4ff58caddbdd427aa09ed5c1e66f86cb590392db976c0d5c8add927ba0e7"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-2": {
+      "segments": [
+        {
+          "text": "Words ending in ant or ent often become Spanish by adding e.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-2-1.mp3",
+          "hash": "6f3dbee7d14698c223e1ab635e2983a4452977952bf60c38a14a7ec81a9f7ea6"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-3": {
+      "segments": [
+        {
+          "text": "Important becomes importante. Different becomes diferente.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-3-1.mp3",
+          "hash": "48e0122f78a5528cd0ba8522c78b01a966d676dc07ffaa7e565a22dc78a05f13"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-4": {
+      "segments": [
+        {
+          "text": "And es means it is.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-4-1.mp3",
+          "hash": "9f210ecd9d92b848ef10c03d79ee1ce2e95a29d44ccb945fede97b6527152fbf"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-5": {
+      "segments": [
+        {
+          "text": "Say it in Spanish: it is important.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-5-1.mp3",
+          "hash": "3b77dc541bd1caa679ef8b0ea4fda97d38676a65c77033b9245d422af927bcca"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-6": {
+      "segments": [
+        {
+          "text": "Es importante.",
+          "lang": "es",
+          "file": "lesson-05-ant-ent-segment-6-1.mp3",
+          "hash": "b3764122354cfefd37bc079906c2b65fe49e2206ef483eec1b22cfce1c125b6f"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-7": {
+      "segments": [
+        {
+          "text": "Say it in Spanish: it is different.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-7-1.mp3",
+          "hash": "6a0fb980bf696ac3705d820ee515bf61c183a6560eb3b51e15c8a97aa4de6293"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-8": {
+      "segments": [
+        {
+          "text": "Es diferente.",
+          "lang": "es",
+          "file": "lesson-05-ant-ent-segment-8-1.mp3",
+          "hash": "af024e8c1884d2d522390305b26d6954f83338a5d47dc009aaf9265a36b885bb"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-9": {
+      "segments": [
+        {
+          "text": "Good. Now use the same rule on words I have not given you yet.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-9-1.mp3",
+          "hash": "e6f577f78aefbc4096367353a6ced33c2efa982a17195dbcab4590c504531a6e"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-10": {
+      "segments": [
+        {
+          "text": "Say constant in Spanish.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-10-1.mp3",
+          "hash": "744b2d457be81bacdb2974eae581d0bcd94891d3c2931c8c844e147bd727e34d"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-11": {
+      "segments": [
+        {
+          "text": "En español, constante.",
+          "lang": "es",
+          "file": "lesson-05-ant-ent-segment-11-1.mp3",
+          "hash": "70568e43ce4b7d6c2637f6cc14042dda925b2b61dd8be9ab702e8d3b81abd600"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-12": {
+      "segments": [
+        {
+          "text": "Now say it is constant in Spanish.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-12-1.mp3",
+          "hash": "513767e446e28c1a8acb223d2ae4567c2061b9a47afd255292bc3979c666c582"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-13": {
+      "segments": [
+        {
+          "text": "Es constante.",
+          "lang": "es",
+          "file": "lesson-05-ant-ent-segment-13-1.mp3",
+          "hash": "91eb6ebfb98d1d111775c5519a83ffc12bdf10759afce048b3ffbb636ed9a872"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-14": {
+      "segments": [
+        {
+          "text": "Say excellent in Spanish.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-14-1.mp3",
+          "hash": "fbb66d440cb68bb226bcd0e2058d0b804f40b77bfe518235ac551a0f7d176403"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-15": {
+      "segments": [
+        {
+          "text": "En español, excelente.",
+          "lang": "es",
+          "file": "lesson-05-ant-ent-segment-15-1.mp3",
+          "hash": "abacab8063feb2c38bad6f99e06361ad00697c6c2a8577b5508e058469e3fb90"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-16": {
+      "segments": [
+        {
+          "text": "Now say it is evident in Spanish.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-16-1.mp3",
+          "hash": "cb0b8442ab62f95f87ffd4cade59d045c44f1825e67934383cc71ec85a33b467"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-17": {
+      "segments": [
+        {
+          "text": "Es evidente.",
+          "lang": "es",
+          "file": "lesson-05-ant-ent-segment-17-1.mp3",
+          "hash": "695fad4da81c5260c60374923d810211f1449efa63473a236bb84353e1213605"
+        }
+      ]
+    },
+    "lesson-05-ant-ent-segment-18": {
+      "segments": [
+        {
+          "text": "That is the payoff. One rule gave you constante, excelente, and evidente.",
+          "lang": "en",
+          "file": "lesson-05-ant-ent-segment-18-1.mp3",
+          "hash": "ea9ec3820036e40823f117526847385481085d51b469cd34c1f4175fbc1bee5f"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-1": {
+      "segments": [
+        {
+          "text": "In English, words like normally and legally often end in ly.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-1-1.mp3",
+          "hash": "40ba5aea7e0fbf035c5047734237f595802df8439926bac812d17e3095b2dac7"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-2": {
+      "segments": [
+        {
+          "text": "Spanish has its own version of that ending: mente.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-2-1.mp3",
+          "hash": "58a585ca071f44e91b3b0485b50e01372a139f28fa551155cc7ba4c1c62c8281"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-3": {
+      "segments": [
+        {
+          "text": "Normal becomes normalmente.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-3-1.mp3",
+          "hash": "3ffe980cbd2073c9781e6a26dbcca34f80026658082b0fd68997fdd09f10df02"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-4": {
+      "segments": [
+        {
+          "text": "Say normally in Spanish.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-4-1.mp3",
+          "hash": "5174fc720665ce1cd76eb344c220fce9c9bd1f97aec802508c24653f4fee2f45"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-5": {
+      "segments": [
+        {
+          "text": "En español, normalmente.",
+          "lang": "es",
+          "file": "lesson-06-mente-adverbs-segment-5-1.mp3",
+          "hash": "d4128b5372672471822a5d193b73958081f8b0500df97268779c4bed4001007d"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-6": {
+      "segments": [
+        {
+          "text": "Say legally in Spanish.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-6-1.mp3",
+          "hash": "0cbda9359d92b2e327a565ed05f558868ab20c3ccfcb4cc02f8201f4eb2f007e"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-7": {
+      "segments": [
+        {
+          "text": "En español, legalmente.",
+          "lang": "es",
+          "file": "lesson-06-mente-adverbs-segment-7-1.mp3",
+          "hash": "e1c2044f1997f1ed8b7937c2a1934dfbdac18dbdf1d804d2da55d1332373c869"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-8": {
+      "segments": [
+        {
+          "text": "Say naturally in Spanish.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-8-1.mp3",
+          "hash": "bd306601dd921358e7f57723856b533933cfd33342d7797a2a9459e91774c28f"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-9": {
+      "segments": [
+        {
+          "text": "En español, naturalmente.",
+          "lang": "es",
+          "file": "lesson-06-mente-adverbs-segment-9-1.mp3",
+          "hash": "8792a61548fbe974c40a687476619a56fcae4a46e749569fca7ebbd035f8a143"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-10": {
+      "segments": [
+        {
+          "text": "From the last pattern, constant became constante.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-10-1.mp3",
+          "hash": "c60642b88433e2f6fcb7c72a1dd2b4597de7539bd68be705aa797a6f996dffdd"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-11": {
+      "segments": [
+        {
+          "text": "So say constantly in Spanish.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-11-1.mp3",
+          "hash": "8dbe41847f43345fb183149d577226fa648d1ebed4a86bf3ba156f2a74f8e6d3"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-12": {
+      "segments": [
+        {
+          "text": "En español, constantemente.",
+          "lang": "es",
+          "file": "lesson-06-mente-adverbs-segment-12-1.mp3",
+          "hash": "91d600e1bd0271480dd5321b358a7d1cf3b4dcfbe14d4855b43b62e26d094c8b"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-13": {
+      "segments": [
+        {
+          "text": "Real is real in Spanish too.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-13-1.mp3",
+          "hash": "4c35f65dbcc44c37c2a63ed9d5e054573ac0fe73f95345769c1f57ce5e00b115"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-14": {
+      "segments": [
+        {
+          "text": "One more: say really in Spanish.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-14-1.mp3",
+          "hash": "ed9005940baa1936fc82c97232d436f8a296d85c5726dbcae3522d731dea4605"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-15": {
+      "segments": [
+        {
+          "text": "En español, realmente.",
+          "lang": "es",
+          "file": "lesson-06-mente-adverbs-segment-15-1.mp3",
+          "hash": "4e937606853fdb79ae57722b89bf645d83e1af7becc453171a78e85cfb0105a5"
+        }
+      ]
+    },
+    "lesson-06-mente-adverbs-segment-16": {
+      "segments": [
+        {
+          "text": "Good. Same move each time. Take the word, attach mente.",
+          "lang": "en",
+          "file": "lesson-06-mente-adverbs-segment-16-1.mp3",
+          "hash": "a1b7b6dcabf5856ff0d1e0c922728a9dceabdbe3bf0b56ce3aaafcde98f541fb"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-1": {
+      "segments": [
+        {
+          "text": "One English sound changes a lot when it lands in Spanish.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-1-1.mp3",
+          "hash": "f373c799e0af34a3384705030c537f37927c41b26f48e4fc01d3d9e38922cc0e"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-2": {
+      "segments": [
+        {
+          "text": "English has that j sound, like in jacket or general.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-2-1.mp3",
+          "hash": "a8fee0f7148f9265d6d1587b1b3485dc70195d9bc4840d80d9a55877ed9879b5"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-3": {
+      "segments": [
+        {
+          "text": "In Spanish, that sound often becomes a soft breath in the throat.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-3-1.mp3",
+          "hash": "d2f236be1ec4ad8b6a2ddd92a1bb061c2a90e024186a3637e41fa8bb3c59447e"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-4": {
+      "segments": [
+        {
+          "text": "Escucha: Argentina.",
+          "lang": "es",
+          "file": "lesson-07-j-sound-segment-4-1.mp3",
+          "hash": "0835c42f77617b01fad28df795c32c44d05bb3e799b4f183bb680e5c912a9090"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-5": {
+      "segments": [
+        {
+          "text": "Hear it in the middle? Not ja. More like a gentle h from the throat.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-5-1.mp3",
+          "hash": "b33091b63351247c76b5abae0ab8ef0cfe2c92b7f753ddec313e2723c52cf5b8"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-6": {
+      "segments": [
+        {
+          "text": "Now take the English word general. Say it with the Spanish throat sound.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-6-1.mp3",
+          "hash": "302c856ca571348535d1adca5085645f0e662f4a313ac12159831ef1fdd0c987"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-7": {
+      "segments": [
+        {
+          "text": "En español, general.",
+          "lang": "es",
+          "file": "lesson-07-j-sound-segment-7-1.mp3",
+          "hash": "4d6a9054ae439a551521013330211c5060ccc4f8f13bf9dd82c44a7b4846a94b"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-8": {
+      "segments": [
+        {
+          "text": "Good. Same word shape, different sound.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-8-1.mp3",
+          "hash": "2cb1359371937ef8d007befa1817d5e17c3e7f6cf3251d5e33a674b450766398"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-9": {
+      "segments": [
+        {
+          "text": "Try one more. Say the English word original with that same throat sound.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-9-1.mp3",
+          "hash": "e30f211c83942a2ca5b585022b4872f92997e8a116b913f350437549fa1b6b1c"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-10": {
+      "segments": [
+        {
+          "text": "En español, original.",
+          "lang": "es",
+          "file": "lesson-07-j-sound-segment-10-1.mp3",
+          "hash": "73c8091c3d98668055d0355c375eab892de579914ffc9d2c1ac00a4d9889bd21"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-11": {
+      "segments": [
+        {
+          "text": "Same move with words you already know.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-11-1.mp3",
+          "hash": "41f81655bf8812f64b7711fbfe2bfa87c3e040b0520ec3f6090d072d54eccf1c"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-12": {
+      "segments": [
+        {
+          "text": "Take the English word digital. Give it the Spanish throat sound.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-12-1.mp3",
+          "hash": "ae3f7e3867de2a0db3ff38df3a7a9a7aee2f0458ad6e35bc99a5820b1e2f0b36"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-13": {
+      "segments": [
+        {
+          "text": "En español, digital.",
+          "lang": "es",
+          "file": "lesson-07-j-sound-segment-13-1.mp3",
+          "hash": "6fe396427b57da9b7a30523f5fa0db1087258b1f73d486265bfddc28519caa9e"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-14": {
+      "segments": [
+        {
+          "text": "And try regional with that same sound.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-14-1.mp3",
+          "hash": "8b69338eed59e33cc7c9ad5980f00b47775635b43fe6e19a8c6f0bd9cd573e8f"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-15": {
+      "segments": [
+        {
+          "text": "En español, regional.",
+          "lang": "es",
+          "file": "lesson-07-j-sound-segment-15-1.mp3",
+          "hash": "1b5f4012334e2d8eb074cd6ce45551a0d880c53f93824b011d52f1101d9e0501"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-16": {
+      "segments": [
+        {
+          "text": "Good. You changed one sound, four times.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-16-1.mp3",
+          "hash": "6cd774f9616daebdb13ff5b3388a2860adb3073017a1fda3d91eff1943f1c1ee"
+        }
+      ]
+    },
+    "lesson-07-j-sound-segment-17": {
+      "segments": [
+        {
+          "text": "Listen for the English j sound. In Spanish, let it breathe from the throat.",
+          "lang": "en",
+          "file": "lesson-07-j-sound-segment-17-1.mp3",
+          "hash": "278cd039335e9dbf8c178492a8bcb8d95d8acf0e0b3ce39c12d10d7c2237977a"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-1": {
+      "segments": [
+        {
+          "text": "Some English words carry over into Spanish, but your mouth has to switch languages.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-1-1.mp3",
+          "hash": "471d45425f2549e8d5136f506389bef4c2b1026062afdb90058a4e481ff1d4d1"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-2": {
+      "segments": [
+        {
+          "text": "Today, use Spanish vowels and Spanish rhythm for words ending in ible and able.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-2-1.mp3",
+          "hash": "85c261562780fb3014bfcd974c0e2992a02564ff7b58e4f6808a3046e303c13c"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-3": {
+      "segments": [
+        {
+          "text": "Start with the English sentence: it is possible. Say it as English first, then switch into Spanish.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-3-1.mp3",
+          "hash": "ae82be920b747245bd39e1ad7059f1834291dfb26ce6448e51579ac47016f5e9"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-4": {
+      "segments": [
+        {
+          "text": "Build the whole sentence: it is possible.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-4-1.mp3",
+          "hash": "2f410baf4b6370076939a15f29a0e9e52d37b9ae0eba9d0abe0a44abd6c54da9"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-5": {
+      "segments": [
+        {
+          "text": "Es posible.",
+          "lang": "es",
+          "file": "lesson-08-able-ible-segment-5-1.mp3",
+          "hash": "2c3783228ccffe8a8b40ae85adf80dc8403c0db831bd5d6216c9fa847b7bddd9"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-6": {
+      "segments": [
+        {
+          "text": "Good. You built the sentence, then let possible become Spanish in your mouth.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-6-1.mp3",
+          "hash": "5aaff7d861fe84a80f40eb3a50bbd327e2fb1f2baf5c8e2756d1f46d53320ee2"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-7": {
+      "segments": [
+        {
+          "text": "Now do the same move with the English sentence: it is probable.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-7-1.mp3",
+          "hash": "5d9351f99b706f1eabdeb9769c6e9b9641328fa77b27c8f756081623ba93f67f"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-8": {
+      "segments": [
+        {
+          "text": "Build the whole sentence: it is probable.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-8-1.mp3",
+          "hash": "e923d04d8962dc887935e1cd25978742874989d86abb20824b4e2ac53fd9a510"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-9": {
+      "segments": [
+        {
+          "text": "Es probable.",
+          "lang": "es",
+          "file": "lesson-08-able-ible-segment-9-1.mp3",
+          "hash": "6a3046709d96c7e75d51438f488d92b3d7dc172f39b175ec2b6602b65cb5e852"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-10": {
+      "segments": [
+        {
+          "text": "Good. Don't listen for a brand new word. Listen for the language switch.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-10-1.mp3",
+          "hash": "e885c3c874ed16b962eceace366509bf156d14329dd4fa10066ce185385eaec5"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-11": {
+      "segments": [
+        {
+          "text": "Try one more full sentence: it is flexible.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-11-1.mp3",
+          "hash": "b1482c517ac42728fa88e9eb5fccc29708ff04ee3e53e20adc7acc17d5b449c5"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-12": {
+      "segments": [
+        {
+          "text": "Es flexible.",
+          "lang": "es",
+          "file": "lesson-08-able-ible-segment-12-1.mp3",
+          "hash": "be03b4537eb24b44bcec7eafb8bf441a70b195fe4a8b30ecd9dd68b70c48ae93"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-13": {
+      "segments": [
+        {
+          "text": "Now bring back mente, the ending for many ly words.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-13-1.mp3",
+          "hash": "e411bee65d6d68f96621e95f751c80861fdcc3a90dc4ee65d14bbf6178e4e0cc"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-14": {
+      "segments": [
+        {
+          "text": "Say probably in Spanish.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-14-1.mp3",
+          "hash": "a9a64c53ac6d99b2168d49c2a15221ef7db5e3ea6e7d0fe439aa225204bebf94"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-15": {
+      "segments": [
+        {
+          "text": "En español, probablemente.",
+          "lang": "es",
+          "file": "lesson-08-able-ible-segment-15-1.mp3",
+          "hash": "d3b54503b42b13667de497a314d9824af9d596e65af34a8baf3117f1b12bd7c6"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-16": {
+      "segments": [
+        {
+          "text": "And say possibly in Spanish.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-16-1.mp3",
+          "hash": "c6f17a161943ea911e0c5e4ccfcdcd4287da5f39a9240b343946e58bf0fcf662"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-17": {
+      "segments": [
+        {
+          "text": "En español, posiblemente.",
+          "lang": "es",
+          "file": "lesson-08-able-ible-segment-17-1.mp3",
+          "hash": "6ae1776d824ec0848129cc50037e4a610d16d8474b0c41cf665c5b9fb8040bac"
+        }
+      ]
+    },
+    "lesson-08-able-ible-segment-18": {
+      "segments": [
+        {
+          "text": "Good. English gives you the word. Spanish gives you the sound.",
+          "lang": "en",
+          "file": "lesson-08-able-ible-segment-18-1.mp3",
+          "hash": "7d8ed79bc84491b39384937fe6c331399618b3bb07f4c549376d6c6312ac0fe8"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-1": {
+      "segments": [
+        {
+          "text": "This is why Spanish feels hackable.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-1-1.mp3",
+          "hash": "57512a7efe36d3642aa22371b5748c8293b6069ce94d397a7d1974edf557d747"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-2": {
+      "segments": [
+        {
+          "text": "Es means it is.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-2-1.mp3",
+          "hash": "33e0b27f3938c904f69b44c7f6a0d424d442eff4192ac08d000691a280764e82"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-3": {
+      "segments": [
+        {
+          "text": "Say: it is",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-3-1.mp3",
+          "hash": "eb6f7f7b5f9a65990f67cb031060dcf1080ebdcaf5cc0a9db9aaa9fe08bc53b0"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-4": {
+      "segments": [
+        {
+          "text": "En español: Es.",
+          "lang": "es",
+          "file": "lesson-09-first-stack-segment-4-1.mp3",
+          "hash": "7317d029cb654cdf6bb4cc5de98a6e9dcd160a9981b5e07f5a045cfb36ede626"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-5": {
+      "segments": [
+        {
+          "text": "The English word urgent changes in Spanish.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-5-1.mp3",
+          "hash": "58d0baf78bff149b6dcea36e85bb1b397a193df0556f72da538aee59e4751130"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-6": {
+      "segments": [
+        {
+          "text": "Say: urgent",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-6-1.mp3",
+          "hash": "7cdaf581b9853c07567b96d23d1e10b94cb2c9e4843abf8e5dfff328f9b66ff4"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-7": {
+      "segments": [
+        {
+          "text": "En español: urgente.",
+          "lang": "es",
+          "file": "lesson-09-first-stack-segment-7-1.mp3",
+          "hash": "6e47e357afee71df715c938b429e2112e7041fa6c23824242e7ee4079dac253f"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-8": {
+      "segments": [
+        {
+          "text": "Now use both pieces.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-8-1.mp3",
+          "hash": "bbb15a2b35c6653df8f62e6e57a29fcac118fc8d0dce7611bbd5eafc6c3ff421"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-9": {
+      "segments": [
+        {
+          "text": "It is urgent.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-9-1.mp3",
+          "hash": "d5354902abc04115bdb2b3fca14bc5b129fc2ab8cbccf98395a5ba4e55a9d2ae"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-10": {
+      "segments": [
+        {
+          "text": "En español: Es urgente.",
+          "lang": "es",
+          "file": "lesson-09-first-stack-segment-10-1.mp3",
+          "hash": "b2c7a91087a65c34d2913841aa83808ba67848557dc2a71541ae3cc4e5282a89"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-11": {
+      "segments": [
+        {
+          "text": "Important changes the same way.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-11-1.mp3",
+          "hash": "866a21c3b84bd6d371b51beacbf11c80594b822e50a156fd8c8a4b4e821210a1"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-12": {
+      "segments": [
+        {
+          "text": "Say: important",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-12-1.mp3",
+          "hash": "ab33382f588bcf44d41b039da8540bbcc2e7d7ac2650f4cd9836444190c02560"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-13": {
+      "segments": [
+        {
+          "text": "En español: importante.",
+          "lang": "es",
+          "file": "lesson-09-first-stack-segment-13-1.mp3",
+          "hash": "7a1307b17ef4dfa1bfe57e5cdabaaf9bcad781933ea625e6a358e52abcd81d7f"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-14": {
+      "segments": [
+        {
+          "text": "It is important.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-14-1.mp3",
+          "hash": "2035f7e77ff105dacd9297ac803cd3b47de57cd0eb7e44822ceb8ece1ab93808"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-15": {
+      "segments": [
+        {
+          "text": "En español: Es importante.",
+          "lang": "es",
+          "file": "lesson-09-first-stack-segment-15-1.mp3",
+          "hash": "10915a0f62184fd131e57b5fc796c2109639c457572af75aa1bfed251a23b4a5"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-16": {
+      "segments": [
+        {
+          "text": "For many English words that end in L Y, Spanish uses mente.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-16-1.mp3",
+          "hash": "c4155407639a5e12b53f2b6f648c939f2695a9f57b1a86e521d18e96ced78f69"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-17": {
+      "segments": [
+        {
+          "text": "Real becomes really.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-17-1.mp3",
+          "hash": "8bcf342d6debb6b3ee5d031e86f546c33cd3ba6229933f2ee739c467e1a505ad"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-18": {
+      "segments": [
+        {
+          "text": "En español: real. En español: realmente.",
+          "lang": "es",
+          "file": "lesson-09-first-stack-segment-18-1.mp3",
+          "hash": "b872ad4fa2672dfd6f701619f1cb69360593ff07c1c276fae1f9a36c5158b294"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-19": {
+      "segments": [
+        {
+          "text": "Now build it.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-19-1.mp3",
+          "hash": "f8b49c3b37c43fa8bec671c549523216622dbee8fead9a74bfbaa9070ce4f3fe"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-20": {
+      "segments": [
+        {
+          "text": "Really, it is urgent.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-20-1.mp3",
+          "hash": "d5463e3927a8d3873cc7604a791a9e508845a76fbfb37dd71696629b3c1c30af"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-21": {
+      "segments": [
+        {
+          "text": "En español: Realmente es urgente.",
+          "lang": "es",
+          "file": "lesson-09-first-stack-segment-21-1.mp3",
+          "hash": "755b7f43093af9744c7e54dc62fc106700f4428cfd21adaa91e616488caa1e83"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-22": {
+      "segments": [
+        {
+          "text": "Really, it is important.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-22-1.mp3",
+          "hash": "f72d4b386a8b74ae435fe8b6347a6b756e8192a36adb9361e9fe91201725db44"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-23": {
+      "segments": [
+        {
+          "text": "En español: Realmente es importante.",
+          "lang": "es",
+          "file": "lesson-09-first-stack-segment-23-1.mp3",
+          "hash": "2ffccd81a64ed76a015cc843367cb724a1dc91492b2f8515078704df237deeaf"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-24": {
+      "segments": [
+        {
+          "text": "Last one. You have not seen this full sentence here, but you have the pieces.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-24-1.mp3",
+          "hash": "d87bf38a938100e62cc9275499fc15041a7ad0b6019c708ba3266a2c21eb5ddc"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-25": {
+      "segments": [
+        {
+          "text": "Really, it is not normal.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-25-1.mp3",
+          "hash": "d0f9f183297c41fd33710d848023c54cb9512a257388481221c97797e24984f3"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-26": {
+      "segments": [
+        {
+          "text": "En español: Realmente no es normal.",
+          "lang": "es",
+          "file": "lesson-09-first-stack-segment-26-1.mp3",
+          "hash": "849e7fee6da5d2a93630238d01005d14516f1e41f72467466270dedbcf32ea5f"
+        }
+      ]
+    },
+    "lesson-09-first-stack-segment-27": {
+      "segments": [
+        {
+          "text": "That is the point. You are building, not memorizing.",
+          "lang": "en",
+          "file": "lesson-09-first-stack-segment-27-1.mp3",
+          "hash": "51589c7356e309b092e0bee1d34ab190ba7bf06c05aa57f556773df2cd562c1e"
+        }
+      ]
+    }
+  }
+}
