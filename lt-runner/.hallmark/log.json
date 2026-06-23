@@ -7,5 +7,14 @@
     "vibe": "warm paper, focused listening",
     "enrichment": "none (ambient equalizer)",
     "brief": "Cognates lesson player redesign — drop captions during playback, karaoke-fallback focus visual, de-slop"
+  },
+  {
+    "date": "2026-06-22",
+    "macrostructure": "Workbench",
+    "theme": "custom warm-paper",
+    "theme_axes": "light / classical-serif / warm",
+    "vibe": "course ledger, focused continuation",
+    "enrichment": "none",
+    "brief": "Homepage redesign — align course picker with cognates lesson player, remove card pileup, voice-first next action"
   }
 ]

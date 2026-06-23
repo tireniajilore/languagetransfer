@@ -58,7 +58,7 @@ textarea {
 .font-display {
   font-family: var(--font-display), Georgia, 'Times New Roman', serif;
   font-style: normal;
-  letter-spacing: -0.012em;
+  letter-spacing: 0;
 }
 
 /* per-step crossfade — the only spatial motion in the player */

@@ -12,6 +12,21 @@ interface DemandCardProps {
 
 const ratingOptions = [1, 2, 3, 4, 5];
 
+const choiceButton =
+  'rounded-full border px-5 py-3 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]';
+
+function choiceClass(active: boolean) {
+  return active
+    ? `${choiceButton} border-[var(--accent)] bg-[var(--accent)] text-[var(--accent-ink)]`
+    : `${choiceButton} border-[var(--rule)] bg-[var(--paper)] text-[var(--ink-2)] hover:bg-[var(--paper-3)] hover:text-[var(--ink)]`;
+}
+
+function ratingClass(active: boolean) {
+  return active
+    ? 'h-11 w-11 rounded-full border border-[var(--accent)] bg-[var(--accent)] text-sm font-semibold text-[var(--accent-ink)] transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]'
+    : 'h-11 w-11 rounded-full border border-[var(--rule)] bg-[var(--paper)] text-sm font-semibold text-[var(--ink-2)] transition hover:bg-[var(--paper-3)] hover:text-[var(--ink)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]';
+}
+
 export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
   const [interest, setInterest] = useState<NextLessonInterest | ''>('');
   const [email, setEmail] = useState('');
@@ -94,10 +109,10 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
 
   if (status === 'success') {
     return (
-      <section className="rounded-[2rem] bg-white/80 p-8 shadow-panel backdrop-blur">
-        <p className="text-sm uppercase tracking-[0.25em] text-ink/45">Thanks</p>
-        <h3 className="mt-4 text-3xl font-semibold text-ink">That’s really helpful.</h3>
-        <p className="mt-4 max-w-2xl text-base leading-7 text-ink/70">
+      <section className="rounded-2xl border border-[var(--rule)] bg-[var(--paper-2)] p-6">
+        <p className="text-sm font-semibold text-[var(--accent)]">Thanks</p>
+        <h3 className="mt-3 font-display text-2xl text-[var(--ink)]">That’s really helpful.</h3>
+        <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--ink-2)]">
           I’ve saved your response. If you left your email, I’ll use it to send the next lesson when it’s ready.
         </p>
       </section>
@@ -105,27 +120,23 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
   }
 
   return (
-    <section className="rounded-[2rem] bg-white/80 p-8 shadow-panel backdrop-blur">
-      <p className="text-sm uppercase tracking-[0.25em] text-ink/45">Next Lesson</p>
-      <h3 className="mt-4 text-3xl font-semibold text-ink">Would you want the next lesson like this?</h3>
-      <p className="mt-4 max-w-2xl text-base leading-7 text-ink/70">
+    <section className="rounded-2xl border border-[var(--rule)] bg-[var(--paper-2)] p-6">
+      <p className="text-sm font-semibold text-[var(--accent)]">Next lesson</p>
+      <h3 className="mt-3 font-display text-2xl text-[var(--ink)]">Would you want the next lesson like this?</h3>
+      <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--ink-2)]">
         I’m testing whether this format is worth building out. A quick answer here tells me a lot.
       </p>
 
       <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
         <div>
-          <p className="text-sm font-medium text-ink/70">Would you continue?</p>
+          <p className="text-sm font-medium text-[var(--ink-2)]">Would you continue?</p>
           <div className="mt-3 flex flex-wrap gap-3">
             {(['yes', 'maybe', 'no'] as NextLessonInterest[]).map((option) => (
               <button
                 key={option}
                 type="button"
                 onClick={() => setInterest(option)}
-                className={`rounded-full px-5 py-3 text-sm font-semibold transition ${
-                  interest === option
-                    ? 'bg-leaf text-white'
-                    : 'border border-ink/15 bg-white text-ink hover:bg-white/90'
-                }`}
+                className={choiceClass(interest === option)}
               >
                 {option === 'yes' ? 'Yes' : option === 'maybe' ? 'Maybe' : 'No'}
               </button>
@@ -135,7 +146,7 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
 
         {needsEmail ? (
           <div>
-            <label htmlFor="demand-email" className="text-sm font-medium text-ink/70">
+            <label htmlFor="demand-email" className="text-sm font-medium text-[var(--ink-2)]">
               Email
             </label>
             <input
@@ -144,13 +155,13 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
               value={email}
               onChange={(event) => setEmail(event.target.value)}
               placeholder="you@example.com"
-              className="mt-2 w-full rounded-2xl border border-ink/10 bg-white px-4 py-3 text-base text-ink outline-none transition focus:border-ink/30"
+              className="mt-2 min-h-12 w-full rounded-full border border-[var(--rule)] bg-[var(--paper)] px-5 text-base text-[var(--ink)] outline-none transition placeholder:text-[var(--ink-3)] focus:border-[var(--ink-3)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]"
             />
           </div>
         ) : null}
 
         <div>
-          <p className="text-sm font-medium text-ink/70">What kept you going?</p>
+          <p className="text-sm font-medium text-[var(--ink-2)]">What kept you going?</p>
           <div className="mt-3 flex flex-wrap gap-3">
             {([
               ['teaching_style', 'The teaching style'],
@@ -162,11 +173,7 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
                 key={value}
                 type="button"
                 onClick={() => setKeepGoingReason(value)}
-                className={`rounded-full px-5 py-3 text-sm font-semibold transition ${
-                  keepGoingReason === value
-                    ? 'bg-leaf text-white'
-                    : 'border border-ink/15 bg-white text-ink hover:bg-white/90'
-                }`}
+                className={choiceClass(keepGoingReason === value)}
               >
                 {label}
               </button>
@@ -175,7 +182,7 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
         </div>
 
         <div>
-          <p className="text-sm font-medium text-ink/70">How did you find this?</p>
+          <p className="text-sm font-medium text-[var(--ink-2)]">How did you find this?</p>
           <div className="mt-3 flex flex-wrap gap-3">
             {([
               ['discord', 'Discord'],
@@ -188,11 +195,7 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
                 key={value}
                 type="button"
                 onClick={() => setDiscoveryChannel(value)}
-                className={`rounded-full px-5 py-3 text-sm font-semibold transition ${
-                  discoveryChannel === value
-                    ? 'bg-leaf text-white'
-                    : 'border border-ink/15 bg-white text-ink hover:bg-white/90'
-                }`}
+                className={choiceClass(discoveryChannel === value)}
               >
                 {label}
               </button>
@@ -201,18 +204,14 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
         </div>
 
         <div>
-          <p className="text-sm font-medium text-ink/70">How useful was this lesson?</p>
+          <p className="text-sm font-medium text-[var(--ink-2)]">How useful was this lesson?</p>
           <div className="mt-3 flex flex-wrap gap-3">
             {ratingOptions.map((value) => (
               <button
                 key={value}
                 type="button"
                 onClick={() => setRating(value)}
-                className={`h-11 w-11 rounded-full text-sm font-semibold transition ${
-                  rating === value
-                    ? 'bg-coral text-white'
-                    : 'border border-ink/15 bg-white text-ink hover:bg-white/90'
-                }`}
+                className={ratingClass(rating === value)}
               >
                 {value}
               </button>
@@ -221,7 +220,7 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
         </div>
 
         <div>
-          <label htmlFor="demand-feedback" className="text-sm font-medium text-ink/70">
+          <label htmlFor="demand-feedback" className="text-sm font-medium text-[var(--ink-2)]">
             What felt confusing or frustrating?
           </label>
           <textarea
@@ -230,7 +229,7 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
             onChange={(event) => setFeedbackText(event.target.value)}
             rows={4}
             placeholder="Optional, but very useful."
-            className="mt-2 w-full rounded-2xl border border-ink/10 bg-white px-4 py-3 text-base text-ink outline-none transition focus:border-ink/30"
+            className="mt-2 w-full rounded-2xl border border-[var(--rule)] bg-[var(--paper)] px-4 py-3 text-base text-[var(--ink)] outline-none transition placeholder:text-[var(--ink-3)] focus:border-[var(--ink-3)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)]"
           />
         </div>
 
@@ -246,13 +245,13 @@ export function DemandCard({ lessonId, completionPercent }: DemandCardProps) {
         </div>
 
         {errorMessage ? (
-          <p className="text-sm text-coral">{errorMessage}</p>
+          <p className="text-sm text-[var(--accent)]">{errorMessage}</p>
         ) : null}
 
         <button
           type="submit"
           disabled={!canSubmit || status === 'submitting'}
-          className="rounded-full bg-ink px-6 py-4 text-base font-semibold text-white transition hover:bg-ink/90 disabled:cursor-not-allowed disabled:bg-ink/40"
+          className="rounded-full bg-[var(--ink)] px-6 py-4 text-base font-semibold text-[var(--paper)] transition hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)] disabled:cursor-not-allowed disabled:opacity-40"
         >
           {status === 'submitting' ? 'Saving...' : 'Send feedback'}
         </button>

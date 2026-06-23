@@ -88,7 +88,7 @@ export function CognatesSaveProgressCard({
   if (status === 'success') {
     return (
       <section className="rounded-2xl border border-[var(--rule)] bg-[var(--paper-2)] p-6">
-        <p className="text-[0.7rem] font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">Saved</p>
+        <p className="text-sm font-semibold text-[var(--accent)]">Saved</p>
         <h2 className="mt-3 font-display text-2xl text-[var(--ink)]">Progress saved here. Next lesson ready.</h2>
         <p className="mt-3 text-sm leading-6 text-[var(--ink-2)]">
           This browser will remember your path, and your email is saved for the next lesson loop.
@@ -98,8 +98,8 @@ export function CognatesSaveProgressCard({
   }
 
   return (
-    <section className="rounded-[1.5rem] bg-white/85 p-6 shadow-panel backdrop-blur">
-      <p className="text-[0.7rem] font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">Save progress</p>
+    <section className="rounded-2xl border border-[var(--rule)] bg-[var(--paper-2)] p-6">
+      <p className="text-sm font-semibold text-[var(--accent)]">Save progress</p>
       <h2 className="mt-3 font-display text-2xl text-[var(--ink)]">Want the next lesson?</h2>
       <p className="mt-3 text-sm leading-6 text-[var(--ink-2)]">
         Your progress is already saved in this browser. Add your email if you want the next lesson path.
