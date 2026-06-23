@@ -1,0 +1,596 @@
+{
+  "lessonId": "cognates-sounds-like-spanish",
+  "generatedAt": "2026-06-23T00:41:19.404Z",
+  "entries": {
+    "spanish-cognates-01-segment-1": {
+      "segments": [
+        {
+          "text": "You already speak Spanish. You just don't know it yet.",
+          "lang": "en",
+          "file": "spanish-cognates-01-segment-1-1.mp3",
+          "hash": "772e37fd7ce603dbc03fbbd5908402797d0415399dbc351b32c41d069d05179a"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-2": {
+      "segments": [
+        {
+          "text": "Hundreds of English words are almost identical in Spanish. Just move the stress to the end.",
+          "lang": "en",
+          "file": "spanish-cognates-01-segment-2-1.mp3",
+          "hash": "b9a78a9c023d859966a8f9005945740abf0261e0f80df21aec6c40e9ea5fbefc"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-3": {
+      "segments": [
+        {
+          "text": "How do you say animal?",
+          "lang": "en",
+          "file": "spanish-cognates-01-segment-3-1.mp3",
+          "hash": "b2c3178bb8d7679926c9b7ca5135d13800a878b116c49032ebb917d7b2efcbfe"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-4": {
+      "segments": [
+        {
+          "text": "Animal.",
+          "lang": "es",
+          "file": "spanish-cognates-01-segment-4-1.mp3",
+          "hash": "13d8680a8b494d91e3d1304b2f86499bccd11ae67c9e1c850acf7949eb9c38ec"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-5": {
+      "segments": [
+        {
+          "text": "How do you say hospital?",
+          "lang": "en",
+          "file": "spanish-cognates-01-segment-5-1.mp3",
+          "hash": "c67ba99dcd313f9404bed1fa0b678f14b3f440dbfdc6e524f46152d77e1dbc0d"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-6": {
+      "segments": [
+        {
+          "text": "Hospital.",
+          "lang": "es",
+          "file": "spanish-cognates-01-segment-6-1.mp3",
+          "hash": "12c266b8ea86c3eafeb7d3e9ce6fef528a3eca024b50ea346ebcef6959fe7349"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-7": {
+      "segments": [
+        {
+          "text": "How do you say capital?",
+          "lang": "en",
+          "file": "spanish-cognates-01-segment-7-1.mp3",
+          "hash": "f4f12c4ae565aab4564b0040ba1b66a96e1a6e9055baf6899dd1d940a0875aa7"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-8": {
+      "segments": [
+        {
+          "text": "Capital.",
+          "lang": "es",
+          "file": "spanish-cognates-01-segment-8-1.mp3",
+          "hash": "2617b5275c478c02ed4a92746977ba16bd314205f2d1e6cbc620933dfef01935"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-9": {
+      "segments": [
+        {
+          "text": "How do you say natural?",
+          "lang": "en",
+          "file": "spanish-cognates-01-segment-9-1.mp3",
+          "hash": "684164ab41c92038ffb7eee511908bc6c7fe1e12296bb31ccc0be8a6ce8e4a8c"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-10": {
+      "segments": [
+        {
+          "text": "Natural.",
+          "lang": "es",
+          "file": "spanish-cognates-01-segment-10-1.mp3",
+          "hash": "098384f1b05c60dd3e8d34df9ee96a99783805c1e4e0049830a9bee14bc0399e"
+        }
+      ]
+    },
+    "spanish-cognates-01-segment-11": {
+      "segments": [
+        {
+          "text": "That's hundreds of words you already know. Follow for the free course.",
+          "lang": "en",
+          "file": "spanish-cognates-01-segment-11-1.mp3",
+          "hash": "f0bab3b758246a26116af3af63c3e1d848b325db24af6cbf28106779916393f6"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-1": {
+      "segments": [
+        {
+          "text": "Reading Spanish out loud is way easier than English. Here's the reason.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-1-1.mp3",
+          "hash": "05b107189a6edc040600c58ccd0c73e3388ebf64f6dc2958afb4d47f1d046499"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-2": {
+      "segments": [
+        {
+          "text": "English vowels are chaos.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-2-1.mp3",
+          "hash": "de1aa26795bbdcdd03a4a92f4f90a70ce48438fdc3739734fb489e08953747eb"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-3": {
+      "segments": [
+        {
+          "text": "A says apple. May. About. One letter, three sounds.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-3-1.mp3",
+          "hash": "f0e8a1200ac2905f64481bb5b52501b5d02b133402868d9e53000007a24c1640"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-4": {
+      "segments": [
+        {
+          "text": "Spanish vowels never move. Five sounds, locked.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-4-1.mp3",
+          "hash": "9920655b6f9b43b71d4c4e7aa0759c48fd9e25bbda2a844b0dc8a2c5ea435e75"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-5": {
+      "segments": [
+        {
+          "text": "a, e, i, o, u.",
+          "lang": "es",
+          "file": "lesson-02-vowels-segment-5-1.mp3",
+          "hash": "a74ee2d30044011868573ebe3b8742c0732054ea3a4602ac67c5edd3a257eca4"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-6": {
+      "segments": [
+        {
+          "text": "Take the English word natural.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-6-1.mp3",
+          "hash": "36085e608786c78e5a3e2eed3ddcb6d36bd114b57d224d2d119df8a6860c96b3"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-7": {
+      "segments": [
+        {
+          "text": "En español, natural.",
+          "lang": "es",
+          "file": "lesson-02-vowels-segment-7-1.mp3",
+          "hash": "c19a4b8d2ab5e6f18da9c8ada964ec3b22042076f5641e9e4bc5629b2e89a8d8"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-8": {
+      "segments": [
+        {
+          "text": "Take the English word metal.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-8-1.mp3",
+          "hash": "bac1a3ede9ec8e43fe86ceefd91a73c38d82b7f0284b470662ce90e2d310fe37"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-9": {
+      "segments": [
+        {
+          "text": "En español, metal.",
+          "lang": "es",
+          "file": "lesson-02-vowels-segment-9-1.mp3",
+          "hash": "a91c8648aefbb020cb1f8ab2a7539ee92a957c932be81734ba2f11c46d19b9e5"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-10": {
+      "segments": [
+        {
+          "text": "Take the English word legal.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-10-1.mp3",
+          "hash": "cfce9573936741db62621d6f73b89d4b1de1944e56838c8b14dfba3a70eba41e"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-11": {
+      "segments": [
+        {
+          "text": "En español, legal.",
+          "lang": "es",
+          "file": "lesson-02-vowels-segment-11-1.mp3",
+          "hash": "79f2a65e6802c383bd2619af6b7439fb3fa6dab83263e936344243b883e7155d"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-12": {
+      "segments": [
+        {
+          "text": "Take the English word ideal.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-12-1.mp3",
+          "hash": "bda1fec1ea472e5890bbc55c2c3a4e88d6f26227f76b4affee3340706352dcd7"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-13": {
+      "segments": [
+        {
+          "text": "En español, ideal.",
+          "lang": "es",
+          "file": "lesson-02-vowels-segment-13-1.mp3",
+          "hash": "57395b7f1c2c6ba778b47a60fd84fdfeeaf58f7b1212160ca097590877ca49dd"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-14": {
+      "segments": [
+        {
+          "text": "You didn't memorize four words.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-14-1.mp3",
+          "hash": "af16120b7ff74bc0be1d3cd9a5801203374896e4128a26a8b7139e23d9b8be94"
+        }
+      ]
+    },
+    "lesson-02-vowels-segment-15": {
+      "segments": [
+        {
+          "text": "You learned five sounds, and now you can read all of them.",
+          "lang": "en",
+          "file": "lesson-02-vowels-segment-15-1.mp3",
+          "hash": "888574824b5df3766a79c76d11eec925d8cb27c81584aeb485b52684167623e8"
+        }
+      ]
+    },
+    "lesson-03-es-segment-1": {
+      "segments": [
+        {
+          "text": "One tiny Spanish word builds a whole pile of sentences. Here it is.",
+          "lang": "en",
+          "file": "lesson-03-es-segment-1-1.mp3",
+          "hash": "ca90835511d2c922ba5b503d1d7f6b80336df650328f62b502b318fd6eecc311"
+        }
+      ]
+    },
+    "lesson-03-es-segment-2": {
+      "segments": [
+        {
+          "text": "Es.",
+          "lang": "es",
+          "file": "lesson-03-es-segment-2-1.mp3",
+          "hash": "21ba1368ceb9b4d1b1f1d250346070fca9286183114b488ef4d5351cad8fcf71"
+        }
+      ]
+    },
+    "lesson-03-es-segment-3": {
+      "segments": [
+        {
+          "text": "That little word means is. Keep the S sound clean.",
+          "lang": "en",
+          "file": "lesson-03-es-segment-3-1.mp3",
+          "hash": "f6fb40755afb4035ff4b69905ac2bc9d0b73931c49ff476020dc6a6a9992ad0c"
+        }
+      ]
+    },
+    "lesson-03-es-segment-4": {
+      "segments": [
+        {
+          "text": "You already know words like normal, legal, and natural. So now put it together.",
+          "lang": "en",
+          "file": "lesson-03-es-segment-4-1.mp3",
+          "hash": "8e169ad79042732bcf14c89d22bb82762923591bf1c2bd9aa2eb6f0fabe3905d"
+        }
+      ]
+    },
+    "lesson-03-es-segment-5": {
+      "segments": [
+        {
+          "text": "How would you say: it is normal?",
+          "lang": "en",
+          "file": "lesson-03-es-segment-5-1.mp3",
+          "hash": "f7115a89c991f613f2ee25de18bb47163350a7f63252025547d7057d3dd2da6b"
+        }
+      ]
+    },
+    "lesson-03-es-segment-6": {
+      "segments": [
+        {
+          "text": "Es normal.",
+          "lang": "es",
+          "file": "lesson-03-es-segment-6-1.mp3",
+          "hash": "ac1eb3ecd3a34ab50771c2617bb2b5203c8a8f855e3d019d2767b01d80cce8d6"
+        }
+      ]
+    },
+    "lesson-03-es-segment-7": {
+      "segments": [
+        {
+          "text": "How would you say: it is legal?",
+          "lang": "en",
+          "file": "lesson-03-es-segment-7-1.mp3",
+          "hash": "a9f19bab0b517203b7777781743ea526c78911d0615c396e48b1d02ffea34eaa"
+        }
+      ]
+    },
+    "lesson-03-es-segment-8": {
+      "segments": [
+        {
+          "text": "Es legal.",
+          "lang": "es",
+          "file": "lesson-03-es-segment-8-1.mp3",
+          "hash": "43b0c8c7139e514045c476a3a9f3ecbcdf16e539c671906816b5308f9219b689"
+        }
+      ]
+    },
+    "lesson-03-es-segment-9": {
+      "segments": [
+        {
+          "text": "How would you say: it is natural?",
+          "lang": "en",
+          "file": "lesson-03-es-segment-9-1.mp3",
+          "hash": "a502bed522ea58a7c9e801b1386a58016c63623bab7c5aa5e2be0a43fb5558ce"
+        }
+      ]
+    },
+    "lesson-03-es-segment-10": {
+      "segments": [
+        {
+          "text": "Es natural.",
+          "lang": "es",
+          "file": "lesson-03-es-segment-10-1.mp3",
+          "hash": "c57303d14991ddf3d22a2b8f7f69040274617f2bfefe359fe9b918066261d04a"
+        }
+      ]
+    },
+    "lesson-03-es-segment-11": {
+      "segments": [
+        {
+          "text": "Es is also the same word for he is and she is.",
+          "lang": "en",
+          "file": "lesson-03-es-segment-11-1.mp3",
+          "hash": "33b315e462b9b0fe8285d91c9837038c6969ab013e44bd4e92b0408efc3d1b7f"
+        }
+      ]
+    },
+    "lesson-03-es-segment-12": {
+      "segments": [
+        {
+          "text": "Try this one: he is liberal.",
+          "lang": "en",
+          "file": "lesson-03-es-segment-12-1.mp3",
+          "hash": "cfc1238c309730b5dceafdf0c0f3af2ed01d58d3a64da6a9312d1f1e2c170d4a"
+        }
+      ]
+    },
+    "lesson-03-es-segment-13": {
+      "segments": [
+        {
+          "text": "Es liberal.",
+          "lang": "es",
+          "file": "lesson-03-es-segment-13-1.mp3",
+          "hash": "930031e1acfec363eff7312b12629a871c5e6cd132c6f190c068e0bd0db149fd"
+        }
+      ]
+    },
+    "lesson-03-es-segment-14": {
+      "segments": [
+        {
+          "text": "And now: she is ideal.",
+          "lang": "en",
+          "file": "lesson-03-es-segment-14-1.mp3",
+          "hash": "0cedc8384f4a809a95b6c2ebb2a595dcb7b01688a84cfa32f7529a1cc4d69433"
+        }
+      ]
+    },
+    "lesson-03-es-segment-15": {
+      "segments": [
+        {
+          "text": "Es ideal.",
+          "lang": "es",
+          "file": "lesson-03-es-segment-15-1.mp3",
+          "hash": "08be3010492dfa2b33eade3b0929ce0f871391558232831c70243ff715e8d8db"
+        }
+      ]
+    },
+    "lesson-03-es-segment-16": {
+      "segments": [
+        {
+          "text": "He, she, it. Spanish does not care here. We just use es.",
+          "lang": "en",
+          "file": "lesson-03-es-segment-16-1.mp3",
+          "hash": "d3f62827b118732cda1218db456df12d1add1d014423b619e8c70ef6ccc589e2"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-1": {
+      "segments": [
+        {
+          "text": "Es normal.",
+          "lang": "es",
+          "file": "lesson-04-no-es-segment-1-1.mp3",
+          "hash": "ac1eb3ecd3a34ab50771c2617bb2b5203c8a8f855e3d019d2767b01d80cce8d6"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-2": {
+      "segments": [
+        {
+          "text": "Es normal means it is normal.",
+          "lang": "en",
+          "file": "lesson-04-no-es-segment-2-1.mp3",
+          "hash": "72a3091ab4632e45cdf29f156aef49dc994654c66b320eb21a60d7dfbb7d252e"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-3": {
+      "segments": [
+        {
+          "text": "To make it negative, Spanish does one thing. It puts no in front.",
+          "lang": "en",
+          "file": "lesson-04-no-es-segment-3-1.mp3",
+          "hash": "584a5f89e24f52ea2f19ddda49f8b3c617cf25bf8310db01308f5676b2fb468d"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-4": {
+      "segments": [
+        {
+          "text": "No es normal.",
+          "lang": "es",
+          "file": "lesson-04-no-es-segment-4-1.mp3",
+          "hash": "fbf43d4e782599272372ca85bb4d63160cb3109966357a8f2531d5ea6e018495"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-5": {
+      "segments": [
+        {
+          "text": "That means it is not normal.",
+          "lang": "en",
+          "file": "lesson-04-no-es-segment-5-1.mp3",
+          "hash": "9ec29e47c3dbcb7c307305a8c12680809d201e066abffcb3114ee41a0d04e06e"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-6": {
+      "segments": [
+        {
+          "text": "Now you try: it is not normal.",
+          "lang": "en",
+          "file": "lesson-04-no-es-segment-6-1.mp3",
+          "hash": "ce47de7fef256f519b27a87f1f434cf873adbc31f5bc830e6c55cd73b6d23d9f"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-7": {
+      "segments": [
+        {
+          "text": "No es normal.",
+          "lang": "es",
+          "file": "lesson-04-no-es-segment-7-1.mp3",
+          "hash": "fbf43d4e782599272372ca85bb4d63160cb3109966357a8f2531d5ea6e018495"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-8": {
+      "segments": [
+        {
+          "text": "What about: it is not legal?",
+          "lang": "en",
+          "file": "lesson-04-no-es-segment-8-1.mp3",
+          "hash": "da69b98613a02ece7b9d1131ff2a3c78cfd1213ce52e41a915a8821fd2480105"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-9": {
+      "segments": [
+        {
+          "text": "No es legal.",
+          "lang": "es",
+          "file": "lesson-04-no-es-segment-9-1.mp3",
+          "hash": "717345670ff4b77593dcd922cd93a73e1106274550e9e0ab032e032485315a82"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-10": {
+      "segments": [
+        {
+          "text": "How would you say: it is not ideal?",
+          "lang": "en",
+          "file": "lesson-04-no-es-segment-10-1.mp3",
+          "hash": "98eab00c845e242fa620a924160a5517672530ca8a04759220a678e46f3e5a7d"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-11": {
+      "segments": [
+        {
+          "text": "No es ideal.",
+          "lang": "es",
+          "file": "lesson-04-no-es-segment-11-1.mp3",
+          "hash": "f84301d56e641507223d435a692d8552a8e71e368e9f837a1297e3e3dabceeb9"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-12": {
+      "segments": [
+        {
+          "text": "How would you say: it is not natural?",
+          "lang": "en",
+          "file": "lesson-04-no-es-segment-12-1.mp3",
+          "hash": "a4a41cf4030a218cc36749886748cc16a0e441932c19efb2f682a8f28d084f55"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-13": {
+      "segments": [
+        {
+          "text": "No es natural.",
+          "lang": "es",
+          "file": "lesson-04-no-es-segment-13-1.mp3",
+          "hash": "d2de194c4c9bb80322812faca8f97ac4833fc117d261b0a4c0bb68f8c140bdfe"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-14": {
+      "segments": [
+        {
+          "text": "Now listen to the flip. Same sentence, one word parked in front.",
+          "lang": "en",
+          "file": "lesson-04-no-es-segment-14-1.mp3",
+          "hash": "7ff0b43a5e79934ce4f8f045751b283b73a770a541e98dfc666e19063ebe7ac8"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-15": {
+      "segments": [
+        {
+          "text": "Es normal. No es normal.",
+          "lang": "es",
+          "file": "lesson-04-no-es-segment-15-1.mp3",
+          "hash": "6993de3b5a73fedce512faae299f95115c732397b25615bc51c59091c2984c34"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-16": {
+      "segments": [
+        {
+          "text": "Es legal. No es legal.",
+          "lang": "es",
+          "file": "lesson-04-no-es-segment-16-1.mp3",
+          "hash": "28bdf16735a08010322ed56d37e177f42353e94f643af5aa0404972670c9751b"
+        }
+      ]
+    },
+    "lesson-04-no-es-segment-17": {
+      "segments": [
+        {
+          "text": "You just park no in front. That is the whole move.",
+          "lang": "en",
+          "file": "lesson-04-no-es-segment-17-1.mp3",
+          "hash": "0ed423026f6a83be67ee0d8cc1f2b38796e04a396c2c4535aa7c49001693160c"
+        }
+      ]
+    }
+  }
+}

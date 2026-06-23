@@ -10,7 +10,9 @@ dist/
 .DS_Store
 google-credentials.json
 *.wav
+# allow lt-runner static audio assets
 *.mp3
+!lt-runner/public/audio/**/*.mp3
 data/user_progress/*.json
 .gstack/
 .vercel
