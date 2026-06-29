@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { BrowserSTT } from '@/adapters/stt/browser-stt';
+import { BatchSTT } from '@/adapters/stt/batch-stt';
 import { CognatesSaveProgressCard } from '@/components/cognates-save-progress-card';
 import { COGNATES_COURSE_VERSION } from '@/data/cognates/course';
 import { useLessonEngine } from '@/engine/use-lesson-engine';
@@ -80,8 +80,7 @@ const primaryButton =
 
 export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
   const [progress, setProgress] = useState<CognatesProgress | null>(null);
-  const [speechStatus, setSpeechStatus] = useState<'idle' | 'listening' | 'unavailable' | 'empty'>('idle');
-  const [interimText, setInterimText] = useState('');
+  const [speechStatus, setSpeechStatus] = useState<'idle' | 'recording' | 'transcribing' | 'unavailable' | 'empty'>('idle');
   const [checkpoint, setCheckpoint] = useState<{
     sectionId: string;
     title: string;
@@ -90,7 +89,7 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
     resumeIndex: number;
   } | null>(null);
   const [checkpointTicked, setCheckpointTicked] = useState(false);
-  const sttRef = useRef<BrowserSTT | null>(null);
+  const sttRef = useRef<BatchSTT | null>(null);
   const checkpointedSectionIds = useRef(new Set<string>());
   const reachedPromptIds = useRef(new Set<string>());
   const revealStepIds = useRef(new Set<string>());
@@ -169,10 +168,10 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
     const completedSections = loaded.lessons[lessonId]?.completedSections ?? [];
     completedSectionIds.current = new Set(completedSections);
     checkpointedSectionIds.current = new Set(completedSections);
-    sttRef.current = new BrowserSTT();
+    sttRef.current = new BatchSTT();
 
     return () => {
-      sttRef.current?.cancelListening();
+      sttRef.current?.cancel();
     };
   }, [lessonId]);
 
@@ -390,12 +389,13 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
   async function handleSpeechCapture() {
     if (!isPromptActive || !sttRef.current) return;
 
-    setInterimText('');
-    setSpeechStatus('listening');
+    setSpeechStatus('recording');
     try {
-      const transcript = await sttRef.current.listenForCompleteUtterance(12000, setInterimText);
+      const transcript = await sttRef.current.transcribe({
+        expected: currentStep?.acceptedAnswers ?? [],
+        onState: (state) => setSpeechStatus(state)
+      });
       const spoken = transcript.trim();
-      setInterimText('');
       if (!spoken) {
         setSpeechStatus('empty');
         return;
@@ -403,7 +403,6 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
       setSpeechStatus('idle');
       submitResponse(spoken);
     } catch {
-      setInterimText('');
       setSpeechStatus('unavailable');
     }
   }
@@ -668,14 +667,16 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
           <section className="step-enter flex flex-col gap-3 rounded-2xl border border-[var(--rule)] bg-[var(--paper-2)] p-4 md:p-5">
             <button
               onClick={handleSpeechCapture}
-              disabled={speechStatus === 'listening'}
+              disabled={speechStatus === 'recording' || speechStatus === 'transcribing'}
               className="w-full rounded-full bg-[var(--accent)] px-5 py-3.5 text-base font-semibold text-[var(--accent-ink)] transition-colors hover:bg-[var(--accent-2)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--focus)] disabled:cursor-not-allowed disabled:opacity-40"
             >
-              {speechStatus === 'listening' ? 'Listening…' : 'Speak the answer'}
+              {speechStatus === 'recording' ? 'Listening…'
+                : speechStatus === 'transcribing' ? 'Transcribing…'
+                  : 'Speak the answer'}
             </button>
-            {speechStatus === 'listening' ? (
+            {speechStatus === 'recording' || speechStatus === 'transcribing' ? (
               <p className="min-h-5 text-center text-sm text-[var(--ink-2)]" aria-live="polite">
-                {interimText || 'Speak now…'}
+                {speechStatus === 'recording' ? 'Speak now…' : 'Getting your answer…'}
               </p>
             ) : null}
             <div className="relative">

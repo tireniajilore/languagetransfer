@@ -37,7 +37,11 @@ Create `lt-runner/.env.local` with:
 
 ```bash
 ELEVENLABS_API_KEY=your_new_key_here
+OPENAI_API_KEY=your_openai_key_here
 ```
+
+`OPENAI_API_KEY` powers spoken-answer transcription via `/api/stt`
+(`gpt-4o-mini-transcribe`). Without it, the speak button falls back to typed answers.
 
 Optional:
 
@@ -66,22 +70,32 @@ The generated MP3s are saved under `public/voice-tests/`.
 
 ## Speech Recognition And Self-Assessment
 
-The cognates player listens for spoken Spanish answers (`BrowserSTT`, Web Speech API,
-locale `es-MX` — a concrete country locale the recognizer actually supports; the generic
-`es-419` tag is silently rejected and falls back to the UI language). While listening it
-shows the interim transcript live, then echoes the final result beneath the correct
-answer on the reveal step, as `You said: …`, in muted text.
+The cognates player records a short spoken answer (`BatchSTT`, `MediaRecorder` with
+RMS-based voice-activity detection that auto-stops shortly after the learner finishes),
+then POSTs the clip to `/api/stt`, which transcribes it with OpenAI
+`gpt-4o-mini-transcribe`. The reveal step then echoes the result beneath the correct
+answer, as `You said: …`, in muted text.
 
-There is deliberately no right/wrong verdict. Two reasons. Browser speech recognition
-is unreliable for non-native Spanish, so a machine verdict would frequently be wrong and
-erode the learner's trust. And a quiz-style grader contradicts the Language Transfer
-method this app is built on, which is low-pressure by design and never drills or buzzes.
-The learner judges their own answer by ear against the echo, which is the actual skill
-the method trains.
+Two design decisions matter here:
+
+- **Expected-word biasing.** Every prompt has a known target word (`acceptedAnswers`).
+  The server passes it to the transcription model as a prompt hint, which turns
+  open-vocabulary transcription into a near-match task and sharply improves accuracy on
+  exactly the words the learner is drilling. This is why the previous browser Web Speech
+  approach was replaced: it could not be biased and mis-transcribed non-native Spanish
+  (often as English).
+- **No right/wrong verdict.** The transcription is shown, not graded. A quiz-style grader
+  would contradict the Language Transfer method this app is built on, which is
+  low-pressure by design and never drills or buzzes. The learner judges their own answer
+  by ear against the echo, which is the actual skill the method trains.
 
 The echo is passive: it adds no clicks and never breaks the listen-speak-reveal rhythm.
 It only renders when the previous step was a prompt and the learner actually submitted
 something. Timed-out and skipped turns show nothing.
+
+Speech transcription requires `OPENAI_API_KEY` on the server (see Audio Setup). Audio is
+sent to OpenAI for transcription; if the key is missing the speak button degrades to the
+typed-answer fallback. If the learner declines microphone access, typing still works.
 
 ## Analytics And Demand Capture
 
@@ -134,7 +148,7 @@ create table demand_submissions (
 - `src/data/lesson-*-segments.json` - mixed-language segment overrides for legacy numbered lessons
 - `src/engine` - reducer and hook for playback / prompt state
 - `src/components` - course picker, cognates player, legacy player, and capture cards
-- `src/adapters` - static, ElevenLabs, browser/text TTS, and browser STT adapters
+- `src/adapters` - static, ElevenLabs, browser/text TTS, and batch (record + OpenAI transcribe) STT adapters
 
 ## Notes
 
