@@ -13,7 +13,11 @@ export class BrowserSTT implements STTAdapter {
     if (!ctor) return;
 
     this.recognition = new ctor();
-    this.recognition.lang = 'es-419';
+    // Concrete country locale — Chrome's speech recognizer does not accept the
+    // generic 'es-419' tag and silently falls back to the UI language (often
+    // en-US), which wrecks Spanish transcription. es-MX is well-supported and
+    // matches the largest Spanish variety among US learners.
+    this.recognition.lang = 'es-MX';
     this.recognition.interimResults = true;
     this.recognition.maxAlternatives = 1;
   }
@@ -52,7 +56,7 @@ export class BrowserSTT implements STTAdapter {
     });
   }
 
-  async listenForCompleteUtterance(timeoutMs = 12000) {
+  async listenForCompleteUtterance(timeoutMs = 12000, onInterim?: (text: string) => void) {
     if (!this.recognition) {
       throw new Error('Browser speech recognition unavailable');
     }
@@ -108,6 +112,7 @@ export class BrowserSTT implements STTAdapter {
         }
 
         this.transcript = resultParts.join(' ').replace(/\s+/g, ' ').trim();
+        onInterim?.(this.transcript);
 
         if (hasFinalResult) {
           finish(this.transcript);

@@ -67,8 +67,10 @@ The generated MP3s are saved under `public/voice-tests/`.
 ## Speech Recognition And Self-Assessment
 
 The cognates player listens for spoken Spanish answers (`BrowserSTT`, Web Speech API,
-locale `es-419` to match a Latin-American audience). On the reveal step it echoes what
-it heard beneath the correct answer, as `You said: …`, in muted text.
+locale `es-MX` — a concrete country locale the recognizer actually supports; the generic
+`es-419` tag is silently rejected and falls back to the UI language). While listening it
+shows the interim transcript live, then echoes the final result beneath the correct
+answer on the reveal step, as `You said: …`, in muted text.
 
 There is deliberately no right/wrong verdict. Two reasons. Browser speech recognition
 is unreliable for non-native Spanish, so a machine verdict would frequently be wrong and

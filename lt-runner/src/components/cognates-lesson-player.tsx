@@ -81,6 +81,7 @@ const primaryButton =
 export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
   const [progress, setProgress] = useState<CognatesProgress | null>(null);
   const [speechStatus, setSpeechStatus] = useState<'idle' | 'listening' | 'unavailable' | 'empty'>('idle');
+  const [interimText, setInterimText] = useState('');
   const [checkpoint, setCheckpoint] = useState<{
     sectionId: string;
     title: string;
@@ -389,10 +390,12 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
   async function handleSpeechCapture() {
     if (!isPromptActive || !sttRef.current) return;
 
+    setInterimText('');
     setSpeechStatus('listening');
     try {
-      const transcript = await sttRef.current.listenForCompleteUtterance();
+      const transcript = await sttRef.current.listenForCompleteUtterance(12000, setInterimText);
       const spoken = transcript.trim();
+      setInterimText('');
       if (!spoken) {
         setSpeechStatus('empty');
         return;
@@ -400,6 +403,7 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
       setSpeechStatus('idle');
       submitResponse(spoken);
     } catch {
+      setInterimText('');
       setSpeechStatus('unavailable');
     }
   }
@@ -669,6 +673,11 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
             >
               {speechStatus === 'listening' ? 'Listening…' : 'Speak the answer'}
             </button>
+            {speechStatus === 'listening' ? (
+              <p className="min-h-5 text-center text-sm text-[var(--ink-2)]" aria-live="polite">
+                {interimText || 'Speak now…'}
+              </p>
+            ) : null}
             <div className="relative">
               <label htmlFor="cognates-response" className="sr-only">Type your answer</label>
               <input
