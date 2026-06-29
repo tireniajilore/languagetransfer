@@ -123,6 +123,17 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
     (Math.min(state.currentStepIndex + 1, bundle.lesson.steps.length) / bundle.lesson.steps.length) * 100
   );
   const isPromptActive = state.mode === 'waiting_for_response' && currentStep?.type === 'prompt';
+  // Passive echo: on a reveal that directly follows a spoken/typed turn, show what
+  // the learner submitted under the answer. No verdict — the learner judges by ear.
+  const previousStep = state.currentStepIndex > 0 ? bundle.lesson.steps[state.currentStepIndex - 1] : undefined;
+  const lastResponse = state.responses[state.responses.length - 1];
+  const echoedResponse =
+    currentStep?.type === 'reveal' &&
+    previousStep?.type === 'prompt' &&
+    lastResponse?.kind === 'submitted' &&
+    lastResponse.response.trim()
+      ? lastResponse.response.trim()
+      : null;
   const currentSectionIndex = Math.max(
     0,
     bundle.sectionStepRanges.findIndex((range) => (
@@ -637,6 +648,9 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
               </h2>
               {currentStep?.metadata?.phoneticHint ? (
                 <p className="text-lg text-[var(--ink-2)]">{currentStep.metadata.phoneticHint}</p>
+              ) : null}
+              {echoedResponse ? (
+                <p className="text-sm text-[var(--ink-3)]">You said: {echoedResponse}</p>
               ) : null}
             </div>
           ) : (
