@@ -9,7 +9,7 @@ Interactive Language Transfer-style Spanish lessons built in Next.js + TypeScrip
 - Keeps the original numbered lesson prototype available on `/lesson/[id]`.
 - Uses a deterministic client-side lesson reducer for playback, prompts, skips, checkpoints, pause/resume, and completion.
 - Prefers stored lesson audio when a static manifest exists, then falls back to `/api/tts`, then browser speech/timing fallback.
-- Captures voice-first answers with typed fallback in the cognates player.
+- Captures voice-first answers with typed fallback, then echoes what was heard on the reveal for self-assessment.
 - Saves cognates progress locally by course version, lesson, section, prompt, completion, and saved email.
 - Tracks course, lesson, prompt, checkpoint, completion, analytics, and demand-capture events without blocking the learner.
 - Collects completion email interest through `/api/demand`.
@@ -42,21 +42,17 @@ ELEVENLABS_API_KEY=your_new_key_here
 Optional:
 
 ```bash
-ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM
+ELEVENLABS_VOICE_ID=Czw3Dn181ypdrCOnPfif
 ```
+
+The default voice is Brian (`Czw3Dn181ypdrCOnPfif`) on the `eleven_v3` model, matching
+the TikTok cognates pipeline.
 
 - Cognates lessons first request `/audio/[lessonId]/manifest.json`.
 - If a manifest exists, `StaticTTS` plays the stored audio files referenced by source step keys.
 - If no stored audio exists, requests go from the browser to `/api/tts`, then the server route calls ElevenLabs.
 - Mixed-language steps can define explicit `segments` so Spanish words are synthesized independently from surrounding English.
 - If ElevenLabs is unavailable before playback begins, the app falls back to BrowserTTS. If a failure happens mid-step, the engine falls back to its timing-based advance.
-
-Optional pacing overrides:
-
-```bash
-ELEVENLABS_SPEED_EN=1.1
-ELEVENLABS_SPEED_ES=0.9
-```
 
 To audition other ElevenLabs voices:
 
@@ -67,6 +63,23 @@ npm run test-voices -- --voices Rachel --text "Think it through slowly. How woul
 ```
 
 The generated MP3s are saved under `public/voice-tests/`.
+
+## Speech Recognition And Self-Assessment
+
+The cognates player listens for spoken Spanish answers (`BrowserSTT`, Web Speech API,
+locale `es-419` to match a Latin-American audience). On the reveal step it echoes what
+it heard beneath the correct answer, as `You said: …`, in muted text.
+
+There is deliberately no right/wrong verdict. Two reasons. Browser speech recognition
+is unreliable for non-native Spanish, so a machine verdict would frequently be wrong and
+erode the learner's trust. And a quiz-style grader contradicts the Language Transfer
+method this app is built on, which is low-pressure by design and never drills or buzzes.
+The learner judges their own answer by ear against the echo, which is the actual skill
+the method trains.
+
+The echo is passive: it adds no clicks and never breaks the listen-speak-reveal rhythm.
+It only renders when the previous step was a prompt and the learner actually submitted
+something. Timed-out and skipped turns show nothing.
 
 ## Analytics And Demand Capture
 

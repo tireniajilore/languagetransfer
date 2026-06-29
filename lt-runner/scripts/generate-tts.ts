@@ -1,7 +1,9 @@
 import { createHash } from 'node:crypto';
+import { execFile } from 'node:child_process';
 import { existsSync } from 'node:fs';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rename, unlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 import { put } from '@vercel/blob';
 import { buildElevenLabsRequestBody, getElevenLabsVoiceId } from '../src/lib/elevenlabs-config';
@@ -9,6 +11,8 @@ import { getCognatesLessonBundle, getCognatesLessonIds } from '../src/data/cogna
 import { formatLessonNumber, getAvailableLessons, getLesson } from '../src/data/get-lesson';
 import type { Lesson, SpeechSegment } from '../src/types/lesson';
 import type { TTSManifest } from '../src/types/tts-manifest';
+
+const execFileAsync = promisify(execFile);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -65,6 +69,29 @@ async function readExistingManifest(manifestPath: string): Promise<TTSManifest |
   }
 }
 
+async function trimMp3Silence(filePath: string): Promise<void> {
+  const tmpPath = filePath.replace(/\.mp3$/, '.trimmed.mp3');
+  try {
+    await execFileAsync('ffmpeg', [
+      '-y', '-i', filePath,
+      '-af', [
+        'silenceremove=start_periods=1:start_duration=0:start_threshold=-50dB:detection=peak',
+        'aformat=dblp',
+        'areverse',
+        'silenceremove=start_periods=1:start_duration=0:start_threshold=-50dB:detection=peak',
+        'aformat=dblp',
+        'areverse'
+      ].join(','),
+      '-acodec', 'libmp3lame', '-q:a', '2',
+      tmpPath
+    ]);
+    await rename(tmpPath, filePath);
+  } catch {
+    // ffmpeg unavailable or failed — keep original, skip trimming
+    await unlink(tmpPath).catch(() => undefined);
+  }
+}
+
 async function generateSegmentAudio(
   segment: SpeechSegment,
   destinationPath: string,
@@ -91,6 +118,7 @@ async function generateSegmentAudio(
 
   const buffer = Buffer.from(await response.arrayBuffer());
   await writeFile(destinationPath, buffer);
+  await trimMp3Silence(destinationPath);
 }
 
 async function uploadSegmentAudio(
