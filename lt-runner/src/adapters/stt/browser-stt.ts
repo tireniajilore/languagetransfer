@@ -13,7 +13,7 @@ export class BrowserSTT implements STTAdapter {
     if (!ctor) return;
 
     this.recognition = new ctor();
-    this.recognition.lang = 'es-ES';
+    this.recognition.lang = 'es-419';
     this.recognition.interimResults = true;
     this.recognition.maxAlternatives = 1;
   }
