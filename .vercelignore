@@ -1,0 +1,20 @@
+# Only lt-runner (Next.js) builds/deploys. Keep large + unrelated trees out of
+# the Vercel upload so deploys aren't hundreds of MB, and so Vercel's framework
+# detection can't mistake the Python backend at the repo root for the app.
+#
+# IMPORTANT: every pattern is anchored with a leading "/" so it matches only the
+# REPO-ROOT directory. An unanchored "data/" would also match lt-runner/src/data/
+# (the cognates lessons) and break the build.
+
+# Large unrelated assets at the repo root
+/tiktok/
+/docs/
+/data/
+/tmp/
+/out/
+
+# Python backend at the repo root — not part of the web app; its presence trips
+# Vercel's FastAPI auto-detection on CLI deploys.
+/server/
+/requirements.txt
+/transcribe.py
