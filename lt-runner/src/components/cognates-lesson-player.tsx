@@ -372,10 +372,26 @@ export function CognatesLessonPlayer({ bundle }: CognatesLessonPlayerProps) {
       resumeIndex: Math.min(pendingCheckpoint.endIndex + 1, bundle.lesson.steps.length - 1)
     });
     setCheckpointTicked(false);
+    void trackEvent('cognates_checkpoint_reached', {
+      lessonId,
+      courseVersion: COGNATES_COURSE_VERSION,
+      sectionId: pendingCheckpoint.sectionId,
+      checkpointNumber: sectionIndex + 1,
+      checkpointTotal: bundle.sectionStepRanges.length
+    });
     pause();
-  }, [bundle.lesson.steps.length, bundle.sectionStepRanges, checkpoint, pause, pendingCheckpoint]);
+  }, [bundle.lesson.steps.length, bundle.sectionStepRanges, checkpoint, lessonId, pause, pendingCheckpoint]);
 
   function handleCheckpointContinue() {
+    if (checkpoint) {
+      void trackEvent('cognates_checkpoint_banked', {
+        lessonId,
+        courseVersion: COGNATES_COURSE_VERSION,
+        sectionId: checkpoint.sectionId,
+        checkpointNumber: checkpoint.number,
+        checkpointTotal: checkpoint.total
+      });
+    }
     const resumeIndex = checkpoint?.resumeIndex;
     setCheckpoint(null);
     setCheckpointTicked(false);

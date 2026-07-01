@@ -20,6 +20,8 @@ export type AnalyticsEventName =
   | 'cognates_response_timed_out'
   | 'cognates_reveal_shown'
   | 'cognates_section_completed'
+  | 'cognates_checkpoint_reached'
+  | 'cognates_checkpoint_banked'
   | 'cognates_lesson_completed'
   | 'cognates_save_progress_viewed'
   | 'cognates_save_progress_submitted';
@@ -68,6 +70,25 @@ export function trackEvent(event: AnalyticsEventName, properties: AnalyticsPaylo
       utmMedium: context.utmMedium ?? null,
       utmCampaign: context.utmCampaign ?? null,
       ...properties
+    }
+  });
+}
+
+// Stitches the current anonymous browser session to a known person (their
+// email) in PostHog, so events from this session — and any other device that
+// later identifies with the same email — attribute to one person.
+export function identifyUser(email: string, setProps: AnalyticsPayload = {}) {
+  const context = getClientSessionContext();
+  const normalized = email.trim().toLowerCase();
+  if (!context || !normalized) return Promise.resolve(false);
+
+  return postAnalytics({
+    event: '$identify',
+    sessionId: context.sessionId,
+    distinctId: normalized,
+    setProps: {
+      email: normalized,
+      ...setProps
     }
   });
 }
