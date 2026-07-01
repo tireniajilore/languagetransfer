@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { trackEvent } from '@/lib/analytics';
+import { identifyUser, trackEvent } from '@/lib/analytics';
 import { getClientSessionContext } from '@/lib/session';
 import type { CognatesProgress } from '@/lib/cognates-progress';
 
@@ -76,6 +76,7 @@ export function CognatesSaveProgressCard({
     }
 
     onSaved(email.trim());
+    void identifyUser(email.trim(), { lastLessonId: courseLessonId });
     await trackEvent('cognates_save_progress_submitted', {
       lessonId: courseLessonId,
       completedLessons,
