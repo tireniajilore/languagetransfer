@@ -13,6 +13,9 @@ import type { Lesson } from '@/types/lesson';
 
 const FALLBACK_MESSAGE = 'Taking note and moving on.';
 
+// Beat held after the Spanish reveal so the answer lands before advancing.
+const REVEAL_PAUSE_MS = 1400;
+
 export function useLessonEngine(lesson: Lesson) {
   const [state, dispatch] = useReducer(lessonEngineReducer, lesson, createInitialEngineState);
   const stepTimerRef = useRef<number | null>(null);
@@ -87,6 +90,13 @@ export function useLessonEngine(lesson: Lesson) {
           type: 'PROMPT_REACHED',
           totalSeconds: waitDurationToSeconds(currentStep.waitDuration)
         });
+      } else if (currentStep.type === 'reveal') {
+        // Let the Spanish answer breathe before moving on. The audio itself is
+        // silence-trimmed, so without this beat the reveal snaps straight into
+        // the next step.
+        stepTimerRef.current = window.setTimeout(() => {
+          dispatch({ type: 'STEP_COMPLETE' });
+        }, REVEAL_PAUSE_MS);
       } else {
         dispatch({ type: 'STEP_COMPLETE' });
       }
