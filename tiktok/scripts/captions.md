@@ -636,3 +636,171 @@ Full → Micro (~15s) → Quiz-first → Hook A.
 > Every English -ence/-ance word is a free Spanish word: experiencia, diferencia, importancia.
 
 `#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+---
+
+## Lesson 24 — Intento (I Try / I'm Trying)
+
+### Full (`lesson-24-intento-publicarlo.mp4`)
+
+> One Spanish word covers "I try" and "I'm trying": intento. Intento preparar. Intento cancelarlo.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Micro (`lesson-24-intento-publicarlo-15s.mp4`)
+
+> One word for "I try" and "I'm trying": intento. Intento preparar, intento cancelar.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Quiz-first (`lesson-24-intento-publicarlo-quizfirst.mp4`)
+
+> Could you say it before the reveal? I'm trying to prepare → Intento preparar.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Hook A (`lesson-24-intento-publicarlo-hook-a.mp4`)
+
+> One Spanish word covers both "I try" and "I'm trying": intento cancelarlo. The verb changes, intento doesn't.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+---
+
+## Lesson 25 — Silent H
+
+### Full (`lesson-25-silent-h.mp4`)
+
+> The Spanish H is silent — never pronounced: hospital, horrible, habitual, habitualmente.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Micro (`lesson-25-silent-h-15s.mp4`)
+
+> The Spanish H is silent. Hospital, horrible — no h sound at all.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Quiz-first (`lesson-25-silent-h-quizfirst.mp4`)
+
+> Could you say it before the reveal? Hospital, with zero h sound.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Hook A (`lesson-25-silent-h-hook-a.mp4`)
+
+> There's a letter in Spanish you should just ignore: hospital, horrible, habitual — silent h.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+---
+
+## Lesson 26 — Ahora / Pero Sentence Stack
+
+### Full (`lesson-26-ahora-pero-stack.mp4`)
+
+> Build one long Spanish sentence block by block: Quiero cancelarlo, pero no quiero cancelarlo ahora.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Micro (`lesson-26-ahora-pero-stack-15s.mp4`)
+
+> Ahora = now. Pero = but. Stack them onto quiero cancelarlo for a full sentence.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Quiz-first (`lesson-26-ahora-pero-stack-quizfirst.mp4`)
+
+> Could you build the whole sentence before the reveal? Quiero cancelarlo, pero no quiero cancelarlo ahora.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Hook A (`lesson-26-ahora-pero-stack-hook-a.mp4`)
+
+> One long Spanish sentence, built block by block: Quiero cancelarlo, pero no quiero cancelarlo ahora.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+---
+
+## Lesson 27 — Voy (I Go / I'm Going)
+
+### Full (`lesson-27-voy-ahora.mp4`)
+
+> Voy means "I go" or "I'm going." Add ahora for "I'm going now": voy ahora. No voy ahora.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Micro (`lesson-27-voy-ahora-15s.mp4`)
+
+> Voy = I go / I'm going. Add ahora for "I'm going now": voy ahora.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Quiz-first (`lesson-27-voy-ahora-quizfirst.mp4`)
+
+> Could you say it before the reveal? I'm going now → Voy ahora.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Hook A (`lesson-27-voy-ahora-hook-a.mp4`)
+
+> One tiny word means both "I go" and "I'm going": voy, pero no voy ahora.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+---
+
+## Lesson 28 — Visitarlo
+
+### Full (`lesson-28-visitarlo.mp4`)
+
+> English hides the Spanish verb inside bigger words: visitation → visitar → visitarlo. Quiero visitarlo.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Micro (`lesson-28-visitarlo-15s.mp4`)
+
+> English hides the Spanish verb inside bigger words: visitation → visitar → visitarlo.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Quiz-first (`lesson-28-visitarlo-quizfirst.mp4`)
+
+> Could you build it before the reveal? to visit him → visitarlo. Quiero visitarlo.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Hook A (`lesson-28-visitarlo-hook-a.mp4`)
+
+> English hides the Spanish verb in a bigger word: visitation points you straight to visitar.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+---
+
+## Lesson 29 — Soft V
+
+### Full (`lesson-29-soft-v.mp4`)
+
+> Spanish v is a soft sound, not a hard English v: voy, visible, viral, virus, conveniente.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Micro (`lesson-29-soft-v-15s.mp4`)
+
+> Spanish v is a soft sound, not a hard English v: voy, visible, viral.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Quiz-first (`lesson-29-soft-v-quizfirst.mp4`)
+
+> Could you make the sound before the reveal? Visible, viral, virus — Spanish soft v.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
+
+### Hook A (`lesson-29-soft-v-hook-a.mp4`)
+
+> Spanish v is not the English v you know — softer, closer to b: visible, viral, virus.
+
+`#learnspanish #spanishforbeginners #spanishphrases #spanishteacher #easyspanish #spanishtiktok`
