@@ -100,6 +100,12 @@ const lessonCompositions = [
   ['Lesson21RSound', lessons.lesson21RSound],
   ['Lesson22LongRouteVerbs', lessons.lesson22LongRouteVerbs],
   ['Lesson23EnceAnce', lessons.lesson23EnceAnce],
+  ['Lesson24IntentoPublicarlo', lessons.lesson24IntentoPublicarlo],
+  ['Lesson25SilentH', lessons.lesson25SilentH],
+  ['Lesson26AhoraPeroStack', lessons.lesson26AhoraPeroStack],
+  ['Lesson27VoyAhora', lessons.lesson27VoyAhora],
+  ['Lesson28Visitarlo', lessons.lesson28Visitarlo],
+  ['Lesson29SoftV', lessons.lesson29SoftV],
   // Micro-cut variants (~15s)
   ['Lesson02Micro', lessons.lesson02Micro],
   ['Lesson03Micro', lessons.lesson03Micro],
@@ -123,6 +129,12 @@ const lessonCompositions = [
   ['Lesson21Micro', lessons.lesson21Micro],
   ['Lesson22Micro', lessons.lesson22Micro],
   ['Lesson23Micro', lessons.lesson23Micro],
+  ['Lesson24Micro', lessons.lesson24Micro],
+  ['Lesson25Micro', lessons.lesson25Micro],
+  ['Lesson26Micro', lessons.lesson26Micro],
+  ['Lesson27Micro', lessons.lesson27Micro],
+  ['Lesson28Micro', lessons.lesson28Micro],
+  ['Lesson29Micro', lessons.lesson29Micro],
   // Quiz-first variants (cold-open on a prompt)
   ['Lesson02Quiz', lessons.lesson02Quiz],
   ['Lesson03Quiz', lessons.lesson03Quiz],
@@ -146,6 +158,12 @@ const lessonCompositions = [
   ['Lesson21Quiz', lessons.lesson21Quiz],
   ['Lesson22Quiz', lessons.lesson22Quiz],
   ['Lesson23Quiz', lessons.lesson23Quiz],
+  ['Lesson24Quiz', lessons.lesson24Quiz],
+  ['Lesson25Quiz', lessons.lesson25Quiz],
+  ['Lesson26Quiz', lessons.lesson26Quiz],
+  ['Lesson27Quiz', lessons.lesson27Quiz],
+  ['Lesson28Quiz', lessons.lesson28Quiz],
+  ['Lesson29Quiz', lessons.lesson29Quiz],
   // Hook-swap variants (same body, new opening line)
   ['Lesson02HookA', lessons.lesson02HookA],
   ['Lesson03HookA', lessons.lesson03HookA],
@@ -169,6 +187,12 @@ const lessonCompositions = [
   ['Lesson21HookA', lessons.lesson21HookA],
   ['Lesson22HookA', lessons.lesson22HookA],
   ['Lesson23HookA', lessons.lesson23HookA],
+  ['Lesson24HookA', lessons.lesson24HookA],
+  ['Lesson25HookA', lessons.lesson25HookA],
+  ['Lesson26HookA', lessons.lesson26HookA],
+  ['Lesson27HookA', lessons.lesson27HookA],
+  ['Lesson28HookA', lessons.lesson28HookA],
+  ['Lesson29HookA', lessons.lesson29HookA],
 ] as const;
 
 export const RemotionRoot: React.FC = () => {

@@ -20,6 +20,12 @@ import lesson20Json from '../../scripts/lesson-20-lo-cancelarlo.json';
 import lesson21Json from '../../scripts/lesson-21-r-sound.json';
 import lesson22Json from '../../scripts/lesson-22-long-route-verbs.json';
 import lesson23Json from '../../scripts/lesson-23-ence-ance.json';
+import lesson24Json from '../../scripts/lesson-24-intento-publicarlo.json';
+import lesson25Json from '../../scripts/lesson-25-silent-h.json';
+import lesson26Json from '../../scripts/lesson-26-ahora-pero-stack.json';
+import lesson27Json from '../../scripts/lesson-27-voy-ahora.json';
+import lesson28Json from '../../scripts/lesson-28-visitarlo.json';
+import lesson29Json from '../../scripts/lesson-29-soft-v.json';
 import lesson02Micro from '../../scripts/variants/lesson-02-vowels-15s.json';
 import lesson03Micro from '../../scripts/variants/lesson-03-es-15s.json';
 import lesson04Micro from '../../scripts/variants/lesson-04-no-es-15s.json';
@@ -42,6 +48,12 @@ import lesson20Micro from '../../scripts/variants/lesson-20-lo-cancelarlo-15s.js
 import lesson21Micro from '../../scripts/variants/lesson-21-r-sound-15s.json';
 import lesson22Micro from '../../scripts/variants/lesson-22-long-route-verbs-15s.json';
 import lesson23Micro from '../../scripts/variants/lesson-23-ence-ance-15s.json';
+import lesson24Micro from '../../scripts/variants/lesson-24-intento-publicarlo-15s.json';
+import lesson25Micro from '../../scripts/variants/lesson-25-silent-h-15s.json';
+import lesson26Micro from '../../scripts/variants/lesson-26-ahora-pero-stack-15s.json';
+import lesson27Micro from '../../scripts/variants/lesson-27-voy-ahora-15s.json';
+import lesson28Micro from '../../scripts/variants/lesson-28-visitarlo-15s.json';
+import lesson29Micro from '../../scripts/variants/lesson-29-soft-v-15s.json';
 import lesson02Quiz from '../../scripts/variants/lesson-02-vowels-quizfirst.json';
 import lesson03Quiz from '../../scripts/variants/lesson-03-es-quizfirst.json';
 import lesson04Quiz from '../../scripts/variants/lesson-04-no-es-quizfirst.json';
@@ -64,6 +76,12 @@ import lesson20Quiz from '../../scripts/variants/lesson-20-lo-cancelarlo-quizfir
 import lesson21Quiz from '../../scripts/variants/lesson-21-r-sound-quizfirst.json';
 import lesson22Quiz from '../../scripts/variants/lesson-22-long-route-verbs-quizfirst.json';
 import lesson23Quiz from '../../scripts/variants/lesson-23-ence-ance-quizfirst.json';
+import lesson24Quiz from '../../scripts/variants/lesson-24-intento-publicarlo-quizfirst.json';
+import lesson25Quiz from '../../scripts/variants/lesson-25-silent-h-quizfirst.json';
+import lesson26Quiz from '../../scripts/variants/lesson-26-ahora-pero-stack-quizfirst.json';
+import lesson27Quiz from '../../scripts/variants/lesson-27-voy-ahora-quizfirst.json';
+import lesson28Quiz from '../../scripts/variants/lesson-28-visitarlo-quizfirst.json';
+import lesson29Quiz from '../../scripts/variants/lesson-29-soft-v-quizfirst.json';
 import lesson02HookA from '../../scripts/variants/lesson-02-vowels-hook-a.json';
 import lesson03HookA from '../../scripts/variants/lesson-03-es-hook-a.json';
 import lesson04HookA from '../../scripts/variants/lesson-04-no-es-hook-a.json';
@@ -86,6 +104,12 @@ import lesson20HookA from '../../scripts/variants/lesson-20-lo-cancelarlo-hook-a
 import lesson21HookA from '../../scripts/variants/lesson-21-r-sound-hook-a.json';
 import lesson22HookA from '../../scripts/variants/lesson-22-long-route-verbs-hook-a.json';
 import lesson23HookA from '../../scripts/variants/lesson-23-ence-ance-hook-a.json';
+import lesson24HookA from '../../scripts/variants/lesson-24-intento-publicarlo-hook-a.json';
+import lesson25HookA from '../../scripts/variants/lesson-25-silent-h-hook-a.json';
+import lesson26HookA from '../../scripts/variants/lesson-26-ahora-pero-stack-hook-a.json';
+import lesson27HookA from '../../scripts/variants/lesson-27-voy-ahora-hook-a.json';
+import lesson28HookA from '../../scripts/variants/lesson-28-visitarlo-hook-a.json';
+import lesson29HookA from '../../scripts/variants/lesson-29-soft-v-hook-a.json';
 import {FPS} from './theme';
 
 // A lesson is a flat list of segments. Each spoken segment becomes its own audio
@@ -189,6 +213,12 @@ export const lessons = {
   lesson21RSound: lesson21Json as Lesson,
   lesson22LongRouteVerbs: lesson22Json as Lesson,
   lesson23EnceAnce: lesson23Json as Lesson,
+  lesson24IntentoPublicarlo: lesson24Json as Lesson,
+  lesson25SilentH: lesson25Json as Lesson,
+  lesson26AhoraPeroStack: lesson26Json as Lesson,
+  lesson27VoyAhora: lesson27Json as Lesson,
+  lesson28Visitarlo: lesson28Json as Lesson,
+  lesson29SoftV: lesson29Json as Lesson,
   // Remix variants — micro-cuts (~15s) and quiz-first reorders. All reuse the
   // source lesson's audio via audioDir + per-segment audio keys; no new TTS.
   lesson02Micro: lesson02Micro as Lesson,
@@ -213,6 +243,12 @@ export const lessons = {
   lesson21Micro: lesson21Micro as Lesson,
   lesson22Micro: lesson22Micro as Lesson,
   lesson23Micro: lesson23Micro as Lesson,
+  lesson24Micro: lesson24Micro as Lesson,
+  lesson25Micro: lesson25Micro as Lesson,
+  lesson26Micro: lesson26Micro as Lesson,
+  lesson27Micro: lesson27Micro as Lesson,
+  lesson28Micro: lesson28Micro as Lesson,
+  lesson29Micro: lesson29Micro as Lesson,
   lesson02Quiz: lesson02Quiz as Lesson,
   lesson03Quiz: lesson03Quiz as Lesson,
   lesson04Quiz: lesson04Quiz as Lesson,
@@ -235,6 +271,12 @@ export const lessons = {
   lesson21Quiz: lesson21Quiz as Lesson,
   lesson22Quiz: lesson22Quiz as Lesson,
   lesson23Quiz: lesson23Quiz as Lesson,
+  lesson24Quiz: lesson24Quiz as Lesson,
+  lesson25Quiz: lesson25Quiz as Lesson,
+  lesson26Quiz: lesson26Quiz as Lesson,
+  lesson27Quiz: lesson27Quiz as Lesson,
+  lesson28Quiz: lesson28Quiz as Lesson,
+  lesson29Quiz: lesson29Quiz as Lesson,
   // Hook-swap variants — same body, new opening line (hook-a.mp3 in the source
   // lesson's audio folder; synthesized via tts-lesson.mjs).
   lesson02HookA: lesson02HookA as Lesson,
@@ -259,6 +301,12 @@ export const lessons = {
   lesson21HookA: lesson21HookA as Lesson,
   lesson22HookA: lesson22HookA as Lesson,
   lesson23HookA: lesson23HookA as Lesson,
+  lesson24HookA: lesson24HookA as Lesson,
+  lesson25HookA: lesson25HookA as Lesson,
+  lesson26HookA: lesson26HookA as Lesson,
+  lesson27HookA: lesson27HookA as Lesson,
+  lesson28HookA: lesson28HookA as Lesson,
+  lesson29HookA: lesson29HookA as Lesson,
 };
 
 export const lesson = lessons.lesson02;
