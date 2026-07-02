@@ -1,0 +1,97 @@
+{
+  "id": "lesson-28-visitarlo-hook-a",
+  "title": "Visit Him With One Ending (hook swap A)",
+  "audioDir": "lesson-28-visitarlo",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-28-visitarlo audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "English sometimes hides the Spanish verb in a bigger word.",
+      "show": "hidden\nverb",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Think of visitation. That points you to visitar.",
+      "show": "visitation ->\nvisitar",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Visitar.",
+      "word": "visitar",
+      "phon": "bee-see-TAR",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That means to visit.",
+      "show": "visitar =\nto visit",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Lo can mean him, and it attaches to the end.",
+      "show": "visitar + lo",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to visit him.",
+      "word": "to visit him",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, visitarlo.",
+      "word": "visitarlo",
+      "phon": "bee-see-TAR-lo",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Quiero means I want.",
+      "show": "quiero = I want",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to visit him.",
+      "word": "I want to visit him",
+      "pauseSec": 3,
+      "audio": "seg-08"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero visitarlo.",
+      "word": "Quiero visitarlo",
+      "phon": "KYE-ro bee-see-TAR-lo",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You found the verb through a bigger English word, then attached lo.",
+      "show": "visitation -> visitar\nvisitar + lo",
+      "audio": "seg-10"
+    }
+  ],
+  "caption": "English hides the Spanish verb in a bigger word: visitation points you straight to visitar.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

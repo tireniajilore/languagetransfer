@@ -1,0 +1,126 @@
+{
+  "id": "lesson-29-soft-v-hook-a",
+  "title": "Spanish V Is Often A Soft B (hook swap A)",
+  "audioDir": "lesson-29-soft-v",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-29-soft-v audio.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish v doesn't sound like the English v you're used to.",
+      "show": "v ≠\nEnglish v",
+      "audio": "hook-a"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "In much of the Spanish-speaking world, it sounds closer to a soft b.",
+      "show": "v -> soft b",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Not a hard English b with a burst of air. Softer.",
+      "show": "soft\nnot explosive",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You already saw it in voy.",
+      "show": "voy",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy.",
+      "word": "voy",
+      "phon": "boy",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try visible with that soft Spanish sound.",
+      "word": "visible",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, visible.",
+      "word": "visible",
+      "phon": "bee-SEE-ble",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now viral.",
+      "word": "viral",
+      "audio": "seg-07"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, viral.",
+      "word": "viral",
+      "phon": "bee-RAL",
+      "audio": "seg-08"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "And virus.",
+      "word": "virus",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, virus.",
+      "word": "virus",
+      "phon": "BEE-roos",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One more pattern word. Convenient becomes conveniente.",
+      "show": "convenient ->\nconveniente",
+      "audio": "seg-11"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say convenient in Spanish.",
+      "word": "convenient",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, conveniente.",
+      "word": "conveniente",
+      "phon": "kon-be-NYEN-te",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same letters, but your mouth changed languages.",
+      "show": "same letters\nSpanish mouth",
+      "audio": "seg-14"
+    }
+  ],
+  "caption": "Spanish v is not the English v you know - softer, closer to b: visible, viral, virus.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

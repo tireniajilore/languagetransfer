@@ -1,0 +1,91 @@
+{
+  "id": "lesson-26-ahora-pero-stack-15s",
+  "title": "Build A Long Sentence With Ahora (15s micro-cut)",
+  "audioDir": "lesson-26-ahora-pero-stack",
+  "voice_notes": "Remix variant - reuses lesson-26-ahora-pero-stack audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Ahora means now.",
+      "show": "ahora = now",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Ahora.",
+      "word": "ahora",
+      "phon": "a-O-ra",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Pero means but.",
+      "show": "pero = but",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Pero.",
+      "word": "pero",
+      "phon": "PE-ro",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And cancel it is cancelarlo. The lo goes at the end.",
+      "show": "cancelar + lo\ncancelarlo",
+      "audio": "seg-09"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to cancel it.",
+      "word": "to cancel it",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now add quiero: I want to cancel it.",
+      "word": "I want to cancel it",
+      "pauseSec": 3,
+      "audio": "seg-12"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero cancelarlo.",
+      "word": "Quiero cancelarlo",
+      "phon": "KYE-ro kan-se-LAR-lo",
+      "audio": "seg-13"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Add ahora: I want to cancel it now.",
+      "word": "I want to cancel it now",
+      "pauseSec": 3.2,
+      "audio": "seg-14"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You did not jump to the long sentence. You built it.",
+      "show": "you built it",
+      "audio": "seg-24"
+    }
+  ],
+  "caption": "Ahora = now. Pero = but. Stack them onto quiero cancelarlo for a full sentence.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

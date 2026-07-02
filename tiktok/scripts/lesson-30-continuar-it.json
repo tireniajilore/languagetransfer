@@ -1,0 +1,132 @@
+{
+  "id": "lesson-30-continuar-it",
+  "title": "Find Continue From Continuation",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When you forget a Spanish word, do not ask, do I remember it?",
+      "show": "don't ask\nif you remember"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Ask, what English cousin can help me find it?",
+      "show": "find the\nEnglish cousin"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "If carry on feels hard, switch the English first.",
+      "show": "carry on?\nswitch the English"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Instead of I want to carry on, you can say I want to continue it.",
+      "show": "carry on ->\ncontinue it"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Continue gives you continuation.",
+      "show": "continue ->\ncontinuation"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Use the pattern you already know: ation becomes ación.",
+      "show": "ation -> ación"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, continuación.",
+      "word": "continuación",
+      "phon": "kon-tee-noo-a-SYON"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Then take off that noun ending and add ar.",
+      "display": "take off ción\nadd ar",
+      "show": "continuación -> continuar"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, continuar.",
+      "word": "continuar",
+      "phon": "kon-tee-noo-AR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Quiero means I want.",
+      "show": "quiero = I want"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I want to continue.",
+      "word": "I want to continue",
+      "pauseSec": 2.6
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero continuar.",
+      "word": "Quiero continuar",
+      "phon": "KYE-ro kon-tee-noo-AR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Lo can mean it, and it attaches to the end.",
+      "show": "continuar + lo"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I want to continue it.",
+      "word": "I want to continue it",
+      "pauseSec": 3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero continuarlo.",
+      "word": "Quiero continuarlo",
+      "phon": "KYE-ro kon-tee-noo-AR-lo"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One more. Intento means I try, or I am trying.",
+      "show": "intento =\nI try / I am trying"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am trying to continue.",
+      "word": "I am trying to continue",
+      "pauseSec": 3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento continuar.",
+      "word": "Intento continuar",
+      "phon": "in-TEN-to kon-tee-noo-AR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You did not remember a word. You found it.",
+      "show": "you found it"
+    }
+  ],
+  "caption": "If carry on feels hard, switch the English first: continue -> continuation -> continuación -> continuar -> continuarlo.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

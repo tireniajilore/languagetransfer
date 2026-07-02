@@ -1,174 +1,206 @@
 {
-  "id": "lesson-26-ahora-pero-stack",
-  "title": "Build A Long Sentence With Ahora",
-  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "id": "lesson-26-ahora-pero-stack-hook-a",
+  "title": "Build A Long Sentence With Ahora (hook swap A)",
+  "audioDir": "lesson-26-ahora-pero-stack",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-26-ahora-pero-stack audio.",
   "segments": [
     {
       "kind": "line",
       "lang": "en",
-      "say": "Let's build a long Spanish sentence one block at a time.",
-      "show": "build it\none block at a time"
+      "say": "Let's build one long Spanish sentence, one block at a time.",
+      "show": "one block\nat a time",
+      "audio": "hook-a"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "Ahora means now.",
-      "show": "ahora = now"
+      "show": "ahora = now",
+      "audio": "seg-01"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Ahora.",
       "word": "ahora",
-      "phon": "a-O-ra"
+      "phon": "a-O-ra",
+      "audio": "seg-02"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Quick check: say now.",
-      "word": "now"
+      "word": "now",
+      "audio": "seg-03"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "En español, ahora.",
       "word": "ahora",
-      "phon": "a-O-ra"
+      "phon": "a-O-ra",
+      "audio": "seg-04"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "Pero means but.",
-      "show": "pero = but"
+      "show": "pero = but",
+      "audio": "seg-05"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Pero.",
       "word": "pero",
-      "phon": "PE-ro"
+      "phon": "PE-ro",
+      "audio": "seg-06"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Quick check: say but.",
-      "word": "but"
+      "word": "but",
+      "audio": "seg-07"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "En español, pero.",
       "word": "pero",
-      "phon": "PE-ro"
+      "phon": "PE-ro",
+      "audio": "seg-08"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "And cancel it is cancelarlo. The lo goes at the end.",
-      "show": "cancelar + lo\ncancelarlo"
+      "show": "cancelar + lo\ncancelarlo",
+      "audio": "seg-09"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Say: to cancel it.",
-      "word": "to cancel it"
+      "word": "to cancel it",
+      "audio": "seg-10"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "En español, cancelarlo.",
       "word": "cancelarlo",
-      "phon": "kan-se-LAR-lo"
+      "phon": "kan-se-LAR-lo",
+      "audio": "seg-11"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Now add quiero: I want to cancel it.",
       "word": "I want to cancel it",
-      "pauseSec": 3
+      "pauseSec": 3,
+      "audio": "seg-12"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Quiero cancelarlo.",
       "word": "Quiero cancelarlo",
-      "phon": "KYE-ro kan-se-LAR-lo"
+      "phon": "KYE-ro kan-se-LAR-lo",
+      "audio": "seg-13"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Add ahora: I want to cancel it now.",
       "word": "I want to cancel it now",
-      "pauseSec": 3.2
+      "pauseSec": 3.2,
+      "audio": "seg-14"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Quiero cancelarlo ahora.",
       "word": "Quiero cancelarlo ahora",
-      "phon": "KYE-ro kan-se-LAR-lo a-O-ra"
+      "phon": "KYE-ro kan-se-LAR-lo a-O-ra",
+      "audio": "seg-15"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "For the negative, Spanish parks no in front.",
-      "show": "no + quiero"
+      "show": "no + quiero",
+      "audio": "seg-16"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Take one step back: I do not want to cancel it.",
       "word": "I don't want to cancel it",
-      "pauseSec": 3
+      "pauseSec": 3,
+      "audio": "seg-17"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "No quiero cancelarlo.",
       "word": "No quiero cancelarlo",
-      "phon": "no KYE-ro kan-se-LAR-lo"
+      "phon": "no KYE-ro kan-se-LAR-lo",
+      "audio": "seg-18"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Now add now: I do not want to cancel it now.",
       "word": "I don't want to cancel it now",
-      "pauseSec": 3.4
+      "pauseSec": 3.4,
+      "audio": "seg-19"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "No quiero cancelarlo ahora.",
       "word": "No quiero cancelarlo ahora",
-      "phon": "no KYE-ro kan-se-LAR-lo a-O-ra"
+      "phon": "no KYE-ro kan-se-LAR-lo a-O-ra",
+      "audio": "seg-20"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "Now we have both halves. First: I want to cancel it. Then: but. Then: I do not want to cancel it now.",
-      "show": "first half\npero\nsecond half"
+      "show": "first half\npero\nsecond half",
+      "audio": "seg-21"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Build the whole sentence.",
       "word": "I want to cancel it, but I don't want to cancel it now",
-      "pauseSec": 5.2
+      "pauseSec": 5.2,
+      "audio": "seg-22"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Quiero cancelarlo, pero no quiero cancelarlo ahora.",
       "word": "Quiero cancelarlo, pero no quiero cancelarlo ahora",
-      "phon": "KYE-ro kan-se-LAR-lo, PE-ro no KYE-ro kan-se-LAR-lo a-O-ra"
+      "phon": "KYE-ro kan-se-LAR-lo, PE-ro no KYE-ro kan-se-LAR-lo a-O-ra",
+      "audio": "seg-23"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "Good. You did not jump to the long sentence. You built it.",
-      "show": "you built it"
+      "show": "you built it",
+      "audio": "seg-24"
     }
   ],
-  "caption": "Build a long Spanish sentence from small pieces: quiero cancelarlo, pero no quiero cancelarlo ahora.",
-  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+  "caption": "One long Spanish sentence, built block by block: Quiero cancelarlo, pero no quiero cancelarlo ahora.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
 }

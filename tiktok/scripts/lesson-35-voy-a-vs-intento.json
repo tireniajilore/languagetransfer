@@ -1,0 +1,112 @@
+{
+  "id": "lesson-35-voy-a-vs-intento",
+  "title": "Voy A Versus Intento",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Two English sentences both use the word to. Spanish does not treat them the same.",
+      "show": "English says to\nSpanish chooses"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Voy means I am going. Going is movement.",
+      "show": "voy = I am going\nmovement"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy.",
+      "word": "Voy",
+      "phon": "boy"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "When going points to another action, Spanish uses voy a.",
+      "show": "voy a + action"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "See them is verlos: ver plus los.",
+      "show": "ver + los\nverlos"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am going to see them.",
+      "word": "I am going to see them",
+      "pauseSec": 3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy a verlos.",
+      "word": "Voy a verlos",
+      "phon": "boy ah BEHR-los"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now compare that with intento. Intento means I am trying.",
+      "show": "intento =\nI am trying"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Trying is not movement. So go straight to the next verb.",
+      "show": "intento + verlos"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am trying to see them.",
+      "word": "I am trying to see them",
+      "pauseSec": 3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento verlos.",
+      "word": "Intento verlos",
+      "phon": "in-TEN-to BEHR-los"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "So the question is simple: is there movement?",
+      "show": "is there movement?"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "If yes, use a. If no, go straight to the verb.",
+      "show": "movement: a\nno movement: straight"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I am going to try to see them.",
+      "word": "I am going to try to see them",
+      "pauseSec": 3.5
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy a intentar verlos.",
+      "word": "Voy a intentar verlos",
+      "phon": "boy ah in-ten-TAR BEHR-los"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. The a came from going, not from trying.",
+      "show": "a came from going"
+    }
+  ],
+  "caption": "Spanish uses a after movement: voy a verlos. But intento is not movement: intento verlos.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

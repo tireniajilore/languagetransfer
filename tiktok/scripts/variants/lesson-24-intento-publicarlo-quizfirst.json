@@ -1,0 +1,99 @@
+{
+  "id": "lesson-24-intento-publicarlo-quizfirst",
+  "title": "Intento With Simple Verbs (quiz-first)",
+  "audioDir": "lesson-24-intento-publicarlo",
+  "voice_notes": "Remix variant - reuses lesson-24-intento-publicarlo audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am trying to prepare.",
+      "word": "I am trying to prepare",
+      "pauseSec": 2.6,
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento preparar.",
+      "word": "Intento preparar",
+      "phon": "in-TEN-to pre-pa-RAR",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "One Spanish word lets you say I try and I am trying.",
+      "show": "I try\nI am trying",
+      "audio": "seg-00"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento.",
+      "word": "Intento",
+      "phon": "in-TEN-to",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Intento can mean I try, or I am trying. Context does the rest.",
+      "show": "intento =\nI try / I am trying",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "So keep the verb easy first. Prepare is preparar.",
+      "show": "prepare -> preparar",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, preparar.",
+      "word": "preparar",
+      "phon": "pre-pa-RAR",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Now one tiny stretch. Lo can mean it, and it attaches at the end.",
+      "show": "cancelar + lo\ncancelarlo",
+      "audio": "seg-10"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am trying to cancel it.",
+      "word": "I am trying to cancel it",
+      "pauseSec": 3,
+      "audio": "seg-11"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento cancelarlo.",
+      "word": "Intento cancelarlo",
+      "phon": "in-TEN-to kan-se-LAR-lo",
+      "audio": "seg-12"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "That is the point. Intento stays still while the verb changes.",
+      "show": "intento stays still",
+      "audio": "seg-13"
+    }
+  ],
+  "caption": "Could you say it before the reveal? I'm trying to prepare -> Intento preparar.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

@@ -1,100 +1,121 @@
 {
-  "id": "lesson-27-voy-ahora",
-  "title": "Voy Means I Am Going",
-  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "id": "lesson-27-voy-ahora-hook-a",
+  "title": "Voy Means I Am Going (hook swap A)",
+  "audioDir": "lesson-27-voy-ahora",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-27-voy-ahora audio.",
   "segments": [
     {
       "kind": "line",
       "lang": "en",
-      "say": "Spanish gives you one tiny word for I go and I am going.",
-      "show": "I go\nI am going"
+      "say": "One tiny Spanish word means both I go and I'm going.",
+      "show": "voy =\ngo / going",
+      "audio": "hook-a"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Voy.",
       "word": "voy",
-      "phon": "boy"
+      "phon": "boy",
+      "audio": "seg-01"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "Voy can mean I go, or I am going. Context does the work.",
-      "show": "voy =\nI go / I am going"
+      "show": "voy =\nI go / I am going",
+      "audio": "seg-02"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "And ahora means now.",
-      "show": "ahora = now"
+      "show": "ahora = now",
+      "audio": "seg-03"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Say: I am going now.",
-      "word": "I am going now"
+      "word": "I am going now",
+      "audio": "seg-04"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Voy ahora.",
       "word": "Voy ahora",
-      "phon": "boy a-O-ra"
+      "phon": "boy a-O-ra",
+      "audio": "seg-05"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "To make it negative, park no in front.",
-      "show": "no + voy"
+      "show": "no + voy",
+      "audio": "seg-06"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Now say: I am not going now.",
       "word": "I am not going now",
-      "pauseSec": 2.6
+      "pauseSec": 2.6,
+      "audio": "seg-07"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "No voy ahora.",
       "word": "No voy ahora",
-      "phon": "no boy a-O-ra"
+      "phon": "no boy a-O-ra",
+      "audio": "seg-08"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "One more. Pero means but.",
-      "show": "pero = but"
+      "show": "pero = but",
+      "audio": "seg-09"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Pero.",
       "word": "pero",
-      "phon": "PE-ro"
+      "phon": "PE-ro",
+      "audio": "seg-10"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Say: I am going, but I am not going now.",
       "word": "I am going, but I am not going now",
-      "pauseSec": 3.6
+      "pauseSec": 3.6,
+      "audio": "seg-11"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Voy, pero no voy ahora.",
       "word": "Voy, pero no voy ahora",
-      "phon": "boy, PE-ro no boy a-O-ra"
+      "phon": "boy, PE-ro no boy a-O-ra",
+      "audio": "seg-12"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "Good. Voy stayed still. No and ahora did the moving.",
-      "show": "voy stayed still"
+      "show": "voy stayed still",
+      "audio": "seg-13"
     }
   ],
-  "caption": "Voy means I go or I am going. Add ahora, park no in front, then build: voy, pero no voy ahora.",
-  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+  "caption": "One tiny word means both 'I go' and 'I'm going': voy, pero no voy ahora.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
 }

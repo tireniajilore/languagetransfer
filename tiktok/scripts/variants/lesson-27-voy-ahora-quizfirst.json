@@ -1,0 +1,82 @@
+{
+  "id": "lesson-27-voy-ahora-quizfirst",
+  "title": "Voy Means I Am Going (quiz-first)",
+  "audioDir": "lesson-27-voy-ahora",
+  "voice_notes": "Remix variant - reuses lesson-27-voy-ahora audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am going now.",
+      "word": "I am going now",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy ahora.",
+      "word": "Voy ahora",
+      "phon": "boy a-O-ra",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "To make it negative, park no in front.",
+      "show": "no + voy",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I am not going now.",
+      "word": "I am not going now",
+      "pauseSec": 2.6,
+      "audio": "seg-07"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish gives you one tiny word for I go and I am going.",
+      "show": "I go\nI am going",
+      "audio": "seg-00"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy.",
+      "word": "voy",
+      "phon": "boy",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Voy can mean I go, or I am going. Context does the work.",
+      "show": "voy =\nI go / I am going",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And ahora means now.",
+      "show": "ahora = now",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Voy stayed still. No and ahora did the moving.",
+      "show": "voy stayed still",
+      "audio": "seg-13"
+    }
+  ],
+  "caption": "Could you say it before the reveal? I'm going now -> Voy ahora.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
+}

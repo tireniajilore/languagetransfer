@@ -15,7 +15,7 @@ Stage directions:
 - `[beat]` means pause for the viewer to answer.
 - `[long beat]` means a longer pause for multi-piece sentence building.
 
-## Lesson 24: Intento Means I Am Trying
+## Lesson 24: Intento With Simple Verbs
 
 One Spanish word lets you say I try and I am trying.
 
@@ -23,37 +23,32 @@ Intento.
 
 Intento can mean I try, or I am trying. Context does the rest.
 
-Now attach lo to the end of an unchanged verb.
+So keep the verb easy first. Prepare is preparar.
 
-Publish goes through publication, then publicación, then publicar.
+Preparar.
 
-[on screen: to publish it]
-Say: to publish it.
-[beat]
-Publicarlo.
-
-[on screen: I am trying to publish it]
-Now say: I am trying to publish it.
+[on screen: I am trying to prepare]
+Say: I am trying to prepare.
 [long beat]
-Intento publicarlo.
+Intento preparar.
 
-Same move with administration. It gives you administrar.
+Cancel is cancelar. Same sentence shape.
 
-[on screen: I am trying to administer it]
-Say: I am trying to administer it.
+[on screen: I am trying to cancel]
+Say: I am trying to cancel.
 [long beat]
-Intento administrarlo.
+Intento cancelar.
 
-One more. Imitation gives imitar.
+Good. Now one tiny stretch. Lo can mean it, and it attaches at the end.
 
-[on screen: I am trying to imitate it]
-Say: I am trying to imitate it.
+[on screen: I am trying to cancel it]
+Say: I am trying to cancel it.
 [long beat]
-Intento imitarlo.
+Intento cancelarlo.
 
-Good. You did not memorize a sentence. You stacked intento, a verb, and lo.
+That is the point. Intento stays still while the verb changes.
 
-Caption: Intento means I try or I am trying. Stack it with verb + lo: intento publicarlo, intento administrarlo, intento imitarlo.
+Caption: Intento means I try or I am trying. Keep it simple first: intento preparar, intento cancelar, then stretch to intento cancelarlo.
 
 ## Lesson 25: Spanish H Disappears
 
@@ -97,36 +92,63 @@ Caption: Spanish h is silent: hospital, horrible, habitual, habitualmente, ahora
 
 ## Lesson 26: Build A Long Sentence With Ahora
 
-Long Spanish sentences are usually small pieces glued together.
+Let's build a long Spanish sentence one block at a time.
 
 Ahora means now.
 
+Ahora.
+
+[on screen: now]
+Quick check: say now.
+[beat]
 Ahora.
 
 Pero means but.
 
 Pero.
 
+[on screen: but]
+Quick check: say but.
+[beat]
+Pero.
+
 And cancel it is cancelarlo. The lo goes at the end.
 
+[on screen: to cancel it]
+Say: to cancel it.
+[beat]
+Cancelarlo.
+
 [on screen: I want to cancel it]
-First piece: I want to cancel it.
+Now add quiero: I want to cancel it.
 [long beat]
 Quiero cancelarlo.
 
+[on screen: I want to cancel it now]
+Add ahora: I want to cancel it now.
+[long beat]
+Quiero cancelarlo ahora.
+
 For the negative, Spanish parks no in front.
 
+[on screen: I don't want to cancel it]
+Take one step back: I do not want to cancel it.
+[long beat]
+No quiero cancelarlo.
+
 [on screen: I don't want to cancel it now]
-Second piece: I do not want to cancel it now.
+Now add now: I do not want to cancel it now.
 [long beat]
 No quiero cancelarlo ahora.
 
+Now we have both halves. First: I want to cancel it. Then: but. Then: I do not want to cancel it now.
+
 [on screen: I want to cancel it, but I don't want to cancel it now]
-Now glue both pieces with but.
+Build the whole sentence.
 [long beat]
 Quiero cancelarlo, pero no quiero cancelarlo ahora.
 
-Good. That sentence looked big, but nothing inside it was new.
+Good. You did not jump to the long sentence. You built it.
 
 Caption: Build a long Spanish sentence from small pieces: quiero cancelarlo, pero no quiero cancelarlo ahora.
 
@@ -152,9 +174,18 @@ Now say: I am not going now.
 [long beat]
 No voy ahora.
 
-Good. You changed the whole sentence by moving one small no.
+One more. Pero means but.
 
-Caption: Voy means I go or I am going. Add ahora for now, and park no in front for the negative: no voy ahora.
+Pero.
+
+[on screen: I am going, but I am not going now]
+Say: I am going, but I am not going now.
+[long beat]
+Voy, pero no voy ahora.
+
+Good. Voy stayed still. No and ahora did the moving.
+
+Caption: Voy means I go or I am going. Add ahora, park no in front, then build: voy, pero no voy ahora.
 
 ## Lesson 28: Visit Him With One Ending
 

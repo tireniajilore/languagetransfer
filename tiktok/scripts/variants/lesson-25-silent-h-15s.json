@@ -1,0 +1,66 @@
+{
+  "id": "lesson-25-silent-h-15s",
+  "title": "Spanish H Disappears (15s micro-cut)",
+  "audioDir": "lesson-25-silent-h",
+  "voice_notes": "Remix variant - reuses lesson-25-silent-h audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish has one letter you should completely ignore.",
+      "show": "one letter\nto ignore",
+      "audio": "seg-00"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The letter h is written, but it does not make a sound.",
+      "show": "h is written\nnot spoken",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "C H together still makes the ch sound. But a plain h disappears.",
+      "show": "ch is different\nplain h disappears",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Do not even give it a tiny breath. Imagine the word starts with the next vowel.",
+      "show": "no breath\nstart at the vowel",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try the word hospital, with no h sound.",
+      "word": "hospital",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, hospital.",
+      "word": "hospital",
+      "phon": "os-pee-TAL",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. The letter is there for your eyes, not your mouth.",
+      "show": "for your eyes\nnot your mouth",
+      "audio": "seg-15"
+    }
+  ],
+  "caption": "The Spanish H is silent. Hospital, horrible - no h sound at all.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

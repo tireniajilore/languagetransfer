@@ -1,0 +1,74 @@
+{
+  "id": "lesson-29-soft-v-15s",
+  "title": "Spanish V Is Often A Soft B (15s micro-cut)",
+  "audioDir": "lesson-29-soft-v",
+  "voice_notes": "Remix variant - reuses lesson-29-soft-v audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish v often does not sound like English v.",
+      "show": "Spanish v\nis different",
+      "audio": "seg-00"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "In much of the Spanish-speaking world, it sounds closer to a soft b.",
+      "show": "v -> soft b",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Not a hard English b with a burst of air. Softer.",
+      "show": "soft\nnot explosive",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You already saw it in voy.",
+      "show": "voy",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy.",
+      "word": "voy",
+      "phon": "boy",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Try visible with that soft Spanish sound.",
+      "word": "visible",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, visible.",
+      "word": "visible",
+      "phon": "bee-SEE-ble",
+      "audio": "seg-06"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Same letters, but your mouth changed languages.",
+      "show": "same letters\nSpanish mouth",
+      "audio": "seg-14"
+    }
+  ],
+  "caption": "Spanish v is a soft sound, not a hard English v: voy, visible, viral.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}

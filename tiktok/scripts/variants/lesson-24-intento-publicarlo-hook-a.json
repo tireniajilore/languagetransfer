@@ -1,101 +1,122 @@
 {
-  "id": "lesson-24-intento-publicarlo",
-  "title": "Intento With Simple Verbs",
-  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "id": "lesson-24-intento-publicarlo-hook-a",
+  "title": "Intento With Simple Verbs (hook swap A)",
+  "audioDir": "lesson-24-intento-publicarlo",
+  "voice_notes": "Hook-swap variant - only the hook-a segment needs TTS; everything else reuses lesson-24-intento-publicarlo audio.",
   "segments": [
     {
       "kind": "line",
       "lang": "en",
-      "say": "One Spanish word lets you say I try and I am trying.",
-      "show": "I try\nI am trying"
+      "say": "One Spanish word covers both I try and I'm trying.",
+      "show": "intento =\ntry / trying",
+      "audio": "hook-a"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Intento.",
       "word": "Intento",
-      "phon": "in-TEN-to"
+      "phon": "in-TEN-to",
+      "audio": "seg-01"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "Intento can mean I try, or I am trying. Context does the rest.",
-      "show": "intento =\nI try / I am trying"
+      "show": "intento =\nI try / I am trying",
+      "audio": "seg-02"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "So keep the verb easy first. Prepare is preparar.",
-      "show": "prepare -> preparar"
+      "show": "prepare -> preparar",
+      "audio": "seg-03"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "En español, preparar.",
       "word": "preparar",
-      "phon": "pre-pa-RAR"
+      "phon": "pre-pa-RAR",
+      "audio": "seg-04"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Say: I am trying to prepare.",
       "word": "I am trying to prepare",
-      "pauseSec": 2.6
+      "pauseSec": 2.6,
+      "audio": "seg-05"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Intento preparar.",
       "word": "Intento preparar",
-      "phon": "in-TEN-to pre-pa-RAR"
+      "phon": "in-TEN-to pre-pa-RAR",
+      "audio": "seg-06"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "Cancel is cancelar. Same sentence shape.",
-      "show": "cancel -> cancelar"
+      "show": "cancel -> cancelar",
+      "audio": "seg-07"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Say: I am trying to cancel.",
       "word": "I am trying to cancel",
-      "pauseSec": 2.6
+      "pauseSec": 2.6,
+      "audio": "seg-08"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Intento cancelar.",
       "word": "Intento cancelar",
-      "phon": "in-TEN-to kan-se-LAR"
+      "phon": "in-TEN-to kan-se-LAR",
+      "audio": "seg-09"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "Good. Now one tiny stretch. Lo can mean it, and it attaches at the end.",
-      "show": "cancelar + lo\ncancelarlo"
+      "show": "cancelar + lo\ncancelarlo",
+      "audio": "seg-10"
     },
     {
       "kind": "prompt",
       "lang": "en",
       "say": "Say: I am trying to cancel it.",
       "word": "I am trying to cancel it",
-      "pauseSec": 3
+      "pauseSec": 3,
+      "audio": "seg-11"
     },
     {
       "kind": "reveal",
       "lang": "es",
       "say": "Intento cancelarlo.",
       "word": "Intento cancelarlo",
-      "phon": "in-TEN-to kan-se-LAR-lo"
+      "phon": "in-TEN-to kan-se-LAR-lo",
+      "audio": "seg-12"
     },
     {
       "kind": "line",
       "lang": "en",
       "say": "That is the point. Intento stays still while the verb changes.",
-      "show": "intento stays still"
+      "show": "intento stays still",
+      "audio": "seg-13"
     }
   ],
-  "caption": "Intento means I try or I am trying. Keep it simple first: intento preparar, intento cancelar, then stretch to intento cancelarlo.",
-  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+  "caption": "One word covers 'I try' and 'I'm trying': intento cancelarlo. The verb changes, intento doesn't.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "studytok"
+  ]
 }

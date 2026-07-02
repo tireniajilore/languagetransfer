@@ -1,0 +1,141 @@
+{
+  "id": "lesson-32-mostrarte-algo",
+  "title": "Show You Something",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "You can build I want to show you something without memorizing the whole sentence.",
+      "show": "build it\npiece by piece"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "First, show. The fast route is demonstration to demonstrate.",
+      "show": "demonstration\n-> demonstrate"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Demostrar.",
+      "word": "demostrar",
+      "phon": "de-mos-TRAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Take away the de, and you get mostrar.",
+      "show": "demostrar - de\n= mostrar"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Mostrar.",
+      "word": "mostrar",
+      "phon": "mos-TRAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Mostrar means to show.",
+      "show": "mostrar = to show"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Quick check: say to show.",
+      "word": "to show",
+      "pauseSec": 2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Mostrar.",
+      "word": "mostrar",
+      "phon": "mos-TRAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now te means you, and it can attach to the end.",
+      "show": "mostrar + te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to show you.",
+      "word": "to show you",
+      "pauseSec": 2.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Mostrarte.",
+      "word": "mostrarte",
+      "phon": "mos-TRAR-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Algo means something.",
+      "show": "algo = something"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Algo.",
+      "word": "algo",
+      "phon": "AL-go"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: to show you something.",
+      "word": "to show you something",
+      "pauseSec": 3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Mostrarte algo.",
+      "word": "Mostrarte algo",
+      "phon": "mos-TRAR-te AL-go"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Quiero means I want.",
+      "show": "quiero = I want"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero.",
+      "word": "Quiero",
+      "phon": "KYE-ro"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Add quiero: I want to show you something.",
+      "word": "I want to show you something",
+      "pauseSec": 3.4
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Quiero mostrarte algo.",
+      "word": "Quiero mostrarte algo",
+      "phon": "KYE-ro mos-TRAR-te AL-go"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. You did not translate word by word. You stacked the pieces.",
+      "show": "stack the pieces"
+    }
+  ],
+  "caption": "Fast route: demonstration -> demonstrate -> demostrar -> mostrar. Then build: quiero mostrarte algo.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

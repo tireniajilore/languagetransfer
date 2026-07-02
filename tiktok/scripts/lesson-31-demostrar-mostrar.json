@@ -1,0 +1,107 @@
+{
+  "id": "lesson-31-demostrar-mostrar",
+  "title": "Demonstration Hides Show",
+  "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish can hide an everyday verb inside a fancy English word.",
+      "show": "a useful verb\nis hiding"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "The everyday verb is show. The fancy English clue is demonstration.",
+      "show": "show\ninside demonstration"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Use the old pattern first: ation becomes ación.",
+      "show": "ation -> ación"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, demostración.",
+      "word": "demostración",
+      "phon": "de-mos-tra-SYON"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Notice that English n did not come with us.",
+      "show": "demonstration\nno English n"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now take off that noun ending and add ar.",
+      "display": "take off ción\nadd ar",
+      "show": "demostración -> demostrar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to demonstrate.",
+      "word": "to demonstrate",
+      "pauseSec": 2.2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "En español, demostrar.",
+      "word": "demostrar",
+      "phon": "de-mos-TRAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now remove the de at the front.",
+      "show": "demostrar\nminus de"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "What do you get?",
+      "word": "demostrar - de",
+      "pauseSec": 2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Mostrar.",
+      "word": "mostrar",
+      "phon": "mos-TRAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Mostrar means to show.",
+      "show": "mostrar = to show"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Quick check: say to show.",
+      "word": "to show",
+      "pauseSec": 2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Mostrar.",
+      "word": "mostrar",
+      "phon": "mos-TRAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Demonstration gave you demonstrate, and demonstrate gave you show.",
+      "show": "demonstration\n-> show"
+    }
+  ],
+  "caption": "Demonstration can lead you to demostrar. Remove de, and you get mostrar: to show.",
+  "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
+}

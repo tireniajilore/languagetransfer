@@ -1,0 +1,67 @@
+{
+  "id": "lesson-27-voy-ahora-15s",
+  "title": "Voy Means I Am Going (15s micro-cut)",
+  "audioDir": "lesson-27-voy-ahora",
+  "voice_notes": "Remix variant - reuses lesson-27-voy-ahora audio via explicit segment keys. No new TTS.",
+  "segments": [
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Spanish gives you one tiny word for I go and I am going.",
+      "show": "I go\nI am going",
+      "audio": "seg-00"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy.",
+      "word": "voy",
+      "phon": "boy",
+      "audio": "seg-01"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Voy can mean I go, or I am going. Context does the work.",
+      "show": "voy =\nI go / I am going",
+      "audio": "seg-02"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "And ahora means now.",
+      "show": "ahora = now",
+      "audio": "seg-03"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am going now.",
+      "word": "I am going now",
+      "audio": "seg-04"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy ahora.",
+      "word": "Voy ahora",
+      "phon": "boy a-O-ra",
+      "audio": "seg-05"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Good. Voy stayed still. No and ahora did the moving.",
+      "show": "voy stayed still",
+      "audio": "seg-13"
+    }
+  ],
+  "caption": "Voy = I go / I'm going. Add ahora for 'I'm going now': voy ahora.",
+  "hashtags": [
+    "learnspanish",
+    "spanishtok",
+    "spanish",
+    "languagelearning",
+    "fyp"
+  ]
+}
