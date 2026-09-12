@@ -5,6 +5,10 @@ export type EngineMode =
   | 'playing'
   | 'paused'
   | 'waiting_for_response'
+  // The learner has answered and we are deciding what the tutor says back.
+  // Before this existed, RESPOND advanced straight to the next step, which is
+  // why speaking, typing and timing out all produced the identical lesson.
+  | 'responding'
   | 'completed';
 
 export type ResponseKind = 'submitted' | 'skipped' | 'timed_out';
@@ -16,6 +20,17 @@ export interface ResponseRecord {
   response: string;
   kind: ResponseKind;
   acceptedAnswers?: string[];
+}
+
+/** What the tutor is saying back, once the answer has been scored. */
+export interface RespondingState {
+  outcome: 'right' | 'wrong' | 'unclear';
+  /** Normalized transcript, kept for the correction prompt and the log. */
+  heard: string;
+  /** Correction text once it arrives. Null while it is being fetched. */
+  correction: string | null;
+  /** True while the correction request is in flight. */
+  pending: boolean;
 }
 
 export interface WaitingState {
@@ -32,6 +47,7 @@ export interface EngineState {
   currentInput: string;
   responses: ResponseRecord[];
   waiting: WaitingState | null;
+  responding: RespondingState | null;
 }
 
 export interface MovePayload {
@@ -60,6 +76,9 @@ export type EngineAction =
   | { type: 'PROMPT_REACHED'; totalSeconds: number }
   | { type: 'SET_INPUT'; value: string }
   | { type: 'RESPOND'; payload: SubmitResponsePayload }
+  | { type: 'SCORED'; payload: { outcome: 'right' | 'wrong' | 'unclear'; heard: string } }
+  | { type: 'CORRECTION_READY'; payload: { correction: string | null } }
+  | { type: 'RESPONSE_DONE' }
   | { type: 'SKIP' }
   | { type: 'TIMEOUT' }
   | { type: 'SET_WAITING_TICK'; payload: WaitingTickPayload }
