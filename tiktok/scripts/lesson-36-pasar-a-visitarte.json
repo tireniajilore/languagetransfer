@@ -1,19 +1,33 @@
 {
   "id": "lesson-36-pasar-a-visitarte",
-  "title": "Pasar A Uses The Same Bridge",
+  "title": "Pasar A Visit You",
   "voice_notes": "Warm, patient teacher. One voice. Brian v3. English prompts use language_code en; Spanish reveals use language_code es. Avoid Language Transfer branding.",
   "segments": [
     {
       "kind": "line",
       "lang": "en",
-      "say": "Now use the same movement rule with a new verb.",
-      "show": "same rule\nnew verb"
+      "say": "Let's use the movement rule with one new verb.",
+      "show": "same rule\none new verb"
     },
     {
       "kind": "line",
       "lang": "en",
-      "say": "Pasar means to pass, or to pass by.",
+      "say": "Pasar means to pass by.",
       "show": "pasar =\nto pass by"
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Pasar.",
+      "word": "pasar",
+      "phon": "pa-SAR"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Quick check: to pass by.",
+      "word": "to pass by",
+      "pauseSec": 2
     },
     {
       "kind": "reveal",
@@ -25,14 +39,60 @@
     {
       "kind": "line",
       "lang": "en",
-      "say": "Passing by is movement. So before the next action, use pasar a.",
-      "show": "pasar a\n+ action"
+      "say": "Passing by is movement, so before the next action, use pasar a.",
+      "show": "pasar a\n+ next action"
     },
     {
       "kind": "line",
       "lang": "en",
-      "say": "Visit is visitar. Te means you. So visitarte means to visit you.",
-      "show": "visitar + te\nvisitarte"
+      "say": "Now build the next action separately.",
+      "show": "build the next action"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Visit is visitar.",
+      "show": "visit -> visitar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to visit.",
+      "word": "to visit",
+      "pauseSec": 2
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Visitar.",
+      "word": "visitar",
+      "phon": "bee-see-TAR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Te means you, and it attaches to the end.",
+      "show": "visitar + te"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: to visit you.",
+      "word": "to visit you",
+      "pauseSec": 2.3
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Visitarte.",
+      "word": "visitarte",
+      "phon": "bee-see-TAR-te"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now put the movement piece before it: pasar a visitarte.",
+      "show": "pasar a\nvisitarte"
     },
     {
       "kind": "prompt",
@@ -51,56 +111,30 @@
     {
       "kind": "line",
       "lang": "en",
-      "say": "Voy a means I am going to. That is movement too.",
-      "show": "voy a =\nI am going to"
+      "say": "Quiero means I want.",
+      "show": "quiero = I want"
     },
     {
       "kind": "prompt",
       "lang": "en",
-      "say": "Say: I am going to pass by to visit you.",
-      "word": "I am going to pass by to visit you",
-      "pauseSec": 3.8
+      "say": "Say: I want to pass by to visit you.",
+      "word": "I want to pass by to visit you",
+      "pauseSec": 3.5
     },
     {
       "kind": "reveal",
       "lang": "es",
-      "say": "Voy a pasar a visitarte.",
-      "word": "Voy a pasar a visitarte",
-      "phon": "boy ah pa-SAR ah bee-see-TAR-te"
+      "say": "Quiero pasar a visitarte.",
+      "word": "Quiero pasar a visitarte",
+      "phon": "KYE-ro pa-SAR ah bee-see-TAR-te"
     },
     {
       "kind": "line",
       "lang": "en",
-      "say": "Hear the two bridges: voy a, then pasar a.",
-      "show": "voy a\npasar a"
-    },
-    {
-      "kind": "line",
-      "lang": "en",
-      "say": "One stretch. Show you something is mostrarte algo.",
-      "show": "mostrarte algo"
-    },
-    {
-      "kind": "prompt",
-      "lang": "en",
-      "say": "Say: I want to pass by to show you something.",
-      "word": "I want to pass by to show you something",
-      "pauseSec": 4
-    },
-    {
-      "kind": "reveal",
-      "lang": "es",
-      "say": "Quiero pasar a mostrarte algo.",
-      "word": "Quiero pasar a mostrarte algo",
-      "phon": "KYE-ro pa-SAR ah mos-TRAR-te AL-go"
-    },
-    {
-      "kind": "line",
-      "lang": "en",
-      "say": "Good. Pasar is movement, so it gets the bridge.",
-      "show": "pasar is movement"
+      "say": "Good. You built pasar, then visitarte, then joined them with a.",
+      "show": "pasar + a\n+ visitarte"
     }
   ],
-  "caption": "Pasar means to pass by. Because it has movement, use a before the next action: pasar a visitarte.",
+  "caption": "Build pasar a visitarte slowly: pasar, visitar, visitarte, pasar a visitarte, quiero pasar a visitarte.",
   "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
 }

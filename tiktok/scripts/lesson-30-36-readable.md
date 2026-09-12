@@ -1,4 +1,4 @@
-# TikTok Spanish Lessons 30-35 Readable Scripts
+# TikTok Spanish Lessons 30-36 Readable Scripts
 
 These are the readable versions of the original LT Lesson 7 split:
 
@@ -7,7 +7,8 @@ These are the readable versions of the original LT Lesson 7 split:
 - `lesson-32-mostrarte-algo.json`
 - `lesson-33-voy-a-future.json`
 - `lesson-34-los-verlos.json`
-- `lesson-35-pasar-a-movement.json`
+- `lesson-35-voy-a-vs-intento.json`
+- `lesson-36-pasar-a-visitarte.json`
 
 Stage directions:
 
@@ -99,15 +100,9 @@ Caption: Demonstration can lead you to demostrar. Remove de, and you get mostrar
 
 ## Lesson 32: Show You Something
 
-You can build I want to show you something from four pieces.
+You can build I want to show you something without memorizing the whole sentence.
 
-First we need to show. The clue is demonstration.
-
-Demonstration gives you the Spanish noun first.
-
-Demostración.
-
-Then take off that noun ending and add ar.
+First, show. The fast route is demonstration to demonstrate.
 
 Demostrar.
 
@@ -116,6 +111,11 @@ Take away the de, and you get mostrar.
 Mostrar.
 
 Mostrar means to show.
+
+[on screen: to show]
+Quick check: say to show.
+[beat]
+Mostrar.
 
 Now te means you, and it can attach to the end.
 
@@ -144,7 +144,7 @@ Quiero mostrarte algo.
 
 Good. You did not translate word by word. You stacked the pieces.
 
-Caption: Get mostrar from demonstration -> demostración -> demostrar -> mostrar. Then build: quiero mostrarte algo.
+Caption: Fast route: demonstration -> demonstrate -> demostrar -> mostrar. Then build: quiero mostrarte algo.
 
 ## Lesson 33: Voy A Builds The Future
 
@@ -226,15 +226,31 @@ Good. Lo became los, and verlos moved as one piece.
 
 Caption: Lo can mean it or him. Add s for los, them. Then attach it: verlos, quiero verlos, intento verlos.
 
-## Lesson 35: Movement Verbs Take A
+## Lesson 35: Voy A Versus Intento
 
-This little Spanish a is not random.
+English uses to in both of these sentences. Spanish makes a difference.
 
-It shows up after a movement verb, when another action comes next.
+Voy a means I am going to.
 
-Voy means I am going. Going is movement.
+Voy a.
 
-So before the next action, Spanish says voy a.
+Continue is continuar.
+
+[on screen: I am going to continue]
+Say: I am going to continue.
+[long beat]
+Voy a continuar.
+
+Intento means I am trying.
+
+[on screen: I am trying to continue]
+Now say: I am trying to continue.
+[long beat]
+Intento continuar.
+
+Hear the difference? Going uses a. Trying goes straight to the verb.
+
+Now use the same contrast with see them.
 
 See them is verlos.
 
@@ -243,42 +259,67 @@ Say: I am going to see them.
 [long beat]
 Voy a verlos.
 
-Now add try. Intentar means to try, but trying is not movement.
+[on screen: I am trying to see them]
+Now say: I am trying to see them.
+[long beat]
+Intento verlos.
 
-So the a belongs after voy. Then go straight into intentar verlos.
+One stretch. I am going to try starts with voy a.
 
 [on screen: I am going to try to see them]
 Now say: I am going to try to see them.
 [long beat]
 Voy a intentar verlos.
 
-Another movement verb is pasar: to pass, or to pass by.
+Good. The a came from going, not from trying.
+
+Caption: Easy reps for the difference: voy a continuar, intento continuar. Then voy a verlos, intento verlos.
+
+## Lesson 36: Pasar A Visit You
+
+Let's use the movement rule with one new verb.
+
+Pasar means to pass by.
 
 Pasar.
 
-Because pasar has movement, it also uses the bridge before the next action.
+[on screen: to pass by]
+Quick check: to pass by.
+[beat]
+Pasar.
 
-Visit is visitar. Te means you, so visitarte means to visit you.
+Passing by is movement, so before the next action, use pasar a.
+
+Now build the next action separately.
+
+Visit is visitar.
+
+[on screen: to visit]
+Say: to visit.
+[beat]
+Visitar.
+
+Te means you, and it attaches to the end.
+
+[on screen: to visit you]
+Say: to visit you.
+[beat]
+Visitarte.
+
+Now put the movement piece before it: pasar a visitarte.
 
 [on screen: to pass by to visit you]
 Say: to pass by to visit you.
 [long beat]
 Pasar a visitarte.
 
-Now combine voy and pasar. Both have movement, so both get the bridge.
+Quiero means I want.
 
-[on screen: I am going to pass by to visit you]
-Now say: I am going to pass by to visit you.
+[on screen: I want to pass by to visit you]
+Say: I want to pass by to visit you.
 [long beat]
-Voy a pasar a visitarte.
+Quiero pasar a visitarte.
 
-One stretch. Show you something is mostrarte algo.
+Good. You built pasar, then visitarte, then joined them with a.
 
-[on screen: I want to pass by to show you something]
-Say: I want to pass by to show you something.
-[long beat]
-Quiero pasar a mostrarte algo.
-
-Good. Listen for movement first. That tells you where the a goes.
-
-Caption: The little a comes after movement verbs when another action follows: voy a verlos, pasar a visitarte, voy a pasar a visitarte.
+Caption: Build pasar a visitarte slowly: pasar, visitar, visitarte, pasar a visitarte, quiero pasar a visitarte.

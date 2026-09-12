@@ -1,0 +1,69 @@
+{
+  "batch_id": "2026-09-16",
+  "date": "2026-09-16",
+  "generated_at": "2026-09-15T01:11:31.062Z",
+  "policy": "1 new lesson + 2 variants of already-posted lessons",
+  "videos": [
+    {
+      "id": "lesson-25-silent-h",
+      "kind": "new",
+      "lesson": "lesson-25-silent-h",
+      "file": null,
+      "bytes": null,
+      "caption": "Spanish h is silent: hospital, horrible, habitual, habitualmente, ahora. See it, but do not pronounce it.",
+      "hashtags": [
+        "learnspanish",
+        "spanishtok",
+        "spanish",
+        "languagelearning",
+        "studytok"
+      ],
+      "caption_source": "lesson-25-silent-h",
+      "url": "https://github.com/tireniajilore/languagetransfer/releases/download/video-backlog/lesson-25-silent-h.mp4",
+      "gates": null
+    },
+    {
+      "id": "lesson-04-no-es-15s",
+      "kind": "variant",
+      "lesson": "lesson-04-no-es",
+      "file": null,
+      "bytes": null,
+      "caption": "Negative sentences in Spanish: park no in front. Es legal → no es legal. The whole move.",
+      "hashtags": [
+        "learnspanish",
+        "spanishtok",
+        "spanish",
+        "languagelearning",
+        "fyp"
+      ],
+      "caption_source": "lesson-04-no-es-15s",
+      "url": "https://github.com/tireniajilore/languagetransfer/releases/download/video-backlog/lesson-04-no-es-15s.mp4",
+      "gates": null
+    },
+    {
+      "id": "lesson-05-ant-ent-15s",
+      "kind": "variant",
+      "lesson": "lesson-05-ant-ent",
+      "file": null,
+      "bytes": null,
+      "caption": "English words ending in ant/ent often become Spanish by adding e: importante, constante, excelente.",
+      "hashtags": [
+        "learnspanish",
+        "spanishtok",
+        "spanish",
+        "languagelearning",
+        "fyp"
+      ],
+      "caption_source": "lesson-05-ant-ent-15s",
+      "url": "https://github.com/tireniajilore/languagetransfer/releases/download/video-backlog/lesson-05-ant-ent-15s.mp4",
+      "gates": null
+    }
+  ],
+  "warnings": [
+    "1 rendered video(s) skipped for having no caption: lesson-01-cognate-with-audio"
+  ],
+  "supply": {
+    "new_lessons_left": 4,
+    "variants_left": 25
+  }
+}

@@ -6,33 +6,79 @@
     {
       "kind": "line",
       "lang": "en",
-      "say": "Two English sentences both use the word to. Spanish does not treat them the same.",
+      "say": "English uses to in both of these sentences. Spanish makes a difference.",
       "show": "English says to\nSpanish chooses"
     },
     {
       "kind": "line",
       "lang": "en",
-      "say": "Voy means I am going. Going is movement.",
-      "show": "voy = I am going\nmovement"
+      "say": "Voy a means I am going to.",
+      "show": "voy a =\nI am going to"
     },
     {
       "kind": "reveal",
       "lang": "es",
-      "say": "Voy.",
-      "word": "Voy",
-      "phon": "boy"
+      "say": "Voy a.",
+      "word": "Voy a",
+      "phon": "boy ah"
     },
     {
       "kind": "line",
       "lang": "en",
-      "say": "When going points to another action, Spanish uses voy a.",
-      "show": "voy a + action"
+      "say": "Continue is continuar.",
+      "show": "continue -> continuar"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Say: I am going to continue.",
+      "word": "I am going to continue",
+      "pauseSec": 2.8
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Voy a continuar.",
+      "word": "Voy a continuar",
+      "phon": "boy ah kon-tee-noo-AR"
     },
     {
       "kind": "line",
       "lang": "en",
-      "say": "See them is verlos: ver plus los.",
-      "show": "ver + los\nverlos"
+      "say": "Intento means I am trying.",
+      "show": "intento =\nI am trying"
+    },
+    {
+      "kind": "prompt",
+      "lang": "en",
+      "say": "Now say: I am trying to continue.",
+      "word": "I am trying to continue",
+      "pauseSec": 2.8
+    },
+    {
+      "kind": "reveal",
+      "lang": "es",
+      "say": "Intento continuar.",
+      "word": "Intento continuar",
+      "phon": "in-TEN-to kon-tee-noo-AR"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Hear the difference? Going uses a. Trying goes straight to the verb.",
+      "show": "going: a\ntrying: straight"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "Now use the same contrast with see them.",
+      "show": "same contrast\nnew verb"
+    },
+    {
+      "kind": "line",
+      "lang": "en",
+      "say": "See them is verlos.",
+      "show": "see them = verlos"
     },
     {
       "kind": "prompt",
@@ -49,21 +95,9 @@
       "phon": "boy ah BEHR-los"
     },
     {
-      "kind": "line",
-      "lang": "en",
-      "say": "Now compare that with intento. Intento means I am trying.",
-      "show": "intento =\nI am trying"
-    },
-    {
-      "kind": "line",
-      "lang": "en",
-      "say": "Trying is not movement. So go straight to the next verb.",
-      "show": "intento + verlos"
-    },
-    {
       "kind": "prompt",
       "lang": "en",
-      "say": "Say: I am trying to see them.",
+      "say": "Now say: I am trying to see them.",
       "word": "I am trying to see them",
       "pauseSec": 3
     },
@@ -77,19 +111,13 @@
     {
       "kind": "line",
       "lang": "en",
-      "say": "So the question is simple: is there movement?",
-      "show": "is there movement?"
-    },
-    {
-      "kind": "line",
-      "lang": "en",
-      "say": "If yes, use a. If no, go straight to the verb.",
-      "show": "movement: a\nno movement: straight"
+      "say": "One stretch. I am going to try starts with voy a.",
+      "show": "I am going to try\nvoy a intentar"
     },
     {
       "kind": "prompt",
       "lang": "en",
-      "say": "Now say: I am going to try to see them.",
+      "say": "Say: I am going to try to see them.",
       "word": "I am going to try to see them",
       "pauseSec": 3.5
     },
@@ -107,6 +135,6 @@
       "show": "a came from going"
     }
   ],
-  "caption": "Spanish uses a after movement: voy a verlos. But intento is not movement: intento verlos.",
+  "caption": "Easy reps for the difference: voy a continuar, intento continuar. Then voy a verlos, intento verlos.",
   "hashtags": ["learnspanish", "spanishtok", "spanish", "languagelearning", "studytok"]
 }
