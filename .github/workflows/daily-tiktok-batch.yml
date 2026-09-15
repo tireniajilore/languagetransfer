@@ -57,6 +57,11 @@ jobs:
 
       - name: Build today's batch
         id: batch
+        env:
+          # Without this the picker scans out/, which does not exist on a runner,
+          # and silently publishes an empty batch. It now hard-fails instead, but
+          # this is what makes it correct rather than merely loud.
+          HOSTED_LIST: /tmp/hosted.txt
         run: |
           DATE="${{ github.event.inputs.date }}"
           [ -z "$DATE" ] && DATE=$(date -u +%F)
@@ -69,8 +74,8 @@ jobs:
           fi
 
           cd tiktok
-          # Non-zero exit means a warning (e.g. no new lesson left), not a
-          # failure — we still want the batch published and the warning visible.
+          # Warnings exit non-zero but still write the file. A thrown error
+          # (no videos, empty hosted list) writes nothing and must fail the run.
           node scripts/build-daily-batch.mjs --date "$DATE" || true
           cd ..
 
