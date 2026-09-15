@@ -1,0 +1,69 @@
+{
+  "batch_id": "2026-09-15",
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T00:53:50.782Z",
+  "policy": "1 new lesson + 2 variants of already-posted lessons",
+  "videos": [
+    {
+      "id": "lesson-24-intento-publicarlo",
+      "kind": "new",
+      "lesson": "lesson-24-intento-publicarlo",
+      "file": "tiktok/remotion/out/lesson-24-intento-publicarlo.mp4",
+      "bytes": 3651096,
+      "caption": "Intento means I try or I am trying. Keep it simple first: intento preparar, intento cancelar, then stretch to intento cancelarlo.",
+      "hashtags": [
+        "learnspanish",
+        "spanishtok",
+        "spanish",
+        "languagelearning",
+        "studytok"
+      ],
+      "caption_source": "lesson-24-intento-publicarlo",
+      "url": "https://github.com/tireniajilore/languagetransfer/releases/download/video-backlog/lesson-24-intento-publicarlo.mp4",
+      "gates": null
+    },
+    {
+      "id": "lesson-02-vowels-v3",
+      "kind": "variant",
+      "lesson": "lesson-02-vowels",
+      "file": "tiktok/remotion/out/finalized/lesson-02-vowels-v3.mp4",
+      "bytes": 3056721,
+      "caption": "Spanish is easier to read out loud than English — the vowels never change: a-e-i-o-u = ah-eh-ee-oh-oo. Then read these: natural, metal, legal, ideal.",
+      "hashtags": [
+        "learnspanish",
+        "spanishtok",
+        "spanish",
+        "languagelearning",
+        "fyp"
+      ],
+      "caption_source": "lesson-02-vowels",
+      "url": "https://github.com/tireniajilore/languagetransfer/releases/download/video-backlog/lesson-02-vowels-v3.mp4",
+      "gates": null
+    },
+    {
+      "id": "lesson-03-es-quizfirst",
+      "kind": "variant",
+      "lesson": "lesson-03-es",
+      "file": "tiktok/remotion/out/variants/lesson-03-es-quizfirst.mp4",
+      "bytes": 2541972,
+      "caption": "Did you get it before the reveal? One word — es — covers he is, she is, it is. Drop your score below.",
+      "hashtags": [
+        "learnspanish",
+        "spanishtok",
+        "spanish",
+        "languagelearning",
+        "studytok"
+      ],
+      "caption_source": "lesson-03-es-quizfirst",
+      "url": "https://github.com/tireniajilore/languagetransfer/releases/download/video-backlog/lesson-03-es-quizfirst.mp4",
+      "gates": null
+    }
+  ],
+  "warnings": [
+    "1 rendered video(s) skipped for having no caption: lesson-01-cognate-with-audio"
+  ],
+  "supply": {
+    "new_lessons_left": 5,
+    "variants_left": 27
+  }
+}
