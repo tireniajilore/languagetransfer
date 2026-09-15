@@ -1,0 +1,129 @@
+# Publishes the day's 3 videos for Muse to pick up.
+#
+# Muse has no inbound webhook, so nothing can trigger it — it polls. This job's
+# only output is a JSON file at a stable raw.githubusercontent.com URL listing
+# what to post today, with a direct download URL and a caption for each video.
+#
+# The videos themselves are NOT produced here. They live as assets on the
+# `video-backlog` GitHub Release, uploaded once. This job only decides which
+# three to surface, so it is seconds of work and needs no secrets beyond the
+# built-in token.
+#
+# NOTE: GitHub only runs scheduled workflows from the DEFAULT branch. This file
+# has to be on `main` before the cron will ever fire.
+
+name: Daily TikTok batch
+
+on:
+  schedule:
+    # 13:00 UTC daily. Muse's scheduling is loose by its own account (fires
+    # around the time, sometimes early), so set Muse's poll comfortably after
+    # this rather than at the same minute.
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Batch date (YYYY-MM-DD). Blank = today."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-tiktok-batch
+  cancel-in-progress: false
+
+jobs:
+  build-batch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # The picker reads the release to know what is actually hosted, rather
+      # than the local out/ directory, which does not exist on a CI runner.
+      - name: List hosted videos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view video-backlog --repo "$GITHUB_REPOSITORY" \
+            --json assets --jq '.assets[].name' > /tmp/hosted.txt
+          echo "hosted assets: $(wc -l < /tmp/hosted.txt)"
+
+      - name: Build today's batch
+        id: batch
+        run: |
+          DATE="${{ github.event.inputs.date }}"
+          [ -z "$DATE" ] && DATE=$(date -u +%F)
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+
+          if [ -f "tiktok/batches/$DATE.json" ]; then
+            echo "batch for $DATE already exists — nothing to do"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          cd tiktok
+          # Non-zero exit means a warning (e.g. no new lesson left), not a
+          # failure — we still want the batch published and the warning visible.
+          node scripts/build-daily-batch.mjs --date "$DATE" || true
+          cd ..
+
+          if [ ! -f "tiktok/batches/$DATE.json" ]; then
+            echo "::error::no batch file produced for $DATE"
+            exit 1
+          fi
+
+          # Stable URL for Muse to poll. Dated files are the audit trail.
+          cp "tiktok/batches/$DATE.json" tiktok/batches/latest.json
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Warn if supply is running low
+        if: steps.batch.outputs.changed == 'true'
+        run: |
+          DATE="${{ steps.batch.outputs.date }}"
+          NEW=$(jq -r '.supply.new_lessons_left' "tiktok/batches/$DATE.json")
+          VAR=$(jq -r '.supply.variants_left' "tiktok/batches/$DATE.json")
+          echo "supply: $NEW new lessons, $VAR variants"
+          jq -r '.warnings[]?' "tiktok/batches/$DATE.json" | while read -r w; do
+            echo "::warning::$w"
+          done
+          # Renders take lead time. Shout while there is still room to react.
+          [ "$NEW" -le 3 ] && echo "::warning::Only $NEW new lessons left — render more (lessons 30-36 are authored)."
+          [ "$VAR" -le 6 ] && echo "::warning::Only $VAR variants left."
+          exit 0
+
+      - name: Commit the batch
+        if: steps.batch.outputs.changed == 'true'
+        run: |
+          DATE="${{ steps.batch.outputs.date }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tiktok/batches/
+          git diff --staged --quiet && { echo "nothing to commit"; exit 0; }
+          git commit -m "chore(tiktok): daily batch for $DATE"
+          git push
+
+      - name: Summary
+        if: always()
+        run: |
+          DATE="${{ steps.batch.outputs.date }}"
+          F="tiktok/batches/$DATE.json"
+          {
+            echo "## TikTok batch — $DATE"
+            echo
+            if [ -f "$F" ]; then
+              echo '| kind | video | caption |'
+              echo '|---|---|---|'
+              jq -r '.videos[] | "| \(.kind) | \(.id) | \(.caption[0:60])… |"' "$F"
+              echo
+              echo "Muse polls: \`https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/tiktok/batches/latest.json\`"
+            else
+              echo "No batch produced."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
