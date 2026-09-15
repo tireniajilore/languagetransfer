@@ -4,6 +4,7 @@ import type {
   ResponseRecord
 } from '@/types/engine';
 import type { Lesson } from '@/types/lesson';
+import { matchAnswer } from '@/lib/answer-match';
 
 function clampIndex(index: number, lesson: Lesson) {
   if (lesson.steps.length === 0) return 0;
@@ -26,6 +27,40 @@ function buildResponseRecord(state: EngineState, kind: ResponseRecord['kind'], r
   };
 }
 
+// A submitted answer is scored here rather than in the component, because the
+// match is a pure function of (response, acceptedAnswers) and belongs with the
+// rest of the state transition. Only a genuinely WRONG answer changes the
+// lesson's shape; right and unclear advance exactly as they always have, so the
+// blast radius of this feature is one branch.
+function respondToSubmission(state: EngineState, response: string): EngineState {
+  const promptStep = state.lesson.steps[state.currentStepIndex];
+  const record = buildResponseRecord(state, 'submitted', response);
+  const { outcome, heard } = matchAnswer(response, promptStep?.acceptedAnswers);
+
+  if (outcome !== 'wrong') {
+    const nextIndex = state.currentStepIndex + 1;
+    return {
+      ...state,
+      currentInput: '',
+      currentStepIndex: nextIndex,
+      mode: nextModeForIndex(nextIndex, state.lesson),
+      waiting: null,
+      responding: null,
+      responses: [...state.responses, record]
+    };
+  }
+
+  // Hold position. The tutor speaks before we move to the reveal.
+  return {
+    ...state,
+    currentInput: '',
+    mode: 'responding',
+    waiting: null,
+    responding: { outcome, heard, correction: null, pending: true },
+    responses: [...state.responses, record]
+  };
+}
+
 function advanceWithResponse(state: EngineState, kind: ResponseRecord['kind'], response: string): EngineState {
   const nextIndex = state.currentStepIndex + 1;
   return {
@@ -34,6 +69,7 @@ function advanceWithResponse(state: EngineState, kind: ResponseRecord['kind'], r
     currentStepIndex: nextIndex,
     mode: nextModeForIndex(nextIndex, state.lesson),
     waiting: null,
+    responding: null,
     responses: [...state.responses, buildResponseRecord(state, kind, response)]
   };
 }
@@ -66,7 +102,8 @@ export function createInitialEngineState(lesson: Lesson): EngineState {
     currentStepIndex: 0,
     currentInput: '',
     responses: [],
-    waiting: null
+    waiting: null,
+    responding: null
   };
 }
 
@@ -79,6 +116,7 @@ export function lessonEngineReducer(state: EngineState, action: EngineAction): E
         currentStepIndex: 0,
         currentInput: '',
         waiting: null,
+        responding: null,
         responses: []
       };
     case 'PAUSE':
@@ -126,7 +164,26 @@ export function lessonEngineReducer(state: EngineState, action: EngineAction): E
         currentInput: action.value
       };
     case 'RESPOND':
-      return advanceWithResponse(state, action.payload.kind, action.payload.response);
+      return action.payload.kind === 'submitted'
+        ? respondToSubmission(state, action.payload.response)
+        : advanceWithResponse(state, action.payload.kind, action.payload.response);
+    case 'CORRECTION_READY':
+      if (state.mode !== 'responding' || !state.responding) return state;
+      return {
+        ...state,
+        responding: { ...state.responding, correction: action.payload.correction, pending: false }
+      };
+    case 'RESPONSE_DONE': {
+      // The tutor has finished speaking. Now advance to the reveal.
+      if (state.mode !== 'responding') return state;
+      const nextIndex = state.currentStepIndex + 1;
+      return {
+        ...state,
+        currentStepIndex: nextIndex,
+        mode: nextModeForIndex(nextIndex, state.lesson),
+        responding: null
+      };
+    }
     case 'SKIP':
       return state.lesson.steps[state.currentStepIndex]?.type === 'open_prompt'
         ? advanceWithoutResponse(state)
