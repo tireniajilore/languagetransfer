@@ -53,7 +53,31 @@ function postedIds() {
   return new Set(Object.keys(raw).map(k => path.basename(k).replace(/\.mp4$/, '')));
 }
 
+// What can actually be posted today.
+//
+// On a CI runner there is no out/ directory — renders are gitignored and live
+// only on the release. So when HOSTED_LIST points at a file of asset names
+// (written by the workflow from `gh release view`), that list IS the source of
+// truth. Falling back to the local scan silently produced an EMPTY batch on CI,
+// which is exactly the kind of failure that looks like success.
 function renderedVideos() {
+  const hostedList = process.env.HOSTED_LIST;
+  if (hostedList && fs.existsSync(hostedList)) {
+    const found = [];
+    for (const line of fs.readFileSync(hostedList, 'utf8').split('\n')) {
+      const name = line.trim();
+      if (!name.endsWith('.mp4')) continue;
+      const id = name.replace(/\.mp4$/, '');
+      if (!POSTABLE_NAME.test(id)) continue;
+      if (found.some(f => f.id === id)) continue;
+      found.push({ id, file: null });   // no local file; Muse fetches the url
+    }
+    if (!found.length) {
+      throw new Error(`HOSTED_LIST ${hostedList} contained no postable videos — refusing to publish an empty batch.`);
+    }
+    return found;
+  }
+
   const found = [];
   for (const dir of OUT_DIRS) {
     if (!fs.existsSync(dir)) continue;
@@ -144,13 +168,13 @@ function build(dateStr) {
 
   const videos = picks.map(p => {
     const meta = captionFor(p.id);
-    const stat = fs.statSync(p.file);
+    const stat = p.file && fs.existsSync(p.file) ? fs.statSync(p.file) : null;
     return {
       id: p.id,
       kind: p.kind,
       lesson: baseOf(p.id),
-      file: path.relative(ROOT, p.file),
-      bytes: stat.size,
+      file: p.file ? path.relative(ROOT, p.file) : null,
+      bytes: stat ? stat.size : null,
       caption: meta?.caption ?? null,
       hashtags: meta?.hashtags ?? [],
       caption_source: meta?.from ?? null,
@@ -160,6 +184,9 @@ function build(dateStr) {
   });
 
   const warnings = [];
+  if (!videos.length) {
+    throw new Error('No videos available to post. Refusing to publish an empty batch — the poller would read it as a valid instruction to do nothing.');
+  }
   if (!newPick) warnings.push('NO NEW LESSON AVAILABLE — render more, or today is variants only.');
   if (videos.length < 3) warnings.push(`Only ${videos.length} video(s) available, wanted 3.`);
   const uncaptioned = available.filter(v => !captionFor(v.id));
