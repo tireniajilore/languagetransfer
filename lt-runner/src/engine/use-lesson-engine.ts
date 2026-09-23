@@ -9,12 +9,21 @@ import { createInitialEngineState, lessonEngineReducer } from '@/engine/lesson-e
 import { waitDurationToSeconds } from '@/lib/parse-transcript';
 import type { TTSAdapter } from '@/types/adapters';
 import type { LessonEngineSnapshot } from '@/types/engine';
-import type { Lesson } from '@/types/lesson';
+import type { Lesson, LessonStep } from '@/types/lesson';
 
 const FALLBACK_MESSAGE = 'Taking note and moving on.';
 
-// Beat held after the Spanish reveal so the answer lands before advancing.
-const REVEAL_PAUSE_MS = 1400;
+// Beat held after the Spanish reveal audio, before advancing. Mirrors the
+// TikTok pipeline's constant post-reveal HOLD: ~1s on a short one-word answer,
+// a slightly longer beat on a full-sentence reveal so it doesn't feel clipped.
+// The reveal audio has already played; this is only the trailing hold.
+function revealHoldMs(step: LessonStep): number {
+  const answer = (step.caption ?? step.text ?? '').trim();
+  const words = answer ? answer.split(/\s+/).length : 1;
+  if (words <= 1) return 1000;
+  if (words <= 4) return 1300;
+  return 1600;
+}
 
 export function useLessonEngine(lesson: Lesson) {
   const [state, dispatch] = useReducer(lessonEngineReducer, lesson, createInitialEngineState);
@@ -93,10 +102,10 @@ export function useLessonEngine(lesson: Lesson) {
       } else if (currentStep.type === 'reveal') {
         // Let the Spanish answer breathe before moving on. The audio itself is
         // silence-trimmed, so without this beat the reveal snaps straight into
-        // the next step.
+        // the next step. Beat length scales with the answer (see revealHoldMs).
         stepTimerRef.current = window.setTimeout(() => {
           dispatch({ type: 'STEP_COMPLETE' });
-        }, REVEAL_PAUSE_MS);
+        }, revealHoldMs(currentStep));
       } else {
         dispatch({ type: 'STEP_COMPLETE' });
       }
@@ -129,6 +138,74 @@ export function useLessonEngine(lesson: Lesson) {
       cancelled = true;
     };
   }, [currentStep, state.mode, clearStepTimer, clearWaitingTimers]);
+
+  // The tutor's turn. Only reached when the answer was scored WRONG, so this is
+  // the one branch where the lesson stops replaying and responds to the learner.
+  // Everything here degrades to today's behaviour on failure: no key, a network
+  // error, or a correction that leaked the answer all end in silence + reveal.
+  const responding = state.responding;
+  const respondingPending = responding?.pending ?? false;
+  const respondingCorrection = responding?.correction ?? null;
+
+  useEffect(() => {
+    if (state.mode !== 'responding' || !respondingPending) return;
+    let cancelled = false;
+
+    const promptStep = state.lesson.steps[state.currentStepIndex];
+    const taughtSoFar = state.lesson.steps
+      .slice(0, state.currentStepIndex)
+      .map(step => step.text)
+      .filter(Boolean);
+
+    fetch('/api/correct', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        promptText: promptStep?.text ?? '',
+        acceptedAnswers: promptStep?.acceptedAnswers ?? [],
+        heard: responding?.heard ?? '',
+        taughtSoFar
+      })
+    })
+      .then(res => (res.ok ? res.json() : { correction: null }))
+      .then((data: { correction?: string | null }) => {
+        if (!cancelled) {
+          dispatch({ type: 'CORRECTION_READY', payload: { correction: data.correction ?? null } });
+        }
+      })
+      .catch(() => {
+        if (!cancelled) dispatch({ type: 'CORRECTION_READY', payload: { correction: null } });
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [state.mode, respondingPending, state.currentStepIndex, state.lesson.steps, responding?.heard]);
+
+  useEffect(() => {
+    if (state.mode !== 'responding' || respondingPending) return;
+
+    // Nothing to say (no key, error, or the leak check rejected it): fall straight
+    // through to the reveal, which is exactly what the app does today.
+    if (!respondingCorrection) {
+      dispatch({ type: 'RESPONSE_DONE' });
+      return;
+    }
+
+    let cancelled = false;
+    const adapter = ttsRef.current ?? new TextTTS();
+    adapter.speak(respondingCorrection)
+      .then(() => {
+        if (!cancelled) dispatch({ type: 'RESPONSE_DONE' });
+      })
+      .catch(() => {
+        if (!cancelled) dispatch({ type: 'RESPONSE_DONE' });
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [state.mode, respondingPending, respondingCorrection]);
 
   const waitingStartedAt = state.waiting?.startedAt ?? null;
   const waitingTotalSeconds = state.waiting?.totalSeconds ?? null;

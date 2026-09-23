@@ -13,7 +13,10 @@
     "validate:cognates": "tsx scripts/validate-cognates-course.ts",
     "vercel-build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check:match": "tsx scripts/check-answer-match.ts",
+    "check:flow": "tsx scripts/check-responding-flow.ts",
+    "check:diagnosis": "tsx scripts/check-diagnosis.ts"
   },
   "dependencies": {
     "@vercel/blob": "^1.1.1",
