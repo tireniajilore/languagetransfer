@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-10-10T18:18:03.318Z",
+  "sha": "72e1cc7",
+  "suites": [
+    {
+      "file": "src/reasoning/__tests__/guardrails.test.ts",
+      "label": "Guardrail deterministic checks (evaluated control)",
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "cases": [
+        {
+          "title": "triggers on an answer leak and sends a corrective instruction",
+          "status": "passed"
+        },
+        {
+          "title": "does not trigger once the answer has been legitimately revealed",
+          "status": "passed"
+        },
+        {
+          "title": "does not trigger on ordinary teaching speech",
+          "status": "passed"
+        },
+        {
+          "title": "triggers when the assistant teaches an unintroduced concept",
+          "status": "passed"
+        },
+        {
+          "title": "does not flag the concept currently being taught",
+          "status": "passed"
+        },
+        {
+          "title": "ignores user turns",
+          "status": "passed"
+        },
+        {
+          "title": "flush checks a buffered turn on session close",
+          "status": "passed"
+        },
+        {
+          "title": "clearLiveTargets stops leak detection for that concept",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "src/reasoning/evals/pedagogical.test.ts",
+      "label": "Pedagogical evals (simulated learners, Spanish material)",
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0,
+      "cases": [
+        {
+          "title": "every referenced misconception exists in the curriculum",
+          "status": "passed"
+        },
+        {
+          "title": "every referenced concept exists in the curriculum",
+          "status": "passed"
+        },
+        {
+          "title": "pq-01: Clean correct answer on the copula: test transfer, do not assume mastery.",
+          "status": "passed"
+        },
+        {
+          "title": "pq-02: Hesitant but correct: ignorable words must not penalize.",
+          "status": "passed"
+        },
+        {
+          "title": "pq-03: Registered misconception: inserting \"a\" between quiero and the infinitive.",
+          "status": "passed"
+        },
+        {
+          "title": "pq-04: Registered misconception: conjugating the second verb.",
+          "status": "passed"
+        },
+        {
+          "title": "pq-05: Unfamiliar wrong answer: escalate to delegated reasoning, do not guess.",
+          "status": "passed"
+        },
+        {
+          "title": "pq-06: Off-task speech: stay silent, record nothing assessable.",
+          "status": "passed"
+        },
+        {
+          "title": "pq-07: Added negation flips meaning: a real wrong attempt, not noise.",
+          "status": "passed"
+        },
+        {
+          "title": "pq-08: Repeated struggle then repair: incorrect x2, then correct.",
+          "status": "passed"
+        },
+        {
+          "title": "pq-09: Short-target robustness: \"esta\" for \"es\" is an attempt, not noise.",
+          "status": "passed"
+        },
+        {
+          "title": "pq-10: Emphatic pronoun form is correct Spanish, not an error.",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "src/reasoning/evals/scenarios.test.ts",
+      "label": "Teaching scenarios (brief §11, 15 automated cases)",
+      "passed": 15,
+      "failed": 0,
+      "skipped": 0,
+      "cases": [
+        {
+          "title": "1. correct with demonstrated understanding: transfer suggested, mastery not granted",
+          "status": "passed"
+        },
+        {
+          "title": "2. correct without demonstrated understanding: probe before advancing",
+          "status": "passed"
+        },
+        {
+          "title": "3. plausible misconception: flagged with authored diagnosis on the fast path",
+          "status": "passed"
+        },
+        {
+          "title": "4. unexpected incorrect: escalates to delegated reasoning",
+          "status": "passed"
+        },
+        {
+          "title": "5. unclear/mis-transcribed speech: silence, no correction, no moves",
+          "status": "passed"
+        },
+        {
+          "title": "6. extended silence: no evidence fabricated from nothing",
+          "status": "passed"
+        },
+        {
+          "title": "7. interruption mid-delegation: redelivered events are idempotent",
+          "status": "passed"
+        },
+        {
+          "title": "8. request for the answer: no premature reveal without justification",
+          "status": "passed"
+        },
+        {
+          "title": "9. attempt to skip prerequisites: locked concept stays locked",
+          "status": "passed"
+        },
+        {
+          "title": "10. previously mastered concept: reinforce/transfer, never re-introduce",
+          "status": "passed"
+        },
+        {
+          "title": "11. repeated mistakes: struggling status and hint escalation",
+          "status": "passed"
+        },
+        {
+          "title": "12. tool failure: structured error, session continues",
+          "status": "passed"
+        },
+        {
+          "title": "13. session interruption and recovery: buffered turn flushed, state marked",
+          "status": "passed"
+        },
+        {
+          "title": "14. duplicate and out-of-order events: evidence never double-counts",
+          "status": "passed"
+        },
+        {
+          "title": "15. stale delegated decision: rejected, never applied",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}
