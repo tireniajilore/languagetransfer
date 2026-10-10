@@ -1,5 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import {
+  DEFAULT_ICE_SERVERS,
   LiveConnState,
   LiveVoiceSession,
   TranscriptEntry,
@@ -50,6 +51,14 @@ class FakePeerConnection {
   onicegatheringstatechange: (() => void) | null = null;
   ontrack: ((ev: { streams: FakeMediaStream[] }) => void) | null = null;
   closed = false;
+  private listeners: Record<string, (() => void)[]> = {};
+
+  addEventListener(type: string, fn: () => void): void {
+    (this.listeners[type] ??= []).push(fn);
+  }
+  removeEventListener(type: string, fn: () => void): void {
+    this.listeners[type] = (this.listeners[type] ?? []).filter((f) => f !== fn);
+  }
 
   createDataChannel(label: string): RTCDataChannel {
     this.calls.push(`createDataChannel:${label}`);
@@ -79,6 +88,7 @@ class FakePeerConnection {
   simulateConnectionState(cs: RTCPeerConnectionState) {
     this.connectionState = cs;
     this.onconnectionstatechange?.();
+    for (const fn of this.listeners['connectionstatechange'] ?? []) fn();
   }
 }
 
@@ -145,6 +155,21 @@ function setup(opts?: {
   return { session, states, transcripts, remoteStreams, errors, pcs, sleeps, fetchCalls: calls, stream };
 }
 
+/**
+ * Drives a full start through to ICE-connected: start() now waits for the
+ * media handshake, so tests must simulate the peer connection reaching
+ * 'connected' (as a real network would) before awaiting start().
+ */
+async function startConnected(setupResult: {
+  session: LiveVoiceSession;
+  pcs: FakePeerConnection[];
+}): Promise<void> {
+  const started = setupResult.session.start();
+  await vi.waitFor(() => expect(setupResult.pcs.length).toBe(1));
+  setupResult.pcs[setupResult.pcs.length - 1].simulateConnectionState('connected');
+  await started;
+}
+
 describe('LiveVoiceSession', () => {
   beforeEach(() => {
     vi.restoreAllMocks();
@@ -156,12 +181,13 @@ describe('LiveVoiceSession', () => {
 
   it('runs the full SDP exchange: data channel before offer, answer applied', async () => {
     const { session, states, pcs, fetchCalls } = setup();
-    await session.start();
+    await startConnected({ session, pcs });
 
     expect(states).toEqual([
       'requesting-mic',
       'creating-offer',
       'exchanging-sdp',
+      'establishing-media',
       'connected',
     ]);
     const pc = pcs[0];
@@ -182,7 +208,7 @@ describe('LiveVoiceSession', () => {
 
   it('delivers the remote audio stream to onRemoteStream', async () => {
     const { session, pcs, remoteStreams } = setup();
-    await session.start();
+    await startConnected({ session, pcs });
     const remote = new FakeMediaStream();
     pcs[0].ontrack?.({ streams: [remote] });
     expect(remoteStreams).toHaveLength(1);
@@ -190,7 +216,7 @@ describe('LiveVoiceSession', () => {
 
   it('accumulates transcript deltas per speaker from the oai-events channel', async () => {
     const { session, pcs, transcripts } = setup();
-    await session.start();
+    await startConnected({ session, pcs });
     const dc = pcs[0].dataChannels[0];
     dc.emitMessage({ type: 'session.output_transcript.delta', delta: 'Hola' });
     dc.emitMessage({ type: 'session.output_transcript.delta', delta: ', ¿cómo estás?' });
@@ -207,7 +233,7 @@ describe('LiveVoiceSession', () => {
 
   it('ignores malformed data-channel frames', async () => {
     const { session, pcs, transcripts } = setup();
-    await session.start();
+    await startConnected({ session, pcs });
     const dc = pcs[0].dataChannels[0];
     dc.onmessage?.({ data: 'not json' });
     expect(transcripts).toHaveLength(0);
@@ -264,11 +290,14 @@ describe('LiveVoiceSession', () => {
         return { status: 201, json: { session: { id: `live_${mints}` }, transport: { type: 'webrtc', sdp: 'v=0\r\nfake-answer' } } };
       },
     });
-    await session.start();
+    await startConnected({ session, pcs });
     expect(session.getSessionId()).toBe('live_1');
 
     pcs[0].simulateConnectionState('failed');
-    // recovery runs async (sleep is mocked); flush microtasks + the mocked sleep
+    // recovery runs async (sleep is mocked); the fresh peer connection also
+    // needs its ICE handshake simulated before 'connected' is reported.
+    await vi.waitFor(() => expect(pcs.length).toBe(2));
+    pcs[1].simulateConnectionState('connected');
     await vi.waitFor(() => expect(session.getState()).toBe('connected'), { timeout: 2_000 });
 
     expect(mints).toBe(2); // a brand-new backend session was minted
@@ -283,7 +312,7 @@ describe('LiveVoiceSession', () => {
 
   it('stop() performs the graceful close and tears down WebRTC', async () => {
     const { session, states, pcs, fetchCalls, stream } = setup();
-    await session.start();
+    await startConnected({ session, pcs });
     await session.stop();
 
     expect(states[states.length - 1]).toBe('closed');
@@ -304,12 +333,87 @@ describe('LiveVoiceSession', () => {
 
   it('does not recover after an intentional stop', async () => {
     const { session, pcs } = setup();
-    await session.start();
+    await startConnected({ session, pcs });
     await session.stop();
     const pcCount = pcs.length;
     pcs[0].simulateConnectionState('failed');
     await new Promise((r) => setTimeout(r, 20));
     expect(pcs).toHaveLength(pcCount); // no new peer connection
     expect(session.getState()).toBe('closed');
+  });
+
+  it('does not report connected until ICE actually connects', async () => {
+    const { session, states, pcs } = setup();
+    const started = session.start();
+    // SDP exchange completes but ICE never connects: the UI must stay in
+    // 'establishing-media' and never claim 'connected'.
+    await vi.waitFor(() => expect(pcs.length).toBe(1));
+    await vi.waitFor(() =>
+      expect(states).toContain('establishing-media'),
+    );
+    expect(session.getState()).toBe('establishing-media');
+    expect(states).not.toContain('connected');
+    // Now let ICE complete: only then is 'connected' reported.
+    pcs[0].simulateConnectionState('connected');
+    await started;
+    expect(session.getState()).toBe('connected');
+  });
+
+  it('surfaces a clear, actionable error when ICE fails during establishment', async () => {
+    const { session, states, pcs, errors } = setup({ maxRetries: 0 });
+    const started = session.start();
+    await vi.waitFor(() => expect(pcs.length).toBe(1));
+    pcs[0].simulateConnectionState('failed');
+    await started;
+    expect(session.getState()).toBe('failed');
+    expect(states).toContain('establishing-media');
+    expect(errors.length).toBeGreaterThan(0);
+    expect(errors[errors.length - 1].message).toMatch(/blocking real-time audio/);
+  });
+
+  it('fails fast when the connection is closed mid-handshake', async () => {
+    const { session, states, pcs, errors } = setup({ maxRetries: 0 });
+    const started = session.start();
+    await vi.waitFor(() => expect(pcs.length).toBe(1));
+    // e.g. teardown racing the handshake: no 15s hang, immediate failure.
+    pcs[0].close();
+    pcs[0].simulateConnectionState('closed');
+    await started;
+    expect(session.getState()).toBe('failed');
+    expect(states).toContain('establishing-media');
+    expect(errors[errors.length - 1].message).toMatch(/closed before it was established/);
+  });
+
+  it('configures STUN ICE servers on the default peer connection', async () => {    let captured: RTCConfiguration | undefined;
+    const g = globalThis as unknown as { RTCPeerConnection?: unknown };
+    const prev = g.RTCPeerConnection;
+    g.RTCPeerConnection = class extends FakePeerConnection {
+      constructor(config?: RTCConfiguration) {
+        super();
+        captured = config;
+      }
+    };
+    try {
+      const stream = new FakeMediaStream();
+      const { fetchFn } = makeFetch(mintResponder('live_9'));
+      const errors: Error[] = [];
+      const session = new LiveVoiceSession({
+        backendUrl: 'https://backend.example.com/',
+        fetchFn,
+        getUserMedia: async () => stream as unknown as MediaStream,
+        sleep: async () => {},
+        maxRetries: 0,
+        mediaConnectTimeoutMs: 20,
+        onError: (e) => errors.push(e),
+      });
+      await session.start(); // resolves after the (fast) ICE timeout → 'failed'
+      expect(captured?.iceServers).toEqual(DEFAULT_ICE_SERVERS);
+      expect(
+        (captured?.iceServers?.[0] as RTCIceServer)?.urls,
+      ).toContain('stun:');
+      expect(session.getState()).toBe('failed');
+    } finally {
+      g.RTCPeerConnection = prev;
+    }
   });
 });
