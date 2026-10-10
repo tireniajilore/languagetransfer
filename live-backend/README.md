@@ -114,10 +114,29 @@ All tests are hermetic (mocked OpenAI SDK + WebSocket); no key required.
 
 ## Deployment (Railway)
 
-Config-only: `Dockerfile` + `railway.json` in this directory. Do NOT create
-the Railway project/service or set production env vars without Tireni's
-explicit approval (per the brief §13).
+Staging: Railway project `languagetransfer`, service `live-backend`
+(`https://live-backend-production-bfc0.up.railway.app`). Deploy from this
+directory (it's linked to the project):
 
-**Known blocker (2026-10-10):** staging deploy is blocked on an OpenAI
-project API key with GPT-Live access. Nothing live can be verified until it
-is provisioned.
+```bash
+railway up -d -s live-backend
+```
+
+`OPENAI_API_KEY` is set as a service variable (never commit it). Full env
+reference: `.env.example`. Operational guide: `docs/runbook.md`
+(incidents, key rotation, rollback order).
+
+## Observability
+
+- `GET /metrics` — JSON summary: latency p50/p95/max per label
+  (`live.session.create_ms`, `tools.exec_ms`, `delegation.roundtrip_ms`),
+  counters (`sessions.created/closed/errored`,
+  `delegation.created/completed/failed`, `guardrail.triggered` by kind,
+  `teaching.move` distribution), active sessions, uptime. No PII.
+- Logs (stdout): `[live] …` for session lifecycle (every line carries the
+  session id), `[memory] …` for the write-behind queue, and one JSON line
+  per tool dispatch (`{"component":"harness-tools", sessionId, tool,
+  turnId, ok, errorCode, durationMs}`). Full vocabulary: `docs/runbook.md`.
+- Scripted latency benchmark (mocked boundaries, no OpenAI):
+  `npm run bench`. Real speech-end → first-audio must be measured live —
+  see `docs/plans/live-latency-procedure.md` (target <1s, brief §9).
