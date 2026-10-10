@@ -21,7 +21,7 @@
  */
 
 import { Curriculum } from '../curriculum/types';
-import { getTeachingOptions, TeachingOption } from '../harness/stateMachine';
+import { getTeachingOptions, recordEvidence, TeachingOption } from '../harness/stateMachine';
 import { HarnessState } from '../harness/types';
 import { matchAnswer, MatchResult } from './answerMatch';
 
@@ -110,11 +110,21 @@ export function analyzeResponse(input: AnalysisInput): AnalysisResult {
   const match = matchAnswer(utterance, expectedAnswers);
 
   if (match.outcome === 'right') {
+    // Suggested moves are computed against the state *after* this correct
+    // answer is recorded (on a copy — the pipeline stays pure). That way a
+    // correct answer can surface test_transfer instead of options that
+    // assume the answer never happened.
+    const withEvidence = recordEvidence(
+      curriculum,
+      state,
+      { turnId: state.turn, conceptId, kind: 'correct', detail: `learner said: ${match.heard}` },
+      Date.now(),
+    );
     return {
       path: 'fast',
       match,
       evidenceKind: 'correct',
-      suggestedMoves: getTeachingOptions(curriculum, state, conceptId).slice(0, 5),
+      suggestedMoves: getTeachingOptions(curriculum, withEvidence, conceptId).slice(0, 5),
       rationale: `deterministic match: correct ("${match.heard}") — fast path, no delegation`,
     };
   }

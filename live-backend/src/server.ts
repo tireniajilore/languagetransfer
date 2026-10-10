@@ -20,6 +20,8 @@ import { createHarnessState } from './harness/stateMachine';
 import { DispatchResult, HarnessStore, ToolErrorCode, ToolRouter } from './harness/tools';
 import { buildDelegationConfig, DelegationManager } from './reasoning/delegation';
 import { GuardrailMonitor, GuardrailTrigger } from './reasoning/guardrails';
+import { analyzeResponse } from './reasoning/analysis';
+import { getConcept } from './harness/stateMachine';
 import { LiveBackendConfig } from './config';
 import { LiveApiError, LiveSessionClient } from './liveClient';
 import { recordLatency } from './metrics';
@@ -73,12 +75,73 @@ function parseMintOptions(body: unknown): { learnerId?: string; objectiveId?: st
 }
 
 /**
- * Guardrail trigger policy (ADR-001 D4, evaluated + interruptive control).
- * Every trigger is logged with session id. The monitor already sent a
- * corrective `session.instructions.append`; here we additionally block
- * write-tool execution briefly so the delegated backend cannot compound the
- * violation by committing moves off the offending content.
+ * Layer C fast-path analysis on each completed learner utterance.
+ *
+ * Deterministic scoring runs first (no model): correct/unclear answers and
+ * registered misconceptions are recorded as evidence immediately, off the
+ * conversational critical path. Unfamiliar wrong answers are logged for the
+ * delegated reasoning path — the voice model delegates through the Live
+ * session when it needs deeper analysis.
+ *
+ * Expected answers default to the current concept's verified examples (the
+ * teaching material); the leak guard registers them as live targets so the
+ * assistant cannot blurt them before the learner derives them.
  */
+function analyzeUserTurn(
+  harness: HarnessDeps,
+  sessionId: string,
+  text: string,
+  guardrails: GuardrailMonitor,
+): void {
+  const state = harness.store.get(sessionId);
+  if (!state) return;
+  const objective = harness.curriculum.objectives.find((o) => o.id === state.currentObjectiveId);
+  const conceptId =
+    objective?.conceptIds.find((cid) => state.concepts[cid]?.status === 'in_progress') ??
+    objective?.conceptIds.find((cid) => state.concepts[cid]?.status === 'struggling') ??
+    objective?.conceptIds.find((cid) => state.concepts[cid]?.status === 'available');
+  if (!conceptId) return;
+  const concept = getConcept(harness.curriculum, conceptId);
+  if (!concept) return;
+
+  guardrails.registerLiveTargets(sessionId, conceptId, concept.verifiedExamples);
+
+  const result = analyzeResponse({
+    curriculum: harness.curriculum,
+    state,
+    utterance: text,
+    conceptId,
+    expectedAnswers: concept.verifiedExamples,
+  });
+  console.log(
+    `[live] analysis session=${sessionId} concept=${conceptId} outcome=${result.match.outcome} path=${result.path} — ${result.rationale}`,
+  );
+
+  if (result.path === 'reasoning') {
+    // The delegated backend model picks this up via the Live session's
+    // delegation mechanism; nothing deterministic to record beyond the
+    // incorrect evidence below.
+  }
+  if (!result.evidenceKind || result.evidenceKind === 'utterance') return;
+  const dispatch = harness.router.dispatch({
+    sessionId,
+    tool: 'assess_understanding',
+    input: {
+      turnId: state.turn,
+      conceptId,
+      evidence: {
+        kind: result.evidenceKind,
+        detail: `learner said: ${text.slice(0, 300)}`,
+        ...(result.misconceptionId ? { misconceptionId: result.misconceptionId } : {}),
+      },
+    },
+  });
+  if (!dispatch.ok) {
+    console.error(
+      `[live] analysis evidence rejected session=${sessionId}: ${dispatch.error?.code} ${dispatch.error?.detail ?? ''}`,
+    );
+  }
+}
 function onGuardrailTrigger(
   sessionId: string,
   trigger: GuardrailTrigger,
@@ -167,6 +230,7 @@ export function createApp(deps: ServerDeps): Express {
         sendCommand,
         onTrigger: (trigger: GuardrailTrigger) =>
           onGuardrailTrigger(created.sessionId, trigger, delegationManager),
+        onUserTurn: (sessionId, text) => analyzeUserTurn(harness, sessionId, text, guardrails),
       });
 
       const sideband = new SidebandConnection({

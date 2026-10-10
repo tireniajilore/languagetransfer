@@ -41,6 +41,8 @@ export interface GuardrailDeps {
   /** Outbound command channel (sideband in production, fake in tests). */
   sendCommand?: (command: Record<string, unknown>) => void;
   onTrigger?: (trigger: GuardrailTrigger) => void;
+  /** Called with each completed user turn (Layer C fast-path analysis hook). */
+  onUserTurn?: (sessionId: string, text: string) => void;
   now?: () => number;
 }
 
@@ -121,9 +123,16 @@ export class GuardrailMonitor {
   }
 
   private checkTurn(sessionId: string, turn: TurnBuffer): void {
-    if (turn.speaker !== 'assistant') return;
     const text = turn.text.trim();
     if (!text) return;
+    if (turn.speaker === 'user') {
+      try {
+        this.deps.onUserTurn?.(sessionId, text);
+      } catch {
+        // Analysis must never break the transcript stream.
+      }
+      return;
+    }
     this.checkAnswerLeak(sessionId, text);
     this.checkTeachingAhead(sessionId, text);
   }
@@ -164,10 +173,8 @@ export class GuardrailMonitor {
     );
     for (const concept of this.deps.curriculum.concepts) {
       if (introduced.has(concept.id)) continue;
-      if (state.currentObjectiveId) {
-        const objective = this.deps.curriculum.objectives.find((o) => o.id === state.currentObjectiveId);
-        if (objective && !objective.conceptIds.includes(concept.id)) continue; // out of scope, not "ahead"
-      }
+      // Any non-introduced concept the assistant teaches is "ahead" —
+      // whether it sits later in the current objective or in a later one.
       // A concept is "taught" when the assistant utters one of its verified
       // examples or its title keywords while it has not been introduced.
       const markers = [
