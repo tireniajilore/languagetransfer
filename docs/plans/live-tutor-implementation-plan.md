@@ -94,6 +94,10 @@ backed by our server.
   phone/SIP; merging to main; production spend — all need his explicit call.
 
 ## Current status
-Phase 0 done. PR 1 implementation is underway on branch
-`feat/live-tutor-foundation`. Next: unblock the OpenAI key, then staging
-deploy + end-to-end verification of PR 1.
+Phase 0 done. PR 1 implementation complete on branch
+`feat/live-tutor-foundation` — draft PR #14 opened 2026-10-10
+("PR 1: real-time voice foundation (GPT-Live)"): live-backend service
+(session mint + sideband lifecycle), /live WebRTC route, 56 hermetic tests
+green, `next build` verified. NOT merged (needs his approval per §12).
+Next: unblock the OpenAI key (standing blocker), then staging deploy +
+live end-to-end verification of PR 1 (real voice session, measured latency).
