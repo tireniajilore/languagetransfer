@@ -27,6 +27,7 @@ import { recordCounter, recordLatency, summarizeMetrics } from './metrics';
 import { SessionRegistry } from './sessions';
 import { SidebandConnection, WsFactory } from './sideband';
 import { originCheck } from './middleware/originCheck';
+import { corsPreflight } from './middleware/cors';
 import { rateLimit } from './middleware/rateLimit';
 
 /** Teaching-harness collaborators (Layer B). Built by default from the curriculum. */
@@ -196,6 +197,11 @@ export function createApp(deps: ServerDeps): Express {
     originCheck(config.allowedOrigins),
     rateLimit({ windowMs: config.rateLimit.windowMs, max: config.rateLimit.max }),
   ];
+
+  // CORS preflight must be answered before any route handling: browsers send
+  // OPTIONS ahead of the cross-origin JSON POSTs the /live frontend makes.
+  // Without this the preflight 404s and the UI reports "Failed to fetch".
+  app.use('/api', corsPreflight(config.allowedOrigins));
 
   app.post('/api/live/session', ...mintGuards, async (req: Request, res: Response) => {
     // PR 5 kill-switch: refuse to mint while the feature is disabled.
