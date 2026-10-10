@@ -1,5 +1,6 @@
 import { describe, expect, it, vi } from 'vitest';
 import { SPANISH_CURRICULUM_V1 } from '../../curriculum/spanish';
+import { clearCounters, clearLatency, getLatencyStats, summarizeMetrics } from '../../metrics';
 import { createHarnessState } from '../stateMachine';
 import {
   DispatchRequest,
@@ -100,7 +101,17 @@ describe('dispatch validation', () => {
 });
 
 describe('commit_teaching_decision', () => {
+  it('records tool execution latency for /metrics', () => {
+    clearLatency();
+    const { router } = setup();
+    router.dispatch({ sessionId: 's1', tool: 'get_current_objective', input: {} });
+    const stats = getLatencyStats('tools.exec_ms');
+    expect(stats?.count).toBe(1);
+    expect(stats?.max).toBeGreaterThanOrEqual(0);
+  });
+
   it('commits a valid move and advances the turn', () => {
+    clearCounters();
     const { router, store } = setup();
     const r = router.dispatch({
       sessionId: 's1',
@@ -111,6 +122,8 @@ describe('commit_teaching_decision', () => {
     expect((r.result as { turn: number }).turn).toBe(1);
     expect(store.get('s1')?.turn).toBe(1);
     expect(store.get('s1')?.concepts['es-copula'].status).toBe('in_progress');
+    // Committed moves feed the teaching.move distribution in /metrics.
+    expect(summarizeMetrics().counters['teaching.move']).toEqual({ introduce_concept: 1 });
   });
 
   it('rejects invalid moves with a reason and does not advance', () => {

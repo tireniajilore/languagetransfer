@@ -18,6 +18,7 @@
 import { z } from 'zod';
 import { createHash } from 'node:crypto';
 import { Curriculum } from '../curriculum/types';
+import { recordCounter, recordLatency } from '../metrics';
 import { assembleTeachingContext, TeachingContextSchema } from './context';
 import {
   applyMove,
@@ -372,6 +373,7 @@ const TOOLS: Record<string, ToolDefinition> = {
       const next = ctx.store.update(input.sessionId, (s) =>
         applyMove(ctx.curriculum, s, input.move, { rationale: input.rationale, now: ctx.now() }),
       );
+      recordCounter('teaching.move', input.move.move);
       return {
         committed: true,
         turn: next.turn,
@@ -553,6 +555,8 @@ export class ToolRouter {
       result: DispatchResult,
       opts: { replayed?: boolean; turnId?: number } = {},
     ): DispatchResult => {
+      const durationMs = this.ctx.now() - start;
+      recordLatency('tools.exec_ms', durationMs);
       this.log({
         ts: start,
         sessionId: req.sessionId,
@@ -562,7 +566,7 @@ export class ToolRouter {
         ok: result.ok,
         errorCode: result.error?.code,
         replayed: opts.replayed,
-        durationMs: this.ctx.now() - start,
+        durationMs,
       });
       return result;
     };

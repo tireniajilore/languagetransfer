@@ -4,6 +4,7 @@
  */
 import { describe, expect, it } from 'vitest';
 import { GuardrailMonitor, GuardrailTrigger } from '../guardrails';
+import { clearCounters, summarizeMetrics } from '../../metrics';
 import { CUR, FakeSender, makeHarness, startCopula } from './helpers';
 
 function makeMonitor(sessionId = 's-guard') {
@@ -34,6 +35,7 @@ function assistantSays(
 
 describe('GuardrailMonitor', () => {
   it('triggers on an answer leak and sends a corrective instruction', () => {
+    clearCounters();
     const { sender, triggers, monitor } = makeMonitor();
     monitor.registerLiveTargets('s-guard', 'es-copula', ['es']);
     assistantSays(monitor, 's-guard', 'The answer is es, just say es.');
@@ -47,6 +49,9 @@ describe('GuardrailMonitor', () => {
     expect(appends).toHaveLength(1);
     expect(appends[0].delegation_id).toBeNull();
     expect(String(appends[0].content)).toContain('Do not give answers directly');
+
+    // The trigger is counted for the /metrics endpoint.
+    expect(summarizeMetrics().counters['guardrail.triggered']).toEqual({ answer_leak: 1 });
   });
 
   it('does not trigger once the answer has been legitimately revealed', () => {

@@ -1,6 +1,7 @@
 import { AddressInfo } from 'node:net';
 import { afterEach, describe, expect, it } from 'vitest';
 import { LiveApiError, LiveSessionClient } from '../liveClient';
+import { clearCounters, clearLatency } from '../metrics';
 import { createApp } from '../server';
 import { SessionRegistry } from '../sessions';
 import { FakeWs } from './fakes';
@@ -97,6 +98,33 @@ describe('live-backend HTTP surface', () => {
     const res = await fetch(`${s.baseUrl}/healthz`);
     expect(res.status).toBe(200);
     expect(await res.json()).toMatchObject({ status: 'ok', service: 'live-backend' });
+  });
+
+  it('GET /metrics exposes latency stats, counters, and session health', async () => {
+    clearLatency();
+    clearCounters();
+    const s = await startServer();
+    servers.push(s);
+    // One full session lifecycle: mint then close.
+    const mint = await postJson(s.baseUrl, '/api/live/session', { sdp: OFFER_SDP });
+    expect(mint.statusCode).toBe(201);
+    const close = await postJson(s.baseUrl, '/api/live/session/live_1/close', {});
+    expect(close.statusCode).toBe(200);
+    const res = await fetch(`${s.baseUrl}/metrics`);
+    expect(res.status).toBe(200);
+    const body = (await res.json()) as {
+      service: string;
+      sessions: { active: number };
+      latency: Record<string, { count: number }>;
+      counters: Record<string, unknown>;
+      uptime_ms: number;
+    };
+    expect(body.service).toBe('live-backend');
+    expect(body.sessions.active).toBe(0);
+    expect(body.latency['live.session.create_ms']?.count).toBe(1);
+    expect(body.counters['sessions.created']).toBe(1);
+    expect(body.counters['sessions.closed']).toBe(1);
+    expect(body.uptime_ms).toBeGreaterThanOrEqual(0);
   });
 
   it('POST /api/live/session mints a session, attaches the sideband, returns the answer', async () => {
