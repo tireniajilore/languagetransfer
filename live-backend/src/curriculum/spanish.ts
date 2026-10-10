@@ -190,6 +190,44 @@ export const SPANISH_CURRICULUM_V1: Curriculum = {
       teacherGuidance:
         'Decompose it: te (you) + quiero (I want) = literally "I want you". "Te amo" carries the romantic weight.',
     },
+    // Ported from the PR #11 authored diagnosis catalogue (Layer C). Each has
+    // a fixed spoken correction in the reasoning/diagnoses registry; the
+    // teacherGuidance here is what the reasoning model sees when classifying.
+    {
+      id: 'm-ion-noun-for-verb',
+      conceptId: 'es-ion-endings',
+      description: 'Learner gives the -ción noun where the -ar verb was wanted (e.g. "cancelación" for "to cancel").',
+      teacherGuidance:
+        'Classify as noun-for-verb. The authored correction walks them back through the ending: off with -ción, on with -r.',
+    },
+    {
+      id: 'm-ion-verb-for-noun',
+      conceptId: 'es-ion-endings',
+      description: 'Learner gives the -ar verb where the -ción noun was wanted.',
+      teacherGuidance:
+        'Classify as verb-for-noun. The authored correction runs the pattern in reverse: off with -ar, back on with -ción.',
+    },
+    {
+      id: 'm-quiero-second-verb',
+      conceptId: 'es-quiero-infinitive',
+      description: 'Learner conjugates the second verb ("quiero cancelo") instead of leaving the infinitive.',
+      teacherGuidance:
+        'Classify as conjugated-second-verb. Contrast with English: in Spanish only the first verb moves; the second stays in its base form.',
+    },
+    {
+      id: 'm-quiero-negation-added',
+      conceptId: 'es-quiero-want',
+      description: 'Learner adds "no" when the sentence was not negative.',
+      teacherGuidance:
+        'Classify as added-negation. "No" flips the meaning; have them take it back out and say it straight.',
+    },
+    {
+      id: 'm-quiero-negation-missing',
+      conceptId: 'es-quiero-want',
+      description: 'Learner leaves out "no" when the sentence needed it.',
+      teacherGuidance:
+        'Classify as missing-negation. In Spanish "no" parks straight in front of the verb; nothing else changes.',
+    },
   ],
   hints: [
     {

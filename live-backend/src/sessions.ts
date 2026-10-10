@@ -7,10 +7,15 @@
  * double-advance anything (a property the harness will rely on in PR 2).
  */
 import { SidebandConnection } from './sideband';
+import type { DelegationManager } from './reasoning/delegation';
+import type { GuardrailMonitor } from './reasoning/guardrails';
 
 export interface SessionHandle {
   sideband: SidebandConnection;
   createdAt: number;
+  /** Layer C collaborators (PR 3); present when delegation is enabled. */
+  delegation?: DelegationManager;
+  guardrails?: GuardrailMonitor;
 }
 
 export class SessionRegistry {

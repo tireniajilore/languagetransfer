@@ -31,6 +31,13 @@ export interface LiveBackendConfig {
   maxReconnectAttempts: number;
   /** WebSocket sideband attach URL template. */
   liveApiBaseUrl: string;
+  /**
+   * Backend reasoning model for Responses delegation (Layer C).
+   * Default gpt-5.6-terra; gpt-5.6-luna is the documented cost-sensitive alternative.
+   */
+  delegationModel: string;
+  /** Set LIVE_DELEGATION_DISABLED=1 to mint sessions without delegation (tests/debug). */
+  delegationDisabled: boolean;
 }
 
 const DEFAULT_INSTRUCTIONS = [
@@ -88,5 +95,7 @@ export function loadConfig(
     sessionInstructions: env.LIVE_SESSION_INSTRUCTIONS ?? DEFAULT_INSTRUCTIONS,
     maxReconnectAttempts: parseIntEnv(env, 'SIDEBAND_MAX_RECONNECT_ATTEMPTS', 5),
     liveApiBaseUrl: env.OPENAI_API_BASE_URL ?? 'https://api.openai.com',
+    delegationModel: env.LIVE_DELEGATION_MODEL ?? 'gpt-5.6-terra',
+    delegationDisabled: env.LIVE_DELEGATION_DISABLED === '1',
   };
 }

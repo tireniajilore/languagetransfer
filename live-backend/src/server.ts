@@ -18,6 +18,10 @@ import { assembleTeachingContext } from './harness/context';
 import { HarnessObserver } from './harness/observer';
 import { createHarnessState } from './harness/stateMachine';
 import { DispatchResult, HarnessStore, ToolErrorCode, ToolRouter } from './harness/tools';
+import { buildDelegationConfig, DelegationManager } from './reasoning/delegation';
+import { GuardrailMonitor, GuardrailTrigger } from './reasoning/guardrails';
+import { analyzeResponse } from './reasoning/analysis';
+import { getConcept } from './harness/stateMachine';
 import { LiveBackendConfig } from './config';
 import { LiveApiError, LiveSessionClient } from './liveClient';
 import { recordLatency } from './metrics';
@@ -70,6 +74,93 @@ function parseMintOptions(body: unknown): { learnerId?: string; objectiveId?: st
   return { learnerId: clean(b.learnerId), objectiveId: clean(b.objectiveId) };
 }
 
+/**
+ * Layer C fast-path analysis on each completed learner utterance.
+ *
+ * Deterministic scoring runs first (no model): correct/unclear answers and
+ * registered misconceptions are recorded as evidence immediately, off the
+ * conversational critical path. Unfamiliar wrong answers are logged for the
+ * delegated reasoning path — the voice model delegates through the Live
+ * session when it needs deeper analysis.
+ *
+ * Expected answers default to the current concept's verified examples (the
+ * teaching material); the leak guard registers them as live targets so the
+ * assistant cannot blurt them before the learner derives them.
+ */
+function analyzeUserTurn(
+  harness: HarnessDeps,
+  sessionId: string,
+  text: string,
+  guardrails: GuardrailMonitor,
+): void {
+  const state = harness.store.get(sessionId);
+  if (!state) return;
+  const objective = harness.curriculum.objectives.find((o) => o.id === state.currentObjectiveId);
+  const conceptId =
+    objective?.conceptIds.find((cid) => state.concepts[cid]?.status === 'in_progress') ??
+    objective?.conceptIds.find((cid) => state.concepts[cid]?.status === 'struggling') ??
+    objective?.conceptIds.find((cid) => state.concepts[cid]?.status === 'available');
+  if (!conceptId) return;
+  const concept = getConcept(harness.curriculum, conceptId);
+  if (!concept) return;
+
+  guardrails.registerLiveTargets(sessionId, conceptId, concept.verifiedExamples);
+
+  const result = analyzeResponse({
+    curriculum: harness.curriculum,
+    state,
+    utterance: text,
+    conceptId,
+    expectedAnswers: concept.verifiedExamples,
+  });
+  console.log(
+    `[live] analysis session=${sessionId} concept=${conceptId} outcome=${result.match.outcome} path=${result.path} — ${result.rationale}`,
+  );
+
+  if (result.path === 'reasoning') {
+    // The delegated backend model picks this up via the Live session's
+    // delegation mechanism; nothing deterministic to record beyond the
+    // incorrect evidence below.
+  }
+  if (!result.evidenceKind || result.evidenceKind === 'utterance') return;
+  const dispatch = harness.router.dispatch({
+    sessionId,
+    tool: 'assess_understanding',
+    input: {
+      turnId: state.turn,
+      conceptId,
+      evidence: {
+        kind: result.evidenceKind,
+        detail: `learner said: ${text.slice(0, 300)}`,
+        ...(result.misconceptionId ? { misconceptionId: result.misconceptionId } : {}),
+      },
+    },
+  });
+  if (!dispatch.ok) {
+    console.error(
+      `[live] analysis evidence rejected session=${sessionId}: ${dispatch.error?.code} ${dispatch.error?.detail ?? ''}`,
+    );
+  }
+}
+function onGuardrailTrigger(
+  sessionId: string,
+  trigger: GuardrailTrigger,
+  delegationManager: DelegationManager | null,
+): void {
+  console.log(
+    JSON.stringify({
+      component: 'guardrails',
+      event: 'trigger',
+      sessionId,
+      kind: trigger.kind,
+      detail: trigger.detail,
+      excerpt: trigger.excerpt,
+      at: trigger.at,
+    }),
+  );
+  delegationManager?.setToolBlock(sessionId, true);
+}
+
 export function createApp(deps: ServerDeps): Express {
   const { config } = deps;
   const liveClient = deps.liveClient ?? new LiveSessionClient({ apiKey: config.openaiApiKey });
@@ -98,15 +189,49 @@ export function createApp(deps: ServerDeps): Express {
       return;
     }
     try {
+      // Layer C: Responses delegation is configured at session creation so the
+      // voice model can delegate deep pedagogical reasoning to the backend.
+      const delegation = config.delegationDisabled
+        ? undefined
+        : buildDelegationConfig(harness.curriculum, { model: config.delegationModel });
       const created = await liveClient.createSession({
         offerSdp,
         instructions: config.sessionInstructions,
         model: config.liveModel,
+        delegation,
       });
       recordLatency('live.session.create_ms', created.durationMs);
       console.log(
-        `[live] session created id=${created.sessionId} create_ms=${created.durationMs}`,
+        `[live] session created id=${created.sessionId} create_ms=${created.durationMs} delegation=${delegation ? config.delegationModel : 'disabled'}`,
       );
+
+      // Per-session Layer C collaborators. sidebandRef lets handlers send
+      // commands on the socket after it is created.
+      let sidebandRef: SidebandConnection | null = null;
+      const sendCommand = (command: Record<string, unknown>): void => {
+        try {
+          sidebandRef?.sendCommand(command);
+        } catch (err) {
+          console.error(`[live] session ${created.sessionId} sendCommand failed:`, err instanceof Error ? err.message : err);
+        }
+      };
+      const delegationManager = delegation
+        ? new DelegationManager({
+            router: harness.router,
+            store: harness.store,
+            sender: { sendCommand },
+            log: (message, fields) =>
+              console.log(JSON.stringify({ component: 'delegation', message, ...fields })),
+          })
+        : null;
+      const guardrails = new GuardrailMonitor({
+        store: harness.store,
+        curriculum: harness.curriculum,
+        sendCommand,
+        onTrigger: (trigger: GuardrailTrigger) =>
+          onGuardrailTrigger(created.sessionId, trigger, delegationManager),
+        onUserTurn: (sessionId, text) => analyzeUserTurn(harness, sessionId, text, guardrails),
+      });
 
       const sideband = new SidebandConnection({
         sessionId: created.sessionId,
@@ -117,10 +242,14 @@ export function createApp(deps: ServerDeps): Express {
           onTranscriptDelta: (id, speaker, delta) => {
             console.log(`[live] transcript ${id} ${speaker}: ${delta.slice(0, 120)}`);
             harness.observer.onTranscriptDelta(id, speaker, delta);
+            guardrails.onTranscriptDelta(id, speaker, delta);
           },
+          onDelegationEvent: (id, event) => delegationManager?.handleEvent(id, event),
           onClosed: (id, reason) => {
             console.log(`[live] session ${id} closed (reason=${reason ?? 'unknown'})`);
             harness.observer.onSessionClosed(id);
+            guardrails.flush(id);
+            delegationManager?.setToolBlock(id, false);
             void registry.closeSession(id).catch(() => undefined);
           },
           onError: (id, err) =>
@@ -130,8 +259,14 @@ export function createApp(deps: ServerDeps): Express {
         wsFactory,
         maxReconnectAttempts: config.maxReconnectAttempts,
       });
+      sidebandRef = sideband;
       sideband.attach();
-      registry.register(created.sessionId, { sideband, createdAt: Date.now() });
+      registry.register(created.sessionId, {
+        sideband,
+        createdAt: Date.now(),
+        ...(delegationManager ? { delegation: delegationManager } : {}),
+        guardrails,
+      });
 
       // Initialize authoritative teaching state for this session (Layer B).
       // A harness failure must not kill the voice session, so it is logged

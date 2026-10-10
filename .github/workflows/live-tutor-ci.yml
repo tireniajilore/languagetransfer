@@ -15,7 +15,7 @@ on:
       - 'lt-runner/package.json'
       - '.github/workflows/live-tutor-ci.yml'
   push:
-    branches: ['feat/live-tutor-foundation', 'main']
+    branches: ['feat/live-tutor-foundation', 'feat/live-tutor-pr2', 'feat/live-tutor-pr3', 'main']
     paths:
       - 'live-backend/**'
       - 'lt-runner/src/app/live/**'

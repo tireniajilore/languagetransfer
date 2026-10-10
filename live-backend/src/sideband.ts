@@ -31,6 +31,11 @@ export interface SidebandEventHandlers {
   onClosed(sessionId: string, reason?: string): void;
   onError(sessionId: string, error: unknown): void;
   onInfo?(sessionId: string, message: string): void;
+  /**
+   * Delegation + nested Responses events (Layer C, PR 3). Routed for event
+   * types starting with `delegation.` and for `response.event` frames.
+   */
+  onDelegationEvent?(sessionId: string, event: Record<string, unknown>): void;
 }
 
 /** Minimal WebSocket surface we need; injectable for tests. */
@@ -149,6 +154,20 @@ export class SidebandConnection {
     this.finishClose('destroyed');
   }
 
+  /**
+   * Send a command frame on the sideband (e.g. `session.instructions.append`,
+   * `response.item.create`, `response.create`, `session.close`). Throws when
+   * the socket is not open so callers can fail loudly rather than silently
+   * dropping a steering command.
+   */
+  sendCommand(command: Record<string, unknown>): void {
+    const ws = this.ws;
+    if (!ws || this.state !== 'open') {
+      throw new Error(`sideband not open (state=${this.state}); cannot send ${String(command.type)}`);
+    }
+    ws.send(JSON.stringify(command));
+  }
+
   private finishClose(reason: string): void {
     if (this.cleanedUp) return;
     this.cleanedUp = true;
@@ -222,6 +241,17 @@ export class SidebandConnection {
     }
     if (!event || typeof event.type !== 'string') return;
     const { sessionId } = this.opts;
+    const type = event.type;
+    // Layer C: delegation lifecycle + nested Responses frames go to the
+    // DelegationManager; everything else keeps the PR 1 behavior.
+    if (type.startsWith('delegation.') || type === 'response.event') {
+      try {
+        this.opts.handlers.onDelegationEvent?.(sessionId, event as Record<string, unknown>);
+      } catch (err) {
+        this.opts.handlers.onError(sessionId, err);
+      }
+      return;
+    }
     switch (event.type) {
       case 'session.started':
         this.reconnectAttempts = 0;
