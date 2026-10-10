@@ -1,0 +1,64 @@
+# CI for the live-tutor project (PR 1: real-time voice foundation).
+# Runs typecheck, lint, and unit tests for the new live-backend service and the
+# new /live frontend surface. Does NOT touch the TikTok cron workflow.
+name: live-tutor-ci
+
+on:
+  pull_request:
+    paths:
+      - 'live-backend/**'
+      - 'lt-runner/src/app/live/**'
+      - 'lt-runner/src/hooks/useLiveSession.ts'
+      - 'lt-runner/src/lib/live-voice-session.ts'
+      - 'lt-runner/src/lib/__tests__/live-voice-session.test.ts'
+      - 'lt-runner/vitest.config.ts'
+      - 'lt-runner/package.json'
+      - '.github/workflows/live-tutor-ci.yml'
+  push:
+    branches: ['feat/live-tutor-foundation', 'main']
+    paths:
+      - 'live-backend/**'
+      - 'lt-runner/src/app/live/**'
+      - 'lt-runner/src/hooks/useLiveSession.ts'
+      - 'lt-runner/src/lib/live-voice-session.ts'
+      - 'lt-runner/src/lib/__tests__/live-voice-session.test.ts'
+      - 'lt-runner/vitest.config.ts'
+      - 'lt-runner/package.json'
+      - '.github/workflows/live-tutor-ci.yml'
+
+jobs:
+  live-backend:
+    name: live-backend (typecheck, lint, test)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: live-backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: live-backend/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+
+  lt-runner-live:
+    name: lt-runner /live (typecheck, lint, test)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: lt-runner
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: lt-runner/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
