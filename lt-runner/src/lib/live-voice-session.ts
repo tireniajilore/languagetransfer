@@ -17,10 +17,23 @@ export type LiveConnState =
   | 'requesting-mic'
   | 'creating-offer'
   | 'exchanging-sdp'
+  | 'establishing-media'
   | 'connected'
   | 'reconnecting'
   | 'failed'
   | 'closed';
+
+/**
+ * STUN servers for ICE candidate gathering. A bare RTCPeerConnection only
+ * produces host candidates, so on networks with symmetric NAT (common on
+ * mobile data) ICE can never complete and no audio flows in either direction
+ * — while the UI would still claim "connected" after SDP exchange. STUN is
+ * free and fixes the common case; networks that block UDP entirely still
+ * need TURN (future work, requires credentials).
+ */
+export const DEFAULT_ICE_SERVERS: RTCIceServer[] = [
+  { urls: 'stun:stun.l.google.com:19302' },
+];
 
 export interface TranscriptEntry {
   id: number;
@@ -35,6 +48,8 @@ export interface LiveVoiceSessionOptions {
   maxRetries?: number;
   /** Base backoff between recovery attempts in ms (default 1000). */
   baseBackoffMs?: number;
+  /** Max time to wait for the ICE/DTLS handshake after SDP exchange (default 15000). */
+  mediaConnectTimeoutMs?: number;
   fetchFn?: typeof fetch;
   createPeerConnection?: () => RTCPeerConnection;
   getUserMedia?: (constraints: MediaStreamConstraints) => Promise<MediaStream>;
@@ -85,6 +100,7 @@ export class LiveVoiceSession {
       | 'backendUrl'
       | 'maxRetries'
       | 'baseBackoffMs'
+      | 'mediaConnectTimeoutMs'
       | 'fetchFn'
       | 'createPeerConnection'
       | 'getUserMedia'
@@ -114,9 +130,10 @@ export class LiveVoiceSession {
       backendUrl: opts.backendUrl.replace(/\/+$/, ''),
       maxRetries: opts.maxRetries ?? 3,
       baseBackoffMs: opts.baseBackoffMs ?? 1_000,
+      mediaConnectTimeoutMs: opts.mediaConnectTimeoutMs ?? 15_000,
       fetchFn: opts.fetchFn ?? fetch.bind(globalThis),
       createPeerConnection:
-        opts.createPeerConnection ?? (() => new RTCPeerConnection()),
+        opts.createPeerConnection ?? (() => new RTCPeerConnection({ iceServers: DEFAULT_ICE_SERVERS })),
       getUserMedia:
         opts.getUserMedia ??
         ((constraints) => navigator.mediaDevices.getUserMedia(constraints)),
@@ -219,6 +236,11 @@ export class LiveVoiceSession {
       }
       this.sessionId = sessionId;
       await pc.setRemoteDescription({ type: 'answer', sdp: answerSdp });
+      // SDP exchange is not a working call: wait until ICE/DTLS actually
+      // connects before claiming 'connected', so the UI never shows a live
+      // session while audio cannot flow.
+      this.setState('establishing-media');
+      await this.waitForMediaConnected(pc);
       this.retryCount = 0;
       this.setState('connected');
     } catch (err) {
@@ -297,8 +319,44 @@ export class LiveVoiceSession {
     }
   }
 
-  private waitForIceGathering(pc: RTCPeerConnection): Promise<void> {
-    if (pc.iceGatheringState === 'complete') return Promise.resolve();
+  /**
+   * Resolves once the peer connection's ICE/DTLS handshake completes, so
+   * 'connected' always means media can actually flow. Rejects (retryable via
+   * handleConnectFailure) when ICE fails outright or times out — e.g. a
+   * network that blocks WebRTC.
+   */
+  private waitForMediaConnected(pc: RTCPeerConnection): Promise<void> {
+    if (pc.connectionState === 'connected') return Promise.resolve();
+    return new Promise((resolve, reject) => {
+      const timeout = setTimeout(() => {
+        cleanup();
+        reject(
+          new Error(
+            'Audio connection timed out — the network may be blocking real-time audio. Try Wi-Fi or a different network.',
+          ),
+        );
+      }, this.opts.mediaConnectTimeoutMs);
+      const onChange = () => {        if (pc.connectionState === 'connected') {
+          cleanup();
+          resolve();
+        } else if (pc.connectionState === 'failed') {
+          cleanup();
+          reject(
+            new Error(
+              'Audio connection failed — the network may be blocking real-time audio. Try Wi-Fi or a different network.',
+            ),
+          );
+        }
+      };
+      const cleanup = () => {
+        clearTimeout(timeout);
+        pc.removeEventListener('connectionstatechange', onChange);
+      };
+      pc.addEventListener('connectionstatechange', onChange);
+    });
+  }
+
+  private waitForIceGathering(pc: RTCPeerConnection): Promise<void> {    if (pc.iceGatheringState === 'complete') return Promise.resolve();
     return new Promise((resolve) => {
       let done = false;
       const finish = () => {
