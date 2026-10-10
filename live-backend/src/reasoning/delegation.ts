@@ -169,7 +169,7 @@ export const DELEGATION_TOOLS: ResponsesFunctionTool[] = [
   ),
   toolDef(
     'get_learner_history',
-    'Read the learner history available to the harness (current session; persistent cross-session memory lands in PR 4).',
+    'Read the learner history available to the harness: in-session evidence plus, when the backend runs with Postgres (Layer D), the cross-session learner summary.',
     {
       learnerId: { type: 'string' },
     },

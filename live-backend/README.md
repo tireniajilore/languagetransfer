@@ -18,7 +18,7 @@ GPT-Live session lifecycle per ADR-001, plus the Layer B teaching harness
 - `GET /api/live/session/:id/context` — read the assembled teaching context.
 
 The browser never talks to OpenAI and never sees a key. Pedagogical reasoning
-(delegation) and persistent learner memory land in PRs 3–4.
+(delegation) landed in PR 3; persistent learner memory (below) landed in PR 4.
 
 ## Teaching harness (Layer B)
 
@@ -50,6 +50,51 @@ Mastery rule (conservative): a concept becomes `mastered` only with enough
 correct evidence **plus** a transfer pass and no open misconceptions — a
 single correct answer never implies mastery. Observations and inferred
 mastery are stored separately.
+
+## Learner memory (Layer D)
+
+Optional Postgres persistence for cross-session learning, in `src/memory/`.
+Without `DATABASE_URL` the backend runs exactly as before: the in-memory
+harness store, nothing persisted.
+
+- `migrations/0001_initial_schema.sql` — version-controlled schema; applied
+  in order at startup by `src/memory/migrate.ts` (`npm run migrate`),
+  recorded in `schema_migrations`. Tables: `learners`, `sessions`,
+  `utterances`, `evidence` (observations — never inferred), `concept_states`
+  (inferred mastery, separate from evidence), `learner_concepts`,
+  `misconceptions`, `interventions` + outcomes, `retention_snapshots`.
+- `src/memory/pgStore.ts` — `PersistentHarnessStore extends HarnessStore`:
+  reads stay synchronous and in-memory (the conversational hot path never
+  waits on the DB); mutations apply to memory first, then persist through a
+  write-behind queue (timer + explicit `flush()` on session close and
+  shutdown). All writes are idempotent upserts / `ON CONFLICT DO NOTHING`,
+  so a failed flush can retry without double-counting.
+- `src/memory/mastery.ts` — learner-level mastery is **derived**, not
+  stored: all evidence for a concept replays through the state machine's own
+  conservative rule (`src/memory/mastery.ts:deriveConcept`), with the
+  derivation inputs stored alongside the estimate so it is auditable.
+- Session restoration: minting with a known `learnerId` loads prior concept
+  states into the new session — mastered concepts stay mastered (their
+  introductions are skipped), open misconceptions carry over and unlock
+  their dependents. `get_learner_history` gains a `crossSession` summary.
+
+**What is stored, and why.** Learner ids, session metadata, transcript text
+(`utterances`), evidence records (correct/incorrect/transfer/flags),
+per-session concept states, interventions, and derived learner-level
+aggregates. These exist so the tutor remembers what the learner has
+demonstrated — nothing else.
+
+**What is never stored.** No audio, ever — only transcript text. No
+credentials, no payment data.
+
+**Retention.** `MEMORY_RETENTION_DAYS` (default 180): raw session data
+(sessions, utterances, evidence, interventions) for sessions that ended
+before the window is purged by `purgeExpired` (runs at startup). Derived
+learner-level aggregates (`learner_concepts`, `retention_snapshots`, open
+misconceptions) are kept — they are summaries, not raw observations.
+
+Config: `DATABASE_URL` (unset = memory-only), `MEMORY_RETENTION_DAYS`,
+`MEMORY_FLUSH_INTERVAL_MS`. See `.env.example`.
 
 ## Run locally
 
