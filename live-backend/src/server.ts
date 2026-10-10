@@ -198,6 +198,11 @@ export function createApp(deps: ServerDeps): Express {
   ];
 
   app.post('/api/live/session', ...mintGuards, async (req: Request, res: Response) => {
+    // PR 5 kill-switch: refuse to mint while the feature is disabled.
+    if (!config.liveTutorEnabled) {
+      res.status(503).json({ error: 'disabled', detail: 'live tutor is disabled (LIVE_TUTOR_ENABLED=0)' });
+      return;
+    }
     const offerSdp = validateOfferSdp(req.body);
     if (!offerSdp) {
       res.status(400).json({ error: 'invalid_request', detail: 'body.sdp must be an SDP offer string' });

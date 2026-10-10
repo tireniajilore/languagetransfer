@@ -28,6 +28,12 @@ const STATE_STYLES: Record<LiveConnState, string> = {
 };
 
 export default function LiveTutorPage() {
+  // PR 5 rollout gate: the route renders the tutor only when explicitly
+  // enabled. Set NEXT_PUBLIC_LIVE_TUTOR_ENABLED=1 on Vercel (staging first).
+  // Defaults to OFF so merging the live-tutor stack never exposes the route
+  // to production traffic by accident.
+  const liveTutorEnabled = process.env.NEXT_PUBLIC_LIVE_TUTOR_ENABLED === '1';
+
   const {
     connState,
     transcripts,
@@ -45,6 +51,27 @@ export default function LiveTutorPage() {
     const el = transcriptRef.current;
     if (el) el.scrollTop = el.scrollHeight;
   }, [transcripts]);
+
+  if (!liveTutorEnabled) {
+    return (
+      <main className="mx-auto flex min-h-screen max-w-2xl flex-col gap-6 px-6 py-10">
+        <header>
+          <h1 className="font-display text-3xl font-semibold">Live Spanish Tutor</h1>
+          <p className="mt-2 text-sm text-stone-600">
+            The real-time voice tutor is not enabled in this environment.
+          </p>
+        </header>
+        <div className="rounded-lg border border-stone-300 bg-stone-50 p-4 text-sm text-stone-700">
+          This route is behind the <code className="font-mono">NEXT_PUBLIC_LIVE_TUTOR_ENABLED</code>{' '}
+          flag. The scripted lessons remain available:{' '}
+          <Link href="/" className="underline">
+            back to lessons
+          </Link>
+          .
+        </div>
+      </main>
+    );
+  }
 
   const busy =
     connState === 'requesting-mic' ||

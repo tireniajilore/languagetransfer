@@ -17,6 +17,7 @@ interface TestServer {
 async function startServer(opts?: {
   allowedOrigins?: string[];
   rateLimitMax?: number;
+  liveTutorEnabled?: boolean;
   createImpl?: () => Promise<{ session: { id: string }; transport: { sdp: string } }>;
 }): Promise<TestServer> {
   let counter = 0;
@@ -40,6 +41,7 @@ async function startServer(opts?: {
       liveApiBaseUrl: 'https://api.openai.com',
       delegationModel: 'gpt-5.6-terra',
       delegationDisabled: true,
+      liveTutorEnabled: opts?.liveTutorEnabled ?? true,
       memoryRetentionDays: 180,
       memoryFlushIntervalMs: 5000,
     },
@@ -127,6 +129,14 @@ describe('live-backend HTTP surface', () => {
     expect(body.uptime_ms).toBeGreaterThanOrEqual(0);
   });
 
+  it('returns 503 on mint when the live-tutor kill-switch is off', async () => {
+    const s = await startServer({ liveTutorEnabled: false });
+    servers.push(s);
+    const res = await postJson(s.baseUrl, '/api/live/session', { sdp: OFFER_SDP });
+    expect(res.statusCode).toBe(503);
+    expect(res.body).toMatchObject({ error: 'disabled' });
+  });
+
   it('POST /api/live/session mints a session, attaches the sideband, returns the answer', async () => {
     const s = await startServer();
     servers.push(s);
@@ -142,8 +152,7 @@ describe('live-backend HTTP surface', () => {
     expect(s.wsInstances[0].lastHeaders.Authorization).toBe('Bearer sk-test');
   });
 
-  it('rejects invalid session-mint bodies with 400', async () => {
-    const s = await startServer();
+  it('rejects invalid session-mint bodies with 400', async () => {    const s = await startServer();
     servers.push(s);
     for (const body of [{}, { sdp: 42 }, { sdp: 'x'.repeat(60) }, { sdp: 'not-an-sdp-offer' }]) {
       const res = await postJson(s.baseUrl, '/api/live/session', body);

@@ -67,8 +67,13 @@ export class MintError extends Error {
     if (typeof body.retryable === 'boolean') {
       this.retryable = body.retryable;
     } else {
+      // 'misconfigured' (rejected key) and 'disabled' (kill-switch) can never
+      // be fixed by retrying; 4xx are client errors. Everything else (429,
+      // 502/503/504, transient 500s) is worth a backoff retry.
       this.retryable =
-        body.error !== 'misconfigured' && ![400, 401, 403, 404].includes(status);
+        body.error !== 'misconfigured' &&
+        body.error !== 'disabled' &&
+        ![400, 401, 403, 404].includes(status);
     }
   }
 }
