@@ -18,6 +18,8 @@ import { assembleTeachingContext } from './harness/context';
 import { HarnessObserver } from './harness/observer';
 import { createHarnessState } from './harness/stateMachine';
 import { DispatchResult, HarnessStore, ToolErrorCode, ToolRouter } from './harness/tools';
+import { buildDelegationConfig, DelegationManager } from './reasoning/delegation';
+import { GuardrailMonitor, GuardrailTrigger } from './reasoning/guardrails';
 import { LiveBackendConfig } from './config';
 import { LiveApiError, LiveSessionClient } from './liveClient';
 import { recordLatency } from './metrics';
@@ -70,6 +72,32 @@ function parseMintOptions(body: unknown): { learnerId?: string; objectiveId?: st
   return { learnerId: clean(b.learnerId), objectiveId: clean(b.objectiveId) };
 }
 
+/**
+ * Guardrail trigger policy (ADR-001 D4, evaluated + interruptive control).
+ * Every trigger is logged with session id. The monitor already sent a
+ * corrective `session.instructions.append`; here we additionally block
+ * write-tool execution briefly so the delegated backend cannot compound the
+ * violation by committing moves off the offending content.
+ */
+function onGuardrailTrigger(
+  sessionId: string,
+  trigger: GuardrailTrigger,
+  delegationManager: DelegationManager | null,
+): void {
+  console.log(
+    JSON.stringify({
+      component: 'guardrails',
+      event: 'trigger',
+      sessionId,
+      kind: trigger.kind,
+      detail: trigger.detail,
+      excerpt: trigger.excerpt,
+      at: trigger.at,
+    }),
+  );
+  delegationManager?.setToolBlock(sessionId, true);
+}
+
 export function createApp(deps: ServerDeps): Express {
   const { config } = deps;
   const liveClient = deps.liveClient ?? new LiveSessionClient({ apiKey: config.openaiApiKey });
@@ -98,15 +126,48 @@ export function createApp(deps: ServerDeps): Express {
       return;
     }
     try {
+      // Layer C: Responses delegation is configured at session creation so the
+      // voice model can delegate deep pedagogical reasoning to the backend.
+      const delegation = config.delegationDisabled
+        ? undefined
+        : buildDelegationConfig(harness.curriculum, { model: config.delegationModel });
       const created = await liveClient.createSession({
         offerSdp,
         instructions: config.sessionInstructions,
         model: config.liveModel,
+        delegation,
       });
       recordLatency('live.session.create_ms', created.durationMs);
       console.log(
-        `[live] session created id=${created.sessionId} create_ms=${created.durationMs}`,
+        `[live] session created id=${created.sessionId} create_ms=${created.durationMs} delegation=${delegation ? config.delegationModel : 'disabled'}`,
       );
+
+      // Per-session Layer C collaborators. sidebandRef lets handlers send
+      // commands on the socket after it is created.
+      let sidebandRef: SidebandConnection | null = null;
+      const sendCommand = (command: Record<string, unknown>): void => {
+        try {
+          sidebandRef?.sendCommand(command);
+        } catch (err) {
+          console.error(`[live] session ${created.sessionId} sendCommand failed:`, err instanceof Error ? err.message : err);
+        }
+      };
+      const delegationManager = delegation
+        ? new DelegationManager({
+            router: harness.router,
+            store: harness.store,
+            sender: { sendCommand },
+            log: (message, fields) =>
+              console.log(JSON.stringify({ component: 'delegation', message, ...fields })),
+          })
+        : null;
+      const guardrails = new GuardrailMonitor({
+        store: harness.store,
+        curriculum: harness.curriculum,
+        sendCommand,
+        onTrigger: (trigger: GuardrailTrigger) =>
+          onGuardrailTrigger(created.sessionId, trigger, delegationManager),
+      });
 
       const sideband = new SidebandConnection({
         sessionId: created.sessionId,
@@ -117,10 +178,14 @@ export function createApp(deps: ServerDeps): Express {
           onTranscriptDelta: (id, speaker, delta) => {
             console.log(`[live] transcript ${id} ${speaker}: ${delta.slice(0, 120)}`);
             harness.observer.onTranscriptDelta(id, speaker, delta);
+            guardrails.onTranscriptDelta(id, speaker, delta);
           },
+          onDelegationEvent: (id, event) => delegationManager?.handleEvent(id, event),
           onClosed: (id, reason) => {
             console.log(`[live] session ${id} closed (reason=${reason ?? 'unknown'})`);
             harness.observer.onSessionClosed(id);
+            guardrails.flush(id);
+            delegationManager?.setToolBlock(id, false);
             void registry.closeSession(id).catch(() => undefined);
           },
           onError: (id, err) =>
@@ -130,8 +195,14 @@ export function createApp(deps: ServerDeps): Express {
         wsFactory,
         maxReconnectAttempts: config.maxReconnectAttempts,
       });
+      sidebandRef = sideband;
       sideband.attach();
-      registry.register(created.sessionId, { sideband, createdAt: Date.now() });
+      registry.register(created.sessionId, {
+        sideband,
+        createdAt: Date.now(),
+        ...(delegationManager ? { delegation: delegationManager } : {}),
+        guardrails,
+      });
 
       // Initialize authoritative teaching state for this session (Layer B).
       // A harness failure must not kill the voice session, so it is logged

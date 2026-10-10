@@ -14,6 +14,18 @@ export interface LiveSessionParams {
   offerSdp: string;
   instructions: string;
   model: string;
+  /** Responses delegation block (Layer C). Omitted when delegation is disabled. */
+  delegation?: {
+    type: 'responses';
+    responses: {
+      model: string;
+      instructions: string;
+      tools: unknown[];
+      tool_choice: 'auto';
+      parallel_tool_calls: boolean;
+      max_output_tokens: number;
+    };
+  };
 }
 
 export interface LiveSessionCreated {
@@ -29,6 +41,7 @@ export interface LiveSessionCreated {
 export type CreateSessionFn = (params: {
   session: { model: string; instructions: string };
   transport: { type: 'webrtc'; sdp: string };
+  delegation?: LiveSessionParams['delegation'];
 }) => Promise<{ session: { id: string }; transport: { sdp: string } }>;
 
 export class LiveApiError extends Error {
@@ -68,6 +81,7 @@ export class LiveSessionClient {
       created = await this.createFn({
         session: { model: params.model, instructions: params.instructions },
         transport: { type: 'webrtc', sdp: params.offerSdp },
+        ...(params.delegation ? { delegation: params.delegation } : {}),
       });
     } catch (err) {
       // A typed LiveApiError (e.g. from a previous mapping layer or an

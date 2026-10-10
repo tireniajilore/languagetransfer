@@ -37,6 +37,8 @@ async function startServer(opts?: {
       sessionInstructions: 'teach!',
       maxReconnectAttempts: 2,
       liveApiBaseUrl: 'https://api.openai.com',
+      delegationModel: 'gpt-5.6-terra',
+      delegationDisabled: true,
     },
     liveClient,
     registry: new SessionRegistry(),
