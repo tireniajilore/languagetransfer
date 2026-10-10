@@ -28,6 +28,7 @@
 
 import { Curriculum } from '../curriculum/types';
 import { HarnessStore, ToolRouter } from '../harness/tools';
+import { recordCounter, recordLatency } from '../metrics';
 
 /** A Responses function tool definition handed to the delegated backend. */
 export interface ResponsesFunctionTool {
@@ -362,9 +363,17 @@ export class DelegationManager {
         executed: new Set(),
       });
       this.log('delegation created', { sessionId, delegationId });
+      recordCounter('delegation.created');
       return;
     }
     if ((type === 'delegation.completed' || type === 'delegation.failed') && delegationId) {
+      const rec = this.delegations.get(delegationId);
+      if (type === 'delegation.completed' && rec) {
+        recordLatency('delegation.roundtrip_ms', Date.now() - rec.createdAt);
+        recordCounter('delegation.completed');
+      } else {
+        recordCounter('delegation.failed');
+      }
       this.log(`delegation ${type === 'delegation.failed' ? 'failed' : 'completed'}`, {
         sessionId,
         delegationId,

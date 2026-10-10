@@ -23,7 +23,7 @@ import { analyzeResponse } from './reasoning/analysis';
 import { getConcept } from './harness/stateMachine';
 import { LiveBackendConfig } from './config';
 import { LiveApiError, LiveSessionClient } from './liveClient';
-import { recordLatency } from './metrics';
+import { recordCounter, recordLatency, summarizeMetrics } from './metrics';
 import { SessionRegistry } from './sessions';
 import { SidebandConnection, WsFactory } from './sideband';
 import { originCheck } from './middleware/originCheck';
@@ -178,12 +178,31 @@ export function createApp(deps: ServerDeps): Express {
     res.json({ status: 'ok', service: 'live-backend', sessions: registry.size });
   });
 
+  /**
+   * Operational summary (PR 5): latency histograms (p50/p95/max), event
+   * counters (sessions, delegations, guardrail triggers, teaching moves),
+   * and session health. In-memory since process start; no PII — safe to
+   * expose without auth on the trusted service network.
+   */
+  app.get('/metrics', (_req: Request, res: Response) => {
+    res.json({
+      service: 'live-backend',
+      sessions: { active: registry.size },
+      ...summarizeMetrics(),
+    });
+  });
+
   const mintGuards = [
     originCheck(config.allowedOrigins),
     rateLimit({ windowMs: config.rateLimit.windowMs, max: config.rateLimit.max }),
   ];
 
   app.post('/api/live/session', ...mintGuards, async (req: Request, res: Response) => {
+    // PR 5 kill-switch: refuse to mint while the feature is disabled.
+    if (!config.liveTutorEnabled) {
+      res.status(503).json({ error: 'disabled', detail: 'live tutor is disabled (LIVE_TUTOR_ENABLED=0)' });
+      return;
+    }
     const offerSdp = validateOfferSdp(req.body);
     if (!offerSdp) {
       res.status(400).json({ error: 'invalid_request', detail: 'body.sdp must be an SDP offer string' });
@@ -202,6 +221,7 @@ export function createApp(deps: ServerDeps): Express {
         delegation,
       });
       recordLatency('live.session.create_ms', created.durationMs);
+      recordCounter('sessions.created');
       console.log(
         `[live] session created id=${created.sessionId} create_ms=${created.durationMs} delegation=${delegation ? config.delegationModel : 'disabled'}`,
       );
@@ -253,8 +273,10 @@ export function createApp(deps: ServerDeps): Express {
             delegationManager?.setToolBlock(id, false);
             void registry.closeSession(id).catch(() => undefined);
           },
-          onError: (id, err) =>
-            console.error(`[live] session ${id} sideband error:`, err),
+          onError: (id, err) => {
+            recordCounter('sessions.errored');
+            console.error(`[live] session ${id} sideband error:`, err);
+          },
           onInfo: (id, msg) => console.log(`[live] session ${id}: ${msg}`),
         },
         wsFactory,
@@ -326,6 +348,7 @@ export function createApp(deps: ServerDeps): Express {
     }
     // Flush-on-close: no learner progress is lost when the session ends.
     await harness.store.flush();
+    recordCounter('sessions.closed');
     res.json({ session: { id }, closed: true });
   });
 

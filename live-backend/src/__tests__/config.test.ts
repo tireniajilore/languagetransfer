@@ -39,4 +39,10 @@ describe('loadConfig', () => {
     });
     expect(cfg.sessionInstructions).toBe('custom');
   });
+
+  it('live tutor is enabled by default; LIVE_TUTOR_ENABLED=0 disables it', () => {
+    expect(loadConfig({ OPENAI_API_KEY: 'x' }).liveTutorEnabled).toBe(true);
+    expect(loadConfig({ OPENAI_API_KEY: 'x', LIVE_TUTOR_ENABLED: '0' }).liveTutorEnabled).toBe(false);
+    expect(loadConfig({ OPENAI_API_KEY: 'x', LIVE_TUTOR_ENABLED: '1' }).liveTutorEnabled).toBe(true);
+  });
 });

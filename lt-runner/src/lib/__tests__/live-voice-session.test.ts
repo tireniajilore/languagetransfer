@@ -231,6 +231,30 @@ describe('LiveVoiceSession', () => {
     expect(errors[0].message).toContain('502');
   });
 
+  it('does not retry non-retryable mint failures (rejected key, bad origin)', async () => {
+    for (const failure of [
+      { status: 500, json: { error: 'misconfigured', detail: 'OpenAI key rejected' } },
+      { status: 403, json: { error: 'forbidden' } },
+      { status: 400, json: { error: 'invalid_request' } },
+    ]) {
+      let attempts = 0;
+      const { session, states, errors, sleeps } = setup({
+        maxRetries: 3,
+        fetchImpl: () => {
+          attempts += 1;
+          return failure;
+        },
+      });
+      await session.start();
+      expect(attempts).toBe(1); // fail fast, no backoff burned
+      expect(sleeps).toEqual([]);
+      expect(states).not.toContain('reconnecting');
+      expect(states[states.length - 1]).toBe('failed');
+      expect(errors).toHaveLength(1);
+      expect(errors[0].message).toContain(String(failure.status));
+    }
+  });
+
   it('recovers from an unexpected mid-session drop with a fresh session', async () => {
     let mints = 0;
     const { session, states, pcs, fetchCalls, sleeps } = setup({

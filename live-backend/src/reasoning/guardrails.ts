@@ -22,6 +22,7 @@
 
 import { Curriculum } from '../curriculum/types';
 import { HarnessStore } from '../harness/tools';
+import { recordCounter } from '../metrics';
 
 export type GuardrailKind = 'answer_leak' | 'teaching_ahead';
 
@@ -203,6 +204,7 @@ export class GuardrailMonitor {
       at: now(),
     };
     this.triggers.push(trigger);
+    recordCounter('guardrail.triggered', trigger.kind);
     this.deps.onTrigger?.(trigger);
     // Application-authored corrective instruction; interrupts speech in progress.
     correctiveSeq += 1;

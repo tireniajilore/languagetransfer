@@ -50,6 +50,34 @@ export interface LiveVoiceSessionOptions {
 const DATA_CHANNEL_LABEL = 'oai-events';
 const ICE_GATHER_TIMEOUT_MS = 4_000;
 
+/**
+ * A failed session-mint with retry semantics. The backend marks 502s with
+ * `retryable`; other statuses are classified here so the browser never burns
+ * backoff cycles on failures a retry cannot fix (bad request, rejected key,
+ * forbidden origin).
+ */
+export class MintError extends Error {
+  readonly status: number;
+  readonly retryable: boolean;
+  constructor(status: number, detail: unknown) {
+    super(`session mint failed (HTTP ${status}): ${JSON.stringify(detail)}`);
+    this.name = 'MintError';
+    this.status = status;
+    const body = (detail ?? {}) as { retryable?: unknown; error?: unknown };
+    if (typeof body.retryable === 'boolean') {
+      this.retryable = body.retryable;
+    } else {
+      // 'misconfigured' (rejected key) and 'disabled' (kill-switch) can never
+      // be fixed by retrying; 4xx are client errors. Everything else (429,
+      // 502/503/504, transient 500s) is worth a backoff retry.
+      this.retryable =
+        body.error !== 'misconfigured' &&
+        body.error !== 'disabled' &&
+        ![400, 401, 403, 404].includes(status);
+    }
+  }
+}
+
 export class LiveVoiceSession {
   private readonly opts: Required<
     Pick<
@@ -178,7 +206,7 @@ export class LiveVoiceSession {
       });
       if (!res.ok) {
         const detail = await safeJson(res);
-        throw new Error(`session mint failed (HTTP ${res.status}): ${JSON.stringify(detail)}`);
+        throw new MintError(res.status, detail);
       }
       const payload = (await res.json()) as {
         session?: { id?: string };
@@ -202,6 +230,13 @@ export class LiveVoiceSession {
     const error = err instanceof Error ? err : new Error(String(err));
     this.teardownPeerConnection();
     if (this.intentionalStop) return;
+    // Fail fast on errors a retry cannot fix (bad request, rejected key,
+    // forbidden origin) — don't burn backoff cycles or confuse the learner.
+    if (error instanceof MintError && !error.retryable) {
+      this.setState('failed');
+      this.opts.onError?.(error);
+      return;
+    }
     if (this.retryCount < this.opts.maxRetries) {
       this.retryCount += 1;
       this.setState('reconnecting');

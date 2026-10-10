@@ -12,6 +12,7 @@ import {
   DelegationManager,
   delegationToolNames,
 } from '../delegation';
+import { clearCounters, summarizeMetrics } from '../../metrics';
 import { CUR, FakeSender, makeHarness, startCopula } from './helpers';
 
 function makeManager(sessionId = 's-test') {
@@ -87,11 +88,24 @@ describe('delegation config', () => {
 
 describe('DelegationManager event routing', () => {
   it('tracks delegation.created and routes nested events', () => {
+    clearCounters();
     const { manager } = makeManager();
     manager.handleEvent('s-test', delegationCreated('dlg_1'));
     expect(manager.trackedDelegations).toBe(1);
     manager.handleEvent('s-test', { type: 'delegation.completed', delegation_id: 'dlg_1' });
     expect(manager.trackedDelegations).toBe(0);
+    // Lifecycle is counted and timed for the /metrics endpoint.
+    const counters = summarizeMetrics().counters;
+    expect(counters['delegation.created']).toBe(1);
+    expect(counters['delegation.completed']).toBe(1);
+  });
+
+  it('counts failed delegations', () => {
+    clearCounters();
+    const { manager } = makeManager();
+    manager.handleEvent('s-test', delegationCreated('dlg_9'));
+    manager.handleEvent('s-test', { type: 'delegation.failed', delegation_id: 'dlg_9' });
+    expect(summarizeMetrics().counters['delegation.failed']).toBe(1);
   });
 
   it('ignores non-delegation events', () => {

@@ -15,7 +15,7 @@ on:
       - 'lt-runner/package.json'
       - '.github/workflows/live-tutor-ci.yml'
   push:
-    branches: ['feat/live-tutor-foundation', 'feat/live-tutor-pr2', 'feat/live-tutor-pr3', 'feat/live-tutor-pr4', 'main']
+    branches: ['feat/live-tutor-foundation', 'feat/live-tutor-pr2', 'feat/live-tutor-pr3', 'feat/live-tutor-pr4', 'feat/live-tutor-pr5', 'main']
     paths:
       - 'live-backend/**'
       - 'lt-runner/src/app/live/**'
@@ -44,6 +44,7 @@ jobs:
       - run: npm run typecheck
       - run: npm run lint
       - run: npm test
+      - run: npm run bench -- 20
 
   lt-runner-live:
     name: lt-runner /live (typecheck, lint, test)

@@ -33,6 +33,7 @@ async function startServer(): Promise<TestServer> {
       liveApiBaseUrl: 'https://api.openai.com',
       delegationModel: 'gpt-5.6-terra',
       delegationDisabled: true,
+      liveTutorEnabled: true,
       memoryRetentionDays: 180,
       memoryFlushIntervalMs: 5000,
     },
