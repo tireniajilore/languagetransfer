@@ -71,8 +71,10 @@ export class HarnessObserver {
     const seq = (this.seqs.get(sessionId) ?? 0) + 1;
     this.seqs.set(sessionId, seq);
     try {
-      this.store.update(sessionId, (s) =>
-        recordEvidence(
+      let turnId = 0;
+      this.store.update(sessionId, (s) => {
+        turnId = s.turn;
+        return recordEvidence(
           this.curriculum,
           s,
           {
@@ -82,8 +84,17 @@ export class HarnessObserver {
             seq,
           },
           this.now(),
-        ),
-      );
+        );
+      });
+      // Durable transcript archive (text only, never audio). The persistent
+      // store writes the utterances table; the in-memory store ignores this.
+      this.store.recordUtterance({
+        sessionId,
+        speaker: buf.speaker,
+        text: text.slice(0, 2000),
+        turnId,
+        seq,
+      });
     } catch {
       // Session state vanished mid-flush; drop the observation.
     }

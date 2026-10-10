@@ -117,6 +117,58 @@ export function createHarnessState(opts: CreateStateOptions): HarnessState {
   };
 }
 
+/**
+ * Prior learner knowledge used to seed a new session (PR 4 restore).
+ * Comes from the `learner_concepts` table: inferred mastery derived from
+ * all of the learner's past evidence.
+ */
+export interface RestoredConcept {
+  status: ConceptStatus;
+  correctCount: number;
+  incorrectCount: number;
+  transferPassCount: number;
+  openMisconceptions: string[];
+}
+
+/**
+ * Overlay prior learner knowledge onto a fresh session state.
+ *
+ * Mastered concepts stay mastered (their introductions are skipped by
+ * getTeachingOptions); concepts with open misconceptions resume in progress
+ * with the flags carried over; everything else keeps fresh availability.
+ * Unknown concept ids (curriculum changed since the knowledge was recorded)
+ * are ignored. Pure — safe to test without I/O.
+ */
+export function restoreConcepts(
+  curriculum: Curriculum,
+  state: HarnessState,
+  restored: Record<string, RestoredConcept>,
+): HarnessState {
+  const concepts: Record<string, ConceptState> = { ...state.concepts };
+  for (const [id, r] of Object.entries(restored)) {
+    if (!getConcept(curriculum, id)) continue;
+    const base = concepts[id] ?? freshConceptState();
+    const keep: ConceptStatus =
+      r.status === 'mastered' || r.status === 'struggling' || r.status === 'in_progress'
+        ? r.status
+        : base.status;
+    concepts[id] = {
+      ...base,
+      status: keep,
+      correctCount: r.correctCount,
+      incorrectCount: r.incorrectCount,
+      transferPassCount: r.transferPassCount,
+      openMisconceptions: [...r.openMisconceptions],
+      hintsUsed: [],
+    };
+    if (keep === 'available' && (r.correctCount > 0 || r.incorrectCount > 0)) {
+      // Real prior evidence on an available concept: work had started.
+      concepts[id] = { ...concepts[id], status: 'in_progress' };
+    }
+  }
+  return { ...state, concepts: refreshAvailability(curriculum, concepts), updatedAt: Date.now() };
+}
+
 export function getObjective(curriculum: Curriculum, state: HarnessState): LearningObjective {
   const o = curriculum.objectives.find((x) => x.id === state.currentObjectiveId);
   if (!o) throw new Error(`state references unknown objective "${state.currentObjectiveId}"`);

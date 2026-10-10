@@ -21,6 +21,8 @@ import { Curriculum } from '../curriculum/types';
 import { assembleTeachingContext, TeachingContextSchema } from './context';
 import {
   applyMove,
+  createHarnessState,
+  CreateStateOptions,
   getObjective,
   getTeachingOptions,
   recordEvidence,
@@ -91,6 +93,48 @@ export interface ToolHandlerContext {
   now: () => number;
 }
 
+/** One concept's learner-level summary (derived from all past evidence). */
+export interface LearnerConceptSummary {
+  conceptId: string;
+  status: string;
+  correctCount: number;
+  transferPassCount: number;
+  openMisconceptions: string[];
+}
+
+/**
+ * Cross-session learner summary (Layer D). Produced by the persistent store
+ * from the durable tables; the in-memory store returns null.
+ */
+export interface LearnerSummary {
+  learnerId: string;
+  sessionsCount: number;
+  masteredConcepts: string[];
+  openMisconceptions: Array<{ conceptId: string; misconceptionId: string }>;
+  concepts: LearnerConceptSummary[];
+  /** Epoch ms of the learner's most recent session activity, if any. */
+  lastActiveAt: number | null;
+}
+
+const LearnerSummarySchema = z.object({
+  learnerId: z.string(),
+  sessionsCount: z.number(),
+  masteredConcepts: z.array(z.string()),
+  openMisconceptions: z.array(
+    z.object({ conceptId: z.string(), misconceptionId: z.string() }),
+  ),
+  concepts: z.array(
+    z.object({
+      conceptId: z.string(),
+      status: z.string(),
+      correctCount: z.number(),
+      transferPassCount: z.number(),
+      openMisconceptions: z.array(z.string()),
+    }),
+  ),
+  lastActiveAt: z.number().nullable(),
+});
+
 /** In-memory authoritative store. PR 4 adds Postgres behind this interface. */
 export class HarnessStore {
   private readonly states = new Map<string, HarnessState>();
@@ -101,6 +145,44 @@ export class HarnessStore {
       throw new Error(`harness state already exists for session "${state.sessionId}"`);
     }
     this.states.set(state.sessionId, state);
+  }
+
+  /**
+   * Create and register the harness state for a new session. The persistent
+   * store (PR 4) overrides this to seed prior learner knowledge first.
+   */
+  async prepareSession(opts: CreateStateOptions): Promise<HarnessState> {
+    const state = createHarnessState(opts);
+    this.insert(state);
+    return state;
+  }
+
+  /** Flush pending durable writes. No-op for the in-memory store. */
+  async flush(): Promise<void> {
+    return undefined;
+  }
+
+  /**
+   * Archive one transcript utterance (speaker + text) for the durable
+   * transcript record. No-op for the in-memory store; utterance
+   * *observations* still flow through recordEvidence as before.
+   */
+  recordUtterance(_utterance: {
+    sessionId: string;
+    speaker: 'user' | 'assistant';
+    text: string;
+    turnId: number;
+    seq: number;
+  }): void {
+    // in-memory only: nothing durable to write
+  }
+
+  /**
+   * Cross-session learner summary, or null when the store only holds the
+   * current session (in-memory). Surfaced by get_learner_history.
+   */
+  getLearnerSummary(_learnerId: string): LearnerSummary | null {
+    return null;
   }
 
   get(sessionId: string): HarnessState | undefined {
@@ -345,7 +427,7 @@ const TOOLS: Record<string, ToolDefinition> = {
   get_learner_history: {
     name: 'get_learner_history',
     description:
-      'Read the learner history available to the harness. In PR 2 this covers the current session only; persistent cross-session memory lands in PR 4.',
+      'Read the learner history available to the harness: in-session evidence plus, when the backend runs with Postgres (Layer D), the cross-session learner summary (mastered concepts, open misconceptions).',
     readOnly: true,
     inputSchema: z.object({ sessionId: SessionIdSchema, learnerId: z.string().max(128).optional() }),
     outputSchema: z.object({
@@ -354,6 +436,7 @@ const TOOLS: Record<string, ToolDefinition> = {
       turnsCompleted: z.number(),
       evidenceKinds: z.record(z.string(), z.number()),
       masteredConcepts: z.array(z.string()),
+      crossSession: LearnerSummarySchema.nullable(),
       note: z.string(),
     }),
     handler: (ctx, input) => {
@@ -362,15 +445,17 @@ const TOOLS: Record<string, ToolDefinition> = {
       for (const e of state.evidence) {
         evidenceKinds[e.kind] = (evidenceKinds[e.kind] ?? 0) + 1;
       }
+      const learnerId = state.learnerId ?? input.learnerId ?? null;
       return {
-        learnerId: state.learnerId ?? input.learnerId ?? null,
+        learnerId,
         sessionId: state.sessionId,
         turnsCompleted: state.turn,
         evidenceKinds,
         masteredConcepts: Object.entries(state.concepts)
           .filter(([, cs]) => cs.status === 'mastered')
           .map(([id]) => id),
-        note: 'PR 2: in-session history only. Persistent cross-session learner memory lands in PR 4.',
+        crossSession: learnerId ? ctx.store.getLearnerSummary(learnerId) : null,
+        note: 'crossSession is populated when the backend runs with Postgres (Layer D); null for the in-memory store.',
       };
     },
   },

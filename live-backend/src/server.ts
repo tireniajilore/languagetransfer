@@ -16,7 +16,6 @@ import WebSocket from 'ws';
 import { DEFAULT_CURRICULUM, Curriculum } from './curriculum';
 import { assembleTeachingContext } from './harness/context';
 import { HarnessObserver } from './harness/observer';
-import { createHarnessState } from './harness/stateMachine';
 import { DispatchResult, HarnessStore, ToolErrorCode, ToolRouter } from './harness/tools';
 import { buildDelegationConfig, DelegationManager } from './reasoning/delegation';
 import { GuardrailMonitor, GuardrailTrigger } from './reasoning/guardrails';
@@ -38,8 +37,10 @@ export interface HarnessDeps {
   observer: HarnessObserver;
 }
 
-export function createHarnessDeps(curriculum: Curriculum = DEFAULT_CURRICULUM): HarnessDeps {
-  const store = new HarnessStore();
+export function createHarnessDeps(
+  curriculum: Curriculum = DEFAULT_CURRICULUM,
+  store: HarnessStore = new HarnessStore(),
+): HarnessDeps {
   const router = new ToolRouter({ store, curriculum, now: () => Date.now() });
   const observer = new HarnessObserver(store, curriculum);
   return { curriculum, store, router, observer };
@@ -273,16 +274,16 @@ export function createApp(deps: ServerDeps): Express {
       // and the session continues without teaching state.
       try {
         const { learnerId, objectiveId } = parseMintOptions(req.body);
-        harness.store.insert(
-          createHarnessState({
-            sessionId: created.sessionId,
-            curriculum: harness.curriculum,
-            learnerId,
-            objectiveId,
-          }),
-        );
+        // prepareSession restores prior learner knowledge when the store is
+        // persistent (Layer D) and falls back to a fresh state otherwise.
+        const state = await harness.store.prepareSession({
+          sessionId: created.sessionId,
+          curriculum: harness.curriculum,
+          learnerId,
+          objectiveId,
+        });
         console.log(
-          `[live] harness initialized session=${created.sessionId} objective=${objectiveId ?? 'default'}`,
+          `[live] harness initialized session=${created.sessionId} objective=${state.currentObjectiveId} learner=${learnerId ?? 'anonymous'}`,
         );
       } catch (err) {
         console.error(
@@ -323,6 +324,8 @@ export function createApp(deps: ServerDeps): Express {
       res.status(404).json({ error: 'unknown_session' });
       return;
     }
+    // Flush-on-close: no learner progress is lost when the session ends.
+    await harness.store.flush();
     res.json({ session: { id }, closed: true });
   });
 
