@@ -38,6 +38,15 @@ export interface LiveBackendConfig {
   delegationModel: string;
   /** Set LIVE_DELEGATION_DISABLED=1 to mint sessions without delegation (tests/debug). */
   delegationDisabled: boolean;
+  /**
+   * Postgres connection string for learner memory (Layer D). When unset, the
+   * backend runs with the in-memory harness store and nothing is persisted.
+   */
+  databaseUrl?: string;
+  /** Raw session data older than this (days) is purged; aggregates are kept. */
+  memoryRetentionDays: number;
+  /** Write-behind flush interval for the persistent store. */
+  memoryFlushIntervalMs: number;
 }
 
 const DEFAULT_INSTRUCTIONS = [
@@ -97,5 +106,8 @@ export function loadConfig(
     liveApiBaseUrl: env.OPENAI_API_BASE_URL ?? 'https://api.openai.com',
     delegationModel: env.LIVE_DELEGATION_MODEL ?? 'gpt-5.6-terra',
     delegationDisabled: env.LIVE_DELEGATION_DISABLED === '1',
+    databaseUrl: env.DATABASE_URL?.trim() ? env.DATABASE_URL.trim() : undefined,
+    memoryRetentionDays: parseIntEnv(env, 'MEMORY_RETENTION_DAYS', 180),
+    memoryFlushIntervalMs: parseIntEnv(env, 'MEMORY_FLUSH_INTERVAL_MS', 5000),
   };
 }
