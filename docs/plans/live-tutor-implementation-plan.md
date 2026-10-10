@@ -99,5 +99,10 @@ Phase 0 done. PR 1 implementation complete on branch
 ("PR 1: real-time voice foundation (GPT-Live)"): live-backend service
 (session mint + sideband lifecycle), /live WebRTC route, 56 hermetic tests
 green, `next build` verified. NOT merged (needs his approval per §12).
+PR 2 (teaching harness, Layer B) implemented 2026-10-10 on the same branch:
+objective-based state machine, 12 validated teaching moves, 7 typed tools
+with idempotent router, Spanish v1 curriculum, context assembly, sideband
+observer; 129 hermetic tests green, typecheck + lint clean. Draft PR to be
+opened as "PR 2: teaching harness (Layer B)".
 Next: unblock the OpenAI key (standing blocker), then staging deploy +
-live end-to-end verification of PR 1 (real voice session, measured latency).
+live end-to-end verification (real voice session, measured latency).

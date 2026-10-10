@@ -2,13 +2,14 @@
  * Entry point: validate config, start HTTP, wire shutdown.
  */
 import { loadConfig } from './config';
-import { createApp } from './server';
+import { createApp, createHarnessDeps } from './server';
 import { SessionRegistry } from './sessions';
 
 function main(): void {
   const config = loadConfig(); // throws ConfigError on missing OPENAI_API_KEY
   const registry = new SessionRegistry();
-  const app = createApp({ config, registry });
+  const harness = createHarnessDeps(); // Layer B: curriculum + store + router + observer
+  const app = createApp({ config, registry, harness });
 
   const server = app.listen(config.port, () => {
     console.log(`[live-backend] listening on :${config.port}`);

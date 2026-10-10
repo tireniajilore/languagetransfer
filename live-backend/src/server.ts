@@ -3,14 +3,21 @@
  *
  * Endpoints:
  *   GET  /healthz                     liveness probe (Railway)
- *   POST /api/live/session            mint a GPT-Live session (body: { sdp })
+ *   POST /api/live/session            mint a GPT-Live session (body: { sdp, learnerId?, objectiveId? })
  *   POST /api/live/session/:id/close  graceful close of one session
+ *   POST /api/live/session/:id/tools  dispatch a harness tool call (body: { tool, input, idempotencyKey? })
+ *   GET  /api/live/session/:id/context  read the assembled teaching context
  *
  * The factory takes its collaborators explicitly so tests can run the full
  * HTTP surface without network access.
  */
 import express, { Express, NextFunction, Request, Response } from 'express';
 import WebSocket from 'ws';
+import { DEFAULT_CURRICULUM, Curriculum } from './curriculum';
+import { assembleTeachingContext } from './harness/context';
+import { HarnessObserver } from './harness/observer';
+import { createHarnessState } from './harness/stateMachine';
+import { DispatchResult, HarnessStore, ToolErrorCode, ToolRouter } from './harness/tools';
 import { LiveBackendConfig } from './config';
 import { LiveApiError, LiveSessionClient } from './liveClient';
 import { recordLatency } from './metrics';
@@ -19,11 +26,27 @@ import { SidebandConnection, WsFactory } from './sideband';
 import { originCheck } from './middleware/originCheck';
 import { rateLimit } from './middleware/rateLimit';
 
+/** Teaching-harness collaborators (Layer B). Built by default from the curriculum. */
+export interface HarnessDeps {
+  curriculum: Curriculum;
+  store: HarnessStore;
+  router: ToolRouter;
+  observer: HarnessObserver;
+}
+
+export function createHarnessDeps(curriculum: Curriculum = DEFAULT_CURRICULUM): HarnessDeps {
+  const store = new HarnessStore();
+  const router = new ToolRouter({ store, curriculum, now: () => Date.now() });
+  const observer = new HarnessObserver(store, curriculum);
+  return { curriculum, store, router, observer };
+}
+
 export interface ServerDeps {
   config: LiveBackendConfig;
   liveClient?: LiveSessionClient;
   registry?: SessionRegistry;
   wsFactory?: WsFactory;
+  harness?: HarnessDeps;
 }
 
 const MAX_SDP_BYTES = 200_000;
@@ -38,10 +61,20 @@ function validateOfferSdp(body: unknown): string | null {
   return sdp;
 }
 
+/** Optional mint parameters: learner identity + starting objective. */
+function parseMintOptions(body: unknown): { learnerId?: string; objectiveId?: string } {
+  if (!body || typeof body !== 'object') return {};
+  const b = body as { learnerId?: unknown; objectiveId?: unknown };
+  const clean = (v: unknown): string | undefined =>
+    typeof v === 'string' && v.length > 0 && v.length <= 128 ? v : undefined;
+  return { learnerId: clean(b.learnerId), objectiveId: clean(b.objectiveId) };
+}
+
 export function createApp(deps: ServerDeps): Express {
   const { config } = deps;
   const liveClient = deps.liveClient ?? new LiveSessionClient({ apiKey: config.openaiApiKey });
   const registry = deps.registry ?? new SessionRegistry();
+  const harness = deps.harness ?? createHarnessDeps();
   const wsFactory: WsFactory =
     deps.wsFactory ?? ((url, opts) => new WebSocket(url, opts) as never);
 
@@ -81,10 +114,13 @@ export function createApp(deps: ServerDeps): Express {
         baseUrl: config.liveApiBaseUrl,
         handlers: {
           onReady: (id) => console.log(`[live] session ${id} started (sideband ready)`),
-          onTranscriptDelta: (id, speaker, delta) =>
-            console.log(`[live] transcript ${id} ${speaker}: ${delta.slice(0, 120)}`),
+          onTranscriptDelta: (id, speaker, delta) => {
+            console.log(`[live] transcript ${id} ${speaker}: ${delta.slice(0, 120)}`);
+            harness.observer.onTranscriptDelta(id, speaker, delta);
+          },
           onClosed: (id, reason) => {
             console.log(`[live] session ${id} closed (reason=${reason ?? 'unknown'})`);
+            harness.observer.onSessionClosed(id);
             void registry.closeSession(id).catch(() => undefined);
           },
           onError: (id, err) =>
@@ -96,6 +132,29 @@ export function createApp(deps: ServerDeps): Express {
       });
       sideband.attach();
       registry.register(created.sessionId, { sideband, createdAt: Date.now() });
+
+      // Initialize authoritative teaching state for this session (Layer B).
+      // A harness failure must not kill the voice session, so it is logged
+      // and the session continues without teaching state.
+      try {
+        const { learnerId, objectiveId } = parseMintOptions(req.body);
+        harness.store.insert(
+          createHarnessState({
+            sessionId: created.sessionId,
+            curriculum: harness.curriculum,
+            learnerId,
+            objectiveId,
+          }),
+        );
+        console.log(
+          `[live] harness initialized session=${created.sessionId} objective=${objectiveId ?? 'default'}`,
+        );
+      } catch (err) {
+        console.error(
+          `[live] harness init failed for session ${created.sessionId}:`,
+          err instanceof Error ? err.message : err,
+        );
+      }
 
       res.status(201).json({
         session: { id: created.sessionId },
@@ -123,12 +182,63 @@ export function createApp(deps: ServerDeps): Express {
       res.status(400).json({ error: 'invalid_request' });
       return;
     }
+    harness.observer.onSessionClosed(id);
     const closed = await registry.closeSession(id);
     if (!closed) {
       res.status(404).json({ error: 'unknown_session' });
       return;
     }
     res.json({ session: { id }, closed: true });
+  });
+
+  /**
+   * Dispatch a harness tool call (Layer B). Used by tests, the debug UI, and
+   * — from PR 3 — the Responses-delegation tool executor. Error codes map to
+   * HTTP status: unknown_tool/invalid_input -> 400, unknown_session -> 404,
+   * stale_turn/invalid_move/session_not_active -> 409, internal -> 500.
+   */
+  app.post('/api/live/session/:id/tools', (req: Request, res: Response) => {
+    const id = req.params.id;
+    if (!id || id.length > 128) {
+      res.status(400).json({ ok: false, error: { code: 'invalid_input', detail: 'bad session id' } });
+      return;
+    }
+    const body = (req.body ?? {}) as { tool?: unknown; input?: unknown; idempotencyKey?: unknown };
+    const dispatchResult: DispatchResult = harness.router.dispatch({
+      sessionId: id,
+      tool: typeof body.tool === 'string' ? body.tool : '',
+      input: body.input ?? {},
+      idempotencyKey: typeof body.idempotencyKey === 'string' ? body.idempotencyKey : undefined,
+    });
+    if (dispatchResult.ok) {
+      res.json({ ok: true, result: dispatchResult.result });
+      return;
+    }
+    const code: ToolErrorCode = dispatchResult.error?.code ?? 'internal_error';
+    const status =
+      code === 'unknown_session'
+        ? 404
+        : code === 'stale_turn' || code === 'invalid_move' || code === 'session_not_active'
+          ? 409
+          : code === 'internal_error'
+            ? 500
+            : 400;
+    res.status(status).json({ ok: false, error: dispatchResult.error });
+  });
+
+  /** Read the assembled teaching context for a session (debug / UI). */
+  app.get('/api/live/session/:id/context', (req: Request, res: Response) => {
+    const id = req.params.id;
+    if (!id || id.length > 128) {
+      res.status(400).json({ error: 'invalid_request' });
+      return;
+    }
+    const state = harness.store.get(id);
+    if (!state) {
+      res.status(404).json({ error: 'unknown_session' });
+      return;
+    }
+    res.json(assembleTeachingContext(harness.curriculum, state));
   });
 
   app.use((_req: Request, res: Response) => {
