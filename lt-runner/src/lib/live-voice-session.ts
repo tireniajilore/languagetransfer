@@ -336,7 +336,8 @@ export class LiveVoiceSession {
           ),
         );
       }, this.opts.mediaConnectTimeoutMs);
-      const onChange = () => {        if (pc.connectionState === 'connected') {
+      const onChange = () => {
+        if (pc.connectionState === 'connected') {
           cleanup();
           resolve();
         } else if (pc.connectionState === 'failed') {
@@ -346,6 +347,11 @@ export class LiveVoiceSession {
               'Audio connection failed — the network may be blocking real-time audio. Try Wi-Fi or a different network.',
             ),
           );
+        } else if (pc.connectionState === 'closed') {
+          // Torn down mid-handshake (user stopped, or recovery kicked in):
+          // fail fast instead of hanging until the timeout.
+          cleanup();
+          reject(new Error('Audio connection closed before it was established.'));
         }
       };
       const cleanup = () => {

@@ -371,8 +371,20 @@ describe('LiveVoiceSession', () => {
     expect(errors[errors.length - 1].message).toMatch(/blocking real-time audio/);
   });
 
-  it('configures STUN ICE servers on the default peer connection', async () => {
-    let captured: RTCConfiguration | undefined;
+  it('fails fast when the connection is closed mid-handshake', async () => {
+    const { session, states, pcs, errors } = setup({ maxRetries: 0 });
+    const started = session.start();
+    await vi.waitFor(() => expect(pcs.length).toBe(1));
+    // e.g. teardown racing the handshake: no 15s hang, immediate failure.
+    pcs[0].close();
+    pcs[0].simulateConnectionState('closed');
+    await started;
+    expect(session.getState()).toBe('failed');
+    expect(states).toContain('establishing-media');
+    expect(errors[errors.length - 1].message).toMatch(/closed before it was established/);
+  });
+
+  it('configures STUN ICE servers on the default peer connection', async () => {    let captured: RTCConfiguration | undefined;
     const g = globalThis as unknown as { RTCPeerConnection?: unknown };
     const prev = g.RTCPeerConnection;
     g.RTCPeerConnection = class extends FakePeerConnection {
