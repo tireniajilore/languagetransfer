@@ -41,21 +41,24 @@ export async function purgeExpired(
   );
   const ids = doomed.rows.map((r) => r.id);
 
+  // Per-id deletes in one transaction (deliberately no `= ANY($1::text[])`:
+  // the pg-mem double used in tests does not implement ANY over parameters,
+  // and a retention purge touches few rows, so N+1 here is irrelevant).
   let utterances = 0;
   let evidence = 0;
   let interventions = 0;
-  if (ids.length > 0) {
+  for (const id of ids) {
     const counts = await pool.query<{ u: string; e: string; i: string }>(
       `SELECT
-         (SELECT count(*) FROM utterances WHERE session_id = ANY($1::text[])) AS u,
-         (SELECT count(*) FROM evidence WHERE session_id = ANY($1::text[])) AS e,
-         (SELECT count(*) FROM interventions WHERE session_id = ANY($1::text[])) AS i`,
-      [ids],
+         (SELECT count(*) FROM utterances WHERE session_id = $1) AS u,
+         (SELECT count(*) FROM evidence WHERE session_id = $1) AS e,
+         (SELECT count(*) FROM interventions WHERE session_id = $1) AS i`,
+      [id],
     );
-    utterances = Number(counts.rows[0].u);
-    evidence = Number(counts.rows[0].e);
-    interventions = Number(counts.rows[0].i);
-    await pool.query(`DELETE FROM sessions WHERE id = ANY($1::text[])`, [ids]);
+    utterances += Number(counts.rows[0].u);
+    evidence += Number(counts.rows[0].e);
+    interventions += Number(counts.rows[0].i);
+    await pool.query(`DELETE FROM sessions WHERE id = $1`, [id]);
   }
 
   const resolved = await pool.query(

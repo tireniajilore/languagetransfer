@@ -71,7 +71,10 @@ export function progressionForConcept(
   conceptId: string,
 ): { minCorrectEvidence: number; requireTransferPass: boolean } {
   for (const o of curriculum.objectives) {
-    if (o.conceptIds.includes(conceptId)) return o.progression;
+    if (o.conceptIds.includes(conceptId)) {
+      const { minCorrectEvidence, requireTransferPass } = o.progression;
+      return { minCorrectEvidence, requireTransferPass };
+    }
   }
   return { minCorrectEvidence: 2, requireTransferPass: true };
 }

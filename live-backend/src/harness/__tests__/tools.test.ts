@@ -288,11 +288,14 @@ describe('read tools', () => {
     expect(JSON.stringify(store.get('s1'))).toBe(before);
   });
 
-  it('get_learner_history is honest about PR 2 scope', () => {
+  it('get_learner_history documents the cross-session scope', () => {
     const { router } = setup();
     const r = router.dispatch({ sessionId: 's1', tool: 'get_learner_history', input: {} });
     expect(r.ok).toBe(true);
-    expect((r.result as { note: string }).note).toMatch(/PR 4/);
+    const body = r.result as { crossSession: null; note: string };
+    // In-memory store: no durable learner memory, and the note says so.
+    expect(body.crossSession).toBeNull();
+    expect(body.note).toMatch(/Postgres/);
   });
 });
 
