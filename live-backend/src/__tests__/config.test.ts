@@ -31,6 +31,16 @@ describe('loadConfig', () => {
     expect(() => loadConfig({ OPENAI_API_KEY: 'x', RATE_LIMIT_MAX: '-1' })).toThrow(ConfigError);
   });
 
+  it('requires a strong learner token secret for persistent memory', () => {
+    expect(() => loadConfig({ OPENAI_API_KEY: 'sk-test', DATABASE_URL: 'postgres://example' })).toThrow(ConfigError);
+    const cfg = loadConfig({
+      OPENAI_API_KEY: 'sk-test',
+      DATABASE_URL: 'postgres://example',
+      LEARNER_TOKEN_SECRET: 'long-test-secret-minimum-thirty-two-characters',
+    });
+    expect(cfg.learnerTokenSecret?.length).toBeGreaterThanOrEqual(32);
+  });
+
   it('accepts instruction and model overrides', () => {
     const cfg = loadConfig({
       OPENAI_API_KEY: 'x',

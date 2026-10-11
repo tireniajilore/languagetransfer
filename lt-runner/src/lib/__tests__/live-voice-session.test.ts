@@ -100,6 +100,7 @@ interface FetchCall {
   url: string;
   body: unknown;
   method: string;
+  authorization?: string;
 }
 
 function makeFetch(
@@ -108,7 +109,8 @@ function makeFetch(
   const calls: FetchCall[] = [];
   const fetchFn = (async (url: string, init?: RequestInit) => {
     const body = init?.body ? JSON.parse(init.body as string) : undefined;
-    calls.push({ url, body, method: init?.method ?? 'GET' });
+    const headers = new Headers(init?.headers);
+    calls.push({ url, body, method: init?.method ?? 'GET', authorization: headers.get('authorization') ?? undefined });
     const { status, json } = impl(url, body);
     return { ok: status >= 200 && status < 300, status, json: async () => json };
   }) as unknown as typeof fetch;
@@ -127,6 +129,9 @@ function mintResponder(sessionId: string, answerSdp = 'v=0\r\nfake-answer') {
 function setup(opts?: {
   fetchImpl?: (url: string, body: unknown) => { status: number; json: unknown };
   maxRetries?: number;
+  learnerToken?: string;
+  onLearnerToken?: (token: string) => void;
+  failRemoteDescription?: boolean;
 }) {
   const states: LiveConnState[] = [];
   const transcripts: TranscriptEntry[][] = [];
@@ -140,10 +145,13 @@ function setup(opts?: {
   );
   const session = new LiveVoiceSession({
     backendUrl: 'https://backend.example.com/',
+    learnerToken: opts?.learnerToken,
+    onLearnerToken: opts?.onLearnerToken,
     fetchFn,
     createPeerConnection: () => {
       const pc = new FakePeerConnection();
       pcs.push(pc);
+      if (opts?.failRemoteDescription) pc.setRemoteDescription = async () => { throw new Error('SDP rejected'); };
       return pc as unknown as RTCPeerConnection;
     },
     getUserMedia: async () => stream as unknown as MediaStream,
@@ -462,5 +470,34 @@ describe('iOS ICE recovery and relay configuration', () => {
     } finally {
       global.RTCPeerConnection = original;
     }
+  });
+});
+
+describe('memory and connection cleanup', () => {
+  it('closes a minted Live session when setRemoteDescription fails', async () => {
+    const { session, fetchCalls, states } = setup({ maxRetries: 0, failRemoteDescription: true });
+    await session.start();
+    expect(states.at(-1)).toBe('failed');
+    const close = fetchCalls.find((c) => c.url.endsWith('/api/live/session/live_1/close'));
+    expect(close?.authorization).toBe('Bearer test-session-secret');
+    expect(session.getSessionId()).toBeNull();
+  });
+
+  it('passes the prior signed learner capability and saves its replacement', async () => {
+    const issued: string[] = [];
+    const { session, pcs, fetchCalls } = setup({
+      learnerToken: 'previous-signed-learner',
+      onLearnerToken: (token) => issued.push(token),
+      fetchImpl: (url) => url.endsWith('/close')
+        ? { status: 200, json: { closed: true } }
+        : { status: 201, json: {
+            session: { id: 'live_1', accessToken: 'test-session-secret' },
+            learner: { token: 'renewed-signed-learner' },
+            transport: { sdp: 'v=0\\r\\nfake-answer' },
+          } },
+    });
+    await startConnected({ session, pcs });
+    expect(fetchCalls[0].body).toMatchObject({ learnerToken: 'previous-signed-learner' });
+    expect(issued).toEqual(['renewed-signed-learner']);
   });
 });

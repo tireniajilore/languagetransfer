@@ -49,6 +49,8 @@ export interface LiveBackendConfig {
    * backend runs with the in-memory harness store and nothing is persisted.
    */
   databaseUrl?: string;
+  /** HMAC secret for browser-held anonymous learner capabilities. */
+  learnerTokenSecret?: string;
   /** Raw session data older than this (days) is purged; aggregates are kept. */
   memoryRetentionDays: number;
   /** Write-behind flush interval for the persistent store. */
@@ -98,6 +100,12 @@ export function loadConfig(
     .map((s) => s.trim())
     .filter(Boolean);
 
+  const databaseUrl = env.DATABASE_URL?.trim() || undefined;
+  const learnerTokenSecret = env.LEARNER_TOKEN_SECRET?.trim() || undefined;
+  if (databaseUrl && (!learnerTokenSecret || learnerTokenSecret.length < 32)) {
+    throw new ConfigError('LEARNER_TOKEN_SECRET (>=32 characters) is required with DATABASE_URL');
+  }
+
   return {
     openaiApiKey,
     port: parseIntEnv(env, 'PORT', 8080),
@@ -113,7 +121,8 @@ export function loadConfig(
     delegationModel: env.LIVE_DELEGATION_MODEL ?? 'gpt-5.6-terra',
     delegationDisabled: env.LIVE_DELEGATION_DISABLED === '1',
     liveTutorEnabled: env.LIVE_TUTOR_ENABLED !== '0',
-    databaseUrl: env.DATABASE_URL?.trim() ? env.DATABASE_URL.trim() : undefined,
+    databaseUrl,
+    learnerTokenSecret,
     memoryRetentionDays: parseIntEnv(env, 'MEMORY_RETENTION_DAYS', 180),
     memoryFlushIntervalMs: parseIntEnv(env, 'MEMORY_FLUSH_INTERVAL_MS', 5000),
   };

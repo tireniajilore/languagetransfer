@@ -44,6 +44,9 @@ export interface TranscriptEntry {
 export interface LiveVoiceSessionOptions {
   /** Base URL of the live-backend, e.g. https://xyz.railway.app (no trailing slash). */
   backendUrl: string;
+  /** Optional verified anonymous learner capability from a previous session. */
+  learnerToken?: string;
+  onLearnerToken?: (token: string) => void;
   /** Optional TURN relays; STUN alone cannot traverse some cellular/restricted networks. */
   iceServers?: RTCIceServer[];
   /** Max recovery attempts after an unexpected drop (default 3). */
@@ -112,7 +115,7 @@ export class LiveVoiceSession {
   > &
     Pick<
       LiveVoiceSessionOptions,
-      'onStateChange' | 'onTranscript' | 'onRemoteStream' | 'onLocalStream' | 'onError'
+      'onStateChange' | 'onTranscript' | 'onRemoteStream' | 'onLocalStream' | 'onError' | 'learnerToken' | 'onLearnerToken'
     >;
 
   private state: LiveConnState = 'idle';
@@ -132,6 +135,8 @@ export class LiveVoiceSession {
     }
     this.opts = {
       backendUrl: opts.backendUrl.replace(/\/+$/, ''),
+      learnerToken: opts.learnerToken,
+      onLearnerToken: opts.onLearnerToken,
       iceServers: opts.iceServers ?? DEFAULT_ICE_SERVERS,
       maxRetries: opts.maxRetries ?? 3,
       baseBackoffMs: opts.baseBackoffMs ?? 1_000,
@@ -233,7 +238,7 @@ export class LiveVoiceSession {
       const res = await this.opts.fetchFn(`${this.opts.backendUrl}/api/live/session`, {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ sdp: offerSdp }),
+        body: JSON.stringify({ sdp: offerSdp, ...(this.opts.learnerToken ? { learnerToken: this.opts.learnerToken } : {}) }),
       });
       if (!res.ok) {
         const detail = await safeJson(res);
@@ -242,6 +247,7 @@ export class LiveVoiceSession {
       const payload = (await res.json()) as {
         session?: { id?: string; accessToken?: string };
         transport?: { sdp?: string };
+        learner?: { token?: string };
       };
       const sessionId = payload.session?.id;
       const answerSdp = payload.transport?.sdp;
@@ -250,6 +256,11 @@ export class LiveVoiceSession {
       }
       this.sessionId = sessionId;
       this.accessToken = payload.session.accessToken;
+      if (payload.learner?.token) this.opts.onLearnerToken?.(payload.learner.token);
+      if (this.intentionalStop) {
+        await this.closeOrphanedSession();
+        return;
+      }
       await pc.setRemoteDescription({ type: 'answer', sdp: answerSdp });
       // SDP exchange is not a working call: wait until ICE/DTLS actually
       // connects before claiming 'connected', so the UI never shows a live
@@ -266,6 +277,7 @@ export class LiveVoiceSession {
   private async handleConnectFailure(err: unknown): Promise<void> {
     const error = err instanceof Error ? err : new Error(String(err));
     this.teardownPeerConnection();
+    await this.closeOrphanedSession();
     if (this.intentionalStop) return;
     // Fail fast on errors a retry cannot fix (bad request, rejected key,
     // forbidden origin) — don't burn backoff cycles or confuse the learner.
@@ -318,6 +330,23 @@ export class LiveVoiceSession {
         .catch(() => undefined);
     }
     await this.handleConnectFailure(new Error('webrtc connection lost'));
+  }
+
+  /** Close a Live session minted before a failed SDP/ICE handshake. */
+  private async closeOrphanedSession(): Promise<void> {
+    const id = this.sessionId;
+    const token = this.accessToken;
+    this.sessionId = null;
+    this.accessToken = null;
+    if (!id) return;
+    try {
+      await this.opts.fetchFn(`${this.opts.backendUrl}/api/live/session/${encodeURIComponent(id)}/close`, {
+        method: 'POST',
+        headers: token ? { authorization: `Bearer ${token}` } : {},
+      });
+    } catch {
+      // Best effort: backend will close the session if the network has gone.
+    }
   }
 
   private teardownPeerConnection(): void {

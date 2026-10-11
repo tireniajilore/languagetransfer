@@ -45,9 +45,16 @@ defaults in `live-backend/.env.example`. The ones that matter operationally:
 | `LIVE_TUTOR_ENABLED` | no | `0` → `POST /api/live/session` returns 503. Kill-switch; default enabled. |
 | `LIVE_DELEGATION_DISABLED` | no | `1` → mint sessions without Responses delegation (degraded: voice only, no deep reasoning). |
 | `DATABASE_URL` | no | Postgres connection string. Unset → in-memory harness store, nothing persisted. |
+| `LEARNER_TOKEN_SECRET` | with Postgres | At least 32 random characters. Signs anonymous learner continuity tokens; set before enabling DATABASE_URL. |
 | `RATE_LIMIT_MAX` / `RATE_LIMIT_WINDOW_MS` | no | Mint rate limit per IP (default 10/min). Each mint bills a 15s voice-duration credit — keep this tight. |
 | `NEXT_PUBLIC_LIVE_BACKEND_URL` | frontend | Vercel env var pointing at the backend. Without it `/live` shows "not configured". |
 | `NEXT_PUBLIC_LIVE_TUTOR_ENABLED` | frontend | `1` to render the `/live` tutor. Default off — merging never exposes the route by accident. |
+
+## Anonymous learner continuity
+
+The browser stores an HMAC-signed anonymous learner capability under `lt-live-learner-v1` in localStorage. It is not an account or login and should be treated as a bearer credential. Clearing site storage loses access to that anonymous progress; do not log or expose the token. The backend ignores raw caller-supplied learner IDs. Do not rotate `LEARNER_TOKEN_SECRET` casually: old tokens will no longer restore their learners.
+
+On iPhone, if the browser blocks autoplay after WebRTC connects, the UI now shows an **Enable audio** button that resumes playback from a user gesture. It is distinct from network ICE failure.
 
 ## Database migrations (PR 4)
 
