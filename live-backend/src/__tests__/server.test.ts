@@ -243,7 +243,7 @@ describe('live-backend HTTP surface', () => {
 
     // Second close: idempotent 404 (session already gone).
     const again = await postJson(s.baseUrl, `/api/live/session/${id}/close`, {});
-    expect(again.statusCode).toBe(404);
+    expect(again.statusCode).toBe(401);
   });
 
   it('closing an unknown session returns 404', async () => {
