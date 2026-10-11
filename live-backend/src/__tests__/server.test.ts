@@ -150,6 +150,7 @@ describe('live-backend HTTP surface', () => {
     const res = await postJson(s.baseUrl, '/api/live/session', { sdp: OFFER_SDP });
     expect(res.statusCode).toBe(201);
     expect(res.body).toEqual({
+      learner: { token: expect.stringMatching(/^lt1\./) },
       session: { id: 'live_1', accessToken: expect.any(String) },
       transport: { type: 'webrtc', sdp: 'v=0\r\nanswer' },
     });
