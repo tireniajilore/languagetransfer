@@ -100,6 +100,7 @@ export function cueInstructions(cue: LessonCue): string {
   return [
     `You are now teaching the AUTHORIZED Lesson ${cue.lessonNumber} passage at step ${cue.stepIndex}.`,
     'The incoming commentary contains the ORIGINAL teaching text, not optional suggestions.',
+    'Speak the incoming lesson passage NOW in English, then pause for the learner. Do not wait for a greeting or another user instruction.',
     'Preserve every essential explanation and its examples in order, using natural conversational phrasing.',
     'Do NOT substitute other words, examples or questions. Do NOT summarize away an explanation.',
     cue.question
