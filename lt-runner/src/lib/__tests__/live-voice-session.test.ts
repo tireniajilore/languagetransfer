@@ -47,6 +47,8 @@ class FakePeerConnection {
   remoteDescription: { type: string; sdp: string } | null = null;
   iceGatheringState = 'complete';
   connectionState: RTCPeerConnectionState = 'new';
+  iceConnectionState: RTCIceConnectionState = 'new';
+  oniceconnectionstatechange: (() => void) | null = null;
   onconnectionstatechange: (() => void) | null = null;
   onicegatheringstatechange: (() => void) | null = null;
   ontrack: ((ev: { streams: FakeMediaStream[] }) => void) | null = null;
@@ -87,7 +89,9 @@ class FakePeerConnection {
   }
   simulateConnectionState(cs: RTCPeerConnectionState) {
     this.connectionState = cs;
+    this.iceConnectionState = cs === 'connected' ? 'connected' : cs === 'failed' ? 'failed' : 'new';
     this.onconnectionstatechange?.();
+    this.oniceconnectionstatechange?.();
     for (const fn of this.listeners['connectionstatechange'] ?? []) fn();
   }
 }
@@ -414,6 +418,49 @@ describe('LiveVoiceSession', () => {
       expect(session.getState()).toBe('failed');
     } finally {
       g.RTCPeerConnection = prev;
+    }
+  });
+});
+
+describe('iOS ICE recovery and relay configuration', () => {
+  it('does not start a competing recovery when ICE fails during the initial handshake', async () => {
+    const { session, pcs, states } = setup({ maxRetries: 0 });
+    const started = session.start();
+    await vi.waitFor(() => expect(states).toContain('establishing-media'));
+    pcs[0].simulateConnectionState('failed');
+    await started;
+    expect(pcs).toHaveLength(1);
+    expect(states.at(-1)).toBe('failed');
+  });
+
+  it('passes optional TURN configuration to the browser peer connection', async () => {
+    const iceServers = [
+      ...DEFAULT_ICE_SERVERS,
+      { urls: 'turns:relay.example.com:5349', username: 'short-lived', credential: 'ephemeral' },
+    ];
+    let captured: RTCConfiguration | undefined;
+    const global = globalThis as unknown as { RTCPeerConnection?: unknown };
+    const original = global.RTCPeerConnection;
+    global.RTCPeerConnection = class extends FakePeerConnection {
+      constructor(configuration?: RTCConfiguration) {
+        super();
+        captured = configuration;
+      }
+    };
+    try {
+      const { fetchFn } = makeFetch(mintResponder('live_relay'));
+      const session = new LiveVoiceSession({
+        backendUrl: 'https://backend.example.com',
+        iceServers,
+        fetchFn,
+        getUserMedia: async () => new FakeMediaStream() as unknown as MediaStream,
+        maxRetries: 0,
+        mediaConnectTimeoutMs: 15,
+      });
+      await session.start();
+      expect(captured?.iceServers).toEqual(iceServers);
+    } finally {
+      global.RTCPeerConnection = original;
     }
   });
 });

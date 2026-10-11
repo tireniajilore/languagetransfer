@@ -44,6 +44,8 @@ export interface TranscriptEntry {
 export interface LiveVoiceSessionOptions {
   /** Base URL of the live-backend, e.g. https://xyz.railway.app (no trailing slash). */
   backendUrl: string;
+  /** Optional TURN relays; STUN alone cannot traverse some cellular/restricted networks. */
+  iceServers?: RTCIceServer[];
   /** Max recovery attempts after an unexpected drop (default 3). */
   maxRetries?: number;
   /** Base backoff between recovery attempts in ms (default 1000). */
@@ -98,6 +100,7 @@ export class LiveVoiceSession {
     Pick<
       LiveVoiceSessionOptions,
       | 'backendUrl'
+      | 'iceServers'
       | 'maxRetries'
       | 'baseBackoffMs'
       | 'mediaConnectTimeoutMs'
@@ -128,12 +131,13 @@ export class LiveVoiceSession {
     }
     this.opts = {
       backendUrl: opts.backendUrl.replace(/\/+$/, ''),
+      iceServers: opts.iceServers ?? DEFAULT_ICE_SERVERS,
       maxRetries: opts.maxRetries ?? 3,
       baseBackoffMs: opts.baseBackoffMs ?? 1_000,
       mediaConnectTimeoutMs: opts.mediaConnectTimeoutMs ?? 15_000,
       fetchFn: opts.fetchFn ?? fetch.bind(globalThis),
       createPeerConnection:
-        opts.createPeerConnection ?? (() => new RTCPeerConnection({ iceServers: DEFAULT_ICE_SERVERS })),
+        opts.createPeerConnection ?? (() => new RTCPeerConnection({ iceServers: opts.iceServers ?? DEFAULT_ICE_SERVERS })),
       getUserMedia:
         opts.getUserMedia ??
         ((constraints) => navigator.mediaDevices.getUserMedia(constraints)),
@@ -208,6 +212,12 @@ export class LiveVoiceSession {
         if (ev.streams[0]) this.opts.onRemoteStream?.(ev.streams[0]);
       };
       pc.onconnectionstatechange = () => this.handleConnectionStateChange(pc);
+      pc.oniceconnectionstatechange = () => {
+        if (pc === this.pc && pc.iceConnectionState === 'failed') {
+          // Do not start a second recovery while the initial handshake is pending.
+          if (this.state === 'connected') void this.recover();
+        }
+      };
 
       const offer = await pc.createOffer();
       await pc.setLocalDescription(offer);
@@ -276,6 +286,9 @@ export class LiveVoiceSession {
     if (pc !== this.pc) return; // stale peer connection
     if (this.intentionalStop) return;
     const cs = pc.connectionState;
+    // During initial ICE/DTLS negotiation, waitForMediaConnected owns errors.
+    // Retrying here races its pending promise and can orphan new sessions.
+    if (this.state !== 'connected') return;
     if (cs === 'failed' || cs === 'disconnected') {
       // Unexpected drop mid-session: full re-connect (new backend session).
       void this.recover();
@@ -330,11 +343,7 @@ export class LiveVoiceSession {
     return new Promise((resolve, reject) => {
       const timeout = setTimeout(() => {
         cleanup();
-        reject(
-          new Error(
-            'Audio connection timed out — the network may be blocking real-time audio. Try Wi-Fi or a different network.',
-          ),
-        );
+        reject(new Error(this.mediaFailureMessage(pc, 'timed out')));
       }, this.opts.mediaConnectTimeoutMs);
       const onChange = () => {
         if (pc.connectionState === 'connected') {
@@ -342,11 +351,10 @@ export class LiveVoiceSession {
           resolve();
         } else if (pc.connectionState === 'failed') {
           cleanup();
-          reject(
-            new Error(
-              'Audio connection failed — the network may be blocking real-time audio. Try Wi-Fi or a different network.',
-            ),
-          );
+          reject(new Error(this.mediaFailureMessage(pc, 'failed')));
+        } else if (pc.iceConnectionState === 'failed') {
+          cleanup();
+          reject(new Error(this.mediaFailureMessage(pc, 'failed')));
         } else if (pc.connectionState === 'closed') {
           // Torn down mid-handshake (user stopped, or recovery kicked in):
           // fail fast instead of hanging until the timeout.
@@ -360,6 +368,14 @@ export class LiveVoiceSession {
       };
       pc.addEventListener('connectionstatechange', onChange);
     });
+  }
+
+  private mediaFailureMessage(pc: RTCPeerConnection, reason: string): string {
+    const hasRelay = this.opts.iceServers.some((server) =>
+      [server.urls].flat().some((url) => url.startsWith('turn:') || url.startsWith('turns:')),
+    );
+    return `Audio connection ${reason} (ICE: ${pc.iceConnectionState}, peer: ${pc.connectionState}, TURN configured: ${hasRelay ? 'yes' : 'no'}). ` +
+      'The network may be blocking real-time audio. Try Wi-Fi or a different network.';
   }
 
   private waitForIceGathering(pc: RTCPeerConnection): Promise<void> {    if (pc.iceGatheringState === 'complete') return Promise.resolve();
