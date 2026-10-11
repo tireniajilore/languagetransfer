@@ -173,6 +173,7 @@ export class LiveVoiceSession {
   async stop(): Promise<void> {
     this.intentionalStop = true;
     const id = this.sessionId;
+    const token = this.accessToken;
     this.setState('closed');
     this.teardownPeerConnection();
     if (id) {
