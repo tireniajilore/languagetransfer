@@ -501,3 +501,26 @@ describe('memory and connection cleanup', () => {
     expect(issued).toEqual(['renewed-signed-learner']);
   });
 });
+
+describe('unexpected Live session closure', () => {
+  it('reopens the original lesson transport after an unexpected remote session.closed', async () => {
+    const ctx = setup({ maxRetries: 1 });
+    await startConnected(ctx);
+    expect(ctx.states.at(-1)).toBe('connected');
+    ctx.pcs[0].dataChannels[0].emitMessage({ type: 'session.closed', reason: 'unexpected' });
+    await vi.waitFor(() => expect(ctx.pcs).toHaveLength(2));
+    ctx.pcs[1].simulateConnectionState('connected');
+    await vi.waitFor(() => expect(ctx.states.filter((s) => s === 'connected')).toHaveLength(2));
+    expect(ctx.fetchCalls.filter((c) => c.method === 'POST' && c.url.endsWith('/api/live/session'))).toHaveLength(2);
+    expect(ctx.fetchCalls.some((c) => c.url.endsWith('/close'))).toBe(true);
+  });
+
+  it('does not reopen after the learner intentionally ends the session', async () => {
+    const ctx = setup();
+    await startConnected(ctx);
+    await ctx.session.stop();
+    ctx.pcs[0].dataChannels[0].emitMessage({ type: 'session.closed' });
+    expect(ctx.pcs).toHaveLength(1);
+    expect(ctx.states.at(-1)).toBe('closed');
+  });
+});
