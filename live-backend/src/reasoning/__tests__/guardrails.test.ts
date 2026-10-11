@@ -2,7 +2,7 @@
  * GuardrailMonitor tests: answer-leak and teaching-ahead detection on
  * transcript deltas, corrective steering commands, and logging.
  */
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { GuardrailMonitor, GuardrailTrigger } from '../guardrails';
 import { clearCounters, summarizeMetrics } from '../../metrics';
 import { CUR, FakeSender, makeHarness, startCopula } from './helpers';
@@ -32,6 +32,43 @@ function assistantSays(
   monitor.onTranscriptDelta(sessionId, 'assistant', text.slice(Math.ceil(text.length / 2)));
   monitor.onTranscriptDelta(sessionId, 'user', 'ok');
 }
+
+describe('Live transcript turn boundaries', () => {
+  it('processes a standalone learner acknowledgement after a quiet period, even when the tutor stays silent', () => {
+    vi.useFakeTimers();
+    try {
+      const fx = makeHarness('s-quiet');
+      const heard: string[] = [];
+      const guardrails = new GuardrailMonitor({
+        store: fx.store, curriculum: CUR,
+        onUserTurn: (_session, text) => heard.push(text),
+      });
+      guardrails.onTranscriptDelta('s-quiet', 'user', 'O');
+      guardrails.onTranscriptDelta('s-quiet', 'user', 'kay');
+      expect(heard).toHaveLength(0);
+      vi.advanceTimersByTime(1401);
+      expect(heard).toEqual(['Okay']);
+      guardrails.flush('s-quiet');
+      expect(heard).toHaveLength(1);
+    } finally { vi.useRealTimers(); }
+  });
+
+  it('retains the final learner text independently of assistant transcript fragments', () => {
+    vi.useFakeTimers();
+    try {
+      const fx = makeHarness('s-speakers');
+      const heard: string[] = [];
+      const guardrails = new GuardrailMonitor({
+        store: fx.store, curriculum: CUR,
+        onUserTurn: (_session, text) => heard.push(text),
+      });
+      guardrails.onTranscriptDelta('s-speakers', 'assistant', 'What is the word?');
+      guardrails.onTranscriptDelta('s-speakers', 'user', 'metal');
+      vi.advanceTimersByTime(1401);
+      expect(heard).toEqual(['metal']);
+    } finally { vi.useRealTimers(); }
+  });
+});
 
 describe('GuardrailMonitor', () => {
   it('triggers on an answer leak and sends a corrective instruction', () => {
