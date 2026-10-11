@@ -32,6 +32,15 @@ describe('canonical Language Transfer speech cues', () => {
     expect(events.some((e) => e.type === 'response.create')).toBe(false);
   });
 
+  it('replays necessary original explanations when a question was sent but never answered', () => {
+    const lesson = getAuthoredLesson(2);
+    const first = nextCue(lesson, freshCursor(2));
+    const resumed = nextCue(lesson, first.cursor);
+    expect(resumed.cursor).toEqual(first.cursor);
+    expect(resumed.cue.teacherLines).toEqual(first.cue.teacherLines);
+    expect(resumed.cue.question).toBe(first.cue.question);
+  });
+
   it('acknowledgements cannot advance or halt the canonical lesson; retry repeats the same question', () => {
     const lesson = getAuthoredLesson(2);
     const initial = nextCue(lesson, freshCursor(2));
