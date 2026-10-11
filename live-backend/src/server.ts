@@ -12,6 +12,10 @@
  * HTTP surface without network access.
  */
 import express, { Express, NextFunction, Request, Response } from 'express';
+import { randomBytes } from 'node:crypto';
+import { CourseStore, CourseLockedError } from './lessons/courseStore';
+import { getAuthoredLesson } from './lessons/conductor';
+import { LessonSessionManager, lessonInstructions, cueInstructions } from './lessons/sessionManager';
 import WebSocket from 'ws';
 import { DEFAULT_CURRICULUM, Curriculum } from './curriculum';
 import { assembleTeachingContext } from './harness/context';
@@ -54,6 +58,7 @@ export interface ServerDeps {
   registry?: SessionRegistry;
   wsFactory?: WsFactory;
   harness?: HarnessDeps;
+  courseStore?: CourseStore;
 }
 
 const MAX_SDP_BYTES = 200_000;
@@ -69,14 +74,15 @@ function validateOfferSdp(body: unknown): string | null {
 }
 
 /** Optional mint parameters: learner identity + starting objective. */
-function parseMintOptions(body: unknown): { objectiveId?: string; learnerToken?: string } {
+function parseMintOptions(body: unknown): { objectiveId?: string; learnerToken?: string; lessonNumber?: number } {
   if (!body || typeof body !== 'object') return {};
-  const b = body as { objectiveId?: unknown; learnerToken?: unknown };
+  const b = body as { objectiveId?: unknown; learnerToken?: unknown; lessonNumber?: unknown };
   const clean = (v: unknown): string | undefined =>
     typeof v === 'string' && v.length > 0 && v.length <= 128 ? v : undefined;
   // An untrusted caller cannot choose a durable learner identity.
   return {
     objectiveId: clean(b.objectiveId),
+    lessonNumber: typeof b.lessonNumber === 'number' && Number.isInteger(b.lessonNumber) ? b.lessonNumber : undefined,
     learnerToken: typeof b.learnerToken === 'string' && b.learnerToken.length < 256 ? b.learnerToken : undefined,
   };
 }
@@ -171,6 +177,10 @@ export function createApp(deps: ServerDeps): Express {
   const liveClient = deps.liveClient ?? new LiveSessionClient({ apiKey: config.openaiApiKey });
   const registry = deps.registry ?? new SessionRegistry();
   const harness = deps.harness ?? createHarnessDeps();
+  const course = new LessonSessionManager(deps.courseStore ?? new CourseStore());
+  // Without Postgres this identity survives only until this backend restarts.
+  const courseSecret = config.learnerTokenSecret ?? randomBytes(32).toString('hex');
+  const readyLessons = new Set<string>();
   const wsFactory: WsFactory =
     deps.wsFactory ?? ((url, opts) => new WebSocket(url, opts) as never);
 
@@ -182,6 +192,7 @@ export function createApp(deps: ServerDeps): Express {
     const state = harness.store.get(sessionId);
     const sideband = registry.get(sessionId)?.sideband;
     if (!state || !sideband || sideband.getState() !== 'open') return;
+    if (course.has(sessionId)) return; // lesson-specific instructions replace the generic concept plan
     const context = assembleTeachingContext(harness.curriculum, state);
     const target = currentQuestionTarget(harness.curriculum, state);
     if (target) registry.get(sessionId)?.guardrails?.registerLiveTargets(sessionId, target.conceptId, target.expectedAnswers);
@@ -241,6 +252,19 @@ export function createApp(deps: ServerDeps): Express {
   // Without this the preflight 404s and the UI reports "Failed to fetch".
   app.use('/api', corsPreflight(config.allowedOrigins));
 
+  /** An anonymous possession capability identifies this browser's saved course. */
+  app.get('/api/live/course', async (req: Request, res: Response) => {
+    try {
+      const raw = req.get('authorization') ?? '';
+      const learner = resolveLearnerIdentity(raw.startsWith('Bearer ') ? raw.slice(7) : null, courseSecret);
+      const lessons = await course.courseStore.overview(learner.learnerId);
+      res.json({ learnerToken: learner.token, lessons });
+    } catch (err) {
+      console.error('[live] course overview failed', err);
+      res.status(503).json({ error: 'course_unavailable' });
+    }
+  });
+
   app.post('/api/live/session', ...mintGuards, async (req: Request, res: Response) => {
     // PR 5 kill-switch: refuse to mint while the feature is disabled.
     if (!config.liveTutorEnabled) {
@@ -253,6 +277,23 @@ export function createApp(deps: ServerDeps): Express {
       return;
     }
     try {
+      const mintOptions = parseMintOptions(req.body);
+      const lessonNumber = mintOptions.lessonNumber;
+      const courseBound = lessonNumber !== undefined;
+      const learner = resolveLearnerIdentity(mintOptions.learnerToken, courseSecret);
+      let activeLesson: ReturnType<typeof getAuthoredLesson> | undefined;
+      if (courseBound) {
+        try {
+          await course.courseStore.requireUnlocked(learner.learnerId, lessonNumber);
+          activeLesson = getAuthoredLesson(lessonNumber);
+        } catch (err) {
+          if (err instanceof CourseLockedError) {
+            res.status(423).json({ error: 'lesson_locked', detail: err.message });
+            return;
+          }
+          throw err;
+        }
+      }
       // Layer C: Responses delegation is configured at session creation so the
       // voice model can delegate deep pedagogical reasoning to the backend.
       const delegation = config.delegationDisabled
@@ -260,7 +301,7 @@ export function createApp(deps: ServerDeps): Express {
         : buildDelegationConfig(harness.curriculum, { model: config.delegationModel });
       const created = await liveClient.createSession({
         offerSdp,
-        instructions: config.sessionInstructions,
+        instructions: activeLesson ? lessonInstructions(activeLesson.number, config.sessionInstructions) : config.sessionInstructions,
         model: config.liveModel,
         delegation,
       });
@@ -295,7 +336,25 @@ export function createApp(deps: ServerDeps): Express {
         sendCommand,
         onTrigger: (trigger: GuardrailTrigger) =>
           onGuardrailTrigger(created.sessionId, trigger, delegationManager),
-        onUserTurn: (sessionId, text) => analyzeUserTurn(harness, sessionId, text, guardrails),
+        onUserTurn: (sessionId, text) => {
+          if (!course.has(sessionId)) {
+            analyzeUserTurn(harness, sessionId, text, guardrails);
+            return;
+          }
+          void course.hear(sessionId, text).then((result) => {
+            if (!result) return;
+            const sideband = registry.get(sessionId)?.sideband;
+            if (sideband?.getState() !== 'open') return;
+            if (result.cue) {
+              sideband.sendCommand({ type: 'session.instructions.append', instructions:
+                'The learner has now completed the previous question. ' + cueInstructions(result.cue) });
+            } else if (result.correct === false) {
+              sideband.sendCommand({ type: 'session.instructions.append', instructions:
+                'The learner has not yet answered the current required question correctly. ' +
+                'Give a brief hint or clarification; stay on this question and DO NOT move to the next teaching step.' });
+            }
+          }).catch((err) => console.error('[lesson] failed to process learner turn', err));
+        },
       });
 
       const sideband = new SidebandConnection({
@@ -305,6 +364,7 @@ export function createApp(deps: ServerDeps): Express {
         handlers: {
           onReady: (id) => {
             console.log(`[live] session ${id} started (sideband ready)`);
+            readyLessons.add(id);
             publishContext(id);
           },
           onTranscriptDelta: (id, speaker, delta) => {
@@ -318,6 +378,8 @@ export function createApp(deps: ServerDeps): Express {
             harness.observer.onSessionClosed(id);
             guardrails.flush(id);
             publishedContext.delete(id);
+            readyLessons.delete(id);
+            course.forgetSession(id);
             delegationManager?.setToolBlock(id, false);
             void registry.closeSession(id).catch(() => undefined);
           },
@@ -339,10 +401,9 @@ export function createApp(deps: ServerDeps): Express {
         guardrails,
       });
 
-      const mintOptions = parseMintOptions(req.body);
-      const learner = config.learnerTokenSecret
-        ? resolveLearnerIdentity(mintOptions.learnerToken, config.learnerTokenSecret)
-        : null;
+      if (courseBound && activeLesson) {
+        await course.prepare(created.sessionId, learner.learnerId, activeLesson.number);
+      }
       // Initialize authoritative teaching state for this session (Layer B).
       // A harness failure must not kill the voice session, so it is logged
       // and the session continues without teaching state.
@@ -354,11 +415,11 @@ export function createApp(deps: ServerDeps): Express {
           sessionId: created.sessionId,
           curriculum: harness.curriculum,
           objectiveId,
-          ...(learner ? { learnerId: learner.learnerId } : {}),
+          learnerId: learner.learnerId,
         });
         publishContext(created.sessionId);
         console.log(
-          `[live] harness initialized session=${created.sessionId} objective=${state.currentObjectiveId} learner=${learner ? 'signed-anonymous' : 'ephemeral'}`,
+          `[live] harness initialized session=${created.sessionId} objective=${state.currentObjectiveId} learner=signed-anonymous`,
         );
       } catch (err) {
         console.error(
@@ -369,7 +430,7 @@ export function createApp(deps: ServerDeps): Express {
 
       res.status(201).json({
         session: { id: created.sessionId, accessToken },
-        ...(learner ? { learner: { token: learner.token } } : {}),
+        learner: { token: learner.token },
         transport: { type: 'webrtc', sdp: created.answerSdp },
       });
     } catch (err) {
@@ -388,6 +449,34 @@ export function createApp(deps: ServerDeps): Express {
     }
   });
 
+  app.post('/api/live/session/:id/start', requireSessionAccess, async (req: Request, res: Response) => {
+    const id = req.params.id;
+    const sideband = registry.get(id)?.sideband;
+    if (!course.has(id)) { res.status(404).json({ error: 'unknown_lesson' }); return; }
+    if (!sideband || sideband.getState() !== 'open' || !readyLessons.has(id)) {
+      res.status(409).json({ error: 'session_not_ready' }); return;
+    }
+    try {
+      const cue = await course.start(id);
+      if (cue) {
+        sideband.sendCommand({ type: 'session.instructions.append', instructions: cueInstructions(cue) });
+        sideband.sendCommand({ type: 'response.create' });
+      }
+      res.json({ started: true, lesson: course.get(id), cue: cue ? { stepIndex: cue.stepIndex, complete: cue.complete } : null });
+    } catch (err) {
+      console.error('[lesson] start failed', err);
+      res.status(503).json({ error: 'lesson_start_failed' });
+    }
+  });
+
+  app.get('/api/live/session/:id/progress', requireSessionAccess, (req: Request, res: Response) => {
+    const lesson = course.get(req.params.id);
+    if (!lesson) { res.status(404).json({ error: 'unknown_lesson' }); return; }
+    const totalSteps = getAuthoredLesson(lesson.number).steps.length;
+    res.json({ lessonNumber: lesson.number, ...lesson.cursor, totalSteps,
+      completed: lesson.cursor.phase === 'completed' && lesson.cursor.stepIndex === totalSteps });
+  });
+
   app.post('/api/live/session/:id/close', requireSessionAccess, async (req: Request, res: Response) => {
     const id = req.params.id;
     if (!id || id.length > 128) {
@@ -396,6 +485,8 @@ export function createApp(deps: ServerDeps): Express {
     }
     harness.observer.onSessionClosed(id);
     publishedContext.delete(id);
+    readyLessons.delete(id);
+    course.forgetSession(id);
     const closed = await registry.closeSession(id);
     if (!closed) {
       res.status(404).json({ error: 'unknown_session' });
