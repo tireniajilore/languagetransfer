@@ -59,7 +59,7 @@ async function postJson(
 ): Promise<{ status: number; body: unknown }> {
   const res = await fetch(`${baseUrl}${path}`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json', ...(/\/api\/live\/session\/([^/]+)\/tools$/.exec(path) ? { authorization: `Bearer ${mintedTokens.get(path.split('/')[4]) ?? ''}` } : {}) },
+    headers: { 'content-type': 'application/json', ...(/\/api\/live\/session\/([^/]+)\/(tools|close)$/.exec(path) ? { authorization: `Bearer ${mintedTokens.get(path.split('/')[4]) ?? ''}` } : {}) },
     body: JSON.stringify(body),
   });
   return { status: res.status, body: await res.json().catch(() => null) };
@@ -143,7 +143,7 @@ describe('harness HTTP surface', () => {
       tool: 'get_learning_context',
       input: {},
     });
-    expect(r.status).toBe(404);
+    expect(r.status).toBe(401);
   });
 
   it('mint accepts an explicit starting objective', async () => {
@@ -162,7 +162,6 @@ describe('harness HTTP surface', () => {
     const close = await postJson(s.baseUrl, `/api/live/session/${id}/close`, {});
     expect(close.status).toBe(200);
     const res = await fetch(`${s.baseUrl}/api/live/session/${id}/context`, { headers: { authorization: `Bearer ${mintedTokens.get(id)}` } });
-    const ctx = (await res.json()) as { sessionId: string; objective: { id: string }; rendered: string; turn: number; status: string };
-    expect(ctx.status).toBe('abandoned');
+    expect(res.status).toBe(401); // closed sessions immediately revoke their bearer capability
   });
 });
