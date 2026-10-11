@@ -277,6 +277,13 @@ export function createApp(deps: ServerDeps): Express {
       return;
     }
     try {
+      const suppliedLesson = (req.body as { lessonNumber?: unknown }).lessonNumber;
+      if (suppliedLesson !== undefined &&
+        (typeof suppliedLesson !== 'number' || !Number.isInteger(suppliedLesson) ||
+          suppliedLesson < 2 || suppliedLesson > 90)) {
+        res.status(400).json({ error: 'invalid_lesson_number' });
+        return;
+      }
       const mintOptions = parseMintOptions(req.body);
       const lessonNumber = mintOptions.lessonNumber;
       const courseBound = lessonNumber !== undefined;
