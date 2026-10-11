@@ -6,6 +6,7 @@ import { createApp } from '../server';
 import { SessionRegistry } from '../sessions';
 import { FakeWs } from './fakes';
 
+const mintedTokens = new Map<string, string>();
 const OFFER_SDP = 'v=0\r\no=- 1 1 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111\r\n';
 
 interface TestServer {
@@ -73,10 +74,15 @@ interface HttpResult {
 async function postJson(baseUrl: string, path: string, body: unknown, headers: Record<string, string> = {}): Promise<HttpResult> {
   const res = await fetch(`${baseUrl}${path}`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json', ...headers },
+    headers: { 'content-type': 'application/json', ...(/\/api\/live\/session\/([^/]+)\/(close|tools)$/.exec(path) ? { authorization: `Bearer ${mintedTokens.get(path.split('/')[4]) ?? ''}` } : {}), ...headers },
     body: typeof body === 'string' ? body : JSON.stringify(body),
   });
-  return { statusCode: res.status, body: await res.json().catch(() => null) };
+  const data = await res.json().catch(() => null);
+  if (path === '/api/live/session' && res.ok && data && typeof data === 'object') {
+    const result = data as { session?: { id?: string; accessToken?: string } };
+    if (result.session?.id && result.session.accessToken) mintedTokens.set(result.session.id, result.session.accessToken);
+  }
+  return { statusCode: res.status, body: data };
 }
 
 async function waitFor(cond: () => boolean, timeoutMs = 2_000): Promise<void> {
@@ -91,6 +97,7 @@ let servers: TestServer[] = [];
 afterEach(async () => {
   await Promise.all(servers.map((s) => s.stop()));
   servers = [];
+  mintedTokens.clear();
 });
 
 describe('live-backend HTTP surface', () => {
