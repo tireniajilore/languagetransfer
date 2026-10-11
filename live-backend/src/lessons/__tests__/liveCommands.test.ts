@@ -32,6 +32,21 @@ describe('canonical Language Transfer speech cues', () => {
     expect(events.some((e) => e.type === 'response.create')).toBe(false);
   });
 
+  it('splits longer authored passages below the append limit without losing text', () => {
+    const { events, sender } = messages();
+    const passage = Array.from({ length: 230 }, (_, i) => 'word' + i).join(' ');
+    deliverLessonCue(sender, {
+      lessonNumber: 2, stepIndex: 5, phase: 'awaiting_answer',
+      teacherLines: [passage], question: 'How would you say metal?',
+      expectedAnswers: ['metal'], complete: false,
+    });
+    const spoken = events.filter((e) => e.type === 'session.commentary.append')
+      .map((e) => String(e.content));
+    expect(spoken.length).toBeGreaterThan(1);
+    expect(spoken.every((part) => part.length <= 760)).toBe(true);
+    expect(spoken.join(' ').replace(/\\s+/g, ' ')).toBe(passage + ' How would you say metal?');
+  });
+
   it('replays necessary original explanations when a question was sent but never answered', () => {
     const lesson = getAuthoredLesson(2);
     const first = nextCue(lesson, freshCursor(2));
