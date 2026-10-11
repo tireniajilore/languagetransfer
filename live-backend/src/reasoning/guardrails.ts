@@ -46,6 +46,8 @@ export interface GuardrailDeps {
   onUserTurn?: (sessionId: string, text: string) => void;
   /** Live sends transcript fragments without a turn-done marker. */
   transcriptQuietMs?: number;
+  /** The ordered lesson conductor, not the unrelated generic concept map, owns lesson legality. */
+  suppressConceptGuardrails?: (sessionId: string) => boolean;
   onAssistantTurn?: (sessionId: string, text: string) => void;
   now?: () => number;
 }
@@ -156,8 +158,10 @@ export class GuardrailMonitor {
       }
       return;
     }
-    this.checkAnswerLeak(sessionId, text);
-    this.checkTeachingAhead(sessionId, text);
+    if (!this.deps.suppressConceptGuardrails?.(sessionId)) {
+      this.checkAnswerLeak(sessionId, text);
+      this.checkTeachingAhead(sessionId, text);
+    }
     this.deps.onAssistantTurn?.(sessionId, text);
   }
 
