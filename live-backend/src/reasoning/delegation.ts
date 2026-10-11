@@ -136,6 +136,7 @@ export const DELEGATION_TOOLS: ResponsesFunctionTool[] = [
           move: { type: 'string' },
           conceptId: { type: 'string' },
           prompt: { type: 'string' },
+          expectedAnswer: { type: 'string', description: 'Use a verified example if the answer can be scored deterministically; otherwise omit for no auto-grading.' },
           hintId: { type: 'string' },
           subConcepts: { type: 'array', items: { type: 'string' } },
           counterexample: { type: 'string' },
