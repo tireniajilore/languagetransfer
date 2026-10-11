@@ -172,6 +172,28 @@ export function createApp(deps: ServerDeps): Express {
   const wsFactory: WsFactory =
     deps.wsFactory ?? ((url, opts) => new WebSocket(url, opts) as never);
 
+  // GPT-Live does not automatically know the authoritative learner state.
+  // Push compact, application-owned context whenever a committed teaching
+  // action changes it. Sideband readiness and initialization can race.
+  const publishedContext = new Map<string, string>();
+  const publishContext = (sessionId: string): void => {
+    const state = harness.store.get(sessionId);
+    const sideband = registry.get(sessionId)?.sideband;
+    if (!state || !sideband || sideband.getState() !== 'open') return;
+    const context = assembleTeachingContext(harness.curriculum, state);
+    if (publishedContext.get(sessionId) === context.rendered) return;
+    try {
+      sideband.sendCommand({
+        type: 'session.thinking.append',
+        content: 'Current authoritative teaching plan (supersedes earlier state):\\n' + context.rendered,
+      });
+      publishedContext.set(sessionId, context.rendered);
+    } catch (err) {
+      console.warn('[live] could not synchronize teaching context', sessionId, err);
+    }
+  };
+  harness.router.onWrite(publishContext);
+
   const app = express();
   app.disable('x-powered-by');
   app.use(express.json({ limit: '256kb' }));
@@ -277,7 +299,10 @@ export function createApp(deps: ServerDeps): Express {
         apiKey: config.openaiApiKey,
         baseUrl: config.liveApiBaseUrl,
         handlers: {
-          onReady: (id) => console.log(`[live] session ${id} started (sideband ready)`),
+          onReady: (id) => {
+            console.log(`[live] session ${id} started (sideband ready)`);
+            publishContext(id);
+          },
           onTranscriptDelta: (id, speaker, delta) => {
             console.log(`[live] transcript ${id} ${speaker}: ${delta.slice(0, 120)}`);
             harness.observer.onTranscriptDelta(id, speaker, delta);
@@ -288,6 +313,7 @@ export function createApp(deps: ServerDeps): Express {
             console.log(`[live] session ${id} closed (reason=${reason ?? 'unknown'})`);
             harness.observer.onSessionClosed(id);
             guardrails.flush(id);
+            publishedContext.delete(id);
             delegationManager?.setToolBlock(id, false);
             void registry.closeSession(id).catch(() => undefined);
           },
@@ -321,6 +347,7 @@ export function createApp(deps: ServerDeps): Express {
           curriculum: harness.curriculum,
           objectiveId,
         });
+        publishContext(created.sessionId);
         console.log(
           `[live] harness initialized session=${created.sessionId} objective=${state.currentObjectiveId} learner=anonymous`,
         );
@@ -358,6 +385,7 @@ export function createApp(deps: ServerDeps): Express {
       return;
     }
     harness.observer.onSessionClosed(id);
+    publishedContext.delete(id);
     const closed = await registry.closeSession(id);
     if (!closed) {
       res.status(404).json({ error: 'unknown_session' });
