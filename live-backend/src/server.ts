@@ -473,7 +473,7 @@ export function createApp(deps: ServerDeps): Express {
     const lesson = course.get(req.params.id);
     if (!lesson) { res.status(404).json({ error: 'unknown_lesson' }); return; }
     const totalSteps = getAuthoredLesson(lesson.number).steps.length;
-    res.json({ lessonNumber: lesson.number, ...lesson.cursor, totalSteps,
+    res.json({ ...lesson.cursor, totalSteps,
       completed: lesson.cursor.phase === 'completed' && lesson.cursor.stepIndex === totalSteps });
   });
 
