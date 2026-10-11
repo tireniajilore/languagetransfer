@@ -133,9 +133,16 @@ export function nextCue(lesson: AuthoredLesson, cursor: LessonCursor): {
   if (cursor.phase === 'awaiting_answer') {
     const q = lesson.steps[cursor.stepIndex - 1];
     if (!q || q.kind !== 'question') throw new Error('corrupt awaiting-question cursor');
+    // A previous Live connection may have dropped before it actually spoke
+    // the text. Re-deliver the introduction since the preceding question.
+    let from = cursor.stepIndex - 2;
+    while (from >= 0 && lesson.steps[from].kind !== 'question') from--;
+    const replay = lesson.steps.slice(from + 1, cursor.stepIndex - 1)
+      .filter((step) => step.kind === 'explanation')
+      .map((step) => step.text);
     return { cursor, cue: { lessonNumber: lesson.number, stepIndex: cursor.stepIndex - 1,
-      phase: cursor.phase, teacherLines: [], question: q?.text, expectedAnswers: q?.expectedAnswers,
-      complete: false } };
+      phase: cursor.phase, teacherLines: replay, question: q.text,
+      expectedAnswers: q.expectedAnswers, complete: false } };
   }
   if (cursor.phase === 'completed') return { cursor, cue: {
     lessonNumber: lesson.number, stepIndex: cursor.stepIndex, phase: 'completed',
