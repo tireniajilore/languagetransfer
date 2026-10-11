@@ -11,6 +11,7 @@ import { closePool, rawPool } from './helpers';
 
 const EXPECTED_TABLES = [
   'learners',
+  'lesson_progress',
   'sessions',
   'utterances',
   'evidence',
