@@ -14,6 +14,7 @@ WORKDIR /app
 COPY package.json package-lock.json* ./
 RUN npm ci --omit=dev && npm cache clean --force
 COPY --from=build /app/dist ./dist
+COPY --from=build /app/src/lessons/data ./src/lessons/data
 COPY migrations ./migrations
 EXPOSE 8080
 CMD ["node", "dist/index.js"]
