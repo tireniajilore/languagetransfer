@@ -23,6 +23,7 @@ condition under which it stops being true.
   on the next session — but the in-progress turn, the voice call, and any
   mid-turn reasoning are gone. There is no session resume across restarts;
   the restore path is per-learner, not per-session.
+- **Anonymous learner identity is device/browser-scoped.** A signed browser capability restores cross-session progress but is not a login or cross-device account. Clearing localStorage loses access to that identity. Stored credentials need eventual account ownership and data-deletion controls for public launch.
 - **Without `DATABASE_URL`, nothing persists.** The backend runs fine on the
   in-memory store, but all learner memory evaporates on restart or redeploy.
 
