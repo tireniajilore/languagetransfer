@@ -10,6 +10,7 @@ const OFFER_SDP = 'v=0\r\no=- 1 1 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\nm=audio 9 
 
 interface TestServer {
   baseUrl: string;
+  wsInstances: FakeWs[];
   stop: () => Promise<void>;
 }
 
@@ -22,6 +23,7 @@ async function startServer(): Promise<TestServer> {
       return { session: { id: `live_h${counter}` }, transport: { sdp: 'v=0\r\nanswer' } };
     },
   });
+  const wsInstances: FakeWs[] = [];
   const app = createApp({
     config: {
       openaiApiKey: 'sk-test',
@@ -41,13 +43,18 @@ async function startServer(): Promise<TestServer> {
     liveClient,
     registry: new SessionRegistry(),
     harness: createHarnessDeps(),
-    wsFactory: () => new FakeWs(),
+    wsFactory: () => {
+      const ws = new FakeWs();
+      wsInstances.push(ws);
+      return ws;
+    },
   });
   const server = app.listen(0);
   await new Promise<void>((resolve) => server.once('listening', resolve));
   const { port } = server.address() as AddressInfo;
   return {
     baseUrl: `http://127.0.0.1:${port}`,
+    wsInstances,
     stop: () => new Promise<void>((resolve, reject) => server.close((e) => (e ? reject(e) : resolve()))),
   };
 }
@@ -163,5 +170,30 @@ describe('harness HTTP surface', () => {
     expect(close.status).toBe(200);
     const res = await fetch(`${s.baseUrl}/api/live/session/${id}/context`, { headers: { authorization: `Bearer ${mintedTokens.get(id)}` } });
     expect(res.status).toBe(401); // closed sessions immediately revoke their bearer capability
+  });
+});
+
+describe('live teaching context synchronization', () => {
+  it('publishes initial curriculum and updated state over the sideband', async () => {
+    const s = await startServer();
+    servers.push(s);
+    const id = await mint(s.baseUrl);
+    const ws = s.wsInstances[0];
+    ws.emit('open');
+    ws.emitJson('message', { type: 'session.started' });
+    const initial = ws.sent.map((x) => JSON.parse(x) as { type: string; content?: string })
+      .filter((x) => x.type === 'session.thinking.append');
+    expect(initial).toHaveLength(1);
+    expect(initial[0].content).toContain('Approved teaching examples: es normal');
+
+    const result = await postJson(s.baseUrl, `/api/live/session/${id}/tools`, {
+      tool: 'commit_teaching_decision',
+      input: { turnId: 1, move: { move: 'introduce_concept', conceptId: 'es-copula' } },
+    });
+    expect(result.status).toBe(200);
+    const updates = ws.sent.map((x) => JSON.parse(x) as { type: string; content?: string })
+      .filter((x) => x.type === 'session.thinking.append');
+    expect(updates.length).toBe(2);
+    expect(updates.at(-1)?.content).toContain('es-copula [in_progress]');
   });
 });
