@@ -16,7 +16,7 @@ function chunks(lines: string[]): string[] {
   let current = '';
   for (const line of lines) {
     // Split an unusually long authored passage without dropping any words.
-    const words = line.split(/\\s+/).filter(Boolean);
+    const words = line.split(/\s+/).filter(Boolean);
     let part = '';
     for (const word of words) {
       if (part && (part + ' ' + word).length > 760) {
@@ -27,11 +27,11 @@ function chunks(lines: string[]): string[] {
       part += (part ? ' ' : '') + word;
     }
     if (!part) continue;
-    if (current && (current + '\\n' + part).length > 760) {
+    if (current && (current + '\n' + part).length > 760) {
       result.push(current);
       current = '';
     }
-    current += (current ? '\\n' : '') + part;
+    current += (current ? '\n' : '') + part;
   }
   if (current) result.push(current);
   return result;
