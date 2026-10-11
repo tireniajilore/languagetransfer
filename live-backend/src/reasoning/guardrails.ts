@@ -44,6 +44,11 @@ export interface GuardrailDeps {
   onTrigger?: (trigger: GuardrailTrigger) => void;
   /** Called with each completed user turn (Layer C fast-path analysis hook). */
   onUserTurn?: (sessionId: string, text: string) => void;
+  /** Live sends transcript fragments without a turn-done marker. */
+  transcriptQuietMs?: number;
+  /** The ordered lesson conductor, not the unrelated generic concept map, owns lesson legality. */
+  suppressConceptGuardrails?: (sessionId: string) => boolean;
+  onAssistantTurn?: (sessionId: string, text: string) => void;
   now?: () => number;
 }
 
@@ -76,6 +81,7 @@ let correctiveSeq = 0;
 export class GuardrailMonitor {
   private readonly buffers = new Map<string, TurnBuffer>();
   private readonly triggers: GuardrailTrigger[] = [];
+  private readonly quietTimers = new Map<string, ReturnType<typeof setTimeout>>();
   /** sessionId -> conceptId -> target answers currently live (asked, not yet revealed). */
   private readonly liveTargets = new Map<string, Map<string, string[]>>();
 
@@ -96,20 +102,38 @@ export class GuardrailMonitor {
     this.liveTargets.get(sessionId)?.delete(conceptId);
   }
 
-  /** Feed one transcript delta from the sideband (mirrors the observer's accumulation). */
+  /** Live input/output transcript deltas have no complete-turn event.
+   * Switch-of-speaker flushes immediately; quiet periods flush orphan turns.
+   * Timers are cancelled on every new delta, speaker change and close.
+   */
   onTranscriptDelta(sessionId: string, speaker: 'user' | 'assistant', delta: string): void {
-    const existing = this.buffers.get(sessionId);
-    if (existing && existing.speaker !== speaker) {
-      this.checkTurn(sessionId, existing);
+    this.clearQuietTimer(sessionId);
+    if (!delta) return;
+    const previous = this.buffers.get(sessionId);
+    if (previous && previous.speaker !== speaker) {
+      // Critical: never concatenate the previous speaker's text into this one.
+      this.buffers.delete(sessionId);
+      this.checkTurn(sessionId, previous);
     }
-    const buf = this.buffers.get(sessionId) ?? { speaker, text: '' };
-    buf.speaker = speaker;
-    buf.text += delta;
-    this.buffers.set(sessionId, buf);
+    const current = this.buffers.get(sessionId);
+    this.buffers.set(sessionId, {
+      speaker, text: (current?.speaker === speaker ? current.text : '') + delta,
+    });
+    const ms = this.deps.transcriptQuietMs ?? 1400;
+    const timer = setTimeout(() => this.flush(sessionId), ms);
+    timer.unref();
+    this.quietTimers.set(sessionId, timer);
   }
 
-  /** Flush a completed turn (e.g. on session close) so it is still checked. */
+  private clearQuietTimer(sessionId: string): void {
+    const timer = this.quietTimers.get(sessionId);
+    if (timer) clearTimeout(timer);
+    this.quietTimers.delete(sessionId);
+  }
+
+  /** Flush on quiet timeout or session close. Idempotent. */
   flush(sessionId: string): void {
+    this.clearQuietTimer(sessionId);
     const buf = this.buffers.get(sessionId);
     if (buf) {
       this.buffers.delete(sessionId);
@@ -134,8 +158,11 @@ export class GuardrailMonitor {
       }
       return;
     }
-    this.checkAnswerLeak(sessionId, text);
-    this.checkTeachingAhead(sessionId, text);
+    if (!this.deps.suppressConceptGuardrails?.(sessionId)) {
+      this.checkAnswerLeak(sessionId, text);
+      this.checkTeachingAhead(sessionId, text);
+    }
+    this.deps.onAssistantTurn?.(sessionId, text);
   }
 
   private checkAnswerLeak(sessionId: string, text: string): void {

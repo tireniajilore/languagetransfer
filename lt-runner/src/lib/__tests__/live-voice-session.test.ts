@@ -507,6 +507,41 @@ describe('memory and connection cleanup', () => {
   });
 });
 
+describe('unexpected Live session closure', () => {
+  it('reopens the original lesson transport after an unexpected remote session.closed', async () => {
+    const ctx = setup({ maxRetries: 1 });
+    await startConnected(ctx);
+    expect(ctx.states.at(-1)).toBe('connected');
+    ctx.pcs[0].dataChannels[0].emitMessage({ type: 'session.closed', reason: 'unexpected' });
+    await vi.waitFor(() => expect(ctx.pcs).toHaveLength(2));
+    ctx.pcs[1].simulateConnectionState('connected');
+    await vi.waitFor(() => expect(ctx.states.filter((s) => s === 'connected')).toHaveLength(2));
+    expect(ctx.fetchCalls.filter((c) => c.method === 'POST' && c.url.endsWith('/api/live/session'))).toHaveLength(2);
+    expect(ctx.fetchCalls.some((c) => c.url.endsWith('/close'))).toBe(true);
+  });
+
+  it('does not reopen after the learner intentionally ends the session', async () => {
+    const ctx = setup();
+    await startConnected(ctx);
+    await ctx.session.stop();
+    ctx.pcs[0].dataChannels[0].emitMessage({ type: 'session.closed' });
+    expect(ctx.pcs).toHaveLength(1);
+    expect(ctx.states.at(-1)).toBe('closed');
+  });
+
+  it('gives up after maxRetries unexpected closures and reports resumability', async () => {
+    const ctx = setup({ maxRetries: 1 });
+    await startConnected(ctx);
+    ctx.pcs[0].dataChannels[0].emitMessage({ type: 'session.closed', reason: 'unexpected' });
+    await vi.waitFor(() => expect(ctx.pcs).toHaveLength(2));
+    ctx.pcs[1].simulateConnectionState('connected');
+    await vi.waitFor(() => expect(ctx.states.filter((s) => s === 'connected')).toHaveLength(2));
+    ctx.pcs[1].dataChannels[0].emitMessage({ type: 'session.closed', reason: 'unexpected' });
+    await vi.waitFor(() => expect(ctx.session.getState()).toBe('failed'));
+    expect(ctx.errors).toHaveLength(1);
+    expect(String(ctx.errors[0]?.message ?? ctx.errors[0])).toMatch(/Resume lesson/);
+  });
+});
 describe('supervised lesson transport', () => {
   it('reports authenticated audio boundaries only after actual monitored audio activity', async () => {
     const result = setup({lessonNumber: 2, fetchImpl: url => url.endsWith('/api/live/session')
