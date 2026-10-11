@@ -58,11 +58,9 @@ describe('canonical Language Transfer speech cues', () => {
     const lesson = getAuthoredLesson(2);
     const first = nextCue(lesson, freshCursor(2));
     expect(respondToQuestion(lesson, first.cursor, 'I think metal').correct).toBe(true);
-    const next = respondToQuestion(lesson, first.cursor, 'metal').next!;
-    expect(next.expectedAnswers).toContain('es normal');
-    expect(respondToQuestion(lesson, nextCue(lesson, {
-      ...first.cursor, stepIndex: next.stepIndex + 1, phase: 'awaiting_answer',
-    }).cursor, 'no es normal').correct).toBe(false);
+    const advanced = respondToQuestion(lesson, first.cursor, 'metal');
+    expect(advanced.next?.expectedAnswers).toContain('es normal');
+    expect(respondToQuestion(lesson, advanced.cursor, 'no es normal').correct).toBe(false);
   });
 
   it('does not reveal the answer to the next required question when a learner makes a mistake', () => {
