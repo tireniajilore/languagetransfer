@@ -24,6 +24,10 @@ describe('fixed Language Transfer lesson conductor', () => {
     expect(yes.next?.teacherLines.join(' ')).toContain('five vowels');
     expect(yes.next?.question).toContain('he is normal');
   });
+  it('rejects corrupt awaiting cursors rather than supplying undefined prompts', () => {
+    expect(() => nextCue(lesson, { ...freshCursor(2), phase: 'awaiting_answer' }))
+      .toThrow('corrupt awaiting-question cursor');
+  });
   it('does not auto-advance open-ended reflective prompts', () => {
     const synthetic = { ...lesson, steps: [{ id: 'open', kind: 'question' as const,
       text: 'Explain why', expectedAnswers: [], required: true as const }] };
