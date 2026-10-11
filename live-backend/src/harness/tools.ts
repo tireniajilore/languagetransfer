@@ -516,6 +516,13 @@ export interface RouterLogEntry {
  */
 export class ToolRouter {
   private readonly idempotencyCache = new Map<string, DispatchResult>();
+  private readonly writeListeners = new Set<(sessionId: string) => void>();
+
+  /** Notify the live session when authoritative learner state changes. */
+  onWrite(listener: (sessionId: string) => void): () => void {
+    this.writeListeners.add(listener);
+    return () => this.writeListeners.delete(listener);
+  }
 
   constructor(
     private readonly ctx: ToolHandlerContext,
@@ -629,6 +636,11 @@ export class ToolRouter {
     }
 
     if (key && result.ok) this.idempotencyCache.set(key, result);
+    if (result.ok && !def.readOnly) {
+      for (const listener of this.writeListeners) {
+        try { listener(req.sessionId); } catch { /* context sync must not break tool commit */ }
+      }
+    }
     return done(result, { turnId });
   }
 

@@ -261,7 +261,14 @@ export function validateMove(
     case 'introduce_concept':
       return checkConceptTarget(curriculum, state, move, ['available']);
 
-    case 'ask_discovery_question':
+    case 'ask_discovery_question': {
+      const base = checkConceptTarget(curriculum, state, move, ['available', 'in_progress', 'struggling']);
+      if (!base.ok) return base;
+      if (move.expectedAnswer && !getConcept(curriculum, move.conceptId)?.verifiedExamples.includes(move.expectedAnswer)) {
+        return { ok: false, reason: 'expectedAnswer must be a verified example for this concept' };
+      }
+      return { ok: true };
+    }
     case 'probe_understanding':
     case 'reinforce_concept':
       return checkConceptTarget(curriculum, state, move, ['available', 'in_progress', 'struggling']);
