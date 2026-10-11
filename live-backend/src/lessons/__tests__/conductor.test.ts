@@ -28,7 +28,9 @@ describe('fixed Language Transfer lesson conductor', () => {
     const synthetic = { ...lesson, steps: [{ id: 'open', kind: 'question' as const,
       text: 'Explain why', expectedAnswers: [], required: true as const }] };
     const started = nextCue(synthetic, freshCursor(2));
-    expect(respondToQuestion(synthetic, started.cursor, 'because').correct).toBeNull();
+    const reflection = respondToQuestion(synthetic, started.cursor, 'because');
+    expect(reflection.correct).toBeNull();
+    expect(reflection.cursor.phase).toBe('completed');
     expect(confirmOpenPrompt(synthetic, started.cursor).cursor.phase).toBe('completed');
   });
   it('contains canonical gap lesson 25 rather than skipping it', () => {
