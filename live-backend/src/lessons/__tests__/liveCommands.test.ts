@@ -44,7 +44,7 @@ describe('canonical Language Transfer speech cues', () => {
       .map((e) => String(e.content));
     expect(spoken.length).toBeGreaterThan(1);
     expect(spoken.every((part) => part.length <= 760)).toBe(true);
-    expect(spoken.join(' ').replace(/\\s+/g, ' ')).toBe(passage + ' How would you say metal?');
+    expect(spoken.join(' ').replace(/\s+/g, ' ')).toBe(passage + ' How would you say metal?');
   });
 
   it('replays necessary original explanations when a question was sent but never answered', () => {
