@@ -56,6 +56,8 @@ export interface UseLiveSessionResult {
   assistantSpeaking: boolean;
   userSpeaking: boolean;
   backendConfigured: boolean;
+  playbackBlocked: boolean;
+  enableAudio: () => Promise<void>;
   audioRef: React.RefObject<HTMLAudioElement>;
   start: () => Promise<void>;
   stop: () => Promise<void>;
@@ -71,6 +73,7 @@ export function useLiveSession(): UseLiveSessionResult {
   const [transcripts, setTranscripts] = useState<TranscriptEntry[]>([]);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [playbackBlocked, setPlaybackBlocked] = useState(false);
   const [assistantSpeaking, setAssistantSpeaking] = useState(false);
   const [userSpeaking, setUserSpeaking] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -92,10 +95,17 @@ export function useLiveSession(): UseLiveSessionResult {
   const start = useCallback(async () => {
     if (!backendUrl) return;
     setError(null);
+    setPlaybackBlocked(false);
     setTranscripts([]);
     teardownLevels();
+    let learnerToken: string | undefined;
+    try { learnerToken = window.localStorage.getItem('lt-live-learner-v1') ?? undefined; } catch { /* storage disabled */ }
     const session = new LiveVoiceSession({
       backendUrl,
+      learnerToken,
+      onLearnerToken: (token) => {
+        try { window.localStorage.setItem('lt-live-learner-v1', token); } catch { /* storage disabled */ }
+      },
       onStateChange: (s) => {
         setConnState(s);
         if (s === 'connected') setSessionId(session.getSessionId());
@@ -109,7 +119,12 @@ export function useLiveSession(): UseLiveSessionResult {
         const el = audioRef.current;
         if (el) {
           el.srcObject = stream;
-          void el.play().catch(() => undefined);
+          void el.play().then(() => {
+            setPlaybackBlocked(false);
+          }).catch(() => {
+            setPlaybackBlocked(true);
+            setError('Audio playback was blocked by the browser. Tap Enable audio to hear your tutor.');
+          });
         }
         levelCleanups.current.push(monitorAudioLevel(stream, setAssistantSpeaking));
       },
@@ -122,8 +137,23 @@ export function useLiveSession(): UseLiveSessionResult {
     await session.start();
   }, [backendUrl, teardownLevels]);
 
+  const enableAudio = useCallback(async () => {
+    const el = audioRef.current;
+    if (!el) return;
+    try {
+      await el.play();
+      setPlaybackBlocked(false);
+      setError(null);
+    } catch {
+      setPlaybackBlocked(true);
+      setError('Audio is still blocked. Check your iPhone audio settings and try again.');
+    }
+  }, []);
+
   const stop = useCallback(async () => {
     teardownLevels();
+    setPlaybackBlocked(false);
+    if (audioRef.current) audioRef.current.srcObject = null;
     await sessionRef.current?.stop().catch(() => undefined);
     sessionRef.current = null;
   }, [teardownLevels]);
@@ -136,6 +166,8 @@ export function useLiveSession(): UseLiveSessionResult {
     assistantSpeaking,
     userSpeaking,
     backendConfigured: backendUrl.length > 0,
+    playbackBlocked,
+    enableAudio,
     audioRef,
     start,
     stop,
