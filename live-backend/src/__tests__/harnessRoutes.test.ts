@@ -5,6 +5,7 @@ import { createApp, createHarnessDeps } from '../server';
 import { SessionRegistry } from '../sessions';
 import { FakeWs } from './fakes';
 
+const mintedTokens = new Map<string, string>();
 const OFFER_SDP = 'v=0\r\no=- 1 1 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111\r\n';
 
 interface TestServer {
@@ -58,7 +59,7 @@ async function postJson(
 ): Promise<{ status: number; body: unknown }> {
   const res = await fetch(`${baseUrl}${path}`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json' },
+    headers: { 'content-type': 'application/json', ...(/\/api\/live\/session\/([^/]+)\/(tools|close)$/.exec(path) ? { authorization: `Bearer ${mintedTokens.get(path.split('/')[4]) ?? ''}` } : {}) },
     body: JSON.stringify(body),
   });
   return { status: res.status, body: await res.json().catch(() => null) };
@@ -67,13 +68,16 @@ async function postJson(
 async function mint(baseUrl: string, extra: Record<string, unknown> = {}): Promise<string> {
   const { status, body } = await postJson(baseUrl, '/api/live/session', { sdp: OFFER_SDP, ...extra });
   expect(status).toBe(201);
-  return (body as { session: { id: string } }).session.id;
+  const session = (body as { session: { id: string; accessToken: string } }).session;
+  mintedTokens.set(session.id, session.accessToken);
+  return session.id;
 }
 
 let servers: TestServer[] = [];
 afterEach(async () => {
   await Promise.all(servers.map((s) => s.stop()));
   servers = [];
+  mintedTokens.clear();
 });
 
 describe('harness HTTP surface', () => {
@@ -81,7 +85,7 @@ describe('harness HTTP surface', () => {
     const s = await startServer();
     servers.push(s);
     const id = await mint(s.baseUrl, { learnerId: 'learner-1' });
-    const res = await fetch(`${s.baseUrl}/api/live/session/${id}/context`);
+    const res = await fetch(`${s.baseUrl}/api/live/session/${id}/context`, { headers: { authorization: `Bearer ${mintedTokens.get(id)}` } });
     expect(res.status).toBe(200);
     const ctx = (await res.json()) as { sessionId: string; objective: { id: string }; rendered: string; turn: number; status: string };
     expect(ctx.sessionId).toBe(id);
@@ -93,7 +97,7 @@ describe('harness HTTP surface', () => {
     const s = await startServer();
     servers.push(s);
     const res = await fetch(`${s.baseUrl}/api/live/session/nope/context`);
-    expect(res.status).toBe(404);
+    expect(res.status).toBe(401);
   });
 
   it('POST /tools dispatches commit_teaching_decision end to end', async () => {
@@ -108,7 +112,7 @@ describe('harness HTTP surface', () => {
     expect((r.body as { ok: boolean }).ok).toBe(true);
     expect((r.body as { result: { turn: number } }).result.turn).toBe(1);
     // context reflects the committed move
-    const ctxRes = await fetch(`${s.baseUrl}/api/live/session/${id}/context`);
+    const ctxRes = await fetch(`${s.baseUrl}/api/live/session/${id}/context`, { headers: { authorization: `Bearer ${mintedTokens.get(id)}` } });
     const ctx = (await ctxRes.json()) as { turn: number; concepts: { id: string; status: string }[] };
     expect(ctx.turn).toBe(1);
     expect(ctx.concepts.find((c) => c.id === 'es-copula')?.status).toBe('in_progress');
@@ -139,14 +143,14 @@ describe('harness HTTP surface', () => {
       tool: 'get_learning_context',
       input: {},
     });
-    expect(r.status).toBe(404);
+    expect(r.status).toBe(401);
   });
 
   it('mint accepts an explicit starting objective', async () => {
     const s = await startServer();
     servers.push(s);
     const id = await mint(s.baseUrl, { objectiveId: 'es-obj-quiero' });
-    const res = await fetch(`${s.baseUrl}/api/live/session/${id}/context`);
+    const res = await fetch(`${s.baseUrl}/api/live/session/${id}/context`, { headers: { authorization: `Bearer ${mintedTokens.get(id)}` } });
     const ctx = (await res.json()) as { sessionId: string; objective: { id: string }; rendered: string; turn: number; status: string };
     expect(ctx.objective.id).toBe('es-obj-quiero');
   });
@@ -157,8 +161,7 @@ describe('harness HTTP surface', () => {
     const id = await mint(s.baseUrl);
     const close = await postJson(s.baseUrl, `/api/live/session/${id}/close`, {});
     expect(close.status).toBe(200);
-    const res = await fetch(`${s.baseUrl}/api/live/session/${id}/context`);
-    const ctx = (await res.json()) as { sessionId: string; objective: { id: string }; rendered: string; turn: number; status: string };
-    expect(ctx.status).toBe('abandoned');
+    const res = await fetch(`${s.baseUrl}/api/live/session/${id}/context`, { headers: { authorization: `Bearer ${mintedTokens.get(id)}` } });
+    expect(res.status).toBe(401); // closed sessions immediately revoke their bearer capability
   });
 });

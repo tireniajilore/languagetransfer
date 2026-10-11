@@ -6,6 +6,7 @@ import { createApp } from '../server';
 import { SessionRegistry } from '../sessions';
 import { FakeWs } from './fakes';
 
+const mintedTokens = new Map<string, string>();
 const OFFER_SDP = 'v=0\r\no=- 1 1 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111\r\n';
 
 interface TestServer {
@@ -73,10 +74,15 @@ interface HttpResult {
 async function postJson(baseUrl: string, path: string, body: unknown, headers: Record<string, string> = {}): Promise<HttpResult> {
   const res = await fetch(`${baseUrl}${path}`, {
     method: 'POST',
-    headers: { 'content-type': 'application/json', ...headers },
+    headers: { 'content-type': 'application/json', ...(/\/api\/live\/session\/([^/]+)\/(close|tools)$/.exec(path) ? { authorization: `Bearer ${mintedTokens.get(path.split('/')[4]) ?? ''}` } : {}), ...headers },
     body: typeof body === 'string' ? body : JSON.stringify(body),
   });
-  return { statusCode: res.status, body: await res.json().catch(() => null) };
+  const data = await res.json().catch(() => null);
+  if (path === '/api/live/session' && res.ok && data && typeof data === 'object') {
+    const result = data as { session?: { id?: string; accessToken?: string } };
+    if (result.session?.id && result.session.accessToken) mintedTokens.set(result.session.id, result.session.accessToken);
+  }
+  return { statusCode: res.status, body: data };
 }
 
 async function waitFor(cond: () => boolean, timeoutMs = 2_000): Promise<void> {
@@ -91,6 +97,7 @@ let servers: TestServer[] = [];
 afterEach(async () => {
   await Promise.all(servers.map((s) => s.stop()));
   servers = [];
+  mintedTokens.clear();
 });
 
 describe('live-backend HTTP surface', () => {
@@ -143,7 +150,7 @@ describe('live-backend HTTP surface', () => {
     const res = await postJson(s.baseUrl, '/api/live/session', { sdp: OFFER_SDP });
     expect(res.statusCode).toBe(201);
     expect(res.body).toEqual({
-      session: { id: 'live_1' },
+      session: { id: 'live_1', accessToken: expect.any(String) },
       transport: { type: 'webrtc', sdp: 'v=0\r\nanswer' },
     });
     // Sideband attached immediately after creation, with the project key.
@@ -236,15 +243,15 @@ describe('live-backend HTTP surface', () => {
 
     // Second close: idempotent 404 (session already gone).
     const again = await postJson(s.baseUrl, `/api/live/session/${id}/close`, {});
-    expect(again.statusCode).toBe(404);
+    expect(again.statusCode).toBe(401);
   });
 
   it('closing an unknown session returns 404', async () => {
     const s = await startServer();
     servers.push(s);
     const res = await postJson(s.baseUrl, '/api/live/session/live_unknown/close', {});
-    expect(res.statusCode).toBe(404);
-    expect(res.body).toEqual({ error: 'unknown_session' });
+    expect(res.statusCode).toBe(401);
+    expect(res.body).toEqual({ error: 'unauthorized_session' });
   });
 
   it('unknown routes return 404 JSON', async () => {

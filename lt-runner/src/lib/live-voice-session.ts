@@ -120,6 +120,7 @@ export class LiveVoiceSession {
   private dataChannel: RTCDataChannel | null = null;
   private micStream: MediaStream | null = null;
   private sessionId: string | null = null;
+  private accessToken: string | null = null;
   private intentionalStop = false;
   private retryCount = 0;
   private entries: TranscriptEntry[] = [];
@@ -172,17 +173,20 @@ export class LiveVoiceSession {
   async stop(): Promise<void> {
     this.intentionalStop = true;
     const id = this.sessionId;
+    const token = this.accessToken;
     this.setState('closed');
     this.teardownPeerConnection();
     if (id) {
       try {
         await this.opts.fetchFn(`${this.opts.backendUrl}/api/live/session/${encodeURIComponent(id)}/close`, {
           method: 'POST',
+          headers: token ? { authorization: `Bearer ${token}` } : {},
         });
       } catch {
         // Best effort: the backend expires orphaned sessions server-side.
       }
       this.sessionId = null;
+      this.accessToken = null;
     }
   }
 
@@ -236,15 +240,16 @@ export class LiveVoiceSession {
         throw new MintError(res.status, detail);
       }
       const payload = (await res.json()) as {
-        session?: { id?: string };
+        session?: { id?: string; accessToken?: string };
         transport?: { sdp?: string };
       };
       const sessionId = payload.session?.id;
       const answerSdp = payload.transport?.sdp;
-      if (!sessionId || !answerSdp) {
+      if (!sessionId || !answerSdp || !payload.session?.accessToken) {
         throw new Error('backend returned a malformed session response');
       }
       this.sessionId = sessionId;
+      this.accessToken = payload.session.accessToken;
       await pc.setRemoteDescription({ type: 'answer', sdp: answerSdp });
       // SDP exchange is not a working call: wait until ICE/DTLS actually
       // connects before claiming 'connected', so the UI never shows a live
@@ -299,13 +304,16 @@ export class LiveVoiceSession {
     if (this.intentionalStop) return;
     if (this.state === 'reconnecting') return;
     const oldId = this.sessionId;
+    const oldToken = this.accessToken;
     this.sessionId = null;
+    this.accessToken = null;
     this.teardownPeerConnection();
     // Best effort: release the orphaned backend session; it expires server-side anyway.
     if (oldId) {
       void this.opts
         .fetchFn(`${this.opts.backendUrl}/api/live/session/${encodeURIComponent(oldId)}/close`, {
           method: 'POST',
+          headers: oldToken ? { authorization: `Bearer ${oldToken}` } : {},
         })
         .catch(() => undefined);
     }
