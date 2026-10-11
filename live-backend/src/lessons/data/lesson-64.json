@@ -1,0 +1,889 @@
+{
+  "lesson_number": 64,
+  "title": "Lesson 64",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was to do or to make in Spanish?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hacer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hacer. Good. How would you say it does or it makes?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hace"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hace. Good. Now hace, you can use like ago. Like in English when you say two weeks ago, you can say it makes two weeks in Spanish, and you get that meaning. So week is semana. Two is - do you remember two?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dos. So two weeks ago, you will say it makes two weeks:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hace dos semanas."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hace dos semanas. I saw him two weeks ago:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo vi hace dos semanas."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Lo vi hace dos semanas. Good. To respond is responder. Responder. How would you say I responded?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Respondí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Respondí. How would you say I responded to her?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La respondí Le. Le respondí."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Le respondí. I responded to her. I responded to her seven weeks ago. Do you remember how to say seven? Related to September:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Siete"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Siete. Good. So I responded to her seven weeks ago:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Le respondí hace siete semanas."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Le respondí hace siete semanas. Now in Spanish, you can say I responded her it. For example, I responded to her letter or I responded to her mail. Instead of saying it this way, to her mail, in Spanish you can just say I responded him the mail. I responded her the mail. Or if you know what you are talking about, I responded him it. I responded her it. This is because, and something we’ll look at again later, Spanish does not use possessive words as much as English does. So, it would be much more natural in Spanish, I responded her the mail. I responded him the, which isn’t mail, instead of I responded to her mail. So how would you say I responded her it great English, but it’s perfect Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo respondí."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Se lo respondí. So the se is actually le, to her. The lo is el mail and you get se lo respondí. I responded to her the mail. Good. Month is mes. Mes. M-e-s.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Mes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It’s a masculine word, so how would you say the month?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "El mes."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, and how would you say a month or one month?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Un mes."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Un mes. So un mes can be a month or one month. So how would you say I responded it to her one month ago? I responded to her mail, I responded her it one month ago:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo respondí hace un mes."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Se lo respondí hace un mes. Good. So we have respondí. I responded. How would you say he, she, it, you (formal) responded?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Respondió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Respondió. And we responded:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Respondimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Respondimos. So respondí, respondió, respondimos. Let’s make a quick recap with an - ar verb. How would you say discrimination?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Descriminación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Again?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Descriminación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "In English we say discrimination or descrimination?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Oh, it’s with an i, yeah."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It’s with an i, right?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "discriminación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Discriminación. To discriminate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Discriminar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Discriminar. I discriminated:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Discriminé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Discriminé. He, or she, or it, you (formal) discriminated:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Discriminó"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And we discriminated:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Discriminamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So we have two more people to learn for the point in the past. They and you informal. Let’s begin with you informal. For you informal, in the point in the past we have - aste for - ar verbs and - iste for -er/-ir verbs. - aste for - ar verbs and - iste for -er/-ir verbs. So how would you say you spoke, speaking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaste. And you ate, speaking informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comiste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Comiste. Did you eat?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comiste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Comiste?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No comiste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ No comiste?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No lo comiste?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ No lo comiste? Good. What was to leave or to go out?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Salir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salir. How would you say did you go out? Did you leave?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Saliste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Saliste? Good. is anoche. Anoche.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Anoche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Now if you translate tonight directly, what you will come up with is anoche. So you must be careful not to get confused here. How do you say tonight in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esta noche."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esta noche anoche is last night, not tonight. So how would you say did you go out last night (speaking informally)?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Saliste anoche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Saliste anoche?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No saliste anoche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ No saliste anoche? What was to live?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vivir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vivir. And how do you say where?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Donde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Donde. Where did you live?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde viviste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Dónde viviste? Where were you living?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dónde vivías?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Dónde vivías? So in many cases both line and point are perfectly fine. ¿ Dónde viviste? ¿ Dónde vivías? All that means is that the speaker has two different ideas in their mind. Maybe you go abroad to study and I’ll tell you ¿ dónde viviste? Or maybe I’ll tell you ¿ dónde vivías? ¿Dónde viviste? Where did you live? And this idea in my mind which is this closed amount of time. Where were you living? just means the idea in my mind is an ongoing idea of time. So many times it is completely interchangeable. What was to wait?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esperar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esperar. Esperar. So for you informal, we have -aste for the point in the past. So how would you say you waited, speaking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esperaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esperaste. Good. Did you wait for me?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me esperaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Me esperaste?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No me esperaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": ":",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Por qué no me esperaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Por qúe no me esperaste? What was to arrive?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Llegar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Llegar. Good. How do you say when did you arrive? When did you arrive? (informally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuándo llegaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Cuándo llegaste? This is an example of when you would need the point, because you probably wouldn’t want to say, no? So here’s very strongly the point in when were you arriving time. When did you arrive? ¿ Cuándo llegaste? So we have -aste and -iste for you informal. For they, we have -aron for -ar verbs and - ieron for -er/-ir verbs. So, how would you say they spoke? They spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaron. They waited:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esperaron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. They prepared it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo prepararon."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo prepararon. Good. We have -aron for -ar verbs and -ieron, i-e-r-o-n, for -er/-ir verbs. How would you say they ate?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comieron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comieron. They left, they went out:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Salieron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salieron. They sold them:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Los vendieron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Los vendieron with hablar and comer which we might want to use as our hooks. So we’ll begin with hablar. How do you say I spoke?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablé. He spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habló"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Habló. We spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablamos. You spoke (informal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaste. And they spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaron. Good. Hablé, habló, hablamos, hablaste, hablaron. Now let’s do the same for comer, so for -er/-ir verbs. How do you say I ate?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comí. He, she, it, you (formal) ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comió. We ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That’s the present.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comimos. Good. You ate (informally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comiste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comiste. And they ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comieron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comieron -er/-ir verbs in the present, we had / e / popping up everywhere. Vive, viven, vives and just one / i /. Just one / i / sound. Just one i popping up, vivimos. But everything else was / e / for -er/-ir verbs in the present, but in the past for -er/-ir verbs we have i dominating the stage. We have the i, / i / sound everywhere and this time the letter e, the / e / sound, occupying only one space. Popping up in only one place which is -ieron. Comí, comió, comiste, comimos, comieron which is the exact inverse of what happens in the present tense. We, can see also a logic that crosses over between the - ar group and the -er/-ir group. For example, we have I spoke, how is it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablé. And he spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habló"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Habló. We saw the -er/-ir in this past point has a special affiliation to the / i / sound, the i, the letter i. So whilst we have hablé for -ar verbs, for -er/-ir verbs what do we have? How would we say I ate?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comí. And whilst we have habló for - ar verbs, what do we have for -er/-ir verbs? How would you say he ate?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comió -ar version, but with that important / i / popping up again. We have, for we spoke, what do we have?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablamos. And for we ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comimos. That important / i /, the i, the / i / sound again. For you (informal) spoke, what do we have?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaste. But you ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comiste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comiste. You remembered the importance of that i. Comiste. They spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaron. And they ate:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comieron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comieron. Again that important i and that e getting just one small look in, in that dot in the past to remind us that this is -er/-ir group, not just - ir. Just as what happened the other way around in the present. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

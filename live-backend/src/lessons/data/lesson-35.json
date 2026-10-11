@@ -1,0 +1,313 @@
+{
+  "lesson_number": 35,
+  "title": "Lesson 35",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "So going back to ser and estar, and the difference between ser and estar, how would you say sincerity in Spanish? Sincerity:",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "sinceridad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It is. Sinceridad. So if you had to guess, what is sincere in Spanish, what would you guess?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sencero."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sincero.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sincero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sincero. Good. So there's no rule for this, but if we have sincerity becoming sinceridad, we can guess that sincere will be very similar in Spanish and we can play around and try to find it. Sincero. Good. So do you think to be sincere is a state or a characteristic?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "It can be both, depending on the situation."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Indeed, but if you look at the concept, the concept of sincere - because this is how Spanish decides it - the concept of sincere, is it a state or a characteristic to be sincere?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Well if it's, generally it's a characteristic, but if someone, we're talking about that moment that someone is saying something, then in that moment, they're being, they're in that state of being sincere."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You're right, and our usage, and that's what we're going to look at now, can get around that, but Spanish is not looking at the use. It's looking just at the concept by itself, so sincerity, is it a characteristic or is it a state?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "It's a characteristic."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So, it goes with ser. So if you want to say, I am sincere, how would you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Soy sincero sincera"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Soy sincera. Good. And we are sincere:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Somos sinceras"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "sinceros"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. But, as you correctly said, you might want to say, I am being sincere now. So to give the meaning of I am being sincere, you will say, very literally, I am being sincere. How would you say that? I am being sincere:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ser is to be, in this case because it refers to sincero, so how would you make that - ing? Vender, vendiendo. Ser:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy siendo sincero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Or in your case it would be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sincera"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estoy siendo sincera. Or estoy siendo sincero. Honest in Spanish is honesto. Honesto. So how would you say, we are being honest?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estamos siendo honestos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estamos siendo honestos. So to be honest, as an idea, is characteristic. But this doesn't restrict us in Spanish of course, if you want to say we are being honest, we can do that in exactly the same way as we do in English. We are: estamos, being: siendo, our characteristic to be: honestos. Estamos siendo honestos. Good! Salir is to go out or to leave. Salir. To go out or to leave, and it's irregular in that the I version is not “salo” but, you remember how it was?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Salgo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salgo. Good. Salgo. I leave or I go out. Good. Soon, soon in Spanish is pronto. So you can say, I am leaving soon. Is soon right now?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No. So how would you say, I am leaving soon?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Salgo pronto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Salgo pronto. And how would you say, I am leaving tomorrow?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Salgo mañana"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Salgo mañana. But if you want to say, I am leaving right now, and you mean this moment?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy saliendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy saliendo. So we need to resist the temptation of the negative language transfer from English which will make us want to put - ing in many places where we don't put it in Spanish, which is why we are giving usually in the present tense both translations: I wait, I am waiting; I sell, I am selling. To buy was comprar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comprar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I buy them, or I'm buying them. How would that be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Los compro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Los compro. Good. I am buying them tomorrow:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Los compro mañana"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. I am buying them next week. Next week is the week that comes. La semana is the week. What is to come?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Venir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say the week that comes? La semana que:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Viene"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So I'm buying them next week, I'm buying them the week that comes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Los compro la semana que viene"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Los compro la semana que viene. So again, here we would use - ing in English, I am buying them next week, but we want to resist that temptation in Spanish. Los compro la semana que viene. If you wanted to say right now: so maybe you get a phone call and somebody asks you, have you bought them yet? And you say, I am buying them now, how would you say that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy comprándolos ahora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, good. I am buying them now. Los estoy comprando ahora, estoy comprándolos ahora.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

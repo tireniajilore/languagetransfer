@@ -1,0 +1,302 @@
+{
+  "lesson_number": 13,
+  "title": "Using Hacer and Verb Conjugations",
+  "description": "Learn to use the verb 'hacer' and understand Spanish verb conjugations for different subjects.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "To do or to make in Spanish is hacer. It has a silent h, spelled h-a-c-e-r. In most of the Spanish-speaking world, it's pronounced ha/s/er. What is the verb ending?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "-er"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "-er verb. Whenever we come across a new verb, note the ending. If we know it's an -er verb, we know how to work with it. How would you say 'he's doing' or 'she's making'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hace"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hace. Good. How would you say 'you're doing it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo hace"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo hace. How would you say 'they're doing it' or 'you guys are doing it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo hacen"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo hacen. For informal 'you', we add an 's'. How do you say 'you're doing it' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo haces"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo haces. Good. The word for 'what' in Spanish is 'qué'. How do you say 'what are you doing'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "qué haces"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Qué haces? This can also mean 'how are you' or 'what are you up to'. For -ar verbs, we add 'n' for 'they' or 'you (plural)', and 's' for informal 'you'. For -er/-ir verbs, we add 's' for informal 'you', 'n' for 'they', 'you (plural)'.",
+      "is_feedback": true
+    },
+    {
+      "speaker": "tutor",
+      "text": "Puedo in Spanish means 'I can' or 'I am able'. How would you say 'he can' or 'she can'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "puede"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Puede. And informally, 'you can'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "puedes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Puedes. How would you say 'can you come?' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿puedes venir?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Puedes venir? How about 'can't you come?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿no puedes venir?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿No puedes venir? Why can't you come?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿por qué no puedes venir?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Por qué no puedes venir? I want to know why you can't come.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber por qué no puedes venir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero saber por qué no puedes venir. Well done. Let's recap: for -ar verbs, we remove the ending for 'I' and add 'o'. For -er/-ir verbs, we do the same. Vender is 'to sell', and 'I sell' is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vendo. Comprar is 'to buy', and 'I buy' is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "compro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Compro. Llegar is 'to arrive', and 'I arrive' is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "llego"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Llego. Some verbs are irregular, like salir, which means 'to leave'. If we apply the rule, we might say 'salo', but it's actually 'salgo'.",
+      "is_feedback": true
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esperar means 'to wait' or 'to hope'. How do you say 'I wait' or 'I hope'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "espero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Espero. How do you say 'he waits'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "espera"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Espera. How do you say 'they wait'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "esperan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esperan. If you want to say 'they're waiting for me', you say 'me esperan'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "me esperan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me esperan. How do you say 'they're not waiting for me'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no me esperan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No me esperan. I want to know why they're not waiting for me.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber por qué no me esperan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero saber por qué no me esperan. Well done. Words ending in -ary become -ario in Spanish. For example, 'necessary' becomes 'necesario'.",
+      "is_feedback": true
+    },
+    {
+      "speaker": "tutor",
+      "text": "How do you say 'contrary'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "contrario"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Contrario. Good.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to use the verb 'hacer' and understand verb conjugations for different subjects."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try using 'hacer' in different sentences. How would you say 'we are making it' or 'they are doing it'?",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Practice these conjugations with other verbs you know. The more you use them, the more natural they'll become."
+    }
+  ]
+}

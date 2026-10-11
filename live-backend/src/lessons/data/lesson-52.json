@@ -1,0 +1,661 @@
+{
+  "lesson_number": 52,
+  "title": "Lesson 52",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "Para, this for, para, can also mean in order to, in order to. So in a sentence, for example, We have spoken in order to resolve it. We have spoken in order to resolve it. Now in English we could just, no? We don’t need to say say We have spoken to resolve it in order to. But whenever we have this to meaning in order to, we want to translate this as para in Spanish. So let’s make this sentence. First bit is We have spoken. We have spoken:",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hemos hablado."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hemos hablado. To resolve it – in order to resolve it. Now, to resolve is resolver. Ah? The same word, resolver. So We have spoken in order to resolve it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hemos hablado para resolverlo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Hemos hablado para resolverlo. Good. So whilst the to of to resolve, resolver, would fit nicely here, I mean if we were to translate directly from English, We have spoken to resolve it, it doesn’t work in Spanish. Whenever this to means in order to, we must put that para. Hemos hablado para resolverlo. You could say We have spoken in order to try to resolve it. What was to try? Related to intention:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Intentar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. We have spoken in order to try to resolve it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hemos hablado para intentar resolvar– resolverlo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Hemos hablado para intentar resolverlo. So only when the to implies in order to we want. The “to” to put para form of the verb in Spanish is not enough to include that meaning. We must I’m here to see you I’m here in order put para. So for example, if you want to say, does it mean to see you?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Yes."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So I am here to see you (informally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy aquí para verte."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estoy aquí para verte. This is also something we could learn or interiorize through the negative language transfer that some Spanish speakers make when they speak English. For example, you might hear a Spanish speaker say I am here for see you or for seeing you. You might hear a Spanish speaker, especially with basic English, making this mistake. Now once you’ve heard that a few times, you would say, “Oh, maybe this is how you say it in Spanish.” So we don’t want to forget this opportunity, the opportunity to learn from the negative language transfer, the mistakes that Spanish speakers make in English, which originate from Spanish. Once you hear the same mistake a few times, you can assume it probably comes from Spanish. I have called you in order to speak about it: so the first bit is I have called you, I have phoned, I have called (informally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He llamado Te he llamado."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "In order to speak about it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para hablarlo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "We don’t use about."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No. Good. Te he llamado para hablarlo. So if we take the sentence in English, I have called you to speak about it, and we translate it directly, then we will say Te he llamado hablarlo. But when our to means in order to, we must put this para. Te he llamado para hablarlo. I have called you in order to speak about it. Good. What was to be, for states?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estar. And we said that we can use this to express when we are doing something right now. We can say, instead of I eat, como, I am eating, using this structure with estar and then the - ing form of the verb. Do you remember how you would get the - ing form of comer, for example? Of – er or – ir verbs?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comiendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comiendo.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comiendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Comiendo. So we add on - iendo for verbs and for – ar verbs we add on?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "- ando."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say I am eating?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy comiendo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy comiendo. And this means right now, no? I am speaking:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy hablando."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy hablando. I am explaining it: to explain – we would go from explanation but explanation is an exception. It’s not “explanación” in Spanish as we might hope, it’s explicación. And we see we even have that / k / sound in explain, explicación, we have it in English as well in inexplicable, for example we say in English. Inexplicable in Spanish. So we can see where that sound’s coming from. So how is explanation or explication in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Explicación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And to explain:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Explicar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Explicar. Good. So and you mean right now?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy explicándolo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy explicándolo. Lo estoy explicando. The lo can go on the end of a “to” form, but it can also go on the end of one of these - ando or - iendo forms as well. So you have the option. Lo estoy explicando. Estoy explicándolo. And you mean right now. Actually in explicar, we get this - plicar from “plicare“ that we mentioned before, meaning to fold in Latin. So explicar, to I’m taking a Spanish course. Even if you’re not in the explain, to unfold. You might want to say course right now in this moment, when we are taking a course, in our minds there’s a period of I’m time in which we are taking a course and when we say it we’re in that period of time. If I say, maybe I mean for three months and I’m in that period. Do you remember taking a Spanish course what to take was? We used it with to take a photo. Tomar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tomar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tomar. So tomar is to take. So I am taking:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy tomando."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estoy tomando. A course",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Una corsa?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Close. It’s not with, it’s with a o.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Un corso."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Un curso, with a u. Un curso. Good. Of Spanish, this is how you would say a Spanish course, a course of Spanish.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Un curso de español."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Estoy tomando un curso de español. Good. Now, what if we put this estoy in the past tense that we learnt? The past tense that is - aba or - ía. I was taking a Spanish course:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estar, estaba."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estaba tomando un curso de español."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estaba tomando un curso de español. Which means we actually have two ways of saying I was taking. We can say estaba tomando or we can just use tomar and use that line in the past. How would that sound?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tomaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. So both tomaba and estaba tomando mean I was taking. So you have that option. Estaba tomando un curso de español or tomaba un curso de español. What was to eat?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comer. How would you say I was eating?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comía. Or? How else could you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estaba comiendo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So you have this option. Comía or estaba comiendo sometimes one might fit slightly better than the other and it’s something you will pick up very naturally when you’re practicing. So if in one situation people tend to use estaba comiendo rather than comía, you will pick it up. So we have - ando and - iendo to form this - ing. And we saw in Spanish that we don’t use it after prepositions. You don’t use this - ing either if you say something. You don’t use the - like swimming is healthy or running is healthy ing there either. You will just say to run is healthy, to swim is healthy. If you hear people toast in Spanish you might hear them say salud, which means health. Healthy is saludable. To dance is healthy:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Bailar es saludable."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Bailar es saludable. Good. To swim is nadar. Nadar. To swim is healthy:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nadar es saludable."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nadar es saludable. So we’re seeing that we don’t use the - ing in Spanish as much as we do in English. Sometimes in English we make an adjective with - ing. We go from to interest to interesting. When we do this in English, this - ing that we use in English to form an adjective, in Spanish it’s - –er/-ir ante for – ar verbs and - iente for verbs. So for example, we have to interest, what was to interest?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Interesar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Interesar. So if you get rid of - ar and you put - ante, you get that - ing adjective, interesting. So how would you say interesting?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Interesante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Interesante. Good. So when you make an adjective with - ing in English from the verb, you can just replace it with - ante or - iente. How would you say to irritate in Spanish? And you can go from irritation:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Irritación. Irritar."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Irritar. So if you want to say irritating:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Irritante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Irritante. It is irritating:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es irritante."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Es irritante. Good. How would you say to frustrate in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Frustación Frustar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Frustrar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Frustrar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes, because you have the two r's, no? Frustrate. Frustrate, Frustrar. Frustrating:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Frustrante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Frustrante. Good. To wane, to wane, to reduce in size, in Spanish this is menguar. Menguar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Menguar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "When the moon gets smaller, it’s waning. And the moon is la luna.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La luna."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La luna. So how would you say the waning moon?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La luna menguante."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So there we’re making waning like an adjective, not like the verb, not menguando. Ah? Menguante, la luna menguante. Luna is an interesting word. I don’t know if you ever noticed, like, in English Monday is “moon day”. It’s not very obvious in English that the days of the week relate back to the planets. But in Spanish it’s very obvious. You have la luna, the moon, and then you have lunes, Monday. Tuesday is martes. And Mars is marte, planeta marte. Wednesday in Spanish is miércoles. What planet does that sound like?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Mercury."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. Jueves in Spanish is spelt with a j:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Jupiter."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Jupiter. Viernes is Friday:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Venus."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Venus. So you can see much clearer there how our days of the week are named after planets. To live was vivir. V-i-v-i-r. So vivir is to live.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vivir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. We have two “to be”s, we have estar for states, and for characteristics we have?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ser"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ser. And we said that un ser, un ser, means a being, that we can use ser like a noun and we get a being. So a human being is?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Un ser humano."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Un ser humano. You could also say a living being, a living being:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Un ser vivir."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "How do you get this –",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vivo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You could say un ser vivo. Vivo is also like an adjective, which means alive. But living is adjective –er/-ir that we make with - ing. We can build it from vivir. For – ar verbs we have - ante and for verbs we have - iente.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Un ser viviente."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Un ser viviente. A living being. What was to go out or to leave?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Voy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "To go out or to leave to r.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "salir Salir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salir. Now we have in English, you might have heard, salient, which means kind of protruding or outstanding, or something that stands out or sticks out or protrudes. This is a Latin-English version of this - ante /- iente rule. So we can see it even in English. How would salient be in Spanish? You can go from salient or you can go from salir.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Saliente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Saliente. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

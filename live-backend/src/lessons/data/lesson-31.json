@@ -1,0 +1,361 @@
+{
+  "lesson_number": 31,
+  "title": "Lesson 31",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "We spoke about how we have two verbs for to be in Spanish, estar and ser. And we practiced with estar, which is the verb that we use for states. And we said that the word state is related to estar. Actually, it's like the same word. What looks most different there between state and estar is that / eh / that you get at the beginning of estar. But you will find this actually with words that start st-, sp-, s- and consonant. You can't begin a word like this in Spanish, where you can in English. So, actually, you will find many words between English and Spanish that get like an extra e at the beginning in Spanish. For example, the word Spanish in Spanish is Español. Or Spain, which is España. Student - estudiante. School - escuela. There you have the o splitting of school to ue. Escuela. Special - especial. Spatial:",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Espacial"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Espacial. Strict: how do you think you might say strict, if it's the same word in English and Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estricto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estricto. Good. Spectacular. It's the same word as well.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Espectacular"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Espectacular. So this is the difference that we see between state and estar. So we said that estar we use with what we will consider states of being. Now with what we consider characteristics of being, we will use ser. And we said that ser, all by itself, means being. Un ser is a being. Un ser humano is a human being. Here, humano is acting like an adjective, so it's coming afterwards. But it could also be a noun. We can say the human. How would that be? The human:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "El humano"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "El humano. And there it's a noun. But el ser humano, there it's an adjective. So I am, from ser, is soy. Soy.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Soy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So like estoy from estar, it ends o-y. There are just four verbs in the whole spanish language that use oy instead of o, for I. Voy, doy from dar, to give, doy, I am giving, and then estoy and soy. So we said that student is estudiante. So if you wanted to say I am a student:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Soy estudiante"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Soy estudiante. It is or she is, he is, you are, to usted. We learned it already, but we didn't learn that it was from ser. How would you say It is possible?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es posible"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Es posible. Good. So we have es. Es is from ser. Now, ser is more irregular than estar. Doesn't look like es is from ser, not too much. And then we had they are, or you guys are. What was that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Son"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Son. Good. So, we've got three of the versions now. Soy, son, and es. We can take son and we can work out the \"we\" form from son, working backwards. Now we said that working backwards means taking off the consonant that you know associates to they, then bumping on the ending that associates to we, for example. So, to go from son, they are, to we are. How do you think it will sound?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Somos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Somos. Good. Which leaves one left, which is the you (informal). Which is eres. Eres. E-r-e-s.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Eres"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Eres. So let's make a recap. To be:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ser"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I am:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Soy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Soy. And if you want to use the word for I:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Yo soy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yo soy. He is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Es"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And if you want to use the word for he:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Él es"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And she is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ella es"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "They are:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Son"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Son, and what if you wanted to use the word for they? A nice way to remember they as well, is you can make she plural and you will get the feminine they.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ellas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So they are:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ellos son"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Ellos son, ellas son. Good. You guys are. What is you (formal)?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Usted"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, and you guys is the plural of that:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ustedes"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ustedes. So it's the plural of usted, but it's not necessarily formal. Ustedes. Only in some parts of Spain, which we will talk about later. But everywhere else in the Spanish speaking world, this is just how you refer to you guys. It doesn't sound formal any more when it becomes plural. So how would you say you guys are?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ustedes son"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ustedes son. Good. Then we have we are:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nosotros somos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Somos or nosotros somos, or if we were an all female group?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nosotras somos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nosotras somos. Good. And then we have the you (informal), which is eres, which is probably the weirdest form out of these ones. We can relate it to es maybe, they are similar, es, eres. So how would you say you are, using the word for you?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tú eres"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tú eres. Good. What was the word for how?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cómo. Now if I want to say How is he?, How is he doing? I will use estar. So how would I say, using estar, how is he, how is he doing?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo está"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Cómo está? Good. Now if I want to ask you, what is he like? Maybe you tell me about your new boss or a new friend, and I ask you, what is he like, or what is she like? Am I referring to their state or to their characteristic?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Characteristic."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So how would I ask How is he, what is he like? How is she, what is she like?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo es"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ Cómo es? Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

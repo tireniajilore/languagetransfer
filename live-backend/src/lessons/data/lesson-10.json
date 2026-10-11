@@ -1,0 +1,350 @@
+{
+  "lesson_number": 10,
+  "title": "Verb Conjugation Patterns",
+  "description": "Learn how to form Spanish verbs in the 'to' form and the 'I' form, focusing on regular and some irregular verbs.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "How would you say 'to ventilate'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ventilar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ventilar. Good. How would you say 'to separate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "separar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Separar. Good. Remember, the 'a' is pronounced as in 'apple'. How would you say 'to know'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Saber. Good. And 'to come'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "venir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Venir. Good. Spanish verbs in the 'to' form end in -ar, -er, or -ir. For example, 'to want' is querer. How do you say 'I want'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero. Good. How about 'I owe' or 'I must'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "debo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Debo. Good. And 'I try'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "intento"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Intento. Good. Remember, regular verbs change from -ar, -er, or -ir to -o in the 'I' form. How would you say 'to segregate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "segregar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Segregar. Good. Now, how do you say 'to breathe'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "respirar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Respirar. Good. So, 'to know' is saber. How do you say 'I know'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "sé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sé. Good. 'To come' is venir. How do you say 'I come'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vengo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vengo. Good. Remember, irregular verbs like tener and venir have unique forms. How would you say 'to donate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "donar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Donar. And 'I donate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "dono"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dono. Good. How about 'to create'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "crear"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Crear. And 'I create'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "creo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Creo. Good. 'To eat' is comer. How do you say 'I eat'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "como"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Como. Good. How would you say 'I'm going to eat late'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a comer tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a comer tarde. Good. And 'I'm going to eat tomorrow'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a comer mañana"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a comer mañana. Remember, you can use the present tense with a future context. How would you say 'I eat tomorrow'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "como mañana"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Como mañana. Good. How do you say 'I eat with Pablo tomorrow'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "como con Pablo mañana"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Como con Pablo mañana. Good. How would you say 'I want to have it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero tenerlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero tenerlo. Good. And 'I'm going to have it later'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy a tenerlo más tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Voy a tenerlo más tarde. Good. Remember, 'más' means 'more', so 'más tarde' is 'later'. How would you say 'to obtain'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "obtener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Obtener. Good. And 'to sustain'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "sostener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sostener. Good. How about 'to maintain'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "mantener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Mantener. Good. And 'to entertain'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "entretener"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Entretener. Good. 'I have' is tengo. How would you say 'I come tomorrow'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vengo mañana"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vengo mañana. Very good.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to form Spanish verbs in the 'to' form and the 'I' form, focusing on regular and some irregular verbs."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try forming 'I' forms from other verbs you know, like 'to study' or 'to write'.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Remember, regular verbs change from -ar, -er, or -ir to -o in the 'I' form, and some irregular verbs have unique forms."
+    }
+  ]
+}

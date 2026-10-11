@@ -1,0 +1,355 @@
+{
+  "lesson_number": 5,
+  "title": "Using 'Yo' and Verb Forms",
+  "description": "Learn when to use 'yo' for emphasis and explore verb forms derived from nouns.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "In Spanish, 'quiero' means 'I want' without needing the word for 'I'. The word for 'I' is 'yo', but it's only used for emphasis. How would you say 'I want' with emphasis?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "yo quiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yo quiero. Now, how would you say 'I don't want'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "yo no quiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yo no quiero. Good. How would you say 'I don't want to cancel'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "yo no quiero cancelar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yo no quiero cancelar. Now, how do you say 'celebration'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "celebración"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Celebración. And to celebrate?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "celebrar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Celebrar. How would you say 'I want to celebrate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero celebrar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero celebrar. What does 'quiero ilustrar' mean?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "I want to illustrate"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Correct. 'Ilustrar' means 'to illustrate'. Now, how would you say 'I want to find out'? In Spanish, you say 'I want to inform myself'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero informarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero informarme. How do you say 'information'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "información"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Información. Now, how would you say 'I don't want to oblige you'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiero obligarte"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No quiero obligarte. How would you say 'I want to cancel it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero cancelarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero cancelarlo. Now, let's talk about the Spanish 'r'. An initial 'r' is rolled, like in 'regular'. The word for 'but' is 'pero', and 'dog' is 'perro'. How would you say 'I want to regulate it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero regularlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero regularlo. Let's move to 'salvation'. How do you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "salvación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salvación. And 'to save'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "salvar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salvar. How would you say 'I want to save him'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero salvarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero salvarlo. Now, let's look at 'situation'. How do you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "situación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Situación. And 'to situate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "situar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Situar. Now, 'participation'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "participación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Participación. And 'to participate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "participar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Participar. Remember to break words into syllables to avoid mistakes. How would you say 'creation'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "creación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Creación. And 'to create'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "crear"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Crear. Now, 'to experiment' or 'to experience'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "experimentar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Experimentar. This verb means both 'to experiment' and 'to experience'. How do you say 'difference'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "diferencia"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Diferencia. And 'influence'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "influencia"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Influencia. How about 'existence'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "existencia"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Existencia. And 'consistence'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "consistencia"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Consistencia. Finally, 'inconsistence'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "inconsistencia"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Inconsistencia. Great job!",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to use 'yo' for emphasis and how to form verbs from nouns."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try forming more verbs from nouns you know. Think of 'communication' or 'operation' and convert them to Spanish.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Remember, breaking words into syllables helps avoid mistakes. Practice this technique with new words."
+    },
+    {
+      "type": "narration",
+      "text": "Next time, we'll explore more verb forms and continue building your Spanish vocabulary."
+    }
+  ]
+}

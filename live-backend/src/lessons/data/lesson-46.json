@@ -1,0 +1,517 @@
+{
+  "lesson_number": 46,
+  "title": "Lesson 46",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "In English we have many ways to talk about the past. If you get any random verb like to eat, for example, you can say I ate. You can say I have eaten. You can say I was eating. You can say I used to eat. You can say I would eat an ice cream every week when I was a child, and there you use would to speak about the past in English. I would go to the cinema every day when I was young. So we have many different ways of talking about the past, but we can divide them into three. And in Spanish there are three. We have the I have eaten past, which is the one that we learnt already. I have eaten, with haber. And then the other two pasts we can think of as a line in the past and a dot in the past. So, what would fit into the line in the past is I was eating, I used to eat, I would eat, all of that is ongoing. It’s like a line in the past. But then the dot all the time when I was younger, that’s your dot in the past. Those are what we will consider our in the past is I ate, finished. I ate three different pasts, which all of the different ways of expressing the past in English fit into, and in Spanish we have these three forms. The one we learnt already is I have eaten, for example. First we need to manage the verb to have. What is the verb for to have in this context?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Haber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Haber. Good. So we have haber, and we had a neat trick to find the different versions of haber, as we know it’s very irregular. So what is I have?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And we have:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And what is he/she/it/you (formal) have or has?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ha"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And you, informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Has"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And they have or you guys have:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Han"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So that’s our panorama of haber. And then we need to find eaten. So, the version after haber, we want to think of it in this way, the version of the verb that comes after haber, rather than trying to translate eaten because the version of the verb that comes after have in English is often so different. I have wanted. I have been. Very different. But in Spanish, for – ar verbs we take off - ar and –er/-ir put - ado, and for verbs we take off the - er or - ir and we put - ido. So I have eaten:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He comerido comido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. You’re taking off your ending and putting -. The only times we’re adding onto the “to” ido forms is with the futures, will and would. He comido. I have spoken:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "He hablado. Good. I have danced:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He bailado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. They have danced:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Han bailado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Han bailado. The version that comes after haber: comido, bailado I or for we or for they or for he or she. Always the same. We need to focus on haber to get the correct version of haber, and then we have the version of the verb that comes after it. So he bailado, han bailado, hemos bailado. We can also say more complicated things like I have been able to eat. What is to be able, related to power?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Poder"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Poder. Good. So I have been able, the version that comes after haber. Rather than translating been, so let’s do that first. able, we just want poder after haber I have been able:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He podido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "To eat:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. He podido comer. I have been able to eat.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No he podido comer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No he podido comer. So we can make more interesting structures as well, like this, using haber. We can also put haber in would time, which gives us the opportunity to make some useful structures. What is our sound for would?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "- ía."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So I would have from haber:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habría"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. The / e / fell out. Habría. What was to leave or to go out?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Salir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Salir. So you can say I would have gone out. I would have gone out:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "He saliría"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So you’ve taken the sentence as a block to translate it all together, and then you have this kind of ía’s salad situation where this - coming out in the wrong place. You must take the time to divide it, what’s that? up. I would have is your first bit, and you stop there. I would have",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habería Habría"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Habría habería, habería, habería, habería, habería, it happens very naturally for that e to fall out. It only happens with a few verbs, though. Habría. So I would have gone out:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habría salido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Habría salido. Good. I would have been able to go out. I would have been able to go out:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habría podido salir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Habría podido salir. out:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No habría podido salir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No habría podido salir. Good. So we have this haber that we can use for the past, but then also we can make some other very useful structures out of it, like would have, would have been, etc. So now we’re going to focus on another past in Spanish. We’re going to focus now on able the line in the past. So the line in the past representing I was eating, I used to eat, I would eat all the time, that would that we use for past. All of those are represented by this line in the past. Now, for the pasts – for both pasts, the line and the point – again we are taking off our verb ending before we add on our endings for the past. So we have a verb like hablar, for example, an – ar verb, and we will take off this - ar and we will put - aba, -aba, to get I/he/she/it/you (formal). So again, like in would time, we have I jumping in with he, she, it, and you (formal). So you have hablar, you take off the - ar and you put - aba:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaba. Hablaba. So hablaba means I was speaking, I used to speak, he was speaking, she was speaking, he used to speak, she used to speak, you were speaking, you used to speak, all of this in hablaba. Now you can probably make the other versions. How would you say you were speaking, speaking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablabas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And they or you guys were speaking:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablaban"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablaban. And for the we version, the accent’s going to stay in the same place on - aba. So how would you say we were speaking?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablábamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablábamos. Good. To wait is esperar. Esperar, to wait or to hope.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esperar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So how would you say I was waiting, I used to wait?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esperaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. I was waiting for you for, no? I was awaiting you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te esperaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Te esperaba. What if you were speaking formally? If you were speaking to usted and you wanted to say I was waiting for you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo esperaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Or to a female, it would be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La esperaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So lo and la other than it and he and she can also mean you (formal). We see those are always pairing together – he, she, it, and you (formal). Keeping it formal, speaking to usted, how would you say We were waiting for you?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo esperábamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Lo esperábamos. Very good. And what if you wanted to say We were waiting for you guys?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Los esperábamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Los esperábamos. And of course, this could also mean We were waiting for them. Los esperábamos. To try, related to intent:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Intentar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Intentar. So how would you say I was trying?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Intentaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Intentaba. He was trying:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Intentaba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. What was to find, to encounter?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Encontrar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say They were trying to find it? They were trying to find it: so divide up the thoughts. They were trying, the first bit:? It’s",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Intentaba intentaban"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Encontrarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Intentaban encontrarlo. If you wanted to say They were trying to find it for me, the most natural way of saying this in Spanish is They were trying to find me it. They were trying to find me it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Intentaban encontrármelo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Intentaban encontrármelo. Good. They were trying to find me it. But if you wanted to emphasize They were trying to find me it, then you could say this sentence in the way that we would probably say it in English, which is They were trying to find it for me. Then you could do that in Spanish. You have that option. So how would you say that? They were trying to find it for me, using the word for:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Intentaban encontrarlo para mí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Intentaban encontrarlo para mí. So here we are emphasizing, actually me. But mostly in Spanish we kind of avoid the use of the preposition, as we’ve been noticing. Intentaban encontrármelo.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

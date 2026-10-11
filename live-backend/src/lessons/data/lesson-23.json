@@ -1,0 +1,209 @@
+{
+  "lesson_number": 23,
+  "title": "Haber Forms and Greek-Origin Nouns",
+  "description": "Learn the forms of 'haber' for past constructions and the gender of Greek-origin nouns ending in -ma.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "Let's review the forms of 'haber' used to form the past. Give me 'I have' and 'we have'.",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "he hemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Now give me the rest of the forms.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ha has han"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nouns ending in 'a' are usually feminine, like 'la casa'. But nouns ending in 'ma' are masculine, like 'el problema'.",
+      "is_feedback": true
+    },
+    {
+      "speaker": "tutor",
+      "text": "How would you say 'Have you understood the problem?' using 'comprender' and speaking formally?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ha entendido el problema"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Ha entendido el problema'. Words ending in 'ma' like 'problema' are masculine because they come from Greek. How would you say 'the system'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "el sistema"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "El sistema. How would you say 'Have you understood the system?' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "has entendido el sistema"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Has entendido el sistema'. 'Sentir' means 'to feel'. How would you say 'Have you felt the aroma?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "has sentido el aroma"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Has sentido el aroma'. Remember, words like 'el programa', 'el aroma', 'el panorama', and 'el clima' are masculine. How would you say 'Have you understood the program?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "has entendido el programa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How do you say 'to lose'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "perder"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Perder. How would you say 'I have lost'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "he perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. To emphasize, you can say 'Yo he perdido'. How would you say 'I have got lost'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "me he perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Me he perdido'. To emphasize, you can say 'Yo me he perdido'. How would you say 'You have lost' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "has perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Has perdido'. To emphasize, say 'Tú has perdido'. How would you say 'You have got lost'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "te has perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Te has perdido'. To emphasize, say 'Tú te has perdido'. What is 'we have' from 'haber'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hemos. How would you say 'We have lost it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo hemos perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Lo hemos perdido'. How would you say 'We have lost ourselves'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "nos hemos perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Nos hemos perdido'. To emphasize, say 'Nosotros nos hemos perdido'.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned the forms of 'haber' for past constructions and how to identify masculine nouns ending in -ma."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try using 'haber' with different verbs and practice identifying masculine nouns ending in -ma.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Understanding these patterns will help you avoid common gender mistakes in Spanish."
+    }
+  ]
+}

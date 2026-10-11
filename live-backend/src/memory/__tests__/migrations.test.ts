@@ -11,6 +11,7 @@ import { closePool, rawPool } from './helpers';
 
 const EXPECTED_TABLES = [
   'learners',
+  'lesson_progress',
   'sessions',
   'utterances',
   'evidence',
@@ -27,7 +28,7 @@ describe('runMigrations', () => {
     const pool = rawPool();
     try {
       const ran = await runMigrations(pool);
-      expect(ran).toEqual(['0001_initial_schema']);
+      expect(ran).toEqual(['0001_initial_schema', '0002_lesson_progress']);
 
       const tables = await pool.query(
         `SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'`,
@@ -35,7 +36,7 @@ describe('runMigrations', () => {
       expect(tables.rows.map((r) => r.table_name).sort()).toEqual(EXPECTED_TABLES);
 
       const ledger = await pool.query('SELECT version FROM schema_migrations');
-      expect(ledger.rows.map((r) => r.version)).toEqual(['0001_initial_schema']);
+      expect(ledger.rows.map((r) => r.version)).toEqual(['0001_initial_schema', '0002_lesson_progress']);
     } finally {
       await closePool(pool);
     }
@@ -44,10 +45,10 @@ describe('runMigrations', () => {
   test('re-running is a no-op (idempotent)', async () => {
     const pool = rawPool();
     try {
-      expect(await runMigrations(pool)).toEqual(['0001_initial_schema']);
+      expect(await runMigrations(pool)).toEqual(['0001_initial_schema', '0002_lesson_progress']);
       expect(await runMigrations(pool)).toEqual([]);
       const count = await pool.query('SELECT count(*)::int AS n FROM schema_migrations');
-      expect(count.rows[0].n).toBe(1);
+      expect(count.rows[0].n).toBe(2);
     } finally {
       await closePool(pool);
     }

@@ -1,0 +1,493 @@
+{
+  "lesson_number": 75,
+  "title": "Lesson 75",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was to do or to make?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hacer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hacer. We said that for the informal positive command, we have a shortcut. We find the you. “Hace”. But with version of the verb, haces, and we take away the s hacer we have an irregularity. The informal command for hacer is haz. H-a-z. So in most of Spain, you will hear / hath /. Haz.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Haz"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So if you want to say do it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hazlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hazlo. Good. Another use of the mood tense is to turn words like where into wherever. What was where?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Donde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Donde donde because it’s not a verb. How do you say where you want, where you want, speaking informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Donde quieres"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Donde quieres. Good. Now if we want to say wherever you want, then to get wherever actually we can change the verb to the mood tense and that changes the feeling of where. And then where turns into wherever. So if you want to say wherever you want, still informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Donde queras"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I want to hear well though the i and the e in quieras.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Donde quieras."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Donde quieras. So do it wherever you want:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hazlo donde quieras"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Hazlo donde quieras. What was you like it, still informally? You like it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te gusta"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Te gusta. How would you say do it how you like to do it - so do it how you like. What was the How are you called? What’s your name? word for how?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cómo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cómo. Good. So do it how it pleases you. Do it how you like:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hazlo como te gusta."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Hazlo como te gusta. Do it how you like to. Do it how you like to do it. Now, what if you wanted to give the meaning do it however you like?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hazlo como te guste"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hazlo como te guste. In English we are changing how to however and in Spanish we are changing te gusta to te guste. Hazlo como te guste. How would you say do what you prefer? Do what you prefer. Still informal:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Haz lo que preferes."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefieres"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Haz lo que prefieres. So what we are investigating here is an optional use of the mood tense, no? Because haz lo que prefieres is perfect Spanish. It just means do what you prefer. But if you want to give the meaning do whatever you prefer how will you change that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Haz lo que prefieras."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Haz lo que prefieras. Do whatever you prefer. Eat whatever you prefer. Eat whatever you prefer, speaking informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comes lo que prefieras"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comes lo que prefieras would be you eat whatever you prefer. Comes lo que prefieras, which is a way of saying it. You could say it like this. Comes lo que prefieras. It just sounds actually a little sweeter. You eat whatever you prefer, rather than eat whatever you prefer. But, here we are working with the order. We have a shortcut where we are not using the mood tense, what is it? We have comes, you eat. And what do we do to get the order?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Come"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Come. Good. So making the order, even though your sentence was very nice and very sweet,. Let’s make it an order. comes lo que prefieras Eat whatever you prefer:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Come lo que prefieras."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Come lo que prefieras. Now make this formal. Eat whatever you prefer, but speaking formally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Coma lo que prefiera."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. So here we have two mood tenses. We have coma which is the order and then prefiera, giving us whatever from what. Coma lo que prefiera. What if you were speaking to more than one person? Eat whatever you prefer:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Coman lo que prefieran."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Coman lo que prefieran. Good. What was to need in Spanish? Sounding more like to necessitate.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Necesitar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Necesitar. Good. Whenever you need. Whenever you need. How do you say that? Speaking informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuando necesites"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Cuando necesites. Whenever you need. Good. We said that to choose was like elect. Elegir. Elegir. How would you say I choose?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Elejo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And we had some change happening with that e.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Elijo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Elijo. Good. Elijo. You choose, speaking informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Eliges"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Eliges. To follow and also to continue or to carry on, we can use this verb like that, is seguir.. So it’s Seguir to follow or to continue, to carry on. Seguir.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Seguir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And this behaves like elegir in that the e will not split, it will just turn into an i when we stress it. So how do you say I continue or I follow?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sigo. And there are some other verbs that come from seguir. We have conseguir, to get or to manage to. We have perseguir which means to chase. And we will see the same irregularity in them. The I version of conseguir, consigo. Perseguir, persigo. So like we said before, we can generalize the irregularities in Spanish. So sigo, I follow, and how about he, she, it follows, or you (formal) follow:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sigue"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sigue. You (informal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sigues"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "They or you guys:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Siguen"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "But we:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Seguimos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Seguimos. Good. We are not stressing the e so it escapes from the irregularity. Seguimos. Good. I’ll follow you wherever you go So we could say something like. So, we can say I will follow you or we can just use the present I follow you. Because, the wherever you go is a future context informally.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te sigo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Te sigo. Good. Wherever you go. So this is actually to wherever you go. Wherever you go to, to wherever you go. So how would you say to where?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Adonde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Adonde. Good. And you go (informally) and we want the mood tense which is irregular.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vaya"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes. Very good. So now we can say the whole sentence. wherever you go, informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te sigo adonde vaya- vayas."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Very good. Another irregular verb in the mood tense is ser. The base for the mood tense of ser is sea. Sea. S-e-a.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sea"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And you’ll hear the very common expression. Literally meaning something like “or it o sea, o sea might be”. is just like this kind of way to break up speech whilst you’re thinking what O sea, o sea to say like an uhhh. So sea is the base for the mood tense. So if you want to say something like I prefer that it be like this. I prefer that it’s like this. I prefer for it to be like this. Of course we say I prefer that it be like this. What was the word for like this or like that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Así"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So I prefer that it be like this, I prefer it to be like this:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefiero que lo lo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Prefiero que sea así."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Prefiero que sea así. What does sea lo que sea mean?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Whatever will be will be."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Whatever it is, whatever will be, will be. Sea lo que sea. Whatever will come. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

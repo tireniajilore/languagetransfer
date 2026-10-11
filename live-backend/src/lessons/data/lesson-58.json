@@ -1,0 +1,577 @@
+{
+  "lesson_number": 58,
+  "title": "Lesson 58",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "We have one more time in Spanish to learn, one more verb time, and that’s the point in the past. The one that usually we would express with - ed in English: wanted, walked, or, you know, the. This is the point in the past and it’s much more random than the other irregular versions: ran, ate tenses that we looked at. The point in the past is a little bit more messy, but we will find some logic in it, just not the same one that we’ve been seeing until now. So, we will practice with hablar for – ar verbs and with comer for – er/ - ir verbs, and we will use these verbs as our hooks that we can look back to when we need to remember one of these endings. So, I spoke, I spoke, is hablé, hablé.",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Can you tell me what I did there then to get I spoke from to speak, from hablar?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "You took off the – ar ending and added an /e/."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Anything else?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Well, the accent is on the / e /."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Perfect. Hablé. Good. So, that’s I spoke. And he/she/it or you (formal) spoke is habló, habló.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habló"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And what did I do there to get habló from hablar?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "You took off the – ar and you put an o."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Okay, and what else?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "The accent is on the o."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So, remember when we said how important the accent was in the present, because if you stress HA-blo, I speak, if you stress it wrong we said that we will get this version in the past, I didn’t speak ha-BLÓ, he/she/it and you (formal) spoke. What was:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No habló"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no hablé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No hablé. And that might happen to you often, because we have such strong connection between, but in this point in the past it’s / he didn’t speak she didn’t speak / o / and I e /. No hablé. And or or didn’t speak you (formal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No habló."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No habló. Good. What was to buy?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "comprar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, comprar just run a little check and change the ending: “comprir”, “comprer”, comprar, and the one that you heard before is going to be the one that jumps out at you: comprar. So, how would you say I bought?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Compré"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Compré. And I bought it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo compré"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo compré.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No lo compré"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No lo compré. He bought it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo compró"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo compró. He bought it for me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me lo compró"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, we don’t need the for. Very good. Me lo compró. We could use the for, if we wanted, if we wanted to emphasize or stress that it’s for me, so, how would that be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo compró para mi"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Lo compró para mi. To send in Spanish is enviar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Enviar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So we have envoy from this in English.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Envelope."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Is that from there?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Must be-. But, like I said we don’t"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Or is it from envelop, like to encapsulate, you have encapsulate, envelop need to know when we consider these things, just considering it helps us remember that word and if you are particularly curious there are, I mean, to check, there are some very good online free resources, for example, etymonline.com, is an excellent free etymological dictionary, where you can check any word you have a curiosity for. So enviar, to send. I sent:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Envié"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly. I sent it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo envié"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I sent it to you, speaking informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Te lo envié."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No te lo envié."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No te lo envié. The word for still or yet, the same word in Spanish, still or yet, is todavía, todavía.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Todavía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Which is actually the combination of todo, here toda, in feminine, meaning all, and vía, like via, so it’s “all the way”. But of course no Spanish speaker hears that, when they in English, is a way, we don’t think that that’s built of hear todavía, just like when we say expressions like as well as and well. So, the words, sometimes the small words we build these bigger words out of in English and in Spanish, don’t make much sense to us most of the time, but for a learner it’s useful for you, because it’s long and you might find it difficult to remember, and if to divide a word like todavía you identify that it’s, even if that doesn’t really make any sense with the meaning of toda and vía yet and still, it’s gonna help you internalize that vocabulary. So, yet or still:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Todavía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Todavía., still speaking informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No te lo envié todavía"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No te lo envié todavía. Good. What was he sent or she sent or you (formal) sent, it sent?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Envió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Envió. Yesterday, the word for yesterday was ayer, a-y-e-r.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ayer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So, how would you say he sent it yesterday?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo envió ayer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Lo envió ayer. He sent it yesterday, she sent it yesterday, you (formal) sent it yesterday. If you want to say it was sent yesterday, this kind of structure in English where we don’t say who did it, we just say it was sent yesterday, how do you think you might say that in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se lo envié"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Think first, the structure in English, what you will say in Spanish, but in English.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "It sent itself."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly. It sent itself. So what is it sent?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Envió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Okay, It sent itself:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se envió"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes, and you are dying to put the lo there, right?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Yes!"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So, this is the intuition because you have it sent in your mind, but if you don’t succumb to that, okay, then you don’t get intuition and you work mechanically it sent, envió, it sent itself, se envió lo, because you don’t need it. So, it sent itself yesterday, it was sent yesterday:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Se envió ayer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Se envió ayer. Good. Again, what was to speak?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, and I spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, and he spoke:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habló"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "He spoke with me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Habló conmigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Habló conmigo. I don’t know why speak with me. So, the first bit is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé por qué"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": ":",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No habló conmigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No sé por qué no habló conmigo. To forget is olvidar, olvidar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Olvidar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That means to forget. And the noun, olvido The, like the experience of forgetting, I don’t think we have a word forgetting, el olvido, the process like this in English, and you will hear it a lot in songs especially in Spanish, especially tango, if you listen to tangos, they speak about falling in love and forgetting, not ever falling out of love, only el olvido. Olvidar, to forget. How would you say I forgot?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Olvidé"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And he forgot:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Olvidó"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I was going to do it, but I forgot it. I was going to do it, but I forgot it. So, the first bit is I was, this is your line in the past, and it’s one of the three irregular verbs that we have in the line going of the past.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Iba"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Iba. So, I was going to do it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo iba a hacer."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "But I forgot it:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Pero lo olvidé."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Lo iba a hacer pero lo olvidé. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

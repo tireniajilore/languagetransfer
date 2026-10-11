@@ -1,0 +1,354 @@
+{
+  "lesson_number": 4,
+  "title": "Latin Cognates - ION Endings",
+  "description": "Learn how to convert English words ending in -ion to Spanish, and explore basic verb forms.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "How would you say 'urgent'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "urgente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Urgente. Good. How would you say 'urgently'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "urgentemente"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Urgentemente. Good. 'I love you' in Spanish is 'te quiero', literally 'I want you'. 'Te amo' is more serious. 'Te' is 'you', so 'quiero' means 'I want'. How would you say 'I want'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero. Good. How would you say 'I don't want'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No quiero. Good. Words ending in -ion in English are similar in Spanish, just stress the last syllable. How would you say 'opinion'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "opinión"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Opinión. Good. How about 'passion'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "pasión"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pasión. Good. Remember to pronounce the S clearly. How would you say 'organization'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "organización"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Organización. Good. How about 'preparation'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "preparación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Preparación. Good. Now 'generation'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "generación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Generación. Good. How would you say 'confirmation'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "confirmación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Confirmación. Good. Now let's look at verbs. If you remove -ción and add -r, you get the verb. How would you say 'to generate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "generar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Generar. Good. How about 'to confirm'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "confirmar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Confirmar. Good. How would you say 'to sign'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "firmar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Firmar. Good. Now 'complication'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "complicación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Complicación. And 'to complicate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "complicar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Complicar. Good. Let's make some sentences. How would you say 'I want to prepare'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero preparar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero preparar. Good. How do you say 'cooperation'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cooperación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cooperación. And 'to cooperate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cooperar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cooperar. Good. How would you say 'I want to cooperate'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero cooperar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero cooperar. Good. How do you say 'cancellation'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cancelación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'to cancel'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "cancelar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cancelar. Good. How would you say 'I want to cancel'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero cancelar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero cancelar. Good. How would you say 'I don't want to cancel'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiero cancelar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No quiero cancelar. Perfect. How do you say 'exploration'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "exploración"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'to explore'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "explorar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Explorar. Good. How would you say 'I want to explore'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero explorar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero explorar. Perfect. The word for 'me' in Spanish is 'me'. How would you say 'I want to prepare myself'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero prepararme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Quiero prepararme. Good. In English, Latin words can sound formal, but in Spanish, they sound normal.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to convert English words ending in -ion to Spanish by stressing the last syllable."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try converting some other -ion words like 'celebration' or 'imagination' to Spanish.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "You can now form basic sentences using these words and verbs. Practice saying what you want to do or don't want to do."
+    },
+    {
+      "type": "narration",
+      "text": "Next time, we'll explore more patterns to expand your vocabulary even further."
+    }
+  ]
+}

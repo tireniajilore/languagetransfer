@@ -1,0 +1,463 @@
+{
+  "lesson_number": 12,
+  "title": "Verb Conjugation and Object Pronouns",
+  "description": "Learn to conjugate -ar, -er, and -ir verbs and use object pronouns in Spanish.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "Let's recap -ar verbs. How would you say 'to contaminate'?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "contaminar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'it's contaminating'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "contamina"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. For 'they contaminate', we add an 'n'. How would that be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "contaminan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And to say 'you (informal) contaminate', we add an 's'. How would you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "contaminas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Now, for -er/-ir verbs, the key sound is /e/. What do you think 'vender' means?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "to sell"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Correct. So 'I sell' or 'I'm selling' is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'I'm selling it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo vendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly. How would you say 'I'm selling them'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "los vendo",
+        "las vendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Remember, 'las' is for feminine objects. Let's practice some nouns. The opinion is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la opinión"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La opinión. The association:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la asociación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. If a word ends in -ity in English, it becomes -idad in Spanish. For example, 'diversity' becomes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "diversidad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'The diversity' is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la diversidad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La diversidad. Now, let's look at 'electric'. How would you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "eléctrico"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Correct. How about 'generous' for a male?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "generoso"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And for a female?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "generosa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Let's try 'community'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "comunidad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "The community:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la comunidad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La comunidad. Now, let's practice with 'opportunity'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "oportunidad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'opportune'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "oportuno",
+        "oportuna"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Great. Now, 'clarity' becomes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "claridad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'clear' is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "claro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Claro. Let's move to 'personality'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "personalidad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'person' is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "persona"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Persona. Now, 'sincerity':",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "sinceridad"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'sincere' is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "sincero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sincero. Back to 'vender'. How do you say 'I want to sell'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero vender"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'I want to sell it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero venderlo",
+        "lo quiero vender"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. For -er/-ir verbs, the key sound is /e/. How would you say 'he sells'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vende"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'he sells it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo vende"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'they sell'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "venden"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'they're not selling it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no lo venden"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Why aren't they selling it to me?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿por qué no me lo venden?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. The word for 'us' is 'nos'. How would you say 'they're selling us something'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "nos venden algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'they're selling it to us'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "nos lo venden"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'they're not selling it to us'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no nos lo venden"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Why don't they sell it to us?",
+      "is_feedback": true,
+      "is_prompt": false
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿por qué no nos lo venden?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿Por qué no nos lo venden?",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "In this lesson, you learned to conjugate -ar, -er, and -ir verbs and use object pronouns in Spanish."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try creating sentences with different verbs and object pronouns to reinforce what you've learned.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Practice using these structures in conversation to become more comfortable with Spanish grammar."
+    }
+  ]
+}

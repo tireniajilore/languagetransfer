@@ -1,0 +1,242 @@
+{
+  "lesson_number": 9,
+  "title": "Using 'Saber' and Related Structures",
+  "description": "Learn to use 'saber' (to know) and related phrases in Spanish.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "To know in Spanish is saber.",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Saber. How would you say 'I want to know'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "How would you say 'I don't want to know'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiero saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'he wants to know' or 'she wants to know'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiere saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'He doesn't want to know':",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiere saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Why doesn't he want to know?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "por qué no quiere saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I want to know why he doesn't want to know:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber por qué no quiere saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. The word for 'yes' in Spanish is 'sí'. This is also the word for 'if'. How do you say 'if'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "si"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'I want to know if you want to know' (speaking formally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber si quiere saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say 'I want to know if he wants to invite me'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber si quiere invitarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "How do you say 'imagination'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "imaginación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'I don't want to imagine it':",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no quiero imaginarlo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "What was 'to come'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "venir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'I want to know if she wants to come to the house to visit me':",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero saber si quiere venir a la casa a visitarme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Let's practice a listening exercise. What does 'Voy a invitarlo, pero no voy a invitarlo ahora' mean?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "I'm going to invite him, but I won't invite him now."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How do you say 'justification' in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "justificación"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And 'to justify'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "justificar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'I'm not trying to justify myself, but I want to explain something to you' (informally):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no intento justificarme, pero quiero explicarte algo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Well done.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to use 'saber' and related phrases to express knowledge and curiosity in Spanish."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try forming your own sentences using 'saber' and other verbs you've learned. Practice makes perfect!",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Remember, breaking down sentences into smaller parts can help you construct more complex ideas in Spanish."
+    }
+  ]
+}
