@@ -154,13 +154,13 @@ export default function LiveLessonPage() {
       </div>
 
       <div className="flex gap-3">
-        {!live && !busy && (
+        {!live && !busy && connState !== 'failed' && (
           <button
             onClick={start}
             disabled={!backendConfigured}
             className="rounded-lg bg-stone-900 px-5 py-2.5 text-sm font-medium text-white disabled:cursor-not-allowed disabled:opacity-40"
           >
-            Start Lesson {lessonNumber}
+            {lessonProgress && lessonProgress.stepIndex > 0 ? 'Resume' : 'Start'} Lesson {lessonNumber}
           </button>
         )}
         {playbackBlocked && (
@@ -185,7 +185,7 @@ export default function LiveLessonPage() {
             disabled={!backendConfigured}
             className="rounded-lg bg-stone-900 px-5 py-2.5 text-sm font-medium text-white disabled:opacity-40"
           >
-            Try again
+            Resume Lesson {lessonNumber}
           </button>
         )}
       </div>
