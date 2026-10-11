@@ -61,8 +61,11 @@ export function availableLessonNumbers(): number[] {
       return m ? [Number(m[1])] : [];
     }).sort((a, b) => a - b);
 }
+const lessonCache = new Map<number, AuthoredLesson>();
 export function getAuthoredLesson(number: number): AuthoredLesson {
   if (!Number.isInteger(number) || number < 2 || number > 90) throw new Error('invalid lesson number');
+  const cached = lessonCache.get(number);
+  if (cached) return cached;
   const p = join(sourceDir(), `lesson-${String(number).padStart(2, '0')}.json`);
   if (!existsSync(p)) throw new Error(`Lesson ${number} is not available in the source material`);
   const raw = JSON.parse(readFileSync(p, 'utf8')) as {
@@ -95,8 +98,10 @@ export function getAuthoredLesson(number: number): AuthoredLesson {
     });
   }
   if (!steps.length) throw new Error(`Lesson ${number} has no teaching steps`);
-  return { number, title: raw.title, description: raw.description,
+  const lesson = { number, title: raw.title, description: raw.description,
     version: `original-lesson-${number}-v1`, steps };
+  lessonCache.set(number, lesson);
+  return lesson;
 }
 
 export function freshCursor(lessonNumber: number): LessonCursor {
@@ -154,11 +159,12 @@ export function respondToQuestion(lesson: AuthoredLesson, cursor: LessonCursor, 
   const heard = normalizeAnswer(utterance);
   if (!heard) return { accepted: false, correct: null, cursor, next: null };
   const known = q.expectedAnswers;
-  // Open-ended reflection questions cannot be automatically graded from text.
-  // Pause until the lesson-specific model/teacher explicitly confirms understanding.
-  if (!known.length) return { accepted: false, correct: null, cursor: {
-    ...cursor, attempts: cursor.attempts + 1, updatedAt: Date.now(),
-  }, next: null };
+  // An open reflection has no objectively correct string. Participating by
+  // speaking completes the prompt, but does NOT count as mastery evidence.
+  if (!known.length) {
+    const next = nextCue(lesson, { ...cursor, phase: 'ready', attempts: 0, updatedAt: Date.now() });
+    return { accepted: true, correct: null, cursor: next.cursor, next: next.cue };
+  }
   const correct = known.some((a) => normalizeAnswer(a) === heard);
   if (!correct) return { accepted: true, correct: false, cursor: {
     ...cursor, attempts: cursor.attempts + 1, updatedAt: Date.now(),
