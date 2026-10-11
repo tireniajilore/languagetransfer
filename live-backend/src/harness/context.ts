@@ -115,6 +115,20 @@ export function assembleTeachingContext(
       `- ${c.title} [${c.status}] correct=${c.correctCount} incorrect=${c.incorrectCount} transferPass=${c.transferPassCount} hintsUsed=${c.hintsUsed}${extra}`,
     );
   }
+
+  lines.push('Verified material for concepts currently available to teach:');
+  for (const c of concepts) {
+    if (c.status === 'locked') continue;
+    const source = curriculum.concepts.find((entry) => entry.id === c.id);
+    if (!source) continue;
+    lines.push(`- ${c.id}: ${source.summary}`);
+    lines.push(`  Approved teaching examples: ${source.verifiedExamples.join(' | ')}`);
+    lines.push(`  Unfamiliar transfer examples (use only for tests): ${source.transferExamples.join(' | ')}`);
+    for (const hint of curriculum.hints.filter((h) => h.conceptId === c.id)) {
+      lines.push(`  Approved hint ${hint.level} [${hint.id}]: ${hint.text}`);
+    }
+  }
+  lines.push('Do not assess an answer unless a specific question and expected response are known.');
   if (recentMoves.length > 0) {
     lines.push('Recent moves:');
     for (const m of recentMoves) {
