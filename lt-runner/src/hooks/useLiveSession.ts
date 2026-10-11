@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import {
   LiveConnState,
+  LessonProgress,
   LiveVoiceSession,
   TranscriptEntry,
 } from '@/lib/live-voice-session';
@@ -57,6 +58,7 @@ export interface UseLiveSessionResult {
   userSpeaking: boolean;
   backendConfigured: boolean;
   playbackBlocked: boolean;
+  lessonProgress: LessonProgress | null;
   enableAudio: () => Promise<void>;
   audioRef: React.RefObject<HTMLAudioElement>;
   start: () => Promise<void>;
@@ -67,13 +69,14 @@ export interface UseLiveSessionResult {
  * Thin React binding over LiveVoiceSession. The session object is the
  * source of truth; this hook only mirrors its callbacks into state.
  */
-export function useLiveSession(): UseLiveSessionResult {
+export function useLiveSession(lessonNumber?: number): UseLiveSessionResult {
   const backendUrl = process.env.NEXT_PUBLIC_LIVE_BACKEND_URL ?? '';
   const [connState, setConnState] = useState<LiveConnState>('idle');
   const [transcripts, setTranscripts] = useState<TranscriptEntry[]>([]);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [playbackBlocked, setPlaybackBlocked] = useState(false);
+  const [lessonProgress, setLessonProgress] = useState<LessonProgress | null>(null);
   const [assistantSpeaking, setAssistantSpeaking] = useState(false);
   const [userSpeaking, setUserSpeaking] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -97,12 +100,15 @@ export function useLiveSession(): UseLiveSessionResult {
     setError(null);
     setPlaybackBlocked(false);
     setTranscripts([]);
+    setLessonProgress(null);
     teardownLevels();
     let learnerToken: string | undefined;
     try { learnerToken = window.localStorage.getItem('lt-live-learner-v1') ?? undefined; } catch { /* storage disabled */ }
     const session = new LiveVoiceSession({
       backendUrl,
       learnerToken,
+      lessonNumber,
+      onLessonProgress: setLessonProgress,
       onLearnerToken: (token) => {
         try { window.localStorage.setItem('lt-live-learner-v1', token); } catch { /* storage disabled */ }
       },
@@ -135,7 +141,20 @@ export function useLiveSession(): UseLiveSessionResult {
     });
     sessionRef.current = session;
     await session.start();
-  }, [backendUrl, teardownLevels]);
+  }, [backendUrl, lessonNumber, teardownLevels]);
+
+  // The backend owns the lesson cursor; periodically display its authenticated status.
+  useEffect(() => {
+    if (connState !== 'connected' || lessonNumber === undefined) return;
+    let active = true;
+    const poll = () => {
+      if (!active) return;
+      void sessionRef.current?.readLessonProgress().catch(() => undefined);
+    };
+    poll();
+    const interval = window.setInterval(poll, 2500);
+    return () => { active = false; window.clearInterval(interval); };
+  }, [connState, lessonNumber]);
 
   const enableAudio = useCallback(async () => {
     const el = audioRef.current;
@@ -166,6 +185,7 @@ export function useLiveSession(): UseLiveSessionResult {
     assistantSpeaking,
     userSpeaking,
     backendConfigured: backendUrl.length > 0,
+    lessonProgress,
     playbackBlocked,
     enableAudio,
     audioRef,
