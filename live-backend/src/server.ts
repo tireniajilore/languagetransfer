@@ -22,6 +22,7 @@ import { GuardrailMonitor, GuardrailTrigger } from './reasoning/guardrails';
 import { analyzeResponse } from './reasoning/analysis';
 import { currentQuestionTarget } from './harness/questionTarget';
 import { LiveBackendConfig } from './config';
+import { resolveLearnerIdentity } from './memory/learnerIdentity';
 import { LiveApiError, LiveSessionClient } from './liveClient';
 import { recordCounter, recordLatency, summarizeMetrics } from './metrics';
 import { SessionRegistry } from './sessions';
@@ -68,13 +69,16 @@ function validateOfferSdp(body: unknown): string | null {
 }
 
 /** Optional mint parameters: learner identity + starting objective. */
-function parseMintOptions(body: unknown): { objectiveId?: string } {
+function parseMintOptions(body: unknown): { objectiveId?: string; learnerToken?: string } {
   if (!body || typeof body !== 'object') return {};
-  const b = body as { objectiveId?: unknown };
+  const b = body as { objectiveId?: unknown; learnerToken?: unknown };
   const clean = (v: unknown): string | undefined =>
     typeof v === 'string' && v.length > 0 && v.length <= 128 ? v : undefined;
   // An untrusted caller cannot choose a durable learner identity.
-  return { objectiveId: clean(b.objectiveId) };
+  return {
+    objectiveId: clean(b.objectiveId),
+    learnerToken: typeof b.learnerToken === 'string' && b.learnerToken.length < 256 ? b.learnerToken : undefined,
+  };
 }
 
 /**
@@ -335,21 +339,26 @@ export function createApp(deps: ServerDeps): Express {
         guardrails,
       });
 
+      const mintOptions = parseMintOptions(req.body);
+      const learner = config.learnerTokenSecret
+        ? resolveLearnerIdentity(mintOptions.learnerToken, config.learnerTokenSecret)
+        : null;
       // Initialize authoritative teaching state for this session (Layer B).
       // A harness failure must not kill the voice session, so it is logged
       // and the session continues without teaching state.
       try {
-        const { objectiveId } = parseMintOptions(req.body);
+        const { objectiveId } = mintOptions;
         // prepareSession restores prior learner knowledge when the store is
         // persistent (Layer D) and falls back to a fresh state otherwise.
         const state = await harness.store.prepareSession({
           sessionId: created.sessionId,
           curriculum: harness.curriculum,
           objectiveId,
+          ...(learner ? { learnerId: learner.learnerId } : {}),
         });
         publishContext(created.sessionId);
         console.log(
-          `[live] harness initialized session=${created.sessionId} objective=${state.currentObjectiveId} learner=anonymous`,
+          `[live] harness initialized session=${created.sessionId} objective=${state.currentObjectiveId} learner=${learner ? 'signed-anonymous' : 'ephemeral'}`,
         );
       } catch (err) {
         console.error(
@@ -360,6 +369,7 @@ export function createApp(deps: ServerDeps): Express {
 
       res.status(201).json({
         session: { id: created.sessionId, accessToken },
+        ...(learner ? { learner: { token: learner.token } } : {}),
         transport: { type: 'webrtc', sdp: created.answerSdp },
       });
     } catch (err) {
