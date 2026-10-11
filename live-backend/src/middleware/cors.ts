@@ -33,7 +33,7 @@ export function corsPreflight(allowedOrigins: string[]) {
     res.setHeader('Vary', 'Origin');
     if (req.method === 'OPTIONS') {
       res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-      res.setHeader('Access-Control-Allow-Headers', 'content-type');
+      res.setHeader('Access-Control-Allow-Headers', 'content-type, authorization');
       res.setHeader('Access-Control-Max-Age', '86400');
       res.status(204).end();
       return;
