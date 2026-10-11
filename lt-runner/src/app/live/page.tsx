@@ -43,6 +43,8 @@ export default function LiveTutorPage() {
     assistantSpeaking,
     userSpeaking,
     backendConfigured,
+    playbackBlocked,
+    enableAudio,
     audioRef,
     start,
     stop,
@@ -132,6 +134,14 @@ export default function LiveTutorPage() {
             className="rounded-lg bg-stone-900 px-5 py-2.5 text-sm font-medium text-white disabled:cursor-not-allowed disabled:opacity-40"
           >
             Start voice session
+          </button>
+        )}
+        {playbackBlocked && (
+          <button
+            onClick={() => void enableAudio()}
+            className="rounded-lg bg-amber-200 px-5 py-2.5 text-sm font-medium text-amber-950"
+          >
+            Enable audio
           </button>
         )}
         {(live || busy) && (
