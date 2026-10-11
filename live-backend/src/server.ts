@@ -15,7 +15,8 @@ import express, { Express, NextFunction, Request, Response } from 'express';
 import { randomBytes } from 'node:crypto';
 import { CourseStore, CourseLockedError } from './lessons/courseStore';
 import { getAuthoredLesson } from './lessons/conductor';
-import { LessonSessionManager, lessonInstructions, cueInstructions } from './lessons/sessionManager';
+import { LessonSessionManager, lessonInstructions } from './lessons/sessionManager';
+import { deliverLessonCue, deliverRetry } from './lessons/liveCommands';
 import WebSocket from 'ws';
 import { DEFAULT_CURRICULUM, Curriculum } from './curriculum';
 import { assembleTeachingContext } from './harness/context';
@@ -200,6 +201,7 @@ export function createApp(deps: ServerDeps): Express {
     try {
       sideband.sendCommand({
         type: 'session.thinking.append',
+        delegation_id: null,
         content: 'Current authoritative teaching plan (supersedes earlier state):\\n' + context.rendered,
       });
       publishedContext.set(sessionId, context.rendered);
@@ -343,22 +345,23 @@ export function createApp(deps: ServerDeps): Express {
         sendCommand,
         onTrigger: (trigger: GuardrailTrigger) =>
           onGuardrailTrigger(created.sessionId, trigger, delegationManager),
+        suppressConceptGuardrails: (sessionId) => course.has(sessionId),
         onUserTurn: (sessionId, text) => {
           if (!course.has(sessionId)) {
             analyzeUserTurn(harness, sessionId, text, guardrails);
             return;
           }
           void course.hear(sessionId, text).then((result) => {
-            if (!result) return;
+            if (!result || !course.has(sessionId)) return;
             const sideband = registry.get(sessionId)?.sideband;
             if (sideband?.getState() !== 'open') return;
             if (result.cue) {
-              sideband.sendCommand({ type: 'session.instructions.append', instructions:
-                'The learner has now completed the previous question. ' + cueInstructions(result.cue) });
+              // The next passage is authored text to SPEAK, not just a soft instruction.
+              // Never send response.create: that runs the delegated Responses backend.
+              deliverLessonCue(sideband, result.cue);
             } else if (result.correct === false) {
-              sideband.sendCommand({ type: 'session.instructions.append', instructions:
-                'The learner has not yet answered the current required question correctly. ' +
-                'Give a brief hint or clarification; stay on this question and DO NOT move to the next teaching step.' });
+              const active = course.currentQuestion(sessionId);
+              if (active) deliverRetry(sideband, active, result.cursor.attempts);
             }
           }).catch((err) => console.error('[lesson] failed to process learner turn', err));
         },
@@ -475,8 +478,9 @@ export function createApp(deps: ServerDeps): Express {
     try {
       const cue = await course.start(id);
       if (cue) {
-        sideband.sendCommand({ type: 'session.instructions.append', instructions: cueInstructions(cue) });
-        sideband.sendCommand({ type: 'response.create' });
+        // GPT-Live should speak the exact lesson material rather than
+        // improvise from a high-level objective. No generic response.create.
+        deliverLessonCue(sideband, cue);
       }
       res.json({ started: true, lesson: course.get(id), cue: cue ? { stepIndex: cue.stepIndex, complete: cue.complete } : null });
     } catch (err) {
