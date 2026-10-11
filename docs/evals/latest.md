@@ -1,15 +1,51 @@
 # Live Tutor Evaluation Report
 
-Generated: 2026-10-10T18:18:03.318Z · git: `72e1cc7` · hermetic (no OpenAI calls)
+Generated: 2026-10-11T17:36:09.099Z · git: `473e3fd` · hermetic (no OpenAI calls)
 
 ## Summary
 
 | suite | passed | failed | pass rate |
 |-------|--------|--------|-----------|
+| Durable checkpoint ownership and CAS | 2 | 0 | 100.0% |
+| Source fidelity and conductor invariants | 5 | 0 | 100.0% |
+| Supervised Lesson 2 orchestration (mock model and audio boundaries) | 11 | 0 | 100.0% |
 | Guardrail deterministic checks (evaluated control) | 8 | 0 | 100.0% |
 | Pedagogical evals (simulated learners, Spanish material) | 12 | 0 | 100.0% |
 | Teaching scenarios (brief §11, 15 automated cases) | 15 | 0 | 100.0% |
-| **total** | **35** | **0** | **100.0%** |
+| **total** | **53** | **0** | **100.0%** |
+
+## Durable checkpoint ownership and CAS
+
+File: `src/lessons/__tests__/checkpointStore.test.ts`
+
+- ✅ persists verified delivery and rejects stale/foreign owners across instances
+- ✅ persists verified delivery and rejects stale/foreign owners across instances
+
+## Source fidelity and conductor invariants
+
+File: `src/lessons/__tests__/conductor.test.ts`
+
+- ✅ every step cites an exact span of the unchanged original transcript
+- ✅ restores stress discovery and omitted examples without a synthetic outro
+- ✅ does not satisfy explanations on authorization or observations without playback
+- ✅ rejects stale, fabricated and acknowledgment-based understanding evidence
+- ✅ cannot complete a checkpoint with missing receipts or an unverified final step
+
+## Supervised Lesson 2 orchestration (mock model and audio boundaries)
+
+File: `src/lessons/__tests__/sessionManager.test.ts`
+
+- ✅ starts with actual material, no assessment targets in voice context or response.create
+- ✅ authorization and acknowledgment never count as delivered; playback alone is insufficient
+- ✅ finishes every source step with observed delivery and understanding, then unlocks 3
+- ✅ holds the question on okay and does not assess user speech until the turn settles
+- ✅ never advances for drift and retries the same step
+- ✅ resumes from last verified step, replaying interrupted output
+- ✅ terminates when control is lost and rejects concurrent learner sessions
+- ✅ does not commit an assessment when further learner speech arrives while it is pending
+- ✅ bounds silent-teacher retries and never uses silence to advance a learner question
+- ✅ retains an explicit pause across reconnect and waits for resume
+- ✅ orders fragments on the session timeline and ignores duplicate events
 
 ## Guardrail deterministic checks (evaluated control)
 
@@ -61,7 +97,11 @@ File: `src/reasoning/evals/scenarios.test.ts`
 - ✅ 14. duplicate and out-of-order events: evidence never double-counts
 - ✅ 15. stale delegated decision: rejected, never applied
 
-## Latency / enforcement trade-off status (ADR-001 D4)
+Native audio / real-model acceptance is pending. Mocked audio boundaries do not establish live teaching quality. Use `/live/2?eval=1` to record and export a test conversation.
+
+The legacy generic-harness suites below remain regression coverage; Lesson 2 uses its source-linked conductor and supervisor instead.
+
+## Legacy harness latency / enforcement trade-off status (ADR-001 D4)
 
 - **Hard controls** (enforced in code): objective gating, prerequisite locking,
   transition validation, idempotent tool commits — covered by state-machine and

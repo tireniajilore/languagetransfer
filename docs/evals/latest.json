@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-10-10T18:18:03.318Z",
-  "sha": "72e1cc7",
+  "generatedAt": "2026-10-11T17:36:09.099Z",
+  "sha": "473e3fd",
   "suites": [
+    {
+      "file": "src/lessons/__tests__/checkpointStore.test.ts",
+      "label": "Durable checkpoint ownership and CAS",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "cases": [
+        {
+          "title": "persists verified delivery and rejects stale/foreign owners across instances",
+          "status": "passed"
+        },
+        {
+          "title": "persists verified delivery and rejects stale/foreign owners across instances",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "src/lessons/__tests__/conductor.test.ts",
+      "label": "Source fidelity and conductor invariants",
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0,
+      "cases": [
+        {
+          "title": "every step cites an exact span of the unchanged original transcript",
+          "status": "passed"
+        },
+        {
+          "title": "restores stress discovery and omitted examples without a synthetic outro",
+          "status": "passed"
+        },
+        {
+          "title": "does not satisfy explanations on authorization or observations without playback",
+          "status": "passed"
+        },
+        {
+          "title": "rejects stale, fabricated and acknowledgment-based understanding evidence",
+          "status": "passed"
+        },
+        {
+          "title": "cannot complete a checkpoint with missing receipts or an unverified final step",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "src/lessons/__tests__/sessionManager.test.ts",
+      "label": "Supervised Lesson 2 orchestration (mock model and audio boundaries)",
+      "passed": 11,
+      "failed": 0,
+      "skipped": 0,
+      "cases": [
+        {
+          "title": "starts with actual material, no assessment targets in voice context or response.create",
+          "status": "passed"
+        },
+        {
+          "title": "authorization and acknowledgment never count as delivered; playback alone is insufficient",
+          "status": "passed"
+        },
+        {
+          "title": "finishes every source step with observed delivery and understanding, then unlocks 3",
+          "status": "passed"
+        },
+        {
+          "title": "holds the question on okay and does not assess user speech until the turn settles",
+          "status": "passed"
+        },
+        {
+          "title": "never advances for drift and retries the same step",
+          "status": "passed"
+        },
+        {
+          "title": "resumes from last verified step, replaying interrupted output",
+          "status": "passed"
+        },
+        {
+          "title": "terminates when control is lost and rejects concurrent learner sessions",
+          "status": "passed"
+        },
+        {
+          "title": "does not commit an assessment when further learner speech arrives while it is pending",
+          "status": "passed"
+        },
+        {
+          "title": "bounds silent-teacher retries and never uses silence to advance a learner question",
+          "status": "passed"
+        },
+        {
+          "title": "retains an explicit pause across reconnect and waits for resume",
+          "status": "passed"
+        },
+        {
+          "title": "orders fragments on the session timeline and ignores duplicate events",
+          "status": "passed"
+        }
+      ]
+    },
     {
       "file": "src/reasoning/__tests__/guardrails.test.ts",
       "label": "Guardrail deterministic checks (evaluated control)",

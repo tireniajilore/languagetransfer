@@ -1,59 +1,328 @@
-import { describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { CourseStore } from '../courseStore';
-import { LessonSessionManager, cueInstructions, lessonInstructions } from '../sessionManager';
+import {
+  LessonSessionManager,
+  lessonInstructions,
+  type LessonRuntime,
+} from '../sessionManager';
+import { deterministicDecision, type TeachingSupervisor } from '../supervisor';
+import type { TeachingDecision } from '../supervisedConductor';
 
-describe('live lesson instances', () => {
-  it('scopes tutor instructions to a numbered lesson with no topic selection', () => {
-    const instructions = lessonInstructions(2, 'Thinking Method');
-    expect(instructions).toContain('LESSON 2');
-    expect(instructions).toContain('Never ask what the learner would like to study');
-    expect(instructions).toContain('Wait for the application START cue');
+const supervisor: TeachingSupervisor = {
+  delivery: async () => ({
+    covered: true,
+    drift: false,
+    evidence: [],
+    confidence: 1,
+  }),
+  assess: async (spec, s, text) =>
+    deterministicDecision(spec, s, text) ??
+    ({
+      lessonVersion: spec.version,
+      stepId: spec.steps[s.stepIndex].id,
+      stateVersion: s.stateVersion,
+      learnerIntent: 'answer',
+      understanding: 'demonstrated',
+      proposedAction: 'advance',
+      evidence: [text],
+      proposedHintLevel: null,
+      reasoningSummary: 'test understanding',
+      confidence: 1,
+    } satisfies TeachingDecision),
+};
+const runtimes: LessonRuntime[] = [];
+afterEach(async () => {
+  for (const r of runtimes.splice(0)) await r.close();
+  vi.useRealTimers();
+});
+async function fixture(store = new CourseStore(), model = supervisor) {
+  const sent: Record<string, unknown>[] = [];
+  const manager = new LessonSessionManager(store, model);
+  const runtime = await manager.prepare(`s-${Math.random()}`, 'learner', 2, {
+    send: (c) => sent.push(c),
+    fail: (e) => {
+      throw e;
+    },
   });
-
-  it('works through the actual Lesson 2, then unlocks Lesson 3', async () => {
-    const course = new CourseStore();
-    const manager = new LessonSessionManager(course);
-    await expect(manager.prepare('s3', 'learner-a', 3)).rejects.toThrow('locked');
-    await manager.prepare('s2', 'learner-a', 2);
-    const first = await manager.start('s2');
-    expect(first?.teacherLines.join(' ')).toContain('English and Spanish');
-    expect(first?.question).toContain('metal');
-    expect(cueInstructions(first!)).toContain('WAIT for the learner');
-    expect(await manager.start('s2')).toBeNull(); // no duplicate opening
-
-    let cue = first!;
+  runtimes.push(runtime);
+  runtime.setControlReady(true);
+  await runtime.start();
+  return { runtime, manager, store, sent };
+}
+let seq = 0;
+async function delivered(runtime: LessonRuntime, text?: string) {
+  const step = runtime.spec.steps[runtime.cursor.stepIndex],
+    id = `output-${++seq}`;
+  runtime.onFragment('assistant', {
+    event_id: id,
+    delta: text ?? step.text,
+    start_ms: seq * 1000,
+    end_ms: seq * 1000 + 900,
+  });
+  await Promise.resolve();
+  await Promise.resolve();
+  await runtime.activity({
+    speaker: 'assistant',
+    speaking: false,
+    playing: true,
+    outputEventId: id,
+    seq: ++seq,
+  });
+}
+async function answer(runtime: LessonRuntime, text: string) {
+  runtime.onFragment('user', {
+    event_id: `user-${++seq}`,
+    delta: text,
+    start_ms: seq * 1000,
+    end_ms: seq * 1000 + 500,
+  });
+  await vi.advanceTimersByTimeAsync(1600);
+}
+describe('supervised lesson runtime', () => {
+  it('starts with actual material, no assessment targets in voice context or response.create', async () => {
+    const { sent, runtime } = await fixture();
+    expect(lessonInstructions(2, 'Thinking Method')).toContain(
+      'Wait for the application START cue',
+    );
+    expect(
+      sent.find((c) => c.type === 'session.commentary.append')?.content,
+    ).toContain('English and Spanish');
+    expect(
+      sent.every(
+        (c) => typeof c.event_id === 'string' && c.delegation_id === null,
+      ),
+    ).toBe(true);
+    expect(sent.some((c) => c.type === 'response.create')).toBe(false);
+    expect(runtime.cursor.stepIndex).toBe(0);
+    await runtime.start();
+    expect(sent).toHaveLength(2);
+  });
+  it('authorization and acknowledgment never count as delivered; playback alone is insufficient', async () => {
+    const { runtime } = await fixture();
+    runtime.onEvent({
+      type: 'session.commentary.appended',
+      client_event_id: runtime.cursor.directive!.id,
+    });
+    await runtime.activity({
+      speaker: 'assistant',
+      speaking: false,
+      playing: true,
+      outputEventId: 'invented',
+      seq: ++seq,
+    });
+    expect(runtime.cursor.stepIndex).toBe(0);
+    await delivered(runtime);
+    expect(runtime.cursor.stepIndex).toBe(1);
+    expect(runtime.cursor.receipts[0].deliveryText).toContain(
+      'Latin vocabulary',
+    );
+  });
+  it('finishes every source step with observed delivery and understanding, then unlocks 3', async () => {
+    vi.useFakeTimers();
+    const { runtime, store } = await fixture();
     let count = 0;
-    while (!cue.complete && count++ < 100) {
-      const target = cue.expectedAnswers?.[0] ?? 'I think I recognize the pattern';
-      const result = await manager.hear('s2', target);
-      expect(result?.accepted).toBe(true);
-      expect(result?.cue).toBeTruthy();
-      cue = result!.cue!;
+    while (runtime.cursor.phase !== 'completed' && count++ < 100) {
+      const step = runtime.spec.steps[runtime.cursor.stepIndex];
+      await delivered(runtime);
+      if (step.kind === 'question') {
+        expect(runtime.cursor.phase).toBe('awaiting_answer');
+        await answer(
+          runtime,
+          step.expectedAnswers[0] ??
+            'The emphasis changes to the last syllable',
+        );
+      }
     }
-    expect(count).toBeGreaterThan(10);
-    expect(count).toBeLessThan(100);
-    expect(cue.complete).toBe(true);
-    await manager.prepare('s3', 'learner-a', 3);
-    expect((await manager.start('s3'))?.lessonNumber).toBe(3);
-    expect((await course.overview('learner-a')).find((x) => x.number === 3)?.status)
-      .toBe('in_progress');
-    expect((await course.overview('learner-b')).find((x) => x.number === 3)?.status)
-      .toBe('locked');
+    expect(count).toBe(runtime.spec.steps.length);
+    expect(runtime.cursor.receipts).toHaveLength(count);
+    expect(
+      (await store.overview('learner')).find((l) => l.number === 3)?.status,
+    ).toBe('available');
   });
+  it('holds the question on okay and does not assess user speech until the turn settles', async () => {
+    vi.useFakeTimers();
+    const { runtime } = await fixture();
+    await delivered(runtime);
+    await delivered(runtime);
+    await delivered(runtime);
+    const at = runtime.cursor.stepIndex;
+    await answer(runtime, 'okay');
+    expect(runtime.cursor.stepIndex).toBe(at);
+    await runtime.activity({ speaker: 'user', speaking: true, seq: ++seq });
+    runtime.onFragment('user', {
+      event_id: 'thinking',
+      delta: 'The stress ',
+      start_ms: 10000,
+      end_ms: 11000,
+    });
+    await vi.advanceTimersByTimeAsync(2200);
+    expect(runtime.cursor.stepIndex).toBe(at);
+    runtime.onFragment('user', {
+      event_id: 'answer-rest',
+      delta: 'changes to the end',
+      start_ms: 11200,
+      end_ms: 12000,
+    });
+    await runtime.activity({ speaker: 'user', speaking: false, seq: ++seq });
+    await vi.advanceTimersByTimeAsync(1600);
+    expect(runtime.cursor.stepIndex).toBe(at + 1);
+  });
+  it('never advances for drift and retries the same step', async () => {
+    const bad: TeachingSupervisor = {
+      ...supervisor,
+      delivery: async () => ({
+        covered: false,
+        drift: true,
+        evidence: [],
+        confidence: 1,
+      }),
+    };
+    const { runtime, sent } = await fixture(new CourseStore(), bad);
+    await delivered(runtime, 'Let us learn future tense.');
+    expect(runtime.cursor.stepIndex).toBe(0);
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(2);
+  });
+  it('resumes from last verified step, replaying interrupted output', async () => {
+    const { runtime, manager, store } = await fixture();
+    await delivered(runtime);
+    await manager.forgetSession(runtime['sessionId']);
+    const next = await fixture(store);
+    expect(next.runtime.cursor.stepIndex).toBe(1);
+    expect(
+      next.sent.find((c) => c.type === 'session.commentary.append')?.content,
+    ).toContain('NOR-mal');
+  });
+  it('terminates when control is lost and rejects concurrent learner sessions', async () => {
+    const failures: unknown[] = [];
+    const store = new CourseStore(),
+      manager = new LessonSessionManager(store, supervisor);
+    const first = await manager.prepare('owner', 'learner', 2, {
+      send: () => {},
+      fail: (e) => failures.push(e),
+    });
+    runtimes.push(first);
+    first.setControlReady(true);
+    await first.start();
+    await expect(
+      manager.prepare('other', 'learner', 2, {
+        send: () => {},
+        fail: () => {},
+      }),
+    ).rejects.toThrow('already active');
+    first.setControlReady(false);
+    expect(failures).toHaveLength(1);
+    expect(first.cursor.stepIndex).toBe(0);
+  });
+});
 
-  it('preserves cursor across voice sessions without restarting the lesson', async () => {
-    const course = new CourseStore();
-    const first = new LessonSessionManager(course);
-    await first.prepare('old', 'learner-a', 2);
-    await first.start('old');
-    const res = await first.hear('old', 'metal');
-    expect(res?.correct).toBe(true);
-    const at = res!.cursor.stepIndex;
-    first.forgetSession('old');
-    const second = new LessonSessionManager(course);
-    await second.prepare('new', 'learner-a', 2);
-    expect(second.get('new')?.cursor.stepIndex).toBe(at);
-    const cue = await second.start('new');
-    expect(cue?.question).toContain('he is normal');
+describe('teaching concurrency and continuity', () => {
+  it('does not commit an assessment when further learner speech arrives while it is pending', async () => {
+    vi.useFakeTimers();
+    let resolve: (d: TeachingDecision) => void = () => {};
+    let pending: TeachingDecision | undefined;
+    const deferred: TeachingSupervisor = {
+      ...supervisor,
+      assess: async (spec, state, text) => {
+        const d = await supervisor.assess(spec, state, text);
+        if (text === 'The emphasis changes') {
+          pending = d;
+          return new Promise<TeachingDecision>((r) => {
+            resolve = r;
+          });
+        }
+        return { ...d, understanding: 'incorrect', proposedAction: 'probe' };
+      },
+    };
+    const { runtime } = await fixture(new CourseStore(), deferred);
+    await delivered(runtime);
+    await delivered(runtime);
+    await delivered(runtime);
+    const at = runtime.cursor.stepIndex;
+    runtime.onFragment('user', {
+      event_id: 'partial-thinking',
+      delta: 'The emphasis changes',
+    });
+    await vi.advanceTimersByTimeAsync(1600);
+    expect(pending).toBeDefined();
+    runtime.onFragment('user', {
+      event_id: 'faulty-reason',
+      delta: 'because Spanish always stresses the first syllable',
+    });
+    resolve(pending!);
+    await vi.advanceTimersByTimeAsync(1600);
+    expect(runtime.cursor.stepIndex).toBe(at);
+  });
+  it('bounds silent-teacher retries and never uses silence to advance a learner question', async () => {
+    vi.useFakeTimers();
+    const { runtime, sent } = await fixture();
+    for (let i = 0; i < 3; i++) {
+      await runtime.activity({
+        speaker: 'assistant',
+        speaking: false,
+        playing: false,
+        seq: ++seq,
+      });
+      await vi.advanceTimersByTimeAsync(13000);
+    }
+    expect(runtime.cursor.phase).toBe('paused');
+    expect(runtime.cursor.stepIndex).toBe(0);
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(3);
+  });
+  it('retains an explicit pause across reconnect and waits for resume', async () => {
+    vi.useFakeTimers();
+    const { runtime, manager, store } = await fixture();
+    runtime.onFragment('user', {
+      event_id: 'pause-request',
+      delta: 'pause please',
+    });
+    await vi.advanceTimersByTimeAsync(1600);
+    expect(runtime.cursor.phase).toBe('paused');
+    await manager.forgetSession(runtime['sessionId']);
+    const next = await fixture(store);
+    expect(next.runtime.cursor.phase).toBe('paused');
+    expect(next.sent).toHaveLength(0);
+    next.runtime.onFragment('user', {
+      event_id: 'resume-request',
+      delta: 'resume',
+    });
+    await vi.advanceTimersByTimeAsync(1600);
+    expect(next.runtime.cursor.phase).toBe('sent');
+    expect(next.sent).toHaveLength(2);
+  });
+  it('orders fragments on the session timeline and ignores duplicate events', async () => {
+    const { runtime } = await fixture();
+    const text = runtime.spec.steps[0].text;
+    const cut = Math.floor(text.length / 2);
+    runtime.onFragment('assistant', {
+      event_id: 'last',
+      delta: text.slice(cut),
+      start_ms: 200,
+      end_ms: 300,
+    });
+    runtime.onFragment('assistant', {
+      event_id: 'first',
+      delta: text.slice(0, cut),
+      start_ms: 100,
+      end_ms: 200,
+    });
+    runtime.onFragment('assistant', {
+      event_id: 'first',
+      delta: text.slice(0, cut),
+      start_ms: 100,
+      end_ms: 200,
+    });
+    await runtime.activity({
+      speaker: 'assistant',
+      speaking: false,
+      playing: true,
+      outputEventId: 'last',
+      seq: ++seq,
+    });
+    expect(runtime.cursor.stepIndex).toBe(1);
+    expect(runtime.cursor.receipts[0].deliveryText).toBe(text);
   });
 });

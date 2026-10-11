@@ -23,10 +23,13 @@ export type SidebandState =
 
 export interface SidebandEventHandlers {
   onReady(sessionId: string): void;
+  onStateChange?(sessionId: string, state: SidebandState): void;
+  onEvent?(sessionId: string, event: Record<string, unknown>): void;
   onTranscriptDelta(
     sessionId: string,
     speaker: 'user' | 'assistant',
     delta: string,
+    event?: Record<string, unknown>,
   ): void;
   onClosed(sessionId: string, reason?: string): void;
   onError(sessionId: string, error: unknown): void;
@@ -40,7 +43,10 @@ export interface SidebandEventHandlers {
 
 /** Minimal WebSocket surface we need; injectable for tests. */
 export interface WebSocketLike {
-  on(event: 'open' | 'message' | 'close' | 'error', cb: (...args: never[]) => void): void;
+  on(
+    event: 'open' | 'message' | 'close' | 'error',
+    cb: (...args: never[]) => void,
+  ): void;
   send(data: string): void;
   close(): void;
 }
@@ -113,16 +119,22 @@ export class SidebandConnection {
     });
     this.ws = ws;
     ws.on('open', () => {
+      if (this.ws !== ws) return;
       // session.started arrives as a server event; connection open alone is not ready.
       this.setState('open');
       this.opts.handlers.onInfo?.(this.opts.sessionId, 'sideband connected');
     });
-    ws.on('message', (data: unknown) => this.handleMessage(data));
+    ws.on('message', (data: unknown) => {
+      if (this.ws === ws) this.handleMessage(data);
+    });
     ws.on('error', (err: unknown) => {
+      if (this.ws !== ws) return;
       this.opts.handlers.onError(this.opts.sessionId, err);
       this.handleDrop('error');
     });
-    ws.on('close', () => this.handleDrop('close'));
+    ws.on('close', () => {
+      if (this.ws === ws) this.handleDrop('close');
+    });
   }
 
   /**
@@ -163,7 +175,9 @@ export class SidebandConnection {
   sendCommand(command: Record<string, unknown>): void {
     const ws = this.ws;
     if (!ws || this.state !== 'open') {
-      throw new Error(`sideband not open (state=${this.state}); cannot send ${String(command.type)}`);
+      throw new Error(
+        `sideband not open (state=${this.state}); cannot send ${String(command.type)}`,
+      );
     }
     ws.send(JSON.stringify(command));
   }
@@ -203,17 +217,28 @@ export class SidebandConnection {
         new Error(`sideband reconnect attempts exhausted (${maxAttempts})`),
       );
       this.finishClose('reconnect_exhausted');
-      return;    }
+      return;
+    }
     this.reconnectAttempts += 1;
     const baseMs = this.opts.baseBackoffMs ?? 1_000;
-    const backoffMs = Math.min(baseMs * 2 ** (this.reconnectAttempts - 1), 30_000);
+    const backoffMs = Math.min(
+      baseMs * 2 ** (this.reconnectAttempts - 1),
+      30_000,
+    );
     const jitterMs = Math.floor(Math.random() * 250);
     this.setState('reconnecting');
     this.opts.handlers.onInfo?.(
       this.opts.sessionId,
       `sideband dropped (${cause}); reconnect attempt ${this.reconnectAttempts}/${maxAttempts} in ${backoffMs}ms`,
     );
+    const dropped = this.ws;
     this.ws = null;
+    try {
+      dropped?.close();
+    } catch {
+      /* best effort */
+    }
+    if (this.cleanedUp) return;
     this.reconnectTimer = this.clock.setTimeout(() => {
       this.reconnectTimer = null;
       this.attach();
@@ -229,6 +254,7 @@ export class SidebandConnection {
 
   private setState(next: SidebandState): void {
     this.state = next;
+    this.opts.handlers.onStateChange?.(this.opts.sessionId, next);
   }
 
   private handleMessage(data: unknown): void {
@@ -242,11 +268,19 @@ export class SidebandConnection {
     if (!event || typeof event.type !== 'string') return;
     const { sessionId } = this.opts;
     const type = event.type;
+    this.opts.handlers.onEvent?.(sessionId, event as Record<string, unknown>);
     // Layer C: delegation lifecycle + nested Responses frames go to the
     // DelegationManager; everything else keeps the PR 1 behavior.
-    if (type.startsWith('delegation.') || type === 'response.event') {
+    if (
+      type.startsWith('delegation.') ||
+      type.startsWith('session.delegation.') ||
+      type === 'response.event'
+    ) {
       try {
-        this.opts.handlers.onDelegationEvent?.(sessionId, event as Record<string, unknown>);
+        this.opts.handlers.onDelegationEvent?.(
+          sessionId,
+          event as Record<string, unknown>,
+        );
       } catch (err) {
         this.opts.handlers.onError(sessionId, err);
       }
@@ -258,17 +292,33 @@ export class SidebandConnection {
         this.opts.handlers.onReady(sessionId);
         break;
       case TRANSCRIPT_USER:
-        this.opts.handlers.onTranscriptDelta(sessionId, 'user', event.delta ?? '');
+        this.opts.handlers.onTranscriptDelta(
+          sessionId,
+          'user',
+          event.delta ?? '',
+          event as Record<string, unknown>,
+        );
         break;
       case TRANSCRIPT_ASSISTANT:
-        this.opts.handlers.onTranscriptDelta(sessionId, 'assistant', event.delta ?? '');
+        this.opts.handlers.onTranscriptDelta(
+          sessionId,
+          'assistant',
+          event.delta ?? '',
+          event as Record<string, unknown>,
+        );
         break;
       case 'session.closed':
-        this.opts.handlers.onInfo?.(sessionId, `session.closed (reason=${event.reason ?? 'unknown'})`);
+        this.opts.handlers.onInfo?.(
+          sessionId,
+          `session.closed (reason=${event.reason ?? 'unknown'})`,
+        );
         this.finishClose(event.reason ?? 'remote_closed');
         break;
       case 'error':
-        this.opts.handlers.onError(sessionId, new Error(`sideband error event: ${JSON.stringify(event)}`));
+        this.opts.handlers.onError(
+          sessionId,
+          new Error(`sideband error event: ${JSON.stringify(event)}`),
+        );
         break;
       default:
         // session.updated, session.usage.updated, delegation events, etc. —

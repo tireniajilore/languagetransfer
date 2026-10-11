@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useLiveSession } from '@/hooks/useLiveSession';
 import { LiveConnState } from '@/lib/live-voice-session';
 
@@ -33,7 +33,8 @@ const STATE_STYLES: Record<LiveConnState, string> = {
 export default function LiveLessonPage() {
   const params = useParams<{ lessonNumber: string }>();
   const lessonNumber = Number(params.lessonNumber);
-  const validLesson = Number.isInteger(lessonNumber) && lessonNumber >= 2 && lessonNumber <= 90;
+  const validLesson =
+    Number.isInteger(lessonNumber) && lessonNumber >= 2 && lessonNumber <= 90;
   // PR 5 rollout gate: the route renders the tutor only when explicitly
   // enabled. Set NEXT_PUBLIC_LIVE_TUTOR_ENABLED=1 on Vercel (staging first).
   // Defaults to OFF so merging the live-tutor stack never exposes the route
@@ -53,7 +54,16 @@ export default function LiveLessonPage() {
     start,
     stop,
     lessonProgress,
+    evaluationRecording,
+    startEvaluationRecording,
+    saveEvaluation,
   } = useLiveSession(validLesson ? lessonNumber : undefined);
+  const [evaluationMode, setEvaluationMode] = useState(false);
+  useEffect(() => {
+    setEvaluationMode(
+      new URLSearchParams(window.location.search).get('eval') === '1',
+    );
+  }, []);
   const transcriptRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -61,19 +71,30 @@ export default function LiveLessonPage() {
     if (el) el.scrollTop = el.scrollHeight;
   }, [transcripts]);
 
-  if (!validLesson) return <main className="mx-auto max-w-2xl p-8">Invalid lesson. <Link href="/live" className="underline">Back to course</Link></main>;
+  if (!validLesson)
+    return (
+      <main className="mx-auto max-w-2xl p-8">
+        Invalid lesson.{' '}
+        <Link href="/live" className="underline">
+          Back to course
+        </Link>
+      </main>
+    );
 
   if (!liveTutorEnabled) {
     return (
       <main className="mx-auto flex min-h-screen max-w-2xl flex-col gap-6 px-6 py-10">
         <header>
-          <h1 className="font-display text-3xl font-semibold">Language Transfer · Lesson {lessonNumber}</h1>
+          <h1 className="font-display text-3xl font-semibold">
+            Language Transfer · Lesson {lessonNumber}
+          </h1>
           <p className="mt-2 text-sm text-stone-600">
             The real-time voice tutor is not enabled in this environment.
           </p>
         </header>
         <div className="rounded-lg border border-stone-300 bg-stone-50 p-4 text-sm text-stone-700">
-          This route is behind the <code className="font-mono">NEXT_PUBLIC_LIVE_TUTOR_ENABLED</code>{' '}
+          This route is behind the{' '}
+          <code className="font-mono">NEXT_PUBLIC_LIVE_TUTOR_ENABLED</code>{' '}
           flag. The scripted lessons remain available:{' '}
           <Link href="/" className="underline">
             back to lessons
@@ -97,7 +118,9 @@ export default function LiveLessonPage() {
       <header className="flex items-start justify-between gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <h1 className="font-display text-3xl font-semibold">Language Transfer · Lesson {lessonNumber}</h1>
+            <h1 className="font-display text-3xl font-semibold">
+              Language Transfer · Lesson {lessonNumber}
+            </h1>
             <span className="rounded-full bg-violet-200 px-2 py-0.5 text-xs font-medium text-violet-900">
               Experimental
             </span>
@@ -107,25 +130,48 @@ export default function LiveLessonPage() {
             can respond to your questions, mistakes and interruptions.
           </p>
         </div>
-        <Link href="/live" className="shrink-0 text-sm text-stone-500 underline">
+        <Link
+          href="/live"
+          className="shrink-0 text-sm text-stone-500 underline"
+        >
           All lessons
         </Link>
       </header>
 
       {lessonProgress && (
-        <section aria-label="Lesson progress" className="rounded-lg border border-stone-200 bg-stone-50 p-4">
+        <section
+          aria-label="Lesson progress"
+          className="rounded-lg border border-stone-200 bg-stone-50 p-4"
+        >
           <div className="mb-2 flex justify-between text-sm">
             <span className="font-medium">Lesson {lessonNumber} progress</span>
-            <span>{lessonProgress.stepIndex} of {lessonProgress.totalSteps} steps</span>
+            <span>
+              {lessonProgress.stepIndex} of {lessonProgress.totalSteps} steps
+            </span>
           </div>
           <div className="h-2 w-full overflow-hidden rounded-full bg-stone-200">
-            <div className="h-full bg-emerald-600" style={{ width: `${Math.round(100 * lessonProgress.stepIndex / Math.max(1, lessonProgress.totalSteps))}%` }} />
+            <div
+              className="h-full bg-emerald-600"
+              style={{
+                width: `${Math.round((100 * lessonProgress.stepIndex) / Math.max(1, lessonProgress.totalSteps))}%`,
+              }}
+            />
           </div>
+          {lessonProgress.phase === 'paused' && (
+            <p className="mt-3 text-sm text-stone-600">
+              Teaching is paused. Say “resume” when you’re ready.
+            </p>
+          )}
           {lessonProgress.completed && (
             <div className="mt-3 flex items-center justify-between gap-2">
-              <span className="font-medium text-emerald-800">Lesson complete!</span>
-              <Link href={`/live/${lessonNumber + 1}`} className="rounded-lg bg-emerald-700 px-3 py-2 text-sm text-white">
-                Continue to Lesson {lessonNumber + 1}
+              <span className="font-medium text-emerald-800">
+                Lesson complete!
+              </span>
+              <Link
+                href="/live"
+                className="rounded-lg bg-emerald-700 px-3 py-2 text-sm text-white"
+              >
+                Back to course
               </Link>
             </div>
           )}
@@ -135,14 +181,16 @@ export default function LiveLessonPage() {
       {!backendConfigured && (
         <div className="rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
           The live backend is not configured.{' '}
-          <code className="font-mono">NEXT_PUBLIC_LIVE_BACKEND_URL</code> must point
-          at the deployed <code className="font-mono">live-backend</code> service
-          before a session can start.
+          <code className="font-mono">NEXT_PUBLIC_LIVE_BACKEND_URL</code> must
+          point at the deployed <code className="font-mono">live-backend</code>{' '}
+          service before a session can start.
         </div>
       )}
 
       <div className="flex items-center gap-3">
-        <span className={`rounded-full px-3 py-1 text-sm font-medium ${STATE_STYLES[connState]}`}>
+        <span
+          className={`rounded-full px-3 py-1 text-sm font-medium ${STATE_STYLES[connState]}`}
+        >
           {STATE_LABELS[connState]}
         </span>
         {live && (
@@ -227,10 +275,40 @@ export default function LiveLessonPage() {
         </div>
       </section>
 
+      {evaluationMode && live && (
+        <section
+          className="rounded-lg border border-stone-200 p-4 text-sm"
+          aria-label="Evaluation capture"
+        >
+          <p>
+            Record both sides of this test conversation and export its teaching
+            trace. Audio stays in your browser until you download it.
+          </p>
+          <div className="mt-3 flex gap-3">
+            <button
+              disabled={evaluationRecording}
+              onClick={startEvaluationRecording}
+              className="rounded bg-stone-200 px-3 py-2 disabled:opacity-50"
+            >
+              {evaluationRecording
+                ? 'Recording test session…'
+                : 'Record test session'}
+            </button>
+            <button
+              onClick={() => void saveEvaluation()}
+              className="rounded bg-stone-900 px-3 py-2 text-white"
+            >
+              Download evaluation
+            </button>
+          </div>
+        </section>
+      )}
+
       <p className="text-xs text-stone-400">
-        Your teacher follows the original Language Transfer teaching sequence, while
-        adapting its guidance to what you say. The scripted player is preserved. Microphone audio is streamed to the tutor
-        in real time; transcripts are shown here for the session.
+        Your teacher follows the original Language Transfer teaching sequence,
+        while adapting its guidance to what you say. The scripted player is
+        preserved. Microphone audio is streamed to the tutor in real time;
+        transcripts are shown here for the session.
       </p>
 
       <audio ref={audioRef} autoPlay playsInline className="hidden" />
