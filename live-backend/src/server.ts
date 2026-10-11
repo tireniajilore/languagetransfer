@@ -68,12 +68,13 @@ function validateOfferSdp(body: unknown): string | null {
 }
 
 /** Optional mint parameters: learner identity + starting objective. */
-function parseMintOptions(body: unknown): { learnerId?: string; objectiveId?: string } {
+function parseMintOptions(body: unknown): { objectiveId?: string } {
   if (!body || typeof body !== 'object') return {};
-  const b = body as { learnerId?: unknown; objectiveId?: unknown };
+  const b = body as { objectiveId?: unknown };
   const clean = (v: unknown): string | undefined =>
     typeof v === 'string' && v.length > 0 && v.length <= 128 ? v : undefined;
-  return { learnerId: clean(b.learnerId), objectiveId: clean(b.objectiveId) };
+  // An untrusted caller cannot choose a durable learner identity.
+  return { objectiveId: clean(b.objectiveId) };
 }
 
 /**
@@ -193,6 +194,17 @@ export function createApp(deps: ServerDeps): Express {
     });
   });
 
+  const requireSessionAccess = (req: Request, res: Response, next: NextFunction): void => {
+    const id = req.params.id;
+    const authorization = req.get('authorization') ?? '';
+    const token = authorization.startsWith('Bearer ') ? authorization.slice(7) : undefined;
+    if (!id || !registry.authorize(id, token)) {
+      res.status(401).json({ error: 'unauthorized_session' });
+      return;
+    }
+    next();
+  };
+
   const mintGuards = [
     originCheck(config.allowedOrigins),
     rateLimit({ windowMs: config.rateLimit.windowMs, max: config.rateLimit.max }),
@@ -290,7 +302,7 @@ export function createApp(deps: ServerDeps): Express {
       });
       sidebandRef = sideband;
       sideband.attach();
-      registry.register(created.sessionId, {
+      const accessToken = registry.register(created.sessionId, {
         sideband,
         createdAt: Date.now(),
         ...(delegationManager ? { delegation: delegationManager } : {}),
@@ -301,17 +313,16 @@ export function createApp(deps: ServerDeps): Express {
       // A harness failure must not kill the voice session, so it is logged
       // and the session continues without teaching state.
       try {
-        const { learnerId, objectiveId } = parseMintOptions(req.body);
+        const { objectiveId } = parseMintOptions(req.body);
         // prepareSession restores prior learner knowledge when the store is
         // persistent (Layer D) and falls back to a fresh state otherwise.
         const state = await harness.store.prepareSession({
           sessionId: created.sessionId,
           curriculum: harness.curriculum,
-          learnerId,
           objectiveId,
         });
         console.log(
-          `[live] harness initialized session=${created.sessionId} objective=${state.currentObjectiveId} learner=${learnerId ?? 'anonymous'}`,
+          `[live] harness initialized session=${created.sessionId} objective=${state.currentObjectiveId} learner=anonymous`,
         );
       } catch (err) {
         console.error(
@@ -321,7 +332,7 @@ export function createApp(deps: ServerDeps): Express {
       }
 
       res.status(201).json({
-        session: { id: created.sessionId },
+        session: { id: created.sessionId, accessToken },
         transport: { type: 'webrtc', sdp: created.answerSdp },
       });
     } catch (err) {
@@ -340,7 +351,7 @@ export function createApp(deps: ServerDeps): Express {
     }
   });
 
-  app.post('/api/live/session/:id/close', async (req: Request, res: Response) => {
+  app.post('/api/live/session/:id/close', requireSessionAccess, async (req: Request, res: Response) => {
     const id = req.params.id;
     if (!id || id.length > 128) {
       res.status(400).json({ error: 'invalid_request' });
@@ -364,7 +375,7 @@ export function createApp(deps: ServerDeps): Express {
    * HTTP status: unknown_tool/invalid_input -> 400, unknown_session -> 404,
    * stale_turn/invalid_move/session_not_active -> 409, internal -> 500.
    */
-  app.post('/api/live/session/:id/tools', (req: Request, res: Response) => {
+  app.post('/api/live/session/:id/tools', requireSessionAccess, (req: Request, res: Response) => {
     const id = req.params.id;
     if (!id || id.length > 128) {
       res.status(400).json({ ok: false, error: { code: 'invalid_input', detail: 'bad session id' } });
@@ -374,7 +385,7 @@ export function createApp(deps: ServerDeps): Express {
     const dispatchResult: DispatchResult = harness.router.dispatch({
       sessionId: id,
       tool: typeof body.tool === 'string' ? body.tool : '',
-      input: body.input ?? {},
+      input: { ...((body.input && typeof body.input === 'object' && !Array.isArray(body.input)) ? body.input : {}), sessionId: id },
       idempotencyKey: typeof body.idempotencyKey === 'string' ? body.idempotencyKey : undefined,
     });
     if (dispatchResult.ok) {
@@ -394,7 +405,7 @@ export function createApp(deps: ServerDeps): Express {
   });
 
   /** Read the assembled teaching context for a session (debug / UI). */
-  app.get('/api/live/session/:id/context', (req: Request, res: Response) => {
+  app.get('/api/live/session/:id/context', requireSessionAccess, (req: Request, res: Response) => {
     const id = req.params.id;
     if (!id || id.length > 128) {
       res.status(400).json({ error: 'invalid_request' });
