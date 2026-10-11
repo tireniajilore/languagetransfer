@@ -118,7 +118,7 @@ function makeFetch(
 function mintResponder(sessionId: string, answerSdp = 'v=0\r\nfake-answer') {
   return () => ({
     status: 201,
-    json: { session: { id: sessionId }, transport: { type: 'webrtc', sdp: answerSdp } },
+    json: { session: { id: sessionId, accessToken: 'test-session-secret' }, transport: { type: 'webrtc', sdp: answerSdp } },
   });
 }
 
@@ -291,7 +291,7 @@ describe('LiveVoiceSession', () => {
       fetchImpl: (url) => {
         if (url.endsWith('/close')) return { status: 200, json: { closed: true } };
         mints += 1;
-        return { status: 201, json: { session: { id: `live_${mints}` }, transport: { type: 'webrtc', sdp: 'v=0\r\nfake-answer' } } };
+        return { status: 201, json: { session: { id: `live_${mints}`, accessToken: 'test-session-secret' }, transport: { type: 'webrtc', sdp: 'v=0\r\nfake-answer' } } };
       },
     });
     await startConnected({ session, pcs });
