@@ -16,7 +16,7 @@ function sign(value: string, secret: string): string {
 
 export function resolveLearnerIdentity(candidate: unknown, secret: string): LearnerIdentity {
   if (typeof candidate === 'string' && candidate.length < 256) {
-    const match = /^lt1\\.([0-9a-f-]{36})\\.([A-Za-z0-9_-]+)$/.exec(candidate);
+    const match = /^lt1\.([0-9a-f-]{36})\.([A-Za-z0-9_-]+)$/.exec(candidate);
     if (match) {
       const data = `lt1.${match[1]}`;
       const expected = Buffer.from(sign(data, secret));
