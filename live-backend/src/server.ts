@@ -426,6 +426,15 @@ export function createApp(deps: ServerDeps): Express {
           `[live] harness init failed for session ${created.sessionId}:`,
           err instanceof Error ? err.message : err,
         );
+        // A course session without authoritative state must never fall back
+        // to free-form tutoring; revoke it instead of presenting a fake lesson.
+        if (courseBound) {
+          course.forgetSession(created.sessionId);
+          readyLessons.delete(created.sessionId);
+          void registry.closeSession(created.sessionId).catch(() => undefined);
+          res.status(503).json({ error: 'lesson_state_unavailable' });
+          return;
+        }
       }
 
       res.status(201).json({
