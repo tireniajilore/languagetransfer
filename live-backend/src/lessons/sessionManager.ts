@@ -84,6 +84,7 @@ export function lessonInstructions(number: number, originalStyle: string): strin
     'On receipt of a lesson commentary append, conversationally deliver its actual authored content, preserving the order.',
     'Never SUBSTITUTE your own example or skip a required passage to improvise.',
     'Ask precisely the next authorized question and wait for the learner; do not give its answer prematurely.',
+    'Do not say that an answer is correct or congratulate a specific answer until the backend has authorized progression. Do not treat unrelated Spanish words as correct just because they sound plausible.',
     'Offer patient hints and clarifications to actual learner replies; do not jump to future material.',
     'Short detours are permitted, but return to the currently authorized question, not a new topic.',
     'The backend decides when a question is completed. Never claim to have completed a lesson before it says so.',
