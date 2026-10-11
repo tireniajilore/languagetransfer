@@ -54,6 +54,17 @@ describe('canonical Language Transfer speech cues', () => {
     expect(events.at(-1)?.content).not.toContain('international');
   });
 
+  it('accepts natural hedging but not a longer contradictory sentence', () => {
+    const lesson = getAuthoredLesson(2);
+    const first = nextCue(lesson, freshCursor(2));
+    expect(respondToQuestion(lesson, first.cursor, 'I think metal').correct).toBe(true);
+    const next = respondToQuestion(lesson, first.cursor, 'metal').next!;
+    expect(next.expectedAnswers).toContain('es normal');
+    expect(respondToQuestion(lesson, nextCue(lesson, {
+      ...first.cursor, stepIndex: next.stepIndex + 1, phase: 'awaiting_answer',
+    }).cursor, 'no es normal').correct).toBe(false);
+  });
+
   it('does not reveal the answer to the next required question when a learner makes a mistake', () => {
     const lesson = getAuthoredLesson(2);
     const first = nextCue(lesson, freshCursor(2));
