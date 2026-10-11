@@ -73,6 +73,19 @@ export function getAuthoredLesson(number: number): AuthoredLesson {
     turns: Array<{ speaker: string; text?: string; is_prompt?: boolean; expected_answers?: string[] }>;
     outro?: Array<{ type: string; text?: string }>;
   };
+  if (typeof raw.title !== 'string' || typeof raw.description !== 'string' ||
+      !Array.isArray(raw.turns) || !raw.turns.every((turn) =>
+        turn && typeof turn === 'object' &&
+        typeof turn.speaker === 'string' &&
+        (turn.text === undefined || typeof turn.text === 'string') &&
+        (turn.expected_answers === undefined ||
+          (Array.isArray(turn.expected_answers) &&
+            turn.expected_answers.every((v) => typeof v === 'string'))))) {
+    throw new Error(`Lesson ${number} contains invalid authored data`);
+  }
+  if (raw.outro !== undefined && !Array.isArray(raw.outro)) {
+    throw new Error(`Lesson ${number} contains invalid outro data`);
+  }
   const steps: LessonTurn[] = [];
   for (let i = 0; i < raw.turns.length; i++) {
     const t = raw.turns[i];
@@ -119,6 +132,7 @@ export function nextCue(lesson: AuthoredLesson, cursor: LessonCursor): {
   if (cursor.lessonNumber !== lesson.number) throw new Error('cursor does not belong to lesson');
   if (cursor.phase === 'awaiting_answer') {
     const q = lesson.steps[cursor.stepIndex - 1];
+    if (!q || q.kind !== 'question') throw new Error('corrupt awaiting-question cursor');
     return { cursor, cue: { lessonNumber: lesson.number, stepIndex: cursor.stepIndex - 1,
       phase: cursor.phase, teacherLines: [], question: q?.text, expectedAnswers: q?.expectedAnswers,
       complete: false } };
