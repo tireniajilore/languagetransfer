@@ -1,0 +1,457 @@
+{
+  "lesson_number": 68,
+  "title": "Lesson 68",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "What was tonight in Spanish, tonight?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esta noche."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esta noche. Good, “this night”. And we can use this as a hook to work out the other this ’s and that these and those that we might need. So, esta noche, which tells us that noche is what kind of noun, what gender?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Feminine."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Feminine. Good, and what if you wanted to say that night? What do you do to esta to get that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esa. Good, take away the t, good, so that night:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esa noche."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esa noche. And those nights:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esas noches"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esas noches. Good. The word for man is hombre, hombre, h-o-m-b-r-e, hombre.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hombre"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How would you say this man?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esta hombre"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You think hombre is a feminine word?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Este hombre."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Este hombre. Good. That man:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Ese hombre."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. You can also say el hombre este, el hombre ese, to say this man or that man in Spanish, which might be a structure taken from Arabic, because in Arabic you don’t really have to be in the present tense, so you can’t say this man, because you would understand from it that this is a man, so in Arabic it’s the same: alrajul hdha - el hombre este. As I mentioned before when languages come into contact, like the eight hundred years between Spanish and Arabic, they don’t just share vocabulary. How would you say these men?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estos hombres."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estos hombres. So, with este we have the / e / of el, el hombre, este hombre, and with estos we have the - os of los, los hombres, estos hombres, these men. How about those men?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esos hombres."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esos hombres. Good. So, this means that we have este and esta for this, when we are referring to oh, I can’t believe a masculine noun or a feminine noun. But sometimes we say this just generally,, we don’t mean a specific noun when we say I can’t believe this this, so we have like a neuter this, ’s. that is not masculine or feminine, and that one is esto. So, creer is to believe, creer, with two e I don’t believe this How would you say?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No creo esto."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No creo esto. Good. I don't believe this. How would you say this? In Spanish we will say nothing pleases me more than this, nothing pleases me more than this, I don’t like anything more than this:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nada me gusta más que esto."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nada me gusta más que esto. How would you say nothing pleased me more than that? I didn’t like anything more than that, nothing pleased me more than that:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nada me gusta-"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nothing pleased me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Nada me gustó más que eso."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Nada me gustó más que eso. more than that. Nada me gustó más que eso. Tan, tan, in Spanish means so, like in the sense of so tired, tan. T-a-n. How would you say so tired?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tan cansado."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So, how would you say I was so tired, and we mean a line in time?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estaba tan cansado."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And you being feminine?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cansada"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estaba tan cansada. What if you wanted to say we were so tired that we slept all day? So,, let’s be a masculine or mixed group, first bit is we were so tired we were so tired:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estábamos tan cansado- cansados."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estábamos tan cansados, that we slept all day. So what is this that?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Que"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Que. Estábamos tan cansados que we slept all day. Now, all day is “all the day”, you remember how is day?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Día"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Día. And the day:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "La día."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It would be, but-",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "El día."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "El día. It ends in a all day is “all the day”, how would it be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Toda"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It’s masculine.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Todo el día."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "We were so tired that we slept all day, we were so tired that we slept all day:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estábamos tan cansados que dormimos todo el día."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. Estábamos tan cansados que dormimos todo el día. So dormimos could be we slept, we know it’s the same in the present, but or we sleep estábamos tan cansados gives us our context, so we understand that of course it refers to past, estábamos tan cansados que dormimos todo el día. How would you say we were so tired when we arrived that we slept all day? So, we were so tired:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estábamos tan cansados."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "When we arrived:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuando llegamos."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "That we slept all day:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Que dormimos todo el día."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estábamos tan cansados cuando llegamos que dormimos todo el día. So, here in this sentence we have llegamos and dormimos that could be past or present, but estábamos brings us into the context right from the beginning, estábamos tan cansados cuando llegamos que dormimos todo el día. So, we said that when was:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuándo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cuándo. And how much is cuánto, with a t, cuánto.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuánto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cuánto. How do you say again, like another time?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Otra vez."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Otra vez. Good. So, you could say how many times, how would that be? How many times:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Cuántos veces- Cuántas veces?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Cuántas veces. Good. We know it’s feminine, because we said otra vez, and not otro vez. So, we can, if we have a word like vez where it’s not obvious what is the gender, we need to look back to, oh, ok, it’s feminine, somewhere that we used it – otra vez cuántas veces, good. How would you I don’t know how many times I visited him I don’t know how many times I visited him say?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé cuántas veces."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "I visited him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo visité."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No sé cuántas veces lo visité., many times they visited him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé cuántas veces los visitaron lo visitaron"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No sé cuántas veces lo visitaron. And what if you wanted to say times they visited her?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No sé cuántas veces la visitaron."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. No sé cuántas veces la visitaron.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

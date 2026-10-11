@@ -1,0 +1,547 @@
+{
+  "lesson_number": 40,
+  "title": "Lesson 40",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "An interesting thing about prepositions is that they have a habit of changing between languages. To give you an example, in English we say I fall in love with. In Spanish, you say I enamor myself of. I fall in love of you. Now again, this is something that we look at with interest rather than looking at it as an obstacle, for the insight that it might give us about how we perceive and express the world through our own language. Now the fact that we use with is not necessarily casual. Casual in the sense of meaningless. The fact that we use with is not necessarily without its weight, without its meaning. If I say I fall in love with you, that preposition with necessarily involves you in my process of falling in love. Now this of is much more detached in feeling than with. So there is a school of thought which explores how these elements of language might have a real tangible effect on the way we interact with the world and with certain concepts and the way we express them and how that feeds back into the way we perceive and view the world. And I think this is a very nice example between falling in love with and falling in love of. So this is something to think about and just take interest in whenever you find that in Spanish the verb uses a different preposition than the one it does in English. Rather than just seeing it as a hurdle to correctness that you need to memorize, maybe have a little look at how it might actually be affecting, somehow or other, the way you perceive the world. This also helps the memory on a practical level. You are much more capable of internalizing and remembering this difference if rather than just mindlessly memorizing that you’re using de instead of con here. We are looking with a more analytical eye, with a curious eye, to understand what effect this might possibly have on us and in this way we are just going to learn the differences much easier. Let’s start with this verb: To fall in love is to enamor oneself. So if you look up in the dictionary, written as one word. Now it’s important to realize to fall in love, what you will find is enamorarse that it is not one word. You still have a verb there ending - ar, enamorar and then the se is just hooked on. So let’s start with I fall in love. How will you make enamorarse, I fall in love, I enamor myself?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me enamoro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Exactly. Me enamoro. Now if you want to say I fall in love with you speak informally. In Spanish we’re not going to say, we’re going to say with you of you. I enamor myself of you:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me enamoro de ti"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah, me enamoro de ti. Very good. I fall in love with him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me enamoro de él"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Me enamoro de él. If we want to give the meaning of. We can say I am. How is I am, from estar?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Falling in love. Enamoring myself:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Enamorándome"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. It can come actually after the - ando or before estoy. Estoy enamorándome. Me estoy enamorando de él. Another verb that chooses a different preposition in Spanish and English is the verb to think. To think, we said it was related to the word pensive which means thoughtful.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Pensar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Pensar I think about you in Spanish. You say or I think in or on you. What was the word for in and on? I think we looked at it very briefly.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "En"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "En. Good. So we say I think in you or on you in, actually, because Arabic says it in this way and of course when languages come into contact, like the 800 years of contact that Spanish and Arabic had, they share a lot more than vocabulary. They also share structures. So we are I’m thinking in you I’m thinking probably saying to say I think about you, so how do you say that?. Let’s keep it informal. about you or I think about you",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Penso pienso en ti"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pienso en ti. Good. How would you say we think about you, or?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Pensamos en ti"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Pensamos en ti. We think about her, or we think in her, or literally we think in she:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Pensamos en ella"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Pensamos en ella. To dream in Spanish is soñar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Soñar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "This / ny / sound like the one we have in mañana is with the ñ. Ñ is the only letter that we get in Spanish that we don’t get in English and it’s like an n with a little squiggly line on the top of the n and it’s basically n-y. So n with squiggly line on top is n-y, like in mañana. Like in soñar. Soñar. To dream.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Soñar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "How do think you say I dream?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Soño"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Would be “”, but what might happen? How is soño to sleep?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dormir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dormir. And I sleep:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Duermo"
+      ]
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sueño"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yeah, so this is happening here, but there is really no way to know if it’s going to happen or not. Sometimes it does, sometimes it doesn’t. If it happens for one of the versions, of course it’s going to happen for all of the versions that we stress the o. So, sueño, sueña, sueñan, sueñas. But, we dream:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Soñamos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Soñamos, because we are not stressing it anymore. Soñamos, we are stressing the / a /. Very good. We don’t say I dream of in Spanish. We say I dream with. So here we use with in Spanish. I dream with her. The language, we said, is permitting and requiring us to perceive and express the world in a certain way. So when we say, you know, I dream with her, maybe you can imagine that when people began to talk about what they were dreaming that they had the idea of the involvement of I’m dreaming with you. the other person. You know, You don’t know, but it’s interesting to think about how that change in the preposition can really affect the way we perceive the world. And then subconsciously, because even though our beliefs might have modernized, like if I dream about you I don’t really think you’re there, and I don’t really think you are participating, but the language might hold an old belief that it is with you. That you are actually participating in my dream. So it’s interesting to think about, and thinking about it is going to help your memory internalize just this simple fact that the preposition changes. So how would you say I dream about her, or in Spanish, I’m dreaming with her I dream or?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sueño con ella"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sueño con ella. Good. He dreams about him:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sueña con él"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sueña con él. Good. What was for me?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para mí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And for you informal?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Para ti"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. And what was from?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "De. From me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De mí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "From you (informal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De ti"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "De ti. Good. With with, we get a little exception. With me is conmigo and it’s spelled like one word. So this - go is coming from nowhere and it’s all becoming one word, where de mi, para mi are two separate words. So we have conmigo for with me and contigo, with you, informal. Conmigo. C-o-n-m-i-g-o or contigo, c-o-n-t-i-g-o. So this is with me, with you. What was to come?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Venir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Venir. To come. Good. So how would you say, speaking informally, do you want to come with me?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Quieres venir conmigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good.:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "No quieres venir conmigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿ No quieres venir conmigo?:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Por qué no quieres venir conmigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Por qué no quieres venir conmigo? What was I have in the sense of possession?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tengo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tengo. Good. And if we want to say I have to, we can add something to that tengo comfortable translation either, if that helps you remember it.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tengo que"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tengo que. Good. So how would you say you have to come with me, again speaking informally? You have to come with me:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Tienes que venir conmigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tienes que venir conmigo. Good. Good. What was I can, from to be able?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Puedo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Puedo. Can you come with me? (still informal):",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Puedes venir conmigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. ¿ Puedes venir conmigo? So we have conmigo for with me, contigo for with you, speaking informally. So, we could say I dream about you and we’re going to say I dream with you, speaking informally.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sueño contigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sueño contigo., informally still: I’m going.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "I’m forgetting the verbs."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You’ll forget them many times and you need to find the way that you, you dig them up. That’s the most important thing: to take this skill away. So going, what does going relate to, if anything?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Voy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "You see,, speaking informally:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Voy contigo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Very good. To depend, in Spanish, is depender. Depender. How would you say it depends?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dependa"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Make sure before you start to change any verb, you do a quick check to see what type of verb it is.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Depende"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Yes, depender, - er verb. Depende it depends on. We say it depends of. So how would you say it depends on her or it depends of her?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Depende de ella"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Depende de ella. The word for yes and the word for if are the same in Spanish. So you know how to say yes in Spanish?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Sí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Sí. Good. So this is also if. It depends on if she wants to go It depends:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Depende"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "On or it depends of in Spanish:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "De"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. If she wants to go:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Si quiere ir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good, so all together. It depends on if she wants to go:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Depende de si quiere ir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Depende de si quiere ir. It depends on if she wants to go.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

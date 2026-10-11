@@ -1,0 +1,288 @@
+{
+  "lesson_number": 22,
+  "title": "Using Haber for Past Tense",
+  "description": "Learn to use 'haber' to form past tense and practice object pronouns.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "We were learning how to use the present to talk about the past with 'haber'. For example, 'I have gone', 'I have eaten'. What do you think 'terminar' means?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "to terminate",
+        "finish"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Finish. 'Terminar' is to finish. Do you remember how to say 'I have' from 'haber'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "he"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "It's 'he'. Good. How would you say 'I have finished'? How do you make 'finished' from 'terminar'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "he terminado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'He terminado'. And how would you say 'I have finished it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo he terminado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo he terminado. Good. Remember, object pronouns like 'lo', 'la', 'me', 'te' go before the conjugated verb. How would you say 'I have finished them'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "los he terminado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Los he terminado. Good. For -ar verbs, we use -ado. For -er/-ir verbs, we use -ido. For example, 'vender' becomes 'vendido'.",
+      "is_feedback": true,
+      "is_prompt": false
+    },
+    {
+      "speaker": "tutor",
+      "text": "How do you say 'I have lost'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "he perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "He perdido. Good. If you want to emphasize, you can say 'yo he perdido'. How do you say 'we have lost'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hemos perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hemos perdido. Good. 'Nosotros' is for a male or mixed group, 'nosotras' for females. How would you say 'we have lost', emphasizing?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "nosotros hemos perdido",
+        "nosotras hemos perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Nosotros hemos perdido' or 'nosotras hemos perdido'. Now, how do you say 'he has lost'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ha perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ha perdido. To clarify it's 'he', you can say 'él ha perdido'. How would you say 'she has lost'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ella ha perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ella ha perdido. Good. Now, how do you say 'you have lost' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "has perdido"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Has perdido. To emphasize, say 'tú has perdido'. Now, let's practice object pronouns. How do you say 'I see it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo veo. Good. How would you say 'I see her' or 'I see it' (feminine)?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La veo. And 'I see them' (feminine)?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "las veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Las veo. Good. For masculine or mixed, 'los veo'. Now, how do you say 'he sees'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "él ve"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Él ve. And 'she sees'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ella ve"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ella ve. Good. How do you say 'we see'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "nosotros vemos",
+        "nosotras vemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nosotros vemos or nosotras vemos. Good. 'Usted' is the formal 'you'. How would you say 'you see' formally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "usted ve"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Usted ve. Good. How would you say 'you see it' formally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo ve usted",
+        "usted lo ve"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo ve usted or usted lo ve. Both are correct. How would you say 'they see'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ellos ven",
+        "ellas ven"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ellos ven or ellas ven. Good. How would you say 'they see them'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ellos los ven",
+        "ellas las ven"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ellos los ven or ellas las ven. Good. Remember, we have two sets of important words: subject pronouns like 'yo', 'él', 'ella', 'nosotros', and object pronouns like 'me', 'te', 'lo', 'la'.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to use 'haber' to form the past tense and practiced using object pronouns."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try forming sentences with other verbs you know, like 'comer' or 'vivir', using 'haber'."
+    },
+    {
+      "type": "narration",
+      "text": "Remember, practice makes perfect. The more you use these structures, the more natural they will become."
+    }
+  ]
+}

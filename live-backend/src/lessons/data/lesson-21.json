@@ -1,0 +1,272 @@
+{
+  "lesson_number": 21,
+  "title": "Using Present to Talk About the Past",
+  "description": "Learn to use 'haber' to form the present perfect tense in Spanish.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "We can use the present in Spanish to talk about the past, just as in English. For example: I ate, I was eating, and I have eaten. We'll focus on 'I have eaten', which uses 'haber'.",
+      "is_prompt": false
+    },
+    {
+      "speaker": "tutor",
+      "text": "The verb 'haber' is used for 'have' in 'I have eaten'. It's irregular, but we can remember its forms by focusing on its vowel sounds, /a/ and /e/. What are these vowel sounds?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "a",
+        "e"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Let's start with 'he', which means 'I have'. It's spelled h-e. Now, what was the verb for 'to know'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "saber"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Saber. And 'I know' is 'sé'. Just like 'sé', 'he' is the I form of 'haber'. What do you think 'we have' is?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hemos. Good. From 'haber', we get 'he' and 'hemos'. Now, 'ha' means 'he/she/it has'. What about 'they have'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "han"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Han. Good. And 'you have' informally?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "has"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Has. Great. So, we have 'he-hemos', 'ha-has-han'. Now, to form the past participle for -ar verbs, remove -ar and add -ado. For example, 'hablar' becomes:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablado. Now, let's say 'I have spoken':",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "he hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "He hablado. Good. How about 'I haven't spoken'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no he hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No he hablado. Good. 'We have spoken'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hemos hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hemos hablado. 'He has spoken'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ha hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ha hablado. 'They have spoken'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "han hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Han hablado. 'You (informal) have spoken'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "has hablado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Has hablado. Perfect. Now, let's use 'anticipar'. How would you say 'we have anticipated it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo hemos anticipado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo hemos anticipado. Good. How about 'we have anticipated it for a long time'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo hemos anticipado por mucho tiempo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo hemos anticipado por mucho tiempo. Very good. Now, let's ask 'have you celebrated?' informally.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "has celebrado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Has celebrado? Good. 'Haven't you celebrated?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no has celebrado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No has celebrado. 'Where have you celebrated it?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "dónde lo has celebrado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dónde lo has celebrado. Good. Now, let's use 'tomar'. How would you say 'I have taken'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "he tomado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "He tomado. 'We have taken'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hemos tomado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hemos tomado. 'Has she taken it?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo ha tomado"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo ha tomado. Good. Remember to think about each part of the sentence separately to build it correctly.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to use 'haber' to form the present perfect tense in Spanish."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try forming sentences with other verbs, like 'comer' or 'vivir', using the present perfect tense.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "This tense is very common in Spanish, so practice using it in different contexts."
+    }
+  ]
+}

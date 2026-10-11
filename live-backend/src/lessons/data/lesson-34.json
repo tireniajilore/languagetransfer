@@ -1,0 +1,457 @@
+{
+  "lesson_number": 34,
+  "title": "Lesson 34",
+  "description": "",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "To speak. Do you remember how to say to speak? It begins with the silent h.",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablar. Good. What is I speak or I am speaking?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablo. Good. And what was to sleep, or to be dormant let’s say?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Dormir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Dormir. And how do you say I sleep?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Duermo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. We said also that you can get the additional meaning of I fall asleep by saying I sleep myself:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Me duermo."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Me duermo. Good. To eat was:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comer"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Comer. Good. So I eat or I am eating is:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Como"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Como. So here the o doesn’t split. Good. To have breakfast, to have breakfast Spanish to have breakfast. We have a verb to breakfast, let’s say, and the verb to breakfast is desayunar, desayunar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Desayunar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Breakfast and desayunar are direct translations of each other in fact. I don’t know if you noticed that in English breakfast is “break fast”. When we have breakfast we break the fast. And in Spanish“des” is like. So to “un-fast”. So un, ayunar is to fast desayunar is like to “un-fast”, to “break fast”. Desayunar.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Desayunar."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "To have breakfast. I'm having breakfast or I have breakfast:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Desayuno"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Desayuno. And desayuno is also the noun. El desayuno is the breakfast. What was to wait or to hope? Desperate is related because again we have this “des” like in desayunar which is like “un-” or “un- hopeful” hoped is to be desperate. So to wait or to hope:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Esperar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Esperar. Good. What is I wait or I am waiting or I hope or I am hoping?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Espero"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Espero I speak or I am speaking, I go or I am going, I wait or I am waiting. This is because this – ing tense in English we really overuse it. For example we use this – ing in English to refer to the future: He is doing it tomorrow, whereas in Spanish we just use the present tense with that future context. Lo hace mañana. Which is why we need to give both translations for hace, for example. He makes or does. But this doesn’t or he is making or doing. And we translate hablo as I speak and I am speaking mean that I am speaking doesn’t exist. It does exist but we use it in Spanish only when we want to show what we are doing right now in this moment. So, beginning this structure I am speaking, this I am: do you think that you would choose ser for characteristics, or do you think that you would choose estar for states?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "estoy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. We will use estar because of course what we are doing is a state. So we will always use estar with these structures. So the first part of this sentence is estoy. Now to get speaking, – ing, from to speak we take off – r and we add – ando, - ando. And we get hablando.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablando"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So,:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy hablando"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy hablando. Good. So maybe somebody interrupts you and you won’t say hablo, you will say estoy hablando. How would you say I am waiting and you mean right now? Right now, I am waiting here, I am waiting here:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy esperando aquí"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy esperando aquí. Good. So you could say espero aquí. Maybe it would sound a little more like I'll wait here rather than I am waiting here but both are fine. In many situations both are fine and there will be just a slight change in meaning. Espero aquí, estoy esperando aquí. What you can’t do is say I am eating with her tomorrow. The – ing, you need to use it just for what you are doing right now. So how was to speak?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And how would you say I speak or I am speaking?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Hablo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablo. And what was to prepare? If you forgot it you can go from preparation.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Preparación, Preparar"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "And I prepare or I am preparing:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Preparo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say I am preparing it tomorrow?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo preparo mañana"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo preparo mañana. So if you want to show, if you want to emphasize that we are doing something right now, I am preparing, firstly if we divide that up into two bits: I am - preparing:",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy. Good. Preparar becomes?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Preparando"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say I am preparing?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy preparando"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estoy preparando. Good. So that’s if you want to say I am preparing it right now, you can use this structure. So how would you say I am preparing it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo estoy preparando"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo estoy preparando or Estoy preparándolo. Even though it’s a changed verb here we can have the lo after – ando. Estoy preparándolo or lo estoy preparando. We said that to have breakfast was desayunar, desayunar. So how would you say we are having breakfast and you mean right now?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estamos desayunando"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "- ando. Good. Estamos desayunando. So, for – ar verbs we take off the – ar and we put – ando and we get this tense to show what we are doing right now. And we are not going to use it as we do in English: I'm finding out tomorrow and I'm doing it next week, I'm preparing it later. How would you say I'm preparing it later?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy preparando"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "This is not how we use it. So in Spanish we only use it to describe what we're doing right now.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Right. Sorry."
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "So this is why we are giving preparo, for example, the translation of both I prepare and I am preparing. So that when we want to say things like I am preparing it later, we don’t go to estoy preparando.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo preparo más tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo preparo más tarde. Good. But if you wanted to give the meaning of I am preparing it right now, how would you say it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy preparándolo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Estoy preparándolo or lo estoy preparando. And there you get the meaning of right now in this moment. Good. So for – ar verbs we are taking off the – ar and we are putting – ando to get this – ing. For – er, – ir verbs we take off the – er or the – ir and we put on - iendo, - iendo, i-e-n-d-o, to get this – ing form. So how would you get eating from to eat? How would eating be from comer?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Comiendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. So how would you say I am eating, and you mean right now?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Estoy comiendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Estoy comiendo. Good. I am eating. And how would you say he is eating or she is eating or you formal?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Está comiendo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Está comiendo. So maybe somebody calls you and they say Can I speak to Pablo?, and you say Está comiendo, you mean right now. What was to sell? You can think of vending machine.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Vender"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vender. Good. How would you say: They sell it, they sell it?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Venden Lo venden"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo venden. Good. How would you say they are selling it tomorrow or they will sell it tomorrow?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Lo venden manaña"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo venden mañana. Good. Now if you want to say they are selling it right now, and you want to give that meaning “right now” how would it be?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "Están vendiéndolo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Están vendiéndolo or lo están vendiendo. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "lesson_number": 19,
+  "title": "Irregular Verbs and Gender in Spanish",
+  "description": "Learn about the verb 'ir', its conjugations, and how to determine gender for nouns ending in 'e'.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "We said that the word for 'always' was siempre.",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "siempre"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. Now, let's work with the verb 'to go', which is ir. We have 'vamos' for 'we go' or 'let's go'. How would you say 'he goes' or 'she goes'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "va"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Va. Good. How would you make that 'you go' (informal)?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vas. Good. To ask 'where are you going?', you say 'a dónde vas?'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "a dónde vas?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿A dónde vas? How would you say 'they go' or 'you (plural) go'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "van"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Van. Good. The 'I' form is 'voy', as in 'I'm going on a voyage'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "voy"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Now, the 'to' form 'to go' is ir. It's irregular because it combines forms from two different verbs. How would you say 'I want to go'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "quiero ir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How about 'I can go'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "puedo ir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Puedo ir. Good. 'I must go' is 'debo ir'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "debo ir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Debo ir. For 'I have to go', we use 'tengo que ir'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "tengo que ir"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tengo que ir. How would you say 'I have to go now'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "tengo que ir ahora"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. 'Tonight' is 'esta noche'. How would you say 'I have to go tonight'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "tengo que ir esta noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Tengo que ir esta noche. 'Noche' is feminine, as indicated by 'esta'. How would you say 'the night'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La noche. Words ending in 'e' can be masculine or feminine. For example, 'carne' (meat) is feminine. How would you say 'the meat'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la carne"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La carne. How do you say 'I don't eat meat'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no como carne"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No como carne. The word for 'and' is 'y'. How would you say 'I don't eat meat and I don't drink alcohol'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "no como carne y no tomo alcohol"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "No como carne y no tomo alcohol. Good.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned the irregular verb 'ir' and its conjugations. Practice using them in sentences to describe actions."
+    },
+    {
+      "type": "narration",
+      "text": "Remember, nouns ending in 'e' can be masculine or feminine. Use context to determine gender."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try creating your own sentences using 'ir' and other verbs you've learned.",
+      "waitDuration": "extended"
+    }
+  ]
+}

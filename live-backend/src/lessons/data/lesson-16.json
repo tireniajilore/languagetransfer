@@ -1,0 +1,178 @@
+{
+  "lesson_number": 16,
+  "title": "Verb Conjugation and Stem Changes",
+  "description": "Learn common Spanish verbs with stem changes and their conjugations.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "Comenzar means 'to commence' or 'to start'. Another common verb for 'to start' is empezar. Empezar has a stem change in Spain, pronounced empe/th/ar.",
+      "is_feedback": false,
+      "is_prompt": false
+    },
+    {
+      "speaker": "tutor",
+      "text": "How do you say 'I start' using empezar?",
+      "is_feedback": false,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "empiezo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Empiezo. Good. Remember to go back to the 'to' form, empezar, to avoid guesswork. How do you say 'he starts'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "empieza"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Empieza. Good. They start?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "empiezan"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Empiezan. Good. You (informal) start?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "empiezas"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Empiezas. Good. How do you say 'when are you starting?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿cuándo empiezas?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Cuándo empiezas? Very good. In the present tense, the e can split to ie, and the o can split to ue. This happens because of the stress on the penultimate syllable. For example, poder becomes puedo. How do you say 'I sleep'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "duermo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Duermo. Good. To say 'I fall asleep', you say 'me duermo'. How do you say 'he sleeps'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "duerme"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Duerme. Good. They sleep?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "duermen"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Duermen. Good. Encontrar means 'to encounter' or 'to find'. How do you say 'I find it'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "lo encuentro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Lo encuentro. Good. Mostrar means 'to show'. How do you say 'I show'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "muestro"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Muestro. Good. He shows?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "muestra"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Muestra. Good. They show?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "muestran"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Muestran. Good.",
+      "is_feedback": true,
+      "is_prompt": false
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned about stem-changing verbs in Spanish, like empezar and dormir. These changes occur in the present tense."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try conjugating other stem-changing verbs like poder or volver. Remember the vowel changes in the stem.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Understanding these patterns helps you predict and use many Spanish verbs correctly."
+    }
+  ]
+}

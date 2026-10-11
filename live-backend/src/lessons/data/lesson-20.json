@@ -1,0 +1,338 @@
+{
+  "lesson_number": 20,
+  "title": "Future Context with Present Tense",
+  "description": "Using present tense for future events with context words like 'mañana' and 'pronto'.",
+  "turns": [
+    {
+      "speaker": "tutor",
+      "text": "We can talk about the future using the present tense with future context words. For example, how do you say 'tomorrow'?",
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "mañana"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Mañana. Good. How about 'later' or 'more late'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "más tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Más tarde. And 'tonight' or 'this night'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "esta noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Esta noche. Good. Another word is 'pronto'. What does 'pronto' mean?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "soon"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Soon. You might hear 'get here pronto' in English, meaning 'get here soon'. Now, what is the verb 'to see'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ver"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ver. How do you say 'he sees'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ve"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ve. Good. How about 'they see'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ven"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ven. And 'you (informal) see'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "ves"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Ves. How do you say 'we see'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Vemos. The 'I' form is a bit irregular: it's 'veo'.",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "veo"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Veo. How would you say 'I see her later'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la veo más tarde"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La veo más tarde. How about 'I'm seeing her tonight'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la veo esta noche"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La veo esta noche. How do you say 'we are seeing her soon'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la vemos pronto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La vemos pronto. If we mean a female group, how do you say 'we're seeing them soon'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "las vemos pronto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Las vemos pronto. How would you say 'he is seeing them soon'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "las ve pronto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Las ve pronto. And 'you (informal) are seeing them soon'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "las ves pronto"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Las ves pronto. How would you ask 'are you seeing them soon?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿las ves pronto?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Las ves pronto? And 'why aren't you seeing them soon?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿por qué no las ves pronto?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Por qué no las ves pronto? Now, let's use 'going to' for future. How would you say 'we're going to see her'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "vamos a verla"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Good. How about 'are you going to see him soon?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿vas a verlo pronto?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Vas a verlo pronto? How would you say 'are you going to see us soon?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿vas a vernos pronto?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Vas a vernos pronto? Or you could say, ¿Nos vas a ver pronto? How about 'why aren't you going to see us soon?'",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "¿por qué no vas a vernos pronto?"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "¿Por qué no vas a vernos pronto? Now, how do you say 'next week' using 'the week that comes'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "la semana que viene"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "La semana que viene. How would you say 'let's speak next week'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "hablamos la semana que viene"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Hablamos la semana que viene. How do you say 'we see each other'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "nos vemos"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos vemos. This is a common way to say goodbye in Spanish. How would you say 'we will see each other next week'?",
+      "is_feedback": true,
+      "is_prompt": true
+    },
+    {
+      "speaker": "student",
+      "expected_answers": [
+        "nos vemos la semana que viene"
+      ]
+    },
+    {
+      "speaker": "tutor",
+      "text": "Nos vemos la semana que viene. Remember, using present tense with future context allows us to talk about future events.",
+      "is_feedback": true
+    }
+  ],
+  "outro": [
+    {
+      "type": "narration",
+      "text": "You've learned how to use present tense with future context words to talk about future events."
+    },
+    {
+      "type": "open_prompt",
+      "text": "Try using 'mañana', 'pronto', or 'la semana que viene' in your own sentences to describe future plans.",
+      "waitDuration": "extended"
+    },
+    {
+      "type": "narration",
+      "text": "Next time, we'll explore more ways to express future actions in Spanish."
+    }
+  ]
+}
