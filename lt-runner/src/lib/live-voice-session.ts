@@ -139,6 +139,7 @@ export class LiveVoiceSession {
   private accessToken: string | null = null;
   private intentionalStop = false;
   private retryCount = 0;
+  private unexpectedClosures = 0;
   private entries: TranscriptEntry[] = [];
   private nextEntryId = 1;
 
@@ -186,6 +187,7 @@ export class LiveVoiceSession {
     }
     this.intentionalStop = false;
     this.retryCount = 0;
+    this.unexpectedClosures = 0;
     await this.connectOnce();
   }
 
@@ -358,7 +360,7 @@ export class LiveVoiceSession {
     // During initial ICE/DTLS negotiation, waitForMediaConnected owns errors.
     // Retrying here races its pending promise and can orphan new sessions.
     if (this.state !== 'connected') return;
-    if (cs === 'failed' || cs === 'disconnected') {
+    if (cs === 'failed' || cs === 'disconnected' || cs === 'closed') {
       // Unexpected drop mid-session: full re-connect (new backend session).
       void this.recover();
     }
@@ -366,7 +368,16 @@ export class LiveVoiceSession {
 
   private async recover(): Promise<void> {
     if (this.intentionalStop) return;
-    if (this.state === 'reconnecting') return;
+    if (this.state !== 'connected') return;
+    this.unexpectedClosures += 1;
+    if (this.unexpectedClosures > this.opts.maxRetries) {
+      this.setState('failed');
+      this.opts.onError?.(new Error('The tutor connection ended unexpectedly. Tap Resume lesson to continue from your saved step.'));
+      this.teardownPeerConnection();
+      await this.closeOrphanedSession();
+      return;
+    }
+    this.setState('reconnecting');
     const oldId = this.sessionId;
     const oldToken = this.accessToken;
     this.sessionId = null;
@@ -498,6 +509,9 @@ export class LiveVoiceSession {
       this.appendDelta('user', event.delta ?? '');
     } else if (event.type === 'session.output_transcript.delta') {
       this.appendDelta('assistant', event.delta ?? '');
+    } else if (event.type === 'session.closed' && this.state === 'connected' && !this.intentionalStop) {
+      // Resume the same authored lesson from the server-owned cursor.
+      void this.recover();
     }
     // Other data-channel events (session.started/updated, usage, delegation)
     // are observed here in PR 1 and acted on in later PRs.
