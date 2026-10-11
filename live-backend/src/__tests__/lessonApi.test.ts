@@ -81,6 +81,19 @@ describe('lesson-specific API', () => {
     expect((await progress.json() as {phase:string}).phase).toBe('awaiting_answer');
   });
 
+  it('rejects out-of-range and malformed numbers instead of falling back to free tutoring', async () => {
+    const {base, fakes} = await fixture();
+    for (const lessonNumber of [0, 91, '3']) {
+      const r = await fetch(base + '/api/live/session', {
+        method: 'POST', headers: {'content-type':'application/json'},
+        body: JSON.stringify({sdp: OFFER_SDP, lessonNumber}),
+      });
+      expect(r.status).toBe(400);
+      expect(await r.json()).toMatchObject({error: 'invalid_lesson_number'});
+    }
+    expect(fakes).toHaveLength(0);
+  });
+
   it('refuses to mint Lesson 3 for a new learner even if they enter the route directly', async () => {
     const {base, fakes} = await fixture();
     const token = (await fetch(base + '/api/live/course').then((r) => r.json()) as {learnerToken:string}).learnerToken;
