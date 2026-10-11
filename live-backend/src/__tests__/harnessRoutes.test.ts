@@ -194,6 +194,6 @@ describe('live teaching context synchronization', () => {
     const updates = ws.sent.map((x) => JSON.parse(x) as { type: string; content?: string })
       .filter((x) => x.type === 'session.thinking.append');
     expect(updates.length).toBe(2);
-    expect(updates.at(-1)?.content).toContain('es-copula [in_progress]');
+    expect(updates.at(-1)?.content).toContain('he is / she is [in_progress]');
   });
 });
