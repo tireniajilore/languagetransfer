@@ -70,16 +70,31 @@ describe('lesson-specific API', () => {
     fakes[0].emitJson('message', {type: 'session.started'});
     const start = await fetch(base + path + '/start', {method: 'POST', headers: auth});
     expect(start.status).toBe(200);
-    const commands = fakes[0].sent.map((v) => JSON.parse(v) as {type: string; content?: string; delegation_id?: string | null});
-    expect(commands.some((c) => c.type === 'session.instructions.append' && c.delegation_id === null)).toBe(true);
-    expect(commands.some((c) => c.type === 'session.commentary.append' && c.content?.includes('How would you say metal?'))).toBe(true);
+    const commands = fakes[0].sent.map((v) => JSON.parse(v) as {type: string; content?: string});
+    expect(commands.some((c) => c.type === 'session.commentary.append' && c.content?.includes('English and Spanish'))).toBe(true);
     expect(commands.some((c) => c.type === 'response.create')).toBe(false);
+    expect(commands.every(c => typeof (c as {event_id?:string}).event_id === 'string')).toBe(true);
     const dupe = await fetch(base + path + '/start', { method: 'POST', headers: auth });
     expect(dupe.status).toBe(200);
-    expect(fakes[0].sent).toHaveLength(commands.length);
+    expect(fakes[0].sent.filter((x) => x.includes('session.commentary.append'))).toHaveLength(1);
     const progress = await fetch(base + path + '/progress', {headers: auth});
     expect(progress.status).toBe(200);
-    expect((await progress.json() as {phase:string}).phase).toBe('awaiting_answer');
+    expect((await progress.json() as {phase:string}).phase).toBe('sent');
+  });
+
+  it('binds an omitted lesson number to the supervised Lesson 2 pilot', async () => {
+    const { base } = await fixture();
+    const response = await fetch(base + '/api/live/session', {
+      method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ sdp: OFFER_SDP }),
+    });
+    expect(response.status).toBe(201);
+    const payload = await response.json() as { session: { id: string; accessToken: string } };
+    const progress = await fetch(`${base}/api/live/session/${payload.session.id}/progress`, {
+      headers: { authorization: `Bearer ${payload.session.accessToken}` },
+    });
+    expect(progress.status).toBe(200);
+    expect(await progress.json()).toMatchObject({ lessonNumber: 2 });
   });
 
   it('rejects out-of-range and malformed numbers instead of falling back to free tutoring', async () => {

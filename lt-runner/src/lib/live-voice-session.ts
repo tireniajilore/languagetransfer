@@ -39,7 +39,16 @@ export interface LessonProgress {
   lessonNumber: number;
   stepIndex: number;
   totalSteps: number;
-  phase: 'ready' | 'awaiting_answer' | 'completed';
+  phase:
+    | 'ready'
+    | 'authorized'
+    | 'sent'
+    | 'acknowledged'
+    | 'delivering'
+    | 'awaiting_answer'
+    | 'paused'
+    | 'completed';
+  stateVersion?: number;
   attempts: number;
   completed: boolean;
 }
@@ -105,7 +114,7 @@ export class MintError extends Error {
       this.retryable =
         body.error !== 'misconfigured' &&
         body.error !== 'disabled' &&
-        ![400, 401, 403, 404].includes(status);
+        ![400, 401, 403, 404, 409, 423].includes(status);
     }
   }
 }
@@ -128,7 +137,14 @@ export class LiveVoiceSession {
   > &
     Pick<
       LiveVoiceSessionOptions,
-      'onStateChange' | 'onTranscript' | 'onRemoteStream' | 'onLocalStream' | 'onError' | 'learnerToken' | 'onLearnerToken' | 'onLessonProgress'
+      | 'onStateChange'
+      | 'onTranscript'
+      | 'onRemoteStream'
+      | 'onLocalStream'
+      | 'onError'
+      | 'learnerToken'
+      | 'onLearnerToken'
+      | 'onLessonProgress'
     >;
 
   private state: LiveConnState = 'idle';
@@ -142,10 +158,26 @@ export class LiveVoiceSession {
   private unexpectedClosures = 0;
   private entries: TranscriptEntry[] = [];
   private nextEntryId = 1;
+  private latestOutputEventId: string | undefined;
+  private latestOutputEndMs = -1;
+  private captionFragments = new Map<
+    number,
+    Array<{ start: number; text: string }>
+  >();
+  private activitySeq = 0;
+  private remoteAudioObserved = false;
+  private lastAudioAt = 0;
+  private lastOutputAt = 0;
+  private captionEvents = new Set<string>();
+  private captionEnds: Partial<
+    Record<'user' | 'assistant', { end: number; entry: TranscriptEntry }>
+  > = {};
 
   constructor(opts: LiveVoiceSessionOptions) {
     if (!opts.backendUrl) {
-      throw new Error('LiveVoiceSession requires a backendUrl (set NEXT_PUBLIC_LIVE_BACKEND_URL)');
+      throw new Error(
+        'LiveVoiceSession requires a backendUrl (set NEXT_PUBLIC_LIVE_BACKEND_URL)',
+      );
     }
     this.opts = {
       backendUrl: opts.backendUrl.replace(/\/+$/, ''),
@@ -159,7 +191,11 @@ export class LiveVoiceSession {
       mediaConnectTimeoutMs: opts.mediaConnectTimeoutMs ?? 15_000,
       fetchFn: opts.fetchFn ?? fetch.bind(globalThis),
       createPeerConnection:
-        opts.createPeerConnection ?? (() => new RTCPeerConnection({ iceServers: opts.iceServers ?? DEFAULT_ICE_SERVERS })),
+        opts.createPeerConnection ??
+        (() =>
+          new RTCPeerConnection({
+            iceServers: opts.iceServers ?? DEFAULT_ICE_SERVERS,
+          })),
       getUserMedia:
         opts.getUserMedia ??
         ((constraints) => navigator.mediaDevices.getUserMedia(constraints)),
@@ -182,7 +218,11 @@ export class LiveVoiceSession {
 
   /** Start (or restart) the voice session. */
   async start(): Promise<void> {
-    if (this.state !== 'idle' && this.state !== 'failed' && this.state !== 'closed') {
+    if (
+      this.state !== 'idle' &&
+      this.state !== 'failed' &&
+      this.state !== 'closed'
+    ) {
       return; // already starting / running
     }
     this.intentionalStop = false;
@@ -200,10 +240,13 @@ export class LiveVoiceSession {
     this.teardownPeerConnection();
     if (id) {
       try {
-        await this.opts.fetchFn(`${this.opts.backendUrl}/api/live/session/${encodeURIComponent(id)}/close`, {
-          method: 'POST',
-          headers: token ? { authorization: `Bearer ${token}` } : {},
-        });
+        await this.opts.fetchFn(
+          `${this.opts.backendUrl}/api/live/session/${encodeURIComponent(id)}/close`,
+          {
+            method: 'POST',
+            headers: token ? { authorization: `Bearer ${token}` } : {},
+          },
+        );
       } catch {
         // Best effort: the backend expires orphaned sessions server-side.
       }
@@ -226,6 +269,11 @@ export class LiveVoiceSession {
       this.setState('creating-offer');
       const pc = this.opts.createPeerConnection();
       this.pc = pc;
+      this.latestOutputEventId = undefined;
+      this.latestOutputEndMs = -1;
+      this.remoteAudioObserved = false;
+      this.captionEvents.clear();
+      this.captionEnds = {};
       for (const track of this.micStream.getAudioTracks()) {
         pc.addTrack(track, this.micStream);
       }
@@ -252,11 +300,22 @@ export class LiveVoiceSession {
       if (!offerSdp) throw new Error('no local SDP after ICE gathering');
 
       this.setState('exchanging-sdp');
-      const res = await this.opts.fetchFn(`${this.opts.backendUrl}/api/live/session`, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ sdp: offerSdp, ...(this.opts.learnerToken ? { learnerToken: this.opts.learnerToken } : {}), ...(this.opts.lessonNumber >= 2 ? { lessonNumber: this.opts.lessonNumber } : {}) }),
-      });
+      const res = await this.opts.fetchFn(
+        `${this.opts.backendUrl}/api/live/session`,
+        {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            sdp: offerSdp,
+            ...(this.opts.learnerToken
+              ? { learnerToken: this.opts.learnerToken }
+              : {}),
+            ...(this.opts.lessonNumber >= 2
+              ? { lessonNumber: this.opts.lessonNumber }
+              : {}),
+          }),
+        },
+      );
       if (!res.ok) {
         const detail = await safeJson(res);
         throw new MintError(res.status, detail);
@@ -297,13 +356,16 @@ export class LiveVoiceSession {
   }
 
   private async beginLesson(): Promise<void> {
-    if (!this.sessionId || !this.accessToken) throw new Error('lesson session not minted');
+    if (!this.sessionId || !this.accessToken)
+      throw new Error('lesson session not minted');
     const url = `${this.opts.backendUrl}/api/live/session/${encodeURIComponent(this.sessionId)}/start`;
     // Browser media can finish connecting before the Railway sideband receives session.started.
     for (let attempt = 0; attempt < 20; attempt++) {
       if (this.intentionalStop) return;
-      const res = await this.opts.fetchFn(url, { method: 'POST',
-        headers: { authorization: `Bearer ${this.accessToken}` } });
+      const res = await this.opts.fetchFn(url, {
+        method: 'POST',
+        headers: { authorization: `Bearer ${this.accessToken}` },
+      });
       if (res.ok) {
         await this.readLessonProgress();
         return;
@@ -317,15 +379,70 @@ export class LiveVoiceSession {
   }
 
   async readLessonProgress(): Promise<LessonProgress | null> {
-    if (this.opts.lessonNumber < 2 || !this.sessionId || !this.accessToken) return null;
+    if (this.opts.lessonNumber < 2 || !this.sessionId || !this.accessToken)
+      return null;
     const res = await this.opts.fetchFn(
       `${this.opts.backendUrl}/api/live/session/${encodeURIComponent(this.sessionId)}/progress`,
       { headers: { authorization: `Bearer ${this.accessToken}` } },
     );
     if (!res.ok) return null;
-    const progress = await res.json() as LessonProgress;
+    const progress = (await res.json()) as LessonProgress;
     this.opts.onLessonProgress?.(progress);
     return progress;
+  }
+
+  async evaluationTrace(): Promise<unknown> {
+    if (!this.sessionId || !this.accessToken)
+      throw new Error('No active teaching session');
+    const result = await this.opts.fetchFn(
+      `${this.opts.backendUrl}/api/live/session/${encodeURIComponent(this.sessionId)}/trace`,
+      {
+        headers: { authorization: `Bearer ${this.accessToken}` },
+      },
+    );
+    if (!result.ok) throw new Error('Could not retrieve teaching trace');
+    return result.json();
+  }
+
+  /** Browser observation of media activity, not a claim that the learner listened. */
+  async reportActivity(
+    speaker: 'user' | 'assistant',
+    speaking: boolean,
+    playing = false,
+  ): Promise<void> {
+    if (this.opts.lessonNumber < 2 || !this.sessionId || !this.accessToken)
+      return;
+    if (speaker === 'assistant' && speaking && playing) {
+      this.remoteAudioObserved = true;
+      this.lastAudioAt = Date.now();
+    }
+    const outputEventId =
+      speaker === 'assistant' &&
+      this.remoteAudioObserved &&
+      this.lastAudioAt >= this.lastOutputAt - 1500 &&
+      Date.now() - this.lastAudioAt < 3000
+        ? this.latestOutputEventId
+        : undefined;
+    const id = this.sessionId;
+    const result = await this.opts.fetchFn(
+      `${this.opts.backendUrl}/api/live/session/${encodeURIComponent(id)}/activity`,
+      {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          authorization: `Bearer ${this.accessToken}`,
+        },
+        body: JSON.stringify({
+          speaker,
+          speaking,
+          playing,
+          seq: ++this.activitySeq,
+          ...(outputEventId ? { outputEventId } : {}),
+        }),
+      },
+    );
+    if (!result.ok && this.sessionId === id && this.state === 'connected')
+      void this.recover();
   }
 
   private async handleConnectFailure(err: unknown): Promise<void> {
@@ -368,11 +485,13 @@ export class LiveVoiceSession {
 
   private async recover(): Promise<void> {
     if (this.intentionalStop) return;
-    if (this.state !== 'connected') return;
+    if (this.state === 'reconnecting') return;
     this.unexpectedClosures += 1;
     if (this.unexpectedClosures > this.opts.maxRetries) {
       this.setState('failed');
-      this.opts.onError?.(new Error('The tutor connection ended unexpectedly. Tap Resume lesson to continue from your saved step.'));
+      this.opts.onError?.(
+        new Error('The tutor connection ended unexpectedly. Tap Resume lesson to continue from your saved step.'),
+      );
       this.teardownPeerConnection();
       await this.closeOrphanedSession();
       return;
@@ -385,11 +504,14 @@ export class LiveVoiceSession {
     this.teardownPeerConnection();
     // Best effort: release the orphaned backend session; it expires server-side anyway.
     if (oldId) {
-      void this.opts
-        .fetchFn(`${this.opts.backendUrl}/api/live/session/${encodeURIComponent(oldId)}/close`, {
-          method: 'POST',
-          headers: oldToken ? { authorization: `Bearer ${oldToken}` } : {},
-        })
+      await this.opts
+        .fetchFn(
+          `${this.opts.backendUrl}/api/live/session/${encodeURIComponent(oldId)}/close`,
+          {
+            method: 'POST',
+            headers: oldToken ? { authorization: `Bearer ${oldToken}` } : {},
+          },
+        )
         .catch(() => undefined);
     }
     await this.handleConnectFailure(new Error('webrtc connection lost'));
@@ -403,16 +525,33 @@ export class LiveVoiceSession {
     this.accessToken = null;
     if (!id) return;
     try {
-      await this.opts.fetchFn(`${this.opts.backendUrl}/api/live/session/${encodeURIComponent(id)}/close`, {
-        method: 'POST',
-        headers: token ? { authorization: `Bearer ${token}` } : {},
-      });
+      await this.opts.fetchFn(
+        `${this.opts.backendUrl}/api/live/session/${encodeURIComponent(id)}/close`,
+        {
+          method: 'POST',
+          headers: token ? { authorization: `Bearer ${token}` } : {},
+        },
+      );
     } catch {
       // Best effort: backend will close the session if the network has gone.
     }
   }
 
   private teardownPeerConnection(): void {
+    // The browser primary channel can still close the provider session when
+    // the trusted sideband has failed. Closing only local media would orphan it.
+    if (this.dataChannel?.readyState === 'open') {
+      try {
+        this.dataChannel.send(
+          JSON.stringify({
+            type: 'session.close',
+            event_id: `browser_close_${Date.now()}`,
+          }),
+        );
+      } catch {
+        /* connection may already be gone */
+      }
+    }
     try {
       this.dataChannel?.close();
     } catch {
@@ -459,7 +598,9 @@ export class LiveVoiceSession {
           // Torn down mid-handshake (user stopped, or recovery kicked in):
           // fail fast instead of hanging until the timeout.
           cleanup();
-          reject(new Error('Audio connection closed before it was established.'));
+          reject(
+            new Error('Audio connection closed before it was established.'),
+          );
         }
       };
       const cleanup = () => {
@@ -472,13 +613,18 @@ export class LiveVoiceSession {
 
   private mediaFailureMessage(pc: RTCPeerConnection, reason: string): string {
     const hasRelay = this.opts.iceServers.some((server) =>
-      [server.urls].flat().some((url) => url.startsWith('turn:') || url.startsWith('turns:')),
+      [server.urls]
+        .flat()
+        .some((url) => url.startsWith('turn:') || url.startsWith('turns:')),
     );
-    return `Audio connection ${reason} (ICE: ${pc.iceConnectionState}, peer: ${pc.connectionState}, TURN configured: ${hasRelay ? 'yes' : 'no'}). ` +
-      'The network may be blocking real-time audio. Try Wi-Fi or a different network.';
+    return (
+      `Audio connection ${reason} (ICE: ${pc.iceConnectionState}, peer: ${pc.connectionState}, TURN configured: ${hasRelay ? 'yes' : 'no'}). ` +
+      'The network may be blocking real-time audio. Try Wi-Fi or a different network.'
+    );
   }
 
-  private waitForIceGathering(pc: RTCPeerConnection): Promise<void> {    if (pc.iceGatheringState === 'complete') return Promise.resolve();
+  private waitForIceGathering(pc: RTCPeerConnection): Promise<void> {
+    if (pc.iceGatheringState === 'complete') return Promise.resolve();
     return new Promise((resolve) => {
       let done = false;
       const finish = () => {
@@ -498,33 +644,76 @@ export class LiveVoiceSession {
   }
 
   private handleDataChannelMessage(data: unknown): void {
-    let event: { type?: string; delta?: string } | null = null;
+    let event: {
+      type?: string;
+      delta?: string;
+      event_id?: string;
+      start_ms?: number;
+      end_ms?: number;
+    } | null = null;
     try {
       event = JSON.parse(typeof data === 'string' ? data : String(data));
     } catch {
       return;
     }
     if (!event || typeof event.type !== 'string') return;
+    if (event.event_id && this.captionEvents.has(event.event_id)) return;
+    if (event.event_id) this.captionEvents.add(event.event_id);
+    if (this.captionEvents.size > 4096)
+      this.captionEvents.delete(this.captionEvents.values().next().value!);
     if (event.type === 'session.input_transcript.delta') {
-      this.appendDelta('user', event.delta ?? '');
+      this.appendDelta('user', event.delta ?? '', event.start_ms, event.end_ms);
     } else if (event.type === 'session.output_transcript.delta') {
-      this.appendDelta('assistant', event.delta ?? '');
-    } else if (event.type === 'session.closed' && this.state === 'connected' && !this.intentionalStop) {
-      // Resume the same authored lesson from the server-owned cursor.
+      if (
+        (event.end_ms ?? this.latestOutputEndMs + 1) >= this.latestOutputEndMs
+      ) {
+        this.latestOutputEventId = event.event_id;
+        this.latestOutputEndMs = event.end_ms ?? this.latestOutputEndMs + 1;
+        this.lastOutputAt = Date.now();
+      }
+      this.appendDelta(
+        'assistant',
+        event.delta ?? '',
+        event.start_ms,
+        event.end_ms,
+      );
+    } else if (event.type === 'session.closed' && this.state === 'connected') {
       void this.recover();
     }
     // Other data-channel events (session.started/updated, usage, delegation)
     // are observed here in PR 1 and acted on in later PRs.
   }
 
-  private appendDelta(speaker: 'user' | 'assistant', delta: string): void {
+  private appendDelta(
+    speaker: 'user' | 'assistant',
+    delta: string,
+    startMs?: number,
+    endMs?: number,
+  ): void {
     if (!delta) return;
-    const last = this.entries[this.entries.length - 1];
-    if (last && last.speaker === speaker) {
-      last.text += delta;
-    } else {
-      this.entries.push({ id: this.nextEntryId++, speaker, text: delta });
+    // Keep each speaker's captions independent during overlapping speech.
+    const prior = this.captionEnds[speaker];
+    const last =
+      startMs !== undefined && prior && startMs - prior.end <= 1500
+        ? prior.entry
+        : this.entries[this.entries.length - 1]?.speaker === speaker
+          ? this.entries[this.entries.length - 1]
+          : undefined;
+    if (last) last.text += delta;
+    else this.entries.push({ id: this.nextEntryId++, speaker, text: delta });
+    const entry = last ?? this.entries[this.entries.length - 1];
+    if (startMs !== undefined) {
+      const fragments = this.captionFragments.get(entry.id) ?? [];
+      fragments.push({ start: startMs, text: delta });
+      fragments.sort((a, b) => a.start - b.start);
+      entry.text = fragments.map((f) => f.text).join('');
+      this.captionFragments.set(entry.id, fragments);
     }
+    if (endMs !== undefined)
+      this.captionEnds[speaker] = {
+        end: Math.max(prior?.end ?? 0, endMs),
+        entry,
+      };
     this.opts.onTranscript?.([...this.entries]);
   }
 }

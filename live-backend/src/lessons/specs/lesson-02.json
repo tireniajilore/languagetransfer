@@ -1,0 +1,1269 @@
+{
+  "number": 2,
+  "title": "Latin Cognates - AL Endings",
+  "description": "Discover stress, vowel consistency, es and no; derive cognates and related vocabulary.",
+  "sourceFile": "transcripts/Language Transfer - Complete Spanish - Lesson 02.txt",
+  "sourceSha256": "af4d01fd4fd403aca65d22b3fc6bff2a95f6d538cd6ec920e8ef123d5bf048bf",
+  "reviewStatus": "transcript-audited",
+  "reviewNotes": [
+    "Restores omitted stress discoveries, es natural, no, fatal, natal, colonial, festival, personal and total.",
+    "Corrects obvious ASR spellings (S -> es, dente -> diente, Anuel -> anual); final review against original recording remains required.",
+    "Removes synthetic outro and transfer prompt absent from original transcript.",
+    "Text responses demonstrate lexical/structural understanding, not verified acoustic pronunciation."
+  ],
+  "steps": [
+    {
+      "id": "2-step-00",
+      "kind": "explanation",
+      "text": "English and Spanish are related languages. English is considered Germanic, but has a huge amount of Latin vocabulary. Spanish developed from Latin, so we can identify Latin words in English and use patterns to convert them into Spanish. This gives us around 3,000 words.",
+      "sourceTurnIds": ["original:1:47"],
+      "sourceTranscript": ["English and Spanish are two related languages."],
+      "pedagogicalGoal": "Connect English Latin vocabulary to Spanish; introduce patterns rather than memorization.",
+      "requiredIdeas": [
+        "Connect English Latin vocabulary to Spanish; introduce patterns rather than memorization."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Connect English Latin vocabulary to Spanish; introduce patterns rather than memorization."
+      ],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-01",
+      "kind": "explanation",
+      "text": "For example, words ending in A-L often come from Latin. Normal in Spanish is normal. Listen: in English, NOR-mal; in Spanish, nor-MAL.",
+      "sourceTurnIds": ["original:705:767"],
+      "sourceTranscript": [
+        "So for example one of these rules is that words ending in A.L."
+      ],
+      "pedagogicalGoal": "Model the contrast in stress with normal.",
+      "requiredIdeas": ["Model the contrast in stress with normal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Model the contrast in stress with normal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-02",
+      "kind": "question",
+      "text": "What do you notice is different between the English normal and the Spanish normal?",
+      "sourceTurnIds": ["original:898:954"],
+      "sourceTranscript": [
+        "What do you know is different between normal and normal?"
+      ],
+      "pedagogicalGoal": "Discover the stress contrast.",
+      "requiredIdeas": ["Discover the stress contrast."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Learner identifies stress or emphasis changes, not merely that the language differs."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Listen to where the voice puts emphasis in each word.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-03",
+      "kind": "question",
+      "text": "Where is normal stressed in English?",
+      "sourceTurnIds": ["original:1079:1110"],
+      "sourceTranscript": ["Where's it stressed in English?"],
+      "pedagogicalGoal": "Locate English initial-syllable stress.",
+      "requiredIdeas": ["Locate English initial-syllable stress."],
+      "requiredExamples": [],
+      "expectedAnswers": ["the beginning", "first syllable", "on the o", "nor"],
+      "understandingRubric": ["Locate English initial-syllable stress."],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Say normal in English and listen to which part is stronger.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-04",
+      "kind": "explanation",
+      "text": "English stresses the beginning: NOR-mal. Spanish stresses the end: nor-MAL.",
+      "sourceTurnIds": ["original:1121:1150"],
+      "sourceTranscript": ["Good at the beginning, right?"],
+      "pedagogicalGoal": "Confirm the discovered final-syllable stress pattern.",
+      "requiredIdeas": [
+        "Confirm the discovered final-syllable stress pattern."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Confirm the discovered final-syllable stress pattern."
+      ],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-05",
+      "kind": "question",
+      "text": "If we assume the same happens with other words, how do you think you would say metal?",
+      "sourceTurnIds": ["original:1288:1325"],
+      "sourceTranscript": ["how do you think you would say metal?"],
+      "pedagogicalGoal": "Apply the AL pattern to metal.",
+      "requiredIdeas": ["Apply the AL pattern to metal."],
+      "requiredExamples": [],
+      "expectedAnswers": ["metal", "metál"],
+      "understandingRubric": [
+        "Apply the AL pattern to metal.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Keep the word, and move the stress to the end.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-06",
+      "kind": "explanation",
+      "text": "Metal. To get a Spanish accent, pronounce the vowels as written, with short, steady sounds: a, e, i, o, u. English vowels can vary, as in apple and may. In Spanish, keep each vowel consistent. Normal. Metal.",
+      "sourceTurnIds": ["original:1340:1374"],
+      "sourceTranscript": ["To get a perfect accent in Spanish"],
+      "pedagogicalGoal": "Model five consistent Spanish vowels and contrast English vowel variability.",
+      "requiredIdeas": [
+        "Model five consistent Spanish vowels and contrast English vowel variability."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Model five consistent Spanish vowels and contrast English vowel variability."
+      ],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-07",
+      "kind": "explanation",
+      "text": "We can begin making sentences already. The word for is in Spanish is es, E-S. It can mean it is, she is, he is, or you are when speaking formally.",
+      "sourceTurnIds": ["original:1929:1967"],
+      "sourceTranscript": ["The word for is in Spanish is S, E, S."],
+      "pedagogicalGoal": "Introduce es and its contextual subjects.",
+      "requiredIdeas": ["Introduce es and its contextual subjects."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Introduce es and its contextual subjects."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-08",
+      "kind": "question",
+      "text": "How would you say he is normal, or she is normal?",
+      "sourceTurnIds": ["original:2058:2104"],
+      "sourceTranscript": ["So now we can say he is normal, she is normal."],
+      "pedagogicalGoal": "Combine es with a known cognate.",
+      "requiredIdeas": ["Combine es with a known cognate."],
+      "requiredExamples": [],
+      "expectedAnswers": ["es normal"],
+      "understandingRubric": ["Combine es with a known cognate."],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Start with the word for is, then normal.",
+        "Build the sentence one part at a time using only words we already know. Place negation before is if needed.",
+        "Say the structure first, then attach the adjective. Think through each part instead of guessing."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-09",
+      "kind": "explanation",
+      "text": "Es normal. Keep the S sound clear. English speakers sometimes use a Z sound in is; in Spanish es ends with an S sound.",
+      "sourceTurnIds": ["original:2180:2212"],
+      "sourceTranscript": ["English speakers should be aware"],
+      "pedagogicalGoal": "Model es normal and correct English Z interference.",
+      "requiredIdeas": ["Model es normal and correct English Z interference."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Model es normal and correct English Z interference."
+      ],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-10",
+      "kind": "question",
+      "text": "How would you say legal?",
+      "sourceTurnIds": ["original:2460:2484"],
+      "sourceTranscript": ["How would you say legal?"],
+      "pedagogicalGoal": "Apply the known pattern to legal.",
+      "requiredIdeas": ["Apply the known pattern to legal."],
+      "requiredExamples": [],
+      "expectedAnswers": ["legal"],
+      "understandingRubric": [
+        "Apply the known pattern to legal.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Use the sounds and pattern we have already discovered.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-11",
+      "kind": "explanation",
+      "text": "Legal.",
+      "sourceTurnIds": ["original:2460:2484"],
+      "sourceTranscript": ["How would you say legal?"],
+      "pedagogicalGoal": "Confirm legal.",
+      "requiredIdeas": ["Confirm legal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm legal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-12",
+      "kind": "question",
+      "text": "How would you say it is legal?",
+      "sourceTurnIds": ["original:2505:2538"],
+      "sourceTranscript": ["So how would you say it is legal?"],
+      "pedagogicalGoal": "Apply the known pattern to it is legal.",
+      "requiredIdeas": ["Apply the known pattern to it is legal."],
+      "requiredExamples": [],
+      "expectedAnswers": ["es legal"],
+      "understandingRubric": ["Apply the known pattern to it is legal."],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Use the sounds and pattern we have already discovered.",
+        "Build the sentence one part at a time using only words we already know. Place negation before is if needed.",
+        "Say the structure first, then attach the adjective. Think through each part instead of guessing."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-13",
+      "kind": "explanation",
+      "text": "Es legal.",
+      "sourceTurnIds": ["original:2505:2538"],
+      "sourceTranscript": ["So how would you say it is legal?"],
+      "pedagogicalGoal": "Confirm es legal.",
+      "requiredIdeas": ["Confirm es legal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm es legal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-14",
+      "kind": "question",
+      "text": "How would you say illegal?",
+      "sourceTurnIds": ["original:2557:2580"],
+      "sourceTranscript": ["Illegal. Illegal. Good."],
+      "pedagogicalGoal": "Apply the known pattern to illegal.",
+      "requiredIdeas": ["Apply the known pattern to illegal."],
+      "requiredExamples": [],
+      "expectedAnswers": ["ilegal"],
+      "understandingRubric": [
+        "Apply the known pattern to illegal.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Use the sounds and pattern we have already discovered.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-15",
+      "kind": "explanation",
+      "text": "Ilegal. In English, the I and E in illegal can sound similar. In Spanish, I is like the beginning of ink and E like the beginning of elephant. Ilegal.",
+      "sourceTurnIds": ["original:2581:2626"],
+      "sourceTranscript": ["So here in English like we have an I and an E"],
+      "pedagogicalGoal": "Contrast I and E in ilegal.",
+      "requiredIdeas": ["Contrast I and E in ilegal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Contrast I and E in ilegal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-16",
+      "kind": "question",
+      "text": "How would you say it is illegal?",
+      "sourceTurnIds": ["original:2887:2904"],
+      "sourceTranscript": ["So it is illegal."],
+      "pedagogicalGoal": "Combine es and ilegal.",
+      "requiredIdeas": ["Combine es and ilegal."],
+      "requiredExamples": [],
+      "expectedAnswers": ["es ilegal"],
+      "understandingRubric": ["Combine es and ilegal."],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Put es before the adjective.",
+        "Build the sentence one part at a time using only words we already know. Place negation before is if needed.",
+        "Say the structure first, then attach the adjective. Think through each part instead of guessing."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-17",
+      "kind": "explanation",
+      "text": "Es ilegal.",
+      "sourceTurnIds": ["original:2916:2932"],
+      "sourceTranscript": ["Good. S illegal."],
+      "pedagogicalGoal": "Confirm es ilegal.",
+      "requiredIdeas": ["Confirm es ilegal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm es ilegal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-18",
+      "kind": "question",
+      "text": "What if you want to say he is liberal? You do not need the word for he if you know who you are talking about. How would you say it?",
+      "sourceTurnIds": ["original:2933:2971"],
+      "sourceTranscript": ["What if you want to say he is liberal?"],
+      "pedagogicalGoal": "Use es without an explicit subject pronoun.",
+      "requiredIdeas": ["Use es without an explicit subject pronoun."],
+      "requiredExamples": [],
+      "expectedAnswers": ["es liberal"],
+      "understandingRubric": ["Use es without an explicit subject pronoun."],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "We already know is; the context can tell us who we mean.",
+        "Build the sentence one part at a time using only words we already know. Place negation before is if needed.",
+        "Say the structure first, then attach the adjective. Think through each part instead of guessing."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-19",
+      "kind": "explanation",
+      "text": "Es liberal. Spanish spelling represents sounds more consistently than English. Do not just change the accent of the English word natural; think about its spelling and pronounce each letter.",
+      "sourceTurnIds": ["original:3091:3137"],
+      "sourceTranscript": ["Now Spanish is much more fanatic than English."],
+      "pedagogicalGoal": "Use Spanish spelling to derive pronunciation, not English imitation.",
+      "requiredIdeas": [
+        "Use Spanish spelling to derive pronunciation, not English imitation."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Use Spanish spelling to derive pronunciation, not English imitation."
+      ],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-20",
+      "kind": "question",
+      "text": "How do you think you would say natural in Spanish?",
+      "sourceTurnIds": ["original:3653:3706"],
+      "sourceTranscript": [
+        "So how do you think you would say natural in Spanish?"
+      ],
+      "pedagogicalGoal": "Apply written vowels and final stress to natural.",
+      "requiredIdeas": ["Apply written vowels and final stress to natural."],
+      "requiredExamples": [],
+      "expectedAnswers": ["natural"],
+      "understandingRubric": [
+        "Apply written vowels and final stress to natural.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Think of the written A and U sounds, and stress the end.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-21",
+      "kind": "explanation",
+      "text": "Natural. Pronounce the written T, A and U, and stress the end.",
+      "sourceTurnIds": ["original:3725:3742"],
+      "sourceTranscript": ["Good. That's a T."],
+      "pedagogicalGoal": "Confirm Spanish vowel and consonant sounds in natural.",
+      "requiredIdeas": [
+        "Confirm Spanish vowel and consonant sounds in natural."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Confirm Spanish vowel and consonant sounds in natural."
+      ],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-22",
+      "kind": "question",
+      "text": "How would you say it is natural?",
+      "sourceTurnIds": ["original:3846:3870"],
+      "sourceTranscript": ["It's natural. S natural."],
+      "pedagogicalGoal": "Combine es and natural.",
+      "requiredIdeas": ["Combine es and natural."],
+      "requiredExamples": [],
+      "expectedAnswers": ["es natural"],
+      "understandingRubric": ["Combine es and natural."],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Combine our word for is with natural.",
+        "Build the sentence one part at a time using only words we already know. Place negation before is if needed.",
+        "Say the structure first, then attach the adjective. Think through each part instead of guessing."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-23",
+      "kind": "explanation",
+      "text": "Es natural. The word for not or don't is the same as the word for no. No in Spanish is spelled like no in English, but pronounce it with Spanish vowels.",
+      "sourceTurnIds": ["original:3882:3909"],
+      "sourceTranscript": ["If you want to say it isn't"],
+      "pedagogicalGoal": "Introduce no with Spanish vowels.",
+      "requiredIdeas": ["Introduce no with Spanish vowels."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Introduce no with Spanish vowels."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-24",
+      "kind": "question",
+      "text": "How do you think you say no in Spanish?",
+      "sourceTurnIds": ["original:4088:4130"],
+      "sourceTranscript": ["So how do you think you say no in Spanish?"],
+      "pedagogicalGoal": "Derive no with a Spanish vowel.",
+      "requiredIdeas": ["Derive no with a Spanish vowel."],
+      "requiredExamples": [],
+      "expectedAnswers": ["no"],
+      "understandingRubric": [
+        "Derive no with a Spanish vowel.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Use a short, steady O sound.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-25",
+      "kind": "explanation",
+      "text": "No. Put no before es to say it is not, he is not, or she is not.",
+      "sourceTurnIds": ["original:4145:4171"],
+      "sourceTranscript": ["And you put this before is"],
+      "pedagogicalGoal": "Introduce negation before es.",
+      "requiredIdeas": ["Introduce negation before es."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Introduce negation before es."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-26",
+      "kind": "question",
+      "text": "How would you say it is not?",
+      "sourceTurnIds": ["original:4243:4278"],
+      "sourceTranscript": ["So how would that sound? It is not."],
+      "pedagogicalGoal": "Derive no es word order.",
+      "requiredIdeas": ["Derive no es word order."],
+      "requiredExamples": [],
+      "expectedAnswers": ["no es"],
+      "understandingRubric": ["Derive no es word order."],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Put not before is.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-27",
+      "kind": "explanation",
+      "text": "No es. We can now say things like it's not normal.",
+      "sourceTurnIds": ["original:4291:4343"],
+      "sourceTranscript": [
+        "Good. So now we can say things like it's not normal."
+      ],
+      "pedagogicalGoal": "Connect negation to a known adjective.",
+      "requiredIdeas": ["Connect negation to a known adjective."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Connect negation to a known adjective."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-28",
+      "kind": "question",
+      "text": "How would you say it's not normal?",
+      "sourceTurnIds": ["original:4344:4369"],
+      "sourceTranscript": ["No S normal. No S normal."],
+      "pedagogicalGoal": "Combine no es and normal.",
+      "requiredIdeas": ["Combine no es and normal."],
+      "requiredExamples": [],
+      "expectedAnswers": ["no es normal"],
+      "understandingRubric": ["Combine no es and normal."],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Build it from not, is, and normal.",
+        "Build the sentence one part at a time using only words we already know. Place negation before is if needed.",
+        "Say the structure first, then attach the adjective. Think through each part instead of guessing."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-29",
+      "kind": "explanation",
+      "text": "No es normal.",
+      "sourceTurnIds": ["original:4344:4369"],
+      "sourceTranscript": ["No S normal. No S normal."],
+      "pedagogicalGoal": "Confirm no es normal.",
+      "requiredIdeas": ["Confirm no es normal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm no es normal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-30",
+      "kind": "question",
+      "text": "How would you say ideal? Think about how it is spelled, and pronounce the written vowels.",
+      "sourceTurnIds": ["original:4370:4394"],
+      "sourceTranscript": ["How would you say ideal?"],
+      "pedagogicalGoal": "Apply established spelling, stress and sentence patterns to ideal.",
+      "requiredIdeas": [
+        "Apply established spelling, stress and sentence patterns to ideal."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": ["ideal"],
+      "understandingRubric": [
+        "Apply established spelling, stress and sentence patterns to ideal.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Reason from the pattern and written sounds we already know.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-31",
+      "kind": "explanation",
+      "text": "Ideal.",
+      "sourceTurnIds": ["original:4370:4394"],
+      "sourceTranscript": ["How would you say ideal?"],
+      "pedagogicalGoal": "Confirm ideal.",
+      "requiredIdeas": ["Confirm ideal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm ideal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-32",
+      "kind": "question",
+      "text": "How would you say it's ideal?",
+      "sourceTurnIds": ["original:4563:4592"],
+      "sourceTranscript": ["How would you say it's ideal?"],
+      "pedagogicalGoal": "Apply established spelling, stress and sentence patterns to it's ideal.",
+      "requiredIdeas": [
+        "Apply established spelling, stress and sentence patterns to it's ideal."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": ["es ideal"],
+      "understandingRubric": [
+        "Apply established spelling, stress and sentence patterns to it's ideal."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Reason from the pattern and written sounds we already know.",
+        "Build the sentence one part at a time using only words we already know. Place negation before is if needed.",
+        "Say the structure first, then attach the adjective. Think through each part instead of guessing."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-33",
+      "kind": "explanation",
+      "text": "Es ideal.",
+      "sourceTurnIds": ["original:4563:4592"],
+      "sourceTranscript": ["How would you say it's ideal?"],
+      "pedagogicalGoal": "Confirm es ideal.",
+      "requiredIdeas": ["Confirm es ideal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm es ideal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-34",
+      "kind": "question",
+      "text": "How would you say it's not ideal?",
+      "sourceTurnIds": ["original:4611:4626"],
+      "sourceTranscript": ["It's not ideal."],
+      "pedagogicalGoal": "Apply established spelling, stress and sentence patterns to it's not ideal.",
+      "requiredIdeas": [
+        "Apply established spelling, stress and sentence patterns to it's not ideal."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": ["no es ideal"],
+      "understandingRubric": [
+        "Apply established spelling, stress and sentence patterns to it's not ideal."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Reason from the pattern and written sounds we already know.",
+        "Build the sentence one part at a time using only words we already know. Place negation before is if needed.",
+        "Say the structure first, then attach the adjective. Think through each part instead of guessing."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-35",
+      "kind": "explanation",
+      "text": "No es ideal.",
+      "sourceTurnIds": ["original:4611:4626"],
+      "sourceTranscript": ["It's not ideal."],
+      "pedagogicalGoal": "Confirm no es ideal.",
+      "requiredIdeas": ["Confirm no es ideal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm no es ideal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-36",
+      "kind": "question",
+      "text": "How would you say fatal?",
+      "sourceTurnIds": ["original:4666:4690"],
+      "sourceTranscript": ["How would you say fatal?"],
+      "pedagogicalGoal": "Apply established spelling, stress and sentence patterns to fatal.",
+      "requiredIdeas": [
+        "Apply established spelling, stress and sentence patterns to fatal."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": ["fatal"],
+      "understandingRubric": [
+        "Apply established spelling, stress and sentence patterns to fatal.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Reason from the pattern and written sounds we already know.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-37",
+      "kind": "explanation",
+      "text": "Fatal.",
+      "sourceTurnIds": ["original:4666:4690"],
+      "sourceTranscript": ["How would you say fatal?"],
+      "pedagogicalGoal": "Confirm fatal.",
+      "requiredIdeas": ["Confirm fatal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm fatal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-38",
+      "kind": "question",
+      "text": "How would you say natal?",
+      "sourceTurnIds": ["original:4711:4731"],
+      "sourceTranscript": ["Natal. Natal. Natal."],
+      "pedagogicalGoal": "Apply established spelling, stress and sentence patterns to natal.",
+      "requiredIdeas": [
+        "Apply established spelling, stress and sentence patterns to natal."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": ["natal"],
+      "understandingRubric": [
+        "Apply established spelling, stress and sentence patterns to natal.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Reason from the pattern and written sounds we already know.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-39",
+      "kind": "explanation",
+      "text": "Natal.",
+      "sourceTurnIds": ["original:4711:4731"],
+      "sourceTranscript": ["Natal. Natal. Natal."],
+      "pedagogicalGoal": "Confirm natal.",
+      "requiredIdeas": ["Confirm natal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm natal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-40",
+      "kind": "question",
+      "text": "How would you say colonial?",
+      "sourceTurnIds": ["original:4738:4767"],
+      "sourceTranscript": ["Colonial. Colonial. Colonial."],
+      "pedagogicalGoal": "Apply established spelling, stress and sentence patterns to colonial.",
+      "requiredIdeas": [
+        "Apply established spelling, stress and sentence patterns to colonial."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": ["colonial"],
+      "understandingRubric": [
+        "Apply established spelling, stress and sentence patterns to colonial.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Reason from the pattern and written sounds we already know.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-41",
+      "kind": "explanation",
+      "text": "Colonial.",
+      "sourceTurnIds": ["original:4738:4767"],
+      "sourceTranscript": ["Colonial. Colonial. Colonial."],
+      "pedagogicalGoal": "Confirm colonial.",
+      "requiredIdeas": ["Confirm colonial."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm colonial."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-42",
+      "kind": "question",
+      "text": "How would you say cultural? Think about how it is spelled, and pronounce the written vowels.",
+      "sourceTurnIds": ["original:4768:4796"],
+      "sourceTranscript": ["Cultural. Cultural. So think"],
+      "pedagogicalGoal": "Apply established spelling, stress and sentence patterns to cultural.",
+      "requiredIdeas": [
+        "Apply established spelling, stress and sentence patterns to cultural."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": ["cultural"],
+      "understandingRubric": [
+        "Apply established spelling, stress and sentence patterns to cultural.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Reason from the pattern and written sounds we already know.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-43",
+      "kind": "explanation",
+      "text": "Cultural.",
+      "sourceTurnIds": ["original:4768:4796"],
+      "sourceTranscript": ["Cultural. Cultural. So think"],
+      "pedagogicalGoal": "Confirm cultural.",
+      "requiredIdeas": ["Confirm cultural."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm cultural."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-44",
+      "kind": "question",
+      "text": "How would you say annual? Focus on its spelling, without the extra English Y sound.",
+      "sourceTurnIds": ["original:4885:4905"],
+      "sourceTranscript": ["Anuel. Anuel. Anuel."],
+      "pedagogicalGoal": "Apply established spelling, stress and sentence patterns to annual.",
+      "requiredIdeas": [
+        "Apply established spelling, stress and sentence patterns to annual."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": ["anual"],
+      "understandingRubric": [
+        "Apply established spelling, stress and sentence patterns to annual.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Reason from the pattern and written sounds we already know.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-45",
+      "kind": "explanation",
+      "text": "Anual. Cut out the extra English Y sound by focusing on the spelling.",
+      "sourceTurnIds": ["original:4906:4933"],
+      "sourceTranscript": ["And you cut this wise sound"],
+      "pedagogicalGoal": "Remove English Y interference from anual.",
+      "requiredIdeas": ["Remove English Y interference from anual."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Remove English Y interference from anual."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-46",
+      "kind": "question",
+      "text": "How would you say dental?",
+      "sourceTurnIds": ["original:5097:5118"],
+      "sourceTranscript": ["Dental. Dental. Tooth"],
+      "pedagogicalGoal": "Apply established spelling, stress and sentence patterns to dental.",
+      "requiredIdeas": [
+        "Apply established spelling, stress and sentence patterns to dental."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": ["dental"],
+      "understandingRubric": [
+        "Apply established spelling, stress and sentence patterns to dental.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Reason from the pattern and written sounds we already know.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-47",
+      "kind": "explanation",
+      "text": "Dental. Tooth in Spanish is diente. Instead of memorizing diente as random vocabulary, relate it back to dental; this relationship helps memory.",
+      "sourceTurnIds": ["original:5113:5139"],
+      "sourceTranscript": ["Tooth in Spanish is dente."],
+      "pedagogicalGoal": "Relate new vocabulary diente to dental for memory.",
+      "requiredIdeas": ["Relate new vocabulary diente to dental for memory."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Relate new vocabulary diente to dental for memory."
+      ],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-48",
+      "kind": "question",
+      "text": "How would you say festival?",
+      "sourceTurnIds": ["original:5425:5448"],
+      "sourceTranscript": ["A couple more festival."],
+      "pedagogicalGoal": "Apply AL conversion to festival.",
+      "requiredIdeas": ["Apply AL conversion to festival."],
+      "requiredExamples": [],
+      "expectedAnswers": ["festival"],
+      "understandingRubric": [
+        "Apply AL conversion to festival.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Keep the written vowels, and stress the end.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-49",
+      "kind": "explanation",
+      "text": "Festival.",
+      "sourceTurnIds": ["original:5425:5448"],
+      "sourceTranscript": ["A couple more festival."],
+      "pedagogicalGoal": "Confirm festival.",
+      "requiredIdeas": ["Confirm festival."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm festival."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-50",
+      "kind": "question",
+      "text": "How would you say personal?",
+      "sourceTurnIds": ["original:5459:5478"],
+      "sourceTranscript": ["Personal. Personal."],
+      "pedagogicalGoal": "Apply AL conversion to personal.",
+      "requiredIdeas": ["Apply AL conversion to personal."],
+      "requiredExamples": [],
+      "expectedAnswers": ["personal"],
+      "understandingRubric": [
+        "Apply AL conversion to personal.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Keep the written vowels, and stress the end.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-51",
+      "kind": "explanation",
+      "text": "Personal.",
+      "sourceTurnIds": ["original:5459:5478"],
+      "sourceTranscript": ["Personal. Personal."],
+      "pedagogicalGoal": "Confirm personal.",
+      "requiredIdeas": ["Confirm personal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm personal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-52",
+      "kind": "question",
+      "text": "How would you say total?",
+      "sourceTurnIds": ["original:5485:5505"],
+      "sourceTranscript": ["Total. Total. Total."],
+      "pedagogicalGoal": "Apply AL conversion to total.",
+      "requiredIdeas": ["Apply AL conversion to total."],
+      "requiredExamples": [],
+      "expectedAnswers": ["total"],
+      "understandingRubric": [
+        "Apply AL conversion to total.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Keep the written vowels, and stress the end.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-53",
+      "kind": "explanation",
+      "text": "Total.",
+      "sourceTurnIds": ["original:5485:5505"],
+      "sourceTranscript": ["Total. Total. Total."],
+      "pedagogicalGoal": "Confirm total.",
+      "requiredIdeas": ["Confirm total."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm total."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-54",
+      "kind": "question",
+      "text": "How would you say verbal?",
+      "sourceTurnIds": ["original:5512:5535"],
+      "sourceTranscript": ["Verbal. Verbal. Verbal."],
+      "pedagogicalGoal": "Apply AL conversion to verbal.",
+      "requiredIdeas": ["Apply AL conversion to verbal."],
+      "requiredExamples": [],
+      "expectedAnswers": ["verbal"],
+      "understandingRubric": [
+        "Apply AL conversion to verbal.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Keep the written vowels, and stress the end.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-55",
+      "kind": "explanation",
+      "text": "Verbal.",
+      "sourceTurnIds": ["original:5512:5535"],
+      "sourceTranscript": ["Verbal. Verbal. Verbal."],
+      "pedagogicalGoal": "Confirm verbal.",
+      "requiredIdeas": ["Confirm verbal."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": ["Confirm verbal."],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-56",
+      "kind": "explanation",
+      "text": "Knowing verbal gives us a clue to verb. Even without a conversion rule, related vocabulary can help us make a guess. Often we keep the root and add o, e or a.",
+      "sourceTurnIds": ["original:5536:5563"],
+      "sourceTranscript": ["So if we wanted to say verb"],
+      "pedagogicalGoal": "Reason from verbal to an unfamiliar related noun.",
+      "requiredIdeas": ["Reason from verbal to an unfamiliar related noun."],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Reason from verbal to an unfamiliar related noun."
+      ],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    },
+    {
+      "id": "2-step-57",
+      "kind": "question",
+      "text": "How do you think you say verb in Spanish?",
+      "sourceTurnIds": ["original:5865:5906"],
+      "sourceTranscript": ["How do you think you say verb in Spanish?"],
+      "pedagogicalGoal": "Derive verbo from verbal.",
+      "requiredIdeas": ["Derive verbo from verbal."],
+      "requiredExamples": [],
+      "expectedAnswers": ["verbo"],
+      "understandingRubric": [
+        "Derive verbo from verbal.",
+        "Text answers verify lexical derivation only; acoustic pronunciation is unverified and must not be recorded as pronunciation mastery."
+      ],
+      "commonMisconceptions": [
+        "Treating English vowel sounds as Spanish vowel sounds.",
+        "Guessing sentence structure instead of reasoning from known parts."
+      ],
+      "hintLadder": [
+        "Keep the root from verbal and try a short vowel ending.",
+        "Think about how the word is written, using the short, consistent Spanish vowel sounds.",
+        "Recall the stress contrast in normal. Apply the same reasoning to the word in this question."
+      ],
+      "completion": "understanding",
+      "required": true
+    },
+    {
+      "id": "2-step-58",
+      "kind": "explanation",
+      "text": "Verbo. With structure, when building sentences, do not guess: take time and think it through. With vocabulary, you can guess and try. A speaker's response helps you adjust and learn the word.",
+      "sourceTurnIds": ["original:5921:5957"],
+      "sourceTranscript": ["So with structure, with the building"],
+      "pedagogicalGoal": "Distinguish careful sentence construction from productive vocabulary guessing; close the original lesson.",
+      "requiredIdeas": [
+        "Distinguish careful sentence construction from productive vocabulary guessing; close the original lesson."
+      ],
+      "requiredExamples": [],
+      "expectedAnswers": [],
+      "understandingRubric": [
+        "Distinguish careful sentence construction from productive vocabulary guessing; close the original lesson."
+      ],
+      "commonMisconceptions": [],
+      "hintLadder": [],
+      "completion": "delivery",
+      "required": true
+    }
+  ]
+}

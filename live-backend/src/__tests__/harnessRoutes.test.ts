@@ -24,7 +24,7 @@ async function startServer(): Promise<TestServer> {
     },
   });
   const wsInstances: FakeWs[] = [];
-  const app = createApp({
+  const app = createApp({ legacyHarnessForTests: true,
     config: {
       openaiApiKey: 'sk-test',
       port: 0,

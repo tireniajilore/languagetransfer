@@ -30,7 +30,7 @@ async function startServer(opts?: {
     });
   const liveClient = new LiveSessionClient({ apiKey: 'sk-test', createFn: createImpl });
   const wsInstances: FakeWs[] = [];
-  const app = createApp({
+  const app = createApp({ legacyHarnessForTests: true,
     config: {
       openaiApiKey: 'sk-test',
       port: 0,

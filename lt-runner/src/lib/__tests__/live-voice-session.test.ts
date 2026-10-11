@@ -12,6 +12,9 @@ class FakeDataChannel {
   label: string;
   onmessage: ((ev: { data: string }) => void) | null = null;
   closed = false;
+  readyState = 'open';
+  sent: string[] = [];
+  send(data: string) { this.sent.push(data); }
   constructor(label: string) {
     this.label = label;
   }
@@ -130,6 +133,7 @@ function setup(opts?: {
   fetchImpl?: (url: string, body: unknown) => { status: number; json: unknown };
   maxRetries?: number;
   learnerToken?: string;
+  lessonNumber?: number;
   onLearnerToken?: (token: string) => void;
   failRemoteDescription?: boolean;
 }) {
@@ -146,6 +150,7 @@ function setup(opts?: {
   const session = new LiveVoiceSession({
     backendUrl: 'https://backend.example.com/',
     learnerToken: opts?.learnerToken,
+    lessonNumber: opts?.lessonNumber,
     onLearnerToken: opts?.onLearnerToken,
     fetchFn,
     createPeerConnection: () => {
@@ -522,5 +527,52 @@ describe('unexpected Live session closure', () => {
     ctx.pcs[0].dataChannels[0].emitMessage({ type: 'session.closed' });
     expect(ctx.pcs).toHaveLength(1);
     expect(ctx.states.at(-1)).toBe('closed');
+  });
+
+  it('gives up after maxRetries unexpected closures and reports resumability', async () => {
+    const ctx = setup({ maxRetries: 1 });
+    await startConnected(ctx);
+    ctx.pcs[0].dataChannels[0].emitMessage({ type: 'session.closed', reason: 'unexpected' });
+    await vi.waitFor(() => expect(ctx.pcs).toHaveLength(2));
+    ctx.pcs[1].simulateConnectionState('connected');
+    await vi.waitFor(() => expect(ctx.states.filter((s) => s === 'connected')).toHaveLength(2));
+    ctx.pcs[1].dataChannels[0].emitMessage({ type: 'session.closed', reason: 'unexpected' });
+    await vi.waitFor(() => expect(ctx.session.getState()).toBe('failed'));
+    expect(ctx.errors).toHaveLength(1);
+    expect(String(ctx.errors[0]?.message ?? ctx.errors[0])).toMatch(/Resume lesson/);
+  });
+});
+describe('supervised lesson transport', () => {
+  it('reports authenticated audio boundaries only after actual monitored audio activity', async () => {
+    const result = setup({lessonNumber: 2, fetchImpl: url => url.endsWith('/api/live/session')
+      ? mintResponder('live_lesson')() : {status:200, json:{stepIndex:0}}});
+    await startConnected(result);
+    expect(result.fetchCalls.some(c => c.url.endsWith('/start') && c.authorization === 'Bearer test-session-secret')).toBe(true);
+    result.pcs[0].dataChannels[0].emitMessage({type:'session.output_transcript.delta',event_id:'audio-output',delta:'English and Spanish',start_ms:0,end_ms:1500});
+    await result.session.reportActivity('assistant', false, true);
+    const first = result.fetchCalls.at(-1)!.body as {outputEventId?:string};
+    expect(first.outputEventId).toBeUndefined();
+    await result.session.reportActivity('assistant', true, true);
+    await result.session.reportActivity('assistant', false, true);
+    expect(result.fetchCalls.at(-1)).toMatchObject({authorization:'Bearer test-session-secret',body:{speaker:'assistant',speaking:false,playing:true,outputEventId:'audio-output'}});
+    await result.session.stop();
+  });
+  it('keeps overlapping speakers separate, sorts delayed fragments, and deduplicates event IDs', async () => {
+    const result = setup();await startConnected(result);
+    const channel = result.pcs[0].dataChannels[0];
+    channel.emitMessage({type:'session.input_transcript.delta',event_id:'u-last',delta:'changes',start_ms:200,end_ms:300});
+    channel.emitMessage({type:'session.output_transcript.delta',event_id:'a',delta:'Take your time',start_ms:100,end_ms:300});
+    channel.emitMessage({type:'session.input_transcript.delta',event_id:'u-first',delta:'The stress ',start_ms:0,end_ms:200});
+    channel.emitMessage({type:'session.input_transcript.delta',event_id:'u-first',delta:'The stress ',start_ms:0,end_ms:200});
+    expect(result.transcripts.at(-1)).toHaveLength(2);
+    expect(result.transcripts.at(-1)![0].text).toBe('The stress changes');
+    expect(result.transcripts.at(-1)![1].text).toBe('Take your time');
+    await result.session.stop();
+  });
+  it('does not repeatedly retry locked lessons or concurrent-session conflicts', async () => {
+    for (const status of [409,423]) {
+      const result=setup({fetchImpl:()=>({status,json:{error:'lesson_locked'}})});
+      await result.session.start();expect(result.session.getState()).toBe('failed');expect(result.fetchCalls).toHaveLength(1);
+    }
   });
 });
