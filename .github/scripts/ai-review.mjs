@@ -65,18 +65,40 @@ const gh = (path, opts = {}) =>
     return r;
   });
 
-// 1. Fetch the full PR diff and split it into per-file chunks.
-const diffText = await gh(`/repos/${owner}/${repo}/pulls/${prNumber}`, {
-  headers: { Accept: "application/vnd.github.diff" },
-}).then((r) => r.text());
-
+// 1. Fetch the full PR diff, falling back to GitHub's paged file API.
+// GitHub returns 406 for >20,000 diff lines, common for source-content imports.
 const files = [];
-for (const chunk of diffText.split(/^diff --git /m).slice(1)) {
-  const m = /^a\/(.+?) b\//m.exec(chunk);
-  if (!m) continue;
-  const path = m[1];
-  if (!ALLOWED_EXT.test(path) || SKIP_DIR.test(path)) continue;
-  files.push({ path, chunk: "diff --git " + chunk });
+try {
+  const diffText = await gh(`/repos/${owner}/${repo}/pulls/${prNumber}`, {
+    headers: { Accept: "application/vnd.github.diff" },
+  }).then((r) => r.text());
+  for (const chunk of diffText.split(/^diff --git /m).slice(1)) {
+    const m = /^a\/(.+?) b\//m.exec(chunk);
+    if (!m) continue;
+    const path = m[1];
+    if (!ALLOWED_EXT.test(path) || SKIP_DIR.test(path)) continue;
+    files.push({ path, chunk: "diff --git " + chunk });
+  }
+} catch (err) {
+  if (!String(err).includes("GitHub API 406")) throw err;
+  console.warn("PR diff exceeds GitHub line limit; using paginated per-file patches.");
+  for (let page = 1; page <= 30; page++) {
+    const batch = await gh(
+      `/repos/${owner}/${repo}/pulls/${prNumber}/files?per_page=100&page=${page}`
+    ).then((r) => r.json());
+    if (!Array.isArray(batch) || batch.length === 0) break;
+    for (const item of batch) {
+      const path = item.filename;
+      if (!ALLOWED_EXT.test(path) || SKIP_DIR.test(path)) continue;
+      files.push({
+        path,
+        chunk: item.patch
+          ? `diff --git a/${path} b/${path}\n${item.patch}`
+          : `diff --git a/${path} b/${path}\n[Patch omitted by GitHub: review this file manually]`,
+      });
+    }
+    if (batch.length < 100) break;
+  }
 }
 if (files.length === 0) {
   console.log("No reviewable files in diff; skipping.");
