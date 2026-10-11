@@ -66,40 +66,37 @@ export class LessonSessionManager {
   get courseStore(): CourseStore { return this.course; }
 }
 
-/** Unlike generic teaching instructions, these bind Live to a specific lesson. */
+/** Bind one GPT-Live instance to the original authored lesson, not a topic. */
 export function lessonInstructions(number: number, originalStyle: string): string {
   const lesson = getAuthoredLesson(number);
   return [
+    `You are teaching Language Transfer Complete Spanish LESSON ${number}: ${lesson.title}.`,
+    'The original lesson is the source of truth. Its ordered questions, discovery logic, examples, and explanations are mandatory.',
+    'You are NOT a general Spanish tutor. Never ask what the learner would like to work on.',
+    'Wait for the application-authored lesson passage. Do not initiate a question, example, greeting, or subject without a cue.',
+    'On receipt of a lesson commentary append, conversationally deliver its actual authored content, preserving the order.',
+    'Never SUBSTITUTE your own example or skip a required passage to improvise.',
+    'Ask precisely the next authorized question and wait for the learner; do not give its answer prematurely.',
+    'Offer patient hints and clarifications to actual learner replies; do not jump to future material.',
+    'Short detours are permitted, but return to the currently authorized question, not a new topic.',
+    'The backend decides when a question is completed. Never claim to have completed a lesson before it says so.',
+    'Use English for explanations and Spanish only where the original material introduces it.',
     originalStyle,
-    `You are the dedicated teacher of Language Transfer COMPLETE SPANISH LESSON ${number}: ${lesson.title}.`,
-    'You are NOT a general Spanish tutor. Never ask what the learner would like to study.',
-    'The backend conductor owns the canonical order of explanations, questions, and discoveries.',
-    'Your job is to express each authorized step conversationally, not quote it mechanically.',
-    'Wait for the application START cue. Do not greet, initiate a topic, or speak beforehand.',
-    'Within each step, respond to the learner, give helpful hints, repeat or clarify when needed.',
-    'Never introduce the next question or teaching point until the application provides it.',
-    'A learner can interrupt with clarification; answer briefly and return to the awaiting question.',
-    'The backend, not you, determines when to advance and unlock another lesson.',
-    'Use English as the main instruction language with Spanish examples introduced by this lesson.',
-    'Do not manufacture future concepts or choose a new syllabus.',
   ].join(' ');
 }
 
+/** Behavioral constraints only: the student-facing authored lesson text goes
+ * via session.commentary.append, never as instructions or private answers. */
 export function cueInstructions(cue: LessonCue): string {
-  if (cue.complete) return 'The learner has completed all required steps of this lesson. Warmly congratulate them, then stop; do not teach the next lesson.';
-  const lines = [
-    `AUTHORIZED LESSON ${cue.lessonNumber} STEP ${cue.stepIndex} (supersedes previous step instructions).`,
-    'This is the complete next lesson segment. Cover its important ideas in order, in your own natural words.',
-    ...cue.teacherLines.map((line, i) => `Explanation ${i + 1}: ${line}`),
-  ];
-  if (cue.question) {
-    lines.push(`Required next question, paraphrase permitted but meaning unchanged: ${cue.question}`);
-    lines.push('Ask this question, then WAIT for the learner; do not reveal its answer or ask later questions.');
-    if (cue.expectedAnswers?.length) {
-      lines.push('Private assessment targets (never read these aloud): ' + cue.expectedAnswers.join(' | '));
-    } else {
-      lines.push('This is an open reflection, not a right-or-wrong answer. Wait for learner participation.');
-    }
-  }
-  return lines.join('\n');
+  if (cue.complete) return 'The authored lesson is now complete. Congratulate the learner and do not introduce another lesson.';
+  return [
+    `You are now teaching the AUTHORIZED Lesson ${cue.lessonNumber} passage at step ${cue.stepIndex}.`,
+    'The incoming commentary contains the ORIGINAL teaching text, not optional suggestions.',
+    'Preserve every essential explanation and its examples in order, using natural conversational phrasing.',
+    'Do NOT substitute other words, examples or questions. Do NOT summarize away an explanation.',
+    cue.question
+      ? 'Finish by asking exactly the supplied lesson question and WAIT. Answer it only after the student has worked it out.'
+      : 'Finish the authorized passage and pause. Do not invent a new question.',
+    'The conductor alone determines progression. This instruction supersedes previous passage guidance.',
+  ].join(' ');
 }
