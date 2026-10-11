@@ -447,7 +447,7 @@ const TOOLS: Record<string, ToolDefinition> = {
       for (const e of state.evidence) {
         evidenceKinds[e.kind] = (evidenceKinds[e.kind] ?? 0) + 1;
       }
-      const learnerId = state.learnerId ?? input.learnerId ?? null;
+      const learnerId = state.learnerId ?? null;
       return {
         learnerId,
         sessionId: state.sessionId,
