@@ -70,12 +70,13 @@ describe('lesson-specific API', () => {
     fakes[0].emitJson('message', {type: 'session.started'});
     const start = await fetch(base + path + '/start', {method: 'POST', headers: auth});
     expect(start.status).toBe(200);
-    const commands = fakes[0].sent.map((v) => JSON.parse(v) as {type: string; instructions?: string});
-    expect(commands.some((c) => c.type === 'session.instructions.append' && c.instructions?.includes('How would you say metal?'))).toBe(true);
-    expect(commands.some((c) => c.type === 'response.create')).toBe(true);
+    const commands = fakes[0].sent.map((v) => JSON.parse(v) as {type: string; content?: string; delegation_id?: string | null});
+    expect(commands.some((c) => c.type === 'session.instructions.append' && c.delegation_id === null)).toBe(true);
+    expect(commands.some((c) => c.type === 'session.commentary.append' && c.content?.includes('How would you say metal?'))).toBe(true);
+    expect(commands.some((c) => c.type === 'response.create')).toBe(false);
     const dupe = await fetch(base + path + '/start', { method: 'POST', headers: auth });
     expect(dupe.status).toBe(200);
-    expect(fakes[0].sent.filter((x) => x.includes('response.create'))).toHaveLength(1);
+    expect(fakes[0].sent).toHaveLength(commands.length);
     const progress = await fetch(base + path + '/progress', {headers: auth});
     expect(progress.status).toBe(200);
     expect((await progress.json() as {phase:string}).phase).toBe('awaiting_answer');
