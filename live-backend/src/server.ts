@@ -20,7 +20,7 @@ import { DispatchResult, HarnessStore, ToolErrorCode, ToolRouter } from './harne
 import { buildDelegationConfig, DelegationManager } from './reasoning/delegation';
 import { GuardrailMonitor, GuardrailTrigger } from './reasoning/guardrails';
 import { analyzeResponse } from './reasoning/analysis';
-import { getConcept } from './harness/stateMachine';
+import { currentQuestionTarget } from './harness/questionTarget';
 import { LiveBackendConfig } from './config';
 import { LiveApiError, LiveSessionClient } from './liveClient';
 import { recordCounter, recordLatency, summarizeMetrics } from './metrics';
@@ -98,23 +98,17 @@ function analyzeUserTurn(
 ): void {
   const state = harness.store.get(sessionId);
   if (!state) return;
-  const objective = harness.curriculum.objectives.find((o) => o.id === state.currentObjectiveId);
-  const conceptId =
-    objective?.conceptIds.find((cid) => state.concepts[cid]?.status === 'in_progress') ??
-    objective?.conceptIds.find((cid) => state.concepts[cid]?.status === 'struggling') ??
-    objective?.conceptIds.find((cid) => state.concepts[cid]?.status === 'available');
-  if (!conceptId) return;
-  const concept = getConcept(harness.curriculum, conceptId);
-  if (!concept) return;
-
-  guardrails.registerLiveTargets(sessionId, conceptId, concept.verifiedExamples);
+  const target = currentQuestionTarget(harness.curriculum, state);
+  if (!target) return; // unanchored Live speech cannot be scored as mastery evidence
+  const { conceptId, expectedAnswers } = target;
+  guardrails.registerLiveTargets(sessionId, conceptId, expectedAnswers);
 
   const result = analyzeResponse({
     curriculum: harness.curriculum,
     state,
     utterance: text,
     conceptId,
-    expectedAnswers: concept.verifiedExamples,
+    expectedAnswers,
   });
   console.log(
     `[live] analysis session=${sessionId} concept=${conceptId} outcome=${result.match.outcome} path=${result.path} — ${result.rationale}`,
@@ -133,7 +127,11 @@ function analyzeUserTurn(
       turnId: state.turn,
       conceptId,
       evidence: {
-        kind: result.evidenceKind,
+        kind: target.kind === 'transfer' && result.evidenceKind === 'correct'
+          ? 'transfer_pass'
+          : target.kind === 'transfer' && result.evidenceKind === 'incorrect'
+            ? 'transfer_fail'
+            : result.evidenceKind,
         detail: `learner said: ${text.slice(0, 300)}`,
         ...(result.misconceptionId ? { misconceptionId: result.misconceptionId } : {}),
       },
@@ -181,6 +179,8 @@ export function createApp(deps: ServerDeps): Express {
     const sideband = registry.get(sessionId)?.sideband;
     if (!state || !sideband || sideband.getState() !== 'open') return;
     const context = assembleTeachingContext(harness.curriculum, state);
+    const target = currentQuestionTarget(harness.curriculum, state);
+    if (target) registry.get(sessionId)?.guardrails?.registerLiveTargets(sessionId, target.conceptId, target.expectedAnswers);
     if (publishedContext.get(sessionId) === context.rendered) return;
     try {
       sideband.sendCommand({
