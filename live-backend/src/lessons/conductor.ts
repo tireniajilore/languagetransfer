@@ -190,7 +190,18 @@ export function respondToQuestion(lesson: AuthoredLesson, cursor: LessonCursor, 
     const next = nextCue(lesson, { ...cursor, phase: 'ready', attempts: 0, updatedAt: Date.now() });
     return { accepted: true, correct: null, cursor: next.cursor, next: next.cue };
   }
-  const correct = known.some((a) => normalizeAnswer(a) === heard);
+  const correct = known.some((a) => {
+    const answer = normalizeAnswer(a);
+    if (answer === heard) return true;
+    // Natural speech often includes a short hedge around the actual answer.
+    // Only strip safe, explicit scaffolding; never accept arbitrary substrings
+    // (e.g. 'no es normal' must not pass for the target 'es normal').
+    const unwrapped = heard.replace(
+      /^(um |uh |i think |i would say |i d say |maybe |perhaps |is it |it s |the word is |en espanol )+/,
+      '',
+    );
+    return unwrapped === answer;
+  });
   if (!correct) return { accepted: true, correct: false, cursor: {
     ...cursor, attempts: cursor.attempts + 1, updatedAt: Date.now(),
   }, next: null };
