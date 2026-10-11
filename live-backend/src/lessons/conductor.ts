@@ -173,6 +173,10 @@ export function respondToQuestion(lesson: AuthoredLesson, cursor: LessonCursor, 
   const heard = normalizeAnswer(utterance);
   if (!heard) return { accepted: false, correct: null, cursor, next: null };
   const known = q.expectedAnswers;
+  // Acknowledgements and greetings are not attempts to derive a Spanish word.
+  if (/^(ok|okay|yeah|yes|hi|hello|right|sure|thanks|thank you)$/i.test(heard)) {
+    return { accepted: false, correct: false, cursor, next: null };
+  }
   // An open reflection has no objectively correct string. Participating by
   // speaking completes the prompt, but does NOT count as mastery evidence.
   if (!known.length) {
