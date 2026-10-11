@@ -79,6 +79,7 @@ export default function LiveTutorPage() {
     connState === 'requesting-mic' ||
     connState === 'creating-offer' ||
     connState === 'exchanging-sdp' ||
+    connState === 'establishing-media' ||
     connState === 'reconnecting';
   const live = connState === 'connected';
 
