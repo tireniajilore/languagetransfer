@@ -19,7 +19,8 @@
  * Usage: npm run eval:report
  */
 import { execSync } from 'node:child_process';
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, mkdtempSync, readFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -54,6 +55,9 @@ interface SuiteSummary {
 }
 
 const SUITES: Array<{ pattern: RegExp; label: string }> = [
+  { pattern: /lessons\/__tests__\/sessionManager\.test\.ts$/, label: 'Supervised Lesson 2 orchestration (mock model and audio boundaries)' },
+  { pattern: /lessons\/__tests__\/conductor\.test\.ts$/, label: 'Source fidelity and conductor invariants' },
+  { pattern: /lessons\/__tests__\/checkpointStore\.test\.ts$/, label: 'Durable checkpoint ownership and CAS' },
   { pattern: /evals\/scenarios\.test\.ts$/, label: 'Teaching scenarios (brief §11, 15 automated cases)' },
   { pattern: /evals\/pedagogical\.test\.ts$/, label: 'Pedagogical evals (simulated learners, Spanish material)' },
   { pattern: /__tests__\/guardrails\.test\.ts$/, label: 'Guardrail deterministic checks (evaluated control)' },
@@ -68,15 +72,19 @@ function gitSha(): string {
 }
 
 function runSuites(): VitestJson {
-  const files = 'src/reasoning/evals/scenarios.test.ts src/reasoning/evals/pedagogical.test.ts src/reasoning/__tests__/guardrails.test.ts';
-  const out = execSync(`npx vitest run --reporter=json ${files}`, {
-    cwd: ROOT,
-    encoding: 'utf8',
-    maxBuffer: 32 * 1024 * 1024,
-  });
-  // The JSON reporter prints one JSON object; vitest may prefix log lines.
-  const start = out.indexOf('{');
-  return JSON.parse(out.slice(start)) as VitestJson;
+  const files = 'src/lessons/__tests__/sessionManager.test.ts src/lessons/__tests__/conductor.test.ts src/lessons/__tests__/checkpointStore.test.ts src/reasoning/evals/scenarios.test.ts src/reasoning/evals/pedagogical.test.ts src/reasoning/__tests__/guardrails.test.ts';
+  const temporary = mkdtempSync(join(tmpdir(), 'lt-eval-'));
+  const report = join(temporary, 'vitest.json');
+  try {
+    execSync(`npx vitest run --reporter=json --outputFile=${report} ${files}`, {
+      cwd: ROOT,
+      encoding: 'utf8',
+      maxBuffer: 32 * 1024 * 1024,
+    });
+    return JSON.parse(readFileSync(report, 'utf8')) as VitestJson;
+  } finally {
+    rmSync(temporary, { recursive: true, force: true });
+  }
 }
 
 function summarize(json: VitestJson): SuiteSummary[] {
@@ -128,7 +136,11 @@ function renderMarkdown(suites: SuiteSummary[], sha: string, generatedAt: string
     }
     lines.push('');
   }
-  lines.push('## Latency / enforcement trade-off status (ADR-001 D4)');
+  lines.push('Native audio / real-model acceptance is pending. Mocked audio boundaries do not establish live teaching quality. Use `/live/2?eval=1` to record and export a test conversation.');
+  lines.push('');
+  lines.push('The legacy generic-harness suites below remain regression coverage; Lesson 2 uses its source-linked conductor and supervisor instead.');
+  lines.push('');
+  lines.push('## Legacy harness latency / enforcement trade-off status (ADR-001 D4)');
   lines.push('');
   lines.push('- **Hard controls** (enforced in code): objective gating, prerequisite locking,');
   lines.push('  transition validation, idempotent tool commits — covered by state-machine and');
