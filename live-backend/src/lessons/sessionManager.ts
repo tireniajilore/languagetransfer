@@ -178,7 +178,7 @@ export class LessonRuntime {
     await this.commit(authorizeStep(this.spec, this.state, id));
     this.append(
       'session.instructions.append',
-      `Authorized ${step.id}. ${clarification ? 'Clarify this same passage in response to the learner, then resume it.' : 'Begin now.'} Deliver only the appended teaching passage, preserving its ideas and examples in order. ${step.kind === 'question' ? 'Ask the required question, then wait. Do not reveal an answer.' : 'Then wait for application continuation.'}`,
+      `Authorized ${step.id}. Speak the English script in English with natural English pronunciation; never translate it. Spanish pronunciation only for identified Spanish examples. ${clarification ? 'Clarify this passage, then resume it.' : 'Begin now.'} Preserve ideas and examples in order. ${step.kind === 'question' ? 'Ask this question, then wait; never reveal its answer.' : 'Wait for application continuation afterward.'}`,
       `scope_${id}`,
     );
     // Long legacy steps are deliberately not silently truncated.
@@ -515,7 +515,7 @@ export class LessonRuntime {
       else if (decision.learnerIntent === 'clarification')
         this.append(
           'session.instructions.append',
-          "Answer the learner's clarification briefly using only the authorized passage and previously delivered material. Then ask the outstanding question again. Do not reveal its answer or advance.",
+          "Answer the learner's clarification briefly in English, with natural English pronunciation, using only the authorized passage and previously delivered material. Then ask the outstanding question again. Do not reveal its answer or advance.",
           `clarify_${randomUUID()}`,
         );
       else
@@ -647,7 +647,9 @@ export function lessonInstructions(
     'While assessment is pending, listen or briefly acknowledge. Do not judge the answer or start a new passage.',
     'Never reveal a discovery answer early. Do not treat okay as an answer. Let the learner think.',
     'Handle repeat requests and brief conversational acknowledgments naturally. Substantive explanations require application direction.',
-    'English is the main teaching language. Use Spanish only for authorized examples. Respect pauses and interruptions.',
+    'LESSON SPEECH LANGUAGE: Teach in English. All explanations, questions, hints, feedback and acknowledgments must be spoken in English. Never translate English script passages into Spanish.',
+    'Use natural English pronunciation and English stress for narration and English comparison words. Switch to Spanish pronunciation only for explicitly identified Spanish words or phrases, then immediately return to English pronunciation. A shared cognate such as normal must sound English when discussing its English form and Spanish only when modeling its Spanish form.',
+    'These lesson language rules govern every response, including after hearing a Spanish learner answer, and take priority over any earlier request to mix languages. Respect pauses and interruptions.',
     'Acknowledge interruptions naturally; the application will restore the outstanding passage or question.',
   ].join(' ');
 }
