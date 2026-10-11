@@ -12,6 +12,7 @@ import { HarnessStore } from './harness/tools';
 import { DEFAULT_CURRICULUM } from './curriculum';
 import { MIGRATIONS_DIR, PersistentHarnessStore, purgeExpired, runMigrations } from './memory';
 import { SessionRegistry } from './sessions';
+import { CourseStore } from './lessons/courseStore';
 
 async function main(): Promise<void> {
   const config = loadConfig(); // throws ConfigError on missing OPENAI_API_KEY
@@ -49,7 +50,7 @@ async function main(): Promise<void> {
   }
 
   const harness = createHarnessDeps(DEFAULT_CURRICULUM, store);
-  const app = createApp({ config, registry, harness });
+  const app = createApp({ config, registry, harness, courseStore: new CourseStore(pool) });
 
   const server = app.listen(config.port, () => {
     console.log(`[live-backend] listening on :${config.port}`);

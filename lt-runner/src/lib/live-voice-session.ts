@@ -35,6 +35,15 @@ export const DEFAULT_ICE_SERVERS: RTCIceServer[] = [
   { urls: 'stun:stun.l.google.com:19302' },
 ];
 
+export interface LessonProgress {
+  lessonNumber: number;
+  stepIndex: number;
+  totalSteps: number;
+  phase: 'ready' | 'awaiting_answer' | 'completed';
+  attempts: number;
+  completed: boolean;
+}
+
 export interface TranscriptEntry {
   id: number;
   speaker: 'user' | 'assistant';
@@ -46,6 +55,9 @@ export interface LiveVoiceSessionOptions {
   backendUrl: string;
   /** Optional verified anonymous learner capability from a previous session. */
   learnerToken?: string;
+  /** Canonical numbered Language Transfer lesson, starting with Lesson 2. */
+  lessonNumber?: number;
+  onLessonProgress?: (progress: LessonProgress) => void;
   onLearnerToken?: (token: string) => void;
   /** Optional TURN relays; STUN alone cannot traverse some cellular/restricted networks. */
   iceServers?: RTCIceServer[];
@@ -104,6 +116,7 @@ export class LiveVoiceSession {
       LiveVoiceSessionOptions,
       | 'backendUrl'
       | 'iceServers'
+      | 'lessonNumber'
       | 'maxRetries'
       | 'baseBackoffMs'
       | 'mediaConnectTimeoutMs'
@@ -115,7 +128,7 @@ export class LiveVoiceSession {
   > &
     Pick<
       LiveVoiceSessionOptions,
-      'onStateChange' | 'onTranscript' | 'onRemoteStream' | 'onLocalStream' | 'onError' | 'learnerToken' | 'onLearnerToken'
+      'onStateChange' | 'onTranscript' | 'onRemoteStream' | 'onLocalStream' | 'onError' | 'learnerToken' | 'onLearnerToken' | 'onLessonProgress'
     >;
 
   private state: LiveConnState = 'idle';
@@ -136,6 +149,8 @@ export class LiveVoiceSession {
     this.opts = {
       backendUrl: opts.backendUrl.replace(/\/+$/, ''),
       learnerToken: opts.learnerToken,
+      lessonNumber: opts.lessonNumber ?? -1,
+      onLessonProgress: opts.onLessonProgress,
       onLearnerToken: opts.onLearnerToken,
       iceServers: opts.iceServers ?? DEFAULT_ICE_SERVERS,
       maxRetries: opts.maxRetries ?? 3,
@@ -238,7 +253,7 @@ export class LiveVoiceSession {
       const res = await this.opts.fetchFn(`${this.opts.backendUrl}/api/live/session`, {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ sdp: offerSdp, ...(this.opts.learnerToken ? { learnerToken: this.opts.learnerToken } : {}) }),
+        body: JSON.stringify({ sdp: offerSdp, ...(this.opts.learnerToken ? { learnerToken: this.opts.learnerToken } : {}), ...(this.opts.lessonNumber >= 2 ? { lessonNumber: this.opts.lessonNumber } : {}) }),
       });
       if (!res.ok) {
         const detail = await safeJson(res);
@@ -256,7 +271,10 @@ export class LiveVoiceSession {
       }
       this.sessionId = sessionId;
       this.accessToken = payload.session.accessToken;
-      if (payload.learner?.token) this.opts.onLearnerToken?.(payload.learner.token);
+      if (payload.learner?.token) {
+        this.opts.learnerToken = payload.learner.token;
+        this.opts.onLearnerToken?.(payload.learner.token);
+      }
       if (this.intentionalStop) {
         await this.closeOrphanedSession();
         return;
@@ -267,11 +285,45 @@ export class LiveVoiceSession {
       // session while audio cannot flow.
       this.setState('establishing-media');
       await this.waitForMediaConnected(pc);
+      // The tutor must not speak until the authored lesson is ready and audio works.
+      if (this.opts.lessonNumber >= 2) await this.beginLesson();
       this.retryCount = 0;
       this.setState('connected');
     } catch (err) {
       await this.handleConnectFailure(err);
     }
+  }
+
+  private async beginLesson(): Promise<void> {
+    if (!this.sessionId || !this.accessToken) throw new Error('lesson session not minted');
+    const url = `${this.opts.backendUrl}/api/live/session/${encodeURIComponent(this.sessionId)}/start`;
+    // Browser media can finish connecting before the Railway sideband receives session.started.
+    for (let attempt = 0; attempt < 20; attempt++) {
+      if (this.intentionalStop) return;
+      const res = await this.opts.fetchFn(url, { method: 'POST',
+        headers: { authorization: `Bearer ${this.accessToken}` } });
+      if (res.ok) {
+        await this.readLessonProgress();
+        return;
+      }
+      if (res.status !== 409) {
+        throw new MintError(res.status, await safeJson(res));
+      }
+      await this.opts.sleep(150);
+    }
+    throw new Error('Teaching session did not become ready. Please try again.');
+  }
+
+  async readLessonProgress(): Promise<LessonProgress | null> {
+    if (this.opts.lessonNumber < 2 || !this.sessionId || !this.accessToken) return null;
+    const res = await this.opts.fetchFn(
+      `${this.opts.backendUrl}/api/live/session/${encodeURIComponent(this.sessionId)}/progress`,
+      { headers: { authorization: `Bearer ${this.accessToken}` } },
+    );
+    if (!res.ok) return null;
+    const progress = await res.json() as LessonProgress;
+    this.opts.onLessonProgress?.(progress);
+    return progress;
   }
 
   private async handleConnectFailure(err: unknown): Promise<void> {
