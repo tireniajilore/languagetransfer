@@ -150,7 +150,7 @@ describe('live-backend HTTP surface', () => {
     const res = await postJson(s.baseUrl, '/api/live/session', { sdp: OFFER_SDP });
     expect(res.statusCode).toBe(201);
     expect(res.body).toEqual({
-      session: { id: 'live_1' },
+      session: { id: 'live_1', accessToken: expect.any(String) },
       transport: { type: 'webrtc', sdp: 'v=0\r\nanswer' },
     });
     // Sideband attached immediately after creation, with the project key.
@@ -250,8 +250,8 @@ describe('live-backend HTTP surface', () => {
     const s = await startServer();
     servers.push(s);
     const res = await postJson(s.baseUrl, '/api/live/session/live_unknown/close', {});
-    expect(res.statusCode).toBe(404);
-    expect(res.body).toEqual({ error: 'unknown_session' });
+    expect(res.statusCode).toBe(401);
+    expect(res.body).toEqual({ error: 'unauthorized_session' });
   });
 
   it('unknown routes return 404 JSON', async () => {
