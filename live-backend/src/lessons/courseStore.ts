@@ -50,7 +50,7 @@ export class CourseStore {
       const status = complete ? 'completed' : unlocked
         ? cursor && cursor.stepIndex > 0 ? 'in_progress' : 'available' : 'locked';
       rows.push({ number, title: lesson.title, status,
-        stepIndex: cursor?.stepIndex ?? 0, totalSteps: lesson.steps.length });
+        stepIndex: cursor ? Math.max(0, cursor.stepIndex - (cursor.phase === 'awaiting_answer' ? 1 : 0)) : 0, totalSteps: lesson.steps.length });
       unlocked = unlocked && complete;
     }
     return rows;
