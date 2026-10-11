@@ -26,6 +26,8 @@ export const TeachingMoveSchema = z.discriminatedUnion('move', [
     conceptId: ConceptIdSchema,
     /** Optional proposed question text (<=500 chars); the harness does not grade prose. */
     prompt: z.string().min(1).max(500).optional(),
+    /** Optional response target, which must be a verified example for this concept. */
+    expectedAnswer: z.string().min(1).max(300).optional(),
   }),
   z.object({
     move: z.literal('probe_understanding'),
