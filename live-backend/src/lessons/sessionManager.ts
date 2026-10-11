@@ -62,6 +62,13 @@ export class LessonSessionManager {
     }
   }
 
+  currentQuestion(sessionId: string): string | null {
+    const active = this.sessions.get(sessionId);
+    if (!active || active.cursor.phase !== 'awaiting_answer') return null;
+    const step = getAuthoredLesson(active.number).steps[active.cursor.stepIndex - 1];
+    return step?.kind === 'question' ? step.text : null;
+  }
+
   forgetSession(sessionId: string): void { this.sessions.delete(sessionId); }
   get courseStore(): CourseStore { return this.course; }
 }
