@@ -32,10 +32,12 @@ The code independently contained paths that explain the symptom: the twelve-seco
 
 ## Checks
 
-298 backend tests and 26 frontend tests pass. Both type checks, lint checks and production builds pass. Additional regressions cover the concrete races above, not merely prompt-string contents. Frontend changes are scoped to rejecting events from replaced connections.
+300 backend tests and 26 frontend tests pass. Both type checks, lint checks and production builds pass. Additional regressions cover the concrete races above, not merely prompt-string contents. Frontend changes are scoped to rejecting events from replaced connections.
 
 ## Remaining limits
 
 There is no project API key or authenticated Railway deployment access in this workspace. No real-model/audio end-to-end test was run. Browser RMS/quiet observations remain heuristics; they do not establish sample-accurate playback or that a human listened. Direct WebRTC audio is not gated before playback. Coverage and understanding quality still depend on the supervisor. A permanent supervisor failure will now visibly pause the lesson, not proceed without verification.
 
 Before declaring the reported production issue resolved, deploy backend and frontend together, start a fresh session at /live/2?eval=1, record through the first discovery question, answer it, pause/resume, and reconnect. Download the recording and trace. Check that directives are not repeated while audio plays, failures retry verification on the same passage, receipts advance once, the early answer is retained, and the new session ignores old connection events. Test on the user's phone as well as desktop.
+
+The automated review subsequently claimed the catch block did not check non-object errors and pause did not cancel the retry timer. Both checks are present in the implementation. Additional regressions throw a string and null from the supervisor, and pause during scheduled backoff, proving safe retry and timer cancellation without replay.

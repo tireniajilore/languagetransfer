@@ -367,6 +367,40 @@ describe('teaching concurrency and continuity', () => {
       sent.filter((c) => c.type === 'session.commentary.append'),
     ).toHaveLength(1);
   });
+  it('handles non-object supervisor failures without crashing or replaying speech', async () => {
+    vi.useFakeTimers();
+    let calls = 0;
+    const model: TeachingSupervisor = {
+      ...supervisor,
+      delivery: async () => {
+        if (++calls === 1) throw 'timeout';
+        if (calls === 2) throw null;
+        return { covered: true, drift: false, evidence: [], confidence: 1 };
+      },
+    };
+    const { runtime, sent } = await fixture(new CourseStore(), model);
+    await delivered(runtime);
+    await vi.advanceTimersByTimeAsync(4500);
+    expect(runtime.cursor.stepIndex).toBe(1);
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(2);
+  });
+  it('cancels the scheduled verification retry when the learner pauses', async () => {
+    vi.useFakeTimers();
+    const delivery = vi.fn(async () => {
+      throw new Error('unavailable');
+    });
+    const { runtime } = await fixture(new CourseStore(), {
+      ...supervisor,
+      delivery,
+    });
+    await delivered(runtime);
+    await answer(runtime, 'pause please');
+    await vi.advanceTimersByTimeAsync(4000);
+    expect(runtime.cursor.phase).toBe('paused');
+    expect(delivery).toHaveBeenCalledTimes(1);
+  });
   it('does not restart an explanation for a learner acknowledgment', async () => {
     vi.useFakeTimers();
     const { runtime, sent } = await fixture();
