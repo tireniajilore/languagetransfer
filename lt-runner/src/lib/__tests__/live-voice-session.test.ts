@@ -520,6 +520,35 @@ describe('unexpected Live session closure', () => {
     expect(ctx.fetchCalls.some((c) => c.url.endsWith('/close'))).toBe(true);
   });
 
+  it('ignores late transcript and closure events from the replaced data channel', async () => {
+    const ctx = setup({ maxRetries: 2 });
+    await startConnected(ctx);
+    const old = ctx.pcs[0].dataChannels[0];
+    old.emitMessage({ type: 'session.closed' });
+    await vi.waitFor(() => expect(ctx.pcs).toHaveLength(2));
+    ctx.pcs[1].simulateConnectionState('connected');
+    await vi.waitFor(() =>
+      expect(ctx.states.filter((s) => s === 'connected')).toHaveLength(2),
+    );
+    old.emitMessage({
+      type: 'session.output_transcript.delta',
+      event_id: 'stale',
+      delta: 'stale old lesson',
+      end_ms: 99999,
+    });
+    old.emitMessage({ type: 'session.closed' });
+    ctx.pcs[1].dataChannels[0].emitMessage({
+      type: 'session.output_transcript.delta',
+      event_id: 'fresh',
+      delta: 'new lesson',
+      start_ms: 0,
+      end_ms: 1000,
+    });
+    expect(ctx.transcripts.at(-1)?.map((e) => e.text)).toEqual(['new lesson']);
+    expect(ctx.pcs).toHaveLength(2);
+    expect(ctx.session.getState()).toBe('connected');
+    await ctx.session.stop();
+  });
   it('does not reopen after the learner intentionally ends the session', async () => {
     const ctx = setup();
     await startConnected(ctx);

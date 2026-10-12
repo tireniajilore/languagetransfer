@@ -367,15 +367,6 @@ describe('teaching concurrency and continuity', () => {
       sent.filter((c) => c.type === 'session.commentary.append'),
     ).toHaveLength(1);
   });
-  it('fails closed if an invalid retry deadline would postpone verification indefinitely', async () => {
-    const { runtime, sent } = await fixture();
-    runtime['nextDeliveryAssessmentAt'] = Date.now() + 60000;
-    await delivered(runtime);
-    expect(runtime.cursor.phase).toBe('paused');
-    expect(
-      sent.filter((c) => c.type === 'session.commentary.append'),
-    ).toHaveLength(1);
-  });
   it('does not restart an explanation for a learner acknowledgment', async () => {
     vi.useFakeTimers();
     const { runtime, sent } = await fixture();
@@ -384,6 +375,116 @@ describe('teaching concurrency and continuity', () => {
       sent.filter((c) => c.type === 'session.commentary.append'),
     ).toHaveLength(1);
     expect(runtime.cursor.stepIndex).toBe(0);
+  });
+  it('resumes delivery verification when the microphone becomes quiet after the audio receipt expires', async () => {
+    vi.useFakeTimers();
+    const { runtime } = await fixture();
+    await runtime.activity({ speaker: 'user', speaking: true, seq: ++seq });
+    await delivered(runtime);
+    await vi.advanceTimersByTimeAsync(4000);
+    expect(runtime.cursor.stepIndex).toBe(0);
+    await runtime.activity({ speaker: 'user', speaking: false, seq: ++seq });
+    expect(runtime.cursor.stepIndex).toBe(1);
+  });
+  it('honors pause during pending delivery verification and rejects its late completion', async () => {
+    vi.useFakeTimers();
+    let finish: () => void = () => {};
+    const model: TeachingSupervisor = {
+      ...supervisor,
+      delivery: () =>
+        new Promise((resolve) => {
+          finish = () =>
+            resolve({
+              covered: true,
+              drift: false,
+              evidence: [],
+              confidence: 1,
+            });
+        }),
+    };
+    const { runtime, sent } = await fixture(new CourseStore(), model);
+    const boundary = delivered(runtime);
+    await vi.advanceTimersByTimeAsync(10);
+    await answer(runtime, 'pause please');
+    expect(runtime.cursor.phase).toBe('paused');
+    finish();
+    await boundary;
+    expect(runtime.cursor.stepIndex).toBe(0);
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(1);
+  });
+  it('cannot replay a stale clarification over a newer pause request', async () => {
+    vi.useFakeTimers();
+    let finish: () => void = () => {};
+    const model: TeachingSupervisor = {
+      ...supervisor,
+      assess: async (spec, state, text) => {
+        const d = await supervisor.assess(spec, state, text);
+        return new Promise((resolve) => {
+          finish = () =>
+            resolve({
+              ...d,
+              learnerIntent: 'clarification',
+              proposedAction: 'repeat',
+              understanding: 'not_assessed',
+            });
+        });
+      },
+    };
+    const { runtime, sent } = await fixture(new CourseStore(), model);
+    await answer(runtime, 'What does that mean?');
+    await answer(runtime, 'pause please');
+    finish();
+    await vi.advanceTimersByTimeAsync(10);
+    expect(runtime.cursor.phase).toBe('paused');
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(1);
+  });
+  it('cancels a pending verification retry when the session closes', async () => {
+    vi.useFakeTimers();
+    const delivery = vi.fn(async () => {
+      throw new Error('temporary outage');
+    });
+    const { runtime } = await fixture(new CourseStore(), {
+      ...supervisor,
+      delivery,
+    });
+    await delivered(runtime);
+    await runtime.close();
+    await vi.advanceTimersByTimeAsync(4000);
+    expect(delivery).toHaveBeenCalledTimes(1);
+  });
+  it('keeps an early question answer until delivery verification finishes', async () => {
+    vi.useFakeTimers();
+    let finish: () => void = () => {};
+    const model: TeachingSupervisor = {
+      ...supervisor,
+      delivery: async (spec, state) => {
+        if (state.stepIndex !== 2)
+          return { covered: true, drift: false, evidence: [], confidence: 1 };
+        return new Promise((resolve) => {
+          finish = () =>
+            resolve({
+              covered: true,
+              drift: false,
+              evidence: [],
+              confidence: 1,
+            });
+        });
+      },
+    };
+    const { runtime } = await fixture(new CourseStore(), model);
+    await delivered(runtime);
+    await delivered(runtime);
+    const boundary = delivered(runtime);
+    await vi.advanceTimersByTimeAsync(10);
+    await answer(runtime, 'The emphasis changes to the last syllable');
+    finish();
+    await boundary;
+    await vi.advanceTimersByTimeAsync(1000);
+    expect(runtime.cursor.stepIndex).toBe(3);
   });
   it('retains an explicit pause across reconnect and waits for resume', async () => {
     vi.useFakeTimers();
@@ -405,6 +506,33 @@ describe('teaching concurrency and continuity', () => {
     await vi.advanceTimersByTimeAsync(1600);
     expect(next.runtime.cursor.phase).toBe('sent');
     expect(next.sent).toHaveLength(2);
+  });
+  it('matches the browser playback boundary when fragment start times tie', async () => {
+    const { runtime } = await fixture();
+    const text = runtime.spec.steps[0].text;
+    const cut = Math.floor(text.length / 2);
+    runtime.onFragment('assistant', {
+      event_id: 'end',
+      delta: text.slice(cut),
+      start_ms: 0,
+      end_ms: 200,
+    });
+    runtime.onFragment('assistant', {
+      event_id: 'start',
+      delta: text.slice(0, cut),
+      start_ms: 0,
+      end_ms: 100,
+    });
+    await runtime.activity({
+      speaker: 'assistant',
+      speaking: false,
+      playing: true,
+      outputEventId: 'end',
+      seq: ++seq,
+    });
+    expect(runtime.cursor.stepIndex).toBe(1);
+    expect(runtime.cursor.receipts[0].deliveryText).toBe(text);
+    expect(runtime.cursor.receipts[0].deliveryEventId).toBe('end');
   });
   it('orders fragments on the session timeline and ignores duplicate events', async () => {
     const { runtime } = await fixture();
