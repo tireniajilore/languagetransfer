@@ -344,6 +344,12 @@ export class LessonRuntime {
     const snapshot = this.cursor;
     if (speaker === 'assistant') {
       this.outputText = text;
+      if (this.nextDeliveryAssessmentAt - Date.now() > 2000) {
+        await this.serial(async () => {
+          await this.pause('Invalid delivery retry delay');
+        });
+        return;
+      }
       if (
         this.deliveryInFlight ||
         this.assistantSpeaking ||
@@ -360,7 +366,7 @@ export class LessonRuntime {
       let assessment;
       try {
         assessment = await this.supervisor.delivery(this.spec, snapshot, text);
-      } catch {
+      } catch (error) {
         if (
           this.stopped ||
           generation !== this.outputGeneration ||
@@ -370,8 +376,24 @@ export class LessonRuntime {
         this.deliveryFailures++;
         this.lastActionAt = Date.now();
         this.nextDeliveryAssessmentAt = Date.now() + 2000;
+        const details =
+          error && typeof error === 'object'
+            ? (error as { name?: unknown; status?: unknown; code?: unknown })
+            : {};
         this.log('delivery_supervisor_unavailable', {
           attempt: this.deliveryFailures,
+          errorType:
+            typeof details.name === 'string' &&
+            /^[A-Za-z]+Error$/.test(details.name)
+              ? details.name
+              : 'Error',
+          httpStatus:
+            typeof details.status === 'number' ? details.status : null,
+          errorCode:
+            typeof details.code === 'string' &&
+            /^[a-z_]{1,64}$/.test(details.code)
+              ? details.code
+              : null,
         });
         if (this.deliveryFailures >= 3) {
           await this.serial(async () => {

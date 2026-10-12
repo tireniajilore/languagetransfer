@@ -367,6 +367,15 @@ describe('teaching concurrency and continuity', () => {
       sent.filter((c) => c.type === 'session.commentary.append'),
     ).toHaveLength(1);
   });
+  it('fails closed if an invalid retry deadline would postpone verification indefinitely', async () => {
+    const { runtime, sent } = await fixture();
+    runtime['nextDeliveryAssessmentAt'] = Date.now() + 60000;
+    await delivered(runtime);
+    expect(runtime.cursor.phase).toBe('paused');
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(1);
+  });
   it('does not restart an explanation for a learner acknowledgment', async () => {
     vi.useFakeTimers();
     const { runtime, sent } = await fixture();
