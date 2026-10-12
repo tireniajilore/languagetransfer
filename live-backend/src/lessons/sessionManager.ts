@@ -53,6 +53,9 @@ export class LessonRuntime {
   private userGeneration = 0;
   private playbackBoundary: string | null = null;
   private microphoneActive = false;
+  private assistantSpeaking = false;
+  private deliveryFailures = 0;
+  private nextDeliveryAssessmentAt = 0;
   private lastActivitySeq = { user: -1, assistant: -1 };
   private deliveryInFlight = false;
   private lastActionAt = 0;
@@ -172,6 +175,8 @@ export class LessonRuntime {
       clearTimeout(this.buffers.assistant.timer);
     delete this.buffers.assistant;
     this.outputText = '';
+    this.deliveryFailures = 0;
+    this.nextDeliveryAssessmentAt = 0;
     this.playbackBoundary = null;
     this.outputGeneration++;
     const id = `teach_${randomUUID()}`;
@@ -286,9 +291,10 @@ export class LessonRuntime {
     this.lastActivitySeq[activity.speaker] = activity.seq;
     this.lastClientAt = Date.now();
     if (activity.speaker === 'user') {
+      const startedSpeaking = activity.speaking && !this.microphoneActive;
       this.microphoneActive = activity.speaking;
       if (
-        activity.speaking &&
+        startedSpeaking &&
         !this.playbackBoundary &&
         ['delivering', 'sent', 'acknowledged'].includes(this.state.phase)
       ) {
@@ -298,7 +304,11 @@ export class LessonRuntime {
       }
       return;
     }
+    const resumedAudio = activity.speaking && !this.assistantSpeaking;
+    this.assistantSpeaking = activity.speaking;
     if (activity.speaking) {
+      this.lastActionAt = Date.now();
+      if (resumedAudio) this.outputGeneration++;
       this.playbackBoundary = null;
       return;
     }
@@ -336,6 +346,8 @@ export class LessonRuntime {
       this.outputText = text;
       if (
         this.deliveryInFlight ||
+        this.assistantSpeaking ||
+        Date.now() < this.nextDeliveryAssessmentAt ||
         this.playbackBoundary !== eventId ||
         snapshot.directive?.outputEventId !== eventId ||
         snapshot.phase !== 'delivering' ||
@@ -349,7 +361,31 @@ export class LessonRuntime {
       try {
         assessment = await this.supervisor.delivery(this.spec, snapshot, text);
       } catch {
-        this.log('delivery_supervisor_unavailable');
+        if (
+          this.stopped ||
+          generation !== this.outputGeneration ||
+          snapshot.stateVersion !== this.state.stateVersion
+        )
+          return;
+        this.deliveryFailures++;
+        this.lastActionAt = Date.now();
+        this.nextDeliveryAssessmentAt = Date.now() + 2000;
+        this.log('delivery_supervisor_unavailable', {
+          attempt: this.deliveryFailures,
+        });
+        if (this.deliveryFailures >= 3) {
+          await this.serial(async () => {
+            if (snapshot.stateVersion === this.state.stateVersion)
+              await this.pause(
+                'Delivery verification is temporarily unavailable',
+              );
+          });
+        } else {
+          buffer.timer = setTimeout(() => {
+            void this.flush('assistant').catch((e) => this.fail(e));
+          }, 2000);
+          buffer.timer.unref();
+        }
         return;
       } finally {
         this.deliveryInFlight = false;
@@ -440,7 +476,14 @@ export class LessonRuntime {
           text: text.slice(0, 1000),
           intent: intervention?.learnerIntent,
         });
-        await this.issueStep(intervention?.learnerIntent === 'clarification');
+        if (
+          !intervention ||
+          ['acknowledgment', 'thinking', 'off_topic'].includes(
+            intervention.learnerIntent,
+          )
+        )
+          return;
+        await this.issueStep(intervention.learnerIntent === 'clarification');
       });
       return;
     }
@@ -557,6 +600,12 @@ export class LessonRuntime {
       if (
         ['sent', 'acknowledged', 'delivering'].includes(this.state.phase) &&
         !this.microphoneActive &&
+        !this.assistantSpeaking &&
+        !this.deliveryInFlight &&
+        !(
+          this.playbackBoundary === this.state.directive?.outputEventId &&
+          this.outputText
+        ) &&
         Date.now() - this.lastActionAt > 12000
       ) {
         this.retries++;

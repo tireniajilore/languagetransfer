@@ -272,6 +272,110 @@ describe('teaching concurrency and continuity', () => {
       sent.filter((c) => c.type === 'session.commentary.append'),
     ).toHaveLength(3);
   });
+  it('waits for a long played explanation before advancing through to the question', async () => {
+    vi.useFakeTimers();
+    const { runtime, sent } = await fixture();
+    const id = 'long-explanation';
+    runtime.onFragment('assistant', {
+      event_id: id,
+      delta: runtime.spec.steps[0].text,
+    });
+    for (let i = 0; i < 20; i++) {
+      await runtime.activity({
+        speaker: 'assistant',
+        speaking: true,
+        playing: true,
+        seq: ++seq,
+      });
+      await vi.advanceTimersByTimeAsync(1000);
+    }
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(1);
+    expect(runtime.cursor.stepIndex).toBe(0);
+    await runtime.activity({
+      speaker: 'assistant',
+      speaking: false,
+      playing: true,
+      outputEventId: id,
+      seq: ++seq,
+    });
+    expect(runtime.cursor.stepIndex).toBe(1);
+    await delivered(runtime);
+    await delivered(runtime);
+    expect(runtime.cursor.phase).toBe('awaiting_answer');
+    expect(runtime.cursor.stepIndex).toBe(2);
+  });
+  it('never resends speech while a delivery assessment is still pending', async () => {
+    vi.useFakeTimers();
+    let finish: () => void = () => {};
+    const model: TeachingSupervisor = {
+      ...supervisor,
+      delivery: () =>
+        new Promise((resolve) => {
+          finish = () =>
+            resolve({
+              covered: true,
+              drift: false,
+              evidence: [],
+              confidence: 1,
+            });
+        }),
+    };
+    const { runtime, sent } = await fixture(new CourseStore(), model);
+    const boundary = delivered(runtime);
+    await vi.advanceTimersByTimeAsync(20000);
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(1);
+    finish();
+    await boundary;
+    expect(runtime.cursor.stepIndex).toBe(1);
+  });
+  it('retries failed verification on the same recorded passage without replaying audio', async () => {
+    vi.useFakeTimers();
+    let calls = 0;
+    const model: TeachingSupervisor = {
+      ...supervisor,
+      delivery: async () => {
+        if (++calls < 3) throw new Error('temporary supervisor outage');
+        return { covered: true, drift: false, evidence: [], confidence: 1 };
+      },
+    };
+    const { runtime, sent } = await fixture(new CourseStore(), model);
+    await delivered(runtime);
+    await vi.advanceTimersByTimeAsync(4500);
+    expect(calls).toBe(3);
+    expect(runtime.cursor.stepIndex).toBe(1);
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(2);
+  });
+  it('pauses after bounded verification failures rather than repeating the intro', async () => {
+    vi.useFakeTimers();
+    const model: TeachingSupervisor = {
+      ...supervisor,
+      delivery: async () => {
+        throw new Error('unavailable');
+      },
+    };
+    const { runtime, sent } = await fixture(new CourseStore(), model);
+    await delivered(runtime);
+    await vi.advanceTimersByTimeAsync(4500);
+    expect(runtime.cursor.phase).toBe('paused');
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(1);
+  });
+  it('does not restart an explanation for a learner acknowledgment', async () => {
+    vi.useFakeTimers();
+    const { runtime, sent } = await fixture();
+    await answer(runtime, 'okay');
+    expect(
+      sent.filter((c) => c.type === 'session.commentary.append'),
+    ).toHaveLength(1);
+    expect(runtime.cursor.stepIndex).toBe(0);
+  });
   it('retains an explicit pause across reconnect and waits for resume', async () => {
     vi.useFakeTimers();
     const { runtime, manager, store } = await fixture();
