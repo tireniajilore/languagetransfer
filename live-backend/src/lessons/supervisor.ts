@@ -89,7 +89,7 @@ export class ModelTeachingSupervisor implements TeachingSupervisor {
     apiKey: string,
     private readonly model: string,
   ) {
-    this.client = new OpenAI({ apiKey, maxRetries: 0, timeout: 4000 });
+    this.client = new OpenAI({ apiKey, maxRetries: 0, timeout: 15000 });
   }
   async assess(
     spec: TeachingSpecification,

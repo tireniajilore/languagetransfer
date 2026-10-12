@@ -12,7 +12,7 @@ import {
   recoverCheckpoint,
   type TeachingCheckpoint,
 } from './supervisedConductor';
-import type { TeachingSupervisor } from './supervisor';
+import { deterministicDecision, type TeachingSupervisor } from './supervisor';
 import { recordCounter, recordLatency } from '../metrics';
 
 export interface TranscriptFragment {
@@ -53,6 +53,9 @@ export class LessonRuntime {
   private userGeneration = 0;
   private playbackBoundary: string | null = null;
   private microphoneActive = false;
+  private assistantSpeaking = false;
+  private deliveryFailures = 0;
+  private deliveryRetryTimer: ReturnType<typeof setTimeout> | null = null;
   private lastActivitySeq = { user: -1, assistant: -1 };
   private deliveryInFlight = false;
   private lastActionAt = 0;
@@ -172,6 +175,9 @@ export class LessonRuntime {
       clearTimeout(this.buffers.assistant.timer);
     delete this.buffers.assistant;
     this.outputText = '';
+    this.deliveryFailures = 0;
+    if (this.deliveryRetryTimer) clearTimeout(this.deliveryRetryTimer);
+    this.deliveryRetryTimer = null;
     this.playbackBoundary = null;
     this.outputGeneration++;
     const id = `teach_${randomUUID()}`;
@@ -286,9 +292,10 @@ export class LessonRuntime {
     this.lastActivitySeq[activity.speaker] = activity.seq;
     this.lastClientAt = Date.now();
     if (activity.speaker === 'user') {
+      const startedSpeaking = activity.speaking && !this.microphoneActive;
       this.microphoneActive = activity.speaking;
       if (
-        activity.speaking &&
+        startedSpeaking &&
         !this.playbackBoundary &&
         ['delivering', 'sent', 'acknowledged'].includes(this.state.phase)
       ) {
@@ -296,9 +303,17 @@ export class LessonRuntime {
         this.playbackBoundary = null;
         this.log('delivery_interrupted');
       }
+      if (!activity.speaking && this.playbackBoundary) {
+        await this.chain;
+        await this.flush('assistant');
+      }
       return;
     }
+    const resumedAudio = activity.speaking && !this.assistantSpeaking;
+    this.assistantSpeaking = activity.speaking;
     if (activity.speaking) {
+      this.lastActionAt = Date.now();
+      if (resumedAudio) this.outputGeneration++;
       this.playbackBoundary = null;
       return;
     }
@@ -311,12 +326,28 @@ export class LessonRuntime {
   private assembled(buffer: Buffer): { text: string; eventId: string } {
     const ordered = buffer.fragments
       .map((f, i) => ({ f, i }))
-      .sort((a, b) => (a.f.start_ms ?? a.i) - (b.f.start_ms ?? b.i));
+      .sort(
+        (a, b) =>
+          (a.f.start_ms ?? a.i) - (b.f.start_ms ?? b.i) ||
+          (a.f.end_ms ?? a.i) - (b.f.end_ms ?? b.i),
+      );
+    // Match the browser's latest output boundary: maximum end time, with the
+    // latest arrival breaking ties. Text remains ordered by start time.
+    let boundary = buffer.fragments[0];
+    let end = -1;
+    for (const fragment of buffer.fragments) {
+      const candidate = fragment.end_ms ?? end + 1;
+      if (candidate >= end) {
+        boundary = fragment;
+        end = candidate;
+      }
+    }
     return {
       text: ordered.map((x) => x.f.delta ?? '').join(''),
-      eventId: ordered[ordered.length - 1].f.event_id!,
+      eventId: boundary.event_id!,
     };
   }
+
   private async flush(speaker: 'user' | 'assistant'): Promise<void> {
     const buffer = this.buffers[speaker];
     if (!buffer?.fragments.length) return;
@@ -336,6 +367,8 @@ export class LessonRuntime {
       this.outputText = text;
       if (
         this.deliveryInFlight ||
+        this.assistantSpeaking ||
+        this.deliveryRetryTimer !== null ||
         this.playbackBoundary !== eventId ||
         snapshot.directive?.outputEventId !== eventId ||
         snapshot.phase !== 'delivering' ||
@@ -348,8 +381,48 @@ export class LessonRuntime {
       let assessment;
       try {
         assessment = await this.supervisor.delivery(this.spec, snapshot, text);
-      } catch {
-        this.log('delivery_supervisor_unavailable');
+      } catch (error) {
+        if (
+          this.stopped ||
+          generation !== this.outputGeneration ||
+          snapshot.stateVersion !== this.state.stateVersion
+        )
+          return;
+        this.deliveryFailures++;
+        this.lastActionAt = Date.now();
+        const details =
+          error && typeof error === 'object'
+            ? (error as { name?: unknown; status?: unknown; code?: unknown })
+            : {};
+        this.log('delivery_supervisor_unavailable', {
+          attempt: this.deliveryFailures,
+          errorType:
+            typeof details.name === 'string' &&
+            /^[A-Za-z]+Error$/.test(details.name)
+              ? details.name
+              : 'Error',
+          httpStatus:
+            typeof details.status === 'number' ? details.status : null,
+          errorCode:
+            typeof details.code === 'string' &&
+            /^[a-z_]{1,64}$/.test(details.code)
+              ? details.code
+              : null,
+        });
+        if (this.deliveryFailures >= 3) {
+          await this.serial(async () => {
+            if (snapshot.stateVersion === this.state.stateVersion)
+              await this.pause(
+                'Delivery verification is temporarily unavailable',
+              );
+          });
+        } else {
+          this.deliveryRetryTimer = setTimeout(() => {
+            this.deliveryRetryTimer = null;
+            void this.flush('assistant').catch((e) => this.fail(e));
+          }, 2000);
+          this.deliveryRetryTimer.unref();
+        }
         return;
       } finally {
         this.deliveryInFlight = false;
@@ -392,6 +465,22 @@ export class LessonRuntime {
       });
       return;
     }
+    if (snapshot.phase === 'completed') {
+      delete this.buffers.user;
+      return;
+    }
+    const userGeneration = this.userGeneration;
+    if (
+      deterministicDecision(this.spec, snapshot, text)?.learnerIntent ===
+      'pause_request'
+    ) {
+      delete this.buffers.user;
+      await this.serial(async () => {
+        if (!this.stopped && userGeneration === this.userGeneration)
+          await this.pause('Learner requested pause');
+      });
+      return;
+    }
     if (
       snapshot.phase !== 'awaiting_answer' &&
       snapshot.phase !== 'paused' &&
@@ -430,7 +519,13 @@ export class LessonRuntime {
         intervention = null;
       }
       await this.serial(async () => {
-        if (snapshot.stateVersion !== this.state.stateVersion) return;
+        if (
+          this.stopped ||
+          userGeneration !== this.userGeneration ||
+          this.buffers.user ||
+          snapshot.stateVersion !== this.state.stateVersion
+        )
+          return;
         if (intervention?.learnerIntent === 'pause_request') {
           await this.pause('Learner requested pause');
           return;
@@ -440,13 +535,19 @@ export class LessonRuntime {
           text: text.slice(0, 1000),
           intent: intervention?.learnerIntent,
         });
-        await this.issueStep(intervention?.learnerIntent === 'clarification');
+        if (
+          !intervention ||
+          ['acknowledgment', 'thinking', 'off_topic'].includes(
+            intervention.learnerIntent,
+          )
+        )
+          return;
+        await this.issueStep(intervention.learnerIntent === 'clarification');
       });
       return;
     }
 
     const started = Date.now();
-    const userGeneration = this.userGeneration;
     let decision;
     try {
       decision = await this.supervisor.assess(this.spec, snapshot, text);
@@ -454,7 +555,12 @@ export class LessonRuntime {
       this.log('supervisor_unavailable');
       // No guess or advancement on timeouts; the learner can repeat to retry.
       await this.serial(async () => {
-        if (snapshot.stateVersion === this.state.stateVersion)
+        if (
+          !this.stopped &&
+          userGeneration === this.userGeneration &&
+          !this.buffers.user &&
+          snapshot.stateVersion === this.state.stateVersion
+        )
           this.append(
             'session.commentary.append',
             'Could you repeat that? I could not verify the answer yet.',
@@ -527,6 +633,9 @@ export class LessonRuntime {
     });
   }
   private async pause(reason: string): Promise<void> {
+    if (this.stopped || this.state.phase === 'completed') return;
+    if (this.deliveryRetryTimer) clearTimeout(this.deliveryRetryTimer);
+    this.deliveryRetryTimer = null;
     await this.commit({
       ...this.state,
       phase: 'paused',
@@ -557,6 +666,12 @@ export class LessonRuntime {
       if (
         ['sent', 'acknowledged', 'delivering'].includes(this.state.phase) &&
         !this.microphoneActive &&
+        !this.assistantSpeaking &&
+        !this.deliveryInFlight &&
+        !(
+          this.playbackBoundary === this.state.directive?.outputEventId &&
+          this.outputText
+        ) &&
         Date.now() - this.lastActionAt > 12000
       ) {
         this.retries++;
@@ -585,6 +700,8 @@ export class LessonRuntime {
     this.stopped = true;
     this.outputGeneration++;
     this.clearBuffers();
+    if (this.deliveryRetryTimer) clearTimeout(this.deliveryRetryTimer);
+    this.deliveryRetryTimer = null;
     if (this.watchdog) clearInterval(this.watchdog);
     this.watchdog = null;
     await this.chain;

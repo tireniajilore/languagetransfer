@@ -281,9 +281,12 @@ export class LiveVoiceSession {
       // negotiated in the SDP. Label is fixed by the Live API: 'oai-events'.
       const dc = pc.createDataChannel(DATA_CHANNEL_LABEL);
       this.dataChannel = dc;
-      dc.onmessage = (ev) => this.handleDataChannelMessage(ev.data);
+      dc.onmessage = (ev) => {
+        if (dc === this.dataChannel) this.handleDataChannelMessage(ev.data);
+      };
       pc.ontrack = (ev) => {
-        if (ev.streams[0]) this.opts.onRemoteStream?.(ev.streams[0]);
+        if (pc === this.pc && ev.streams[0])
+          this.opts.onRemoteStream?.(ev.streams[0]);
       };
       pc.onconnectionstatechange = () => this.handleConnectionStateChange(pc);
       pc.oniceconnectionstatechange = () => {
@@ -490,7 +493,9 @@ export class LiveVoiceSession {
     if (this.unexpectedClosures > this.opts.maxRetries) {
       this.setState('failed');
       this.opts.onError?.(
-        new Error('The tutor connection ended unexpectedly. Tap Resume lesson to continue from your saved step.'),
+        new Error(
+          'The tutor connection ended unexpectedly. Tap Resume lesson to continue from your saved step.',
+        ),
       );
       this.teardownPeerConnection();
       await this.closeOrphanedSession();
