@@ -97,6 +97,33 @@ describe('supervised lesson runtime', () => {
     await runtime.start();
     expect(sent).toHaveLength(2);
   });
+  it('sends pronunciation references privately without changing the passage or verifying its audio', async () => {
+    const { runtime, sent } = await fixture();
+    expect(
+      sent.some((c) => String(c.event_id).startsWith('pronunciation_')),
+    ).toBe(false);
+    await delivered(runtime);
+    const cues = sent.filter((c) =>
+      String(c.event_id).startsWith('pronunciation_'),
+    );
+    expect(cues).toHaveLength(2);
+    expect(
+      cues.every(
+        (c) =>
+          c.type === 'session.instructions.append' &&
+          Buffer.byteLength(String(c.content), 'utf8') <= 500,
+      ),
+    ).toBe(true);
+    const spoken = sent.filter((c) => c.type === 'session.commentary.append');
+    expect(spoken.at(-1)?.content).toBe(runtime.spec.steps[1].text);
+    expect(
+      spoken.every(
+        (c) => !String(c.content).includes('Private pronunciation reference'),
+      ),
+    ).toBe(true);
+    expect(runtime.cursor.stepIndex).toBe(1);
+    expect(runtime.cursor.receipts).toHaveLength(1);
+  });
   it('authorization and acknowledgment never count as delivered; playback alone is insufficient', async () => {
     const { runtime } = await fixture();
     runtime.onEvent({

@@ -1,6 +1,7 @@
 /** One session, one immutable specification; state writes are awaited and version checked. */
 import { randomUUID } from 'node:crypto';
 import { CourseStore } from './courseStore';
+import { pronunciationInstructions } from './pronunciation';
 import { getTeachingSpec, type TeachingSpecification } from './teachingSpec';
 import {
   acknowledge,
@@ -182,6 +183,14 @@ export class LessonRuntime {
     this.outputGeneration++;
     const id = `teach_${randomUUID()}`;
     await this.commit(authorizeStep(this.spec, this.state, id));
+    for (const [index, content] of pronunciationInstructions(
+      step.text,
+    ).entries())
+      this.append(
+        'session.instructions.append',
+        content,
+        `pronunciation_${id}_${index}`,
+      );
     this.append(
       'session.instructions.append',
       `Authorized ${step.id}. Speak the English script in English with natural English pronunciation; never translate it. Spanish pronunciation only for identified Spanish examples. ${clarification ? 'Clarify this passage, then resume it.' : 'Begin now.'} Preserve ideas and examples in order. ${step.kind === 'question' ? 'Ask this question, then wait; never reveal its answer.' : 'Wait for application continuation afterward.'}`,
